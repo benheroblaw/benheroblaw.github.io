@@ -2,7 +2,7 @@ body {background-color: black;}
 * {font-family: Arial, Helvetica, sans-serif; color: #fff;}
 a:link {color: #00f;}
 a:active {color: #f00;}
-a:visited {color: #aa00ff;}
+a:visited {color: #a0f;}
 
 .hidden {color: black; cursor: default;}
 .center {text-align: center;}
