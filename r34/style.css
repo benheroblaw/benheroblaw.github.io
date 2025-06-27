@@ -16,7 +16,11 @@ button {cursor: pointer;}
 /* classes */
 .center {display: block; margin-left: auto; margin-right: auto; width: 50%;}
 .pages button {background-color: black; border: 1px solid white; color: white; padding: 5px 12px; cursor: pointer;}
+/* <<<<<<< HEAD */
 .pages button:hover {background-color: black; border: 1px solid red; color: white; padding: 5px 12px; cursor: pointer;}
+/* ======= */
+.pages button:hover {background-color: black; border: 1px solid red; color: #0ff; padding: 5px 12px; cursor: pointer;}
+/* >>>>>>> b121382 (the sex update) */
 .blue:link, .blue:visited {color: aqua; font-family: lucida console; font-size: 100%;}
 .blue:hover {color: aqua; background-color: #007dff; font-family: lucida console; font-size: 100%;}
 .red:link, .red:visited {color: red; font-family: lucida console; font-size: 100%;}
