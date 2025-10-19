@@ -4,11 +4,11 @@ Default
         <link rel="stylesheet" href="style.css">
         <link rel="icon" href="favicon-2.png">
     </head>
-    <title></title>
+    <title>MAKE A DAMN TITLE</title>
     <html>
         <body class="centerList">
-            <video controls  src=""></video>
-            <a href=""><img width="10%" height="10%" src=""></a>
+            <!-- <video controls width="25%" height="25%" src=""></video>
+            <a href=""><img width="10%" height="10%" src=""></a> -->
         </body>
     </html>
 Aspect Ratios
@@ -21,8 +21,8 @@ Aspect Ratios
     301:270
     width="269" height="241"
 Comics
-     <html> 
-    <head> 
+     <html>
+    <head>
     <link rel="stylesheet" href="../../style.css">
     <link rel="icon" href="../../favicon-2.png">
     </head>
@@ -59,7 +59,7 @@ Comics
          document.getElementById('26').style.backgroundColor = 'black';
          document.getElementById('27').style.backgroundColor = 'black';
          ">Page 1</button>
-    <button id="2" onclick="document.getElementById('image').src='page_2.jpg'; 
+    <button id="2" onclick="document.getElementById('image').src='page_2.jpg';
          document.getElementById('1').style.backgroundColor='black';
          document.getElementById('2').style.backgroundColor = 'blue';
          document.getElementById('3').style.backgroundColor = 'black';
@@ -792,8 +792,8 @@ Comics
         </body>
     </html>
 Viewers
-    <html> 
-    <head> 
+    <html>
+    <head>
     <link rel="stylesheet" href="../../style.css">
     <link rel="icon" href="../../favicon-2.png">
     </head>

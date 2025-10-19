@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "d:\\folder\\prawn\\r34\\index.html"
+            "file": "./r34.html"
         }
     ]
 }

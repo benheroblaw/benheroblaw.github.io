@@ -21,8 +21,6 @@ h1 {color:white; font-family: 'Times New Roman', Times, serif;}
 h2 {color: white; font-size: medium;}
 p {color: white;}
 a {font-family: Arial; font-size: 100%;}
-span {font-family: Arial; color: white;}
-span:hover {font-family: arial; color: white; font-style: italic; font-size: 125%;}
 video {border-color: blue; border-bottom-color: blue; border-right-color: blue; border-style: solid;}
 video:hover {border: #000, solid;}
 img {border: 2px; border-color: white; border-style: solid;}
@@ -41,7 +39,6 @@ button {cursor: pointer;}
 .red:link, .red:visited {color: red; font-family: lucida console; font-size: 100%;}
 .red:hover {color: red; background-color: #7d0000; font-family: lucida console; font-size: 100%;}
 .hidden {color:black; cursor:default}
-.hidden:hover {color:black; cursor:default; font-size: 100%;}
 .audio {border: red, solid}
 .audio:hover {border: #5f0, solid;}
 
