@@ -1,0 +1,22 @@
+@page {size: A4; margin: 20mm;}
+
+body {background-color: black; width: 220mm; margin: auto;}
+* {font-family: Arial, sans-serif}
+* {color: black;}
+a:link {color: blue;}
+a:visited {color: #90f;}
+a:active {color: red;}
+strong {color: red; background-color:#f9f9f9; padding:10mm;}
+h1 {font-family: 'Times New Roman', Times, serif; font-size: 350%; text-align: center; color: #fff; padding:10mm; border: #fff, solid;}
+h2 {font-size: medium; text-align: center; background-color:#f9f9f9; padding:10mm;}
+p {text-indent: 0.5in; font-size: 80%; word-spacing: 1px; letter-spacing: 0.5px; background-color:#f9f9f9; padding:10mm;}
+pre {word-spacing: 1px; letter-spacing: 0.5px; background-color:#f9f9f9; padding:10mm; text-wrap: inherit;}
+span {text-indent: 0.5in; background-color:#f9f9f9; padding:10mm;}
+br {margin-left: 0.5in;}
+i {color: inherit; font-family: inherit; background-color:#f9f9f9;}
+/* classes */
+.new-para {margin-left: 0.5in;}
+.warning {color: red; font-size: 125%;}
+.info {color: #00ff00; background-color: #f00; font-family: lucida console; text-align: center; display: block; margin: 10px; font-size: 250%; cursor: default;}
+.link {font-size: inherit; font-family: inherit; color: blue;}
+.link:hover {color: #90f; font-style: italic; cursor: pointer;}
