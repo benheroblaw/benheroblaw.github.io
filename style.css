@@ -1,9 +1,9 @@
 body {background-color: black;}
-* {font-family: Arial, Helvetica, sans-serif;}
-p, h1 {color: #fff;}
-/* a:link {color: #00f;}
+* {font-family: Arial, Helvetica, sans-serif; color: #fff;}
+/* p, h1, pre {} */
+a:link {color: #00f;}
 a:active {color: #f00;}
-a:visited {color: #a0f;} */
+a:visited {color: blueviolet;}
 
 .hidden {color: black; cursor: default;}
 .center {text-align: center;}

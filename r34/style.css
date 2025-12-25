@@ -32,7 +32,7 @@ video {border-color: blue; border-bottom-color: blue; border-right-color: blue; 
 button {cursor: pointer;}
 
 /* classes */
-.center {display: block; margin-left: auto; margin-right: auto; width: 50%;}
+.center {display: block; margin: auto; height: 90%;}
 .pages button {background-color: black; border: 1px solid white; color: white; padding: 5px 12px; cursor: pointer;}
 .pages button:hover {background-color: black; border: 1px solid red; color: white; padding: 5px 12px; cursor: pointer;}
 .pages button:hover {background-color: black; border: 1px solid red; color: #0ff; padding: 5px 12px; cursor: pointer;}
@@ -44,6 +44,22 @@ button {cursor: pointer;}
 .hidden:hover {color:black; cursor:default; font-size: 100%;}
 .audio {border: red, solid}
 .audio:hover {border: #5f0, solid;}
+.sidebar {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: -163px;
+    transition: 0.3s;
+    background: linear-gradient(90deg, #111, #000); /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    padding-left: 5px;
+    text-align: left;}
+.sidebar:hover{
+    left: 0px;
+}
 
 /* non-functional */
 .sixteen-nine video {width: 286; height: 161;}
