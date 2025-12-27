@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <head>
     <meta id="reloading" http-equiv="refresh" content="5">
-    <title>
-        70.5.2
+    <title id="versionTitle">
+        version
     </title>
     <!-- <link rel="icon" href="debug.png"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <script>
+    window.onload = function () {
+        var versionNumber = '70.5.3'
+        document.getElementById("version").textContent = versionNumber
+        document.getElementById("versionTitle").textContent = versionNumber
+    }
     window.onblur = function () {
         document.getElementById('online').textContent = 'tabbed out'
     }
@@ -28,7 +34,7 @@
 <html>
     <body>
         <h1 style="color: blue; font-family: 'Times New Roman', Times, serif;">debugging fucking sucks!!!</h1>
-        <p style="color: #00ff00; font-family: 'Comic Sans MS'; font-size: 150%;">70.5.2</p>
+        <p id="version" style="color: #00ff00; font-family: 'Comic Sans MS'; font-size: 150%;">version</p>
         <p>
             <div id="online" style="color: white; text-decoration: none;">tabbed out</div><br>
             <br>
