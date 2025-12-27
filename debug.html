@@ -2,19 +2,18 @@
 <head>
     <meta id="reloading" http-equiv="refresh" content="5">
     <title>
-        70.5.1
+        70.5.2
     </title>
     <!-- <link rel="icon" href="debug.png"> -->
 </head>
 <script>
     window.onblur = function () {
-        reloading.content="-1"
+        document.getElementById('online').textContent = 'tabbed out'
     }
     window.onfocus = function () {
-        reloading.content="1"
         location.reload()
-        setTimeout(window.blur(), 1000)
         var x = 'Online: ' + navigator.onLine; document.getElementById('online').textContent = x
+        setTimeout(window.blur, 1000)
     }
 </script>
 <style>
@@ -29,9 +28,9 @@
 <html>
     <body>
         <h1 style="color: blue; font-family: 'Times New Roman', Times, serif;">debugging fucking sucks!!!</h1>
-        <p style="color: #00ff00; font-family: 'Comic Sans'; font-size: 150%;">70.5.1</p>
+        <p style="color: #00ff00; font-family: 'Comic Sans MS'; font-size: 150%;">70.5.2</p>
         <p>
-            <span id="online" style="color: white; text-decoration: none;">wtf</span><br><br>
+            <div id="online" style="color: white; text-decoration: none;">tabbed out</div><br>
             <br>If you're on this page, congrats! You found my debugging area.
             <br>
             <br>
