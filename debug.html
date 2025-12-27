@@ -14,6 +14,7 @@
         reloading.content="1"
         location.reload()
         setTimeout(window.blur(), 1000)
+        var x = 'Online: ' + navigator.onLine; document.getElementById('online').textContent = x
     }
 </script>
 <style>
@@ -26,7 +27,7 @@
     span {color: #90f; text-decoration: underline;} */
 </style>
 <html>
-    <body window.onfocus="var x = 'Online: ' + navigator.onLine; document.getElementById('online').textContent = x">
+    <body>
         <h1 style="color: blue; font-family: 'Times New Roman', Times, serif;">debugging fucking sucks!!!</h1>
         <p style="color: #00ff00; font-family: 'Comic Sans'; font-size: 150%;">70.5.1</p>
         <p>
