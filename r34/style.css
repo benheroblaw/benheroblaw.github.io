@@ -1,6 +1,6 @@
 body {
     background-color: #000;
-    background: linear-gradient(-45deg, #000, rgb(10,0,0), #000, rgb(0, 10, 30), #000, rgb(10, 0, 0), #000, rgb(0, 15, 10), #000, rgb(10,0,0), #000);
+    background: linear-gradient(180deg, #000, rgb(10,0,0), #000, rgb(0, 10, 30), #000, rgb(0, 15, 10), #000);
     background-size: 500% 500%;
     animation: gradient 240s linear infinite;
     height: 100vh;
@@ -45,20 +45,22 @@ button {cursor: pointer;}
 .audio {border: red, solid}
 .audio:hover {border: #5f0, solid;}
 .sidebar {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 160px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
+    height: 99.8%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
     left: -163px;
-    transition: 0.3s;
-    background: linear-gradient(90deg, #111, #000); /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 0px;
+    transition: 0.2s;
+    background: linear-gradient(90deg, #111, #000);
+    overflow-x: hidden;
+    border-color: #eee;
+    border-width: 1.5px;
+    border-style: solid;
     padding-left: 5px;
     text-align: left;}
 .sidebar:hover{
-    left: 0px;
+    left: -1px;
 }
 
 /* non-functional */

@@ -13,7 +13,7 @@
     window.onfocus = function () {
         location.reload()
         var x = 'Online: ' + navigator.onLine; document.getElementById('online').textContent = x
-        setTimeout(window.blur, 1000)
+        setTimeout(window.onfocus, 1000)
     }
 </script>
 <style>
@@ -31,15 +31,15 @@
         <p style="color: #00ff00; font-family: 'Comic Sans MS'; font-size: 150%;">70.5.2</p>
         <p>
             <div id="online" style="color: white; text-decoration: none;">tabbed out</div><br>
-            <br>If you're on this page, congrats! You found my debugging area.
             <br>
             <br>
-            <br>This is where I store my docs of the page (the green number up there /\ /\ /\)
             <br>
-            <br>I also use the page to check if Github has updated the code.
-            <br>That's why it reloads every second.
             <br>
-            <br>The number at the top lists the version in the docs.
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
             <br>
             <br>
             <br>
