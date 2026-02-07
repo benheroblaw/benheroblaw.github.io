@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<head>
+<head id="head">
     <link rel="stylesheet" href="./goama.css">
-    <link rel="icon" href="./icons/vio.png">
+    <link rel="icon" href="./icons/unknown.png">
     <link href='https://fonts.googleapis.com/css?family=Allan|Alegreya Sans SC|Almendra Display' rel='stylesheet'>
     <script src="./script.js"></script>
     <script src="./text.js"></script>
@@ -21,12 +21,14 @@
     .cin, .Cin {color: #9c6a29; text-shadow: 0px 0px 15px #5c3a0d; font-family: 'Alegreya Sans SC', sans-serif;}
     .mint, .Mint {color: #12d400; text-shadow: 0px 0px 15px #0c9600; font-family: 'Almendra Display', sans-serif;}
 
-    .vio_color, .Vio_color {color: #8a2be2;}
-    .cin_color, .Cin_color {color: #9c6a29;}
-    .mint_color, .Mint_color {color: #12d400;}
+    .vio_color, .Vio_color {color: #8a2be2; font-family: 'Lucidia Console', monospace;}
+    .cin_color, .Cin_color {color: #9c6a29; font-family: 'Lucidia Console', monospace;}
+    .mint_color, .Mint_color {color: #12d400; font-family: 'Lucidia Console', monospace;}
+
+    .vio_color, .Vio_color, .cin_color, .Cin_color, .mint_color, .Mint_color {font-family: 'Lucidia Console', monospace;}
 </style>
 <html>
-    <body onload="start(vio)">
+    <body onload="startStory(vio)">
         <br>
         <div class="space">
             <button id="prev">&lt; Previous</button>
