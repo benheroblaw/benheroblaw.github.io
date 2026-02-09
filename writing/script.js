@@ -48,7 +48,7 @@ function startStory(content=["wtf"], doCookies=true, doX=false, doY=true) {
 
     var page = window.location.pathname + " - "
     let index = Number(getCookie(page + "index"))
-    let contentLength = content.length
+    if (index + 1 > content.length) {setCookie(page + "index", 0); index = 0}
     const showSlide = n => {
         document.getElementById('story').innerHTML = content[n]
     }
@@ -63,7 +63,7 @@ function startStory(content=["wtf"], doCookies=true, doX=false, doY=true) {
         setCookie(page + "index", 0)
         index = 0
         }
-      if (checkCookie(page + "index") === 'NaN'){
+      if (index === 'NaN'){
         setCookie(page + "index", '0')
         index = 0
         }
@@ -75,6 +75,9 @@ function startStory(content=["wtf"], doCookies=true, doX=false, doY=true) {
 
     document.getElementById('next').addEventListener('click', () => {
         index = (index + 1) % content.length
+        // if (index > content.length) {
+        //   document.getElementById('next').style.display = 'none'
+        //   document.getElementById('next1').style.display = 'none'}
         window.scrollTo(0,0)
         showSlide(index)
         if (doCookies==true) {
@@ -116,6 +119,17 @@ function startStory(content=["wtf"], doCookies=true, doX=false, doY=true) {
           word_count()
         })
     })
+
+    if (content.length > 1) {
+    document.getElementById('next').style.display = 'inline'
+    document.getElementById('next1').style.display = 'inline'
+    document.getElementById('prev').style.display = 'inline'
+    document.getElementById('prev1').style.display = 'inline'}
+    else {
+    document.getElementById('next').style.display = 'none'
+    document.getElementById('next1').style.display = 'none'
+    document.getElementById('prev').style.display = 'none'
+    document.getElementById('prev1').style.display = 'none'}
 
     document.getElementById('char').addEventListener('dblclick', () => {
       word_count()

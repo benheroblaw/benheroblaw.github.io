@@ -4,7 +4,7 @@ a:link {color: blue;}
 a:visited {color: #90f;}
 a:active {color: red;}
 strong {color: red;}
-h1 {font-family: 'Times New Roman', Times, serif; font-size: 3.5rem; text-align: center; padding-top: 50.5px; padding-bottom: 55px; background: linear-gradient(#000, #000, #111, #111, #111, #111, #aaa, #aaa); margin-top: 0%; margin-bottom: 0%;}
+h1 {font-family: 'Times New Roman', Times, serif; font-size: 3.5rem; text-align: center; padding-top: 50.5px; padding-bottom: 55px; background: linear-gradient(#000, #000, #111, #111, #111, #111, #111, #aaa, #aaa); margin-top: 0%; margin-bottom: 0%;}
 h2 {text-align: center; font-size: 1rem;}
 p {font-size: 1rem; text-indent: 3rem; line-height: 1.75rem; margin: auto;}
 pre {word-spacing: 1px; letter-spacing: 0.5px; font-size: 1rem; padding: 10mm; text-wrap-mode: wrap; background: #aaa; margin-top: 0px; margin-bottom: 0px;}
@@ -51,6 +51,35 @@ i {color: inherit; font-family: inherit;}
 .sidebar:hover{
     left: 0px;
 }
+    #prev, #prev1 {text-align: left; display: inline-block;}
+    #next, #next1 {text-align: right; display: inline-block;}
+    .space {display: flex; justify-content: space-between;}
+    h2 {color: white; background: #000; font-size: 3rem; margin: 0%; padding: 0%; font-family: 'Courier New', Courier, monospace;}
+    .noza, .Noza {color: green; text-shadow: 0px 0px 15px #0a0;}
+    .airn, .Airn {color: azure; text-shadow: 0px 0px 15px #0af;}
+    .mina, .Mina {color: deeppink; text-shadow: 0px 0px 15px blueviolet;}
+    .void, .Void, .VOID {color: black; text-shadow: 0px 0px 15px #fff;}
+    .nobody, .Nobody {color: #555; text-shadow: 0px 0px 15px #a00;}
+
+    .vio, .Vio {color: black; text-shadow: 0px 0px 15px blueviolet; font-family: 'Allan', sans-serif;}
+    .cin, .Cin {color: #9c6a29; text-shadow: 0px 0px 15px #5c3a0d; font-family: 'Alegreya Sans SC', sans-serif;}
+    .mint, .Mint {color: #12d400; text-shadow: 0px 0px 15px #0c9600; font-family: 'Almendra Display', sans-serif;}
+
+    .vio_color, .Vio_color {color: #8a2be2; font-family: 'Lucidia Console', monospace;}
+    .cin_color, .Cin_color {color: #9c6a29; font-family: 'Lucidia Console', monospace;}
+    .mint_color, .Mint_color {color: #12d400; font-family: 'Lucidia Console', monospace;}
+
+    .vio_color, .Vio_color, .cin_color, .Cin_color, .mint_color, .Mint_color {font-family: 'Lucidia Console', monospace;}
+
+    .transparent {background: linear-gradient(rgb(0, 0, 0, 0), rgb(0, 0, 0, 0), #111, #111, #111, #111, #111, rgb(0, 0, 0, 0), rgb(0, 0, 0, 0));}
+    .mid-paragraph, .midpara {background: linear-gradient(#aaa, #aaa, #111, #111, #111, #111, #111, #aaa, #aaa);}
+
+    @media (prefers-color-scheme: light) {
+        button {color: black; background-color: white;}
+    }
+    @media (prefers-color-scheme: dark) {
+        button {color: white; background-color: #111;}
+    }
 
 
 
