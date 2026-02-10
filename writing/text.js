@@ -1,4 +1,4 @@
-const vio = ["<head> \
+const voidling = ["<head> \
         <link rel='icon' href='./icons/story.png'> \
     </head> \
     <h2>0</h2> \
@@ -105,14 +105,13 @@ const vio = ["<head> \
         <link rel='icon' href='./icons/story.png'> \
     </head> \
     <h2>2</h2> \
-    <h1 id='char' class='void'>???</h1> \
+    <h1 id='char' style='text-shadow: 0px 0px 25px #c88eff'>???</h1> \
     <div class='background'> \
-    <p>Airn repeats her little cycle, bringing me out of her Abyss every once in a while to trade bones for pieces of my sentence. My left arm (one century), both legs (a century each), my torso (apparently worth a hundred and fifty years) and my skull (one final century). I've asked why every time. I don't have an answer.</p> \
-    <p>Each piece of my skeleton that got removed is numb to the void.</p> \
-    <p></p> \
-    <p></p> \
-    <p></p> \
-    <p></p> \
+    <p>Airn repeats her little cycle, bringing me out of her 'Abyss' every once in a while to trade bones for pieces of my sentence. My left arm (one century), both legs (a century each), my torso (apparently worth a hundred and fifty years) and my skull (one final century). I've asked why every time. I don't have an answer.</p> \
+    <p>Each piece of my skeleton that got removed is numb to the void. I've been wondering what Arin replaced my bones with, since my arm kept its shape the first time she took my bones.</p> \
+    <p>She filled the space left by my skeletal system with the void. She used the void to help me breathe. That static feeling? It's what the void feels like when it's passive. I felt it in my arm when I learned to fix its nerves, then I tuned it out ever since.</p> \
+    <p>...</p> \
+    <p>I've been losing myself. With pain being the only thing I can feel for years at a time, I'm having trouble remembering who I am. I know I'm a girl. I might like other girls. I'm not sure if I like boys.</p> \
     <p></p> \
     <p></p> \
     <p></p> \
@@ -131,11 +130,7 @@ const vio = ["<head> \
     <p></p> \
     </div>",
 
-    "<!DOCTYPE html> \
-    <head> \
-        <link rel=\"icon\" href=\"./icons/Vio.png\"> \
-    </head> \
-    <html> \
+    "<link rel=\"icon\" href=\"./icons/vio.png\"> \
     <h2>number</h2> \
     <h1 id='char' class='Vio'>Vio</h1> \
     <div class='background'> \
@@ -161,12 +156,10 @@ const vio = ["<head> \
     <p></p> \
     <p></p> \
     <p></p> \
-    </div></html>"
+    </div>"
 ]
 
-const template = ["<head> \
-        <link rel='icon' href='./icons/story.png'> \
-    </head> \
+const template = ["<link rel='icon' href='./icons/story.png'> \
     <h2>number</h2> \
     <h1 id='char' class='void'>???</h1> \
     <div class='background'> \
@@ -193,9 +186,7 @@ const template = ["<head> \
     <p></p> \
     </div>",
 
-    "<head> \
-        <link rel='icon' href='./icons/vio.png'> \
-    </head> \
+    "<link rel='icon' href='./icons/vio.png'> \
     <h2>number</h2> \
     <h1 id='char' class='vio'>Vio</h1> \
     <div class='background'> \
@@ -223,9 +214,7 @@ const template = ["<head> \
     <p></p> \
     </div>",
 
-    "<head> \
-        <link rel='icon' href='./icons/cin.png'> \
-    </head> \
+    "<link rel='icon' href='./icons/cin.png'> \
     <h2>number</h2> \
     <h1 id='char' class='cin'>Cin</h1> \
     <div class='background'> \

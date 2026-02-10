@@ -6,10 +6,10 @@
     <script src="./script.js"></script>
     <script src="./text.js"></script>
 </head>
-<title>Gods Of A Magic Academy: Voidling</title>
+<title>Voidling</title>
 <style>
-    #prev, #prev1 {text-align: left; display: inline-block;}
-    #next, #next1 {text-align: right; display: inline-block;}
+    #prev, #prev1 {text-align: left; display: none;}
+    #next, #next1 {text-align: right; display: none;}
     .space {display: flex; justify-content: space-between;}
     h2 {color: white; background: #000; font-size: 3rem; margin: 0%; padding: 0%; font-family: 'Courier New', Courier, monospace;}
     .noza, .Noza {color: green; text-shadow: 0px 0px 15px #0a0;}
@@ -28,26 +28,26 @@
     .vio_color, .Vio_color, .cin_color, .Cin_color, .mint_color, .Mint_color {font-family: 'Lucidia Console', monospace;}
 </style>
 <html>
-    <body onload="startStory(vio)">
+    <body onload="startStory(voidling)">
         <span style="font-family: 'Allan';"></span>
         <span style="font-family: 'Alegreya Sans SC';"></span>
         <span style="font-family: 'Almendra Display';"></span>
         <div style="display: none;">
         <br>
-            <button style="font-size: 1.25rem;" class="vio" onclick="startStory(vio)">Voidling</button>
+            <button style="font-size: 1.25rem;" class="vio" onclick="startStory(voidling)">Voidling</button>
             <button style="font-family: 'Lucida Console', monospace; font-size: 1.25rem;" onclick="startStory(dms)">dms</button>
         </div>
         <br>
         <div class="space">
-            <button id="prev">&lt; Previous</button>
-            <button id="next">Next &gt;</button>
+            <div ><button id="prev">&lt; Previous</button></div>
+            <div style="text-align: right;"><button id="next">Next &gt;</button></div>
         </div>
             <div id="story">
                 <span style="color: white;"><br>im gonna rip my<br>my fucking dick off<br>&NonBreakingSpace;&NonBreakingSpace;/<br>:3c</span>
             </div><br>
         <div class="space">
-            <button id="prev1">&lt; Previous</button>
-            <button id="next1">Next &gt;</button>
+            <div style="text-align: left;"><button id="prev1">&lt; Previous</button></div>
+            <div style="text-align: right;"><button id="next1">Next &gt;</button></div>
         </div><br>
         <br style="line-height: 15vh;">
     </body>
