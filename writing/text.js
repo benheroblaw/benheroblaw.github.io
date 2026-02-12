@@ -1,6 +1,4 @@
-const voidling = ["<head> \
-        <link rel='icon' href='./icons/story.png'> \
-    </head> \
+const voidling = ["<link rel='icon' href='./icons/story.png'> \
     <h2>0</h2> \
     <h1 id='char' class='void'>???</h1> \
     <div class='background'> \
@@ -73,9 +71,7 @@ const voidling = ["<head> \
     <p>How I yearn for that day.</p> \
     </div>",
 
-    "<head> \
-        <link rel='icon' href='./icons/story.png'> \
-    </head> \
+    "<link rel='icon' href='./icons/story.png'> \
     <h2>1</h2> \
     <h1 id='char' class='void'>???</h1> \
     <div class='background'> \
@@ -101,9 +97,7 @@ const voidling = ["<head> \
     <p>I return to Hell.</p> \
     </div>",
 
-    "<head> \
-        <link rel='icon' href='./icons/story.png'> \
-    </head> \
+    "<link rel='icon' href='./icons/story.png'> \
     <h2>2</h2> \
     <h1 id='char' style='text-shadow: 0px 0px 25px #c88eff'>???</h1> \
     <div class='background'> \
@@ -393,4 +387,13 @@ const unfinished = [
     <p></p> \
     <p></p> \
     <p></p> \
-    </div>",]
+    </div>",
+
+"<link rel='icon' href='./icons/vampire.png?v=3'> \
+    <h2>0</h2> \
+    <h1 id='char' class='vampire'>???</h1> \
+    <div class='background'> \
+    <p>vampire :3</p> \
+    <a href=''></a> \
+    </div>"
+]

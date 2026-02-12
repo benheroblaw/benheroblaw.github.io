@@ -3,7 +3,8 @@ Default
     <head>
         <link rel="stylesheet" href="./style.css">
         <link rel="icon" href="forest.png">
-    </head>
+        <script src="/script.js"></script>
+</head>
     <title>!!!</title>
     <html>
         <body>
@@ -16,7 +17,8 @@ Character sheet
     <head>
         <link rel="stylesheet" href="../characters.css">
         <link rel="icon" href="../icons/forest.png">
-    </head>
+        <script src="/script.js"></script>
+</head>
     <title>!!!</title>
     <html>
         <body>

@@ -3,7 +3,8 @@ Default
     <head>
         <link rel="stylesheet" href="style.css">
         <link rel="icon" href="favicon-2.png">
-    </head>
+        <script src="/script.js"></script>
+</head>
     <title>MAKE A DAMN TITLE</title>
     <html>
         <body class="centerList">
@@ -25,7 +26,8 @@ Comics
     <head>
     <link rel="stylesheet" href="../../style.css">
     <link rel="icon" href="../../favicon-2.png">
-    </head>
+        <script src="/script.js"></script>
+</head>
     <body class="centerList">
     <img class="center" id="image" src="page_1.jpg">
     <br><br>
@@ -796,7 +798,8 @@ Viewers
     <head>
     <link rel="stylesheet" href="../../style.css">
     <link rel="icon" href="../../favicon-2.png">
-    </head>
+        <script src="/script.js"></script>
+</head>
     <body class="centerList">
     <button onclick="document.getElementById('image').src='page_1.jpg'">Page 1</button>
     <button onclick="document.getElementById('image').src='page_2.jpg'">Page 2</button>
