@@ -1,16 +1,17 @@
-const voidling = ["<link rel='icon' href='./icons/story.png'> \
+var voidling = [
+    "<link rel='icon' href='/icons/story.png'> \
     <h2>0</h2> \
     <h1 id='char' class='void'>???</h1> \
     <div class='background'> \
     <p>The void is warmer than you would think.</p> \
-    <p>It also hurts, makes you feel like every inch of your flesh is being ripped and torn and burned to ash. It makes your bones feel like they're being shattered into dust. The part of your brain that sends pain signals is constantly overloaded yet kept in pristine condition, so no matter how much it wants to burn and scratch itself to death you keep hurting. The void scrambles you into every possible configuration of atoms and soul while remembering exactly how to put you back the way you were.</p><br> \
+    <p>It also hurts, makes you feel like every inch of your flesh is being ripped and torn and burned to ash. It makes your bones feel like they're being shattered into dust. The part of your brain that sends pain signals is varantly overloaded yet kept in pristine condition, so no matter how much it wants to burn and scratch itself to death you keep hurting. The void scrambles you into every possible configuration of atoms and soul while remembering exactly how to put you back the way you were.</p><br> \
     <p>It's a prison.</p><br> \
     <p>Not for people like you and me.</p><br> \
     <p>Not something a human could comprehend.</p><br> \
     <p>This is a prison for gods.</p><br> \
     <p>A torture chamber for beings who can snap their fingers and re-weave reality.</p><br> \
     <p>Pain is not enough.</p><br> \
-    <p>They need to be constantly ripped apart and put back together and ripped apart again.</p><br> \
+    <p>They need to be varantly ripped apart and put back together and ripped apart again.</p><br> \
     <p>They need to feel <i>powerless.</i></p><br> \
     <p>To do this, you need a soup made of every single thing that was alive.</p><br> \
     <p>Humans, magical creatures, animals, plants, single-celled organisms.</p><br> \
@@ -71,7 +72,7 @@ const voidling = ["<link rel='icon' href='./icons/story.png'> \
     <p>How I yearn for that day.</p> \
     </div>",
 
-    "<link rel='icon' href='./icons/story.png'> \
+    "<link rel='icon' href='/icons/story.png'> \
     <h2>1</h2> \
     <h1 id='char' class='void'>???</h1> \
     <div class='background'> \
@@ -97,7 +98,7 @@ const voidling = ["<link rel='icon' href='./icons/story.png'> \
     <p>I return to Hell.</p> \
     </div>",
 
-    "<link rel='icon' href='./icons/story.png'> \
+    "<link rel='icon' href='/icons/story.png'> \
     <h2>2</h2> \
     <h1 id='char' style='text-shadow: 0px 0px 25px #c88eff'>???</h1> \
     <div class='background'> \
@@ -124,7 +125,7 @@ const voidling = ["<link rel='icon' href='./icons/story.png'> \
     <p></p> \
     </div>",
 
-    "<link rel=\"icon\" href=\"./icons/vio.png\"> \
+    "<link rel=\"icon\" href=\"/icons/vio.png\"> \
     <h2>number</h2> \
     <h1 id='char' class='Vio'>Vio</h1> \
     <div class='background'> \
@@ -153,7 +154,8 @@ const voidling = ["<link rel='icon' href='./icons/story.png'> \
     </div>"
 ]
 
-const template = ["<link rel='icon' href='./icons/story.png'> \
+var template = [
+    "<link rel='icon' href='/icons/story.png'> \
     <h2>number</h2> \
     <h1 id='char' class='void'>???</h1> \
     <div class='background'> \
@@ -180,7 +182,7 @@ const template = ["<link rel='icon' href='./icons/story.png'> \
     <p></p> \
     </div>",
 
-    "<link rel='icon' href='./icons/vio.png'> \
+    "<link rel='icon' href='/icons/vio.png'> \
     <h2>number</h2> \
     <h1 id='char' class='vio'>Vio</h1> \
     <div class='background'> \
@@ -208,7 +210,7 @@ const template = ["<link rel='icon' href='./icons/story.png'> \
     <p></p> \
     </div>",
 
-    "<link rel='icon' href='./icons/cin.png'> \
+    "<link rel='icon' href='/icons/cin.png'> \
     <h2>number</h2> \
     <h1 id='char' class='cin'>Cin</h1> \
     <div class='background'> \
@@ -236,7 +238,7 @@ const template = ["<link rel='icon' href='./icons/story.png'> \
     <p></p> \
     </div>",
 
-    "<link rel=\"icon\" href=\"./icons/mint.png\"> \
+    "<link rel=\"icon\" href=\"/icons/mint.png\"> \
     <h2>number</h2> \
     <h1 id='char' class='Mint'>Mint</h1> \
     <div class='background'> \
@@ -263,9 +265,38 @@ const template = ["<link rel='icon' href='./icons/story.png'> \
     <p></p> \
     <p></p> \
     </div>",
+
+    "<link rel=\"icon\" href=\"/icons/vampire.png\"> \
+    <h2>number</h2> \
+    <h1 id='char' class='vampire'>vampire</h1> \
+    <div class='background'> \
+    <p>vampire :3</p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    </div>",
 ]
 
-const dms = ["<style>p {color: white; font-family: 'Lucidia Console', monospace;}</style> \
+var dms = [
+    "<style>p {color: white; font-family: 'Lucidia Console', monospace;}</style> \
     <span id='char'></span><br> \
     <p>[<span class='mint_color'>mint</span>]: pleas rail me >////<</p> \
     <p>[<span class='vio_color'>vio</span>]: k</p> \
@@ -288,7 +319,8 @@ const dms = ["<style>p {color: white; font-family: 'Lucidia Console', monospace;
     <p>[<span class='_color'></span>]: </p> \
     "]
 
-const senran = ["<style> \
+var senran = [
+    "<style> \
     @media (prefers-color-scheme: light) { \
     .background, h2, h1 {background-color: white; color: black;} \
     } \
@@ -324,8 +356,8 @@ const senran = ["<style> \
     <p></p> \
     </div>"]
 
-const unfinished = [
-    "<link rel='icon' href='./icons/story.png'> \
+var unfinished = [
+    "<link rel='icon' href='/icons/story.png'> \
     <h1 id='char' class='vio'>Vio</h1> \
     <div class='background'> \
     <p>Yeah, I like the feeling of him inside me. I'm- I <i>was</i> human, after all. What I really love the little sounds he makes, the brush of his hair and lips on my neck, how his breath gets ragged and the way he tenses and tenses and then relaxes so completely; how he grips me while he's cumming, how it makes him feel sooo good he has to stop moving. Letting him cum inside me is my favorite way to show him my love.</p> \
@@ -361,7 +393,7 @@ const unfinished = [
     <p></p> \
     ",
 
-    "<link rel=\"icon\" href=\"./icons/mint.png\"> \
+    "<link rel=\"icon\" href=\"/icons/mint.png\"> \
     <h2>8-M-</h2> \
     <h1 id='char' class='Mint'>Mint</h1> \
     <div class='background'> \
@@ -389,11 +421,56 @@ const unfinished = [
     <p></p> \
     </div>",
 
-"<link rel='icon' href='./icons/vampire.png?v=3'> \
+"<link rel='icon' href='/icons/vampire.png?v=3'> \
     <h2>0</h2> \
     <h1 id='char' class='vampire'>???</h1> \
     <div class='background'> \
     <p>vampire :3</p> \
     <a href=''></a> \
     </div>"
+]
+
+var kiamei_hypno = ["<link rel='icon' href='icons/story.png'><br><embed src='/books/Falling_Like_A_Feather.pdf' style='width: 800px; height: 85vh'>", "<link rel='icon' href='icons/story.png'><br><embed src='/books/How_To_Train_Your_Kaslana.pdf' style='width: 800px; height: 85vh'>",]
+
+var fanfic = [
+    "<link rel='icon' href='icons/story.png'><br><embed src='/books/Falling_Like_A_Feather.pdf' style='width: 800px; height: 85vh'>",
+    "<link rel='icon' href='icons/story.png'><br><embed src='/books/How_To_Train_Your_Kaslana.pdf' style='width: 800px; height: 85vh'>",
+    "<link rel='icon' href='icons/story.png'><br><embed src='/books/Filled_to_the_brim.pdf' style='width: 800px; height: 85vh'>",
+    "<link rel='icon' href='icons/story.png'><br><embed src='/books/you_call_the_shots_babe.pdf' style='width: 800px; height: 85vh'>",
+    "<link rel='icon' href='icons/story.png'><br><embed src='/books/The_Glint_of_Wine_at_Midnight.pdf' style='width: 800px; height: 85vh'>",
+    "<link rel='icon' href='icons/story.png'><br><embed src='/books/My_Web_My_Pet_My_Rules.pdf' style='width: 800px; height: 85vh'>"
+]
+
+var hentai = ['<iframe width="544" height="408" src="https://www.onlyhentaistuff.com/embed/687" frameborder="0" allowfullscreen></iframe>']
+
+var chainsaw = [
+    "<style></style>\
+    <h1 id='char' style='color: black; text-shadow: 0px 0px 15px #f00; font-family: Chainsaw; font-size: 7rem; line-height: 5rem; padding-bottom: 5rem'>CHAINSAW WOMAN</h1> \
+    <div class='background'> \
+    <p>lady chainsaw :)</p> \
+    <p>THE lady chainsaw :D</p> \
+    <p>the lady chainsaw gets a boyfriend ;}</p> \
+    <p>its lord bomb >;}</p> \
+    <p>they fuck >w<</p> \
+    <p>lord chainsaw never got that far >:3c</p> \
+    <p>also mister power >:3</p> \
+    <p>and miss aki :D</p> \
+    <p>mister makima >:(</p> \
+    <p>katana woman >:(</p> \
+    <p>sword woman :\\</p> \
+    <p>quanxi does yaoi :D</p> \
+    <p>horsemen of the apocalypse :/</p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    </div>",
+
+    "<h1 id='char' style='color: White; text-shadow: 0px 0px 15px #f00; font-family: Chainsaw; font-size: 7rem; line-height: 5rem; padding-bottom: 5rem'>Denji</h1> \
+    <div class='background'> \
+    lady chainsaw :}<br> \
+    THE lady chainsaw :D<br> \
+    the lady chainsaw gets a boyfriend *v*<br><br> \
+    its lord bomb *w<<br><br> \
+    they fuck >w< \
+    </div>",
 ]

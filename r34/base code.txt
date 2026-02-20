@@ -2,12 +2,12 @@ Default
     <!DOCTYPE html>
     <head>
         <link rel="stylesheet" href="style.css">
-        <link rel="icon" href="favicon-2.png">
+        <link rel="icon" href="/icons/favicon-2.png">
         <script src="/script.js"></script>
 </head>
     <title>MAKE A DAMN TITLE</title>
     <html>
-        <body class="centerList">
+        <body class="centerList" onload='vol()'>
             <!-- <video controls width="30%" height="25%" src=""></video>
             <a href=""><img width="10%" height="10%" src=""></a> -->
         </body>
@@ -25,10 +25,10 @@ Comics
      <html>
     <head>
     <link rel="stylesheet" href="../../style.css">
-    <link rel="icon" href="../../favicon-2.png">
+    <link rel="icon" href="/icons/favicon-2.png">
         <script src="/script.js"></script>
 </head>
-    <body class="centerList">
+    <body class="centerList" onload='vol()'>
     <img class="center" id="image" src="page_1.jpg">
     <br><br>
     <div class="pages">
@@ -797,10 +797,10 @@ Viewers
     <html>
     <head>
     <link rel="stylesheet" href="../../style.css">
-    <link rel="icon" href="../../favicon-2.png">
+    <link rel="icon" href="/icons/favicon-2.png">
         <script src="/script.js"></script>
 </head>
-    <body class="centerList">
+    <body class="centerList" onload='vol()'>
     <button onclick="document.getElementById('image').src='page_1.jpg'">Page 1</button>
     <button onclick="document.getElementById('image').src='page_2.jpg'">Page 2</button>
     <button onclick="document.getElementById('image').src='page_3.jpg'">Page 3</button>

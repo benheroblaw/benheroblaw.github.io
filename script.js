@@ -7,6 +7,7 @@ function setCookie(cname, cvalue, exdays = 365) {
     'Set cookie \'' + cname + '\' with value \'' + cvalue + '\'; ' + expires
   )
 }
+
 function getCookie(cname) {
   let name = cname + '=';
   let decodedCookie = decodeURIComponent(document.cookie);
@@ -22,6 +23,7 @@ function getCookie(cname) {
   }
   return '';
 }
+
 function checkCookie(cname) {
   let anti = getCookie(cname)
   if (anti != '') {
@@ -34,6 +36,7 @@ function checkCookie(cname) {
     return 'error'
   }
 }
+
 // function fetchJSONData(jsonFile="./test.json") {
 //   fetch(jsonFile)
 //     .then(response => {
@@ -45,10 +48,13 @@ function checkCookie(cname) {
 //     .then(data => console.log(data))
 //     .catch(error => console.error('Failed to fetch data:', error));
 // }
-function startStory(content = [
-  'wtf'
-], doCookies = true, doX = false, doY = true) {
+
+function start(content = ['wtf'], doCookies = true, doX = false, doY = true) {
   var page = window.location.pathname + ' - '
+  const showSlide = n => {
+    document.getElementById('story').innerHTML = content[n]
+  }
+
   let index = Number(getCookie(page + 'index'))
   if (index + 1 > content.length) {
     setCookie(page + 'index', 0);
@@ -60,20 +66,23 @@ function startStory(content = [
     document.getElementById('next').style.display = 'none'
     document.getElementById('next1').style.display = 'none'
   }
+  else {
+    document.getElementById('prev').style.display = 'inline'
+    document.getElementById('prev1').style.display = 'inline'
+    document.getElementById('next').style.display = 'inline'
+    document.getElementById('next1').style.display = 'inline'
+  }
   if (index === 0) {
     document.getElementById('prev').style.display = 'none'
     document.getElementById('prev1').style.display = 'none'
     document.getElementById('next').style.display = 'inline'
     document.getElementById('next1').style.display = 'inline'
     if (content.length <= 1) {
-      document.getElementById('next').style.display = 'none'
-      document.getElementById('next1').style.display = 'none'
       document.getElementById('prev').style.display = 'none'
       document.getElementById('prev1').style.display = 'none'
+      document.getElementById('next').style.display = 'none'
+      document.getElementById('next1').style.display = 'none'
     }
-  }
-  const showSlide = n => {
-    document.getElementById('story').innerHTML = content[n]
   }
   if (doCookies == true) {
     if (doX === true && checkCookie(page + 'scrollx') === 'error') {
@@ -201,6 +210,25 @@ function startStory(content = [
     )
   }
 }
+
+var startNumber = 0
+
+function startStory(content=['wtf']) {
+  if (startNumber === 0) {
+    var s = document.createElement('script');
+    s.src = './text.js';
+    s.id = 'text_:3'
+    document.body.appendChild(s);
+    document.getElementById('text_:3').remove()
+    startNumber = 1
+    startStory(content)
+  }
+  else if (startNumber === 1) {
+    startNumber = 0
+    start(content)
+  }
+}
+
 function getCommit(owner, repo) {
   fetch(
     'https://api.github.com/repos/' + owner + '/' + repo + '/commits?per_page=1',
@@ -222,6 +250,7 @@ function getCommit(owner, repo) {
     }
   )
 }
+
 function getCommitNumbers(owner, repo) {
   fetch(
     'https://api.github.com/repos/' + owner + '/' + repo + '/commits?per_page=1',
@@ -234,6 +263,7 @@ function getCommitNumbers(owner, repo) {
     }
   )
 }
+
 const delay = ms => new Promise(res => setTimeout(res, ms));
 function word_count(paras = 'background') {
   paras = document.getElementsByClassName(paras);
@@ -249,6 +279,7 @@ function word_count(paras = 'background') {
   char = contents.length
   console.log(count + ' words, ' + char + ' characters');
 }
+
 function wordcount(paras = 'background') {
   let area = document.getElementById(paras);
   let char = 0 // Count characters
@@ -265,6 +296,7 @@ function wordcount(paras = 'background') {
   // Count words
   console.log(words.length)
 }
+
 function stripHtml(html)
 {
   let tmp = document.createElement('DIV');
@@ -272,6 +304,13 @@ function stripHtml(html)
   return tmp.textContent ||
   tmp.innerText ||
   '';
+}
+
+function vol(video_volume = 0.1, audio_volume = 0.75) {
+  const video = document.querySelectorAll('video');
+  video.forEach(element => element.volume = video_volume)
+  const audio = document.querySelectorAll('.audio');
+  audio.forEach(element => element.volume = audio_volume)
 }
 
 if ('serviceWorker' in navigator) {

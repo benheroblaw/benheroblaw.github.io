@@ -81,7 +81,10 @@ i {color: inherit; font-family: inherit;}
         button {color: white; background-color: #111;}
     }
 
-
+@font-face {
+    font-family: Chainsaw;
+    src: url('/fonts/FonttoaChainsaw.otf');
+}
 
 /*  fuck
     4u(k
