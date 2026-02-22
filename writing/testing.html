@@ -2,9 +2,9 @@
 <head>
     <link rel="stylesheet" href="./goama.css">
     <link rel="stylesheet" href="https://prokid99999.github.io/writing.css">
-    <link rel="stylesheet" href="https://localhost:2009/writing.css">
+    <link rel="stylesheet" href="http://localhost:2009/writing.css">
     <link rel="icon" href="/icons/unknown.png">
-    <link href='https://fonts.googleapis.com/css?family=Allan|Alegreya Sans SC|Almendra Display|Aguafina Script|Amatic SC|Font to a Chainsaw' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Allan|Alegreya Sans SC|Almendra Display|Aguafina Script|Amatic SC' rel='stylesheet'>
     <script src="/script.js"></script>
     <script src="./text.js"></script>
     <script src='https://prokid99999.github.io/text.js'></script>
@@ -34,7 +34,7 @@
 
     .vampire, .Vampire {color: #fff; text-shadow: 0px 0px 15px #ff0000;}
 
-    .chainsaw {color: black; text-shadow: 0px 0px 15px #f00; font-family: Impact;}
+    .chainsaw {color: gray; text-shadow: 0px 0px 15px #f00; font-family: Impact;}
 
     @media (prefers-color-scheme: light) {
         button {color: black; background-color: white;}
@@ -43,11 +43,17 @@
         button {color: white; background-color: #111;}
     }
 </style>
+<script>
+    const reset = ['<span style=\"color: white;\"><br>im gonna rip my<br>your fucking dick off<br>&NonBreakingSpace;&NonBreakingSpace;/<br>:}c</span>']
+</script>
 <html>
-    <body>
+    <body onload="startStory(reset)">
         <span style="font-family: 'Allan';"></span>
         <span style="font-family: 'Alegreya Sans SC';"></span>
         <span style="font-family: 'Almendra Display';"></span>
+        <span style="font-family: 'Aguafina Script';"></span>
+        <span style="font-family: 'Amatic SC';"></span>
+        <span style="font-family: 'Chainsaw';"></span>
         <br>
         <div style="padding-top: 0.5rem;">
             <button class="noza" style="background-color: #111; margin-bottom: 0.5rem;" onclick="startStory(earth)">Please the Earth</button>
@@ -62,6 +68,8 @@
         <br><br>
             <button onclick="startStory(template)">template</button>
             <button onclick="startStory(unfinished)">unfinished</button>
+            <button onclick="startStory(reset)">reset</button>
+            <button onclick="location.reload(true)">ctrl+f5</button>
         </div>
         <br>
         <div class="space">
@@ -69,7 +77,7 @@
             <div style="text-align: right;"><button id="next">Next &gt;</button></div>
         </div>
             <div id="story">
-                <span style="color: white;"><br>im gonna rip my<br>your fucking dick off<br>&NonBreakingSpace;&NonBreakingSpace;/<br>:}c</span>
+                <span style="color: white;"><br>im gonna rip my<br>your fucking dick off<br>&NonBreakingSpace;&NonBreakingSpace;<br>:}c</span>
             </div><br>
         <div class="space">
             <div><button id="prev1">&lt; Previous</button></div>

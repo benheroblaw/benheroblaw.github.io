@@ -293,11 +293,20 @@ var template = [
     <p></p> \
     <p></p> \
     </div>",
+
+    "<h1 id='char' style='color: White; text-shadow: 0px 0px 15px #f00; font-family: Chainsaw; font-size: 7rem; line-height: 5rem; padding-bottom: 5rem'>Femji</h1> \
+    <div class='background'> \
+    lady chainsaw :}<br> \
+    THE lady chainsaw :D<br> \
+    the lady chainsaw gets a boyfriend *v*<br><br> \
+    its lord bomb *w<<br><br> \
+    they fuck >w<<br><br> \
+    masc power :) \
+    </div>",
 ]
 
 var dms = [
     "<style>p {color: white; font-family: 'Lucidia Console', monospace;}</style> \
-    <span id='char'></span><br> \
     <p>[<span class='mint_color'>mint</span>]: pleas rail me >////<</p> \
     <p>[<span class='vio_color'>vio</span>]: k</p> \
     <p>[<span class='cin_color'>cin</span>]: sure</p> \
@@ -354,7 +363,8 @@ var senran = [
     <p style='text-align: center; text-indent: 0rem; font-size: 0.75rem'>(I haven't played any of the others)</p> \
     <p></p> \
     <p></p> \
-    </div>"]
+    </div>",
+]
 
 var unfinished = [
     "<link rel='icon' href='/icons/story.png'> \
@@ -427,7 +437,7 @@ var unfinished = [
     <div class='background'> \
     <p>vampire :3</p> \
     <a href=''></a> \
-    </div>"
+    </div>",
 ]
 
 var kiamei_hypno = ["<link rel='icon' href='icons/story.png'><br><embed src='/books/Falling_Like_A_Feather.pdf' style='width: 800px; height: 85vh'>", "<link rel='icon' href='icons/story.png'><br><embed src='/books/How_To_Train_Your_Kaslana.pdf' style='width: 800px; height: 85vh'>",]
@@ -438,7 +448,7 @@ var fanfic = [
     "<link rel='icon' href='icons/story.png'><br><embed src='/books/Filled_to_the_brim.pdf' style='width: 800px; height: 85vh'>",
     "<link rel='icon' href='icons/story.png'><br><embed src='/books/you_call_the_shots_babe.pdf' style='width: 800px; height: 85vh'>",
     "<link rel='icon' href='icons/story.png'><br><embed src='/books/The_Glint_of_Wine_at_Midnight.pdf' style='width: 800px; height: 85vh'>",
-    "<link rel='icon' href='icons/story.png'><br><embed src='/books/My_Web_My_Pet_My_Rules.pdf' style='width: 800px; height: 85vh'>"
+    "<link rel='icon' href='icons/story.png'><br><embed src='/books/My_Web_My_Pet_My_Rules.pdf' style='width: 800px; height: 85vh'>",
 ]
 
 var hentai = ['<iframe width="544" height="408" src="https://www.onlyhentaistuff.com/embed/687" frameborder="0" allowfullscreen></iframe>']
@@ -460,17 +470,50 @@ var chainsaw = [
     <p>sword woman :\\</p> \
     <p>quanxi does yaoi :D</p> \
     <p>horsemen of the apocalypse :/</p> \
-    <p></p> \
+    <p>asa is a guy :/</p> \
     <p></p> \
     <p></p> \
     </div>",
 
-    "<h1 id='char' style='color: White; text-shadow: 0px 0px 15px #f00; font-family: Chainsaw; font-size: 7rem; line-height: 5rem; padding-bottom: 5rem'>Denji</h1> \
+    "<h1 id='char' style='color: White; text-shadow: 0px 0px 15px #f00; font-family: chainsaw; font-size: 7rem; line-height: 5rem; padding-bottom: 5rem'>\
+    1\
+    </h1> \
     <div class='background'> \
-    lady chainsaw :}<br> \
-    THE lady chainsaw :D<br> \
-    the lady chainsaw gets a boyfriend *v*<br><br> \
-    its lord bomb *w<<br><br> \
-    they fuck >w< \
+    <p>A tall figure walks down rows of apartments, counting the doors up to the number they were told. They wear a dark coat hemmed below their knees with the collar flipped up over their neck. It sways behind them as they walk, making their stride look uneven from a distance. If you got close enough to tell what they were wearing, you would want to clear out because they look like they're here on official business. Their outfit is very similar to the uniform that devil hunters wear, and devil hunters means devils. Less so here, considering a few tenants here get their paychecks from Public Safety.</p> \
+    <p>Their coat slaps against their legs, carried by the momentum of their stride. This should be the door they counted to.</p> \
+    <p>They give a few raps on the door, step back and glance around at the hallway. Their eyes catch on a hole in the roof, next to a collection of others. Red-brown covers the edges of what looks like punctures from the floor above. They flick their gaze down, matching dents in the concrete floor to the cavities above. Maybe they're being paranoid, but they feel something attacked something else in the space they are standing in.</p> \
+    <p>Muffled shouts snap their eyes to the door. Their body instinctively twists into a fighting stance before they relax, straightening back up and pointing their chest at the door.</p> \
+    <p>Light spreads across the hallway as the door opens, revealing the person they were looking for.</p> \
+    <p>\"Hey, Reze!\" Short blond hair, red eyes, and a set of pointed teeth revealed by a smile. They have to tilt their head up to meet their visitor's eyes. <i>Denji.</i> They rush forward to embrace Reze under their trench coat. Reze ruffles their hair and returns the hug.</p> \
+    <p>\"Mortal!\" Another person takes Denji's place. Two red horns stick out of their pink-blonde hair. They point at Reze and say rather loudly, \"You are Denji's 'boyfriend', yes?\"</p> \
+    <p>\"Who cares if he's my boyfriend?\" Denji shoots back, stepping away from Reze to stare down their horned opponent. Reze's arm stays around Denji's shoulders.</p> \
+    <p>\"Maybe I am. What does it mean to you?\" Reze tilts his head, waiting for a challenge.</p> \
+    <p>A fist slams into his stomach hard enough to make spit fly and for him to stumble back. The horned one is standing closer than they were before, their fist raised in the aftermath of a punch. Denji hauls him back up.</p> \
+    <p>\"What the hell, Power?!\" Denji slips out from under Reze's arm to yell at the horned one point-blank.</p> \
+    <p>\"He must fight me to claim that title!\" Power shouts back, putting a hand on their hip. Denji storms forward and swings at them. Power blocks with their arm and a bloodred blade appears in their hand.</p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
+    <p></p> \
     </div>",
 ]

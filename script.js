@@ -1,10 +1,24 @@
+var program = [
+    '(^///^) ',
+    "(o///o) ",
+    "(0///0) ",
+    "(>///<) ",
+    " ( /o///o) ",
+    " ( /0///0) ",
+    "(v///v) ",
+    '(-///-) ',
+    '(u///u) ',
+]
+
+const tes = '(- ^ -) '
+
 function setCookie(cname, cvalue, exdays = 365) {
   const d = new Date();
   d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
   let expires = 'expires=' + d.toUTCString();
   document.cookie = cname + '=' + cvalue + ';' + expires + ';page=/';
   console.log(
-    'Set cookie \'' + cname + '\' with value \'' + cvalue + '\'; ' + expires
+    tes + 'Set cookie \'' + cname + '\' with value \'' + cvalue + '\'; ' + expires
   )
 }
 
@@ -28,11 +42,11 @@ function checkCookie(cname) {
   let anti = getCookie(cname)
   if (anti != '') {
     console.log(
-      'Found cookie \'' + cname + '\' with value \'' + getCookie(cname) + '\''
+      tes + 'Found cookie \'' + cname + '\' with value \'' + getCookie(cname) + '\''
     )
     return 'success!'
   } else {
-    console.log('Couldn\'t find cookie ' + cname)
+    errorMessage(tes + 'Couldn\'t find cookie ' + cname)
     return 'error'
   }
 }
@@ -107,9 +121,7 @@ function start(content = ['wtf'], doCookies = true, doX = false, doY = true) {
       Number(getCookie(page + 'scrolly'))
     )
   }
-  document.getElementById('next').addEventListener(
-    'click',
-    () => {
+  function next() {
       index = (index + 1) % content.length
       if (index + 1 >= content.length) {
         document.getElementById('next').style.display = 'none'
@@ -128,34 +140,9 @@ function start(content = ['wtf'], doCookies = true, doX = false, doY = true) {
       if (doCookies == true) {
         setCookie(page + 'index', index)
       }
-      document.getElementById('char').addEventListener('dblclick', () => {
-        word_count()
-      })
+      char()
     }
-  )
-  document.getElementById('next1').addEventListener(
-    'click',
-    () => {
-      index = (index + 1) % content.length
-      if (index + 1 >= content.length) {
-        document.getElementById('next').style.display = 'none'
-        document.getElementById('next1').style.display = 'none'
-        document.getElementById('prev').style.display = 'inline'
-        document.getElementById('prev1').style.display = 'inline'
-      }
-      window.scrollTo(0, 0)
-      showSlide(index)
-      if (doCookies == true) {
-        setCookie(page + 'index', index)
-      }
-      document.getElementById('char').addEventListener('dblclick', () => {
-        word_count()
-      })
-    }
-  )
-  document.getElementById('prev').addEventListener(
-    'click',
-    () => {
+  function prev() {
       index = (index + content.length - 1) % content.length
       if (index === 0) {
         document.getElementById('prev').style.display = 'none'
@@ -174,28 +161,43 @@ function start(content = ['wtf'], doCookies = true, doX = false, doY = true) {
       if (doCookies == true) {
         setCookie(page + 'index', index)
       }
-      document.getElementById('char').addEventListener('dblclick', () => {
-        word_count()
-      })
+      char()
+  }
+  document.getElementById('next').addEventListener(
+    'click',
+    () => {
+      next()
+    }
+  )
+  document.getElementById('next1').addEventListener(
+    'click',
+    () => {
+      next()
+    }
+  )
+  document.getElementById('prev').addEventListener(
+    'click',
+    () => {
+      prev()
     }
   )
   document.getElementById('prev1').addEventListener(
     'click',
     () => {
-      index = (index + content.length - 1) % content.length
-      window.scrollTo(0, 0)
-      showSlide(index)
-      if (doCookies == true) {
-        setCookie(page + 'index', index)
-      }
-      document.getElementById('char').addEventListener('dblclick', () => {
-        word_count()
-      })
+      prev()
     }
   )
-  document.getElementById('char').addEventListener('dblclick', () => {
-    word_count()
-  })
+  function char() {
+    try {
+    document.getElementById('char').addEventListener('dblclick', () => {
+      word_count()
+    })
+    }
+    catch (TypeError) {
+      colorTrace(program[4] + 'no char element', 'red')
+    }
+  }
+  char()
   if (doCookies == true) {
     window.addEventListener(
       'scrollend',
@@ -214,16 +216,30 @@ function start(content = ['wtf'], doCookies = true, doX = false, doY = true) {
 var startNumber = 0
 
 function startStory(content=['wtf']) {
+  var s = document.createElement('script');
+  s.id = 'text'
   if (startNumber === 0) {
-    var s = document.createElement('script');
     s.src = './text.js';
-    s.id = 'text_:3'
     document.body.appendChild(s);
-    document.getElementById('text_:3').remove()
-    startNumber = 1
+    startNumber++
+    document.getElementById('text').remove()
     startStory(content)
   }
   else if (startNumber === 1) {
+    s.src = 'https://prokid99999.github.io/text.js';
+    document.body.appendChild(s);
+    startNumber++
+    document.getElementById('text').remove()
+    startStory(content)
+  }
+  else if (startNumber === 2) {
+    s.src = 'http://localhost:2009/text.js';
+    document.body.appendChild(s);
+    startNumber++
+    document.getElementById('text').remove()
+    startStory(content)
+  }
+  else if (startNumber === 3) {
     startNumber = 0
     start(content)
   }
@@ -265,6 +281,7 @@ function getCommitNumbers(owner, repo) {
 }
 
 const delay = ms => new Promise(res => setTimeout(res, ms));
+
 function word_count(paras = 'background') {
   paras = document.getElementsByClassName(paras);
   var count = 0;
@@ -277,7 +294,7 @@ function word_count(paras = 'background') {
   contents = contents.trim()
   contents = contents.replace(/<[^>]*>?/gm, '');
   char = contents.length
-  console.log(count + ' words, ' + char + ' characters');
+  console.log(tes + count + ' words, ' + char + ' characters');
 }
 
 function wordcount(paras = 'background') {
@@ -316,8 +333,16 @@ function vol(video_volume = 0.1, audio_volume = 0.75) {
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/sw.js')
   .then(function(registration) {
-    console.log('Service Worker registered with scope:', registration.scope);
+    console.log(tes + 'Service Worker registered with scope:', registration.scope);
   }).catch(function(error) {
-    console.log('Service Worker registration failed:', error);
+    console.log(tes + 'Service Worker registration failed:', error);
   });
+}
+
+function colorTrace(msg, color='red') {
+    console.log("%c" + msg, "color:" + color + ";font-weight:bold;");
+}
+
+function errorMessage(msg) {
+  colorTrace(msg, 'red')
 }
