@@ -10,16 +10,38 @@ var program = [
     '(u///u) ',
 ]
 
-const tes = '(- ^ -) '
+var tes = ["(o ^ o) ", "(- ^ -)"]
 
-function setCookie(cname, cvalue, exdays = 365) {
+function setCookie(cname, cvalue, output = true, exdays = 365) {
   const d = new Date();
   d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
   let expires = 'expires=' + d.toUTCString();
   document.cookie = cname + '=' + cvalue + ';' + expires + ';page=/';
+  if (output) {
   console.log(
-    tes + 'Set cookie \'' + cname + '\' with value \'' + cvalue + '\'; ' + expires
-  )
+    tes[0] + 'Set cookie \'' + cname + '\' with value \'' + cvalue + '\'; ' + expires
+  )}
+}
+
+function setArrayCookie(name, value, daysToLive = 365) {
+  // Serialize the value (array → string)
+  const serializedValue = JSON.stringify(value);
+
+  // Set expiration date
+  const date = new Date();
+  date.setTime(date.getTime() + (daysToLive * 24 * 60 * 60 * 1000)); // days → milliseconds
+  const expires = `expires=${date.toUTCString()}`;
+
+  // Combine all cookie attributes[0]
+  const cookie = `${name}=${encodeURIComponent(serializedValue)}; ${expires}; path=/; SameSite=Strict`;
+
+  // Add "secure" attribute if using HTTPS
+  if (window.location.protocol === "https:") {
+    cookie += "; secure";
+  }
+
+  // Set the cookie
+  document.cookie = cookie;
 }
 
 function getCookie(cname) {
@@ -38,20 +60,59 @@ function getCookie(cname) {
   return '';
 }
 
+function getArrayCookie(name) {
+  // Split all cookies into an array of "name=value" strings
+  const cookies = document.cookie.split(";");
+
+  // Loop through cookies to find the one with the matching name
+  for (let cookie of cookies) {
+    // Trim whites[0]pace and split into name/value
+    const [cookieName, cookieValue] = cookie.trim().split("=");
+
+    // If the name matches, decode and parse the value
+    if (cookieName === name) {
+      try {
+        // Decode URI and parse JSON
+        return JSON.parse(decodeURIComponent(cookieValue));
+      } catch (error) {
+        // Handle invalid JSON (e.g., manually modified cookie)
+        console.error("Failed to parse cookie:", error);
+        return null;
+      }
+    }
+  }
+
+  // Return null if cookie not found
+  return null;
+}
+
 function checkCookie(cname) {
   let anti = getCookie(cname)
   if (anti != '') {
     console.log(
-      tes + 'Found cookie \'' + cname + '\' with value \'' + getCookie(cname) + '\''
+      tes[0] + 'Found cookie \'' + cname + '\' with value \'' + getCookie(cname) + '\''
     )
     return 'success!'
   } else {
-    errorMessage(tes + 'Couldn\'t find cookie ' + cname)
+    errorMessage(tes[0] + 'Couldn\'t find cookie ' + cname)
     return 'error'
   }
 }
 
-// function fetchJSONData(jsonFile="./test.json") {
+function checkArrayCookie(cname) {
+  let anti = getArrayCookie(cname)
+  if (anti != null) {
+    console.log(
+      tes[0] + 'Found cookie \'' + cname + '\' with value \'' + getArrayCookie(cname) + '\''
+    )
+    return 'success!'
+  } else {
+    errorMessage(tes[0] + 'Couldn\'t find cookie \'' + cname + '\'')
+    return 'error'
+  }
+}
+
+// function fetchJSONData(jsonFile="./tes[0]t.json") {
 //   fetch(jsonFile)
 //     .then(response => {
 //       if (!response.ok) {
@@ -64,7 +125,7 @@ function checkCookie(cname) {
 // }
 
 function start(content = ['wtf'], doCookies = true, doX = false, doY = true) {
-  var page = window.location.pathname + ' - '
+  const page = window.location.pathname + ' - '
   const showSlide = n => {
     document.getElementById('story').innerHTML = content[n]
   }
@@ -294,7 +355,7 @@ function word_count(paras = 'background') {
   contents = contents.trim()
   contents = contents.replace(/<[^>]*>?/gm, '');
   char = contents.length
-  console.log(tes + count + ' words, ' + char + ' characters');
+  console.log(tes[0] + count + ' words, ' + char + ' characters');
 }
 
 function wordcount(paras = 'background') {
@@ -325,22 +386,25 @@ function stripHtml(html)
 
 function vol(video_volume = 0.1, audio_volume = 0.75) {
   const video = document.querySelectorAll('video');
-  video.forEach(element => element.volume = video_volume)
-  const audio = document.querySelectorAll('.audio');
+  video.forEach(element => element.volume = video_volume
+
+  )
+  video.forEach(element => element.addEventListener('pause', () => setCookie(element + 'time', element.currentTime)))
+  const audio = document.querySelectorAll('audio');
   audio.forEach(element => element.volume = audio_volume)
 }
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/sw.js')
   .then(function(registration) {
-    console.log(tes + 'Service Worker registered with scope:', registration.scope);
+    console.log(tes[0] + 'Service Worker registered with scope:', registration.scope);
   }).catch(function(error) {
-    console.log(tes + 'Service Worker registration failed:', error);
+    console.log(tes[0] + 'Service Worker registration failed:', error);
   });
 }
 
 function colorTrace(msg, color='red') {
-    console.log("%c" + msg, "color:" + color + ";font-weight:bold;");
+    console.log("%c" + msg, "color:" + color + "; font-weight:bolder;");
 }
 
 function errorMessage(msg) {
