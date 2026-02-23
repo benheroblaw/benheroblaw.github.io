@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/icons/favicon-2.png">
+    <script src="/script.js"></script>
+    </head>
+<title>music</title>
+<html>
+        <body class="centerList" onload='vol(0, 0.1)'>
+        <!-- <video controls width="30%" height="25%" src=""></video>
+        <a href=""><img width="10%" height="10%" src=""></a>
+        <audio controls src=""></audio><br> -->
+        <div id="greenday"></div>
+        <div id="ultrakill"></div>
+        <div id="other"></div>
+    </body>
+</html>
+
+<script>
+    let greenday = [
+        'American Idiot',
+        'American Idiot - Demo',
+        'American Idiot (Alt. Version) - Demo',
+        'american idiot - kasane teto (green day cover)',
+        'American Idiot  (Album Mix) ft. Kasane Teto SV2[SynthV Cover]',
+        'American Idiot ft. Kasane Teto[SynthV Cover]',
+        'Longview',
+        'Basket Case',
+    ]
+
+    let ultrakill = [
+        'Order',
+        'Versus',
+        'Duel (Versus Reprise)',
+    ]
+
+    let other = [
+        'Smells Like Teen Spirit - Kasane Teto Cover   SynthV (Nirvana)',
+        'Free Bird',
+        'Back In Black',
+        'Highway to Hell',
+        'Crazy Train'
+    ]
+
+    for (i in greenday) {
+        let a = document.createElement('audio')
+        a.controls = true
+        a.src = '/music/green day/' + greenday[i] + '.mp3'
+        a.title = greenday[i]
+        document.getElementById('greenday').appendChild(a)
+    }
+    for (i in ultrakill) {
+        let a = document.createElement('audio')
+        a.controls = true
+        a.src = '/music/ultrakill/' + ultrakill[i] + '.mp3'
+        a.title = ultrakill[i]
+        document.getElementById('ultrakill').appendChild(a)
+    }
+    for (i in other) {
+        let a = document.createElement('audio')
+        a.controls = true
+        a.src = '/music/' + other[i] + '.mp3'
+        a.title = other[i]
+        document.getElementById('other').appendChild(a)
+    }
+</script>
+
+<style>
+    #other, #ultrakill, #greenday {
+        display: inline-block;
+        max-width: 30%;
+        align-items: center;
+        text-align: justify;
+        margin: auto;
+    }
+    #ultrakill {
+        text-align: center;
+    }
+    #other {
+        text-align: right;
+    }
+    audio {
+        display: inline-block;
+    }
+</style>

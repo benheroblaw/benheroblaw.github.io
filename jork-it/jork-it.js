@@ -31,11 +31,12 @@ function jork() {
   let upgrades = Number(getArrayCookie(path + 'upgrades'))
   let vibePrice = Number(getCookie(path + 'vibePrice'))
   let arousal = Number(getCookie(path + upgrades).length)
-  let jorkpower = (vibes + 1) * arousal
+  if (arousal === 0) {arousal=1}
+  let jorkpower = 1+ (vibes * 0.25) * arousal
 
 
   document.getElementById('counter').innerHTML = Math.round(jorks) + ' jorks'
-  document.getElementById('vibePrice').innerHTML = vibePrice
+  document.getElementById('vibePrice').innerHTML = '<img src="/jork-it/jork.png" alt="">' + vibePrice
         document.getElementById('vibes').innerHTML = vibes
   document.getElementById('jorker').addEventListener('click', () => {
     jorks = Number(getCookie(path + 'jorks'))
@@ -66,9 +67,9 @@ document.getElementById('reset').addEventListener('click', () => {
         vibes++
         if (debug) {console.log(vibes)}
         jorks -= vibePrice
-        vibePrice = Math.round(vibePrice / 0.75)
+        vibePrice += Math.round(vibePrice / 5 * 0.8)
         jorkpower = (vibes * 1.5)
-        document.getElementById('vibePrice').innerHTML = vibePrice
+        document.getElementById('vibePrice').innerHTML = '<img src="/jork-it/jork.png" alt="">' + vibePrice
         document.getElementById('vibes').innerHTML = vibes
         if (debug) {console.log(jorks)}
         setCookie(path + 'vibes', vibes, debug)
@@ -105,6 +106,5 @@ const viber = async () => {
 const achieves = async () => {
   while (true) {
     await delay(100)
-
   }
 }

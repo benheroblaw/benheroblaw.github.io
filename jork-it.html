@@ -4,28 +4,34 @@
     <link rel="icon" href="/icons/favicon.png">
     <script src="/script.js"></script>
     <script src="/jork-it/jork-it.js"></script>
-    </head>
-    <title>jork it clicker</title>
-    <html>
-        <body onload="jork()">
-            <div id="top">loading...</div>
-            <div class="left">
-                <div id="counter"></div>
-                <div id="jork-container"><img draggable="false" id="jorker" src="/jork-it/jork.svg"></div>
-            </div>
-            <div class="center">
-                <button id="reset">reset</button>
-            </div>
-            <div class="right">
-                <div class='toptext'>
-                    <div class="upgrade-container">
-                        <div class="upgrade"><img src="/jork-it/lube.png" id="lube"></div>
+</head>
+<title>jork it clicker</title>
+<html>
+    <body onload="jork()">
+        <div id="top">loading...</div>
+        <div class="left">
+            <div id="counter"></div>
+            <div id="jork-container"><img draggable="false" id="jorker" src="/jork-it/jork.svg"></div>
+        </div>
+        <div class="center">
+            <button id="reset">reset</button>
+        </div>
+        <div class="right">
+            <div class='toptext'>
+                <div class="upgrade-container">
+                    <div class="upgrade tooltip">
+                        <img draggable="false" src="/jork-it/lube.png" id="lube">
+                        <div class="tooltiptext">Lube.</div>
                     </div>
                 </div>
-                <div class="item-container">
-                    <div class="item" id="vibe">vibrator<div id="vibes"></div><div id="vibePrice"></div></div>
-                    <div class="item" >idk</div>
-                </div>
             </div>
-        </body>
-    </html>
+            <div class="item-container">
+                <div class="item tooltip" id="vibe">vibrator
+                    <span class="tooltiptext">Vibrates.<br>What did you expect?<br><i>Adds 1 jork per second and 0.5 click power</i></span>
+                    <div id="vibes"></div><div id="vibePrice"></div>
+                </div>
+                <div class="item tooltip">idk<span class="tooltiptext">idk dude</span></div>
+            </div>
+        </div>
+    </body>
+</html>
