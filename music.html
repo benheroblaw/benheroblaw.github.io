@@ -13,6 +13,7 @@
         <div id="greenday"></div>
         <div id="ultrakill"></div>
         <div id="other"></div>
+        <div id="calamity"></div>
     </body>
 </html>
 
@@ -42,6 +43,11 @@
         'Crazy Train'
     ]
 
+    let calamity = [
+        'Roar of the Jungle Dragon',
+        'Scourge of the Universe'
+    ]
+
     for (i in greenday) {
         let a = document.createElement('audio')
         a.controls = true
@@ -63,23 +69,20 @@
         a.title = other[i]
         document.getElementById('other').appendChild(a)
     }
+    for (i in calamity) {
+        let a = document.createElement('audio')
+        a.controls = true
+        a.src = '/music/calamity/' + calamity[i] + '.mp3'
+        a.title = calamity[i]
+        document.getElementById('calamity').appendChild(a)
+    }
 </script>
 
 <style>
-    #other, #ultrakill, #greenday {
+    #other, #ultrakill, #greenday, #calamity {
         display: inline-block;
-        max-width: 30%;
+        max-width: 25%;
         align-items: center;
-        text-align: justify;
-        margin: auto;
-    }
-    #ultrakill {
         text-align: center;
-    }
-    #other {
-        text-align: right;
-    }
-    audio {
-        display: inline-block;
     }
 </style>
