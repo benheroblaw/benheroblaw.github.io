@@ -6,13 +6,14 @@
     </head>
 <title>music</title>
 <html>
-    <body class="centerList" onload="audio(greenday, 'greenday'); audio(other, 'other'); audio(ultrakill, 'ultrakill'); audio(calamity, 'calamity'); audio(teto, 'teto'); vol(0, 0.1); document.body.volume = 0.5">
+    <body class="centerList" onload="audio(greenday, 'greenday'); audio(other, 'other'); audio(ultrakill, 'ultrakill'); audio(calamity, 'calamity'); audio(teto, 'teto'); audio(anime, 'anime'); vol(0, 0.1); document.body.volume = 0.5">
         <div id="playlist"><audio id="player" controls onplay="doPlaylist();"></audio></div><br>
         <div id="greenday" title="Green Day"></div>
         <div id="ultrakill" title="Ultrakill"></div>
         <div id="other" title="other"></div>
-        <div id="calamity" title="Calamity: Tale of A Cruel World"></div>
+        <div id="calamity" title="Calamity: The Tale of A Cruel World"></div>
         <div id="teto" title="tato"></div>
+        <div id="anime" title="Anime Intros"></div>
     </body>
 </html>
 
@@ -20,10 +21,12 @@
     function audio(id, location='') {
         for (i in id) {
             let a = document.createElement('audio')
+            let br = document.createElement('br')
             a.controls = true
             a.src = '/music/' + id[i] + '.mp3'
             a.title = id[i]
             document.getElementById(location).appendChild(a)
+            document.getElementById(location).appendChild(br)
         }
     }
     function doPlaylist(){
@@ -45,24 +48,52 @@
     let teto = [
         'BIRDBRAIN',
         'KILLSWITCH',
+        'MINIMUM RAGE',
         'Smells Like Teen Spirit - Kasane Teto Cover   SynthV (Nirvana)',
         'american idiot - kasane teto (green day cover)',
-        'American Idiot  (Album Mix) ft. Kasane Teto SV2[SynthV Cover]',
         'American Idiot ft. Kasane Teto[SynthV Cover]',
+        'American Idiot  (Album Mix) ft. Kasane Teto SV2[SynthV Cover]',
+        'God Only Knows',
+        'You Make Me Sick',
+        'IRIS OUT (feat. KASANE TETO) - Teto Cover',
+        'Brain Implosion Energy Drink',
+        'Heart Stealing Girl',
+        'WILDCARD',
     ]
 
     let greenday = [
         'American Idiot',
         'American Idiot - Demo',
         'American Idiot (Alt. Version) - Demo',
-        'american idiot - kasane teto (green day cover)',
-        'American Idiot  (Album Mix) ft. Kasane Teto SV2[SynthV Cover]',
-        'American Idiot ft. Kasane Teto[SynthV Cover]',
-        'Longview',
-        'Basket Case',
         'Jesus of Suburbia',
-        'Homecoming',
+        'Holiday',
+        'Boulevard of Broken Dreams',
+        'Are We the Waiting',
+        'St. Jimmy',
+        'Give Me Novacaine',
+        'She\'s a Rebel',
+        'Extraordinary Girl',
         'Letterbomb',
+        'Wake Me Up When September Ends',
+        'Homecoming',
+        'Whatsername',
+
+        'Burnout',
+        'Having a Blast',
+        'Chump',
+        'Longview',
+        'Welcome to Paradise',
+        'Pulling Teeth',
+        'Basket Case',
+        'She',
+        'Sassafras Roots',
+        'When I Come Around',
+        'Coming Clean',
+        'Emenius Sleepus',
+        'In the End',
+        'F.O.D.',
+
+        'Brain Stew',
     ]
 
     let ultrakill = [
@@ -72,7 +103,6 @@
     ]
 
     let other = [
-        'Smells Like Teen Spirit - Kasane Teto Cover   SynthV (Nirvana)',
         'Free Bird',
         'Back In Black',
         'Highway to Hell',
@@ -83,6 +113,15 @@
         'Roar of the Jungle Dragon',
         'Scourge of the Universe',
         'Infestation',
+        'Blood Coagulant',
+    ]
+
+    let anime = [
+        'AIZO',
+        'Bling-Bang-Bang-Born',
+        'KICK BACK',
+        'IRIS OUT',
+        'IRIS OUT (feat. KASANE TETO) - Teto Cover',
     ]
 
     let playlist = [
@@ -94,9 +133,14 @@
 </script>
 
 <style>
+    body {
+        margin: 0px;
+        text-align: center;
+    }
+
     div {
         display: inline-block;
-        width: 25vw;
+        width: 95vw;
         height: 25vw;
         align-items: center;
         text-align: center;
@@ -106,16 +150,20 @@
         overflow: auto;
     }
 
+    audio {
+        width: 100%;
+    }
+
     #teto {
-        background: linear-gradient(#f00, #a00);
+        background: linear-gradient(#f00, #500);
     }
 
     #greenday {
-        background: linear-gradient(#3f3, #5a5);
+        background: linear-gradient(#5a5, #3f3);
     }
 
     #calamity {
-        background: linear-gradient(aqua, #a0f);
+        background: linear-gradient(#555, aqua, #a0f, #555);
     }
 
     #ultrakill {
@@ -124,6 +172,10 @@
 
     #other {
         background: gray;
+    }
+
+    #anime {
+        background: 0;
     }
 
     #playlist {
