@@ -7,15 +7,17 @@
     <link href='https://fonts.googleapis.com/css?family=Allan|Alegreya Sans SC|Almendra Display|Aguafina Script|Amatic SC' rel='stylesheet'>
     <script src="/script.js"></script>
     <script src="./text.js"></script>
-    <script src='https://prokid99999.github.io/text.js'></script>
     <script src='http://localhost:2009/text.js'></script>
+    <script src='https://prokid99999.github.io/text.js'></script>
 </head>
 <style>
     #prev, #prev1 {text-align: left; display: none;}
     #next, #next1 {text-align: right; display: none;}
+
     h1 {color: white;}
     .space {display: flex; justify-content: space-between;}
     h2 {color: white; background: #000; font-size: 3rem; margin: 0%; padding: 0%; font-family: 'Courier New', Courier, monospace;}
+
     .noza, .Noza {color: green; text-shadow: 0px 0px 15px #0a0;}
     .airn, .Airn {color: azure; text-shadow: 0px 0px 15px #0af;}
     .mina, .Mina {color: deeppink; text-shadow: 0px 0px 15px blueviolet;}
@@ -34,7 +36,10 @@
 
     .vampire, .Vampire {color: #fff; text-shadow: 0px 0px 15px #ff0000;}
 
-    .chainsaw {color: gray; text-shadow: 0px 0px 15px #f00; font-family: Impact;}
+    .chainsaw {color: gray; text-shadow: 0px 0px 15px #f00;}
+
+    .miku, .Miku {color: #00ff9b; text-shadow: 0px 0px 15px #009bff;}
+    .teto, .Teto {color: #f66; text-shadow: 0px 0px 15px #f00;}
 
     @media (prefers-color-scheme: light) {
         button {color: black; background-color: white;}
@@ -44,7 +49,7 @@
     }
 </style>
 <script>
-    const reset = ['<span style=\"color: white;\"><br>im gonna rip my<br>your fucking dick off<br>&NonBreakingSpace;&NonBreakingSpace;/<br>:}c</span>']
+    const reset = ['<span style=\"color: white;\"><br>im gonna rip my<br>your fucking dick off<br>&NonBreakingSpace;&NonBreakingSpace;/<br>:&rang;c</span>']
 </script>
 <html>
     <body onload="startStory(reset)">
@@ -54,18 +59,18 @@
         <span style="font-family: 'Aguafina Script';"></span>
         <span style="font-family: 'Amatic SC';"></span>
         <span style="font-family: 'Chainsaw';"></span>
-        <br>
         <div style="padding-top: 0.5rem;">
-            <button class="noza" style="background-color: #111; margin-bottom: 0.5rem;" onclick="startStory(earth)">Please the Earth</button>
+            <button class="noza" style="background-color: #111; margin-bottom: 0.25rem;" onclick="startStory(earth)">Please the Earth</button>
             <button class="void" style="background-color: #111;" onclick="startStory(abyss)">Calm the Void</button>
             <button class="nobody" style="background-color: #111;" onclick="startStory(nothing)">Slay Nobody</button>
             <button class="vio" style="background-color: #111;" onclick="startStory(voidling)">Voidling</button>
-            <button style="font-family: 'Lucida Console', monospace;" onclick="startStory(dms)">dms</button>
+            <button style="font-family: 'Lucida Console', monospace;" onclick="startStory(dms)">dms</button><br>
+            <button style="background-color: #111; margin-bottom: 0.25rem;" onclick="startStory(fanfic)">fanfic</button>
             <button id="senran" onclick="startStory(senran)">Senran Kagura!</button>
             <button onclick="startStory(kiamei_hypno)">KiaMei Hypnosis</button>
-            <button onclick="startStory(fanfic)">fanfic</button>
             <button class='chainsaw' onclick="startStory(chainsaw)">CHAINSAW WOMAN</button>
-        <br><br>
+            <button style="color: #00ffff; border-color: #7f0000; text-shadow: 0px 0px 15px #00ff9b;" onclick="startStory(mikuteto_jjk)">mikuteto jjk</button>
+        <br>
             <button onclick="startStory(template)">template</button>
             <button onclick="startStory(unfinished)">unfinished</button>
             <button onclick="startStory(reset)">reset</button>
@@ -77,7 +82,7 @@
             <div style="text-align: right;"><button id="next">Next &gt;</button></div>
         </div>
             <div id="story">
-                <span style="color: white;"><br>im gonna rip my<br>your fucking dick off<br>&NonBreakingSpace;&NonBreakingSpace;<br>:}c</span>
+                <span style="color: white;"><br>im gonna rip my<br>your fucking dick off<br>&NonBreakingSpace;&NonBreakingSpace;/<br>:&rang;c</span>
             </div><br>
         <div class="space">
             <div><button id="prev1">&lt; Previous</button></div>
