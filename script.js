@@ -1,3 +1,12 @@
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js')
+  .then(function(registration) {
+    console.log(tes[0] + 'Service Worker registered with scope:', registration.scope);
+  }).catch(function(error) {
+    console.log(tes[0] + 'Service Worker registration failed:', error);
+  });
+}
+
 var program = [
     '(^///^) ',
     "(o///o) ",
@@ -392,15 +401,6 @@ function vol(video_volume = 0.1, audio_volume = 0.75) {
   video.forEach(element => element.addEventListener('pause', () => setCookie(element + 'time', element.currentTime)))
   const audio = document.querySelectorAll('audio');
   audio.forEach(element => element.volume = audio_volume)
-}
-
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js')
-  .then(function(registration) {
-    console.log(tes[0] + 'Service Worker registered with scope:', registration.scope);
-  }).catch(function(error) {
-    console.log(tes[0] + 'Service Worker registration failed:', error);
-  });
 }
 
 function colorTrace(msg, color='red') {

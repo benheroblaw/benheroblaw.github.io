@@ -1,3 +1,4 @@
+hony = [';3 < ', ';//3 < ', '://3 < ']
 
 const path = 'jorking - '
 
@@ -60,6 +61,19 @@ document.getElementById('reset').addEventListener('click', () => {
         document.getElementById('vibes').innerHTML = vibes
 })
 
+const move = document.getElementById("move");
+
+document.body.onpointermove = event => {
+    const { clientX, clientY } = event;
+
+    move.animate({
+        left: '${clientX}px',
+        top: '${clientY}px'
+
+    }, {duration: 1000, fill: "forwards"})
+
+}
+
   document.getElementById('vibe').addEventListener('click', () => {
     vibes = Number(getCookie(path + 'vibes'))
     jorks = Number(getCookie(path + 'jorks'))
@@ -88,7 +102,7 @@ document.getElementById('reset').addEventListener('click', () => {
   document.getElementById('top').style.display = 'none'}
 
 const viber = async () => {
-  console.log('starting viber')
+  console.log(hony[0]+'starting viber')
   let jorks = Number(getCookie(path + 'jorks'))
   let vibes = Number(getCookie(path + 'vibes'))
   while (vibes != 0) {
@@ -100,7 +114,7 @@ const viber = async () => {
     setCookie(path + "alljorks", alljorks += 1, debug)
     document.getElementById('counter').innerHTML = Math.round(jorks) + ' jorks'
   }
-  if (vibes === 0) {console.log('stopping viber')}
+  if (vibes === 0) {console.log(hony[0]+'stopping viber')}
 }
 
 const achieves = async () => {
