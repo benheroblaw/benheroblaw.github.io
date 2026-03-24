@@ -19,7 +19,7 @@ var program = [
     '(u///u) ',
 ]
 
-var tes = ["(o ^ o) ", "(- ^ -)"]
+var tes = ["(o ^ o) ", "(- ^ -) "]
 
 function setCookie(cname, cvalue, output = true, exdays = 365) {
   const d = new Date();
@@ -103,7 +103,7 @@ function checkCookie(cname) {
     )
     return 'success!'
   } else {
-    errorMessage(tes[0] + 'Couldn\'t find cookie ' + cname)
+    errorMessage('Couldn\'t find cookie ' + cname)
     return 'error'
   }
 }
@@ -116,7 +116,7 @@ function checkArrayCookie(cname) {
     )
     return 'success!'
   } else {
-    errorMessage(tes[0] + 'Couldn\'t find cookie \'' + cname + '\'')
+    errorMessage('Couldn\'t find cookie \'' + cname + '\'')
     return 'error'
   }
 }
@@ -135,7 +135,7 @@ function checkArrayCookie(cname) {
 
 function start(content = ['wtf'], doCookies = true, doX = false, doY = true) {
   const page = window.location.pathname + ' - '
-  const showSlide = n => {
+  const showSlide = (n) => {
     document.getElementById('story').innerHTML = content[n]
   }
 
@@ -192,6 +192,10 @@ function start(content = ['wtf'], doCookies = true, doX = false, doY = true) {
     )
   }
   function next() {
+    var videoElement = document.querySelectorAll('video')
+    try {videoElement.pause();} catch (TypeError) {errorMessage('no videos')}
+    try {videoElement.removeAttribute('src');} catch (TypeError) {errorMessage('no videos')}
+    try {videoElement.load();} catch (TypeError) {errorMessage('no videos')}
       index = (index + 1) % content.length
       if (index + 1 >= content.length) {
         document.getElementById('next').style.display = 'none'
@@ -213,6 +217,10 @@ function start(content = ['wtf'], doCookies = true, doX = false, doY = true) {
       char()
     }
   function prev() {
+    var videoElement = document.querySelectorAll('video')
+    try {videoElement.pause();} catch (TypeError) {errorMessage('no videos')}
+    try {videoElement.removeAttribute('src');} catch (TypeError) {errorMessage('no videos')}
+    try {videoElement.load();} catch (TypeError) {errorMessage('no videos')}
       index = (index + content.length - 1) % content.length
       if (index === 0) {
         document.getElementById('prev').style.display = 'none'
@@ -285,7 +293,7 @@ function start(content = ['wtf'], doCookies = true, doX = false, doY = true) {
 
 var startNumber = 0
 
-function startStory(content=['wtf']) {
+function startStory(content=['wtf'], doCookies=true, doX=false, doY=true) {
   var s = document.createElement('script');
   s.id = 'text'
   if (startNumber === 0) {
@@ -293,25 +301,25 @@ function startStory(content=['wtf']) {
     document.body.appendChild(s);
     startNumber++
     document.getElementById('text').remove()
-    startStory(content)
+    startStory(content, doCookies, doX, doY)
   }
   else if (startNumber === 1) {
     s.src = 'https://prokid99999.github.io/text.js';
     document.body.appendChild(s);
     startNumber++
     document.getElementById('text').remove()
-    startStory(content)
+    startStory(content, doCookies, doX, doY)
   }
   else if (startNumber === 2) {
     s.src = 'http://localhost:2009/text.js';
     document.body.appendChild(s);
     startNumber++
     document.getElementById('text').remove()
-    startStory(content)
+    startStory(content, doCookies, doX, doY)
   }
   else if (startNumber === 3) {
     startNumber = 0
-    start(content)
+    start(content, doCookies, doX, doY)
   }
 }
 
@@ -396,9 +404,9 @@ function stripHtml(html)
 function vol(video_volume = 0.1, audio_volume = 0.75) {
   const video = document.querySelectorAll('video');
   video.forEach(element => element.volume = video_volume
-
   )
   video.forEach(element => element.addEventListener('pause', () => setCookie(element + 'time', element.currentTime)))
+  video.forEach(element => element.preload = 'none')
   const audio = document.querySelectorAll('audio');
   audio.forEach(element => element.volume = audio_volume)
 }
@@ -408,5 +416,47 @@ function colorTrace(msg, color='red') {
 }
 
 function errorMessage(msg) {
-  colorTrace(msg, 'red')
+  colorTrace(tes[1] + msg, 'red')
 }
+
+const video = document.querySelectorAll('video')
+document.addEventListener('loadstart', video.forEach(element => element.preload = 'none'))
+
+function addSidebar(sidebar=pornSidebar) {
+  try {document.getElementById('sidebar').innerHTML = sidebar}
+  catch (Error) {errorMessage('no sidebar')}
+}
+
+const pornSidebar = '\
+  <h1><a href="/r34/r34.html"><span style="color: white;">prawns</span></a></h1>\
+  <a href="all.html" class="red"><span>all</span></a><br>\
+  <a class="blue" href="assets.html"><span>assets</span></a><br>\
+  <a href="coolart.html" class="blue"><span>Artists</span></a><br>\
+  <br>\
+  \
+  <a class="blue" href="comics.html"><span>Comics</span></a><br><br>\
+  <a href="hoyo.html" class="blue"><span>Hoyoverse</span></a><br>\
+  <a class="blue" href="mario.html"><span>Mario</span></a><br>\
+  <a class="blue" href="miku.html"><span>Miku</span></a><br>\
+  <a class="blue" href="Overwatch.html"><span>Overwatch</span></a><br>\
+  <a class="blue" href="other.html"><span>Other</span></a><br>\
+  <a class="blue" href="irl.html"><span>IRL</span></a><br>\
+  <a class="blue" href="pokemon.html"><span>Pokemon</span></a><br>\
+  <a class="blue" href="rouge.html"><span>Rouge the Bat</span></a><br>\
+  <a class="blue" href="roblox.html"><span>Roblox</span></a><br>\
+  <a class="blue" href="./terraria.html"><span>Terraria</span></a><br><br>\
+  <a class="blue" href="audio.html"><span>Audio</span></a><br>\
+  <a class="blue" href="./shibby.html"><span>shibby</span></a><br><br>\
+  \
+  <a class="hidden", style="color: #111;" href="files.html">Files</a>\
+'
+
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelectorAll('video').forEach(element => element.preload = 'none')
+  vol(0.1, 0.1)
+  addSidebar(pornSidebar)
+})
+
+document.addEventListener("onload", function() {
+  ''
+})
