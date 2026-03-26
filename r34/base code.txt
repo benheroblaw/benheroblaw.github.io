@@ -8,8 +8,8 @@ Default
         <title>MAKE A DAMN TITLE</title>
         <html>
             <body class="centerList" onload='vol()'>
-            <!-- <video preload="none" controls width="30%" height="25%" src="">no porn for you :(</video>
-            <a href=""><img width="10%" height="10%" src=""></a> -->
+            <!-- <video preload="none" controls height="25%" src="">no porn for you :(</video>
+            <a href=""><img height="10%" src=""></a> -->
         </body>
         </html>
 Aspect Ratios

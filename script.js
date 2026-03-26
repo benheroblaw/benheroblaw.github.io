@@ -425,10 +425,14 @@ document.addEventListener('loadstart', video.forEach(element => element.preload 
 function addSidebar(sidebar=pornSidebar, viewerSidebar='', sidebar3='') {
   try {document.getElementById('sidebar').innerHTML = sidebar}
   catch (Error) {errorMessage('no sidebar')}
-  try {document.getElementById('sidebar2').innerHTML = viewerSidebar}
-  catch (Error) {errorMessage('no 2nd sidebar')}
-  try {document.getElementById('sidebar3').innerHTML = sidebar3}
-  catch (Error) {errorMessage('no 3rd sidebar')}
+  if (viewerSidebar != '') {
+    try {document.getElementById('sidebar2').innerHTML = viewerSidebar}
+    catch (Error) {errorMessage('no 2nd sidebar')}
+  }
+  if (sidebar3 != '') {
+    try {document.getElementById('sidebar3').innerHTML = sidebar3}
+    catch (Error) {errorMessage('no 3rd sidebar')}
+  }
 }
 
 const pornSidebar = '\
