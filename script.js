@@ -193,9 +193,9 @@ function start(content = ['wtf'], doCookies = true, doX = false, doY = true) {
   }
   function next() {
     var videoElement = document.querySelectorAll('video')
-    try {videoElement.pause();} catch (TypeError) {errorMessage('no videos')}
-    try {videoElement.removeAttribute('src');} catch (TypeError) {errorMessage('no videos')}
-    try {videoElement.load();} catch (TypeError) {errorMessage('no videos')}
+    try {videoElement.forEach(element => element.pause())} catch (TypeError) {errorMessage('no videos')}
+    try {videoElement.forEach(element => element.removeAttribute('src'))} catch (TypeError) {errorMessage('no videos')}
+    try {videoElement.forEach(element => element.load())} catch (TypeError) {errorMessage('no videos')}
       index = (index + 1) % content.length
       if (index + 1 >= content.length) {
         document.getElementById('next').style.display = 'none'
@@ -218,9 +218,9 @@ function start(content = ['wtf'], doCookies = true, doX = false, doY = true) {
     }
   function prev() {
     var videoElement = document.querySelectorAll('video')
-    try {videoElement.pause();} catch (TypeError) {errorMessage('no videos')}
-    try {videoElement.removeAttribute('src');} catch (TypeError) {errorMessage('no videos')}
-    try {videoElement.load();} catch (TypeError) {errorMessage('no videos')}
+    try {videoElement.forEach(element => element.pause())
+    videoElement.forEach(element => element.removeAttribute('src'))
+    videoElement.forEach(element => element.load())} catch (TypeError) {errorMessage('no videos')}
       index = (index + content.length - 1) % content.length
       if (index === 0) {
         document.getElementById('prev').style.display = 'none'
@@ -422,9 +422,13 @@ function errorMessage(msg) {
 const video = document.querySelectorAll('video')
 document.addEventListener('loadstart', video.forEach(element => element.preload = 'none'))
 
-function addSidebar(sidebar=pornSidebar) {
+function addSidebar(sidebar=pornSidebar, viewerSidebar='', sidebar3='') {
   try {document.getElementById('sidebar').innerHTML = sidebar}
   catch (Error) {errorMessage('no sidebar')}
+  try {document.getElementById('sidebar2').innerHTML = viewerSidebar}
+  catch (Error) {errorMessage('no 2nd sidebar')}
+  try {document.getElementById('sidebar3').innerHTML = sidebar3}
+  catch (Error) {errorMessage('no 3rd sidebar')}
 }
 
 const pornSidebar = '\
@@ -434,27 +438,41 @@ const pornSidebar = '\
   <a href="coolart.html" class="blue"><span>Artists</span></a><br>\
   <br>\
   \
-  <a class="blue" href="comics.html"><span>Comics</span></a><br><br>\
-  <a href="hoyo.html" class="blue"><span>Hoyoverse</span></a><br>\
-  <a class="blue" href="mario.html"><span>Mario</span></a><br>\
-  <a class="blue" href="miku.html"><span>Miku</span></a><br>\
-  <a class="blue" href="Overwatch.html"><span>Overwatch</span></a><br>\
-  <a class="blue" href="other.html"><span>Other</span></a><br>\
-  <a class="blue" href="irl.html"><span>IRL</span></a><br>\
-  <a class="blue" href="pokemon.html"><span>Pokemon</span></a><br>\
-  <a class="blue" href="rouge.html"><span>Rouge the Bat</span></a><br>\
-  <a class="blue" href="roblox.html"><span>Roblox</span></a><br>\
-  <a class="blue" href="./terraria.html"><span>Terraria</span></a><br><br>\
-  <a class="blue" href="audio.html"><span>Audio</span></a><br>\
-  <a class="blue" href="./shibby.html"><span>shibby</span></a><br><br>\
+  <a class="blue" href="/r34/comics.html"><span>Comics</span></a><br><br>\
+  <a href="/r34/hard-degen.html" class="blue"><span>Hard Degenerate</span></a><br>\
+  <a href="/r34/hoyo.html" class="blue"><span>Hoyoverse</span></a><br>\
+  <a class="blue" href="/r34/mario.html"><span>Mario</span></a><br>\
+  <a class="blue" href="/r34/miku.html"><span>Miku</span></a><br>\
+  <a class="blue" href="/r34/Overwatch.html"><span>Overwatch</span></a><br>\
+  <a class="blue" href="/r34/other.html"><span>Other</span></a><br>\
+  <a class="blue" href="/r34/irl.html"><span>IRL</span></a><br>\
+  <a class="blue" href="/r34/pokemon.html"><span>Pokemon</span></a><br>\
+  <a class="blue" href="/r34/rouge.html"><span>Rouge the Bat</span></a><br>\
+  <a class="blue" href="/r34/roblox.html"><span>Roblox</span></a><br>\
+  <a class="blue" href="/r34/terraria.html"><span>Terraria</span></a><br><br>\
+  <a class="blue" href="/r34/audio.html"><span>Audio</span></a><br>\
+  <a class="blue" href="/r34/shibby.html"><span>shibby</span></a><br><br>\
   \
   <a class="hidden", style="color: #111;" href="files.html">Files</a>\
 '
 
+const pokemonSidebar = '\
+    <h1>Viewers</h1>\
+    <a href="/r34/pokemon/cynthia+houndoom-viewer.html">Cynthia x Houndoom</a>\
+'
+
+const mikuSidebar = '\
+    <h1>Viewers</h1>\
+    <a href="/r34/miku/miku_viewer.html">Miku Viewer</a><br>\
+    <a href="/r34/miku/migu_viewer.html">Migu Viewer</a><br>\
+    <a href="/r34/miku/mikgu.html">Mikgu Viewer</a><br>\
+    <a href="/r34/miku/ai-miku-viewer.html">idk</a><br>\
+'
+
 document.addEventListener("DOMContentLoaded", function() {
-  document.querySelectorAll('video').forEach(element => element.preload = 'none')
-  vol(0.1, 0.1)
   addSidebar(pornSidebar)
+  document.querySelectorAll('video').forEach(element => element.preload = 'metadata')
+  vol(0.1, 0.1)
 })
 
 document.addEventListener("onload", function() {

@@ -4,7 +4,7 @@ var voidling = [
     <h1 id='char' class='void'>???</h1> \
     <div class='background'> \
     <p>The void is warmer than you would think.</p> \
-    <p>It also hurts, makes you feel like every inch of your flesh is being ripped and torn and burned to ash. It makes your bones feel like they're being shattered into dust. The part of your brain that sends pain signals is varantly overloaded yet kept in pristine condition, so no matter how much it wants to burn and scratch itself to death you keep hurting. The void scrambles you into every possible configuration of atoms and soul while remembering exactly how to put you back the way you were.</p><br> \
+    <p>It also hurts, makes you feel like every inch of your flesh is being ripped and torn and burned to ash. It makes your bones feel like they're being shattered into dust. The part of your brain that sends pain signals is constantly overloaded yet kept in pristine condition, so no matter how much it wants to burn and scratch itself to death you keep hurting. The void scrambles you into every possible configuration of atoms and soul while remembering exactly how to put you back the way you were.</p><br> \
     <p>It's a prison.</p><br> \
     <p>Not for people like you and me.</p><br> \
     <p>Not something a human could comprehend.</p><br> \
@@ -312,8 +312,8 @@ var dms = [
     <p>[<span class='cin_color'>cin</span>]: sure</p> \
     <p>[<span class='cin_color'>cin</span>]: girl you dont have a cock????</p> \
     <p>[<span class='mint_color'>mint</span>]: ???????????</p> \
-    <p>[<span class='mint_color'>mint</span>]: yes i do..?</p> \
     <p>[<span class='vio_color'>vio</span>]: ill reail them anyway dickgead</p> \
+    <p>[<span class='mint_color'>mint</span>]: yes i do..?</p> \
     <p>[<span class='cin_color'>cin</span>]: *vio doesnt</p> \
     <p>[<span class='mint_color'>mint</span>]: >////></p> \
     <p>[<span class='_color'></span>]: </p> \
@@ -376,31 +376,31 @@ var unfinished = [
     \
     <h1 id='char' class='midpara cin'>Cin</h1> \
     <div class='background'> \
-    <p></p> \
+        <p>YESSSSSSSSSSS IT WORKS</p> \
     </div> \
     \
     <h1 class='midpara mint'>Mint</h1> \
-    <p></p> \
+    <div class='background'> \
+        <p></p> \
+        <p></p> \
+        <p></p> \
+        <p></p> \
+        <p></p> \
+        <p></p> \
+        <p></p> \
+        <p></p> \
+        <p></p> \
+        <p></p> \
+        <p></p> \
+        <p></p> \
+        <p></p> \
+        <p></p> \
+        <p></p> \
+        <p></p> \
+        <p></p> \
+        <p></p> \
+        <p></p> \
     </div> \
-    \
-    <p></p> \
-    <p></p> \
-    <p></p> \
-    <p></p> \
-    <p></p> \
-    <p></p> \
-    <p></p> \
-    <p></p> \
-    <p></p> \
-    <p></p> \
-    <p></p> \
-    <p></p> \
-    <p></p> \
-    <p></p> \
-    <p></p> \
-    <p></p> \
-    <p></p> \
-    <p></p> \
     ",
 
     "<link rel=\"icon\" href=\"/icons/mint.png\"> \
@@ -443,12 +443,12 @@ var unfinished = [
 var kiamei_hypno = ["<link rel='icon' href='icons/story.png'><br><embed src='/books/Falling_Like_A_Feather.pdf' style='width: 800px; height: 85vh'>", "<link rel='icon' href='icons/story.png'><br><embed src='/books/How_To_Train_Your_Kaslana.pdf' style='width: 800px; height: 85vh'>",]
 
 var fanfic = [
-    "<link rel='icon' href='icons/story.png'><br><embed src='/books/Falling_Like_A_Feather.pdf' style='width: 800px; height: 85vh'>",
-    "<link rel='icon' href='icons/story.png'><br><embed src='/books/How_To_Train_Your_Kaslana.pdf' style='width: 800px; height: 85vh'>",
-    "<link rel='icon' href='icons/story.png'><br><embed src='/books/Filled_to_the_brim.pdf' style='width: 800px; height: 85vh'>",
-    "<link rel='icon' href='icons/story.png'><br><embed src='/books/you_call_the_shots_babe.pdf' style='width: 800px; height: 85vh'>",
-    "<link rel='icon' href='icons/story.png'><br><embed src='/books/The_Glint_of_Wine_at_Midnight.pdf' style='width: 800px; height: 85vh'>",
-    "<link rel='icon' href='icons/story.png'><br><embed src='/books/My_Web_My_Pet_My_Rules.pdf' style='width: 800px; height: 85vh'>",
+    "<link rel='icon' href='icons/story.png'><title>Falling Like A Feather</title><br><embed src='/books/Falling_Like_A_Feather.pdf' style='width: 800px; height: 85vh'>",
+    "<link rel='icon' href='icons/story.png'><title>How To Train Your Kaslana</title><br><embed src='/books/How_To_Train_Your_Kaslana.pdf' style='width: 800px; height: 85vh'>",
+    "<link rel='icon' href='icons/story.png'><title>Filled to the brim</title><br><embed src='/books/Filled_to_the_brim.pdf' style='width: 800px; height: 85vh'>",
+    "<link rel='icon' href='icons/story.png'><title>you call the shots, babe</title><br><embed src='/books/you_call_the_shots_babe.pdf' style='width: 800px; height: 85vh'>",
+    "<link rel='icon' href='icons/story.png'><title>The Glint of Wine at Midnight</title><br><embed src='/books/The_Glint_of_Wine_at_Midnight.pdf' style='width: 800px; height: 85vh'>",
+    "<link rel='icon' href='icons/story.png'><title>My Web, My Pet, My Rules</title><br><embed src='/books/My_Web_My_Pet_My_Rules.pdf' style='width: 800px; height: 85vh'>",
 ]
 
 var hentai = ['<iframe width="544" height="408" src="https://www.onlyhentaistuff.com/embed/687" frameborder="0" allowfullscreen></iframe>']
@@ -466,6 +466,7 @@ var chainsaw = [
     <p>also mister power >:3</p> \
     <p>and miss aki :D</p> \
     <p>mister makima >:(</p> \
+    <p>miss kishibe :\\</p> \
     <p>katana woman >:(</p> \
     <p>sword woman :\\</p> \
     <p>quanxi does yaoi :D</p> \
@@ -479,9 +480,9 @@ var chainsaw = [
     1\
     </h1> \
     <div class='background'> \
-    <p>A tall figure walks down rows of apartments, counting the doors up to the number they were told. They wear a dark coat hemmed below their knees with the collar flipped up over their neck. It sways behind them as they walk, making their stride look uneven from a distance. If you got close enough to tell what they were wearing, you would want to clear out because they look like they're here on official business. Their outfit is very similar to the uniform that devil hunters wear, and devil hunters means devils. Less so here, considering a few tenants here get their paychecks from Public Safety.</p> \
+    <p>A tall figure walks down rows of apartments, counting the doors up to the number they were told. They wear a dark coat hemmed below their knees with the collar flipped up over their neck. It sways behind them as they walk, making their stride look uneven from a distance. If you got close enough to tell what they were wearing, you would want to clear out because they look like they're here on official business. Their outfit is very similar to the uniform that devil hunters wear, and devil hunters means devils. Less so here, considering a few tenants get their paychecks from Public Safety.</p> \
     <p>Their coat slaps against their legs, carried by the momentum of their stride. This should be the door they counted to.</p> \
-    <p>They give a few raps on the door, step back and glance around at the hallway. Their eyes catch on a hole in the roof, next to a collection of others. Red-brown covers the edges of what looks like punctures from the floor above. They flick their gaze down, matching dents in the concrete floor to the cavities above. Maybe they're being paranoid, but they feel something attacked something else in the space they are standing in.</p> \
+    <p>They give a few raps on the door, step back and glance around at the hallway. Their eyes catch on a hole in the roof, next to a collection of others. Red-brown covers the edges of what looks like punctures from the floor above. They flick their gaze down, matching small dents in the concrete floor to the cavities above. Maybe they're being paranoid, but they feel something attacked something else in the space they are standing in.</p> \
     <p>Muffled shouts snap their eyes to the door. Their body instinctively twists into a fighting stance before they relax, straightening back up and pointing their chest at the door.</p> \
     <p>Light spreads across the hallway as the door opens, revealing the person they were looking for.</p> \
     <p>\"Hey, Reze!\" Short blond hair, red eyes, and a set of pointed teeth revealed by a smile. They have to tilt their head up to meet their visitor's eyes. <i>Denji.</i> They rush forward to embrace Reze under their trench coat. Reze ruffles their hair and returns the hug.</p> \

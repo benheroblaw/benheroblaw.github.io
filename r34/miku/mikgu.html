@@ -6,6 +6,8 @@
 </head>
 <title>Miku Viewer</title>
 <body class="centerList" onload='vol()' style="margin: 0; width: 100vw;">
+        <div id="sidebar"></div>
+        <div id="sidebar2"></div>
     <!-- <img src="0f8a388730e546aef20990a60757adb8.jpeg" style="width: 15px;">
     <img src="aca37e5c7d3a15ee4ac3dae5fc397853.jpeg" style="width: 15px;">
     <img src="a621a25d706d16231608a19a8a76063e.jpeg" style="width: 15px;">
@@ -13,72 +15,30 @@
     <img src="d343cdd5c03c1692f12d1fc2d648cee8.jpeg" style="width: 15px;">
     <img src="b28ff04086d3a97c3acde2a8663a962b.jpeg" style="width: 15px;"> -->
     <img class="center" id="image" src="0f8a388730e546aef20990a60757adb8.jpeg">
-    <br>
+    <br style="font-size: 0.5rem;">
     <div class="pages">
     <button id="1" style="background-color: blue;" onclick="document.getElementById('image').src='0f8a388730e546aef20990a60757adb8.jpeg';
-         document.getElementById('1').style.backgroundColor='blue';
-         document.getElementById('2').style.backgroundColor = 'black';
-         document.getElementById('3').style.backgroundColor = 'black';
-         document.getElementById('4').style.backgroundColor = 'black';
-         document.getElementById('5').style.backgroundColor = 'black';
-         document.getElementById('6').style.backgroundColor = 'black';">Page 1</button>
+            document.querySelectorAll('button').forEach(element => element.style.backgroundColor = 'black')
+            document.getElementById('1').style.backgroundColor='blue';">Page 1</button>
     <button id="2" onclick="document.getElementById('image').src='aca37e5c7d3a15ee4ac3dae5fc397853.jpeg';
-         document.getElementById('1').style.backgroundColor='black';
-         document.getElementById('2').style.backgroundColor = 'blue';
-         document.getElementById('3').style.backgroundColor = 'black';
-         document.getElementById('4').style.backgroundColor = 'black';
-         document.getElementById('5').style.backgroundColor = 'black';
-         document.getElementById('6').style.backgroundColor = 'black';">Page 2</button>
+            document.querySelectorAll('button').forEach(element => element.style.backgroundColor = 'black')
+            document.getElementById('2').style.backgroundColor='blue';">Page 2</button>
     <button id="3" onclick="document.getElementById('image').src='a621a25d706d16231608a19a8a76063e.jpeg';
-         document.getElementById('1').style.backgroundColor='black';
-         document.getElementById('2').style.backgroundColor = 'black';
-         document.getElementById('3').style.backgroundColor = 'blue';
-         document.getElementById('4').style.backgroundColor = 'black';
-         document.getElementById('5').style.backgroundColor = 'black';
-         document.getElementById('6').style.backgroundColor = 'black';">Page 3</button>
+            document.querySelectorAll('button').forEach(element => element.style.backgroundColor = 'black')
+            document.getElementById('3').style.backgroundColor='blue';">Page 3</button>
     <button id="4" onclick="document.getElementById('image').src='18cb8a40cd9ad3d805eab50cc554af1c.jpeg';
-         document.getElementById('1').style.backgroundColor='black';
-         document.getElementById('2').style.backgroundColor = 'black';
-         document.getElementById('3').style.backgroundColor = 'black';
-         document.getElementById('4').style.backgroundColor = 'blue';
-         document.getElementById('5').style.backgroundColor = 'black';
-         document.getElementById('6').style.backgroundColor = 'black';">Page 4</button>
+            document.querySelectorAll('button').forEach(element => element.style.backgroundColor = 'black')
+            document.getElementById('4').style.backgroundColor='blue';">Page 4</button>
     <button id="5" onclick="document.getElementById('image').src='d343cdd5c03c1692f12d1fc2d648cee8.jpeg';
-         document.getElementById('1').style.backgroundColor='black';
-         document.getElementById('2').style.backgroundColor = 'black';
-         document.getElementById('3').style.backgroundColor = 'black';
-         document.getElementById('4').style.backgroundColor = 'black';
-         document.getElementById('5').style.backgroundColor = 'blue';
-         document.getElementById('6').style.backgroundColor = 'black';">Page 5</button>
+            document.querySelectorAll('button').forEach(element => element.style.backgroundColor = 'black')
+            document.getElementById('5').style.backgroundColor='blue';">Page 5</button>
     <button id="6" onclick="document.getElementById('image').src='b28ff04086d3a97c3acde2a8663a962b.jpeg';
-         document.getElementById('1').style.backgroundColor='black';
-         document.getElementById('2').style.backgroundColor = 'black';
-         document.getElementById('3').style.backgroundColor = 'black';
-         document.getElementById('4').style.backgroundColor = 'black';
-         document.getElementById('5').style.backgroundColor = 'black';
-         document.getElementById('6').style.backgroundColor = 'blue';">Page 6</button>
-    <!-- <button id="7" onclick="document.getElementById('image').src='c76bba75c585c66608526e390054bb46.png';
-         document.getElementById('1').style.backgroundColor='black';
-         document.getElementById('2').style.backgroundColor = 'black';
-         document.getElementById('3').style.backgroundColor = 'black';
-         document.getElementById('4').style.backgroundColor = 'black';
-         document.getElementById('5').style.backgroundColor = 'black';
-         document.getElementById('6').style.backgroundColor = 'black';
-         document.getElementById('7').style.backgroundColor = 'blue';
-         document.getElementById('8').style.backgroundColor = 'black';
-         document.getElementById('9').style.backgroundColor = 'black';
-         document.getElementById('10').style.backgroundColor = 'black';
-         document.getElementById('11').style.backgroundColor = 'black';
-         document.getElementById('12').style.backgroundColor = 'black';
-         document.getElementById('13').style.backgroundColor = 'black';
-         document.getElementById('14').style.backgroundColor = 'black';
-         document.getElementById('15').style.backgroundColor = 'black';
-         document.getElementById('16').style.backgroundColor = 'black';
-         document.getElementById('17').style.backgroundColor = 'black';
-         document.getElementById('18').style.backgroundColor = 'black';
-         document.getElementById('19').style.backgroundColor = 'black';
-         document.getElementById('20').style.backgroundColor = 'black';">Page 7</button>
-    <button id="8" onclick="document.getElementById('image').src='21c30c8cf9be586062169a127e49cb9f.png';
+            document.querySelectorAll('button').forEach(element => element.style.backgroundColor = 'black')
+            document.getElementById('6').style.backgroundColor='blue';">Page 6</button>
+    <button id="7" onclick="document.getElementById('image').src='3057fd1f959f5d6ee2c3bc184a48e6ce.jpeg';
+            document.querySelectorAll('button').forEach(element => element.style.backgroundColor = 'black')
+            document.getElementById('7').style.backgroundColor='blue';">Strip</button>
+    <!-- <button id="8" onclick="document.getElementById('image').src='21c30c8cf9be586062169a127e49cb9f.png';
          document.getElementById('1').style.backgroundColor='black';
          document.getElementById('2').style.backgroundColor = 'black';
          document.getElementById('3').style.backgroundColor = 'black';
@@ -353,3 +313,8 @@
          document.getElementById('20').style.backgroundColor = 'blue';">Page 20</button> --></div>
     </body>
     </html>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  addSidebar(pornSidebar, mikuSidebar)
+})
+</script>

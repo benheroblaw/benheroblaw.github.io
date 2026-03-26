@@ -35,6 +35,7 @@ button {cursor: pointer;}
 
 /* classes */
 .center {display: block; margin: auto; height: 90%;}
+.centerList {display: block; margin-left: 15px; margin-right: 15px; width: 95%; text-align: center; align-content: top; align-items: top; top: 0;}
 .pages button {background-color: black; border: 1px solid white; color: white; padding: 5px 12px; cursor: pointer;}
 .pages button:hover {background-color: black; border: 1px solid red; color: white; padding: 5px 12px; cursor: pointer;}
 .pages button:hover {background-color: black; border: 1px solid red; color: #0ff; padding: 5px 12px; cursor: pointer;}
@@ -49,45 +50,84 @@ button {cursor: pointer;}
 .video {border-color: blue; border-bottom-color: blue; border-right-color: blue; border-style: solid;}
 .video:hover {border-color: black; border-style: solid;}
 .video:fullscreen {border-color: black; border-style: solid}
-.sidebar {
-    height: 99.8%;
-    width: 160px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: -163px;
-    transition: 0.2s;
-    background: linear-gradient(90deg, #111, #000);
-    overflow-x: hidden;
-    border-color: #eee;
-    border-width: 1.5px;
-    border-style: solid;
-    padding-left: 5px;
-    text-align: left;}
-.sidebar:hover{
-    left: -1px;
-}
+
 #sidebar {
-    height: 99.8%;
+    height: 99.2%;
     width: 160px;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     top: 0;
-    left: -163px;
+    left: -150px;
     transition: 0.2s;
     background: linear-gradient(90deg, #111, #000);
     overflow-x: hidden;
     border-color: #eee;
-    border-width: 1.5px;
+    border-width: 3px;
     border-style: solid;
     padding-left: 5px;
-    text-align: left;}
-#sidebar:hover{
-    left: -1px;
+    text-align: left;
+    border-left: none;
+    border-radius: 0px;
+}
+#sidebar:hover {
+    left: 0px;
+}
+
+#sidebar2 {
+    height: 25%;
+    width: 160px;
+    position: fixed;
+    z-index: 2;
+    bottom: 3px;
+    left: -153px;
+    transition: 0.15s;
+    background: linear-gradient(90deg, rgb(64, 16, 16),#110505);
+    overflow-x: hidden;
+    border-color: #f00;
+    border-width: 3px;
+    border-style: solid;
+    border-left: none;
+    padding-left: 5px;
+    text-align: left;
+    border-radius: 0px;
+}
+#sidebar2:hover {
+    left: 0;
+}
+#sidebar3 {
+    height: 25%;
+    width: 160px;
+    position: fixed;
+    z-index: 2;
+    bottom: calc(25% + 9px);
+    left: -153px;
+    transition: 0.15s;
+    background: linear-gradient(90deg, rgb(16, 16, 64),#110505);
+    overflow-x: hidden;
+    border-color: #00f;
+    border-width: 3px;
+    border-style: solid;
+    border-left: none;
+    padding-left: 5px;
+    text-align: left;
+    border-radius: 0px;
+}
+#sidebar3:hover {
+    left: 0;
 }
 
 /* non-functional */
 .sixteen-nine video {width: 286; height: 161;}
 .one-one {width: 161; height: 161;}
-.centerList {display: block; margin-left: 15px; margin-right: 15px; width: 95%; text-align: center;}
 .centerAll {display: block; width: fit-content; text-align: center;}
+
+/* mobile */
+@media screen and (max-width: 800px) {
+    #sidebar, #sidebar2 {
+        left: -150px
+    }
+
+    p {font-size: 2rem;}
+
+    * {font-size: 5rem;}
+}
