@@ -452,7 +452,7 @@ const pornSidebar = '\
   <a class="blue" href="/r34/terraria.html"><span>Terraria</span></a><br><br>\
   <a class="blue" href="/r34/audio.html"><span>Audio</span></a><br>\
   <a class="blue" href="/r34/shibby.html"><span>shibby</span></a><br><br>\
-  \
+  <button onclick="location.reload(true)">ctrl+f5</button><br>\
   <a class="hidden", style="color: #111;" href="files.html">Files</a>\
 '
 
@@ -467,6 +467,7 @@ const mikuSidebar = '\
     <a href="/r34/miku/migu_viewer.html">Migu Viewer</a><br>\
     <a href="/r34/miku/mikgu.html">Mikgu Viewer</a><br>\
     <a href="/r34/miku/ai-miku-viewer.html">idk</a><br>\
+    <a href="/r34/miku/migu.html">Migu</a><br>\
 '
 
 document.addEventListener("DOMContentLoaded", function() {
