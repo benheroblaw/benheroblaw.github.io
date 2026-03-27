@@ -36,6 +36,8 @@ button {cursor: pointer;}
 /* classes */
 .center {display: block; margin: auto; height: 90%;}
 .centerList {display: block; margin-left: 15px; margin-right: 15px; width: 95%; text-align: center; align-content: top; align-items: top; top: 0;}
+/* .centerList br {font-size: 2rem;} */
+.centerList.sidebar *, .centerList.sidebar2 *, .centerList.sidebar3 * {font-size: 1rem;}
 .pages button {background-color: black; border: 1px solid white; color: white; padding: 5px 12px; cursor: pointer;}
 .pages button:hover {background-color: black; border: 1px solid red; color: white; padding: 5px 12px; cursor: pointer;}
 .pages button:hover {background-color: black; border: 1px solid red; color: #0ff; padding: 5px 12px; cursor: pointer;}

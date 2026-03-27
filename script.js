@@ -1,3 +1,4 @@
+// service worker
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/sw.js')
   .then(function(registration) {
@@ -6,6 +7,48 @@ if ('serviceWorker' in navigator) {
     console.log(tes[0] + 'Service Worker registration failed:', error);
   });
 }
+
+// variables
+const script = document.createElement('script')
+script.src = '/r34/porn.js'
+
+const pornSidebar = '\
+  <h1><a href="/r34/r34.html"><span style="color: white;">prawns</span></a></h1>\
+  <a href="all.html" class="red"><span>all</span></a><br>\
+  <a class="blue" href="assets.html"><span>assets</span></a><br>\
+  <a href="coolart.html" class="blue"><span>Artists</span></a><br>\
+  <br>\
+  \
+  <a class="blue" href="/r34/comics.html"><span>Comics</span></a><br><br>\
+  <a href="/r34/hard-degen.html" class="blue"><span>Hard Degenerate</span></a><br>\
+  <a href="/r34/hoyo.html" class="blue"><span>Hoyoverse</span></a><br>\
+  <a class="blue" href="/r34/mario.html"><span>Mario</span></a><br>\
+  <a class="blue" href="/r34/miku.html"><span>Miku</span></a><br>\
+  <a class="blue" href="/r34/Overwatch.html"><span>Overwatch</span></a><br>\
+  <a class="blue" href="/r34/other.html"><span>Other</span></a><br>\
+  <a class="blue" href="/r34/irl.html"><span>IRL</span></a><br>\
+  <a class="blue" href="/r34/pokemon.html"><span>Pokemon</span></a><br>\
+  <a class="blue" href="/r34/rouge.html"><span>Rouge the Bat</span></a><br>\
+  <a class="blue" href="/r34/roblox.html"><span>Roblox</span></a><br>\
+  <a class="blue" href="/r34/terraria.html"><span>Terraria</span></a><br><br>\
+  <a class="blue" href="/r34/audio.html"><span>Audio</span></a><br>\
+  <a class="blue" href="/r34/shibby.html"><span>shibby</span></a><br><br>\
+  <button onclick="location.reload(true)">ctrl+f5</button><br>\
+  <a class="hidden", style="color: #111;" href="files.html">Files</a>\
+'
+
+const pokemonSidebar = '\
+  <h1>Viewers</h1>\
+  <a href="/r34/pokemon/cynthia+houndoom-viewer.html">Cynthia x Houndoom</a>\
+'
+
+const mikuSidebar = '\
+  <h1>Viewers</h1>\
+  <a href="/r34/miku/miku_viewer.html">Miku Viewer</a><br>\
+  <a href="/r34/miku/migu_viewer.html">Migu Viewer</a><br>\
+  <a href="/r34/miku/mikgu.html">Mikgu Viewer</a><br>\
+  <a href="/r34/miku/migu.html">Migu</a><br>\
+'
 
 var program = [
     '(^///^) ',
@@ -21,6 +64,7 @@ var program = [
 
 var tes = ["(o ^ o) ", "(- ^ -) "]
 
+// functions
 function setCookie(cname, cvalue, output = true, exdays = 365) {
   const d = new Date();
   d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
@@ -33,12 +77,12 @@ function setCookie(cname, cvalue, output = true, exdays = 365) {
 }
 
 function setArrayCookie(name, value, daysToLive = 365) {
-  // Serialize the value (array → string)
+  // Serialize the value (array --> string)
   const serializedValue = JSON.stringify(value);
 
   // Set expiration date
   const date = new Date();
-  date.setTime(date.getTime() + (daysToLive * 24 * 60 * 60 * 1000)); // days → milliseconds
+  date.setTime(date.getTime() + (daysToLive * 24 * 60 * 60 * 1000)); // days --> milliseconds
   const expires = `expires=${date.toUTCString()}`;
 
   // Combine all cookie attributes[0]
@@ -120,6 +164,18 @@ function checkArrayCookie(cname) {
     return 'error'
   }
 }
+
+function deleteCookie(cname, cvalue, output = true, exdays = -7) {
+  const d = new Date();
+  d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+  let expires = 'expires=' + d.toUTCString();
+  document.cookie = cname + '=' + cvalue + ';' + expires + ';page=/';
+  if (output) {
+  console.log(
+    tes[0] + 'Set cookie \'' + cname + '\' with value \'' + cvalue + '\'; ' + expires
+  )}
+}
+
 
 // function fetchJSONData(jsonFile="./tes[0]t.json") {
 //   fetch(jsonFile)
@@ -297,7 +353,7 @@ function startStory(content=['wtf'], doCookies=true, doX=false, doY=true) {
   var s = document.createElement('script');
   s.id = 'text'
   if (startNumber === 0) {
-    s.src = './text.js';
+    s.src = '/writing/text.js';
     document.body.appendChild(s);
     startNumber++
     document.getElementById('text').remove()
@@ -435,51 +491,17 @@ function addSidebar(sidebar=pornSidebar, viewerSidebar='', sidebar3='') {
   }
 }
 
-const pornSidebar = '\
-  <h1><a href="/r34/r34.html"><span style="color: white;">prawns</span></a></h1>\
-  <a href="all.html" class="red"><span>all</span></a><br>\
-  <a class="blue" href="assets.html"><span>assets</span></a><br>\
-  <a href="coolart.html" class="blue"><span>Artists</span></a><br>\
-  <br>\
-  \
-  <a class="blue" href="/r34/comics.html"><span>Comics</span></a><br><br>\
-  <a href="/r34/hard-degen.html" class="blue"><span>Hard Degenerate</span></a><br>\
-  <a href="/r34/hoyo.html" class="blue"><span>Hoyoverse</span></a><br>\
-  <a class="blue" href="/r34/mario.html"><span>Mario</span></a><br>\
-  <a class="blue" href="/r34/miku.html"><span>Miku</span></a><br>\
-  <a class="blue" href="/r34/Overwatch.html"><span>Overwatch</span></a><br>\
-  <a class="blue" href="/r34/other.html"><span>Other</span></a><br>\
-  <a class="blue" href="/r34/irl.html"><span>IRL</span></a><br>\
-  <a class="blue" href="/r34/pokemon.html"><span>Pokemon</span></a><br>\
-  <a class="blue" href="/r34/rouge.html"><span>Rouge the Bat</span></a><br>\
-  <a class="blue" href="/r34/roblox.html"><span>Roblox</span></a><br>\
-  <a class="blue" href="/r34/terraria.html"><span>Terraria</span></a><br><br>\
-  <a class="blue" href="/r34/audio.html"><span>Audio</span></a><br>\
-  <a class="blue" href="/r34/shibby.html"><span>shibby</span></a><br><br>\
-  <button onclick="location.reload(true)">ctrl+f5</button><br>\
-  <a class="hidden", style="color: #111;" href="files.html">Files</a>\
-'
-
-const pokemonSidebar = '\
-    <h1>Viewers</h1>\
-    <a href="/r34/pokemon/cynthia+houndoom-viewer.html">Cynthia x Houndoom</a>\
-'
-
-const mikuSidebar = '\
-    <h1>Viewers</h1>\
-    <a href="/r34/miku/miku_viewer.html">Miku Viewer</a><br>\
-    <a href="/r34/miku/migu_viewer.html">Migu Viewer</a><br>\
-    <a href="/r34/miku/mikgu.html">Mikgu Viewer</a><br>\
-    <a href="/r34/miku/ai-miku-viewer.html">idk</a><br>\
-    <a href="/r34/miku/migu.html">Migu</a><br>\
-'
-
 document.addEventListener("DOMContentLoaded", function() {
-  addSidebar(pornSidebar)
+  // document.body.appendChild(script)
   document.querySelectorAll('video').forEach(element => element.preload = 'metadata')
+  addSidebar(pornSidebar)
   vol(0.1, 0.1)
 })
 
 document.addEventListener("onload", function() {
   ''
 })
+
+document.addEventListener('load', () =>
+  ''
+)
