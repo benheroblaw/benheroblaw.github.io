@@ -1,0 +1,45 @@
+body {background-color: black; margin-right: 25%;}
+* {font-family: Arial, Helvetica, sans-serif; color: white;}
+a:link {line-height: 1.4; color: blue; text-decoration: none;}
+a:visited {line-height: 1.4; color: #90f; text-decoration: underline;}
+a:hover {line-height: 1.4; font-style: italic; text-decoration: underline; color: aqua;}
+a:active {line-height: 1.4; color: red; text-decoration: underline;}
+strong {color: red;}
+button {color: black;}
+h1 {color:blue;}
+p {margin-right: 25px; margin-left: 1rem; text-indent: -1rem; color: white;}
+/* span {} */
+i {color: inherit; font-family: inherit;}
+/* classes */
+.hidden {color: black; cursor: default; line-height: 1rem; font-size: 85%;}
+.hide {color: black;}
+.hid {color: #111;}
+.warning {color: red; font-size: 125%;}
+.info {color: #00ff00; background-color: #f00; font-family: lucida console; text-align: center; display: block; margin: 10px; font-size: 250%; cursor: default;}
+.link {font-size: inherit; font-family: inherit; color: blue;}
+.link:hover {color: #90f; font-style: italic; cursor: pointer;}
+.large {font-size: 160%;}
+.spoiler {
+    display: inline;
+    padding: 0.5em 0em;
+    background-color: white;
+    box-shadow: 1em 0 0 white, -1em 0 0 white;
+    box-decoration-break: clone;
+}
+.spoiler:hover {
+    display: inline;
+    padding: 0.5em 0em;
+    background-color: black;
+    box-shadow: 1em 0 0 black, -1em 0 0 black;
+    box-decoration-break: clone;
+}
+
+.gradeS {color: #aa00ff; text-shadow: 0px 0px 10px #9900aa;}
+.grade1 {color: #ff2f24; text-shadow: 0px 0px 8px #9900aa;} /* rgb(128, 23, 18) */
+.grade2 {color: #00aaff; text-shadow: 0px 0px 6px #005599;}
+.grade3 {color: #37ff00; text-shadow: 0px 0px 5px #128800;}
+.grade4 {color: #ffffff; text-shadow: 0px 0px 5px #777777;}
+
+.adele {color: #252020; text-shadow: 0px 0px 10px #a00;}
+.aiko {color: #909090; text-shadow: 0px 0px 10px #0f0;}
+.sandra {color: white; text-shadow: 0px 0px 10px #0ff;}

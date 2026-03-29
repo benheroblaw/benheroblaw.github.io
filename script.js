@@ -267,6 +267,7 @@ function start(content = ['wtf'], doCookies = true, doX = false, doY = true) {
       }
       window.scrollTo(0, 0)
       showSlide(index)
+      vol()
       if (doCookies == true) {
         setCookie(page + 'index', index)
       }
@@ -292,6 +293,7 @@ function start(content = ['wtf'], doCookies = true, doX = false, doY = true) {
       }
       window.scrollTo(0, 0)
       showSlide(index)
+      vol()
       if (doCookies == true) {
         setCookie(page + 'index', index)
       }
