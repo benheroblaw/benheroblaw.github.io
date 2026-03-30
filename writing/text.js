@@ -129,28 +129,28 @@ var voidling = [
     <h2>number</h2>\
     <h1 id='char' class='Vio'>Vio</h1>\
     <div class='background'>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
     </div>"
 ]
 
@@ -308,28 +308,28 @@ var template = [
     <h2>1</h2>\
     <h1 id='char' class='vampire'>Villainess</h1>\
     <div class='background'>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
     </div>",
 
 ]
@@ -520,29 +520,29 @@ var chainsaw = [
     <p>\"Maybe I am. What does it mean to you?\" Reze tilts his head, waiting for a challenge.</p>\
     <p>A fist slams into his stomach hard enough to make spit fly and for him to stumble back. The horned one is standing closer than they were before, their fist raised in the aftermath of a punch. Denji hauls him back up.</p>\
     <p>\"What the hell, Power?!\" Denji slips out from under Reze's arm to yell at the horned one point-blank.</p>\
-    <p>\"He must fight me to claim that title!\" Power shouts back, putting a hand on their hip. Denji storms forward and swings at them. Power blocks with their arm and a bloodred blade appears in their hand.</p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
+        <p>\"He must fight me to claim that title!\" Power shouts back, putting a hand on their hip. Denji storms forward and swings at them. Power blocks with their arm and a bloodred blade appears in their hand.</p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
     <p></p>\
     <p></p>\
     </div>",
@@ -558,14 +558,15 @@ var villainess = [
     <br>\
     <p>Heroine needs to make sure Villainess hasn't gotten too strong so she goes over to Villainess's place</p>\
     <p>She gets her ass beat and kissed and worshipped</p>\
-    <p>She has to think about that</p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
+    <p>She has to think about that</p><br>\
+    <p>The two continue this erotic battle for a long time</p>\
+    <br><br>\
+    <p>Villainess finds a camp of kids who escaped from a kingdom's nobles</p>\
+    <p>That kingdom had an epstein island, so Villainess is going to rip them limb from limb bc that's the kind of villain she is</p>\
+    <p>Some of the kids are going to help because Villainess taught them Umbrakinesis</p><br>\
+    <p>The strongest of them (Umbra) finds out about Heroine</p>\
+    <p>She captures Heroine</p>\
+    <p>Villainess gives her a talk about cowardice and exposition about Umbrakinesis</p>\
     <p></p>\
     <p></p>\
     <p></p>\
@@ -585,6 +586,7 @@ var villainess = [
             <p>something like tensura's</p>\
             <p class='character-sheet'>im thinking:<br>\
             abilities are skills<br>\
+            are they ranked like skills? prob not<br><br>\
             magic is still magic<br>\
             </p>\
             <p></p>\
@@ -609,32 +611,86 @@ var villainess = [
         </div>\
     </div>",
 
+    "<br>\
+    <div class='background'>\
+        <h3>a whole page for me to yap about umbrakinesis because its the only power ive really figured out</h3>\
+        <p>Umbrakinesis is the manipulation of shadows. The less defined a shadow is, the more a user of Umbrakinesis can change it. There's also the factor of an Umbrakinetic's perceived 'ownership' of the shadow. For example, an Umbrakinetic's own shadow on the ground is one of the strongest in their arsenal. The stronger shadows are inside their body. These are <i>very</i> defined, but no other Umbrakinetic can 'grab' them.</p>\
+        <p>\"What gives you any hold on <i>my</i> shadow?\"<i> - Villainess to Umbra, in a battle over </i></p>\
+        <p>The shadows of the intestines are shaped in a rope, </p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+    </div>",
+
     "<link rel=\"icon\" href=\"/icons/story.png\">\
     <h2>1</h2>\
     <h1 id='char' class='vampire'>Villainess</h1>\
     <div class='background'>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
-    <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+    </div>",
+
+    "<link rel=\"icon\" href=\"/icons/story.png\">\
+    <h2>villainess vs heroine 2</h2>\
+    <h1 id='char' class='vampire'>Villainess</h1>\
+    <div class='background'>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
     </div>",
 
 ]
