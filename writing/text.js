@@ -666,8 +666,8 @@ var villainess = [
     </div>",
 
     "<link rel=\"icon\" href=\"/icons/story.png\">\
-    <h2>villainess vs heroine 2</h2>\
-    <h1 id='char' class='vampire'>Villainess</h1>\
+    <h2>???</h2>\
+    <h1 id='char' class='vampire'>villainess vs heroine 2</h1>\
     <div class='background'>\
         <p></p>\
         <p></p>\
