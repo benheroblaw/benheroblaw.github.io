@@ -469,15 +469,15 @@ var unfinished = [
     </div>",
 ]
 
-var kiamei_hypno = ["<link rel='icon' href='icons/story.png'><br><embed src='/books/Falling_Like_A_Feather.pdf' style='width: 800px; height: 85vh'>", "<link rel='icon' href='icons/story.png'><br><embed src='/books/How_To_Train_Your_Kaslana.pdf' style='width: 800px; height: 85vh'>",]
+var kiamei_hypno = ["<link rel='icon' href='icons/story.png'><br><embed src='/books/Falling_Like_A_Feather.pdf' style='width: 800px; height: 87vh'>", "<link rel='icon' href='icons/story.png'><br><embed src='/books/How_To_Train_Your_Kaslana.pdf' style='width: 800px; height: 87vh'>",]
 
 var fanfic = [
-    "<link rel='icon' href='icons/story.png'><title>Falling Like A Feather</title><br><embed src='/books/Falling_Like_A_Feather.pdf' style='width: 800px; height: 85vh'>",
-    "<link rel='icon' href='icons/story.png'><title>How To Train Your Kaslana</title><br><embed src='/books/How_To_Train_Your_Kaslana.pdf' style='width: 800px; height: 85vh'>",
-    "<link rel='icon' href='icons/story.png'><title>Filled to the brim</title><br><embed src='/books/Filled_to_the_brim.pdf' style='width: 800px; height: 85vh'>",
-    "<link rel='icon' href='icons/story.png'><title>you call the shots, babe</title><br><embed src='/books/you_call_the_shots_babe.pdf' style='width: 800px; height: 85vh'>",
-    "<link rel='icon' href='icons/story.png'><title>The Glint of Wine at Midnight</title><br><embed src='/books/The_Glint_of_Wine_at_Midnight.pdf' style='width: 800px; height: 85vh'>",
-    "<link rel='icon' href='icons/story.png'><title>My Web, My Pet, My Rules</title><br><embed src='/books/My_Web_My_Pet_My_Rules.pdf' style='width: 800px; height: 85vh'>",
+    "<link rel='icon' href='icons/story.png'><title>Falling Like A Feather</title><br><embed src='/books/Falling_Like_A_Feather.pdf' style='width: 800px; height: 87vh'>",
+    "<link rel='icon' href='icons/story.png'><title>How To Train Your Kaslana</title><br><embed src='/books/How_To_Train_Your_Kaslana.pdf' style='width: 800px; height: 87vh'>",
+    "<link rel='icon' href='icons/story.png'><title>Filled to the brim</title><br><embed src='/books/Filled_to_the_brim.pdf' style='width: 800px; height: 87vh'>",
+    "<link rel='icon' href='icons/story.png'><title>you call the shots, babe</title><br><embed src='/books/you_call_the_shots_babe.pdf' style='width: 800px; height: 87vh'>",
+    "<link rel='icon' href='icons/story.png'><title>The Glint of Wine at Midnight</title><br><embed src='/books/The_Glint_of_Wine_at_Midnight.pdf' style='width: 800px; height: 87vh'>",
+    "<link rel='icon' href='icons/story.png'><title>My Web, My Pet, My Rules</title><br><embed src='/books/My_Web_My_Pet_My_Rules.pdf' style='width: 800px; height: 87vh'>",
 ]
 
 var hentai = ['<iframe width="544" height="408" src="https://www.onlyhentaistuff.com/embed/687" frameborder="0" allowfullscreen></iframe>']
