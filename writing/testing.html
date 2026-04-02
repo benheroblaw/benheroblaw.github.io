@@ -49,37 +49,79 @@
     }
 </style>
 <script>
-    const reset = ['<link rel="icon" href="/icons/unknown.png"><title></title><span style=\"color: white; font-family: \'Courier New\', Courier, monospace;\"><br>im gonna rip my<br>your fucking dick off<br>&NonBreakingSpace;&NonBreakingSpace;/<br>:}c</span>']
+    const reset = ['<link rel="icon" href="/icons/unknown.png"><title></title><span style=\"color: white; font-family: \'Courier New\', Courier, monospace;\" id="char"><br>im gonna rip my<br>your fucking dick off<br>&NonBreakingSpace;&NonBreakingSpace;/<br>:}c</span>']
+
+    function input() {
+        const node = document.getElementById("storyinput");
+        node.addEventListener("keyup", function(event) {
+            if (event.key === "Enter") {
+                // Do work
+            }
+        });
+        node.addEventListener("keyup", ({key}) => {
+            if (key === "Enter") {
+                startStory(eval(document.getElementById('storyinput').value))
+            }
+        });
+    }
+
 </script>
 <html>
-    <body onload="startStory(reset)">
+    <body onload="startStory(reset); input()">
         <span style="font-family: 'Allan';"></span>
         <span style="font-family: 'Alegreya Sans SC';"></span>
         <span style="font-family: 'Almendra Display';"></span>
         <span style="font-family: 'Aguafina Script';"></span>
         <span style="font-family: 'Amatic SC';"></span>
         <span style="font-family: 'Chainsaw';"></span>
-        <div style="padding-top: 0.5rem;">
-            <button onclick="startStory(earth_lore)">lore</button>
-            <button class="noza" style="background-color: #111; margin-bottom: 0.25rem;" onclick="startStory(earth)">Please the Earth</button>
-            <button class="void" style="background-color: #111;" onclick="startStory(abyss)">Calm the Void</button>
-            <button class="nobody" style="background-color: #111;" onclick="startStory(nothing)">Slay Nobody</button>
-            <button class="vio" style="background-color: #111;" onclick="startStory(voidling)">Voidling</button>
-            <button onclick="startStory(airn_and_mina_have_secks)">airn and mina have secks</button>
-            <button style="font-family: 'Lucida Console', monospace;" onclick="startStory(dms)">dms</button><br>
-            <button style="background-color: #111; margin-bottom: 0.25rem;" onclick="startStory(fanfic)">fanfic</button>
-            <button id="senran" onclick="startStory(senran)">Senran Kagura!</button>
-            <button onclick="startStory(kiamei_hypno)">KiaMei Hypnosis</button>
-            <button class='chainsaw' onclick="startStory(chainsaw, true, true, true)">CHAINSAW WOMAN</button>
-            <button class='vampire' onclick="startStory(villainess, true, true, true)">Villainess</button>
-            <button style="color: #00ffff; border-color: #7f0000; text-shadow: 0px 0px 15px #00ff9b;" onclick="startStory(mikuteto_jjk)">mikuteto jjk</button>
-        <br>
-            <button onclick="startStory(template)">template</button>
-            <button onclick="startStory(unfinished)">unfinished</button>
-            <button onclick="startStory(reset)">reset</button>
-            <button onclick="location.reload(true)">ctrl+f5</button>
+        <div style="padding-top: 0.5rem; width: 99vw; right: 0.5rem; position: absolute; z-index: 12;">
+                <button onclick="startStory(earth_lore)">lore</button>
+                <button class="noza" style="background-color: #111; margin-bottom: 0.25rem;" onclick="startStory(earth)">Please the Earth</button>
+                <button class="void" style="background-color: #111;" onclick="startStory(abyss)">Calm the Void</button>
+                <button class="nobody" style="background-color: #111;" onclick="startStory(nothing)">Slay Nobody</button>
+                <button onclick="startStory(airn_and_mina_have_secks)">airn and mina have secks</button>
+                <button class="vio" style="background-color: #111;" onclick="startStory(voidling)">Voidling</button>
+                <button style="font-family: 'Lucida Console', monospace;" onclick="startStory(dms)">dms</button>
+            <br>
+
+                <button style="background-color: #111; margin-bottom: 0.25rem;" onclick="startStory(fanfic)">fanfic</button>
+                <button id="senran" onclick="startStory(senran)">Senran Kagura!</button>
+                <button onclick="startStory(kiamei_hypno)">KiaMei Hypnosis</button>
+                <button class='chainsaw' onclick="startStory(chainsaw, true, true, true)">CHAINSAW WOMAN</button>
+                <button class='vampire' onclick="startStory(villainess, true, true, true)">Villainess</button>
+                <button style="color: #00ffff; border-color: #7f0000; text-shadow: 0px 0px 15px #00ff9b;" onclick="startStory(mikuteto_jjk)">mikuteto jjk</button>
+                <button id="senran" onclick="startStory(belle_boob_contest)">belle_boob_contest</button>
+            <br>
+                <button onclick="startStory(template)" style="margin-bottom: 0.25rem;">template</button>
+                <button onclick="startStory(unfinished)">unfinished</button>
+                <button onclick="startStory(reset)">reset</button>
+                <button onclick="location.reload(true)">ctrl+f5</button>
+            <br>
+                <input type="text" value="" id="storyinput" class="input" placeholder="Story to run" style="margin-bottom: 0.25rem;" list="stories" temp="" onmouseover="this.temp=this.value; this.value='';" onmouseout="this.value=this.temp;">
+                <datalist id="stories">
+                    <!--
+                    <option value=""></option>
+                    -->
+                    <option value="earth"></option>
+                    <option value="abyss"></option>
+                    <option value="nothing"></option>
+                    <option value="airn_and_mina_have_secks"></option>
+                    <option value="voidling"></option>
+                    <option value="dms"></option>
+                    <option value="fanfic"></option>
+                    <option value="senran"></option>
+                    <option value="kiamei_hypno"></option>
+                    <option value="chainsaw"></option>
+                    <option value="villainess"></option>
+                    <option value="mikuteto_jjk"></option>
+                    <option value="belle_boob_contest"></option>
+                    <option value="template"></option>
+                    <option value="unfinished"></option>
+                    <option value="reset"></option>
+                </datalist>
+                <button onclick="startStory(eval(document.getElementById('storyinput').value))">Start story</button>
         </div>
-        <br>
+        <br><br><br><br><br><br>
         <div class="space">
             <div><button id="prev">&lt; Previous</button></div>
             <div style="text-align: right;"><button id="next">Next &gt;</button></div>

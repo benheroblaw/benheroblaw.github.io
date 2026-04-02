@@ -139,12 +139,13 @@ function getArrayCookie(name) {
   return null;
 }
 
-function checkCookie(cname) {
+function checkCookie(cname, output=true) {
   let anti = getCookie(cname)
   if (anti != '') {
+    if (output) {
     console.log(
       tes[0] + 'Found cookie \'' + cname + '\' with value \'' + getCookie(cname) + '\''
-    )
+    )}
     return 'success!'
   } else {
     errorMessage('Couldn\'t find cookie ' + cname)
@@ -189,7 +190,7 @@ function deleteCookie(cname, cvalue, output = true, exdays = -7) {
 //     .catch(error => console.error('Failed to fetch data:', error));
 // }
 
-function start(content = ['wtf'], doCookies = true, doX = false, doY = true) {
+function start(content = ['wtf'], doCookies = true, doX = false, doY = true, doOutput = false) {
   const page = window.location.pathname + ' - '
   const showSlide = (n) => {
     document.getElementById('story').innerHTML = content[n]
@@ -197,7 +198,7 @@ function start(content = ['wtf'], doCookies = true, doX = false, doY = true) {
 
   let index = Number(getCookie(page + 'index'))
   if (index + 1 > content.length) {
-    setCookie(page + 'index', 0);
+    setCookie(page + 'index', 0, doOutput)
     index = 0
   }
   if (index + 1 === content.length) {
@@ -225,18 +226,18 @@ function start(content = ['wtf'], doCookies = true, doX = false, doY = true) {
     }
   }
   if (doCookies == true) {
-    if (doX === true && checkCookie(page + 'scrollx') === 'error') {
-      setCookie(page + 'scrollx', 0)
+    if (doX === true && checkCookie(page + 'scrollx', false) === 'error') {
+      setCookie(page + 'scrollx', 0, doOutput)
     }
-    if (doY === true && checkCookie(page + 'scrolly') === 'error') {
-      setCookie(page + 'scrolly', 0)
+    if (doY === true && checkCookie(page + 'scrolly', false) === 'error') {
+      setCookie(page + 'scrolly', 0, doOutput)
     }
-    if (checkCookie(page + 'index') === 'error') {
-      setCookie(page + 'index', 0)
+    if (checkCookie(page + 'index', false) === 'error') {
+      setCookie(page + 'index', 0, doOutput)
       index = 0
     }
     if (index === 'NaN') {
-      setCookie(page + 'index', 0)
+      setCookie(page + 'index', 0, doOutput)
       index = 0
     }
   }
@@ -269,7 +270,7 @@ function start(content = ['wtf'], doCookies = true, doX = false, doY = true) {
       showSlide(index)
       vol()
       if (doCookies == true) {
-        setCookie(page + 'index', index)
+        setCookie(page + 'index', index, doOutput)
       }
       char()
     }
@@ -295,7 +296,7 @@ function start(content = ['wtf'], doCookies = true, doX = false, doY = true) {
       showSlide(index)
       vol()
       if (doCookies == true) {
-        setCookie(page + 'index', index)
+        setCookie(page + 'index', index, doOutput)
       }
       char()
   }
@@ -330,7 +331,7 @@ function start(content = ['wtf'], doCookies = true, doX = false, doY = true) {
     })
     }
     catch (TypeError) {
-      colorTrace(program[4] + 'no char element', 'red')
+      errorMessage('no char element')
     }
   }
   char()
@@ -339,10 +340,10 @@ function start(content = ['wtf'], doCookies = true, doX = false, doY = true) {
       'scrollend',
       function () {
         if (doX === true) {
-          setCookie(page + 'scrollx', window.scrollX)
+          setCookie(page + 'scrollx', window.scrollX, doOutput)
         }
         if (doY === true) {
-          setCookie(page + 'scrolly', window.scrollY)
+          setCookie(page + 'scrolly', window.scrollY, doOutput)
         }
       }
     )
@@ -351,7 +352,7 @@ function start(content = ['wtf'], doCookies = true, doX = false, doY = true) {
 
 var startNumber = 0
 
-function startStory(content=['wtf'], doCookies=true, doX=false, doY=true) {
+function startStory(content=['wtf'], doCookies=true, doX=false, doY=true, doOutput=true) {
   var s = document.createElement('script');
   s.id = 'text'
   if (startNumber === 0) {
@@ -359,25 +360,25 @@ function startStory(content=['wtf'], doCookies=true, doX=false, doY=true) {
     document.body.appendChild(s);
     startNumber++
     document.getElementById('text').remove()
-    startStory(content, doCookies, doX, doY)
+    startStory(content, doCookies, doX, doY, doOutput)
   }
   else if (startNumber === 1) {
     s.src = 'https://prokid99999.github.io/text.js';
     document.body.appendChild(s);
     startNumber++
     document.getElementById('text').remove()
-    startStory(content, doCookies, doX, doY)
+    startStory(content, doCookies, doX, doY, doOutput)
   }
   else if (startNumber === 2) {
     s.src = 'http://localhost:2009/text.js';
     document.body.appendChild(s);
     startNumber++
     document.getElementById('text').remove()
-    startStory(content, doCookies, doX, doY)
+    startStory(content, doCookies, doX, doY, doOutput)
   }
   else if (startNumber === 3) {
     startNumber = 0
-    start(content, doCookies, doX, doY)
+    start(content, doCookies, doX, doY, doOutput)
   }
 }
 
@@ -463,7 +464,7 @@ function vol(video_volume = 0.1, audio_volume = 0.75) {
   const video = document.querySelectorAll('video');
   video.forEach(element => element.volume = video_volume
   )
-  video.forEach(element => element.addEventListener('pause', () => setCookie(element + 'time', element.currentTime)))
+  // video.forEach(element => element.addEventListener('pause', () => setCookie(element + 'time', element.currentTime)), doOutput)
   video.forEach(element => element.preload = 'none')
   const audio = document.querySelectorAll('audio');
   audio.forEach(element => element.volume = audio_volume)
