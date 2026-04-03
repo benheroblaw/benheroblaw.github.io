@@ -286,19 +286,19 @@ var voidling = [
     <p>Every millimeter of my body aches, and I don't remember how to stand, so I don't try. I collapse on the ground. Fresh pain shoots through the parts of me that strike first; it takes me a few seconds to pinpoint what's hurting. I'm lying facedown, long green things tickling my face. Grass. I haven't seen grass in... a long time.</p>\
     <p>How much time has passed since I was sealed?</p>\
     <p>An important question, but I have other things to figure out. For example, why my lungs are burning.</p>\
-    <p>Oh, I need to breathe. The void doesn't have air, so I didn't have to worry about breathing. It kept me alive to feel more pain.</p>\
+    <p>Oh. I need to breathe. The void doesn't have air, so I didn't have to worry about breathing. It kept me alive to feel more pain.</p>\
     <p>I gasp for air like I'm drowning, trying to remember how my diaphragm works.</p>\
     <p>\"Want some help?\" I don't look at whoever's speaking, just roll my head into the ground. A second later, my lungs fill with a warm almost-liquid substance that weighs nothing and makes my flesh feel like static. It expands, forcing me to suck air into my lungs, and contracts, pushing CO<sub>2</sub> out. The cycle continues without my input.</p>\
-    <p>I raise my head to look at the person breathing for me. Bleached-bone horned mask, undulating black neck disappearing into a white button-up shirt, shiny black pants and shoes. Cuffs rolled up to her elbows, revealing the shifting darkness between the plates of bone that give her body shape. Of course it's Airn. Who else would it be? I return my skull to the unfamiliarly soft grass.</p>\
-    <p>\"We both want to get this done quickly, right?\" I grunt into the dirt. Airn is the last person I want to talk to. \"All the bones in one of your arms for a hundred years off your sentence. \"</p>\
+    <p>I raise my head to look at the person breathing for me. Bleached-bone horned mask, undulating black neck disappearing into a white button-up shirt, black pants and shiny shoes. Cuffs rolled up to her elbows, revealing the shifting darkness between the plates of bone that give her body shape. Of course it's Airn. Who else would it be? I return my skull to the unfamiliar comfort of soft and sharp grass.</p>\
+    <p>\"We both want to get this done quickly, right?\" I grunt into the dirt. Airn is the last person I want to talk to.\"All the bones in one of your arms for a hundred years off your sentence.\"</p>\
     <p>I have to raise my head again to give her a look that speaks all the questions in my head. Why does she want my bones? What's she going to do with them? Since when did my sentence have an end date? What is it?</p>\
-    <p>\"Yes or no. \" I have a choice? It's not if it gets my sentence over faster.</p>\
+    <p>\"Yes or no.\" I have a choice? It's not if it gets my sentence over faster.</p>\
     <p>\"Why-?\" I croak. My voice sounds like it was torn to shreds, ground against sandpaper and glass and then cobbled back together, which is pretty much what happened.</p>\
-    <p>\"None of your business. \" Her eyes drill into me, coldly confident as always.</p>\
+    <p>\"None of your business.\" Her eyes drill into me, coldly confident as always.</p>\
     <p>\"Fine,\" I sneer. Airn walks over to me- she was farther away than I thought- and lays a hand on my arm. Pain screams raw and scorching through its core before being washed out by cool darkness. I might have screamed; it hurt too much to be sure.</p>\
     <p>I sit up and glare at Airn, cradling my arm. It doesn't hurt anymore, but it's half numb and isn't responding to my brain's commands to move. I'm starting to panic just a little bit.</p>\
-    <p>\"I didn't say anything about the pain. \" The bitch of the void is kneeling next to me, holding a bunch of long pink-white sticks. My head spins when I look at them. Are those my bones? They look too red, too small, too thin. That's what was shaping my arm? My stomach is threatening to empty whatever's left in it. I have to look away.</p>\
-    <p>\"One century's shorter stay in the Abyss. \" She looks at me like a bug she's experimenting upon.</p>\
+    <p>\"I didn't say anything about the pain.\" The bitch of the void is kneeling next to me, holding a bunch of long pink-white sticks. My head spins when I look at them. Are those my bones? They look too red, too small, too thin. That's what was shaping my arm? My stomach is threatening to empty whatever's left in it. I have to look away.</p>\
+    <p>\"One century's shorter stay in the Abyss.\" She looks at me like a bug she's experimenting upon.</p>\
     <p>\"Now I go back?\" My voice comes out in a not-entirely-intended snarl.</p>\
     <p>Airn snaps her fingers in response.</p>\
     <p>I return to Hell.</p>\
@@ -465,13 +465,13 @@ var unfinished = [
     <p>Vio and Cin have my arms tied above my head. The rope is very soft on my wrists; it might be a spell, I don't know. They also have me stripped naked and are slathering me with something that makes my skin heat up and my penis really hard and my brain cough and sputter when they touch me. More than usual, I mean. I can't think straight either.</p>\
     <p>Cin leans over me, pressing their chest into my back and resting their chin on my shoulder. My mind short-circuits at the amount of stimulation.</p>\
     <p>\"You got her front done yet?\" Cin's voice sounds like honey. It's a lot higher than usual.</p>\
-    <p>\"Is Mint going to cum from you grinding your tits into her back?\" Vio's sharp tongue gets my head working long enough for me to be embarrassed. \"She's twitching like you're rubbing her out.\"</p>\
+    <p>\"Is Mint going to cum from you grinding your tits into her back?\" Vio's sharp tongue gets my head working long enough for me to be embarrassed.\"She's twitching like you're rubbing her out.\"</p>\
     <p>For some reason I imagine Cin massaging my prostate and blush harder. If I asked them to, they would be super gentle and would whisper sweet things in my ear and cuddle me until I can get up. If I could get enough courage to.</p>\
     <p>\"We're gonna make her cum over and over again, right? One more orgasm is even better.\" Vio rolls her eyes at them and stands up.</p>\
-    <p>\"The plan is to tease her until she empties everything in her balls in a single orgasm.\" Saying it like that makes it so much hotter. \"Now get over here, dummy.\"</p>\
+    <p>\"The plan is to tease her until she empties everything in her balls in a single orgasm.\" Saying it like that makes it so much hotter.\"Now get over here, dummy.\"</p>\
     <p>Cin releases my waist, my skin still burning where they touched me. The rest of my body is being heated by the bonfire in my cock that I'm trying not to think about because if I think about it I will explode. They walk around me to Vio, tilting her chin and kissing her. Some kind of moan falls out of my mouth at the sight.</p>\
     <p>\"What was that?\" Vio asks, her eyes a little hotter than they were before.</p>\
-    <p>\"Our appetizer.\" Cin looks over at me, raw lust in their eyes. \"Let's not ignore the main course, though.\"</p>\
+    <p>\"Our appetizer.\" Cin looks over at me, raw lust in their eyes.\"Let's not ignore the main course, though.\"</p>\
     <p>They both kneel down and get to work, Vio using her lips and tongue to drive hot spikes of pleasure into my shaft while Cin circles fire around my tip. I start moaning at the first touch. One of them reaches down and squeezes my balls, shooting a blissful charge of precum out of my cock. Cin licks it up greedily.</p>\
     <p></p>\
     <p></p>\
@@ -725,7 +725,7 @@ var belle_boob_contest_grid = [
     "<link rel=\"icon\" href=\"/icons/story.png\">\
     <style>.grid {display: grid; grid-template-columns: auto auto auto; padding: 10px; background-color: dodgerblue; position: absolute; right: 25px; width: 95vw} .grid>div, .grid>p {background-color: #fff; border: 1px solid black; padding: 10px; text-indent: 0; text-align: center;}</style> \
     <div class='grid' id='char'>\
-        <div>belle's penis</div>\
+        <div>belle's penis<br>belle's penis<br>belle's penis<br>belle's penis<br>belle's penis<br>belle's penis<br>belle's penis<br></div>\
         <div>penis</div>\
         <div>penis</div>\
         <div>penis</div>\
@@ -738,6 +738,51 @@ var belle_boob_contest_grid = [
         <div>penis</div>\
         <div>penis</div>\
     </div>",
+
+]
+
+var belle_boob_contest_table = [
+    "<link rel=\"icon\" href=\"/icons/story.png\">\
+    <style>\
+    table, th, td {\
+        border: 2px solid #333;\
+        background-color: white;\
+        height: 3rem;\
+    }\
+    th {width: 15rem;}\
+    table {background-color: #aaa}\
+    td {}\
+    </style>\
+    <table>\
+        <tr>\
+            <th>Person</th>\
+            <th>Win/Lose</th>\
+            <th>Pre-Coitus</th>\
+            <th>Foreplay</th>\
+            <th>Intercourse</th>\
+            <th>Aftercare</th>\
+            <th>Overall Rating</th>\
+        </tr>\
+        <tr>\
+            <th>Character</th>\
+            <td>Win/Lose</td>\
+            <td>Description</td>\
+            <td>Description</td>\
+            <td>Description</td>\
+            <td>Description</td>\
+            <td>Rating out of 10</td>\
+        </tr>\
+        <tr>\
+            <th>Jane Doe</th>\
+            <td>Lose</td>\
+            <td>5/10, I had to take an Extended Consent course before I could fuck her</td>\
+            <td></td>\
+            <td></td>\
+            <td></td>\
+            <td></td>\
+        </tr>\
+    </table>\
+    "
 
 ]
 

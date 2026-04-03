@@ -80,7 +80,7 @@
                 <button class="void" style="background-color: #111;" onclick="startStory(abyss)">Calm the Void</button>
                 <button class="nobody" style="background-color: #111;" onclick="startStory(nothing)">Slay Nobody</button>
                 <button onclick="startStory(airn_and_mina_have_secks)">airn and mina have secks</button>
-                <button class="vio" style="background-color: #111;" onclick="startStory(voidling)">Voidling</button>
+                <button class="vio" style="background-color: #111;" onclick="startStory(voidling)" oncontextmenu="window.open('/writing/voidling.html');isIntextMenuOpen = false;">Voidling</button>
                 <button style="font-family: 'Lucida Console', monospace;" onclick="startStory(dms)">dms</button>
             <br>
 
@@ -97,7 +97,7 @@
                 <button onclick="startStory(reset)">reset</button>
                 <button onclick="location.reload(true)">ctrl+f5</button>
             <br>
-                <input type="text" value="" id="storyinput" class="input" placeholder="Story to run" style="margin-bottom: 0.25rem;" list="stories" temp="" onmouseover="this.temp=this.value; this.value='';" onmouseout="this.value=this.temp;">
+                <input type="text" value="" id="storyinput" class="input" placeholder="Story to run" style="margin-bottom: 0.25rem;" list="stories">
                 <datalist id="stories">
                     <!--
                     <option value=""></option>
@@ -115,6 +115,8 @@
                     <option value="villainess"></option>
                     <option value="mikuteto_jjk"></option>
                     <option value="belle_boob_contest"></option>
+                    <option value="belle_boob_contest_grid"></option>
+                    <option value="belle_boob_contest_table"></option>
                     <option value="template"></option>
                     <option value="unfinished"></option>
                     <option value="reset"></option>
