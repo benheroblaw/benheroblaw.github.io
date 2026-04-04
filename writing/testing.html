@@ -8,7 +8,8 @@
     <script src='http://localhost:2009/text.js'></script>
     <script src='https://prokid99999.github.io/text.js'></script>
     <script src="/script.js"></script>
-    <script src="./text.js"></script>
+    <script src="/r34/porn.js"></script>
+    <script src="/writing/text.js"></script>
 </head>
 <style>
     #prev, #prev1 {text-align: left; display: none;}
@@ -41,6 +42,8 @@
     .miku, .Miku {color: #00ff9b; text-shadow: 0px 0px 15px #009bff;}
     .teto, .Teto {color: #f66; text-shadow: 0px 0px 15px #f00;}
 
+    .reset {font-family: 'Courier New', Courier, monospace; font-size: 1.0245rem;}
+
     @media (prefers-color-scheme: light) {
         button {color: black; background-color: white;}
     }
@@ -65,6 +68,37 @@
         });
     }
 
+document.addEventListener('onload', () => {
+    document.getElementById('pornRefresh').onclick = scriptRefresh()
+})
+
+let scriptNumber = 0
+
+function scriptRefresh() {
+    const s = document.createElement('script')
+    s.id = 'script'
+    if (scriptNumber === 0) {
+        s.src = '/r34/porn.js'
+        document.body.appendChild(s);
+        scriptNumber++
+        scriptRefresh()
+        document.getElementById('script').remove()
+    }
+    if (scriptNumber === 1) {
+        s.src = '/script.js'
+        document.body.appendChild(s);
+        scriptNumber++
+        scriptRefresh()
+        document.getElementById('script').remove()
+    }
+    if (scriptNumber === 2) {
+        s.src = '/writing/text.js'
+        document.body.appendChild(s);
+        scriptNumber = 0
+        document.getElementById('script').remove()
+    }
+
+}
 </script>
 <html>
     <body onload="startStory(reset); input()">
@@ -90,12 +124,13 @@
                 <button class='chainsaw' onclick="startStory(chainsaw, true, true, true)">CHAINSAW WOMAN</button>
                 <button class='vampire' onclick="startStory(villainess, true, true, true)">Villainess</button>
                 <button style="color: #00ffff; border-color: #7f0000; text-shadow: 0px 0px 15px #00ff9b;" onclick="startStory(mikuteto_jjk)">mikuteto jjk</button>
-                <button id="senran" onclick="startStory(belle_boob_contest)">belle_boob_contest</button>
+                <button id="senran" onclick="startStory(belle_boob_contest_table)">belle_boob_contest</button>
             <br>
                 <button onclick="startStory(template)" style="margin-bottom: 0.25rem;">template</button>
                 <button onclick="startStory(unfinished)">unfinished</button>
-                <button onclick="startStory(reset)">reset</button>
+                <button onclick="startStory(reset)" class="reset">reset</button>
                 <button onclick="location.reload(true)">ctrl+f5</button>
+                <button id="pornRefresh" onclick="scriptRefresh()">story refresh</button>
             <br>
                 <input type="text" value="" id="storyinput" class="input" placeholder="Story to run" style="margin-bottom: 0.25rem;" list="stories">
                 <datalist id="stories">

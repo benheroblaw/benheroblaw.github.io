@@ -9,10 +9,10 @@ if ('serviceWorker' in navigator) {
 }
 
 // variables
-const script = document.createElement('script')
+var script = document.createElement('script')
 script.src = '/r34/porn.js'
 
-const pornSidebar = '\
+var pornSidebar = '\
   <h1><a href="/r34/r34.html"><span style="color: white;">prawns</span></a></h1>\
   <a href="all.html" class="red"><span>all</span></a><br>\
   <a class="blue" href="assets.html"><span>assets</span></a><br>\
@@ -37,12 +37,12 @@ const pornSidebar = '\
   <a class="hidden", style="color: #111;" href="files.html">Files</a>\
 '
 
-const pokemonSidebar = '\
+var pokemonSidebar = '\
   <h1>Viewers</h1>\
   <a href="/r34/pokemon/cynthia+houndoom-viewer.html">Cynthia x Houndoom</a>\
 '
 
-const mikuSidebar = '\
+var mikuSidebar = '\
   <h1>Viewers</h1>\
   <a href="/r34/miku/miku_viewer.html">Miku Viewer</a><br>\
   <a href="/r34/miku/migu_viewer.html">Migu Viewer</a><br>\
@@ -66,7 +66,7 @@ var tes = ["(o ^ o) ", "(- ^ -) "]
 
 // functions
 function setCookie(cname, cvalue, output = true, exdays = 365) {
-  const d = new Date();
+  var d = new Date();
   d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
   let expires = 'expires=' + d.toUTCString();
   document.cookie = cname + '=' + cvalue + ';' + expires + ';page=/';
@@ -78,15 +78,15 @@ function setCookie(cname, cvalue, output = true, exdays = 365) {
 
 function setArrayCookie(name, value, daysToLive = 365) {
   // Serialize the value (array --> string)
-  const serializedValue = JSON.stringify(value);
+  var serializedValue = JSON.stringify(value);
 
   // Set expiration date
-  const date = new Date();
+  var date = new Date();
   date.setTime(date.getTime() + (daysToLive * 24 * 60 * 60 * 1000)); // days --> milliseconds
-  const expires = `expires=${date.toUTCString()}`;
+  var expires = `expires=${date.toUTCString()}`;
 
   // Combine all cookie attributes[0]
-  const cookie = `${name}=${encodeURIComponent(serializedValue)}; ${expires}; path=/; SameSite=Strict`;
+  var cookie = `${name}=${encodeURIComponent(serializedValue)}; ${expires}; path=/; SameSite=Strict`;
 
   // Add "secure" attribute if using HTTPS
   if (window.location.protocol === "https:") {
@@ -115,12 +115,12 @@ function getCookie(cname) {
 
 function getArrayCookie(name) {
   // Split all cookies into an array of "name=value" strings
-  const cookies = document.cookie.split(";");
+  var cookies = document.cookie.split(";");
 
   // Loop through cookies to find the one with the matching name
   for (let cookie of cookies) {
     // Trim whites[0]pace and split into name/value
-    const [cookieName, cookieValue] = cookie.trim().split("=");
+    var [cookieName, cookieValue] = cookie.trim().split("=");
 
     // If the name matches, decode and parse the value
     if (cookieName === name) {
@@ -167,7 +167,7 @@ function checkArrayCookie(cname) {
 }
 
 function deleteCookie(cname, cvalue, output = true, exdays = -7) {
-  const d = new Date();
+  var d = new Date();
   d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
   let expires = 'expires=' + d.toUTCString();
   document.cookie = cname + '=' + cvalue + ';' + expires + ';page=/';
@@ -191,8 +191,8 @@ function deleteCookie(cname, cvalue, output = true, exdays = -7) {
 // }
 
 function start(content = ['wtf'], doCookies = true, doX = false, doY = true, doOutput = false) {
-  const page = window.location.pathname + ' - '
-  const showSlide = (n) => {
+  var page = window.location.pathname + ' - '
+  var showSlide = (n) => {
     document.getElementById('story').innerHTML = content[n]
   }
 
@@ -417,7 +417,7 @@ function getCommitNumbers(owner, repo) {
   )
 }
 
-const delay = ms => new Promise(res => setTimeout(res, ms));
+var delay = ms => new Promise(res => setTimeout(res, ms));
 
 function word_count(paras = 'background') {
   paras = document.getElementsByClassName(paras);
@@ -461,12 +461,12 @@ function stripHtml(html)
 }
 
 function vol(video_volume = 0.1, audio_volume = 0.75) {
-  const video = document.querySelectorAll('video');
+  var video = document.querySelectorAll('video');
   video.forEach(element => element.volume = video_volume
   )
   // video.forEach(element => element.addEventListener('pause', () => setCookie(element + 'time', element.currentTime)), doOutput)
   video.forEach(element => element.preload = 'none')
-  const audio = document.querySelectorAll('audio');
+  var audio = document.querySelectorAll('audio');
   audio.forEach(element => element.volume = audio_volume)
 }
 
@@ -478,7 +478,11 @@ function errorMessage(msg) {
   colorTrace(tes[1] + msg, 'red')
 }
 
-const video = document.querySelectorAll('video')
+function clear() {
+  console.clear()
+}
+
+var video = document.querySelectorAll('video')
 document.addEventListener('loadstart', video.forEach(element => element.preload = 'none'))
 
 function addSidebar(sidebar=pornSidebar, viewerSidebar='', sidebar3='') {
