@@ -1,28 +1,12 @@
 <!DOCTYPE html>
 <head>
-    <meta id="reloading" http-equiv="refresh" content="5">
-    <title id="versionTitle">
-        version
+    <meta http-equiv="refresh" content="-1">
+    <title>
+        debug page!!!
     </title>
-    <!-- <link rel="icon" href="debug.png"> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="icon" href="/icons/debug.png">
     <script src="/script.js"></script>
 </head>
-<script>
-    window.onload = function () {
-        var versionNumber = '70.5.3'
-        document.getElementById("version").textContent = versionNumber
-        document.getElementById("versionTitle").textContent = versionNumber
-    }
-    window.onblur = function () {
-        document.getElementById('online').textContent = 'tabbed out'
-    }
-    window.onfocus = function () {
-        location.reload()
-        var x = 'Online: ' + navigator.onLine; document.getElementById('online').textContent = x
-        setTimeout(window.onfocus, 1000)
-    }
-</script>
 <style>
     body{background-color:black; color: red; font-family: Arial, Helvetica, sans-serif}
     a:visited {color: #90f;}
@@ -31,13 +15,59 @@
     span {color:blue; text-decoration: underline; cursor: pointer}
     /* span {color: red; text-decoration: underline;}
     span {color: #90f; text-decoration: underline;} */
+    .message {font-size: 100%; color: #0f0;}
+    .updating {font-size: 100%; color: white;}
+    .benheroblaw {color: #0f0;}
+    .prokid {color: #00f;}
+    .other {color: white;}
 </style>
+<script>
+    const refresh = async () => {
+        while (true) {
+            document.getElementById("message").className = "updating"
+            document.getElementById("committer").className = "updating"
+            document.getElementById("message").textContent = "fetching"
+            document.getElementById("committer").textContent = "fetching"
+            await delay(0.05 * 1000)
+            if (document.hasFocus()){
+            document.getElementById("message").textContent = "fetching."
+            document.getElementById("committer").textContent = "fetching."
+            await delay(0.05 * 1000)
+            document.getElementById("message").textContent = "fetching.."
+            document.getElementById("committer").textContent = "fetching.."
+            await delay(0.05 * 1000)
+            document.getElementById("message").textContent = "fetching..."
+            document.getElementById("committer").textContent = "fetching..."
+            await delay(0.1 * 1000)
+            getCommit('benheroblaw', 'benheroblaw.github.io')}
+            await delay(5 * 1000)
+            console.clear()
+        }
+    };
+
+    const onlineRefresh = async () => {
+        var x = ' '
+        while (true) {
+            x = ' ' + navigator.onLine
+            document.getElementById('online').textContent = x
+            if (x = false) {document.getElementById('online').style.color = '#8b0000'}
+            if (x = true) {document.getElementById('online').style.color = '#0f0'}
+            await delay(0.5 * 1000)
+        }
+    }
+</script>
 <html>
-    <body>
+    <body onload="refresh(); onlineRefresh(); console.log('Started refresh')">
         <h1 style="color: blue; font-family: 'Times New Roman', Times, serif;">debugging fucking sucks!!!</h1>
-        <p id="version" style="color: #00ff00; font-family: 'Comic Sans MS'; font-size: 150%;">version</p>
+        <p>Latest commit:
+            <span style="text-decoration: inherit; cursor: inherit; display: inline-block;" id="message" >loading...</span><br>
+            Committer: <span style="text-decoration: inherit; cursor: inherit;" id="committer">loading...</span><br>
+            <br>
+        Online:<span id="online" style="text-decoration: inherit; cursor: default;"> wtf</span>
+        </p>
         <p>
-            <div id="online" style="color: white; text-decoration: none;">tabbed out</div><br>
+            <a href="https://github.com/benheroblaw/benheroblaw.github.io">repo</a><br>
+            <span href="./files" onclick="window.open('./')">files</span><br>
             <br>
             <br>
             <br>
@@ -63,8 +93,7 @@
             <br>
             <br>
             <br>
-            There's nothing else here, so you can leave.
-            <br>
+            There's nothing else here, so you can leave.<br>
             This page is only useful for debugging.
         </p>
     </body>

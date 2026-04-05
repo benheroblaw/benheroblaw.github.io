@@ -575,21 +575,40 @@ var chainsaw = [
 ]
 
 var villainess = [
-
     "<br>\
     <div class='background'>\
     <h3>story outline</h3>\
-    <p>Villainess gets strong enough for Heroine to come by and beat her</p>\
-    <p>She gets her ass beat and goes \"thats hot\"</p>\
+    <p>Villainess enters a political marriage with a prince</p>\
+    <p>She convinces the prince to hold a ball</p>\
     <br>\
-    <p>Heroine needs to make sure Villainess hasn't gotten too strong so she goes over to Villainess's place</p>\
-    <p>She gets her ass beat and kissed and worshipped</p>\
-    <p>She has to think about that</p><br>\
+    <p>A spotlight shines on a stage, her standing ready.</p>\
+    <br>\
+    <p>Villainess voices her raw contempt for the monarchy and nobles' abuse of power directly to everyone concerned within her complaints.</p>\
+    <br>\
+    <p>She kills them with Umbrakinesis.</p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p>Heroine beats her near death and Villainess goes \"thats hot\"</p>\
+    <br>\
+    <br>\
+    <br>\
+    <p>Heroine gets reports of Villainess being back so she goes over to Villainess's place</p>\
+    <p>She gets low-diffed and kissed and worshipped</p>\
+    <p>She has to think about that</p>\
+    <br>\
+    <br>\
     <p>The two continue this erotic battle for a long time</p>\
-    <br><br>\
-    <p>Villainess finds a camp of kids who escaped from a kingdom's nobles</p>\
+    <br>\
+    <br>\
+    <br>\
+    <p>Villainess finds a camp of kids who escaped from another kingdom's nobles</p>\
     <p>That kingdom had an epstein island, so Villainess is going to rip them limb from limb bc that's the kind of villain she is</p>\
-    <p>Some of the kids are going to help because Villainess taught them Umbrakinesis</p><br>\
+    <p>Some of the kids are going to help because Villainess taught them Umbrakinesis</p>\
+    <br>\
     <p>The strongest of them (Umbra) finds out about Heroine</p>\
     <p>She captures Heroine</p>\
     <p>Villainess gives her a talk about cowardice and exposition about Umbrakinesis</p>\
@@ -640,9 +659,9 @@ var villainess = [
     "<br>\
     <div class='background'>\
         <h3>a whole page for me to yap about umbrakinesis because its the only power ive really figured out</h3>\
-        <p>Umbrakinesis is the manipulation of shadows. The less defined a shadow is, the more a user of Umbrakinesis can change it. There's also the factor of an Umbrakinetic's perceived 'ownership' of the shadow. For example, an Umbrakinetic's own shadow on the ground is one of the strongest in their arsenal. The stronger shadows are inside their body. These are <i>very</i> defined, but no other Umbrakinetic can 'grab' them.</p>\
-        <p>\"What gives you any hold on <i>my</i> shadow?\"<i> - Villainess to Umbra, in a battle over </i></p>\
-        <p>The shadows of the intestines are shaped in a rope, </p>\
+        <p>Umbrakinesis is the manipulation of shadows. The less defined a shadow is, the more a user of Umbrakinesis can change it. There's also the factor of an Umbrakinetic's perceived 'ownership' of the shadow. For example, an Umbrakinetic's own shadow on the ground is one of the strongest in their arsenal. The only stronger shadows are inside their body. These are <i>very</i> defined, but no other Umbrakinetic can 'grab' them. The shadows of the intestines are shaped in a rope, for example.</p>\
+        <p><i>\"What gives you any hold on </i>my<i> shadow?\" - Villainess to Umbra</i></p>\
+        <p></p>\
         <p></p>\
         <p></p>\
         <p></p>\
@@ -664,8 +683,36 @@ var villainess = [
     </div>",
 
     "<link rel=\"icon\" href=\"/icons/story.png\">\
+    <h2></h2>\
+    <h1 id='char'>Prologue</h1>\
+    <div class='background'>\
+        <p>We begin in a prosperous kingdom, where a young noblewoman is proposing to the prince. Not on one knee, no rings, rather, she's proposing a marriage to boost both of their statuses. It will undoubtedly be less than fulfilling in terms of love, but money and climbing the social ladder is worth sacrificing little things like romantic attraction.</p>\
+        <p>The noblewoman will gain the status and assets of the royal family, and the royal family will curry favor with the nobles. Each party gains something they believe has considerable valuable.</p>\
+        <p>The prince agrees to the noblewoman's idea of hosting a ball to announce their pairing. He leaves the preparations to her, being more interested in curating the guest list.</p>\
+        <p>This was his second mistake.</p>\
+        <p>The noblewoman, called Gwenhael, is up to something. That much is clear just by looking at the patterns for the dress she is commissioning, full of hidden compartments and sheathes. Maybe she simply has a comfort dagger, or... around twenty. There's no reason a woman needs that many blades.</p>\
+        <p>Another clue is the way she sets up the ballroom, blocking all natural light with gold and silver curtains. Placing a selection of pre-poured wineglasses. </p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+    </div>",
+
+    "<link rel=\"icon\" href=\"/icons/story.png\">\
     <h2>1</h2>\
-    <h1 id='char' class='vampire'>Villainess</h1>\
+    <h1 id='char' class='vampire'>Gwenhael</h1>\
     <div class='background'>\
         <p></p>\
         <p></p>\
