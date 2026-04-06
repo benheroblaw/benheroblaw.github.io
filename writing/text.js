@@ -686,21 +686,45 @@ var villainess = [
     <h2></h2>\
     <h1 id='char'>Prologue</h1>\
     <div class='background'>\
-        <p>We begin in a prosperous kingdom, where a young noblewoman is proposing to the prince. Not on one knee, no rings, rather, she's proposing a marriage to boost both of their statuses. It will undoubtedly be less than fulfilling in terms of love, but money and climbing the social ladder is worth sacrificing little things like romantic attraction.</p>\
-        <p>The noblewoman will gain the status and assets of the royal family, and the royal family will curry favor with the nobles. Each party gains something they believe has considerable valuable.</p>\
-        <p>The prince agrees to the noblewoman's idea of hosting a ball to announce their pairing. He leaves the preparations to her, being more interested in curating the guest list.</p>\
+        <p>We begin in a prosperous kingdom, where a young noblewoman is proposing to the prince. Not on one knee, no rings, rather, she's proposing a marriage to boost both of their statuses. She claims her family has offered her to the prince. This arrangement will undoubtedly be less than fulfilling in terms of love, but money and a chance to climb the social ladder is worth sacrificing little things like romantic attraction. A simple move in the grand chess game called 'society.'</p>\
+        <p>The noblewoman and her family will gain the status and assets of the royal family, and the royal family will curry favor with <i>all</i> of the nobles. Each party gains something they believe has considerable valuable.</p>\
+        <p>The prince agrees to the noblewoman's idea of hosting a ball to announce their pairing. He leaves the preparations to her, putting his efforts into curating the guest list.</p>\
+        <br>\
         <p>This was his second mistake.</p>\
+        <br>\
         <p>The noblewoman, called Gwenhael, is up to something. That much is clear just by looking at the patterns for the dress she is commissioning, full of hidden compartments and sheathes. Maybe she simply has a comfort dagger, or... around twenty. There's no reason a woman needs that many blades.</p>\
-        <p>Another clue is the way she sets up the ballroom, blocking all natural light with gold and silver curtains. Placing a selection of pre-poured wineglasses. </p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
+        <p>More clues are in the way she sets up the ballroom, blocking all natural light with gold and silver curtains. Arranging a selection of pre-poured wineglasses. Leaving plenty of dark spaces more than big enough to hide a person.</p>\
+        <p>The ball begins at dusk, allowing nobles time to arrive and socialize before the main event.</p>\
+        <p>Three hours after the ballroom's doors open, well after dark, Gwenhael walks onto a small stage. She signals a hidden attendant to focus a spotlight on her and dim the lights in the room.</p>\
+        <p>She composes herself, waiting for the chatter of the crowd to quiet and focus their attention on her.</p>\
+        <p>\"Welcome, one and all,\" she begins. \"I have gathered you all here because I have something to confess.\"</p>\
+        <p>Everyone's eyes are on Gwenhael, even the servants turning their gaze to her. She pauses. The shadows seem to shift with tension.</p>\
+        <p>After enough time for a deep breath, she continues.</p>\
+        <p>\"I have been observing how you conduct yourselves, bathing in and flaunting your wealth and your power.\"</p>\
+        <p>The crowd almost seems to flinch, certainly not expecting such criticisms from another noble. The prince is thoroughly shaken, having not even known how she was going to announce their marriage. He had thought she would be shy and quiet. The raw confidence she exuded was foreign to him.</p>\
+        <p>\"Money and power you use to climb higher and higher, largely ignoring the consequences you bring upon your people. Most are starving from your taxation, even more than they would be otherwise. You claim everything for yourselves with no thought for your subjects.\"</p>\
+        <p>The crowd is fuming now, many shouting at her about how grave of a transgression she was committing and grabbing blunt weapons, sharpening into blades in their hands. She simply raises her voice over them.</p>\
+        <p>\"Your tyranny ends today.\"</p>\
+        <p>The darkness in the room has become suffocating, feeling like a half-solid mass rather than simple shadows. As nobles and royals struggle to breathe this new substance, many servants have gathered around them and are trying to help.</p>\
+        <p>Gwenhael's lips curve slightly upward.</p>\
+        <p>Red lines appear at the throats of everyone being assaulted by the darkness. Screams shatter the air itself as they fall and blood begins to flow.</p>\
+        <p>Gwenhael hops the short distance between the stage and the floor. She walks unhurriedly toward the pile of bodies, oblivious to servants keening and scrambling away from her.</p>\
+        <p>She stops mere steps from the carnage, face splitting in a full grin.</p>\
+        <p>Shadows weave themselves into tendrils, holding each body up for her so she can survey her work.</p>\
+        <p>She turns to the servants, seeming to only now recognize their terror.</p>\
+        <p>\"Fear not, for only the wicked will be punished.\"</p>\
+        <p>They quiver under her gaze, pinned and ready to bolt. She looks at them like they are children she wishes to comfort.</p>\
+        <p>\"I couldn't in good faith call myself a judge if I were to hurt people whom justice would rule innocent.\"</p>\
+        <p>They seem to tremble less, wanting to believe they are safe.</p>\
+        <p>\"Now, if you would help me clean up this puddle-\"</p>\
+        <p>The massive, heavy wooden doors crash against the walls, light painting over the canvas of darkness. Standing in the door is a person outfitted in full plate mail, holding a sword blasting the searing radiance of the sun into the room. The bodies suspended in the air fall to the floor with a sickening array of sounds, their supports burning away under the harsh, almost sharp light.</p>\
+        <p>Gwenhael draws a smallsword from a sheath between the folds of her skirt, kicking off her heels and dropping into a battle stance.</p>\
+        <p>Her opponent raises their sword in kind.</p>\
+        <p>The two leap at each other, their momentum carrying them past their targets. A shower of sparks rains from the armoured stranger's breastplate.</p>\
+        <p>Gwenhael falls to her knees.</p>\
+        <p>Red flows from her side, making a second pool under her.</p>\
+        <p>Metal clinks and clanks behind her. The armoured figure has rushed to the servants.</p>\
+        <p>\"I am truly sorry,\" a high voice says. Too clearly to have come from under a helmet. \"I came as fast as I could.</p>\
         <p></p>\
         <p></p>\
         <p></p>\
@@ -768,6 +792,11 @@ var villainess = [
 
 ]
 
+var villainess_final = [
+    villainess[3],
+    // villainess[4],
+]
+
 var belle_boob_contest_grid = [
     "<link rel=\"icon\" href=\"/icons/story.png\">\
     <style>.grid {display: grid; grid-template-columns: auto auto auto; padding: 10px; background-color: dodgerblue; position: absolute; right: 25px; width: 95vw} .grid>div, .grid>p {background-color: #fff; border: 1px solid black; padding: 10px; text-indent: 0; text-align: center;}</style> \
@@ -833,7 +862,7 @@ var belle_boob_contest_table = [
 
 ]
 
-var belle_boob_contest = [
+var belle_boob_contest_text = [
     "<link rel=\"icon\" href=\"/icons/story.png\">\
     <div class='background'>\
         <p></p>\
