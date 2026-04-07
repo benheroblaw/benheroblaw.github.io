@@ -15,26 +15,24 @@
     }
 </style>
 <script>
-    function thoughtRefresh() {
+    async function thoughtRefresh() {
         while (true) {
             while (window.onfocus)
-            getScript('/thoughts.js')
-            StartThoughts(thoughts)
-
-            console.log('starting thoughts on ' + window.location.href + ' at ' + new Date().toLocaleTimeString())
+                getScript('/thoughts.js')
+                StartThoughts(thoughts)
+                if (window.location.href === 'http://localhost:8001/thoughts.html') {
+                    await delay(100)
+                }
+                else {await delay(1000)}
+                console.log('starting thoughts on ' + window.location.href + ' at ' + new Date().toLocaleTimeString())
 
         }
     }
     function setThoughtRefresh() {
-        // if (window.location.href === 'http://localhost:8001/thoughts.html') {
-        //     window.setInterval(thoughtRefresh(), 100)
-        // }
-        // else {window.setInterval(thoughtRefresh(), 1000)}
-        ""
     }
 </script>
 <html>
-    <body onload="setThoughtRefresh()">
+    <body onload="thoughtRefresh()">
         <br>
             <div id="story"><br>
                 <span style="color: white;"></span>
