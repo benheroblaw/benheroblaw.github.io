@@ -382,6 +382,20 @@ function startStory(content=['wtf'], doCookies=true, doX=false, doY=true, doOutp
   }
 }
 
+function StartThoughts(content = ['wtf'], doCookies = true, doX = false, doY = true, doOutput = false) {
+  var page = window.location.pathname + ' - '
+  var showSlide = (n) => {
+    document.getElementById('story').innerHTML += '<div class="background">' + content[n] + '</div><br><br>'
+  }
+
+  document.getElementById('story').innerHTML = ""
+
+  for (let index = 0; index < content.length; index++) {
+    const element = content[index];
+    showSlide(index)
+  }
+}
+
 function getCommit(owner, repo) {
   fetch(
     'https://api.github.com/repos/' + owner + '/' + repo + '/commits?per_page=1',
@@ -498,6 +512,16 @@ function addSidebar(sidebar=pornSidebar, viewerSidebar='', sidebar3='') {
   }
 }
 
+function getScript(file) {
+  var s = document.createElement('script');
+  s.id = 'getScript'
+  s.src = file;
+  document.body.appendChild(s);
+  document.getElementById('getScript').remove()
+
+}
+
+// event listeners
 document.addEventListener("DOMContentLoaded", function() {
   // document.body.appendChild(script)
   document.querySelectorAll('video').forEach(element => element.preload = 'metadata')

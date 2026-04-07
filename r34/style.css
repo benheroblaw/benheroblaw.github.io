@@ -34,7 +34,7 @@ video:fullscreen {border-color: black; border-style: solid}
 button {cursor: pointer;}
 
 /* classes */
-.center {display: block; margin: auto; height: 90%;}
+.center {display: block; margin: auto; max-height: 90%; max-width: 90vw; width: auto;}
 .centerList {display: block; margin-left: 15px; margin-right: 15px; width: 95%; text-align: center; align-content: top; align-items: top; top: 0;}
 /* .centerList br {font-size: 2rem;} */
 .centerList.sidebar *, .centerList.sidebar2 *, .centerList.sidebar3 * {font-size: 1rem;}
@@ -117,9 +117,9 @@ button {cursor: pointer;}
     left: 0;
 }
 
-#image {
-    width: fit-content;
-}
+/* #image {
+    width: min-content;
+} */
 
 /* non-functional */
 .sixteen-nine video {width: 286; height: 161;}
@@ -139,8 +139,12 @@ button {cursor: pointer;}
     }
 
     p {font-size: 2rem;}
+
+    /* #image {
+        width: 30%;
+    } */
 }
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
     * {font-size: 2rem;}
     img {
         width: 20%;
@@ -161,4 +165,4 @@ button {cursor: pointer;}
     }
 
     p {font-size: 2rem;}
-}
+} */

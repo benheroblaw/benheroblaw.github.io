@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Allan|Aguafina Script|Amatic SC' rel='stylesheet'> -->
+    <link rel="stylesheet" href="/writing/goama.css">
+    <link rel="icon" href="/icons/story.png">
+    <script src="/script.js"></script>
+    <script src="/writing/text.js"></script>
+    <script src="/thoughts.js"></script>
+</head>
+<title>thoughts</title>
+<style>
+    .background {
+        background: linear-gradient(-90deg, #a55, #55f);
+        padding: 20px;
+    }
+</style>
+<script>
+    function thoughtRefresh() {
+        while (true) {
+            while (window.onfocus)
+            getScript('/thoughts.js')
+            StartThoughts(thoughts)
+
+            console.log('starting thoughts on ' + window.location.href + ' at ' + new Date().toLocaleTimeString())
+
+        }
+    }
+    function setThoughtRefresh() {
+        // if (window.location.href === 'http://localhost:8001/thoughts.html') {
+        //     window.setInterval(thoughtRefresh(), 100)
+        // }
+        // else {window.setInterval(thoughtRefresh(), 1000)}
+        ""
+    }
+</script>
+<html>
+    <body onload="setThoughtRefresh()">
+        <br>
+            <div id="story"><br>
+                <span style="color: white;"></span>
+            </div>
+    </body>
+</html>
