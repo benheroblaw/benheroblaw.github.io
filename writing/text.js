@@ -683,17 +683,18 @@ var villainess = [
     </div>",
 
     "<link rel=\"icon\" href=\"/icons/story.png\">\
+    <title>The Villainess Enters A Political Marriage with the Prince of a Neighboring Kingdom</title>\
     <h2></h2>\
     <h1 id='char'>Prologue</h1>\
     <div class='background'>\
-        <p>We begin in a prosperous kingdom, where a young noblewoman is proposing to the prince. Not on one knee, no rings, rather, she's proposing a marriage to boost both of their statuses. She claims her family has offered her to the prince. This arrangement will undoubtedly be less than fulfilling in terms of love, but money and a chance to climb the social ladder is worth sacrificing little things like romantic attraction. A simple move in the grand chess game called 'society.'</p>\
+        <p>We begin in a prosperous kingdom, where a young noblewoman is proposing to the prince. Not on one knee, no rings, rather, she's proposing a marriage to boost both of their statuses. She claims her family has offered her to the prince. This arrangement will undoubtedly be less than fulfilling in terms of love, but money and a chance to climb the social ladder is worth sacrificing little things like romantic attraction. A simple move in the grand game of chess called 'society.'</p>\
         <p>The noblewoman and her family will gain the status and assets of the royal family, and the royal family will curry favor with <i>all</i> of the nobles. Each party gains something they believe has considerable valuable.</p>\
         <p>The prince agrees to the noblewoman's idea of hosting a ball to announce their pairing. He leaves the preparations to her, putting his efforts into curating the guest list.</p>\
         <br>\
         <p>This was his second mistake.</p>\
         <br>\
         <p>The noblewoman, called Gwenhael, is up to something. That much is clear just by looking at the patterns for the dress she is commissioning, full of hidden compartments and sheathes. Maybe she simply has a comfort dagger, or... around twenty. There's no reason a woman needs that many blades.</p>\
-        <p>More clues are in the way she sets up the ballroom, blocking all natural light with gold and silver curtains. Arranging a selection of pre-poured wineglasses. Leaving plenty of dark spaces more than big enough to hide a person.</p>\
+        <p>More clues are hidden in the way she sets up the ballroom, blocking all natural light with gold and silver curtains. Arranging a selection of pre-poured wineglasses. Leaving plenty of dark spaces more than big enough to hide a person.</p>\
         <p>The ball begins at dusk, allowing nobles time to arrive and socialize before the main event.</p>\
         <p>Three hours after the ballroom's doors open, well after dark, Gwenhael walks onto a small stage. She signals a hidden attendant to focus a spotlight on her and dim the lights in the room.</p>\
         <p>She composes herself, waiting for the chatter of the crowd to quiet and focus their attention on her.</p>\
@@ -716,20 +717,24 @@ var villainess = [
         <p>They quiver under her gaze, pinned and ready to bolt. She looks at them like they are children she wishes to comfort.</p>\
         <p>\"I couldn't in good faith call myself a judge if I were to hurt people whom justice would rule innocent.\"</p>\
         <p>They seem to tremble less, wanting to believe they are safe.</p>\
-        <p>\"Now, if you would help me clean up this puddle-\"</p>\
+        <p>\"Now, if you would help me clean up this mess-\"</p>\
         <p>The massive, heavy wooden doors crash against the walls, light painting over the canvas of darkness. Standing in the door is a person outfitted in full plate mail, holding a sword blasting the searing radiance of the sun into the room. The bodies suspended in the air fall to the floor with a sickening array of sounds, their supports burning away under the harsh, almost sharp light.</p>\
-        <p>Gwenhael draws a smallsword from a sheath between the folds of her skirt, kicking off her heels and dropping into a battle stance.</p>\
+        <p>Gwenhael draws a smallsword from the folds of her skirt, slipping off her heels and dropping into a battle stance.</p>\
+        <br>\
         <p>Her opponent raises their sword in kind.</p>\
         <p>The two leap at each other, their momentum carrying them past their targets. A shower of sparks rains from the armoured stranger's breastplate.</p>\
+        <br>\
         <p>Gwenhael falls to her knees.</p>\
+        <br>\
         <p>Red flows from her side, making a second pool under her.</p>\
+        <br>\
         <p>Metal clinks and clanks behind her. The armoured figure has rushed to the servants.</p>\
-        <p>\"I am truly sorry,\" a high voice says. Too clearly to have come from under a helmet. \"I came as fast as I could.</p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
+        <p>\"I am truly sorry,\" a high voice says, sure and confident. Too clearly to have come from under their helmet. \"I came as fast as I could. Are any of you hurt?\"</p>\
+        <p>Even as Gwenhael feels her life pumping out of her side, she can't help but turn and stare at the person who bested her. As she thought, they have taken off their helmet. Straight brown hair flows over the back of her breastplate. Her face is feminine.</p>\
+        <p>Gwenhael can't make out any more details. Her vision is blurring and turning dark around the edges.</p>\
+        <p><i>Darkness is my friend,</i> she thinks. The dissolving light of the armoured woman has faded.</p>\
+        <p>Shadows wrap around her torso, applying pressure to the wound. Then they encase her, shrouding her body in blackness.</p>\
+        <p>Somebody yells, armour clinks. Gwenhael is gone before anyone can stop her.</p>\
         <p></p>\
         <p></p>\
     </div>",
@@ -738,18 +743,22 @@ var villainess = [
     <h2>1</h2>\
     <h1 id='char' class='vampire'>Gwenhael</h1>\
     <div class='background'>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
+        <p>I lay hidden behind a large shrubbery far enough off of a path that nobody would think to look behind it. There is a deep cut in my side that is bleeding profusely and might have ruptured my intestines.</p>\
+        <br>\
+        <p>My first thoughts are about that armoured woman.</p>\
+        <br>\
+        <p>The heroine of my story, I suppose.</p>\
+        <br>\
+        <p>She will get a happy ending, find someone whom she loves, have children, and die peacefully, while I, the villain, will be locked away to repent for my crimes. So many tales of heroes winning the day, of the villain being defeated and robbed of their chance to live.</p>\
+        <br>\
+        <p>I am not that villain.</p>\
+        <p>I refuse to be the villain who gives up after the hero gets a single good hit. I refuse to be the villain who dies after a single encounter.</p>\
+        <p>I refuse to be the villain who loses the war of which tonight was the first battle.</p>\
+        <p>That is what <i>she</i> has started. A war, not just between the two of us, but a war of ideals. I cut down tens of tyrants who did nothing but make their people's lives worse. I don't know whether or not <i>she</i>- the Hero- knows this. If I look at the night from the perspective of the servants, I cut down those nobles with little reason. For all they knew, they could have been next. I told them they were not, but they were clearly beyond reason. It makes sense that the Hero cut me down.</p>\
+        <p>There's the issue of her power, too. Manipulation of light. Maybe Aciukinesis- the manipulation of an object's sharpness. Her power is the counter to mine, the destined opposite. Shadow cannot exist under the all-consuming gaze of light.</p>\
+        <p>So I need to train my power, my Umbrakinesis. Learn how to make shadows that can survive the light. I know I can use Aciukinesis on shadows in my grasp. I could use the shadows under her greaves, bend them out from their hiding place.</p>\
+        <p>I wonder if I could <i>extend</i> a shadow rather than manipulating it directly.</p>\
+        <p>As I think this, I slowly and excruciatingly rise to my feet and stumble to another bush. My hands fumble underneath it, clumsily grabbing the staff's outfit stashed under it. </p>\
         <p></p>\
         <p></p>\
         <p></p>\
