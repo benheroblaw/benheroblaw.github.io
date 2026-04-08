@@ -10,14 +10,16 @@
 <title>thoughts</title>
 <style>
     .background {
-        background: linear-gradient(-90deg, #a55, #55f);
+        background: linear-gradient(-90deg, #aa5555, #57f);
         padding: 20px;
+        text-align: center;
+        text-shadow: 0px 0px 3px white;
     }
 </style>
 <script>
     async function thoughtRefresh() {
         while (true) {
-            while (window.onfocus)
+            if (true) {
                 getScript('/thoughts.js')
                 StartThoughts(thoughts)
                 if (window.location.href === 'http://localhost:8001/thoughts.html') {
@@ -25,14 +27,15 @@
                 }
                 else {await delay(1000)}
                 console.log('starting thoughts on ' + window.location.href + ' at ' + new Date().toLocaleTimeString())
-
+            }
+            else {await delay(1000)}
         }
     }
     function setThoughtRefresh() {
     }
 </script>
 <html>
-    <body onload="thoughtRefresh()">
+    <body onload="thoughtRefresh();if (window.location.href === 'http://localhost:8001/thoughts.html') {window.scrollTo(0, document.body.scrollHeight)}">
         <br>
             <div id="story"><br>
                 <span style="color: white;"></span>

@@ -384,6 +384,7 @@ function startStory(content=['wtf'], doCookies=true, doX=false, doY=true, doOutp
 
 function StartThoughts(content = ['wtf'], doCookies = true, doX = false, doY = true, doOutput = false) {
   var page = window.location.pathname + ' - '
+  // content.reverse()
   var showSlide = (n) => {
     document.getElementById('story').innerHTML += '<div class="background">' + content[n] + '</div><br><br>'
   }
