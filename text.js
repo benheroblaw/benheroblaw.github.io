@@ -682,8 +682,10 @@ var villainess = [
         <p></p>\
     </div>",
 
-    "<link rel=\"icon\" href=\"/icons/story.png\">\
+    "<head>\
+    <link rel=\"icon\" href=\"/icons/story.png\">\
     <title>The Villainess Enters A Political Marriage with the Prince of a Neighboring Kingdom</title>\
+    </head>\
     <h2></h2>\
     <h1 id='char'>Prologue</h1>\
     <div class='background'>\

@@ -36,7 +36,6 @@ var pornSidebar = '\
   <button onclick="location.reload(true)">ctrl+f5</button><br>\
   <a class="hidden", style="color: #111;" href="files.html">Files</a>\
 '
-
 var pokemonSidebar = '\
   <h1>Viewers</h1>\
   <a href="/r34/pokemon/cynthia+houndoom-viewer.html">Cynthia x Houndoom</a>\
@@ -44,10 +43,10 @@ var pokemonSidebar = '\
 
 var mikuSidebar = '\
   <h1>Viewers</h1>\
-  <a href="/r34/miku/miku_viewer.html">Miku Viewer</a><br>\
-  <a href="/r34/miku/migu_viewer.html">Migu Viewer</a><br>\
-  <a href="/r34/miku/mikgu.html">Mikgu Viewer</a><br>\
-  <a href="/r34/miku/migu.html">Migu</a><br>\
+  <a href="/r34/miku/miku_viewer.html">Cat Miku</a><br>\
+  <a href="/r34/miku/migu_viewer.html">Migu</a><br>\
+  <a href="/r34/miku/mikgu.html">Miku Teto</a><br>\
+  <a href="/r34/miku/migu.html">Horny Migu</a><br>\
 '
 
 var program = [
@@ -356,7 +355,7 @@ function startStory(content=['wtf'], doCookies=true, doX=false, doY=true, doOutp
   var s = document.createElement('script');
   s.id = 'text'
   if (startNumber === 0) {
-    s.src = '/writing/text.js';
+    s.src = '/text.js';
     document.body.appendChild(s);
     startNumber++
     document.getElementById('text').remove()
@@ -397,10 +396,14 @@ function StartThoughts(content = ['wtf'], doCookies = true, doX = false, doY = t
   }
 }
 
+function startViewer(baseFilePath) {
+
+}
+
 function getCommit(owner, repo) {
   fetch(
     'https://api.github.com/repos/' + owner + '/' + repo + '/commits?per_page=1',
-    // headers: {Authorization: "Bearer github_pat_none-lololololol"}
+    // headers: {Authorization: "Bearer github_pat_none-lol"}
   ).then(res => res.json()).then(
     res => {
       document.getElementById('message').className = 'message'
@@ -521,17 +524,26 @@ function getScript(file) {
   document.getElementById('getScript').remove()
 
 }
+function loadScript(url) {
+  var script = document.createElement("script");  // create a script DOM node
+  script.src = url;  // set its src to the provided URL
+
+  document.head.appendChild(script);  // add it to the end of the head section of the page (could change 'head' to 'body' to add it to the end of the body section instead)
+  return Promise.resolve('Success')
+}
+const promiseLoadScript = new Promise(() => loadScript('/r34/porn.js'))
 
 // event listeners
 document.addEventListener("DOMContentLoaded", function() {
   // document.body.appendChild(script)
+  loadScript('/r34/porn.js').then(addSidebar(pornSidebar))
   document.querySelectorAll('video').forEach(element => element.preload = 'metadata')
-  addSidebar(pornSidebar)
   vol(0.1, 0.1)
+
 })
 
 document.addEventListener("onload", function() {
-  ''
+  addSidebar(pornSidebar)
 })
 
 document.addEventListener('load', () =>
