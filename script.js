@@ -41,13 +41,12 @@ var pokemonSidebar = '\
   <a href="/r34/pokemon/cynthia+houndoom-viewer.html">Cynthia x Houndoom</a>\
 '
 
-var mikuSidebar = '\
-  <h1>Viewers</h1>\
-  <a href="/r34/miku/miku_viewer.html">Cat Miku</a><br>\
-  <a href="/r34/miku/migu_viewer.html">Migu</a><br>\
-  <a href="/r34/miku/mikgu.html">Miku Teto</a><br>\
-  <a href="/r34/miku/migu.html">Horny Migu</a><br>\
-'
+var mikuSidebar =
+  '<h1>Viewers</h1>' +
+  '<a href="/r34/miku/miku_viewer.html">Cat Miku</a><br>' +
+  '<a href="/r34/miku/migu_viewer.html">Migu</a><br>' +
+  '<a href="/r34/miku/mikgu.html">Miku Teto</a><br>' +
+  '<a href="/r34/miku/migu.html">Horny Migu</a><br>'
 
 var program = [
     '(^///^) ',
@@ -396,8 +395,40 @@ function StartThoughts(content = ['wtf'], doCookies = true, doX = false, doY = t
   }
 }
 
-function startViewer(baseFilePath) {
+function startViewer(basePath='', contents=[''], debug = false) {
+  // const content = contents.forEach((index) => {basePath + index})
 
+  // image
+  const image = document.createElement('img')
+  image.className = 'center'
+  image.id = 'image'
+  image.src = basePath + contents[0]
+  const br = document.createElement('br')
+  br.style.fontSize = '0.5rem'
+
+    if (debug) {console.log('adding image')}
+  document.body.appendChild(image)
+    if (debug) {console.log('adding br')}
+  document.body.appendChild(br)
+  document.body.innerHTML += '<div class="pages" id="pages"></div>'
+
+
+  // page buttons
+  contents.forEach((value, index, array) => {
+    const button = document.createElement('button')
+    button.id = index
+    button.style.marginRight = '0.25rem'
+    if (debug) {console.log('adding text')}
+    button.innerText = 'Page ' + (index + 1)
+    if (debug) {console.log('adding onclick')}
+    button.onclick = () => {
+      document.getElementById("image").src= contents[index];
+      document.querySelectorAll('button').forEach(element => element.style.backgroundColor = 'black');
+      document.getElementById(index).style.backgroundColor = "blue";
+    }
+    document.getElementById('pages').appendChild(button)
+  })
+  document.getElementById('0').style.backgroundColor = 'blue'
 }
 
 function getCommit(owner, repo) {
