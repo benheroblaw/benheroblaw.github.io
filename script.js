@@ -429,6 +429,7 @@ function startViewer(basePath='', contents=[''], debug = false) {
     document.getElementById('pages').appendChild(button)
   })
   document.getElementById('0').style.backgroundColor = 'blue'
+  document.body.style = "margin: 0; width: 100vw;"
 }
 
 function getCommit(owner, repo) {

@@ -1,39 +1,27 @@
 <!DOCTYPE html>
-<html>
-    <head>
+<head>
     <link rel="stylesheet" href="/r34/style.css">
     <link rel="icon" href="/icons/favicon-2.png">
-        <script src="/script.js"></script>
+    <script src="/script.js"></script>
 </head>
-    <title>Miku Viewer</title>
-    <body class="centerList" onload='vol()'>
-    <img class="center" id="image" src="/r34/miku/aac207d5e1785afa1229896de3b7b46a.png">
-    <br style="font-size: 0.5rem;">
-    <div class="pages">
-    <button id="1" style="background-color: blue;" onclick="document.getElementById('image').src='/r34/miku/aac207d5e1785afa1229896de3b7b46a.png';
-            document.querySelectorAll('button').forEach(element => element.style.backgroundColor = 'black')
-            document.getElementById('1').style.backgroundColor='blue';">Page 1</button>
-    <button id="2" onclick="document.getElementById('image').src='/r34/miku/e8dadf31a590971e14fb600d26bd2a04.png';
-            document.querySelectorAll('button').forEach(element => element.style.backgroundColor = 'black')
-            document.getElementById('2').style.backgroundColor='blue';">Page 2</button>
-    <button id="3" onclick="document.getElementById('image').src='/r34/miku/e44432dd72d3f1fdd6bbb158ce88bff1.png';
-            document.querySelectorAll('button').forEach(element => element.style.backgroundColor = 'black')
-            document.getElementById('3').style.backgroundColor='blue';">Page 3</button>
-    <button id="4" onclick="document.getElementById('image').src='/r34/miku/fe6c583a47dcf5853a67fb566d11dc28.png';
-            document.querySelectorAll('button').forEach(element => element.style.backgroundColor = 'black')
-            document.getElementById('4').style.backgroundColor='blue';">Page 4</button>
-    <button id="5" onclick="document.getElementById('image').src='/r34/miku/25aaea04ca09a28a8b66f55c878daef0.png';
-            document.querySelectorAll('button').forEach(element => element.style.backgroundColor = 'black')
-            document.getElementById('5').style.backgroundColor='blue';">Page 5</button>
-    <button id="6" onclick="document.getElementById('image').src='/r34/miku/3eeff357bfb9bb03bd62e112dd138273.png';
-            document.querySelectorAll('button').forEach(element => element.style.backgroundColor = 'black')
-            document.getElementById('6').style.backgroundColor='blue';">Page 6</button>/div>
+<title>Miku Viewer</title>
+<script>
+    const migu = [
+        'aac207d5e1785afa1229896de3b7b46a.png',
+        'e8dadf31a590971e14fb600d26bd2a04.png',
+        'e44432dd72d3f1fdd6bbb158ce88bff1.png',
+        'fe6c583a47dcf5853a67fb566d11dc28.png',
+        '25aaea04ca09a28a8b66f55c878daef0.png',
+        '3eeff357bfb9bb03bd62e112dd138273.png',
+    ]
+document.addEventListener("DOMContentLoaded", function() {
+  addSidebar(pornSidebar, mikuSidebar)
+  startViewer('/r34/miku/', migu)
+})
+</script>
+<html>
+    <body class="centerList" onload='vol()' style="margin: 0; width: 100vw;">
         <div id="sidebar"></div>
         <div id="sidebar2"></div>
     </body>
-    </html>
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  addSidebar(pornSidebar, mikuSidebar)
-})
-</script>
+</html>

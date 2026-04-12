@@ -5,66 +5,31 @@
         <script src="/script.js"></script>
 </head>
 <title>Miku Viewer</title>
+<script>
+    const migu = [
+        'ac54a11bbb77e39af4d787fb09898460.jpeg',
+        '62712ca8e9f4225b7d97e0beeafd7b41.jpeg',
+        'a388d5923fe81cca1536de440c0ce083.jpeg',
+        '166063370f1ad25f66d09c3fd5bb8d64.jpeg',
+        '49d1ea68baed87d76c92ae53fe9cf5d2.jpeg',
+        '998e2df3f6ff30925c7174a7095d86aa.jpeg',
+        '9d14b8ad95bc03da20cb25e7900ff2ae.jpeg',
+        '389d016d5d86d261cc9e4b18099baad0.jpeg',
+        '394083c311dd2fe99f8feae6beea8c14.jpeg',
+        '3c0d2dfafb66d2a45be11b311d189efa.jpeg',
+        '06a3a8cbefad71470120aa70acc86b90.jpeg',
+        '9ffe692444aa4cdf8bdeb4f238826e29.jpeg',
+        '41c8df62ad47b2f505bdef97d4dd2cd4.jpeg',
+        '0cbf6b0738ec314c17a94c498e393a4b.jpeg',
+    ]
+document.addEventListener("DOMContentLoaded", function() {
+  addSidebar(pornSidebar, mikuSidebar)
+  startViewer('/r34/miku/', migu)
+})
+</script>
 <html>
 <body class="centerList" onload='vol()' style="margin: 0; width: 100vw;">
         <div id="sidebar"></div>
         <div id="sidebar2"></div>
-    <!-- <img src="ac54a11bbb77e39af4d787fb09898460.jpeg" style="width: 15px;">
-    <img src="62712ca8e9f4225b7d97e0beeafd7b41.jpeg" style="width: 15px;">
-    <img src="a388d5923fe81cca1536de440c0ce083.jpeg" style="width: 15px;">
-    <img src="645d62b012e648dbcdb69513492b83cb.jpeg" style="width: 15px;">
-    <img src="49d1ea68baed87d76c92ae53fe9cf5d2.jpeg" style="width: 15px;">
-    <img src="998e2df3f6ff30925c7174a7095d86aa.jpeg" style="width: 15px;"> -->
-    <img class="center" id="image" src="ac54a11bbb77e39af4d787fb09898460.jpeg">
-    <br style="font-size: 0.5rem;">
-    <div class="pages">
-    <button id="1" style="background-color: blue;" onclick="document.getElementById('image').src='ac54a11bbb77e39af4d787fb09898460.jpeg';
-        document.querySelectorAll('button').forEach(element => element.style.backgroundColor = 'black')
-        document.getElementById('1').style.backgroundColor='blue';">Page 1</button>
-    <button id="2" onclick="document.getElementById('image').src='62712ca8e9f4225b7d97e0beeafd7b41.jpeg';
-        document.querySelectorAll('button').forEach(element => element.style.backgroundColor = 'black')
-        document.getElementById('2').style.backgroundColor='blue';">Page 2</button>
-    <button id="3" onclick="document.getElementById('image').src='a388d5923fe81cca1536de440c0ce083.jpeg';
-        document.querySelectorAll('button').forEach(element => element.style.backgroundColor = 'black')
-        document.getElementById('3').style.backgroundColor='blue';">Page 3</button>
-    <button id="4" onclick="document.getElementById('image').src='166063370f1ad25f66d09c3fd5bb8d64.jpeg';
-        document.querySelectorAll('button').forEach(element => element.style.backgroundColor = 'black')
-        document.getElementById('4').style.backgroundColor='blue';">Page 4</button>
-    <button id="5" onclick="document.getElementById('image').src='49d1ea68baed87d76c92ae53fe9cf5d2.jpeg';
-        document.querySelectorAll('button').forEach(element => element.style.backgroundColor = 'black')
-        document.getElementById('5').style.backgroundColor='blue';">Page 5</button>
-    <button id="6" onclick="document.getElementById('image').src='998e2df3f6ff30925c7174a7095d86aa.jpeg';
-        document.querySelectorAll('button').forEach(element => element.style.backgroundColor = 'black')
-        document.getElementById('6').style.backgroundColor='blue';">Page 6</button>
-    <button id="7" onclick="document.getElementById('image').src='9d14b8ad95bc03da20cb25e7900ff2ae.jpeg';
-        document.querySelectorAll('button').forEach(element => element.style.backgroundColor = 'black')
-        document.getElementById('7').style.backgroundColor='blue';">Page 7</button>
-    <button id="8" onclick="document.getElementById('image').src='389d016d5d86d261cc9e4b18099baad0.jpeg';
-        document.querySelectorAll('button').forEach(element => element.style.backgroundColor = 'black')
-        document.getElementById('8').style.backgroundColor='blue';">Page 8</button>
-    <button id="9" onclick="document.getElementById('image').src='394083c311dd2fe99f8feae6beea8c14.jpeg';
-        document.querySelectorAll('button').forEach(element => element.style.backgroundColor = 'black')
-        document.getElementById('9').style.backgroundColor='blue';">Page 9</button>
-    <button id="10" onclick="document.getElementById('image').src='3c0d2dfafb66d2a45be11b311d189efa.jpeg';
-        document.querySelectorAll('button').forEach(element => element.style.backgroundColor = 'black')
-        document.getElementById('10').style.backgroundColor='blue';">Page 10</button>
-    <button id="11" onclick="document.getElementById('image').src='06a3a8cbefad71470120aa70acc86b90.jpeg';
-        document.querySelectorAll('button').forEach(element => element.style.backgroundColor = 'black')
-        document.getElementById('11').style.backgroundColor='blue';">Page 11</button>
-    <button id="12" onclick="document.getElementById('image').src='9ffe692444aa4cdf8bdeb4f238826e29.jpeg';
-        document.querySelectorAll('button').forEach(element => element.style.backgroundColor = 'black')
-        document.getElementById('12').style.backgroundColor='blue';">Page 12</button>
-    <button id="13" onclick="document.getElementById('image').src='41c8df62ad47b2f505bdef97d4dd2cd4.jpeg';
-        document.querySelectorAll('button').forEach(element => element.style.backgroundColor = 'black')
-        document.getElementById('13').style.backgroundColor='blue';">Page 13</button>
-    <button id="14" onclick="document.getElementById('image').src='0cbf6b0738ec314c17a94c498e393a4b.jpeg';
-        document.querySelectorAll('button').forEach(element => element.style.backgroundColor = 'black')
-        document.getElementById('14').style.backgroundColor='blue';">Page 14</button>
-        </div>
     </body>
-    </html>
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  addSidebar(pornSidebar, mikuSidebar)
-})
-</script>
+</html>
