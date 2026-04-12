@@ -13,15 +13,16 @@
         background: linear-gradient(-90deg, #aa5555, #57f);
         padding: 20px;
         text-align: center;
-        text-shadow: 0px 0px 3px white;
+        color: white;
+        text-shadow: 0px 0px 3px #000;
     }
 </style>
 <script>
-    async function thoughtRefresh() {
+    async function thoughtRefresh(fetch) {
         while (true) {
             if (true) {
                 getScript('/thoughts.js')
-                StartThoughts(thoughts)
+                StartThoughts(fetch)
                 if (window.location.href === 'http://localhost:8001/thoughts.html') {
                     await delay(100)
                 }
@@ -35,7 +36,10 @@
     }
 </script>
 <html>
-    <body onload="thoughtRefresh();if (window.location.href === 'http://localhost:8001/thoughts.html') {window.scrollTo(0, document.body.scrollHeight)}">
+    <body onload="StartThoughts(thoughts);if (window.location.href === 'http://localhost:8001/thoughts.html') {window.scrollTo(0, document.body.scrollHeight)}">
+        <button onclick="StartThoughts(thoughts)">thoughts</button>
+        <button onclick="StartThoughts(story_ideas)">story ideas</button>
+        <br>
         <br>
             <div id="story"><br>
                 <span style="color: white;"></span>

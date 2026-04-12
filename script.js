@@ -350,7 +350,7 @@ function start(content = ['wtf'], doCookies = true, doX = false, doY = true, doO
 
 var startNumber = 0
 
-function startStory(content=['wtf'], doCookies=true, doX=false, doY=true, doOutput=true) {
+function startStory(content=['wtf'], doCookies=true, doX=false, doY=true, doOutput=true, format=true) {
   var s = document.createElement('script');
   s.id = 'text'
   if (startNumber === 0) {
@@ -358,30 +358,47 @@ function startStory(content=['wtf'], doCookies=true, doX=false, doY=true, doOutp
     document.body.appendChild(s);
     startNumber++
     document.getElementById('text').remove()
-    startStory(content, doCookies, doX, doY, doOutput)
+    startStory(content, doCookies, doX, doY, doOutput, format)
   }
   else if (startNumber === 1) {
     s.src = 'https://prokid99999.github.io/text.js';
     document.body.appendChild(s);
     startNumber++
     document.getElementById('text').remove()
-    startStory(content, doCookies, doX, doY, doOutput)
+    startStory(content, doCookies, doX, doY, doOutput, format)
   }
   else if (startNumber === 2) {
     s.src = 'http://localhost:2009/text.js';
     document.body.appendChild(s);
     startNumber++
     document.getElementById('text').remove()
-    startStory(content, doCookies, doX, doY, doOutput)
+    startStory(content, doCookies, doX, doY, doOutput, format)
   }
   else if (startNumber === 3) {
     startNumber = 0
+    if (format) {
+    document.body.innerHTML = '\
+        <br>\
+        <div class="space">\
+            <div><button id="prev">&lt; Previous</button></div>\
+            <div id="center" style="text-align: center;"></div>\
+            <div style="text-align: right;"><button id="next">Next &gt;</button></div>\
+        </div>\
+            <div id="story"><br>\
+                <span style="color: white;">this shit isn\'t fucking working :&lpar;</span>\
+            </div><br>\
+        <div class="space">\
+            <div><button id="prev1">&lt; Previous</button></div>\
+            <div id="center1" style="text-align: center;"></div>\
+            <div style="text-align: right;"><button id="next1">Next &gt;</button></div>\
+        </div><br></br>'}
     start(content, doCookies, doX, doY, doOutput)
   }
 }
 
 function StartThoughts(content = ['wtf'], doCookies = true, doX = false, doY = true, doOutput = false) {
   var page = window.location.pathname + ' - '
+  getScript('/thoughts.js')
   // content.reverse()
   var showSlide = (n) => {
     document.getElementById('story').innerHTML += '<div class="background">' + content[n] + '</div><br><br>'
