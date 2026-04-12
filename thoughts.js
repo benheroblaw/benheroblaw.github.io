@@ -10,7 +10,7 @@ thoughts = [
 
     "there are so many games where I just think <i>\"why are these two girls not kissing\"</i>",
 
-    "like why have mei and kiana never kissed? why have yagyu and hibari never kissed? yagyu clearly cares about hibari, but there's nothing in burst that frames their relationship as platonic",
+    "like why have mei and kiana never kissed? why have yagyu and hibari never kissed? yagyu cares about hibari, and there's nothing in burst that frames their relationship as platonic",
 
     "in summary, yagyu and hibari should kiss",
 
@@ -18,7 +18,7 @@ thoughts = [
 
     "as you can see, I really like senran kagura burst",
 
-    "its pretty fun from a gameplay perspective",
+    "its pretty fun in terms of gameplay",
 
     "it's got a very similar 'mid ingredients, peak dish' complex to tensura ",
 
@@ -34,13 +34,21 @@ thoughts = [
 
     "that's quite a message",
 
-    "homura got rejected by the good shinobi because she <i>almost</i> killed an <i>evil shinobi who intended to kill her</i> in <i>self-defense</i>",
+    "homura got rejected by the good shinobi because she <i>almost</i> killed an <i>evil shinobi who attempted to kill her</i> in <i>self-defense</i>",
 
     "bros not even dead",
 
     "it is stated that this dude is still alive",
 
     "see? i care quite a bit about this",
+
+]
+
+story_ideas = [
+// no div.background
+    "angel girl who gets hypnotized by a demon girl and corrupted",
+
+    "",
 
 ]
 

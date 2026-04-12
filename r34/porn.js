@@ -26,7 +26,7 @@ var irl = ['\
 
   '<p>other<br><br>\
     <video preload="auto" controls src="/r34/phub/Toy is too small for my big cock.mp4">no porn for you :(</video>\
-    <video preload="auto" controls src="/r34/phub/[PornhubFans 480p] My Stepmother Picks Me Up After University 2.mp4">no porn for you :(</video>\
+    <video preload="auto" controls src="/r34/phub/compressO-idk.mp4">no porn for you :(</video>\
   </p>',
 
   '<p>images<br><br>\
