@@ -210,7 +210,7 @@ var voidling = [
     <h1 id='char' class='void'>???</h1>\
     <div class='background'>\
     <p>The void is warmer than you would think.</p>\
-    <p>It also hurts, makes you feel like every inch of your flesh is being ripped and torn and burned to ash. It makes your bones feel like they're being shattered into dust. The part of your brain that sends pain signals is constantly overloaded yet kept in pristine condition, so no matter how much it wants to burn and scratch itself to death you keep hurting. The void scrambles you into every possible configuration of atoms and soul while remembering exactly how to put you back the way you were.</p><br>\
+    <p>It also hurts, makes you feel like every inch of your flesh is being ripped and torn and burned to ash. It makes your bones feel like they're being shattered into dust. The part of your brain that sends pain signals is constantly overloaded yet kept in pristine condition, so no matter how much it wants to burn and scratch itself to death, you keep hurting. The void scrambles you into every possible configuration of atoms and soul while remembering exactly how to put you back the way you were.</p><br>\
     <p>It's a prison.</p><br>\
     <p>Not for people like you and me.</p><br>\
     <p>Not something a human could comprehend.</p><br>\
@@ -290,12 +290,12 @@ var voidling = [
     <p>I gasp for air like I'm drowning, trying to remember how my diaphragm works.</p>\
     <p>\"Want some help?\" I don't look at whoever's speaking, just roll my head into the ground. A second later, my lungs fill with a warm almost-liquid substance that weighs nothing and makes my flesh feel like static. It expands, forcing me to suck air into my lungs, and contracts, pushing CO<sub>2</sub> out. The cycle continues without my input.</p>\
     <p>I raise my head to look at the person breathing for me. Bleached-bone horned mask, undulating black neck disappearing into a white button-up shirt, black pants and shiny shoes. Cuffs rolled up to her elbows, revealing the shifting darkness between the plates of bone that give her body shape. Of course it's Airn. Who else would it be? I return my skull to the unfamiliar comfort of soft and sharp grass.</p>\
-    <p>\"We both want to get this done quickly, right?\" I grunt into the dirt. Airn is the last person I want to talk to.\"All the bones in one of your arms for a hundred years off your sentence.\"</p>\
+    <p>\"We both want to get this done quickly, right?\" I grunt into the dirt. Airn is the last person I want to talk to. \"All the bones in one of your arms for a hundred years off your sentence.\"</p>\
     <p>I have to raise my head again to give her a look that speaks all the questions in my head. Why does she want my bones? What's she going to do with them? Since when did my sentence have an end date? What is it?</p>\
     <p>\"Yes or no.\" I have a choice? It's not if it gets my sentence over faster.</p>\
     <p>\"Why-?\" I croak. My voice sounds like it was torn to shreds, ground against sandpaper and glass and then cobbled back together, which is pretty much what happened.</p>\
     <p>\"None of your business.\" Her eyes drill into me, coldly confident as always.</p>\
-    <p>\"Fine,\" I sneer. Airn walks over to me- she was farther away than I thought- and lays a hand on my arm. Pain screams raw and scorching through its core before being washed out by cool darkness. I might have screamed; it hurt too much to be sure.</p>\
+    <p>\"Fine,\" I sneer. Airn walks over to me- she was farther away than I thought, more than a respectful distance- and lays a hand on my arm. Pain screams raw and scorching through its core before being washed out by cool darkness. I might have screamed; it hurt too much to be sure.</p>\
     <p>I sit up and glare at Airn, cradling my arm. It doesn't hurt anymore, but it's half numb and isn't responding to my brain's commands to move. I'm starting to panic just a little bit.</p>\
     <p>\"I didn't say anything about the pain.\" The bitch of the void is kneeling next to me, holding a bunch of long pink-white sticks. My head spins when I look at them. Are those my bones? They look too red, too small, too thin. That's what was shaping my arm? My stomach is threatening to empty whatever's left in it. I have to look away.</p>\
     <p>\"One century's shorter stay in the Abyss.\" She looks at me like a bug she's experimenting upon.</p>\
@@ -310,7 +310,7 @@ var voidling = [
     <div class='background'>\
     <p>Airn repeats her little cycle, bringing me out of her 'Abyss' every once in a while to trade bones for pieces of my sentence. My left arm (one century), both legs (a century each), my ribs, spine and shoulder blades (apparently worth a hundred and fifty years) and my skull (one final century). I've asked why every time. I don't have an answer.</p>\
     <p>Each piece of my skeleton that got removed is numb to the void. I've been wondering what Airn replaced my bones with, since my arm kept its shape the first time she took them.</p>\
-    <p>She filled the space left by my skeletal system with the void. She used the void to help me breathe. That static feeling? It's what the void feels like when it's passive. I felt it in my arm when I learned to fix its nerves, then I tuned it out ever since.</p><br>\
+    <p>She filled the space left by my skeletal system with the void. She used the void to help me breathe. That static feeling? It's what the void feels like when it's not trying to rip and shatter and beat you beyond sanity. I felt it in my arm when I learned to fix its nerves, then I tuned it out ever since.</p><br>\
     <p>...</p><br>\
     <p>I've been losing myself. With pain being the only thing I can feel for years at a time, I'm having trouble remembering who I am. I know I'm a girl. I might like other girls. I'm not sure if I like boys.</p>\
     <p></p>\
@@ -703,15 +703,15 @@ var villainess = [
         <p>\"Welcome, one and all,\" she begins. \"I have gathered you all here because I have something to confess.\"</p>\
         <p>Everyone's eyes are on Gwenhael, even the servants turning their gaze to her. She pauses. The shadows seem to shift with tension.</p>\
         <p>After enough time for a deep breath, she continues.</p>\
-        <p>\"I have been observing how you conduct yourselves, bathing in and flaunting your wealth and your power.\"</p>\
-        <p>The crowd almost seems to flinch, certainly not expecting such criticisms from another noble. The prince is thoroughly shaken, having not even known how she was going to announce their marriage. He had thought she would be shy and quiet. The raw confidence she exuded was foreign to him.</p>\
+        <p>\"I have been observing how you conduct yourselves, bathing in and flaunting your wealth and your power like children.\"</p>\
+        <p>The crowd almost seems to flinch, certainly not expecting such criticisms from another noble. The prince is thoroughly shaken, having not even known how she was going to announce their marriage. He had thought she would be shy and quiet, as she was to him throughout their courtship. The raw confidence she exuded now was foreign to him.</p>\
         <p>\"Money and power you use to climb higher and higher, largely ignoring the consequences you bring upon your people. Most are starving from your taxation, even more than they would be otherwise. You claim everything for yourselves with no thought for your subjects.\"</p>\
-        <p>The crowd is fuming now, many shouting at her about how grave of a transgression she was committing and grabbing blunt weapons, sharpening into blades in their hands. She simply raises her voice over them.</p>\
+        <p>The crowd is fuming now, shouting at her about how grave of a transgression she was committing and grabbing blunt weapons, sharpening into blades in their hands. She simply raises her voice over them.</p>\
         <p>\"Your tyranny ends today.\"</p>\
         <p>The darkness in the room has become suffocating, feeling like a half-solid mass rather than simple shadows. As nobles and royals struggle to breathe this new substance, many servants have gathered around them and are trying to help.</p>\
         <p>Gwenhael's lips curve slightly upward.</p>\
         <p>Red lines appear at the throats of everyone being assaulted by the darkness. Screams shatter the air itself as they fall and blood begins to flow.</p>\
-        <p>Gwenhael hops the short distance between the stage and the floor. She walks unhurriedly toward the pile of bodies, oblivious to servants keening and scrambling away from her.</p>\
+        <p>Gwenhael hops the short distance between the stage and the floor. She walks unhurriedly toward the pile of bodies, oblivious to servants keening and scrambling away from her as they would a devil.</p>\
         <p>She stops mere steps from the carnage, face splitting in a full grin.</p>\
         <p>Shadows weave themselves into tendrils, holding each body up for her so she can survey her work.</p>\
         <p>She turns to the servants, seeming to only now recognize their terror.</p>\
@@ -759,8 +759,8 @@ var villainess = [
         <p>That is what <i>she</i> has started. A war, not just between the two of us, but a war of ideals. I cut down tens of tyrants who did nothing but make their people's lives worse. I don't know whether or not <i>she</i>- the Hero- knows this. If I look at the night from the perspective of the servants, I cut down those nobles with little reason. For all they knew, they could have been next. I told them they were not, but they were clearly beyond reason. It makes sense that the Hero cut me down.</p>\
         <p>There's the issue of her power, too. Manipulation of light. Maybe Aciukinesis- the manipulation of an object's sharpness. Her power is the counter to mine, the destined opposite. Shadow cannot exist under the all-consuming gaze of light.</p>\
         <p>So I need to train my power, my Umbrakinesis. Learn how to make shadows that can survive the light. I know I can use Aciukinesis on shadows in my grasp. I could use the shadows under her greaves, bend them out from their hiding place.</p>\
-        <p>I wonder if I could <i>extend</i> a shadow rather than manipulating it directly.</p>\
-        <p>As I think this, I slowly and excruciatingly rise to my feet and stumble to another bush. My hands fumble underneath it, clumsily grabbing the staff's outfit stashed under it. </p>\
+        <p>I could <i>extend</i> a shadow rather than manipulating it directly.</p>\
+        <p>As I think this, I slowly and excruciatingly rise to my feet, almost blacking out even though I tried to go slowly. It doesn't pull as much as I walk to another bush. My hands fumble at its roots, clumsily grabbing the servant's outfit stashed there. </p>\
         <p></p>\
         <p></p>\
         <p></p>\
