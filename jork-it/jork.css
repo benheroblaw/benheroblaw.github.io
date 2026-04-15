@@ -213,6 +213,10 @@ div.right {
     display: inherit;
     opacity: 1;
 }
+.tooltiptext {
+    position: fixed;
+    right: 30%;
+}
 
 i {
     font-size: x-small;

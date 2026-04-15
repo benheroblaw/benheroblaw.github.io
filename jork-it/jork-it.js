@@ -26,7 +26,7 @@ function jork() {
     setCookie(path + 'electros', 0, debug)
   }
   if (checkCookie(path + 'ePrice') === 'error') {
-    setCookie(path + 'ePrice', 5000, debug)
+    setCookie(path + 'ePrice', 2500, debug)
   }
   if (checkArrayCookie(path + 'upgrades') === 'error') {
     setArrayCookie(path + 'upgrades', ['none', 'balls'], debug)
@@ -41,7 +41,7 @@ function jork() {
   let ePrice = Number(getCookie(path + 'ePrice'))
   let arousal = Number(getCookie(path + upgrades).length)
   if (arousal === 0) {arousal=1}
-  let jorkpower = 1 + (vibes * 0.5) + (electros * 5) * arousal
+  let jorkpower = 1 + (vibes * 0.75) + (electros * 5) * arousal
 
 
   document.getElementById('counter').innerHTML = Math.round(jorks) + ' jorks'
@@ -61,7 +61,7 @@ document.getElementById('reset').addEventListener('click', () => {
     vibes = 0
     vibePrice = 50
     electros = 0
-    ePrice = 5000
+    ePrice = 2500
     jorks = 0
     jorkpower = 1
     setCookie(path + 'vibes', 0, debug)
@@ -69,7 +69,7 @@ document.getElementById('reset').addEventListener('click', () => {
     setCookie(path + 'alljorks', 0, debug)
     setCookie(path + 'vibePrice', 50, debug)
     setCookie(path + 'electros', 0, debug)
-    setCookie(path + 'ePrice', 5000, debug)
+    setCookie(path + 'ePrice', 2500, debug)
     document.getElementById('counter').innerHTML = 0 + ' jorks'
     document.getElementById('vibePrice').innerHTML = vibePrice
     document.getElementById('vibes').innerHTML = vibes
@@ -83,7 +83,7 @@ document.body.onpointermove = event => {
     const { clientY } = event;
 
     move.forEach( element =>
-      element.animate({top: 'calc(-10vw + ' + clientY+'px)'}, {duration: 100, fill: "forwards"})
+      element.animate({top: 'calc(-10vw + ' + clientY+'px)'}, {duration: 10, fill: "forwards"})
     )
 }
 
@@ -95,7 +95,7 @@ document.body.onpointermove = event => {
         if (debug) {console.log(vibes)}
         jorks -= vibePrice
         vibePrice += Math.round(vibePrice / 5 * 0.75)
-        jorkpower = (vibes * 1.75)
+        jorkpower += 0.75
         document.getElementById('vibePrice').innerHTML = '<img src="/jork-it/jork.png" alt="">' + vibePrice
         document.getElementById('vibes').innerHTML = vibes
         if (debug) {console.log(jorks)}
@@ -116,7 +116,7 @@ document.body.onpointermove = event => {
         if (debug) {console.log(electros)}
         jorks -= ePrice
         ePrice += Math.round(ePrice / 2.5 * 0.75)
-        jorkpower = (electros * 10)
+        jorkpower += 5
         document.getElementById('ePrice').innerHTML = '<img src="/jork-it/jork.png" alt="">' + ePrice
         document.getElementById('electros').innerHTML = electros
         if (debug) {console.log(jorks)}
@@ -141,11 +141,12 @@ const viber = async () => {
   let jorks = Number(getCookie(path + 'jorks'))
   let vibes = Number(getCookie(path + 'vibes'))
   let electros = Number(getCookie(path + 'electros'))
-  while (vibes != 0) {
+  let idlepower = vibes + (electros * 10)
+  while (vibes != 0 || electros !=0) {
     vibes = Number(getCookie(path + 'vibes'))
     electros = Number(getCookie(path + 'electros'))
-    if (electros === 0) {electros = 1}
-    await delay(1000 / 1*((0.5 / vibes) + (0.05 / electros)))
+    idlepower = vibes + (electros * 10)
+    await delay(1000 / idlepower)
     jorks = Number(getCookie(path + 'jorks'))
     alljorks = Number(getCookie(path + 'alljorks'))
     setCookie(path + 'jorks', jorks += 1, debug)
@@ -158,11 +159,13 @@ const viber = async () => {
 const achieves = async () => {
   while (true) {
     let vibes = Number(getCookie(path + 'vibes'))
+    let electros = Number(getCookie(path + 'electros'))
     let upgrades = Number(getArrayCookie(path + 'upgrades'))
     let arousal = Number(getCookie(path + upgrades).length)
     if (arousal === 0) {arousal=1}
-    let jorkpower = 1 + (vibes * 0.5) * arousal
-    document.getElementById('idlepower').innerText = vibes + ' jorks per second'
+    let jorkpower = 1 + (vibes * 0.75) + (electros * 5) * arousal
+    let idlepower = vibes + (electros * 10)
+    document.getElementById('idlepower').innerText = idlepower + ' jorks per second'
     document.getElementById('clickpower').innerText = jorkpower + ' jorks per click'
     await delay(100)
   }
