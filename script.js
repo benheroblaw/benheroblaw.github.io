@@ -48,6 +48,12 @@ var mikuSidebar =
   '<a href="/r34/miku/mikgu.html">Miku Teto</a><br>' +
   '<a href="/r34/miku/migu.html">Horny Migu</a><br>'
 
+
+var sona = '<h1>sonas</h1>\
+  <a href="/character-sheets/femsona.html"><span>femsona</span></a><br>\
+  <a href="/character-sheets/enbysona.html"><span>enbysona</span></a><br>'
+  // <a href="/character-sheets/mascsona.html"><span>mascsona</span></a>'
+
 var program = [
     '(^///^) ',
     "(o///o) ",
@@ -552,17 +558,23 @@ function clear() {
 var video = document.querySelectorAll('video')
 document.addEventListener('loadstart', video.forEach(element => element.preload = 'none'))
 
-function addSidebar(sidebar=pornSidebar, viewerSidebar='', sidebar3='') {
-  try {document.getElementById('sidebar').innerHTML = sidebar}
+function addSidebar(sidebar=pornSidebar, viewerSidebar='', sidebar3='', sidebar4='',) {
+  document.body.innerHTML += '<link rel="stylesheet" href="/sidebar.css">'
+  try {document.getElementById('sidebar').innerHTML = sidebar; document.getElementById('sidebar').style.display = 'inline'}
   catch (Error) {errorMessage('no sidebar')}
   if (viewerSidebar != '') {
-    try {document.getElementById('sidebar2').innerHTML = viewerSidebar}
+    try {document.getElementById('sidebar2').innerHTML = viewerSidebar; document.getElementById('sidebar2').style.display = 'inline'}
     catch (Error) {errorMessage('no 2nd sidebar')}
   }
   if (sidebar3 != '') {
-    try {document.getElementById('sidebar3').innerHTML = sidebar3}
+    try {document.getElementById('sidebar3').innerHTML = sidebar3; document.getElementById('sidebar3').style.display = 'inline'}
     catch (Error) {errorMessage('no 3rd sidebar')}
   }
+  if (sidebar4 != '') {
+    try {document.getElementById('sidebar4').innerHTML = sidebar4; }
+    catch (Error) {errorMessage('no 4th sidebar')}
+  }
+
 }
 
 function getScript(file) {
