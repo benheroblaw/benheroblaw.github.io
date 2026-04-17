@@ -43,6 +43,13 @@ function jork() {
   if (arousal === 0) {arousal=1}
   let jorkpower = 1 + (vibes * 0.75) + (electros * 5) * arousal
 
+function click() {
+  jorks = Number(getCookie(path + 'jorks'))
+  jorks += jorkpower
+  setCookie(path + 'jorks', + jorks, debug)
+  setCookie(path + "alljorks", alljorks += jorkpower, debug)
+  document.getElementById('counter').innerHTML = Math.round(jorks) + ' jorks'
+}
 
   document.getElementById('counter').innerHTML = Math.round(jorks) + ' jorks'
   document.getElementById('vibePrice').innerHTML = '<img src="/jork-it/jork.png" alt="">' + vibePrice
@@ -50,11 +57,7 @@ function jork() {
   document.getElementById('ePrice').innerHTML = '<img src="/jork-it/jork.png" alt="">' + ePrice
         document.getElementById('electros').innerHTML = electros
   document.getElementById('jorker').addEventListener('click', () => {
-    jorks = Number(getCookie(path + 'jorks'))
-    jorks += jorkpower
-    setCookie(path + 'jorks', + jorks, debug)
-    setCookie(path + "alljorks", alljorks += jorkpower, debug)
-    document.getElementById('counter').innerHTML = Math.round(jorks) + ' jorks'
+    click()
   })
 
 document.getElementById('reset').addEventListener('click', () => {
@@ -94,7 +97,7 @@ document.body.onpointermove = event => {
         vibes++
         if (debug) {console.log(vibes)}
         jorks -= vibePrice
-        vibePrice += Math.round(vibePrice / 5 * 0.75)
+        vibePrice += 24 + Math.round((vibes / 1.5))
         jorkpower += 0.75
         document.getElementById('vibePrice').innerHTML = '<img src="/jork-it/jork.png" alt="">' + vibePrice
         document.getElementById('vibes').innerHTML = vibes
@@ -115,7 +118,7 @@ document.body.onpointermove = event => {
         electros++
         if (debug) {console.log(electros)}
         jorks -= ePrice
-        ePrice += Math.round(ePrice / 2.5 * 0.75)
+        ePrice += 499 + (electros)
         jorkpower += 5
         document.getElementById('ePrice').innerHTML = '<img src="/jork-it/jork.png" alt="">' + ePrice
         document.getElementById('electros').innerHTML = electros
@@ -131,7 +134,7 @@ document.body.onpointermove = event => {
   )
 
   viber()
-  achieves()
+  tick()
 
   document.getElementById('top').style.display = 'none'
 }
@@ -156,7 +159,7 @@ const viber = async () => {
   if (vibes === 0) {console.log(hony[0]+'stopping viber')}
 }
 
-const achieves = async () => {
+const tick = async () => {
   while (true) {
     let vibes = Number(getCookie(path + 'vibes'))
     let electros = Number(getCookie(path + 'electros'))

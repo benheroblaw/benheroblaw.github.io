@@ -2,9 +2,9 @@
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/sw.js')
   .then(function(registration) {
-    console.log(tes[0] + 'Service Worker registered with scope:', registration.scope);
+    tesLog('Service Worker registered with scope: ' + registration.scope);
   }).catch(function(error) {
-    console.log(tes[0] + 'Service Worker registration failed:', error);
+    tesLog('Service Worker registration failed:', error);
   });
 }
 
@@ -51,7 +51,7 @@ var mikuSidebar =
 
 var sona = '<h1>sonas</h1>\
   <a href="/character-sheets/femsona.html"><span>femsona</span></a><br>\
-  <a href="/character-sheets/enbysona.html"><span>enbysona</span></a><br>'
+  <a href="/character-sheets/enbysona.html"><span>themsona</span></a><br>'
   // <a href="/character-sheets/mascsona.html"><span>mascsona</span></a>'
 
 var program = [
@@ -170,14 +170,14 @@ function checkArrayCookie(cname) {
   }
 }
 
-function deleteCookie(cname, cvalue, output = true, exdays = -7) {
+function deleteCookie(cname, cvalue='', output = true, exdays = -7) {
   var d = new Date();
   d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
   let expires = 'expires=' + d.toUTCString();
   document.cookie = cname + '=' + cvalue + ';' + expires + ';page=/';
   if (output) {
   console.log(
-    tes[0] + 'Set cookie \'' + cname + '\' with value \'' + cvalue + '\'; ' + expires
+    tes[0] + 'Deleted cookie \'' + cname + '\''
   )}
 }
 
@@ -355,32 +355,44 @@ function start(content = ['wtf'], doCookies = true, doX = false, doY = true, doO
 }
 
 var startNumber = 0
+let startState = 'not started'
+    // if (doOutput) {tesLog('')}
 
 function startStory(content=['wtf'], format=false, doCookies=true, doX=false, doY=true, doOutput=true) {
+  if (doOutput) {tesLog('starting')}
   var s = document.createElement('script');
   s.id = 'text'
-  if (startNumber === 0) {
+  if (startState === 'not started') {
     s.src = '/text.js';
     document.body.appendChild(s);
-    startNumber++
+    startNumber = 1
     document.getElementById('text').remove()
-    startStory(content, format, doCookies, doX, doY, doOutput, )
+    if (doOutput) {tesLog('fetched text')}
+    startState = 'debug check'
   }
-  else if (startNumber === 1) {
+  if (window.location.href.indexOf('http://localhost:8001') > 0) {
+    if (doOutput) {tesLog('debug true')}
+    startState = 'debug true'
+  }
+  else {
+    startNumber = 3
+    if (doOutput) {tesLog('debug false')}
+    startState = 'ready to display'
+  }
+  if (startState === 'debug true') {
     s.src = 'https://prokid99999.github.io/text.js';
     document.body.appendChild(s);
-    startNumber++
+    startNumber = 2
     document.getElementById('text').remove()
-    startStory(content, format, doCookies, doX, doY, doOutput)
   }
-  else if (startNumber === 2) {
+  if (startState === 'debug true') {
     s.src = 'http://localhost:2009/text.js';
     document.body.appendChild(s);
-    startNumber++
+    startNumber = 3
     document.getElementById('text').remove()
-    startStory(content, format, doCookies, doX, doY, doOutput)
   }
-  else if (startNumber === 3) {
+  if (doOutput) {tesLog('displaying')}
+  if (startState === 'ready to display') {
     startNumber = 0
     if (format) {
     document.body.innerHTML += '\
@@ -504,7 +516,7 @@ function word_count(paras = 'background') {
   contents = contents.trim()
   contents = contents.replace(/<[^>]*>?/gm, '');
   char = contents.length
-  console.log(tes[0] + count + ' words, ' + char + ' characters');
+  tesLog(count + ' words, ' + char + ' characters');
 }
 
 function wordcount(paras = 'background') {
@@ -551,6 +563,10 @@ function errorMessage(msg) {
   colorTrace(tes[1] + msg, 'red')
 }
 
+function tesLog (msg='') {
+  console.log(tes[0] + msg)
+}
+
 function clear() {
   console.clear()
 }
@@ -561,7 +577,7 @@ document.addEventListener('loadstart', video.forEach(element => element.preload 
 function addSidebar(sidebar=pornSidebar, viewerSidebar='', sidebar3='', sidebar4='',) {
   document.body.innerHTML += '<link rel="stylesheet" href="/sidebar.css">'
   try {document.getElementById('sidebar').innerHTML = sidebar; document.getElementById('sidebar').style.display = 'inline'}
-  catch (Error) {errorMessage('no sidebar')}
+  catch (Error) {errorMessage('no 1st sidebar')}
   if (viewerSidebar != '') {
     try {document.getElementById('sidebar2').innerHTML = viewerSidebar; document.getElementById('sidebar2').style.display = 'inline'}
     catch (Error) {errorMessage('no 2nd sidebar')}

@@ -94,12 +94,12 @@ div.right {
     text-shadow: 2px 0px 2.5px black;
 }
 
-#vibes{
+#vibes, #electros{
     display: inline-block;
     text-align: right;
     margin-left: 12rem;
 }
-#vibePrice{
+#vibePrice, #ePrice {
     font-size: x-small;
     font-weight: bolder;
 }
@@ -213,7 +213,7 @@ div.right {
     display: inherit;
     opacity: 1;
 }
-.tooltiptext {
+.tooltiptext{
     position: fixed;
     right: 30%;
 }
