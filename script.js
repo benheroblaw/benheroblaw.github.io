@@ -386,7 +386,7 @@ function startStory(content=['wtf'], format=false, doCookies=true, doX=false, do
     document.body.innerHTML += '\
         <br>\
         <div class="space">\
-            <div><button id="prev">&lt; Previous</button></div>\
+            <div style="text-align: left"><button id="prev">&lt; Previous</button></div>\
             <div id="center" style="text-align: center;"></div>\
             <div style="text-align: right;"><button id="next">Next &gt;</button></div>\
         </div>\
@@ -394,10 +394,10 @@ function startStory(content=['wtf'], format=false, doCookies=true, doX=false, do
                 <span style="color: white;">this shit isn\'t fucking working :&lpar;</span>\
             </div><br>\
         <div class="space">\
-            <div><button id="prev1">&lt; Previous</button></div>\
+            <div style="text-align: left"><button id="prev1">&lt; Previous</button></div>\
             <div id="center1" style="text-align: center;"></div>\
             <div style="text-align: right;"><button id="next1">Next &gt;</button></div>\
-        </div><br>'}
+        </div><br><br>'}
     start(content, doCookies, doX, doY, doOutput)
   }
 }
