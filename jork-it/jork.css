@@ -68,7 +68,7 @@ div.right {
 }
 
 .item-container {
-    position: relative;
+    /* position: static; */
     width: 99%;
     height: 100%;
     background: linear-gradient(#111, #fff);
@@ -184,7 +184,7 @@ div.right {
 }
 
 .tooltip {
-    position: relative;
+    position: sticky;
     display: block;
 }
 
@@ -214,11 +214,15 @@ div.right {
     opacity: 1;
 }
 .tooltiptext{
-    position: fixed;
+    position: absolute;
     right: 30%;
 }
 
 i {
     font-size: x-small;
     line-height: 0.5rem;
+}
+
+#lube {
+    display: none;
 }

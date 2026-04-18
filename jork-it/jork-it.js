@@ -16,8 +16,14 @@ function jork() {
   if (checkCookie(path + 'alljorks') === 'error') {
     setCookie(path + 'alljorks', 0, debug)
   }
+  if (checkCookie(path + 'arousal') === 'error') {
+    setCookie(path + 'arousal', 1, debug)
+  }
   if (checkCookie(path + 'vibes') === 'error') {
     setCookie(path + 'vibes', 0, debug)
+  }
+  if (checkCookie(path + 'aphro') === 'error') {
+    setCookie(path + 'aphro', 0, debug)
   }
   if (checkCookie(path + 'vibePrice') === 'error') {
     setCookie(path + 'vibePrice', 50, debug)
@@ -39,12 +45,15 @@ function jork() {
   let upgrades = Number(getArrayCookie(path + 'upgrades'))
   let vibePrice = Number(getCookie(path + 'vibePrice'))
   let ePrice = Number(getCookie(path + 'ePrice'))
-  let arousal = Number(getCookie(path + upgrades).length)
-  if (arousal === 0) {arousal=1}
+  let arousal = Number(getCookie(path + 'arousal'))
   let jorkpower = 1 + (vibes * 0.75) + (electros * 5) * arousal
 
 function click() {
-  jorks = Number(getCookie(path + 'jorks'))
+  let jorks = Number(getCookie(path + 'jorks'))
+  let arousal = Number(getCookie(path + 'arousal'))
+  let vibes = Number(getCookie(path + 'vibes'))
+  let electros = Number(getCookie(path + 'electro'))
+  let jorkpower = 1 + (vibes * 0.75) + (electros * 5) * arousal
   jorks += jorkpower
   setCookie(path + 'jorks', + jorks, debug)
   setCookie(path + "alljorks", alljorks += jorkpower, debug)
@@ -53,9 +62,9 @@ function click() {
 
   document.getElementById('counter').innerHTML = Math.round(jorks) + ' jorks'
   document.getElementById('vibePrice').innerHTML = '<img src="/jork-it/jork.png" alt="">' + vibePrice
-        document.getElementById('vibes').innerHTML = vibes
+    document.getElementById('vibes').innerHTML = vibes
   document.getElementById('ePrice').innerHTML = '<img src="/jork-it/jork.png" alt="">' + ePrice
-        document.getElementById('electros').innerHTML = electros
+    document.getElementById('electros').innerHTML = electros
   document.getElementById('jorker').addEventListener('click', () => {
     click()
   })
@@ -67,12 +76,14 @@ document.getElementById('reset').addEventListener('click', () => {
     ePrice = 2500
     jorks = 0
     jorkpower = 1
+    arousal = 1
     setCookie(path + 'vibes', 0, debug)
     setCookie(path + 'jorks', 0, debug)
     setCookie(path + 'alljorks', 0, debug)
     setCookie(path + 'vibePrice', 50, debug)
     setCookie(path + 'electros', 0, debug)
     setCookie(path + 'ePrice', 2500, debug)
+    setCookie(path + 'arousal', 1, debug)
     document.getElementById('counter').innerHTML = 0 + ' jorks'
     document.getElementById('vibePrice').innerHTML = vibePrice
     document.getElementById('vibes').innerHTML = vibes
@@ -82,13 +93,13 @@ document.getElementById('reset').addEventListener('click', () => {
 
 const move = document.querySelectorAll(".tooltiptext");
 
-document.body.onpointermove = event => {
-    const { clientY } = event;
+// document.body.onpointermove = event => {
+//     let { clientY } = event;
 
-    move.forEach( element =>
-      element.animate({top: 'calc(-10vw + ' + clientY+'px)'}, {duration: 10, fill: "forwards"})
-    )
-}
+//     move.forEach( element =>
+//       element.animate({top: 'calc(' + clientY + 'vh/15)'}, {duration: 10, fill: "forwards"})
+//     )
+// }
 
   document.getElementById('vibe').addEventListener('click', () => {
     vibes = Number(getCookie(path + 'vibes'))
@@ -133,6 +144,20 @@ document.body.onpointermove = event => {
     }
   )
 
+  document.getElementById('aphro').addEventListener('click', () => {
+    jorks = Number(getCookie(path + 'jorks'))
+    arousal = Number(getCookie(path + 'arousal'))
+
+    if (jorks >= 15000) {
+      document.getElementById('aphro').style.display = 'none'
+      jorks -= 15000
+      arousal++
+      jorks = Number(getCookie(path + 'jorks'))
+      arousal = Number(getCookie(path + 'arousal'))
+    }
+
+  })
+
   viber()
   tick()
 
@@ -164,7 +189,7 @@ const tick = async () => {
     let vibes = Number(getCookie(path + 'vibes'))
     let electros = Number(getCookie(path + 'electros'))
     let upgrades = Number(getArrayCookie(path + 'upgrades'))
-    let arousal = Number(getCookie(path + upgrades).length)
+    let arousal = Number(getCookie(path + 'arousal'))
     if (arousal === 0) {arousal=1}
     let jorkpower = 1 + (vibes * 0.75) + (electros * 5) * arousal
     let idlepower = vibes + (electros * 10)

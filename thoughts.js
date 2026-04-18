@@ -18,11 +18,11 @@ thoughts = [
 
     "as you can see, I really like senran kagura burst",
 
-    "its pretty fun in terms of gameplay",
+    "its pretty fun to play",
 
     "it's got a very similar 'mid ingredients, peak dish' complex to tensura ",
 
-    "toby fox? said something like \"if someone cares enough about their work, it'll show even if they lack skill\"",
+    "toby fox? said something to the effect of \"if someone cares enough about their work, it'll show even if they lack skill\"",
 
     "i think that's what things like senran kagura and tensura have",
 
