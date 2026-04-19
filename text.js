@@ -176,7 +176,7 @@ var template = [
 
     "<link rel=\"icon\" href=\"/icons/story.png\">\
     <h2>1</h2>\
-    <h1 id='char' class='vampire'>Villainess</h1>\
+    <h1 id='char' class='vampire'>Villain</h1>\
     <div class='background'>\
         <p></p>\
         <p></p>\
@@ -578,12 +578,12 @@ var villainess = [
     "<br>\
     <div class='background'>\
     <h3>story outline</h3>\
-    <p>Villainess enters a political marriage with a prince</p>\
+    <p>Villain enters a political marriage with a prince</p>\
     <p>She convinces the prince to hold a ball</p>\
     <br>\
     <p>A spotlight shines on a stage, her standing ready.</p>\
     <br>\
-    <p>Villainess voices her raw contempt for the monarchy and nobles' abuse of power directly to everyone concerned within her complaints.</p>\
+    <p>Villain voices her raw contempt for the monarchy and nobles' abuse of power directly to everyone concerned within her complaints.</p>\
     <br>\
     <p>She kills them with Umbrakinesis.</p>\
     <p></p>\
@@ -592,11 +592,11 @@ var villainess = [
     <p></p>\
     <p></p>\
     <p></p>\
-    <p>Heroine beats her near death and Villainess goes \"thats hot\"</p>\
+    <p>Hero beats her near death and Villain goes \"thats hot\"</p>\
     <br>\
     <br>\
     <br>\
-    <p>Heroine gets reports of Villainess being back so she goes over to Villainess's place</p>\
+    <p>Hero gets reports of Villain being back so she goes over to Villain's place</p>\
     <p>She gets low-diffed and kissed and worshipped</p>\
     <p>She has to think about that</p>\
     <br>\
@@ -605,13 +605,13 @@ var villainess = [
     <br>\
     <br>\
     <br>\
-    <p>Villainess finds a camp of kids who escaped from another kingdom's nobles</p>\
-    <p>That kingdom had an epstein island, so Villainess is going to rip them limb from limb bc that's the kind of villain she is</p>\
-    <p>Some of the kids are going to help because Villainess taught them Umbrakinesis</p>\
+    <p>Villain finds a camp of kids who escaped from another kingdom's nobles</p>\
+    <p>That kingdom had an epstein island, so Villain is going to rip them limb from limb bc that's the kind of villain she is</p>\
+    <p>Some of the kids are going to help because Villain taught them Umbrakinesis</p>\
     <br>\
-    <p>The strongest of them (Umbra) finds out about Heroine</p>\
-    <p>She captures Heroine</p>\
-    <p>Villainess gives her a talk about cowardice and exposition about Umbrakinesis</p>\
+    <p>The strongest of them (Umbra) finds out about Hero</p>\
+    <p>She captures Hero</p>\
+    <p>Villain gives her a talk about cowardice and exposition about Umbrakinesis</p>\
     <p></p>\
     <p></p>\
     <p></p>\
@@ -660,7 +660,7 @@ var villainess = [
     <div class='background'>\
         <h3>a whole page for me to yap about umbrakinesis because its the only power ive really figured out</h3>\
         <p>Umbrakinesis is the manipulation of shadows. The less defined a shadow is, the more a user of Umbrakinesis can change it. There's also the factor of an Umbrakinetic's perceived 'ownership' of the shadow. For example, an Umbrakinetic's own shadow on the ground is one of the strongest in their arsenal. The only stronger shadows are inside their body. These are <i>very</i> defined, but no other Umbrakinetic can 'grab' them. The shadows of the intestines are shaped in a rope, for example.</p>\
-        <p><i>\"What gives you any hold on </i>my<i> shadow?\" - Villainess to Umbra</i></p>\
+        <p><i>\"What gives you any hold on </i>my<i> shadow?\" - Villain to Umbra</i></p>\
         <p></p>\
         <p></p>\
         <p></p>\
@@ -684,7 +684,7 @@ var villainess = [
 
     "<head>\
     <link rel=\"icon\" href=\"/icons/story.png\">\
-    <title>The Villainess Enters A Political Marriage with the Prince of a Neighboring Kingdom</title>\
+    <title>The Villain Enters A Political Marriage with the Prince of a Neighboring Kingdom</title>\
     </head>\
     <h2></h2>\
     <h1 id='char'>Prologue</h1>\
@@ -749,7 +749,7 @@ var villainess = [
         <br>\
         <p>My first thoughts are about that armoured woman.</p>\
         <br>\
-        <p>The heroine of my story, I suppose.</p>\
+        <p>The hero of my story, I suppose.</p>\
         <br>\
         <p>She will get a happy ending, find someone whom she loves, have children, and die peacefully, while I, the villain, will be locked away to repent for my crimes. So many tales of heroes winning the day, of the villain being defeated and robbed of their chance to live.</p>\
         <br>\
@@ -760,12 +760,12 @@ var villainess = [
         <p>There's the issue of her power, too. Manipulation of light. Maybe Aciukinesis- the manipulation of an object's sharpness. Her power is the counter to mine, the destined opposite. Shadow cannot exist under the all-consuming gaze of light.</p>\
         <p>So I need to train my power, my Umbrakinesis. Learn how to make shadows that can survive the light. I know I can use Aciukinesis on shadows in my grasp. I could use the shadows under her greaves, bend them out from their hiding place.</p>\
         <p>I could <i>extend</i> a shadow rather than manipulating it directly.</p>\
-        <p>As I think this, I slowly and excruciatingly rise to my feet, almost blacking out even though I tried to go slowly. It doesn't pull as much as I walk to another bush. My hands fumble at its roots, clumsily grabbing the servant's outfit stashed there. </p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
+        <p>As I think, I slowly and excruciatingly rise to my feet, almost blacking out even though I tried to go slowly. It doesn't pull as much as I stumble to another bush. My hands fumble at its roots, clumsily grabbing the servant's outfit stashed there. The plan is for me to act like a server caught in the crossfire.</p>\
+        <p>It's difficult to think through the pain.</p>\
+        <p>I strip off the layers of my dress, leaving only an undershirt and undershorts to pull the drab, mostly featureless top and skirt over. I step out of my fancy heels and slip on a pair more fitting of a servant's status. Heels are dreadful to wear; difficult to fight in and uncomfortable to walk on. More than that, they encourage a woman to exaggerate the sway of her hips, in turn showing off her body like an object. It's not my place to tell another woman what she should wear, as that would place me next to the fools arguing that women should be silent and defenseless. I would like nothing more that to wear flat-soled shoes, but disguise is necessary.</p>\
+        <p>The shadows pressed tightly around my stomach need to be replaced with a bandage. I let them dissipate and take a deep inhale to brace myself against the pain. It still makes me nauseous and leaves bright and dark spots fluttering around my vision.</p>\
+        <p>Gasping at the white-hot slashes in my side, I wrap a bandage around my stomach and nearly pass out again as I tighten it.</p>\
+        <p>When the white fabric touched my wound, it immediately stained dark red.</p>\
         <p></p>\
         <p></p>\
         <p></p>\
@@ -775,7 +775,7 @@ var villainess = [
 
     "<link rel=\"icon\" href=\"/icons/story.png\">\
     <h2>???</h2>\
-    <h1 id='char' class='vampire'>villainess vs heroine 2</h1>\
+    <h1 id='char' class='vampire'>Villain vs Hero 2</h1>\
     <div class='background'>\
         <p></p>\
         <p></p>\
@@ -803,9 +803,9 @@ var villainess = [
 
 ]
 
-var villainess_final = [
-    villainess[3],
-    // villainess[4],
+var Villain_final = [
+    Villain[3],
+    // Villain[4],
 ]
 
 var belle_boob_contest_grid = [

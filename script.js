@@ -438,13 +438,11 @@ function startViewer(basePath='', contents=[''], debug = false) {
   image.className = 'center'
   image.id = 'image'
   image.src = basePath + contents[0]
-  const br = document.createElement('br')
-  br.style.fontSize = '0.5rem'
+  image.style.marginBottom = '0.5rem'
+  image.style.border = 'none'
 
     if (debug) {console.log('adding image')}
   document.body.appendChild(image)
-    if (debug) {console.log('adding br')}
-  document.body.appendChild(br)
   document.body.innerHTML += '<div class="pages" id="pages"></div>'
 
 
@@ -536,8 +534,7 @@ function wordcount(paras = 'background') {
   console.log(words.length)
 }
 
-function stripHtml(html)
-{
+function stripHtml(html) {
   let tmp = document.createElement('DIV');
   tmp.innerHTML = html;
   return tmp.textContent ||
