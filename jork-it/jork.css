@@ -186,6 +186,7 @@ div.right {
 .tooltip {
     position: sticky;
     display: block;
+    z-index: 1;
 }
 
 /* Tooltip text */
@@ -202,7 +203,6 @@ div.right {
     text-indent: 0%;
     padding: 0%;
     position: absolute;
-    z-index: 1;
     /* bottom: 100%; */
     left: -22vw;
     margin-left: -60px;
@@ -216,6 +216,7 @@ div.right {
 .tooltiptext{
     position: absolute;
     right: 30%;
+    z-index: 0;
 }
 
 i {
@@ -225,4 +226,9 @@ i {
 
 #lube {
     display: none;
+}
+
+price {
+    font-size: small;
+    line-height: 0.75rem;
 }
