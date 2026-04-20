@@ -38,7 +38,9 @@ var irl = ['\
 ]
 
 var audio = [
-  '<video title="sex workout" controls src="audio/[pornhubdownloader.io]_720P_4000K_449873031.mp4">no porn for you :(</video>\
+  '<video title="ear licking" controls src="audio/[PornhubFans 720p] Minibun ASMR Roleplay - [F4A] Wet and Tingly Double Ear Licking - NSFW 3Dio Egirl Audio -  Horny Ani.mp4">no porn for you :(</video>\
+  <video title="sex workout" controls src="audio/[pornhubdownloader.io]_720P_4000K_449873031.mp4">no porn for you :(</video>\
+  <video title="never kissed a girl" controls src="audio/[PornhubFans 720p] I\'ve Never Kissed a Girl Before [F4F][Kissing][Bondage][Teasing][Erotic Audio For Women].mp4">no porn for you :(</video>\
   <video title="succubus milking" controls src="audio/[pornhubdownloader.io]_720P_4000K_470554005.mp4">no porn for you :(</video>\
   <video title="futa witch nursing handjob" controls src="audio/[pornhubdownloader.io]_720P_4000K_441453811.mp4">no porn for you :(</video>\
   <video title="succubus virginity taking" controls src="audio/[pornhubdownloader.io]_720P_4000K_437589401.mp4">no porn for you :(</video>\

@@ -254,55 +254,61 @@ function start(content = ['wtf'], doCookies = true, doX = false, doY = true, doO
   }
   function next() {
     var videoElement = document.querySelectorAll('video')
-    try {videoElement.forEach(element => element.pause())} catch (TypeError) {errorMessage('no videos')}
-    try {videoElement.forEach(element => element.removeAttribute('src'))} catch (TypeError) {errorMessage('no videos')}
-    try {videoElement.forEach(element => element.load())} catch (TypeError) {errorMessage('no videos')}
+    try {videoElement.forEach(element => {
+      element.pause()
+      element.removeAttribute('src')
+      element.load()
+    })}
+    catch (TypeError) {errorMessage('no videos')}
       index = (index + 1) % content.length
-      if (index + 1 >= content.length) {
-        document.getElementById('next').style.display = 'none'
-        document.getElementById('next1').style.display = 'none'
-        document.getElementById('prev').style.display = 'inline'
-        document.getElementById('prev1').style.display = 'inline'
-      }
-      else {
-        document.getElementById('next').style.display = 'inline'
-        document.getElementById('next1').style.display = 'inline'
-        document.getElementById('prev').style.display = 'inline'
-        document.getElementById('prev1').style.display = 'inline'
-      }
-      window.scrollTo(0, 0)
-      showSlide(index)
-      vol()
-      if (doCookies == true) {
-        setCookie(page + 'index', index, doOutput)
-      }
-      char()
+    if (index + 1 >= content.length) {
+      document.getElementById('next').style.display = 'none'
+      document.getElementById('next1').style.display = 'none'
+      document.getElementById('prev').style.display = 'inline'
+      document.getElementById('prev1').style.display = 'inline'
     }
+    else {
+      document.getElementById('next').style.display = 'inline'
+      document.getElementById('next1').style.display = 'inline'
+      document.getElementById('prev').style.display = 'inline'
+      document.getElementById('prev1').style.display = 'inline'
+    }
+    window.scrollTo(0, 0)
+    showSlide(index)
+    vol()
+    if (doCookies == true) {
+      setCookie(page + 'index', index, doOutput)
+    }
+    char()
+  }
   function prev() {
     var videoElement = document.querySelectorAll('video')
-    try {videoElement.forEach(element => element.pause())
-    videoElement.forEach(element => element.removeAttribute('src'))
-    videoElement.forEach(element => element.load())} catch (TypeError) {errorMessage('no videos')}
-      index = (index + content.length - 1) % content.length
-      if (index === 0) {
-        document.getElementById('prev').style.display = 'none'
-        document.getElementById('prev1').style.display = 'none'
-        document.getElementById('next').style.display = 'inline'
-        document.getElementById('next1').style.display = 'inline'
-      }
-      else {
-        document.getElementById('prev').style.display = 'inline'
-        document.getElementById('prev1').style.display = 'inline'
-        document.getElementById('next').style.display = 'inline-block'
-        document.getElementById('next1').style.display = 'inline-block'
-      }
-      window.scrollTo(0, 0)
-      showSlide(index)
-      vol()
-      if (doCookies == true) {
-        setCookie(page + 'index', index, doOutput)
-      }
-      char()
+    try {videoElement.forEach(element => {
+      element.pause()
+      element.removeAttribute('src')
+      element.load()
+    })}
+    catch (TypeError) {errorMessage('no videos')}
+    index = (index + content.length - 1) % content.length
+    if (index === 0) {
+      document.getElementById('prev').style.display = 'none'
+      document.getElementById('prev1').style.display = 'none'
+      document.getElementById('next').style.display = 'inline'
+      document.getElementById('next1').style.display = 'inline'
+    }
+    else {
+      document.getElementById('prev').style.display = 'inline'
+      document.getElementById('prev1').style.display = 'inline'
+      document.getElementById('next').style.display = 'inline-block'
+      document.getElementById('next1').style.display = 'inline-block'
+    }
+    window.scrollTo(0, 0)
+    showSlide(index)
+    vol()
+    if (doCookies == true) {
+      setCookie(page + 'index', index, doOutput)
+    }
+    char()
   }
   document.getElementById('next').addEventListener(
     'click',
@@ -354,18 +360,16 @@ function start(content = ['wtf'], doCookies = true, doX = false, doY = true, doO
   }
 }
 
-var startNumber = 0
-let startState = 'not started'
+var startState = 'not started'
     // if (doOutput) {tesLog('')}
 
 function startStory(content=['wtf'], format=false, doCookies=true, doX=false, doY=true, doOutput=true) {
-  if (doOutput) {tesLog('starting')}
+  if (doOutput) {tesLog('starting...')}
   var s = document.createElement('script');
   s.id = 'text'
   if (startState === 'not started') {
     s.src = '/text.js';
     document.body.appendChild(s);
-    startNumber = 1
     document.getElementById('text').remove()
     if (doOutput) {tesLog('fetched text')}
     startState = 'debug check'
@@ -375,27 +379,23 @@ function startStory(content=['wtf'], format=false, doCookies=true, doX=false, do
     startState = 'debug true'
   }
   else {
-    startNumber = 3
     if (doOutput) {tesLog('debug false')}
     startState = 'ready to display'
   }
   if (startState === 'debug true') {
     s.src = 'https://prokid99999.github.io/text.js';
     document.body.appendChild(s);
-    startNumber = 2
     document.getElementById('text').remove()
   }
   if (startState === 'debug true') {
     s.src = 'http://localhost:2009/text.js';
     document.body.appendChild(s);
-    startNumber = 3
     document.getElementById('text').remove()
   }
   if (doOutput) {tesLog('displaying')}
   if (startState === 'ready to display') {
-    startNumber = 0
-    if (format) {
-    document.body.innerHTML += '\
+    if (format) {document.body.innerHTML +=
+      '\
         <br>\
         <div class="space">\
             <div style="text-align: left"><button id="prev">&lt; Previous</button></div>\

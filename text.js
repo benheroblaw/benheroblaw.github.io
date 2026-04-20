@@ -577,7 +577,7 @@ var chainsaw = [
 var villainess = [
     "<br>\
     <div class='background'>\
-    <h3>story outline</h3>\
+    <h3 id='char'>story outline</h3>\
     <p>Villain enters a political marriage with a prince</p>\
     <p>She convinces the prince to hold a ball</p>\
     <br>\
@@ -626,7 +626,7 @@ var villainess = [
 
     "<br>\
     <div class='background'>\
-        <h3>power system</h3>\
+        <h3 id='char'>power system</h3>\
         <div class='character-sheet'>\
             <p>something like tensura's</p>\
             <p class='character-sheet'>im thinking:<br>\
@@ -658,7 +658,7 @@ var villainess = [
 
     "<br>\
     <div class='background'>\
-        <h3>a whole page for me to yap about umbrakinesis because its the only power ive really figured out</h3>\
+        <h3 id='char'>a whole page for me to yap about umbrakinesis because its the only power ive really figured out</h3>\
         <p>Umbrakinesis is the manipulation of shadows. The less defined a shadow is, the more a user of Umbrakinesis can change it. There's also the factor of an Umbrakinetic's perceived 'ownership' of the shadow. For example, an Umbrakinetic's own shadow on the ground is one of the strongest in their arsenal. The only stronger shadows are inside their body. These are <i>very</i> defined, but no other Umbrakinetic can 'grab' them. The shadows of the intestines are shaped in a rope, for example.</p>\
         <p><i>\"What gives you any hold on </i>my<i> shadow?\" - Villain to Umbra</i></p>\
         <p></p>\
@@ -736,7 +736,7 @@ var villainess = [
         <p>Gwenhael can't make out any more details. Her vision is blurring and turning dark around the edges.</p>\
         <p><i>Darkness is my friend,</i> she thinks. The dissolving light of the armoured woman has faded.</p>\
         <p>Shadows wrap around her torso, applying pressure to the wound. Then they encase her, shrouding her body in blackness.</p>\
-        <p>Somebody yells, armour clinks. Gwenhael is gone before anyone can stop her.</p>\
+        <p>Shouts echo through the vast ceiling of the ballroom, armour clinks and clanks. The cocoon of shadows dissipates, and Gwenhael is gone.</p>\
         <p></p>\
         <p></p>\
     </div>",
@@ -745,7 +745,7 @@ var villainess = [
     <h2>1</h2>\
     <h1 id='char' class='vampire'>Gwenhael</h1>\
     <div class='background'>\
-        <p>I lay hidden behind a large shrubbery far enough off of a path that nobody would think to look behind it. There is a deep cut in my side that is bleeding profusely and might have ruptured my intestines.</p>\
+        <p>I lay hidden behind a large, expensive-looking shrubbery far enough off of a path that nobody would think to look behind it. There is a deep cut in my side that is bleeding profusely and might have ruptured my intestines.</p>\
         <br>\
         <p>My first thoughts are about that armoured woman.</p>\
         <br>\
@@ -757,7 +757,7 @@ var villainess = [
         <p>I refuse to be the villain who gives up after the hero gets a single good hit. I refuse to be the villain who dies after a single encounter.</p>\
         <p>I refuse to be the villain who loses the war of which tonight was the first battle.</p>\
         <p>That is what <i>she</i> has started. A war, not just between the two of us, but a war of ideals. I cut down tens of tyrants who did nothing but make their people's lives worse. I don't know whether or not <i>she</i>- the Hero- knows this. If I look at the night from the perspective of the servants, I cut down those nobles with little reason. For all they knew, they could have been next. I told them they were not, but they were clearly beyond reason. It makes sense that the Hero cut me down.</p>\
-        <p>There's the issue of her power, too. Manipulation of light. Maybe Aciukinesis- the manipulation of an object's sharpness. Her power is the counter to mine, the destined opposite. Shadow cannot exist under the all-consuming gaze of light.</p>\
+        <p>There's the issue of her powers, too. Manipulation of light. Her power is the counter to mine, the destined opposite. Shadow cannot exist under the all-consuming gaze of light. Maybe Aciukinesis- the manipulation of an object's sharpness. A simple ability, but not one easily beaten.</p>\
         <p>So I need to train my power, my Umbrakinesis. Learn how to make shadows that can survive the light. I know I can use Aciukinesis on shadows in my grasp. I could use the shadows under her greaves, bend them out from their hiding place.</p>\
         <p>I could <i>extend</i> a shadow rather than manipulating it directly.</p>\
         <p>As I think, I slowly and excruciatingly rise to my feet, almost blacking out even though I tried to go slowly. It doesn't pull as much as I stumble to another bush. My hands fumble at its roots, clumsily grabbing the servant's outfit stashed there. The plan is for me to act like a server caught in the crossfire.</p>\
@@ -803,9 +803,9 @@ var villainess = [
 
 ]
 
-var Villain_final = [
-    Villain[3],
-    // Villain[4],
+var villainess_final = [
+    villainess[3],
+    // villainess[4],
 ]
 
 var belle_boob_contest_grid = [
@@ -901,3 +901,5 @@ var belle_boob_contest_text = [
     </div>",
 
 ]
+
+var belle_boob_contest = belle_boob_contest_table
