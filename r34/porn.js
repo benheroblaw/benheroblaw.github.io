@@ -70,3 +70,30 @@ var audio = [
   <audio controls class="audio" src="shibby/[F4M] - HFO Seduction - [Variant][Binaural]_[Script]_[Series][HFO Indoctrination][5]_[Gentle Fdom][Hypnosis].mp3"></audio><br>\
       HFO Seduction<br><br><br></p>'
 ]
+
+var pornSidebar = '\
+  <h1><a href="/r34/r34.html"><span style="color: white;">prawns</span></a></h1>\
+  <a href="all.html" class="red"><span>all</span></a><br>\
+  <a class="blue" href="assets.html"><span>assets</span></a><br>\
+  <a href="coolart.html" class="blue"><span>Artists</span></a><br>\
+  <br>\
+  \
+  <a class="blue" href="/r34/comics.html"><span>Comics</span></a><br><br>\
+  <a href="/r34/hard-degen.html" class="blue"><span>Hard Degenerate</span></a><br>\
+  <a href="/r34/hoyo.html" class="blue"><span>Hoyoverse</span></a><br>\
+  <a class="blue" href="/r34/mario.html"><span>Mario</span></a><br>\
+  <a class="blue" href="/r34/miku.html"><span>Miku</span></a><br>\
+  <a class="blue" href="/r34/Overwatch.html"><span>Overwatch</span></a><br>\
+  <a class="blue" href="/r34/other.html"><span>Other</span></a><br>\
+  <a class="blue" href="/r34/irl.html"><span>IRL</span></a><br>\
+  <a class="blue" href="/r34/pokemon.html"><span>Pokemon</span></a><br>\
+  <a class="blue" href="/r34/rouge.html"><span>Rouge the Bat</span></a><br>\
+  <a class="blue" href="/r34/roblox.html"><span>Roblox</span></a><br>\
+  <a class="blue" href="/r34/terraria.html"><span>Terraria</span></a><br><br>\
+  <a class="blue" href="/r34/audio.html"><span>Audio</span></a><br>\
+  <a class="blue" href="/r34/shibby.html"><span>shibby</span></a><br><br>\
+  <button onclick="location.reload(true)">ctrl+f5</button><br>\
+  <a class="hidden", style="color: #111;" href="files.html">Files</a>\
+'
+
+// export {irl, audio, pornSidebar}

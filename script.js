@@ -1,3 +1,5 @@
+// import {pornSidebar} from '/r34/porn.js'
+
 // service worker
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/sw.js')
@@ -36,6 +38,7 @@ var pornSidebar = '\
   <button onclick="location.reload(true)">ctrl+f5</button><br>\
   <a class="hidden", style="color: #111;" href="files.html">Files</a>\
 '
+
 var pokemonSidebar = '\
   <h1>Viewers</h1>\
   <a href="/r34/pokemon/cynthia+houndoom-viewer.html">Cynthia x Houndoom</a>\
