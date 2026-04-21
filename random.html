@@ -20,9 +20,21 @@
             // console.log()
         })
     }
+
+    let placeholder = ['']
+
+    function test() {
+        let testDesc = ['Test.<br>they/them<br><br>They are identified by their mouth, differing from Program in that they have one.<br><br>']
+        startStory(testDesc)
+    }
+    function program() {
+        let programDesc = ['Program.<br>he/they<br><br>Program is identified by their blush.<br><br>']
+        startStory(programDesc)
+    }
 </script>
 <html>
-    <body onload="random()">
+    <body onload="startStory(placeholder, true); random()">
         <span id="people">:3</span>
+        <br>
     </body>
 </html>
