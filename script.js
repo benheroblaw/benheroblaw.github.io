@@ -71,6 +71,8 @@ var program = [
 
 var tes = ["(o ^ o) ", "(- ^ -) "]
 
+var me = [':3 > ', ';3 > ']
+
 // functions
 function setCookie(cname, cvalue, output = true, exdays = 365) {
   var d = new Date();
@@ -613,7 +615,11 @@ const promiseLoadScript = new Promise(() => loadScript('/r34/porn.js'))
 // event listeners
 document.addEventListener("DOMContentLoaded", function() {
   // document.body.appendChild(script)
-  loadScript('/r34/porn.js').then(addSidebar(pornSidebar))
+  if (window.location.pathname != '/random.html') {
+    console.log('loading porn.js');
+
+    loadScript('/r34/porn.js').then(addSidebar(pornSidebar))
+  }
   document.querySelectorAll('video').forEach(element => element.preload = 'metadata')
   vol(0.1, 0.1)
 
