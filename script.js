@@ -51,11 +51,12 @@ var mikuSidebar =
   '<a href="/r34/miku/mikgu.html">Miku Teto</a><br>' +
   '<a href="/r34/miku/migu.html">Horny Migu</a><br>'
 
-
 var sona = '<h1>sonas</h1>\
-  <a href="/character-sheets/femsona.html"><span>femsona</span></a><br>\
   <a href="/character-sheets/enbysona.html"><span>themsona</span></a><br>'
   // <a href="/character-sheets/mascsona.html"><span>mascsona</span></a>'
+
+var dragonSidebar = '<h1>Viewers</h1>'
++ '<a href="/r34/dragon maid/miss-tohru.html"><span>Miss Tohru</span></a><br>'
 
 var program = [
     '(^///^) ',
