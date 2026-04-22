@@ -807,3 +807,32 @@ var villainess_final = [
     villainess[3],
     // villainess[4],
 ]
+
+var sao = [
+    "<link rel='icon' href='/icons/story.png'>\
+    <h1 id='char' class='none'>The Literary Failure of Sword Art Online</h1>\
+    <div class='background'>\
+    <p>Sword Art Online is quite an interesting case. It stands among giants of the anime community, next to Attack on Titan, Madoka Magica, as one of the most popular and well-known series in the genre.</p>\
+    <p>Yet when you read it, it feels... Wrong. Incorrect. It leaves you questioning not what happens next, but what the author was thinking. The perspective feels odd, something mistaken that should be corrected.</p>\
+    <p>Reki Kawahara, to his credit, has mentioned this flaw in his storytelling. He says, \"I have trouble writing a story that doesn't revolve around one guy.\" And when you look closely at SAO's writing, this is exactly the problem.</p>\
+    <p>In the first arc, around 100,000 people are trapped in the newly-released MMORPG 'Sword Art Online', set in the floating castle of Aincrad. To progress, players must defeat the bosses on each floor to climb to the next. They will be freed upon defeating the 100th floor. The risk, however, is that if their in-game health drops to 0, they will be killed in real life.</p>\
+    <p>We follow a boy called Kirito, the 'cool loner.' He becomes one of SAO's strongest fighters. He even figures out who's behind the ultimatum. And the man is playing the game alongside them.</p>\
+    <p>Kirito manages to override the will of God himself through... motivation? Determination? It's not clear, but he still dies in the end.</p>\
+    <p>Only to be revived for the plot.</p>\
+    <p>Now we enter the aftermath of Aincrad, where a few out of the 60,000 to complete SAO have been transferred to another game instead of being released. This includes Kirito's girlfriend, Asuna.</p>\
+    <p>So, he enters this new game. Alfhame Online, abbreviated to ALO. He rushes and hacks his way to the final confrontation, freeing Asuna.</p>\
+    <p>This is where the plot starts to crumble.</p>\
+    <p>The third arc, Gun Gale Online, is about a girl called Shino Asuda, aka Sinon, coping with the childhood trauma of killing a man. This sounds like quite a compelling story.</p>\
+    <p>But Kirito is still the main character.</p>\
+    <p>Where the narrative should switch to Sinon as the protagonist, it instead leaves Kirito in charge. Sinon's perspective is in third-person, while Kirito gets first-person despite him only being relevant because he <i>must</i> be the main character. He <i>must</i> be the most important, not because he's relevant, not because he grows, but because the plot <i>must not</i> switch character.</p>\
+    <p>It's completely fine to have this kind of perspective, but it only works when you know what to do with it. My personal favorite anime, Tensura, uses this perspective. We're not following Rimuru around all the time, but when we leave his perspective, it's to show the world shifting, showing a change in the natural order that Rimuru will have to adapt to.</p>\
+    <p>And therein lies the beauty of this perspective. You use third-person segments to establish matters that <i>affect the protagonist.</i></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    </div>",
+
+]
