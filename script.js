@@ -613,6 +613,14 @@ function loadScript(url) {
 }
 const promiseLoadScript = new Promise(() => loadScript('/r34/porn.js'))
 
+function addElement(element='', id='') {
+  let elem = document.createElement(element)
+  if (id != '') {
+    elem.id = id
+  }
+  document.body.appendChild(elem)
+}
+
 // event listeners
 document.addEventListener("DOMContentLoaded", function() {
   // document.body.appendChild(script)
