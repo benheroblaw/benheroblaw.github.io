@@ -22,6 +22,7 @@ var pornSidebar = '\
   <br>\
   \
   <a class="blue" href="/r34/comics.html"><span>Comics</span></a><br><br>\
+  <a href="/r34/dragon-maid.html" class="blue"><span>Dragon Maid</span></a><br>\
   <a href="/r34/hard-degen.html" class="blue"><span>Hard Degenerate</span></a><br>\
   <a href="/r34/hoyo.html" class="blue"><span>Hoyoverse</span></a><br>\
   <a class="blue" href="/r34/mario.html"><span>Mario</span></a><br>\
@@ -52,6 +53,7 @@ var mikuSidebar =
   '<a href="/r34/miku/migu.html">Horny Migu</a><br>'
 
 var sona = '<h1>sonas</h1>\
+  <a href="/character-sheets/femsona.html"><span>femsona</span></a><br>\
   <a href="/character-sheets/enbysona.html"><span>themsona</span></a><br>'
   // <a href="/character-sheets/mascsona.html"><span>mascsona</span></a>'
 
@@ -320,26 +322,40 @@ function start(content = ['wtf'], doCookies = true, doX = false, doY = true, doO
     'click',
     () => {
       next()
-    }
-  )
+    })
   document.getElementById('next1').addEventListener(
     'click',
     () => {
       next()
-    }
-  )
+    })
   document.getElementById('prev').addEventListener(
     'click',
     () => {
       prev()
-    }
-  )
+    })
   document.getElementById('prev1').addEventListener(
     'click',
     () => {
       prev()
+    })
+  window.onkeydown = function (event) {
+    if (event.key === 'ArrowRight') {
+      if (index + 1 != content.length) {
+        next()
+      }
     }
-  )
+    else if (event.key === 'ArrowLeft') {
+      if (index != 0) {
+        prev()
+      }
+    }
+    else if (event.key === 'ArrowUp') {
+    // Up Arrow pressed
+    }
+    else if (event.key === 'ArrowDown') {
+      // Down Arrow pressed
+    }
+  }
   function char() {
     try {
     document.getElementById('char').addEventListener('dblclick', () => {
@@ -474,8 +490,7 @@ function startViewer(basePath='', contents=[''], debug = false) {
 function getCommit(owner, repo) {
   fetch(
     'https://api.github.com/repos/' + owner + '/' + repo + '/commits?per_page=1',
-    // headers: {Authorization: "Bearer github_pat_none-lol"}
-  ).then(res => res.json()).then(
+    // headers: {Authorization: "Bearer github_pat_none-lol"}).then(res => res.json()).then(
     res => {
       document.getElementById('message').className = 'message'
       document.getElementById('message').innerHTML = res[0].commit.message
@@ -489,8 +504,7 @@ function getCommit(owner, repo) {
         document.getElementById('committer').className = 'other'
       }
       document.getElementById('committer').innerText = res[0].commit.committer.name
-    }
-  )
+    })
 }
 
 function getCommitNumbers(owner, repo) {
@@ -498,12 +512,10 @@ function getCommitNumbers(owner, repo) {
     'https://api.github.com/repos/' + owner + '/' + repo + '/commits?per_page=1',
     {
       Authorization: atob('')
-    }
-  ).then(res => res.json()).then(
+    }).then(res => res.json()).then(
     res => {
       document.getElementById('message').innerHTML = res[0].commit.message
-    }
-  )
+    })
 }
 
 var delay = ms => new Promise(res => setTimeout(res, ms));
