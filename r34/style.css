@@ -101,3 +101,7 @@ button {cursor: pointer;}
 
     p {font-size: 2rem;}
 } */
+
+#prev, #prev1 {text-align: left; display: inline-block;}
+#next, #next1 {text-align: right; display: inline-block;}
+.space {display: flex; justify-content: space-between;}

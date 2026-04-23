@@ -318,24 +318,16 @@ function start(content = ['wtf'], doCookies = true, doX = false, doY = true, doO
     }
     char()
   }
-  document.getElementById('next').addEventListener(
-    'click',
-    () => {
+  document.getElementById('next').addEventListener('click', () => {
       next()
     })
-  document.getElementById('next1').addEventListener(
-    'click',
-    () => {
+  document.getElementById('next1').addEventListener('click', () => {
       next()
     })
-  document.getElementById('prev').addEventListener(
-    'click',
-    () => {
+  document.getElementById('prev').addEventListener('click', () => {
       prev()
     })
-  document.getElementById('prev1').addEventListener(
-    'click',
-    () => {
+  document.getElementById('prev1').addEventListener('click', () => {
       prev()
     })
   window.onkeydown = function (event) {
@@ -636,9 +628,8 @@ function addElement(element='', id='') {
 // event listeners
 document.addEventListener("DOMContentLoaded", function() {
   // document.body.appendChild(script)
-  if (window.location.pathname != '/random.html') {
+  if (window.location.pathname.indexOf('/r34/') > -1) {
     console.log('loading porn.js');
-
     loadScript('/r34/porn.js').then(addSidebar(pornSidebar))
   }
   document.querySelectorAll('video').forEach(element => element.preload = 'metadata')
