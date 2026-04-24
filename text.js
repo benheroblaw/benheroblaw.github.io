@@ -704,7 +704,7 @@ var villainess = [
         <p>Everyone's eyes are on Gwenhael, even the servants turning their gaze to her. She pauses. The shadows seem to shift with tension.</p>\
         <p>After enough time for a deep breath, she continues.</p>\
         <p>\"I have been observing how you conduct yourselves, bathing in and flaunting your wealth and your power like children.\"</p>\
-        <p>The crowd almost seems to flinch, certainly not expecting such criticisms from another noble. The prince is thoroughly shaken, having not even known how she was going to announce their marriage. He had thought she would be shy and quiet, as she was to him throughout their courtship. The raw confidence she exuded now was foreign to him.</p>\
+        <p>The crowd almost seems to flinch, certainly not expecting such criticisms from another noble. The prince is quite shaken, having not even known how she was going to announce their marriage. He had thought she would be shy and quiet, as she was to him throughout their courtship. The raw confidence she exuded now was foreign to him.</p>\
         <p>\"Money and power you use to climb higher and higher, largely ignoring the consequences you bring upon your people. Most are starving from your taxation, even more than they would be otherwise. You claim everything for yourselves with no thought for your subjects.\"</p>\
         <p>The crowd is fuming now, shouting at her about how grave of a transgression she was committing and grabbing blunt weapons, sharpening into blades in their hands. She simply raises her voice over them.</p>\
         <p>\"Your tyranny ends today.\"</p>\
@@ -731,6 +731,7 @@ var villainess = [
         <p>Red flows from her side, making a second pool under her.</p>\
         <br>\
         <p>Metal clinks and clanks behind her. The armoured figure has rushed to the servants.</p>\
+        <br>\
         <p>\"I am truly sorry,\" a high voice says, sure and confident. Too clearly to have come from under their helmet. \"I came as fast as I could. Are any of you hurt?\"</p>\
         <p>Even as Gwenhael feels her life pumping out of her side, she can't help but turn and stare at the person who bested her. As she thought, they have taken off their helmet. Straight brown hair flows over the back of her breastplate. Her face is feminine.</p>\
         <p>Gwenhael can't make out any more details. Her vision is blurring and turning dark around the edges.</p>\

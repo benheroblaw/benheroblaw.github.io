@@ -58,7 +58,7 @@ var sona = '<h1>sonas</h1>\
   // <a href="/character-sheets/mascsona.html"><span>mascsona</span></a>'
 
 var dragonSidebar = '<h1>Viewers</h1>'
-+ '<a href="/r34/dragon maid/miss-tohru.html"><span>Miss Tohru</span></a><br>'
++ '<a href="/r34/dragon maid/miss-tohru.html">Miss Tohru</a><br>'
 
 var program = [
     '(^///^) ',
@@ -202,7 +202,7 @@ function deleteCookie(cname, cvalue='', output = true, exdays = -7) {
 //     .catch(error => console.error('Failed to fetch data:', error));
 // }
 
-function start(content = ['wtf'], doCookies = true, doX = false, doY = true, doOutput = false) {
+function displayStory(content = ['wtf'], doCookies = true, doX = false, doY = true, doOutput = false) {
   var page = window.location.pathname + ' - '
   var showSlide = (n) => {
     document.getElementById('story').innerHTML = content[n]
@@ -319,17 +319,17 @@ function start(content = ['wtf'], doCookies = true, doX = false, doY = true, doO
     char()
   }
   document.getElementById('next').addEventListener('click', () => {
-      next()
-    })
+    next()
+  })
   document.getElementById('next1').addEventListener('click', () => {
-      next()
-    })
+    next()
+  })
   document.getElementById('prev').addEventListener('click', () => {
-      prev()
-    })
+    prev()
+  })
   document.getElementById('prev1').addEventListener('click', () => {
-      prev()
-    })
+    prev()
+  })
   window.onkeydown = function (event) {
     if (event.key === 'ArrowRight') {
       if (index + 1 != content.length) {
@@ -355,58 +355,49 @@ function start(content = ['wtf'], doCookies = true, doX = false, doY = true, doO
     })
     }
     catch (TypeError) {
-      errorMessage('no char element')
+      errorMessage('story: no char element')
     }
   }
   char()
   if (doCookies == true) {
-    window.addEventListener(
-      'scrollend',
-      function () {
-        if (doX === true) {
-          setCookie(page + 'scrollx', window.scrollX, doOutput)
-        }
-        if (doY === true) {
-          setCookie(page + 'scrolly', window.scrollY, doOutput)
-        }
+    window.addEventListener('scrollend', () => {
+      if (doX === true) {
+        setCookie(page + 'scrollx', window.scrollX, doOutput)
       }
-    )
+      if (doY === true) {
+        setCookie(page + 'scrolly', window.scrollY, doOutput)
+      }
+    })
   }
+  tesLog('finished loading story')
 }
 
 var startState = 'not started'
     // if (doOutput) {tesLog('')}
 
 function startStory(content=['wtf'], format=false, doCookies=true, doX=false, doY=true, doOutput=true) {
-  if (doOutput) {tesLog('starting...')}
+  if (doOutput) {tesLog('starting story...')}
   var s = document.createElement('script');
   s.id = 'text'
   if (startState === 'not started') {
-    s.src = '/text.js';
-    document.body.appendChild(s);
-    document.getElementById('text').remove()
-    if (doOutput) {tesLog('fetched text')}
+    getScript('/text.js')
+    if (doOutput) {tesLog('story: fetched text')}
     startState = 'debug check'
   }
   if (window.location.href.indexOf('http://localhost:8001') > 0) {
-    if (doOutput) {tesLog('debug true')}
+    if (doOutput) {tesLog('story: debug true')}
     startState = 'debug true'
   }
   else {
-    if (doOutput) {tesLog('debug false')}
+    if (doOutput) {tesLog('story: debug false')}
     startState = 'ready to display'
   }
   if (startState === 'debug true') {
-    s.src = 'https://prokid99999.github.io/text.js';
-    document.body.appendChild(s);
-    document.getElementById('text').remove()
-  }
-  if (startState === 'debug true') {
-    s.src = 'http://localhost:2009/text.js';
-    document.body.appendChild(s);
-    document.getElementById('text').remove()
-  }
-  if (doOutput) {tesLog('displaying')}
+    tesLog('story: getting text')
+    getScript('https://prokid99999.github.io/text.js')
+    getScript('http://localhost:2009/text.js')
+    }
+  if (doOutput) {tesLog('story: displaying')}
   if (startState === 'ready to display') {
     if (format) {document.body.innerHTML +=
       '\
@@ -424,7 +415,7 @@ function startStory(content=['wtf'], format=false, doCookies=true, doX=false, do
             <div id="center1" style="text-align: center;"></div>\
             <div style="text-align: right;"><button id="next1">Next &gt;</button></div>\
         </div><br><br>'}
-    start(content, doCookies, doX, doY, doOutput)
+    displayStory(content, doCookies, doX, doY, doOutput)
   }
 }
 
@@ -469,7 +460,7 @@ function startViewer(basePath='', contents=[''], debug = false) {
     button.innerText = 'Page ' + (index + 1)
     if (debug) {console.log('adding onclick')}
     button.onclick = () => {
-      document.getElementById("image").src= contents[index];
+      document.getElementById("image").src = contents[index];
       document.querySelectorAll('button').forEach(element => element.style.backgroundColor = 'black');
       document.getElementById(index).style.backgroundColor = "blue";
     }
@@ -605,7 +596,7 @@ function getScript(file) {
   s.id = 'getScript'
   s.src = file;
   document.body.appendChild(s);
-  document.getElementById('getScript').remove()
+  // document.getElementById('getScript').remove()
 
 }
 function loadScript(url) {
@@ -629,7 +620,7 @@ function addElement(element='', id='') {
 document.addEventListener("DOMContentLoaded", function() {
   // document.body.appendChild(script)
   if (window.location.pathname.indexOf('/r34/') > -1) {
-    console.log('loading porn.js');
+    tesLog('loading porn.js');
     loadScript('/r34/porn.js').then(addSidebar(pornSidebar))
   }
   document.querySelectorAll('video').forEach(element => element.preload = 'metadata')
