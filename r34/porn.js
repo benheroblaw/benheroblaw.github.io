@@ -201,25 +201,25 @@ var miku = [
         <br>\
         <a href="miku/d26967e74cf4bb5b88f62209177c47f4.jpeg"><img src="miku/d26967e74cf4bb5b88f62209177c47f4.jpeg"></a>\
         <a href="miku/8694a05f839325fafe03ed24a53befe3.jpeg"><img src="miku/8694a05f839325fafe03ed24a53befe3.jpeg"></a>\
-        <a href="miku/8efd1a280d5dc98b5591de852cae9879.png"><img src="miku/8efd1a280d5dc98b5591de852cae9879.png"></a>\
-        <a href="miku/5b4affe3cfd8e9f7629f75e06e061fbd-1.png"><img src="miku/5b4affe3cfd8e9f7629f75e06e061fbd-1.png"></a>\
-        <a href="miku/5b4affe3cfd8e9f7629f75e06e061fbd-2.png"><img src="miku/5b4affe3cfd8e9f7629f75e06e061fbd-2.png"></a>\
-        <a href="miku/68b3e199ed4c4d3572a58a5b3f234479.png"><img src="miku/68b3e199ed4c4d3572a58a5b3f234479.png"></a>\
-        <a href="miku/9e876d116046181418a072295123f429.png"><img src="miku/9e876d116046181418a072295123f429.png"></a>\
-        <a href="miku/cddce6aea9f075b6c4e4c70b339b10b7.png"><img src="miku/cddce6aea9f075b6c4e4c70b339b10b7.png"></a>\
-        <a href="miku/88a3b9862d762f2b6adcc1f86f305a93.png"><img src="miku/88a3b9862d762f2b6adcc1f86f305a93.png"></a>\
-        <a href="miku/a448edcf1710ddcefbd673b2b7d01133.png"><img src="miku/a448edcf1710ddcefbd673b2b7d01133.png"></a>\
-        <a href="miku/af7a510515e8a09f05c1067f43b4af72.png"><img src="miku/af7a510515e8a09f05c1067f43b4af72.png"></a>\
+        <a href="miku/8efd1a280d5dc98b5591de852cae9879.jpeg"><img src="miku/8efd1a280d5dc98b5591de852cae9879.jpeg"></a>\
+        <a href="miku/5b4affe3cfd8e9f7629f75e06e061fbd-1.jpeg"><img src="miku/5b4affe3cfd8e9f7629f75e06e061fbd-1.jpeg"></a>\
+        <a href="miku/5b4affe3cfd8e9f7629f75e06e061fbd-2.jpeg"><img src="miku/5b4affe3cfd8e9f7629f75e06e061fbd-2.jpeg"></a>\
+        <a href="miku/68b3e199ed4c4d3572a58a5b3f234479.jpeg"><img src="miku/68b3e199ed4c4d3572a58a5b3f234479.jpeg"></a>\
+        <a href="miku/9e876d116046181418a072295123f429.jpeg"><img src="miku/9e876d116046181418a072295123f429.jpeg"></a>\
+        <a href="miku/cddce6aea9f075b6c4e4c70b339b10b7.jpeg"><img src="miku/cddce6aea9f075b6c4e4c70b339b10b7.jpeg"></a>\
+        <a href="miku/88a3b9862d762f2b6adcc1f86f305a93.jpeg"><img src="miku/88a3b9862d762f2b6adcc1f86f305a93.jpeg"></a>\
+        <a href="miku/a448edcf1710ddcefbd673b2b7d01133.jpeg"><img src="miku/a448edcf1710ddcefbd673b2b7d01133.jpeg"></a>\
+        <a href="miku/af7a510515e8a09f05c1067f43b4af72.jpeg"><img src="miku/af7a510515e8a09f05c1067f43b4af72.jpeg"></a>\
         <a href="miku/89e14c071e0ab1111e7730fbfd08ee0e.jpeg"><img src="miku/89e14c071e0ab1111e7730fbfd08ee0e.jpeg"></a>\
         <a href="miku/c5443b5a4bfb09c0dfa1710e0a329c6b.jpeg"><img src="miku/c5443b5a4bfb09c0dfa1710e0a329c6b.jpeg"></a>\
-        <a href="miku/b9c5728351db9b191cd90d8fb3ddb1e0.png"><img src="miku/b9c5728351db9b191cd90d8fb3ddb1e0.png"></a>\
+        <a href="miku/b9c5728351db9b191cd90d8fb3ddb1e0.jpeg"><img src="miku/b9c5728351db9b191cd90d8fb3ddb1e0.jpeg"></a>\
         <a href="miku/87fe2e17b40279f9c503241a32034c0ec0533468.jpg"><img src="miku/87fe2e17b40279f9c503241a32034c0ec0533468.jpg"></a>\
-        <a href="miku/7cca25e099035f1167b751f1ced16840.png"><img src="miku/7cca25e099035f1167b751f1ced16840.png"></a>\
+        <a href="miku/7cca25e099035f1167b751f1ced16840.jpeg"><img src="miku/7cca25e099035f1167b751f1ced16840.jpeg"></a>\
         <a href="miku/4c2180e435c818b0349acb820f6c0f02.jpeg"><img src="miku/4c2180e435c818b0349acb820f6c0f02.jpeg"></a>\
-        <a href="miku/54a6a063caa2096e17e79f9b257c7f6f.gif"><img src="miku/54a6a063caa2096e17e79f9b257c7f6f.gif"></a>\
         <a href="miku/a6f85af61c528e507853a8d451be4d0a.jpeg"><img src="miku/a6f85af61c528e507853a8d451be4d0a.jpeg"></a>\
         <a href="miku/e31d051206aadd464177352663ab3130.jpeg"><img src="miku/e31d051206aadd464177352663ab3130.jpeg"></a>\
-        <br>',
+        <br>\
+        <a href="miku/54a6a063caa2096e17e79f9b257c7f6f.gif"><img src="miku/54a6a063caa2096e17e79f9b257c7f6f.gif"></a>',
 
         '\
         <a href="miku/0f8a388730e546aef20990a60757adb8.jpeg"><img src="miku/0f8a388730e546aef20990a60757adb8.jpeg"></a>\
@@ -230,12 +230,12 @@ var miku = [
         <a href="miku/b28ff04086d3a97c3acde2a8663a962b.jpeg"><img src="miku/b28ff04086d3a97c3acde2a8663a962b.jpeg"></a>\
         <br>\
         <!-- cat miku -->\
-        <a href="miku/aac207d5e1785afa1229896de3b7b46a.png"><img src="miku/aac207d5e1785afa1229896de3b7b46a.png"></a>\
-        <a href="miku/e8dadf31a590971e14fb600d26bd2a04.png"><img src="miku/e8dadf31a590971e14fb600d26bd2a04.png"></a>\
-        <a href="miku/e44432dd72d3f1fdd6bbb158ce88bff1.png"><img src="miku/e44432dd72d3f1fdd6bbb158ce88bff1.png"></a>\
-        <a href="miku/fe6c583a47dcf5853a67fb566d11dc28.png"><img src="miku/fe6c583a47dcf5853a67fb566d11dc28.png"></a>\
-        <a href="miku/25aaea04ca09a28a8b66f55c878daef0.png"><img src="miku/25aaea04ca09a28a8b66f55c878daef0.png"></a>\
-        <a href="miku/3eeff357bfb9bb03bd62e112dd138273.png"><img src="miku/3eeff357bfb9bb03bd62e112dd138273.png"></a>\
+        <a href="miku/aac207d5e1785afa1229896de3b7b46a.jpeg"><img src="miku/aac207d5e1785afa1229896de3b7b46a.jpeg"></a>\
+        <a href="miku/e8dadf31a590971e14fb600d26bd2a04.jpeg"><img src="miku/e8dadf31a590971e14fb600d26bd2a04.jpeg"></a>\
+        <a href="miku/e44432dd72d3f1fdd6bbb158ce88bff1.jpeg"><img src="miku/e44432dd72d3f1fdd6bbb158ce88bff1.jpeg"></a>\
+        <a href="miku/fe6c583a47dcf5853a67fb566d11dc28.jpeg"><img src="miku/fe6c583a47dcf5853a67fb566d11dc28.jpeg"></a>\
+        <a href="miku/25aaea04ca09a28a8b66f55c878daef0.jpeg"><img src="miku/25aaea04ca09a28a8b66f55c878daef0.jpeg"></a>\
+        <a href="miku/3eeff357bfb9bb03bd62e112dd138273.jpeg"><img src="miku/3eeff357bfb9bb03bd62e112dd138273.jpeg"></a>\
         <br>\
         <!-- horny miku -->\
         <a href="miku/ac54a11bbb77e39af4d787fb09898460.jpeg"><img src="miku/ac54a11bbb77e39af4d787fb09898460.jpeg"></a>\
@@ -260,7 +260,7 @@ var miku = [
 
         '\
         <div id="stripContainer">\
-            <a href="miku/5b4affe3cfd8e9f7629f75e06e061fbd.png"><img src="miku/5b4affe3cfd8e9f7629f75e06e061fbd.png"></a>\
+            <a href="miku/5b4affe3cfd8e9f7629f75e06e061fbd.jpeg"><img src="miku/5b4affe3cfd8e9f7629f75e06e061fbd.jpeg"></a>\
             <a href="miku/5f589b041536849fee900baf2dc57804.jpeg"><img src="miku/5f589b041536849fee900baf2dc57804.jpeg"></a>\
             <a href="miku/3057fd1f959f5d6ee2c3bc184a48e6ce.jpeg"><img src="miku/3057fd1f959f5d6ee2c3bc184a48e6ce.jpeg"></a>\
         </div>'
