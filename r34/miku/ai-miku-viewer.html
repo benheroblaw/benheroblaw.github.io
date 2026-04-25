@@ -1,15 +1,11 @@
+<!DOCTYPE html>
 <html>
     <head>
     <link rel="stylesheet" href="../style.css">
-    <link rel="icon" href="..//icons/favicon-2.png">
+    <link rel="icon" href="/icons/favicon-2.png">
         <script src="/script.js"></script>
 </head>
     <title>Miku Viewer</title>
-    <body class="centerList" onload='vol()' style="margin: 0; width: 100vw;">
-        <div id="sidebar"></div>
-        <div id="sidebar2"></div>
-    </body>
-</html>
 <script>
     const migu = [
         'f4e9735d9465425c50f10ff27ad28b35.png',
@@ -35,6 +31,11 @@
     ]
 document.addEventListener("DOMContentLoaded", function() {
   addSidebar(pornSidebar, mikuSidebar)
-  startViewer('/r34/miku/', migu)
+  startViewer('/r34/miku/pngs/', migu, true)
 })
 </script>
+    <body class="centerList" onload='vol()' style="margin: 0; width: 100vw;">
+        <div id="sidebar"></div>
+        <div id="sidebar2"></div>
+    </body>
+</html>

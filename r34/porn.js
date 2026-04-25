@@ -313,3 +313,10 @@ var dragonSidebar = '<h1>Viewers</h1>'
 + '<a href="/r34/dragon maid/miss-tohru.html"><span>Miss Tohru</span></a><br>'
 
 // export {irl, audio, pornSidebar}
+
+var zonkpunch = [
+    '\
+    <video controls src="/r34/zonkpunch/dee437966e9c80f167b2a03968b0e6e2.mp4"></video>\
+    ',
+
+]

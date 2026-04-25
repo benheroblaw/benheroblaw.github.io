@@ -25,15 +25,16 @@ var pornSidebar = '\
   <a href="/r34/dragon-maid.html" class="blue"><span>Dragon Maid</span></a><br>\
   <a href="/r34/hard-degen.html" class="blue"><span>Hard Degenerate</span></a><br>\
   <a href="/r34/hoyo.html" class="blue"><span>Hoyoverse</span></a><br>\
+  <a class="blue" href="/r34/irl.html"><span>IRL</span></a><br>\
   <a class="blue" href="/r34/mario.html"><span>Mario</span></a><br>\
   <a class="blue" href="/r34/miku.html"><span>Miku</span></a><br>\
   <a class="blue" href="/r34/Overwatch.html"><span>Overwatch</span></a><br>\
   <a class="blue" href="/r34/other.html"><span>Other</span></a><br>\
-  <a class="blue" href="/r34/irl.html"><span>IRL</span></a><br>\
   <a class="blue" href="/r34/pokemon.html"><span>Pokemon</span></a><br>\
   <a class="blue" href="/r34/rouge.html"><span>Rouge the Bat</span></a><br>\
   <a class="blue" href="/r34/roblox.html"><span>Roblox</span></a><br>\
-  <a class="blue" href="/r34/terraria.html"><span>Terraria</span></a><br><br>\
+  <a class="blue" href="/r34/terraria.html"><span>Terraria</span></a><br>\
+  <a class="blue" href="/r34/zonkpunch.html"><span>Zonkpunch</span></a><br><br>\
   <a class="blue" href="/r34/audio.html"><span>Audio</span></a><br>\
   <a class="blue" href="/r34/shibby.html"><span>shibby</span></a><br><br>\
   <button onclick="location.reload(true)">ctrl+f5</button><br>\
@@ -460,7 +461,7 @@ function startViewer(basePath='', contents=[''], debug = false) {
     button.innerText = 'Page ' + (index + 1)
     if (debug) {console.log('adding onclick')}
     button.onclick = () => {
-      document.getElementById("image").src = contents[index];
+      document.getElementById("image").src = basePath + contents[index];
       document.querySelectorAll('button').forEach(element => element.style.backgroundColor = 'black');
       document.getElementById(index).style.backgroundColor = "blue";
     }
