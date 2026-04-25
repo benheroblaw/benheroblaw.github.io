@@ -596,9 +596,16 @@ function getScript(file) {
   var s = document.createElement('script');
   s.id = 'getScript'
   s.src = file;
-  document.body.appendChild(s);
+  document.head.appendChild(s);
   // document.getElementById('getScript').remove()
-
+}
+function getModule(file) {
+  var s = document.createElement('script');
+  s.id = 'getScript'
+  s.src = file;
+  s.type = 'module'
+  document.head.appendChild(s);
+  // document.getElementById('getScript').remove()
 }
 function loadScript(url) {
   var script = document.createElement("script");  // create a script DOM node
@@ -626,7 +633,7 @@ document.addEventListener("DOMContentLoaded", function() {
   }
   document.querySelectorAll('video').forEach(element => element.preload = 'metadata')
   vol(0.1, 0.1)
-
+  // getScript('/bullshit.js')
 })
 
 document.addEventListener("onload", function() {
