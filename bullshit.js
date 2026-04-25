@@ -1,9 +1,6 @@
 console.log('Bullshit Programs ;3\nbsHelp() for help')
 
 // variables
-let bull = ':3 > '
-
-let success = 'Success!'
 
 // functions
 /**
@@ -11,23 +8,26 @@ let success = 'Success!'
  * @param {string} msg - message to be displayed in the console
  */
 function bullshitLog(msg='') {
+  let bull = ':3 > '
   console.log(bull + msg)
 }
 function bsLog(msg='') {
-  console.log(bull + msg)
+  bullshitLog(msg)
 }
 function bhbUnhide() {
-  qSelectA('.hidden').forEach( element => {
+  qSelA('.hidden').forEach( element => {
     element.style.color = '#666'
   })
   bullshitLog
 }
 
+// help functions
 /**
  * Help function
  * @param {string} func specific function to help with - unfinished
  */
 function bsHelp(func='') {
+  let bull = ':3 > '
   if (func === '') {
     return bull+'bullshit.js, console helper/Javascript library by Bullshit Programs.'
   }
@@ -120,10 +120,20 @@ function gewc(clas='') {
   return gEWC(clas)
 }
 
-function qSelect(params) {
+/**
+ * Shorthand for document.querySelector
+ * @param {string} params CSS selectors
+ * @returns elements
+ */
+function qSel(params='') {
   return document.querySelector(params)
 }
-function qSelectA(params) {
+/**
+ * Shorthand for document.querySelectorAll
+ * @param {string} params CSS selectors
+ * @returns elements
+ */
+function qSelA(params='') {
   return document.querySelectorAll(params)
 }
 

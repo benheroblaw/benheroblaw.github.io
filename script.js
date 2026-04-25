@@ -206,7 +206,7 @@ function deleteCookie(cname, cvalue='', output = true, exdays = -7) {
 function displayStory(content = ['wtf'], doCookies = true, doX = false, doY = true, doOutput = false) {
   var page = window.location.pathname + ' - '
   var showSlide = (n) => {
-    document.getElementById('story').innerHTML = content[n]
+    gewi('story').innerHTML = content[n]
   }
 
   let index = Number(getCookie(page + 'index'))
@@ -215,27 +215,27 @@ function displayStory(content = ['wtf'], doCookies = true, doX = false, doY = tr
     index = 0
   }
   if (index + 1 === content.length) {
-    document.getElementById('prev').style.display = 'inline'
-    document.getElementById('prev1').style.display = 'inline'
-    document.getElementById('next').style.display = 'none'
-    document.getElementById('next1').style.display = 'none'
+    gewi('prev').style.display = 'inline'
+    gewi('prev1').style.display = 'inline'
+    gewi('next').style.display = 'none'
+    gewi('next1').style.display = 'none'
   }
   else {
-    document.getElementById('prev').style.display = 'inline'
-    document.getElementById('prev1').style.display = 'inline'
-    document.getElementById('next').style.display = 'inline'
-    document.getElementById('next1').style.display = 'inline'
+    gewi('prev').style.display = 'inline'
+    gewi('prev1').style.display = 'inline'
+    gewi('next').style.display = 'inline'
+    gewi('next1').style.display = 'inline'
   }
   if (index === 0) {
-    document.getElementById('prev').style.display = 'none'
-    document.getElementById('prev1').style.display = 'none'
-    document.getElementById('next').style.display = 'inline'
-    document.getElementById('next1').style.display = 'inline'
+    gewi('prev').style.display = 'none'
+    gewi('prev1').style.display = 'none'
+    gewi('next').style.display = 'inline'
+    gewi('next1').style.display = 'inline'
     if (content.length <= 1) {
-      document.getElementById('prev').style.display = 'none'
-      document.getElementById('prev1').style.display = 'none'
-      document.getElementById('next').style.display = 'none'
-      document.getElementById('next1').style.display = 'none'
+      gewi('prev').style.display = 'none'
+      gewi('prev1').style.display = 'none'
+      gewi('next').style.display = 'none'
+      gewi('next1').style.display = 'none'
     }
   }
   if (doCookies == true) {
@@ -271,16 +271,16 @@ function displayStory(content = ['wtf'], doCookies = true, doX = false, doY = tr
     catch (TypeError) {errorMessage('no videos')}
       index = (index + 1) % content.length
     if (index + 1 >= content.length) {
-      document.getElementById('next').style.display = 'none'
-      document.getElementById('next1').style.display = 'none'
-      document.getElementById('prev').style.display = 'inline'
-      document.getElementById('prev1').style.display = 'inline'
+      gewi('next').style.display = 'none'
+      gewi('next1').style.display = 'none'
+      gewi('prev').style.display = 'inline'
+      gewi('prev1').style.display = 'inline'
     }
     else {
-      document.getElementById('next').style.display = 'inline'
-      document.getElementById('next1').style.display = 'inline'
-      document.getElementById('prev').style.display = 'inline'
-      document.getElementById('prev1').style.display = 'inline'
+      gewi('next').style.display = 'inline'
+      gewi('next1').style.display = 'inline'
+      gewi('prev').style.display = 'inline'
+      gewi('prev1').style.display = 'inline'
     }
     window.scrollTo(0, 0)
     showSlide(index)
@@ -300,16 +300,16 @@ function displayStory(content = ['wtf'], doCookies = true, doX = false, doY = tr
     catch (TypeError) {errorMessage('no videos')}
     index = (index + content.length - 1) % content.length
     if (index === 0) {
-      document.getElementById('prev').style.display = 'none'
-      document.getElementById('prev1').style.display = 'none'
-      document.getElementById('next').style.display = 'inline'
-      document.getElementById('next1').style.display = 'inline'
+      gewi('prev').style.display = 'none'
+      gewi('prev1').style.display = 'none'
+      gewi('next').style.display = 'inline'
+      gewi('next1').style.display = 'inline'
     }
     else {
-      document.getElementById('prev').style.display = 'inline'
-      document.getElementById('prev1').style.display = 'inline'
-      document.getElementById('next').style.display = 'inline-block'
-      document.getElementById('next1').style.display = 'inline-block'
+      gewi('prev').style.display = 'inline'
+      gewi('prev1').style.display = 'inline'
+      gewi('next').style.display = 'inline-block'
+      gewi('next1').style.display = 'inline-block'
     }
     window.scrollTo(0, 0)
     showSlide(index)
@@ -319,16 +319,16 @@ function displayStory(content = ['wtf'], doCookies = true, doX = false, doY = tr
     }
     char()
   }
-  document.getElementById('next').addEventListener('click', () => {
+  gewi('next').addEventListener('click', () => {
     next()
   })
-  document.getElementById('next1').addEventListener('click', () => {
+  gewi('next1').addEventListener('click', () => {
     next()
   })
-  document.getElementById('prev').addEventListener('click', () => {
+  gewi('prev').addEventListener('click', () => {
     prev()
   })
-  document.getElementById('prev1').addEventListener('click', () => {
+  gewi('prev1').addEventListener('click', () => {
     prev()
   })
   window.onkeydown = function (event) {
@@ -351,7 +351,7 @@ function displayStory(content = ['wtf'], doCookies = true, doX = false, doY = tr
   }
   function char() {
     try {
-    document.getElementById('char').addEventListener('dblclick', () => {
+    gewi('char').addEventListener('dblclick', () => {
       word_count()
     })
     }
@@ -425,10 +425,10 @@ function StartThoughts(content = ['wtf']) {
   getScript('/thoughts.js')
   // content.reverse()
   var showSlide = (n) => {
-    document.getElementById('story').innerHTML += '<div class="background">' + content[n] + '</div><br><br>'
+    gewi('story').innerHTML += '<div class="background">' + content[n] + '</div><br><br>'
   }
 
-  document.getElementById('story').innerHTML = ""
+  gewi('story').innerHTML = ""
 
   for (let index = 0; index < content.length; index++) {
     const element = content[index];
@@ -461,13 +461,13 @@ function startViewer(basePath='', contents=[''], debug = false) {
     button.innerText = 'Page ' + (index + 1)
     if (debug) {console.log('adding onclick')}
     button.onclick = () => {
-      document.getElementById("image").src = basePath + contents[index];
+      gewi("image").src = basePath + contents[index];
       document.querySelectorAll('button').forEach(element => element.style.backgroundColor = 'black');
-      document.getElementById(index).style.backgroundColor = "blue";
+      gewi(index).style.backgroundColor = "blue";
     }
-    document.getElementById('pages').appendChild(button)
+    gewi('pages').appendChild(button)
   })
-  document.getElementById('0').style.backgroundColor = 'blue'
+  gewi('0').style.backgroundColor = 'blue'
   document.body.style = "margin: 0; width: 100vw;"
 }
 
@@ -476,18 +476,18 @@ function getCommit(owner, repo) {
     'https://api.github.com/repos/' + owner + '/' + repo + '/commits?per_page=1',
     // headers: {Authorization: "Bearer github_pat_none-lol"}).then(res => res.json()).then(
     res => {
-      document.getElementById('message').className = 'message'
-      document.getElementById('message').innerHTML = res[0].commit.message
+      gewi('message').className = 'message'
+      gewi('message').innerHTML = res[0].commit.message
       if (res[0].commit.author.name = 'benheroblaw') {
-        document.getElementById('committer').className = 'benheroblaw'
+        gewi('committer').className = 'benheroblaw'
       }
       else if (res[0].commit.author.name === 'Prokid99999') {
-        document.getElementById('committer').className = 'prokid'
+        gewi('committer').className = 'prokid'
       }
       else {
-        document.getElementById('committer').className = 'other'
+        gewi('committer').className = 'other'
       }
-      document.getElementById('committer').innerText = res[0].commit.committer.name
+      gewi('committer').innerText = res[0].commit.committer.name
     })
 }
 
@@ -498,7 +498,7 @@ function getCommitNumbers(owner, repo) {
       Authorization: atob('')
     }).then(res => res.json()).then(
     res => {
-      document.getElementById('message').innerHTML = res[0].commit.message
+      gewi('message').innerHTML = res[0].commit.message
     })
 }
 
@@ -520,7 +520,7 @@ function word_count(paras = 'background') {
 }
 
 function wordcount(paras = 'background') {
-  let area = document.getElementById(paras);
+  let area = gewi(paras);
   let char = 0 // Count characters
   let content = area.textContent;
   char = content.length;
@@ -575,18 +575,18 @@ document.addEventListener('loadstart', video.forEach(element => element.preload 
 
 function addSidebar(sidebar=pornSidebar, viewerSidebar='', sidebar3='', sidebar4='',) {
   document.body.innerHTML += '<link rel="stylesheet" href="/sidebar.css">'
-  try {document.getElementById('sidebar').innerHTML = sidebar; document.getElementById('sidebar').style.display = 'inline'}
+  try {gewi('sidebar').innerHTML = sidebar; gewi('sidebar').style.display = 'inline'}
   catch (Error) {errorMessage('no 1st sidebar')}
   if (viewerSidebar != '') {
-    try {document.getElementById('sidebar2').innerHTML = viewerSidebar; document.getElementById('sidebar2').style.display = 'inline'}
+    try {gewi('sidebar2').innerHTML = viewerSidebar; gewi('sidebar2').style.display = 'inline'}
     catch (Error) {errorMessage('no 2nd sidebar')}
   }
   if (sidebar3 != '') {
-    try {document.getElementById('sidebar3').innerHTML = sidebar3; document.getElementById('sidebar3').style.display = 'inline'}
+    try {gewi('sidebar3').innerHTML = sidebar3; gewi('sidebar3').style.display = 'inline'}
     catch (Error) {errorMessage('no 3rd sidebar')}
   }
   if (sidebar4 != '') {
-    try {document.getElementById('sidebar4').innerHTML = sidebar4; }
+    try {gewi('sidebar4').innerHTML = sidebar4; }
     catch (Error) {errorMessage('no 4th sidebar')}
   }
 
@@ -597,7 +597,7 @@ function getScript(file) {
   s.id = 'getScript'
   s.src = file;
   document.head.appendChild(s);
-  // document.getElementById('getScript').remove()
+  // gewi('getScript').remove()
 }
 function getModule(file) {
   var s = document.createElement('script');
@@ -605,16 +605,19 @@ function getModule(file) {
   s.src = file;
   s.type = 'module'
   document.head.appendChild(s);
-  // document.getElementById('getScript').remove()
+  // gewi('getScript').remove()
 }
-function loadScript(url) {
-  var script = document.createElement("script");  // create a script DOM node
-  script.src = url;  // set its src to the provided URL
+// function loadScript(url) {
+//   var script = document.createElement("script");  // create a script DOM node
+//   script.src = url;  // set its src to the provided URL
 
-  document.head.appendChild(script);  // add it to the end of the head section of the page (could change 'head' to 'body' to add it to the end of the body section instead)
-  return Promise.resolve('Success')
-}
-const promiseLoadScript = new Promise(() => loadScript('/r34/porn.js'))
+//   document.head.appendChild(script);  // add it to the end of the head section of the page (could change 'head' to 'body' to add it to the end of the body section instead)
+//   return Promise.resolve('Success')
+// }
+// const promiseLoadScript = (script='/r34/porn.js') => {
+//   new Promise(() => loadScript(script))
+//   tesLog('loaded script')
+// }
 
 function addElement(element='', id='') {
   let elem = document.createElement(element)
