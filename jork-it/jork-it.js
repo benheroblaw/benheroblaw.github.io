@@ -43,19 +43,19 @@ if (checkArrayCookie(path + 'upgrades') === 'error') {
   setArrayCookie(path + 'upgrades', ['none', 'balls'], debug)
 }
 
-  let jorks = Number(getCookie(path + 'jorks'))
-  let alljorks = Number(getCookie(path + 'alljorks'))
-  let vibes = Number(getCookie(path + 'vibes'))
-  let electros = Number(getCookie(path + 'electro'))
-  let upgrades = Number(getArrayCookie(path + 'upgrades'))
-  let vibePrice = Number(getCookie(path + 'vibePrice'))
-  let ePrice = Number(getCookie(path + 'ePrice'))
-  let arousal = Number(getCookie(path + 'arousal'))
-  let jorkpower = 1 + (vibes * 0.75) + (electros * 5) * arousal
-  let idleboost = Number(getCookie(path + 'idleboost'))
-  let idlepower = (vibes + (electros * 10)) * idleboost
 
 function jork() {
+let jorks = Number(getCookie(path + 'jorks'))
+let alljorks = Number(getCookie(path + 'alljorks'))
+let vibes = Number(getCookie(path + 'vibes'))
+let electros = Number(getCookie(path + 'electro'))
+let upgrades = Number(getArrayCookie(path + 'upgrades'))
+let vibePrice = Number(getCookie(path + 'vibePrice'))
+let ePrice = Number(getCookie(path + 'ePrice'))
+let arousal = Number(getCookie(path + 'arousal'))
+let jorkpower = 1 + (vibes * 0.75) + (electros * 5) * arousal
+let idleboost = Number(getCookie(path + 'idleboost'))
+let idlepower = (vibes + (electros * 10)) * idleboost
 
   function click() {
     jorks = Number(getCookie(path + 'jorks'))

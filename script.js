@@ -262,7 +262,7 @@ function displayStory(content = ['wtf'], doCookies = true, doX = false, doY = tr
     )
   }
   function next() {
-    var videoElement = document.querySelectorAll('video')
+    var videoElement = qSelA('video')
     try {videoElement.forEach(element => {
       element.pause()
       element.removeAttribute('src')
@@ -291,7 +291,7 @@ function displayStory(content = ['wtf'], doCookies = true, doX = false, doY = tr
     char()
   }
   function prev() {
-    var videoElement = document.querySelectorAll('video')
+    var videoElement = qSelA('video')
     try {videoElement.forEach(element => {
       element.pause()
       element.removeAttribute('src')
@@ -462,7 +462,7 @@ function startViewer(basePath='', contents=[''], debug = false) {
     if (debug) {console.log('adding onclick')}
     button.onclick = () => {
       gewi("image").src = basePath + contents[index];
-      document.querySelectorAll('button').forEach(element => element.style.backgroundColor = 'black');
+      qSelA('button').forEach(element => element.style.backgroundColor = 'black');
       gewi(index).style.backgroundColor = "blue";
     }
     gewi('pages').appendChild(button)
@@ -545,12 +545,12 @@ function stripHtml(html) {
 }
 
 function vol(video_volume = 0.1, audio_volume = 0.75) {
-  var video = document.querySelectorAll('video');
+  var video = qSelA('video');
   video.forEach(element => element.volume = video_volume
   )
   // video.forEach(element => element.addEventListener('pause', () => setCookie(element + 'time', element.currentTime)), doOutput)
   video.forEach(element => element.preload = 'none')
-  var audio = document.querySelectorAll('audio');
+  var audio = qSelA('audio');
   audio.forEach(element => element.volume = audio_volume)
 }
 
@@ -570,7 +570,7 @@ function clear() {
   console.clear()
 }
 
-var video = document.querySelectorAll('video')
+var video = qSelA('video')
 document.addEventListener('loadstart', video.forEach(element => element.preload = 'none'))
 
 function addSidebar(sidebar=pornSidebar, viewerSidebar='', sidebar3='', sidebar4='',) {
@@ -607,15 +607,15 @@ function getModule(file) {
   document.head.appendChild(s);
   // gewi('getScript').remove()
 }
-// function loadScript(url) {
+// function promiseLoadScript(url) {
 //   var script = document.createElement("script");  // create a script DOM node
 //   script.src = url;  // set its src to the provided URL
 
 //   document.head.appendChild(script);  // add it to the end of the head section of the page (could change 'head' to 'body' to add it to the end of the body section instead)
 //   return Promise.resolve('Success')
 // }
-// const promiseLoadScript = (script='/r34/porn.js') => {
-//   new Promise(() => loadScript(script))
+// const promisepromiseLoadScript = (script='/r34/porn.js') => {
+//   new Promise(() => promiseLoadScript(script))
 //   tesLog('loaded script')
 // }
 
@@ -627,14 +627,128 @@ function addElement(element='', id='') {
   document.body.appendChild(elem)
 }
 
+/**
+ * loads a script
+ * @param {string} file file path
+ */
+function getScript(file) {
+  var s = document.createElement('script');
+  s.id = 'getScript'
+  s.src = file;
+  document.head.appendChild(s);
+}
+/**
+ * loads a script as a module
+ * @param {string} file file path
+ */
+function getModule(file) {
+  var s = document.createElement('script');
+  s.id = 'getScript'
+  s.src = file;
+  s.type = 'module'
+  document.head.appendChild(s);
+}
+
+/**
+ * Quick element adder
+ * @param {string} element element type
+ * @param {string} id id to add to the element
+ */
+function addElement(element='', id='') {
+  let elem = document.createElement(element)
+  if (id != '') {
+    elem.id = id
+  }
+  document.body.appendChild(elem)
+  if (id === '') {return `added ${element} to document`}
+  else {return `added ${element} to document with id ${id}`}
+}
+
+/**
+ *Shorthand for document.getElementById
+ * @param {string} id - id of the element
+ * @returns the element
+ */
+function getElementWithId(id='') {
+  return document.getElementById(id)
+}
+/**
+ *Shortened version of getElementWithId
+ * @param {string} id - id of the element
+ */
+function gEWI(id='') {
+  return getElementWithId(id)
+}
+/**
+ *Shortened version of getElementWithId
+ * @param {string} id - id of the element
+ */
+function gewi(id='') {
+  return getElementWithId(id)
+}
+
+/**
+ * Shorthand for document.getElementsByClassName
+ * @param {string} clas - class to search for
+ * @returns elements
+ */
+function getElementsWithClassname(clas='') {
+  return document.getElementsByClassName(clas)
+}
+/**
+ * Shortened version of getElementWithClass
+ * @param {*} clas - class to search for
+ * @returns elements
+ */
+function gEWC(clas='') {
+  return getElementsWithClassname(clas)
+}
+/**
+ * Shortened version of getElementWithClass
+ * @param {*} clas - class to search for
+ * @returns elements
+ */
+function gewc(clas='') {
+  return gEWC(clas)
+}
+
+/**
+ * Shorthand for document.querySelector
+ * @param {string} params CSS selectors
+ * @returns elements
+ */
+function qSel(params='') {
+  return document.querySelector(params)
+}
+/**
+ * Shorthand for document.querySelectorAll
+ * @param {string} params CSS selectors
+ * @returns elements
+ */
+function qSelA(params='') {
+  return document.querySelectorAll(params)
+}
+
+function promiseLoadScript(url) {
+  var script = document.createElement("script")
+  script.src = url;
+
+  document.head.appendChild(script)
+  return Promise.resolve('Success')
+}
+function loadScript (script='') {
+  new Promise(() => promiseLoadScript(script))
+  console.log(`loaded ${script}`)
+}
+
 // event listeners
 document.addEventListener("DOMContentLoaded", function() {
   // document.body.appendChild(script)
   if (window.location.pathname.indexOf('/r34/') > -1) {
     tesLog('loading porn.js');
-    loadScript('/r34/porn.js').then(addSidebar(pornSidebar))
+    promiseLoadScript('/r34/porn.js').then(addSidebar(pornSidebar))
   }
-  document.querySelectorAll('video').forEach(element => element.preload = 'metadata')
+  qSelA('video').forEach(element => element.preload = 'metadata')
   vol(0.1, 0.1)
   // getScript('/bullshit.js')
 })
@@ -646,3 +760,7 @@ document.addEventListener("onload", function() {
 document.addEventListener('load', () =>
   ''
 )
+
+if (window.location.href.indexOf('http://localhost:8001') > 0) {
+  console.clear()
+}
