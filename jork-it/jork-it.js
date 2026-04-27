@@ -200,6 +200,8 @@ const viber = async () => {
   jorks = Number(getCookie(path + 'jorks'))
   vibes = Number(getCookie(path + 'vibes'))
   electros = Number(getCookie(path + 'electros'))
+  let idleboost = Number(getCookie(path + 'idleboost'))
+  let idlepower = (vibes + (electros * 10)) * idleboost
   while (vibes != 0 || electros !=0) {
     vibes = Number(getCookie(path + 'vibes'))
     electros = Number(getCookie(path + 'electros'))
