@@ -374,7 +374,6 @@ function displayStory(content = ['wtf'], doCookies = true, doX = false, doY = tr
 }
 
 var startState = 'not started'
-    // if (doOutput) {tesLog('')}
 
 function startStory(content=['wtf'], format=false, doCookies=true, doX=false, doY=true, doOutput=true) {
   if (doOutput) {tesLog('starting story...')}
@@ -748,7 +747,7 @@ document.addEventListener("DOMContentLoaded", function() {
     tesLog('loading porn.js');
     promiseLoadScript('/r34/porn.js').then(addSidebar(pornSidebar))
   }
-  qSelA('video').forEach(element => element.preload = 'metadata')
+  // qSelA('video').forEach(element => element.preload = 'auto')
   vol(0.1, 0.1)
   // getScript('/bullshit.js')
 })

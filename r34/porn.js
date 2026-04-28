@@ -194,12 +194,16 @@ var belle_boob_contest = belle_boob_contest_table
 
 var miku = [
     '\
-        <video preload="none" controls width="15%" src="miku/5ec746be03aed9d5acdb40b6d2da5d86.mp4">no porn for you :(</video>\
-        <video preload="none" controls width="15%" src="miku/f055fa442137855e2c82af3b8fc38d59.mp4">no porn for you :(</video>\
-        <video preload="none" controls width="15%" src="miku/0564b3cb8b58055592879edf386d854a.mp4">no porn for you :(</video>\
+        <video controls width="15%" src="miku/0564b3cb8b58055592879edf386d854a.mp4">no porn for you :(</video>\
+        <video controls width="15%" src="miku/dd9ed60005744a7c72b7e60092e212ff.mp4">no porn for you :(</video>\
         <br>\
         <br>\
-        <a href="miku/d26967e74cf4bb5b88f62209177c47f4.jpeg"><img src="miku/d26967e74cf4bb5b88f62209177c47f4.jpeg"></a>\
+        9:16<br>\
+        <video controls width="15%" src="miku/5ec746be03aed9d5acdb40b6d2da5d86.mp4">no porn for you :(</video>\
+        <video controls width="15%" src="miku/f055fa442137855e2c82af3b8fc38d59.mp4">no porn for you :(</video>\
+        ',
+
+    '<a href="miku/d26967e74cf4bb5b88f62209177c47f4.jpeg"><img src="miku/d26967e74cf4bb5b88f62209177c47f4.jpeg"></a>\
         <a href="miku/8694a05f839325fafe03ed24a53befe3.jpeg"><img src="miku/8694a05f839325fafe03ed24a53befe3.jpeg"></a>\
         <a href="miku/8efd1a280d5dc98b5591de852cae9879.jpeg"><img src="miku/8efd1a280d5dc98b5591de852cae9879.jpeg"></a>\
         <a href="miku/5b4affe3cfd8e9f7629f75e06e061fbd-1.jpeg"><img src="miku/5b4affe3cfd8e9f7629f75e06e061fbd-1.jpeg"></a>\
@@ -218,7 +222,7 @@ var miku = [
         <a href="miku/4c2180e435c818b0349acb820f6c0f02.jpeg"><img src="miku/4c2180e435c818b0349acb820f6c0f02.jpeg"></a>\
         <a href="miku/a6f85af61c528e507853a8d451be4d0a.jpeg"><img src="miku/a6f85af61c528e507853a8d451be4d0a.jpeg"></a>\
         <a href="miku/e31d051206aadd464177352663ab3130.jpeg"><img src="miku/e31d051206aadd464177352663ab3130.jpeg"></a>\
-        <br>\
+        <br><br>\
         <a href="miku/54a6a063caa2096e17e79f9b257c7f6f.gif"><img src="miku/54a6a063caa2096e17e79f9b257c7f6f.gif"></a>',
 
         '\

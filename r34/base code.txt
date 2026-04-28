@@ -9,7 +9,7 @@ Default
         <title>MAKE A DAMN TITLE</title>
         <html>
             <body class="centerList" onload='vol()'>
-            <!-- <video preload="none" controls height="25%" src="">no porn for you :(</video>
+            <!-- <video controls height="25%" src="">no porn for you :(</video>
             <a href=""><img height="10%" src=""></a> -->
         </body>
         </html>
