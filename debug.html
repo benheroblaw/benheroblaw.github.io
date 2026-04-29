@@ -24,20 +24,20 @@
 <script>
     const refresh = async () => {
         while (true) {
-            document.getElementById("message").className = "updating"
-            document.getElementById("committer").className = "updating"
-            document.getElementById("message").textContent = "fetching"
-            document.getElementById("committer").textContent = "fetching"
+            gewi("message").className = "updating"
+            gewi("committer").className = "updating"
+            gewi("message").textContent = "fetching"
+            gewi("committer").textContent = "fetching"
             await delay(0.05 * 1000)
             if (document.hasFocus()){
-            document.getElementById("message").textContent = "fetching."
-            document.getElementById("committer").textContent = "fetching."
+            gewi("message").textContent = "fetching."
+            gewi("committer").textContent = "fetching."
             await delay(0.05 * 1000)
-            document.getElementById("message").textContent = "fetching.."
-            document.getElementById("committer").textContent = "fetching.."
+            gewi("message").textContent = "fetching.."
+            gewi("committer").textContent = "fetching.."
             await delay(0.05 * 1000)
-            document.getElementById("message").textContent = "fetching..."
-            document.getElementById("committer").textContent = "fetching..."
+            gewi("message").textContent = "fetching..."
+            gewi("committer").textContent = "fetching..."
             await delay(0.1 * 1000)
             getCommit('benheroblaw', 'benheroblaw.github.io')}
             await delay(5 * 1000)
@@ -48,9 +48,9 @@
         var x = ' '
         while (true) {
             x = ' ' + navigator.onLine
-            document.getElementById('online').textContent = x
-            if (x = false) {document.getElementById('online').style.color = '#8b0000'}
-            if (x = true) {document.getElementById('online').style.color = '#0f0'}
+            gewi('online').textContent = x
+            if (x = false) {gewi('online').style.color = '#8b0000'}
+            if (x = true) {gewi('online').style.color = '#0f0'}
             await delay(0.5 * 1000)
         }
     }

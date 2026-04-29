@@ -25,13 +25,13 @@
             a.controls = true
             a.src = '/music/' + id[i] + '.mp3'
             a.title = id[i]
-            document.getElementById(location).appendChild(a)
-            document.getElementById(location).appendChild(br)
+            gewi(location).appendChild(a)
+            gewi(location).appendChild(br)
         }
     }
     function doPlaylist(){
         let playlistNumber = 0
-        let a = document.getElementById('player')
+        let a = gewi('player')
         a.controls = true
         a.addEventListener('onended', nextTrack())
 

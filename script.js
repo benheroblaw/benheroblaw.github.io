@@ -203,7 +203,7 @@ function deleteCookie(cname, cvalue='', output = true, exdays = -7) {
 //     .catch(error => console.error('Failed to fetch data:', error));
 // }
 
-function displayStory(content = ['wtf'], doCookies = true, doX = false, doY = true, doOutput = false) {
+function displayStory(content = ['wtf'], extraScript='', doCookies = true, doX = false, doY = true, doOutput = false) {
   var page = window.location.pathname + ' - '
   var showSlide = (n) => {
     gewi('story').innerHTML = content[n]
@@ -285,6 +285,7 @@ function displayStory(content = ['wtf'], doCookies = true, doX = false, doY = tr
     window.scrollTo(0, 0)
     showSlide(index)
     vol()
+    eval(extraScript)
     if (doCookies == true) {
       setCookie(page + 'index', index, doOutput)
     }
@@ -375,7 +376,7 @@ function displayStory(content = ['wtf'], doCookies = true, doX = false, doY = tr
 
 var startState = 'not started'
 
-function startStory(content=['wtf'], format=false, doCookies=true, doX=false, doY=true, doOutput=true) {
+function startStory(content=['wtf'], format=false, extraScript='', doCookies=true, doX=false, doY=true, doOutput=true) {
   if (doOutput) {tesLog('starting story...')}
   var s = document.createElement('script');
   s.id = 'text'
@@ -415,7 +416,7 @@ function startStory(content=['wtf'], format=false, doCookies=true, doX=false, do
             <div id="center1" style="text-align: center;"></div>\
             <div style="text-align: right;"><button id="next1">Next &gt;</button></div>\
         </div><br><br>'}
-    displayStory(content, doCookies, doX, doY, doOutput)
+    displayStory(content, doCookies, extraScript, doX, doY, doOutput)
   }
 }
 
@@ -558,7 +559,7 @@ function colorTrace(msg, color='red') {
 }
 
 function errorMessage(msg) {
-  colorTrace(tes[1] + msg, 'red')
+  colorTrace(tes[1] + ' ' + msg, 'red')
 }
 
 function tesLog (msg='') {

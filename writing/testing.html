@@ -56,7 +56,7 @@
     const reset = ['<link rel="icon" href="/icons/unknown.png"><title></title><span style=\"color: white; font-family: \'Courier New\', Courier, monospace;\" id="char"><br>im gonna rip my<br>your fucking dick off<br>&NonBreakingSpace;&NonBreakingSpace;/<br>:}c</span>']
 
     function input() {
-        const node = document.getElementById("storyinput");
+        const node = gewi("storyinput");
         node.addEventListener("keyup", function(event) {
             if (event.key === "Enter") {
                 // Do work
@@ -64,13 +64,13 @@
         });
         node.addEventListener("keyup", ({key}) => {
             if (key === "Enter") {
-                startStory(eval(document.getElementById('storyinput').value))
+                startStory(eval(gewi('storyinput').value))
             }
         });
     }
 
 document.addEventListener('onload', () => {
-    document.getElementById('pornRefresh').onclick = scriptRefresh()
+    gewi('pornRefresh').onclick = scriptRefresh()
 })
 
 let scriptNumber = 0
@@ -83,20 +83,20 @@ function scriptRefresh() {
         document.body.appendChild(s);
         scriptNumber++
         scriptRefresh()
-        document.getElementById('script').remove()
+        gewi('script').remove()
     }
     if (scriptNumber === 1) {
         s.src = '/script.js'
         document.body.appendChild(s);
         scriptNumber++
         scriptRefresh()
-        document.getElementById('script').remove()
+        gewi('script').remove()
     }
     if (scriptNumber === 2) {
         s.src = '/text.js'
         document.body.appendChild(s);
         scriptNumber = 0
-        document.getElementById('script').remove()
+        gewi('script').remove()
     }
 
 }
@@ -158,7 +158,7 @@ function scriptRefresh() {
                     <option value="unfinished"></option>
                     <option value="reset"></option>
                 </datalist>
-                <button onclick="startStory(eval(document.getElementById('storyinput').value))">Start story</button>
+                <button onclick="startStory(eval(gewi('storyinput').value))">Start story</button>
         </div>
         <br><br><br><br><br><br>
         <div class="space">

@@ -1,11 +1,24 @@
+<!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="/characters.css">
     <link rel="icon" href="/icons/characters.png">
     <script src="/script.js"></script>
     <title>Character Sheets</title>
 </head>
+<script>
+    function villainess() {
+        gewi('villainess').textContent = 'The Villainess Enters A Political Marriage With the Prince of the Neighbor Kingdom'
+
+        gewi('villainess').addEventListener('mouseenter', () =>
+            gewi('villainess').textContent = 'The Shadow Judge'
+        )
+        gewi('villainess').addEventListener('mouseleave', () =>
+            gewi('villainess').textContent = 'The Villainess Enters A Political Marriage With the Prince of the Neighbor Kingdom'
+        )
+    }
+</script>
 <html>
-    <body>
+    <body onload="villainess()">
         <h1 style="color: white;">Name</h1>
             Pronouns/Gender<br>
             Sex<br>
@@ -18,7 +31,7 @@
             Key /\<br>
 
             <p>
-                <a href="/writing/villainess.html" class="large"><span>The Villainess Dumps The Prince of the Neighbor Kingdom to Pursue the Heroine</span></a><br>
+                <a href="/writing/villainess.html" class="large"><span id="villainess">The Villainess Dumps The Prince of the Neighbor Kingdom to Pursue the Heroine</span></a><br>
             <a href="/character-sheets/villainess.html" class="big"><span>Villainess</span></a><br>
             <a href="/character-sheets/heroine.html" class="big"><span>Heroine</span></a><br>
             <a href="/character-sheets/umbra.html"><span>Umbra</span></a></p>

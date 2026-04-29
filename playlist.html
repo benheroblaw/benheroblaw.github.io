@@ -31,14 +31,14 @@ window.addEventListener("DOMContentLoaded", () => {
 
   // (A2) AUDIO PLAYER & GET HTML CONTROLS
   const audio = new Audio(),
-        aPlay = document.getElementById("aPlay"),
-        aPlayIco = document.getElementById("aPlayIco"),
-        aNow = document.getElementById("aNow"),
-        aTime = document.getElementById("aTime"),
-        aSeek = document.getElementById("aSeek"),
-        aVolume = document.getElementById("aVolume"),
-        aVolIco = document.getElementById("aVolIco"),
-        aList = document.getElementById("aList");
+        aPlay = gewi("aPlay"),
+        aPlayIco = gewi("aPlayIco"),
+        aNow = gewi("aNow"),
+        aTime = gewi("aTime"),
+        aSeek = gewi("aSeek"),
+        aVolume = gewi("aVolume"),
+        aVolIco = gewi("aVolIco"),
+        aList = gewi("aList");
 
   // (A3) BUILD PLAYLIST
   for (let i in playlist) {
@@ -58,14 +58,14 @@ var audNow = 0, // current song
 // (B2) PLAY SELECTED SONG
 audPlay = (idx, nostart) => {
   const audio = new Audio(),
-        aPlay = document.getElementById("aPlay"),
-        aPlayIco = document.getElementById("aPlayIco"),
-        aNow = document.getElementById("aNow"),
-        aTime = document.getElementById("aTime"),
-        aSeek = document.getElementById("aSeek"),
-        aVolume = document.getElementById("aVolume"),
-        aVolIco = document.getElementById("aVolIco"),
-        aList = document.getElementById("aList");
+        aPlay = gewi("aPlay"),
+        aPlayIco = gewi("aPlayIco"),
+        aNow = gewi("aNow"),
+        aTime = gewi("aTime"),
+        aSeek = gewi("aSeek"),
+        aVolume = gewi("aVolume"),
+        aVolIco = gewi("aVolIco"),
+        aList = gewi("aList");
   audNow = idx;
   audStart = nostart ? false : true;
   let playlist = [
@@ -87,14 +87,14 @@ audPlay = (idx, nostart) => {
 
 // (B3) AUTO START WHEN SUFFICIENTLY BUFFERED
   const audio = new Audio(),
-        aPlay = document.getElementById("aPlay"),
-        aPlayIco = document.getElementById("aPlayIco"),
-        aNow = document.getElementById("aNow"),
-        aTime = document.getElementById("aTime"),
-        aSeek = document.getElementById("aSeek"),
-        aVolume = document.getElementById("aVolume"),
-        aVolIco = document.getElementById("aVolIco"),
-        aList = document.getElementById("aList");
+        aPlay = gewi("aPlay"),
+        aPlayIco = gewi("aPlayIco"),
+        aNow = gewi("aNow"),
+        aTime = gewi("aTime"),
+        aSeek = gewi("aSeek"),
+        aVolume = gewi("aVolume"),
+        aVolIco = gewi("aVolIco"),
+        aList = gewi("aList");
 audio.addEventListener("canplay", () => { if (audStart) {
   audio.play();
   audStart = false;

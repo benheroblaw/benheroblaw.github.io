@@ -66,19 +66,19 @@ let idlepower = (vibes + (electros * 10)) * idleboost
     jorks += jorkpower
     setCookie(path + 'jorks', + jorks, debug)
     setCookie(path + "alljorks", alljorks += jorkpower, debug)
-    document.getElementById('counter').innerHTML = Math.round(jorks) + ' jorks'
+    gewi('counter').innerHTML = Math.round(jorks) + ' jorks'
   }
 
-  document.getElementById('counter').innerHTML = Math.round(jorks) + ' jorks'
-  document.getElementById('vibePrice').innerHTML = '<img src="/jork-it/jork.png" alt="">' + vibePrice
-    document.getElementById('vibes').innerHTML = vibes
-  document.getElementById('ePrice').innerHTML = '<img src="/jork-it/jork.png" alt="">' + ePrice
-    document.getElementById('electros').innerHTML = electros
-  document.getElementById('jorker').addEventListener('click', () => {
+  gewi('counter').innerHTML = Math.round(jorks) + ' jorks'
+  gewi('vibePrice').innerHTML = '<img src="/jork-it/jork.png" alt="">' + vibePrice
+    gewi('vibes').innerHTML = vibes
+  gewi('ePrice').innerHTML = '<img src="/jork-it/jork.png" alt="">' + ePrice
+    gewi('electros').innerHTML = electros
+  gewi('jorker').addEventListener('click', () => {
     click()
   })
 
-document.getElementById('reset').addEventListener('click', () => {
+gewi('reset').addEventListener('click', () => {
     vibes = 0
     vibePrice = 25
     electros = 0
@@ -95,11 +95,11 @@ document.getElementById('reset').addEventListener('click', () => {
     setCookie(path + 'arousal', 1, debug)
     setCookie(path + 'lube', 0, debug)
     setCookie(path + 'aphro', 0, debug)
-    document.getElementById('counter').innerHTML = 0 + ' jorks'
-    document.getElementById('vibePrice').innerHTML = '<img src="/jork-it/jork.png" alt="">' + vibePrice
-    document.getElementById('vibes').innerHTML = vibes
-    document.getElementById('ePrice').innerHTML = ePrice
-    document.getElementById('electros').innerHTML = '<img src="/jork-it/jork.png" alt="">' + electros
+    gewi('counter').innerHTML = 0 + ' jorks'
+    gewi('vibePrice').innerHTML = '<img src="/jork-it/jork.png" alt="">' + vibePrice
+    gewi('vibes').innerHTML = vibes
+    gewi('ePrice').innerHTML = ePrice
+    gewi('electros').innerHTML = '<img src="/jork-it/jork.png" alt="">' + electros
 
 })
 
@@ -113,7 +113,7 @@ const move = document.querySelectorAll(".tooltiptext");
 //     )
 // }
 
-  document.getElementById('vibe').addEventListener('click', () => {
+  gewi('vibe').addEventListener('click', () => {
     vibes = Number(getCookie(path + 'vibes'))
     jorks = Number(getCookie(path + 'jorks'))
       if (jorks >= vibePrice) {
@@ -122,19 +122,19 @@ const move = document.querySelectorAll(".tooltiptext");
         jorks -= vibePrice
         vibePrice += 24 + Math.round((vibes / 1.5))
         jorkpower += 0.75
-        document.getElementById('vibePrice').innerHTML = '<img src="/jork-it/jork.png" alt="">' + vibePrice
-        document.getElementById('vibes').innerHTML = vibes
+        gewi('vibePrice').innerHTML = '<img src="/jork-it/jork.png" alt="">' + vibePrice
+        gewi('vibes').innerHTML = vibes
         if (debug) {console.log(jorks)}
         setCookie(path + 'vibes', vibes, debug)
         if (vibes === 1) {viber()}
         setCookie(path + 'vibePrice', vibePrice, debug)
         setCookie(path + 'jorks', jorks, debug)
       }
-      document.getElementById('counter').innerHTML = Math.round(jorks) + ' jorks'
+      gewi('counter').innerHTML = Math.round(jorks) + ' jorks'
       if (debug) {console.log(vibePrice)}
     }
   )
-  document.getElementById('electro').addEventListener('click', () => {
+  gewi('electro').addEventListener('click', () => {
     electros = Number(getCookie(path + 'electros'))
     jorks = Number(getCookie(path + 'jorks'))
       if (jorks >= ePrice) {
@@ -143,20 +143,20 @@ const move = document.querySelectorAll(".tooltiptext");
         jorks -= ePrice
         ePrice += 499 + (electros)
         jorkpower += 5
-        document.getElementById('ePrice').innerHTML = '<img src="/jork-it/jork.png" alt="">' + ePrice
-        document.getElementById('electros').innerHTML = electros
+        gewi('ePrice').innerHTML = '<img src="/jork-it/jork.png" alt="">' + ePrice
+        gewi('electros').innerHTML = electros
         if (debug) {console.log(jorks)}
         setCookie(path + 'electros', electros, debug)
         if (electros === 1) {viber()}
         setCookie(path + 'ePrice', ePrice, debug)
         setCookie(path + 'jorks', jorks, debug)
       }
-      document.getElementById('counter').innerHTML = Math.round(jorks) + ' jorks'
+      gewi('counter').innerHTML = Math.round(jorks) + ' jorks'
       if (debug) {console.log(ePrice)}
     }
   )
 
-  document.getElementById('aphro').addEventListener('click', () => {
+  gewi('aphro').addEventListener('click', () => {
     jorks = Number(getCookie(path + 'jorks'))
     arousal = Number(getCookie(path + 'arousal'))
 
@@ -171,7 +171,7 @@ const move = document.querySelectorAll(".tooltiptext");
 
   })
 
-  document.getElementById('lube').addEventListener('click', () => {
+  gewi('lube').addEventListener('click', () => {
     jorks = Number(getCookie(path + 'jorks'))
     arousal = Number(getCookie(path + 'arousal'))
     idleboost = Number(getCookie(path + 'idleboost'))
@@ -192,7 +192,7 @@ const move = document.querySelectorAll(".tooltiptext");
   viber()
   tick()
 
-  document.getElementById('top').style.display = 'none'
+  gewi('top').style.display = 'none'
 }
 
 const viber = async () => {
@@ -211,7 +211,7 @@ const viber = async () => {
     alljorks = Number(getCookie(path + 'alljorks'))
     setCookie(path + 'jorks', jorks += 1, debug)
     setCookie(path + "alljorks", alljorks += 1, debug)
-    document.getElementById('counter').innerHTML = Math.round(jorks) + ' jorks'
+    gewi('counter').innerHTML = Math.round(jorks) + ' jorks'
   }
   if (vibes === 0) {console.log(hony[0]+'stopping viber')}
 }
@@ -226,18 +226,18 @@ const tick = async () => {
     jorkpower = 1 + (vibes * 0.75) + (electros * 5) * arousal
     idlepower = (vibes + (electros * 10)) * idleboost
 
-    document.getElementById('idlepower').innerText = idlepower + ' jorks per second'
-    document.getElementById('clickpower').innerText = jorkpower + ' jorks per click'
+    gewi('idlepower').innerText = idlepower + ' jorks per second'
+    gewi('clickpower').innerText = jorkpower + ' jorks per click'
 
     if (Number(getCookie(path + 'lube')) === 1) {
-      document.getElementById('lube').style.display = 'none'
+      gewi('lube').style.display = 'none'
     }
-    else {document.getElementById('lube').style.display = 'inline'}
+    else {gewi('lube').style.display = 'inline'}
 
     if (Number(getCookie(path + 'aphro')) === 1) {
-      document.getElementById('aphro').style.display = 'none'
+      gewi('aphro').style.display = 'none'
     }
-    else {document.getElementById('aphro').style.display = 'inline'}
+    else {gewi('aphro').style.display = 'inline'}
 
     await delay(100)
   }
