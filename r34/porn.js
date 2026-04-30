@@ -193,14 +193,14 @@ var belle_boob_contest_text = [
 var belle_boob_contest = belle_boob_contest_table
 
 var miku = [
-    '\
-        <video controls width="15%" src="miku/0564b3cb8b58055592879edf386d854a.mp4">no porn for you :(</video>\
-        <video controls width="15%" src="miku/dd9ed60005744a7c72b7e60092e212ff.mp4">no porn for you :(</video>\
+    '16:9<br>\
+        <video controls width="15%" title="hatsune blowjob" src="miku/0564b3cb8b58055592879edf386d854a.mp4">no porn for you :(</video>\
+        <video controls width="15%" title="futa x miku" src="miku/dd9ed60005744a7c72b7e60092e212ff.mp4">no porn for you :(</video>\
         <br>\
         <br>\
         9:16<br>\
-        <video controls width="15%" src="miku/5ec746be03aed9d5acdb40b6d2da5d86.mp4">no porn for you :(</video>\
-        <video controls width="15%" src="miku/f055fa442137855e2c82af3b8fc38d59.mp4">no porn for you :(</video>\
+        <video controls width="15%" title="brazilian miku culls the local fish population by ejaculating into the sea" src="miku/5ec746be03aed9d5acdb40b6d2da5d86.mp4">no porn for you :(</video>\
+        <video controls width="15%" title="brazilian miku cums on herself from autopaizuri" src="miku/f055fa442137855e2c82af3b8fc38d59.mp4">no porn for you :(</video>\
         ',
 
     '<a href="miku/d26967e74cf4bb5b88f62209177c47f4.jpeg"><img src="miku/d26967e74cf4bb5b88f62209177c47f4.jpeg"></a>\

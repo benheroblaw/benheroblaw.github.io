@@ -315,6 +315,7 @@ function displayStory(content = ['wtf'], extraScript='', doCookies = true, doX =
     window.scrollTo(0, 0)
     showSlide(index)
     vol()
+    eval(extraScript)
     if (doCookies == true) {
       setCookie(page + 'index', index, doOutput)
     }
@@ -416,7 +417,7 @@ function startStory(content=['wtf'], format=false, extraScript='', doCookies=tru
             <div id="center1" style="text-align: center;"></div>\
             <div style="text-align: right;"><button id="next1">Next &gt;</button></div>\
         </div><br><br>'}
-    displayStory(content, doCookies, extraScript, doX, doY, doOutput)
+    displayStory(content, extraScript, doCookies, doX, doY, doOutput)
   }
 }
 
@@ -549,7 +550,7 @@ function vol(video_volume = 0.1, audio_volume = 0.75) {
   video.forEach(element => element.volume = video_volume
   )
   // video.forEach(element => element.addEventListener('pause', () => setCookie(element + 'time', element.currentTime)), doOutput)
-  video.forEach(element => element.preload = 'none')
+  // video.forEach(element => element.preload = 'none')
   var audio = qSelA('audio');
   audio.forEach(element => element.volume = audio_volume)
 }
