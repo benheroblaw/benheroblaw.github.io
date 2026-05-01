@@ -3,8 +3,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="/icons/favicon-2.png">
 
-    <script src="/script.js
-"></script>
+    <script src="/script.js" type="module"></script>
 </head>
 <title>Dragon Maid</title>
 <style>
@@ -17,7 +16,7 @@
 </style>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  addSidebar(pornSidebar, dragonSidebar)
+  script.addSidebar(pornSidebar, dragonSidebar)
 })
 var dragon = [
     '<video preload="auto" controls width="15%" src="dragon maid/05a4a9f6e02acf99e1300d7a9a9562dc.mp4">no porn for you :(</video>',
@@ -36,7 +35,7 @@ var dragon = [
 ]
 </script>
 <html>
-    <body class="centerList" onload="startStory(dragon, true); vol()">
+    <body class="centerList" onload="script.startStory(dragon, true); vol()">
         <div id="sidebar"></div>
         <div id="sidebar2"></div>
     </body>

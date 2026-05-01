@@ -137,4 +137,29 @@ function qSelA(params='') {
   return document.querySelectorAll(params)
 }
 
+function importModule(name, path) {
+  // let script = document.createElement
+  document.head.innerHTML += '<script>import * as ' + name + ' from ' + path
+}
+
 bhbUnhide()
+
+export {
+
+  qSelA,
+  qSel,
+  gewc,
+  gEWC,
+  getElementsWithClassname,
+  gewi,
+  gEWI,
+  getElementWithId,
+  addElement,
+  getScript,
+  getModule,
+  bsLog,
+  bullshitLog,
+  bsHelp,
+  importModule,
+
+}

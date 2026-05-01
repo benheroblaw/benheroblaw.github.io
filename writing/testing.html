@@ -7,7 +7,7 @@
     <link href='https://fonts.googleapis.com/css?family=Allan|Alegreya Sans SC|Almendra Display|Aguafina Script|Amatic SC' rel='stylesheet'>
     <script src='http://localhost:2009/text.js'></script>
     <script src='https://prokid99999.github.io/text.js'></script>
-    <script src="/script.js"></script>
+    <script src="/script.js" type="module"></script>
     <script src="/r34/porn.js"></script>
     <script src="/text.js"></script>
     <script src="/bullshit.js"></script>
@@ -64,7 +64,7 @@
         });
         node.addEventListener("keyup", ({key}) => {
             if (key === "Enter") {
-                startStory(eval(gewi('storyinput').value))
+                script.startStory(eval(gewi('storyinput').value))
             }
         });
     }
@@ -102,7 +102,7 @@ function scriptRefresh() {
 }
 </script>
 <html>
-    <body onload="startStory(reset); input()">
+    <body onload="script.startStory(reset); input()">
         <span style="font-family: 'Allan';"></span>
         <span style="font-family: 'Alegreya Sans SC';"></span>
         <span style="font-family: 'Almendra Display';"></span>
@@ -110,26 +110,26 @@ function scriptRefresh() {
         <span style="font-family: 'Amatic SC';"></span>
         <span style="font-family: 'Chainsaw';"></span>
         <div style="padding-top: 0.5rem; width: 99vw; right: 0.5rem; position: absolute; z-index: 12;">
-                <button onclick="startStory(earth_lore)">lore</button>
-                <button class="noza" style="background-color: #111; margin-bottom: 0.25rem;" onclick="startStory(earth)">Please the Earth</button>
-                <button class="void" style="background-color: #111;" onclick="startStory(abyss)">Calm the Void</button>
-                <button class="nobody" style="background-color: #111;" onclick="startStory(nothing)">Slay Nobody</button>
-                <button onclick="startStory(airn_and_mina_have_secks)">airn and mina have secks</button>
-                <button class="vio" style="background-color: #111;" onclick="startStory(voidling)" oncontextmenu="window.open('/writing/voidling.html');isIntextMenuOpen = false;">Voidling</button>
-                <button style="font-family: 'Lucida Console', monospace;" onclick="startStory(dms)">dms</button>
+                <button onclick="script.startStory(earth_lore)">lore</button>
+                <button class="noza" style="background-color: #111; margin-bottom: 0.25rem;" onclick="script.startStory(earth)">Please the Earth</button>
+                <button class="void" style="background-color: #111;" onclick="script.startStory(abyss)">Calm the Void</button>
+                <button class="nobody" style="background-color: #111;" onclick="script.startStory(nothing)">Slay Nobody</button>
+                <button onclick="script.startStory(airn_and_mina_have_secks)">airn and mina have secks</button>
+                <button class="vio" style="background-color: #111;" onclick="script.startStory(voidling)" oncontextmenu="window.open('/writing/voidling.html');isIntextMenuOpen = false;">Voidling</button>
+                <button style="font-family: 'Lucida Console', monospace;" onclick="script.startStory(dms)">dms</button>
             <br>
 
-                <button style="background-color: #111; margin-bottom: 0.25rem;" onclick="startStory(fanfic)">fanfic</button>
-                <button id="senran" onclick="startStory(senran)">Senran Kagura!</button>
-                <button onclick="startStory(kiamei_hypno)">KiaMei Hypnosis</button>
-                <button class='chainsaw' onclick="startStory(chainsaw)">CHAINSAW WOMAN</button>
-                <button class='vampire' onclick="startStory(villainess)">Villainess</button>
-                <button style="color: #00ffff; border-color: #7f0000; text-shadow: 0px 0px 15px #00ff9b;" onclick="startStory(mikuteto_jjk)">mikuteto jjk</button>
-                <button id="senran" onclick="startStory(belle_boob_contest)">belle_boob_contest</button>
+                <button style="background-color: #111; margin-bottom: 0.25rem;" onclick="script.startStory(fanfic)">fanfic</button>
+                <button id="senran" onclick="script.startStory(senran)">Senran Kagura!</button>
+                <button onclick="script.startStory(kiamei_hypno)">KiaMei Hypnosis</button>
+                <button class='chainsaw' onclick="script.startStory(chainsaw)">CHAINSAW WOMAN</button>
+                <button class='vampire' onclick="script.startStory(villainess)">Villainess</button>
+                <button style="color: #00ffff; border-color: #7f0000; text-shadow: 0px 0px 15px #00ff9b;" onclick="script.startStory(mikuteto_jjk)">mikuteto jjk</button>
+                <button id="senran" onclick="script.startStory(belle_boob_contest)">belle_boob_contest</button>
             <br>
-                <button onclick="startStory(template)" style="margin-bottom: 0.25rem;">template</button>
-                <button onclick="startStory(unfinished)">unfinished</button>
-                <button onclick="startStory(reset)" class="reset">reset</button>
+                <button onclick="script.startStory(template)" style="margin-bottom: 0.25rem;">template</button>
+                <button onclick="script.startStory(unfinished)">unfinished</button>
+                <button onclick="script.startStory(reset)" class="reset">reset</button>
                 <button onclick="location.reload(true)">ctrl+f5</button>
                 <button id="pornRefresh" onclick="scriptRefresh()">story refresh</button>
             <br>
@@ -158,7 +158,7 @@ function scriptRefresh() {
                     <option value="unfinished"></option>
                     <option value="reset"></option>
                 </datalist>
-                <button onclick="startStory(eval(gewi('storyinput').value))">Start story</button>
+                <button onclick="script.startStory(eval(gewi('storyinput').value))">Start story</button>
         </div>
         <br><br><br><br><br><br>
         <div class="space">

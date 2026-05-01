@@ -3,8 +3,7 @@ Default
     <head>
         <link rel="stylesheet" href="style.css">
         <link rel="icon" href="/icons/favicon-2.png">
-        <script src="/script.js
-"></script>
+        <script src="/script.js" type="module"></script>
         </head>
         <title>MAKE A DAMN TITLE</title>
         <html>
@@ -27,8 +26,7 @@ Comics
     <head>
     <link rel="stylesheet" href="../../style.css">
     <link rel="icon" href="/icons/favicon-2.png">
-        <script src="/script.js
-"></script>
+        <script src="/script.js" type="module"></script>
 </head>
     <body class="centerList" onload='vol()'>
     <img class="center" id="image" src="page_1.jpg">
@@ -800,8 +798,7 @@ Viewers
     <head>
     <link rel="stylesheet" href="../../style.css">
     <link rel="icon" href="/icons/favicon-2.png">
-        <script src="/script.js
-"></script>
+        <script src="/script.js" type="module"></script>
 </head>
     <body class="centerList" onload='vol()'>
     <button onclick="gewi('image').src='page_1.jpg'">Page 1</button>
@@ -842,8 +839,7 @@ Character sheet
     <head>
         <link rel="stylesheet" href="/characters.css">
         <link rel="icon" href="/icons/characters.png">
-        <script src="/script.js
-"></script>
+        <script src="/script.js" type="module"></script>
     </head>
     <title>make a damn title</title>
     <html>

@@ -1,4 +1,5 @@
-// import {pornSidebar} from '/r34/porn.js'
+import * as bs from '/bullshit.js'
+import * as porno from '/r34/porno.js'
 
 // service worker
 if ('serviceWorker' in navigator) {
@@ -206,7 +207,7 @@ function deleteCookie(cname, cvalue='', output = true, exdays = -7) {
 function displayStory(content = ['wtf'], extraScript='', doCookies = true, doX = false, doY = true, doOutput = false) {
   var page = window.location.pathname + ' - '
   var showSlide = (n) => {
-    gewi('story').innerHTML = content[n]
+    bs.gewi('story').innerHTML = content[n]
   }
 
   let index = Number(getCookie(page + 'index'))
@@ -215,27 +216,27 @@ function displayStory(content = ['wtf'], extraScript='', doCookies = true, doX =
     index = 0
   }
   if (index + 1 === content.length) {
-    gewi('prev').style.display = 'inline'
-    gewi('prev1').style.display = 'inline'
-    gewi('next').style.display = 'none'
-    gewi('next1').style.display = 'none'
+    bs.gewi('prev').style.display = 'inline'
+    bs.gewi('prev1').style.display = 'inline'
+    bs.gewi('next').style.display = 'none'
+    bs.gewi('next1').style.display = 'none'
   }
   else {
-    gewi('prev').style.display = 'inline'
-    gewi('prev1').style.display = 'inline'
-    gewi('next').style.display = 'inline'
-    gewi('next1').style.display = 'inline'
+    bs.gewi('prev').style.display = 'inline'
+    bs.gewi('prev1').style.display = 'inline'
+    bs.gewi('next').style.display = 'inline'
+    bs.gewi('next1').style.display = 'inline'
   }
   if (index === 0) {
-    gewi('prev').style.display = 'none'
-    gewi('prev1').style.display = 'none'
-    gewi('next').style.display = 'inline'
-    gewi('next1').style.display = 'inline'
+    bs.gewi('prev').style.display = 'none'
+    bs.gewi('prev1').style.display = 'none'
+    bs.gewi('next').style.display = 'inline'
+    bs.gewi('next1').style.display = 'inline'
     if (content.length <= 1) {
-      gewi('prev').style.display = 'none'
-      gewi('prev1').style.display = 'none'
-      gewi('next').style.display = 'none'
-      gewi('next1').style.display = 'none'
+      bs.gewi('prev').style.display = 'none'
+      bs.gewi('prev1').style.display = 'none'
+      bs.gewi('next').style.display = 'none'
+      bs.gewi('next1').style.display = 'none'
     }
   }
   if (doCookies == true) {
@@ -263,7 +264,7 @@ function displayStory(content = ['wtf'], extraScript='', doCookies = true, doX =
   }
   eval(extraScript)
   function next() {
-    var videoElement = qSelA('video')
+    var videoElement = bs.qSelA('video')
     try {videoElement.forEach(element => {
       element.pause()
       element.removeAttribute('src')
@@ -272,16 +273,16 @@ function displayStory(content = ['wtf'], extraScript='', doCookies = true, doX =
     catch (TypeError) {errorMessage('no videos')}
       index = (index + 1) % content.length
     if (index + 1 >= content.length) {
-      gewi('next').style.display = 'none'
-      gewi('next1').style.display = 'none'
-      gewi('prev').style.display = 'inline'
-      gewi('prev1').style.display = 'inline'
+      bs.gewi('next').style.display = 'none'
+      bs.gewi('next1').style.display = 'none'
+      bs.gewi('prev').style.display = 'inline'
+      bs.gewi('prev1').style.display = 'inline'
     }
     else {
-      gewi('next').style.display = 'inline'
-      gewi('next1').style.display = 'inline'
-      gewi('prev').style.display = 'inline'
-      gewi('prev1').style.display = 'inline'
+      bs.gewi('next').style.display = 'inline'
+      bs.gewi('next1').style.display = 'inline'
+      bs.gewi('prev').style.display = 'inline'
+      bs.gewi('prev1').style.display = 'inline'
     }
     window.scrollTo(0, 0)
     showSlide(index)
@@ -293,7 +294,7 @@ function displayStory(content = ['wtf'], extraScript='', doCookies = true, doX =
     char()
   }
   function prev() {
-    var videoElement = qSelA('video')
+    var videoElement = bs.qSelA('video')
     try {videoElement.forEach(element => {
       element.pause()
       element.removeAttribute('src')
@@ -302,16 +303,16 @@ function displayStory(content = ['wtf'], extraScript='', doCookies = true, doX =
     catch (TypeError) {errorMessage('no videos')}
     index = (index + content.length - 1) % content.length
     if (index === 0) {
-      gewi('prev').style.display = 'none'
-      gewi('prev1').style.display = 'none'
-      gewi('next').style.display = 'inline'
-      gewi('next1').style.display = 'inline'
+      bs.gewi('prev').style.display = 'none'
+      bs.gewi('prev1').style.display = 'none'
+      bs.gewi('next').style.display = 'inline'
+      bs.gewi('next1').style.display = 'inline'
     }
     else {
-      gewi('prev').style.display = 'inline'
-      gewi('prev1').style.display = 'inline'
-      gewi('next').style.display = 'inline-block'
-      gewi('next1').style.display = 'inline-block'
+      bs.gewi('prev').style.display = 'inline'
+      bs.gewi('prev1').style.display = 'inline'
+      bs.gewi('next').style.display = 'inline-block'
+      bs.gewi('next1').style.display = 'inline-block'
     }
     window.scrollTo(0, 0)
     showSlide(index)
@@ -322,16 +323,16 @@ function displayStory(content = ['wtf'], extraScript='', doCookies = true, doX =
     }
     char()
   }
-  gewi('next').addEventListener('click', () => {
+  bs.gewi('next').addEventListener('click', () => {
     next()
   })
-  gewi('next1').addEventListener('click', () => {
+  bs.gewi('next1').addEventListener('click', () => {
     next()
   })
-  gewi('prev').addEventListener('click', () => {
+  bs.gewi('prev').addEventListener('click', () => {
     prev()
   })
-  gewi('prev1').addEventListener('click', () => {
+  bs.gewi('prev1').addEventListener('click', () => {
     prev()
   })
   window.onkeydown = function (event) {
@@ -354,7 +355,7 @@ function displayStory(content = ['wtf'], extraScript='', doCookies = true, doX =
   }
   function char() {
     try {
-    gewi('char').addEventListener('dblclick', () => {
+    bs.gewi('char').addEventListener('dblclick', () => {
       word_count()
     })
     }
@@ -383,7 +384,7 @@ function startStory(content=['wtf'], format=false, extraScript='', doCookies=tru
   var s = document.createElement('script');
   s.id = 'text'
   if (startState === 'not started') {
-    getScript('/text.js')
+    bs.getScript('/text.js')
     if (doOutput) {tesLog('story: fetched text')}
     startState = 'debug check'
   }
@@ -397,8 +398,8 @@ function startStory(content=['wtf'], format=false, extraScript='', doCookies=tru
   }
   if (startState === 'debug true') {
     tesLog('story: getting text')
-    getScript('https://prokid99999.github.io/text.js')
-    getScript('http://localhost:2009/text.js')
+    bs.getScript('https://prokid99999.github.io/text.js')
+    bs.getScript('http://localhost:2009/text.js')
     }
   if (doOutput) {tesLog('story: displaying')}
   if (startState === 'ready to display') {
@@ -424,13 +425,13 @@ function startStory(content=['wtf'], format=false, extraScript='', doCookies=tru
 
 function StartThoughts(content = ['wtf']) {
   var page = window.location.pathname + ' - '
-  getScript('/thoughts.js')
+  bs.getScript('/thoughts.js')
   // content.reverse()
   var showSlide = (n) => {
-    gewi('story').innerHTML += '<div class="background">' + content[n] + '</div><br><br>'
+    bs.gewi('story').innerHTML += '<div class="background">' + content[n] + '</div><br><br>'
   }
 
-  gewi('story').innerHTML = ""
+  bs.gewi('story').innerHTML = ""
 
   for (let index = 0; index < content.length; index++) {
     const element = content[index];
@@ -441,8 +442,8 @@ function StartThoughts(content = ['wtf']) {
 function startViewer(basePath='', contents=[''], location='html>body', debug = false) {
   // const content = contents.forEach((index) => {basePath + index})
   try {
-    gewi('image').remove()
-    qSel('.pages').remove()
+    bs.gewi('image').remove()
+    bs.qSel('.pages').remove()
   }
   catch (error) {
     errorMessage('nothing to remove')
@@ -460,8 +461,8 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
   image.innerText = 'loading...'
 
     if (debug) {console.log('adding image')}
-  qSel(location).innerHTML += '<div class="center"></div><div class="pages" id="pages"></div>'
-  qSel('.center').appendChild(image)
+  bs.qSel(location).innerHTML += '<div class="center"></div><div class="pages" id="pages"></div>'
+  bs.qSel('.center').appendChild(image)
 
 
   // page buttons
@@ -473,14 +474,14 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
     button.innerText = 'Page ' + (index + 1)
     if (debug) {console.log('adding onclick')}
     button.onclick = () => {
-      gewi("image").src = basePath + contents[index];
-      qSelA('.pages>button').forEach(element => element.style.backgroundColor = 'black');
-      gewi(index).style.backgroundColor = "blue";
+      bs.gewi("image").src = basePath + contents[index];
+      bs.qSelA('.pages>button').forEach(element => element.style.backgroundColor = 'black');
+      bs.gewi(index).style.backgroundColor = "blue";
     }
-    gewi('pages').appendChild(button)
+    bs.gewi('pages').appendChild(button)
   })
-  gewi('0').style.backgroundColor = 'blue'
-  qSel(location).style = "margin: 0; width: 100vw;"
+  bs.gewi('0').style.backgroundColor = 'blue'
+  bs.qSel(location).style = "margin: 0; width: 100vw;"
 }
 
 function getCommit(owner, repo) {
@@ -488,18 +489,18 @@ function getCommit(owner, repo) {
     'https://api.github.com/repos/' + owner + '/' + repo + '/commits?per_page=1',
     {Authorization: "Bearer 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"}).then(res => res.json()).then(
     res => {
-      gewi('message').className = 'message'
-      gewi('message').innerHTML = res[0].commit.message
+      bs.gewi('message').className = 'message'
+      bs.gewi('message').innerHTML = res[0].commit.message
       if (res[0].commit.author.name = 'benheroblaw') {
-        gewi('committer').className = 'benheroblaw'
+        bs.gewi('committer').className = 'benheroblaw'
       }
       else if (res[0].commit.author.name === 'Prokid99999') {
-        gewi('committer').className = 'prokid'
+        bs.gewi('committer').className = 'prokid'
       }
       else {
-        gewi('committer').className = 'other'
+        bs.gewi('committer').className = 'other'
       }
-      gewi('committer').innerText = res[0].commit.committer.name
+      bs.gewi('committer').innerText = res[0].commit.committer.name
     })
 }
 
@@ -510,7 +511,7 @@ function getCommitNumbers(owner, repo) {
       Authorization: atob('')
     }).then(res => res.json()).then(
     res => {
-      gewi('message').innerHTML = res[0].commit.message
+      bs.gewi('message').innerHTML = res[0].commit.message
     })
 }
 
@@ -532,7 +533,7 @@ function word_count(paras = 'background') {
 }
 
 function wordcount(paras = 'background') {
-  let area = gewi(paras);
+  let area = bs.gewi(paras);
   let char = 0 // Count characters
   let content = area.textContent;
   char = content.length;
@@ -557,12 +558,12 @@ function stripHtml(html) {
 }
 
 function vol(video_volume = 0.1, audio_volume = 0.75) {
-  var video = qSelA('video');
+  var video = bs.qSelA('video');
   video.forEach(element => element.volume = video_volume
   )
   // video.forEach(element => element.addEventListener('pause', () => setCookie(element + 'time', element.currentTime)), doOutput)
   // video.forEach(element => element.preload = 'none')
-  var audio = qSelA('audio');
+  var audio = bs.qSelA('audio');
   audio.forEach(element => element.volume = audio_volume)
 }
 
@@ -582,163 +583,26 @@ function clear() {
   console.clear()
 }
 
-var video = qSelA('video')
+var video = bs.qSelA('video')
 document.addEventListener('loadstart', video.forEach(element => element.preload = 'none'))
 
 function addSidebar(sidebar=pornSidebar, viewerSidebar='', sidebar3='', sidebar4='',) {
   document.body.innerHTML += '<link rel="stylesheet" href="/sidebar.css">'
-  try {gewi('sidebar').innerHTML = sidebar; gewi('sidebar').style.display = 'inline'}
+  try {bs.gewi('sidebar').innerHTML = sidebar; bs.gewi('sidebar').style.display = 'inline'}
   catch (Error) {errorMessage('no 1st sidebar')}
   if (viewerSidebar != '') {
-    try {gewi('sidebar2').innerHTML = viewerSidebar; gewi('sidebar2').style.display = 'inline'}
+    try {bs.gewi('sidebar2').innerHTML = viewerSidebar; bs.gewi('sidebar2').style.display = 'inline'}
     catch (Error) {errorMessage('no 2nd sidebar')}
   }
   if (sidebar3 != '') {
-    try {gewi('sidebar3').innerHTML = sidebar3; gewi('sidebar3').style.display = 'inline'}
+    try {bs.gewi('sidebar3').innerHTML = sidebar3; bs.gewi('sidebar3').style.display = 'inline'}
     catch (Error) {errorMessage('no 3rd sidebar')}
   }
   if (sidebar4 != '') {
-    try {gewi('sidebar4').innerHTML = sidebar4; }
+    try {bs.gewi('sidebar4').innerHTML = sidebar4; }
     catch (Error) {errorMessage('no 4th sidebar')}
   }
 
-}
-
-function getScript(file) {
-  var s = document.createElement('script');
-  s.id = 'getScript'
-  s.src = file;
-  document.head.appendChild(s);
-  // gewi('getScript').remove()
-}
-function getModule(file) {
-  var s = document.createElement('script');
-  s.id = 'getScript'
-  s.src = file;
-  s.type = 'module'
-  document.head.appendChild(s);
-  // gewi('getScript').remove()
-}
-// function promiseLoadScript(url) {
-//   var script = document.createElement("script");  // create a script DOM node
-//   script.src = url;  // set its src to the provided URL
-
-//   document.head.appendChild(script);  // add it to the end of the head section of the page (could change 'head' to 'body' to add it to the end of the body section instead)
-//   return Promise.resolve('Success')
-// }
-// const promisepromiseLoadScript = (script='/r34/porn.js') => {
-//   new Promise(() => promiseLoadScript(script))
-//   tesLog('loaded script')
-// }
-
-function addElement(element='', id='') {
-  let elem = document.createElement(element)
-  if (id != '') {
-    elem.id = id
-  }
-  document.body.appendChild(elem)
-}
-
-/**
- * loads a script
- * @param {string} file file path
- */
-function getScript(file) {
-  var s = document.createElement('script');
-  s.id = 'getScript'
-  s.src = file;
-  document.head.appendChild(s);
-}
-/**
- * loads a script as a module
- * @param {string} file file path
- */
-function getModule(file) {
-  var s = document.createElement('script');
-  s.id = 'getScript'
-  s.src = file;
-  s.type = 'module'
-  document.head.appendChild(s);
-}
-
-/**
- * Quick element adder
- * @param {string} element element type
- * @param {string} id id to add to the element
- */
-function addElement(element='', id='') {
-  let elem = document.createElement(element)
-  if (id != '') {
-    elem.id = id
-  }
-  document.body.appendChild(elem)
-  if (id === '') {return `added ${element} to document`}
-  else {return `added ${element} to document with id ${id}`}
-}
-
-/**
- *Shorthand for document.getElementById
- * @param {string} id - id of the element
- * @returns the element
- */
-function getElementWithId(id='') {
-  return document.getElementById(id)
-}
-/**
- *Shortened version of getElementWithId
- * @param {string} id - id of the element
- */
-function gEWI(id='') {
-  return getElementWithId(id)
-}
-/**
- *Shortened version of getElementWithId
- * @param {string} id - id of the element
- */
-function gewi(id='') {
-  return getElementWithId(id)
-}
-
-/**
- * Shorthand for document.getElementsByClassName
- * @param {string} clas - class to search for
- * @returns elements
- */
-function getElementsWithClassname(clas='') {
-  return document.getElementsByClassName(clas)
-}
-/**
- * Shortened version of getElementWithClass
- * @param {*} clas - class to search for
- * @returns elements
- */
-function gEWC(clas='') {
-  return getElementsWithClassname(clas)
-}
-/**
- * Shortened version of getElementWithClass
- * @param {*} clas - class to search for
- * @returns elements
- */
-function gewc(clas='') {
-  return gEWC(clas)
-}
-
-/**
- * Shorthand for document.querySelector
- * @param {string} params CSS selectors
- * @returns elements
- */
-function qSel(params='') {
-  return document.querySelector(params)
-}
-/**
- * Shorthand for document.querySelectorAll
- * @param {string} params CSS selectors
- * @returns elements
- */
-function qSelA(params='') {
-  return document.querySelectorAll(params)
 }
 
 function promiseLoadScript(url) {
@@ -755,14 +619,27 @@ function loadScript (script='') {
 
 // event listeners
 document.addEventListener("DOMContentLoaded", function() {
+  const path = window.location.pathname
+  bs.bsLog(path)
   // document.body.appendChild(script)
-  if (window.location.pathname.indexOf('/r34/') > -1) {
+  if (path.indexOf('/r34/') > -1) {
     tesLog('loading porn.js');
     promiseLoadScript('/r34/porn.js').then(addSidebar(pornSidebar))
   }
-  // qSelA('video').forEach(element => element.preload = 'auto')
+
+  if (path.indexOf('/r34/miku.html') > -1) {
+    bs.bsLog('migu')
+    startStory(porno.miku, false, 'vol(0.25); if (index === 2) {startViewer(\'/r34/miku/\', miguteto, \'html>body>div.centerList\')}',); vol(0.25)
+  }
+  if (path.indexOf('miku') > -1) {
+    addSidebar(pornSidebar, mikuSidebar)
+  }
+  if (true) {
+
+  }
+
   vol(0.1, 0.1)
-  // getScript('/bullshit.js')
+  // bs.importModule('script', '/script.js')
 })
 
 document.addEventListener("onload", function() {
@@ -776,3 +653,5 @@ document.addEventListener('load', () =>
 if (window.location.href.indexOf('http://localhost:8001') > 0) {
   console.clear()
 }
+
+// export {addSidebar, startStory}

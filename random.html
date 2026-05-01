@@ -2,7 +2,7 @@
 <head>
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="/forest.png">
-    <script src="/script.js"></script>
+    <script src="/script.js" type="module"></script>
 </head>
 <title>random stuff</title>
 <script>
@@ -25,15 +25,15 @@
 
     function testDesc() {
         let testDesc = ['Test.<br>they/them<br><br>They are identified by their mouth, differing from Program in that they have one.<br><br>' + tes[0]]
-        startStory(testDesc)
+        script.startStory(testDesc)
     }
     function programDesc() {
         let programDesc = ['Program.<br>he/they<br><br>Program is identified by their blush.<br><br>' + program[0]]
-        startStory(programDesc)
+        script.startStory(programDesc)
     }
 </script>
 <html>
-    <body onload="startStory(placeholder, true); random()">
+    <body onload="script.startStory(placeholder, true); random()">
         <span id="people">:3</span>
         <br>
     </body>
