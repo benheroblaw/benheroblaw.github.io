@@ -261,6 +261,7 @@ function displayStory(content = ['wtf'], extraScript='', doCookies = true, doX =
       Number(getCookie(page + 'scrolly'))
     )
   }
+  eval(extraScript)
   function next() {
     var videoElement = qSelA('video')
     try {videoElement.forEach(element => {
@@ -437,20 +438,30 @@ function StartThoughts(content = ['wtf']) {
   }
 }
 
-function startViewer(basePath='', contents=[''], debug = false) {
+function startViewer(basePath='', contents=[''], location='html>body', debug = false) {
   // const content = contents.forEach((index) => {basePath + index})
+  try {
+    gewi('image').remove()
+    qSel('.pages').remove()
+  }
+  catch (error) {
+    errorMessage('nothing to remove')
+  }
 
   // image
   const image = document.createElement('img')
   image.className = 'center'
   image.id = 'image'
   image.src = basePath + contents[0]
+  image.style.marginTop = '0.5rem'
   image.style.marginBottom = '0.5rem'
   image.style.border = 'none'
+  image.style.backgroundColor = 'rgb(127, 127, 127)'
+  image.innerText = 'loading...'
 
     if (debug) {console.log('adding image')}
-  document.body.appendChild(image)
-  document.body.innerHTML += '<div class="pages" id="pages"></div>'
+  qSel(location).innerHTML += '<div class="center"></div><div class="pages" id="pages"></div>'
+  qSel('.center').appendChild(image)
 
 
   // page buttons
@@ -463,19 +474,19 @@ function startViewer(basePath='', contents=[''], debug = false) {
     if (debug) {console.log('adding onclick')}
     button.onclick = () => {
       gewi("image").src = basePath + contents[index];
-      qSelA('button').forEach(element => element.style.backgroundColor = 'black');
+      qSelA('.pages>button').forEach(element => element.style.backgroundColor = 'black');
       gewi(index).style.backgroundColor = "blue";
     }
     gewi('pages').appendChild(button)
   })
   gewi('0').style.backgroundColor = 'blue'
-  document.body.style = "margin: 0; width: 100vw;"
+  qSel(location).style = "margin: 0; width: 100vw;"
 }
 
 function getCommit(owner, repo) {
   fetch(
     'https://api.github.com/repos/' + owner + '/' + repo + '/commits?per_page=1',
-    // headers: {Authorization: "Bearer github_pat_none-lol"}).then(res => res.json()).then(
+    {Authorization: "Bearer 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"}).then(res => res.json()).then(
     res => {
       gewi('message').className = 'message'
       gewi('message').innerHTML = res[0].commit.message

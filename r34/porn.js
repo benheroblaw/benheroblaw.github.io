@@ -225,6 +225,10 @@ var miku = [
         <br><br>\
         <a href="miku/54a6a063caa2096e17e79f9b257c7f6f.gif"><img src="miku/54a6a063caa2096e17e79f9b257c7f6f.gif"></a>',
 
+        '<div style="margin-bottom: none; margin-top: none">' +
+        '<button onclick="startViewer(\'/r34/miku/\', miguteto, \'html>body>div.centerList\')">migu tedo</button> '+
+        '<button onclick="startViewer(\'/r34/miku/\', honymigu, \'html>body>div.centerList\')">hony migu</button><br>',
+
         '\
         <a href="miku/0f8a388730e546aef20990a60757adb8.jpeg"><img src="miku/0f8a388730e546aef20990a60757adb8.jpeg"></a>\
         <a href="miku/aca37e5c7d3a15ee4ac3dae5fc397853.jpeg"><img src="miku/aca37e5c7d3a15ee4ac3dae5fc397853.jpeg"></a>\
@@ -267,7 +271,7 @@ var miku = [
             <a href="miku/5b4affe3cfd8e9f7629f75e06e061fbd.jpeg"><img src="miku/5b4affe3cfd8e9f7629f75e06e061fbd.jpeg"></a>\
             <a href="miku/5f589b041536849fee900baf2dc57804.jpeg"><img src="miku/5f589b041536849fee900baf2dc57804.jpeg"></a>\
             <a href="miku/3057fd1f959f5d6ee2c3bc184a48e6ce.jpeg"><img src="miku/3057fd1f959f5d6ee2c3bc184a48e6ce.jpeg"></a>\
-        </div>'
+        </div>',
 ]
 
 var pornSidebar = '\
@@ -322,5 +326,35 @@ var zonkpunch = [
     '\
     <video controls src="/r34/zonkpunch/dee437966e9c80f167b2a03968b0e6e2.mp4"></video>\
     ',
+
+]
+
+var hoyo = [
+
+    '<a href="./hoyo/36119d73bf0a840174e9dd5e7092a57c.jpeg"><img src="./hoyo/36119d73bf0a840174e9dd5e7092a57c.jpeg"></a>\
+        <a href="./hoyo/2c1ac4b69e30cb6d354eff2eb6add093.jpeg"><img src="./hoyo/2c1ac4b69e30cb6d354eff2eb6add093.jpeg"></a>\
+        <a href="./hoyo/3908f7fbf0933106c2a2b5bd9f749923.jpeg"><img src="./hoyo/3908f7fbf0933106c2a2b5bd9f749923.jpeg"></a>\
+        <a href="./hoyo/df78f85b584bd963640e571cc8af6478.jpeg"><img src="./hoyo/df78f85b584bd963640e571cc8af6478.jpeg"></a>\
+        <a href="./hoyo/16cad6a688561a27b306117a9d6e7e25.jpeg"><img src="./hoyo/16cad6a688561a27b306117a9d6e7e25.jpeg"></a>\
+        <a href="./hoyo/52a4a98170878f863b620f7020ef9c09.jpeg"><img src="./hoyo/52a4a98170878f863b620f7020ef9c09.jpeg"></a>\
+        <a href="./hoyo/48f790b7766b0e13abd19bd54d900fc9.jpeg"><img src="./hoyo/48f790b7766b0e13abd19bd54d900fc9.jpeg"></a>\
+        <a href="./hoyo/c78f9f779785f73806f8b3a32b5e2d15.jpeg"><img src="./hoyo/c78f9f779785f73806f8b3a32b5e2d15.jpeg"></a>\
+        <a href="./hoyo/80e94bbac2354ba11bdb8afb5affb5d4.jpeg"><img src="./hoyo/80e94bbac2354ba11bdb8afb5affb5d4.jpeg"></a>\
+        <a href="./hoyo/a9cdbaefa4e5d1df33e2aa4a9e2e8e51.jpeg"><img src="./hoyo/a9cdbaefa4e5d1df33e2aa4a9e2e8e51.jpeg"></a>\
+        <a href="./hoyo/b3c54c974bed68e2e1be82b81bef8e22.jpeg"><img src="./hoyo/b3c54c974bed68e2e1be82b81bef8e22.jpeg"></a>\
+        <a href="./hoyo/d0ce352fc59f099bfb9a05bf8325a9e6.jpeg"><img src="./hoyo/d0ce352fc59f099bfb9a05bf8325a9e6.jpeg"></a>\
+        <a href="./hoyo/493f8191fd8cc3f52338ca143ee0c751.gif"><img src="./hoyo/493f8191fd8cc3f52338ca143ee0c751.gif"></a><br>\
+        <a style="color: black; cursor: default;" href="./hoyo/hoyoviewer.html">idk</a>',
+
+    // '<video controls src="./hoyo/1d77fc1ca529f732fc7307dbf3890370.mp4">no porn for you :(</video>'+
+    //     '<video controls src="./hoyo/93b5ad29c2928daeb79d8194a7562736.mp4">no porn for you :(</video>'+
+        '<video controls src="./hoyo/9c9156ec8b58a874203f5dcdad46b1a8.mp4">no porn for you :(</video>'+
+        '<video controls src="./hoyo/04ddb8c2aaf86a8596817f5b90e84934.mp4">no porn for you :(</video>'+
+        // '<video controls src="./hoyo/fd3dbd7fafcb90f5bf0192866d8d989e.mp4">no porn for you :(</video>'+
+        '<video controls src="./hoyo/4a01748b81dc69d89e35f176b501bf02.mp4">no porn for you :(</video>\
+        <video controls src="./hoyo/1dc94fff4d45533e83f8c564277aa8e7.mp4">no porn for you :(</video>\
+        <video controls src="./hoyo/c9ff5924ffc8b9d47d8d052a12b5b2f3.mp4">no porn for you :(</video>\
+        <video controls src="./hoyo/34c3bc3db74c4d173d34a7980a9d6fbf.mp4">no porn for you :(</video>\
+        <video controls src="./hoyo/compressO-845f82cd2d82654bd5a2bc595c1e4291.mp4">no porn for you :(</video>',
 
 ]

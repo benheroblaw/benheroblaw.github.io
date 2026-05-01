@@ -1,27 +1,17 @@
-
-<html>
+<!DOCTYPE html>
 <head>
 <link rel="stylesheet" href="../style.css">
-<link rel="icon" href="..//icons/favicon-2.png">
-    <script src="/script.js
-"></script>
+<link rel="icon" href="/icons/favicon-2.png">
+    <script src="/script.js"></script>
 </head>
-<body class="centerList" onload='vol()'>
-<img class="center" id="image" src="./a9cdbaefa4e5d1df33e2aa4a9e2e8e51.jpeg">
-<br><br>
-<div class="pages">
-<button id="1" style="background-color: blue;" onclick="gewi('image').src='a9cdbaefa4e5d1df33e2aa4a9e2e8e51.jpeg';
-     gewi('1').style.backgroundColor='blue';
-     gewi('2').style.backgroundColor = 'black';
-     gewi('3').style.backgroundColor = 'black';
-     ">Page 1</button>
-<button id="2" onclick="gewi('image').src='b3c54c974bed68e2e1be82b81bef8e22.jpeg';
-     gewi('1').style.backgroundColor='black';
-     gewi('2').style.backgroundColor = 'blue';
-     gewi('3').style.backgroundColor = 'black';">Page 2</button>
-<button id="3" onclick="gewi('image').src='d0ce352fc59f099bfb9a05bf8325a9e6.jpeg';
-     gewi('1').style.backgroundColor='black';
-     gewi('2').style.backgroundColor = 'black';
-     gewi('3').style.backgroundColor = 'blue';">Page 3</button></div>
-</body>
+<script>
+    var hoyoview = '/r34/hoyo/'
+    var jane = ['a9cdbaefa4e5d1df33e2aa4a9e2e8e51.jpeg', 'b3c54c974bed68e2e1be82b81bef8e22.jpeg', 'd0ce352fc59f099bfb9a05bf8325a9e6.jpeg']
+</script>
+<html>
+    <body class="centerList" onload='startViewer(hoyoview, jane)'>
+        <div id="sidebar"></div>
+        <button onclick="startViewer(hoyoview, jane)">hony jane</button>
+        <button onclick="startViewer(hoyoview, ['c78f9f779785f73806f8b3a32b5e2d15.jpeg', '80e94bbac2354ba11bdb8afb5affb5d4.jpeg'])">raiden and yae</button>
+    </body>
 </html>
