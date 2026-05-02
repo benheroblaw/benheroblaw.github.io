@@ -6,12 +6,6 @@
 "></script>
 </head>
 <title>Miku Teto Viewer</title>
-<html>
-    <body class="centerList" onload='vol()' style="margin: 0; width: 100vw;">
-        <div id="sidebar"></div>
-        <div id="sidebar2"></div>
-    </body>
-</html>
 <script>
     const miguteto = [
         '0f8a388730e546aef20990a60757adb8.jpeg',
@@ -23,6 +17,12 @@
     ]
 document.addEventListener("DOMContentLoaded", function() {
   addSidebar(pornSidebar, mikuSidebar)
-  startViewer('/r34/miku/', migu, true)
+  startViewer('/r34/miku/', miguteto)
 })
 </script>
+<html>
+    <body class="centerList" onload='vol()'>
+        <div id="sidebar"></div>
+        <div id="sidebar2"></div>
+    </body>
+</html>

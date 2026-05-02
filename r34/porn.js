@@ -359,6 +359,7 @@ var hoyo = [
 
 ]
 
+var br = '<br>'
 
 var curly = [
     '\
@@ -370,36 +371,47 @@ var curly = [
     <video preload="auto" controls width="15%" src="/">no porn for you :(</video>\
     ',
 
-    '<img src="/r34/cavestory/599b1ec8c535ff41a6ce01367c3a4c2a.png" style="border: none"><br><br>\
-    <a href="/r34/cavestory/9b067c5c3841176c2ff95c4a8e9068c8.png"><img src="/r34/cavestory/ce2221fa00e01bde5c011e0099dc6993bcd837eb.jpg"></a>\
-    <a href="/r34/cavestory/9b067c5c3841176c2ff95c4a8e9068c8.png"><img src="/r34/cavestory/9b067c5c3841176c2ff95c4a8e9068c8.png"></a><br>\
-    <img src="/r34/cavestory/3e74b61cb159701fe1aff9f29599971e.gif">\
-    <img src="/r34/cavestory/a165fec64b7222f5fa688a577855dff6.gif"><br>\
-    <img src="/r34/cavestory/89baa90085a8aa7524fed2ed8f7c5c2d.png">\
-    <img src="/r34/cavestory/50de2e123a5918173b73d0e09711571d.gif">\
-    <img src="/r34/cavestory/0ed716a0715ef08a9545344086b7cd8d.png">\
-    <img src="/r34/cavestory/1e3ce6df4d9e8364ca6ceec3675cb279.png">\
-    <img src="/r34/cavestory/1f8fcf060d04f45c0e390ec34d870d2f.png">\
-    <img src="/r34/cavestory/5a0788f43f24f7dd918dd2dd3f39fa33.jpeg">\
-    <img src="/r34/cavestory/6b1d55edf3bcfe139fb548fb54bc4ed7.gif">\
-    <img src="/r34/cavestory/30f88d32e0ae7c0ec239492fc688663b.gif">\
-    <img src="/r34/cavestory/49c65cbfd67f5852f1a40d9355e6b2ca.png">\
-    <img src="/r34/cavestory/52d7a1e0edaedcfc0cda479d5cf45d9b.png">\
-    <img src="/r34/cavestory/85f85e1138bf5801af7b97628979b76f.png">\
-    <img src="/r34/cavestory/91ff376f2f080ca284f0e2f45f38184a.png">\
-    <img src="/r34/cavestory/94a8a0b4729a0d080821b1344f320678.png">\
-    <img src="/r34/cavestory/387e8e522703f62c65581af76934d3df.gif">\
-    <img src="/r34/cavestory/465b12a3453c7f2aeedb79cce2f32690.gif">\
-    <img src="/r34/cavestory/899bb6498948695f15b55c8c3398866f.gif">\
-    <img src="/r34/cavestory/b0f7c3e83a4647dd5aacb60d8d7d0767.gif">\
-    <img src="/r34/cavestory/962883a2c2dc6551e1d5ccedc5bc7a14.png">\
-    <img src="/r34/cavestory/a57dab030088ca28d0760a0598a364b5.gif">\
-    <img src="/r34/cavestory/e5355560b1608dc4005bb500cbe5b6de.png">\
-    <img src="/r34/cavestory/fd1454568f55a6995e0549f485fff971.png">\
-    <img src="/r34/cavestory/f773cbd62fae2763882a2d5977b99236.gif">\
-    <img src="/r34/cavestory/f2d594b0585cf111259a4e2869c0d7a8.png">\
-    ',
+    '<a href="/r34/cavestory/599b1ec8c535ff41a6ce01367c3a4c2a.png"><img src="/r34/cavestory/599b1ec8c535ff41a6ce01367c3a4c2a.png" style="border: none"></a>\
+    <a href="/r34/cavestory/eaa8ebf3c686bad40cb0e0ea7198900d.png"><img src="/r34/cavestory/eaa8ebf3c686bad40cb0e0ea7198900d.png" style="border: none"></a>\
+    <br><br>' +
+    linkedImage("/r34/cavestory/ce2221fa00e01bde5c011e0099dc6993bcd837eb.jpg") +
+    linkedImage("/r34/cavestory/9b067c5c3841176c2ff95c4a8e9068c8.png", 'y') +
+
+    linkedImage("/r34/cavestory/3e74b61cb159701fe1aff9f29599971e.gif") +
+    linkedImage("/r34/cavestory/a165fec64b7222f5fa688a577855dff6.gif", 'y') +
+
+    linkedImage("/r34/cavestory/89baa90085a8aa7524fed2ed8f7c5c2d.png") +
+    linkedImage("/r34/cavestory/50de2e123a5918173b73d0e09711571d.gif", 'y') +
+
+    linkedImage("/r34/cavestory/0ed716a0715ef08a9545344086b7cd8d.png") +
+    linkedImage("/r34/cavestory/1e3ce6df4d9e8364ca6ceec3675cb279.png") +
+    linkedImage("/r34/cavestory/1f8fcf060d04f45c0e390ec34d870d2f.png") +
+    linkedImage("/r34/cavestory/5a0788f43f24f7dd918dd2dd3f39fa33.jpeg") +
+    linkedImage("/r34/cavestory/f2d594b0585cf111259a4e2869c0d7a8.png") +
+    linkedImage("/r34/cavestory/e5355560b1608dc4005bb500cbe5b6de.png") +
+    linkedImage("/r34/cavestory/fd1454568f55a6995e0549f485fff971.png") +
+    linkedImage("/r34/cavestory/49c65cbfd67f5852f1a40d9355e6b2ca.png") +
+    linkedImage("/r34/cavestory/52d7a1e0edaedcfc0cda479d5cf45d9b.png") +
+    linkedImage("/r34/cavestory/85f85e1138bf5801af7b97628979b76f.png") +
+    linkedImage("/r34/cavestory/91ff376f2f080ca284f0e2f45f38184a.png") +
+    linkedImage("/r34/cavestory/962883a2c2dc6551e1d5ccedc5bc7a14.png") +
+    linkedImage("/r34/cavestory/94a8a0b4729a0d080821b1344f320678.png", 'y') +
+    linkedImage("/r34/cavestory/6b1d55edf3bcfe139fb548fb54bc4ed7.gif") +
+    linkedImage("/r34/cavestory/30f88d32e0ae7c0ec239492fc688663b.gif") +
+    linkedImage("/r34/cavestory/387e8e522703f62c65581af76934d3df.gif") +
+    linkedImage("/r34/cavestory/465b12a3453c7f2aeedb79cce2f32690.gif") +
+    linkedImage("/r34/cavestory/899bb6498948695f15b55c8c3398866f.gif") +
+    linkedImage("/r34/cavestory/b0f7c3e83a4647dd5aacb60d8d7d0767.gif") +
+    linkedImage("/r34/cavestory/f773cbd62fae2763882a2d5977b99236.gif", 'y') +
+
+    linkedImage("/r34/cavestory/a57dab030088ca28d0760a0598a364b5.gif") +
+    '',
 
     // '\
     // ',
 ]
+
+var caveSidebar = '\
+    <h1>Viewers</h1>\
+    <a href="/r34/cavestory/curly.html">curly</a>\
+'

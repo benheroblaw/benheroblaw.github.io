@@ -8,20 +8,30 @@
 </head>
 <title>Cave Story</title>
 <style>
-    #stripContainer {
-        display: inline-block;
-        align-items: start;
-        align-content: top;
-        vertical-align: top;
+    body {
+        z-index: 1;
+        position: absolute;
+        background-color: #000;
+        animation: none;
+        background-image: url('/r34/cavestory/wallpaper-blurred.jpeg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+        background-position: center;
+        /* backdrop-filter: blur(8px); */
     }
 </style>
 <script>
+var caveSidebar = '\
+    <h1>Viewers</h1>\
+    <a href="/r34/cavestory/curly.html">curly</a>\
+'
     '\
     <img src="/">\
     <a href="/"><img src="/"></a>\
     ',
 document.addEventListener("DOMContentLoaded", function() {
-//   addSidebar(pornSidebar, dragonSidebar)
+  addSidebar(pornSidebar, caveSidebar)
 })
 </script>
 <html>

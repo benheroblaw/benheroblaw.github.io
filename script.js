@@ -741,6 +741,12 @@ function qSelA(params='') {
   return document.querySelectorAll(params)
 }
 
+function linkedImage(link, linebreak='') {
+  var output = ` <a href="${link}"><img src="${link}"></a> `
+  if (linebreak != '') {output += '<br>'}
+  return output
+}
+
 function promiseLoadScript(url) {
   var script = document.createElement("script")
   script.src = url;
