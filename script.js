@@ -22,6 +22,7 @@ var pornSidebar = '\
   <br>\
   \
   <a class="blue" href="/r34/comics.html"><span>Comics</span></a><br><br>\
+  <a href="/r34/cavestory.html" class="blue"><span>Cave Story</span></a><br>\
   <a href="/r34/dragon-maid.html" class="blue"><span>Dragon Maid</span></a><br>\
   <a href="/r34/hard-degen.html" class="blue"><span>Hard Degenerate</span></a><br>\
   <a href="/r34/hoyo.html" class="blue"><span>Hoyoverse</span></a><br>\
@@ -261,7 +262,6 @@ function displayStory(content = ['wtf'], extraScript='', doCookies = true, doX =
       Number(getCookie(page + 'scrolly'))
     )
   }
-  eval(extraScript)
   function next() {
     var videoElement = qSelA('video')
     try {videoElement.forEach(element => {
@@ -480,7 +480,7 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
     gewi('pages').appendChild(button)
   })
   gewi('0').style.backgroundColor = 'blue'
-  qSel(location).style = "margin: 0; width: 100vw;"
+  // qSel(location).style = "margin: 0; width: 100vw;"
 }
 
 function getCommit(owner, repo) {
