@@ -371,8 +371,8 @@ var curly = [
     <video preload="auto" controls width="15%" src="/">no porn for you :(</video>\
     ',
 
-    '<a href="/r34/cavestory/599b1ec8c535ff41a6ce01367c3a4c2a.png"><img src="/r34/cavestory/599b1ec8c535ff41a6ce01367c3a4c2a.png" style="border: none"></a>\
-    <a href="/r34/cavestory/eaa8ebf3c686bad40cb0e0ea7198900d.png"><img src="/r34/cavestory/eaa8ebf3c686bad40cb0e0ea7198900d.png" style="border: none"></a>\
+    '<img src="/r34/cavestory/599b1ec8c535ff41a6ce01367c3a4c2a.png" style="border: none" ondblclick="window.open(\'/r34/cavestory/599b1ec8c535ff41a6ce01367c3a4c2a.png\', \'_self\')">\
+    <img src="/r34/cavestory/eaa8ebf3c686bad40cb0e0ea7198900d.png" style="border: none" ondblclick="window.open(\'/r34/cavestory/eaa8ebf3c686bad40cb0e0ea7198900d.png\', \'_self\')">\
     <br><br>' +
     linkedImage("/r34/cavestory/ce2221fa00e01bde5c011e0099dc6993bcd837eb.jpg") +
     linkedImage("/r34/cavestory/9b067c5c3841176c2ff95c4a8e9068c8.png", 'y') +
@@ -407,8 +407,9 @@ var curly = [
     linkedImage("/r34/cavestory/a57dab030088ca28d0760a0598a364b5.gif") +
     '',
 
-    // '\
-    // ',
+    '\
+    <div onclick="window.open(\'/r34/cavestory/curly.html\', \'_self\')">I really like Cave Story in case you couldn\'t tell</div>\
+    ',
 ]
 
 var caveSidebar = '\

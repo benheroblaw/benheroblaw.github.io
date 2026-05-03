@@ -1,6 +1,7 @@
 body {
     background-color: #000;
     color: white;
+    text-shadow: 0px 0px 10px #000;
     background: linear-gradient(0deg, rgb(0, 15, 10), #000, rgb(20,0,0), #000, rgb(0, 10, 30), #000, rgb(0, 15, 10), #000, rgb(20, 0, 0), #000, rgb(0, 10, 30), #000, rgb(0, 15, 10));
     background-size: 500% 500%;
     animation: gradient 120s linear infinite;
@@ -21,9 +22,10 @@ strong {color: red;}
 h1 {color:white; font-family: 'Times New Roman', Times, serif;}
 h2 {color: white; font-size: medium;}
 p {color: white;}
-a {font-family: Arial; font-size: 100%;}
+a {font-family: Arial; height: 0.75rem;}
+a:hover {font-style: italic;}
 span {font-family: Arial; color: white;}
-span:hover {font-family: arial; color: white; font-style: italic; font-size: 125%;}
+span:hover {font-family: arial; color: white; font-style: inherit;}
 video {border-color: blue; border-bottom-color: blue; border-right-color: blue; border-style: solid; width: 30%;}
 video:hover {border: none;}
 img {border: 2px; border-color: white; border-style: solid; width: 20%;}

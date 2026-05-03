@@ -22,7 +22,7 @@ var pornSidebar = '\
   <br>\
   \
   <a class="blue" href="/r34/comics.html"><span>Comics</span></a><br><br>\
-  <a href="/r34/cavestory.html" class="blue"><span>Cave Story</span></a><br>\
+  <a href="/r34/cavestory.html" id="cavestory" class="blue" onmouseenter="gewi(\'quotehead\').src=\'/r34/cavestory/Sprite-0002.svg\'" onmouseleave="gewi(\'quotehead\').src=\'/r34/cavestory/Sprite-0001.svg\'" onload="gewi(\'quotehead\').src=\'/r34/cavestory/Sprite-0001.svg\'"><span>Cave Story</span></a> <img src="/r34/cavestory/Sprite-0001.svg" style="border: none" id="quotehead"><br>\
   <a href="/r34/dragon-maid.html" class="blue"><span>Dragon Maid</span></a><br>\
   <a href="/r34/hard-degen.html" class="blue"><span>Hard Degenerate</span></a><br>\
   <a href="/r34/hoyo.html" class="blue"><span>Hoyoverse</span></a><br>\
@@ -210,6 +210,8 @@ function displayStory(content = ['wtf'], extraScript='', doCookies = true, doX =
     gewi('story').innerHTML = content[n]
   }
 
+  // const next
+
   let index = Number(getCookie(page + 'index'))
   if (index + 1 > content.length) {
     setCookie(page + 'index', 0, doOutput)
@@ -262,7 +264,7 @@ function displayStory(content = ['wtf'], extraScript='', doCookies = true, doX =
       Number(getCookie(page + 'scrolly'))
     )
   }
-  function next() {
+  function nextPage() {
     var videoElement = qSelA('video')
     try {videoElement.forEach(element => {
       element.pause()
@@ -292,7 +294,7 @@ function displayStory(content = ['wtf'], extraScript='', doCookies = true, doX =
     }
     char()
   }
-  function prev() {
+  function prevPage() {
     var videoElement = qSelA('video')
     try {videoElement.forEach(element => {
       element.pause()
@@ -323,16 +325,16 @@ function displayStory(content = ['wtf'], extraScript='', doCookies = true, doX =
     char()
   }
   gewi('next').addEventListener('click', () => {
-    next()
+    nextPage()
   })
   gewi('next1').addEventListener('click', () => {
-    next()
+    nextPage()
   })
   gewi('prev').addEventListener('click', () => {
-    prev()
+    prevPage()
   })
   gewi('prev1').addEventListener('click', () => {
-    prev()
+    prevPage()
   })
   window.onkeydown = function (event) {
     if (event.key === 'ArrowRight') {
@@ -378,6 +380,16 @@ function displayStory(content = ['wtf'], extraScript='', doCookies = true, doX =
 
 var startState = 'not started'
 
+/**
+ * Starts displayStory
+ * @param {Array} content content in the thing
+ * @param {Boolean} format do you want it formatted? true, false, top
+ * @param {String} extraScript extra script to run when you click prev/next
+ * @param {Boolean} doCookies
+ * @param {Boolean} doX
+ * @param {Boolean} doY
+ * @param {Boolean} doOutput
+ */
 function startStory(content=['wtf'], format=false, extraScript='', doCookies=true, doX=false, doY=true, doOutput=true) {
   if (doOutput) {tesLog('starting story...')}
   var s = document.createElement('script');
@@ -402,7 +414,7 @@ function startStory(content=['wtf'], format=false, extraScript='', doCookies=tru
     }
   if (doOutput) {tesLog('story: displaying')}
   if (startState === 'ready to display') {
-    if (format) {document.body.innerHTML +=
+    if (format === true) {document.body.innerHTML +=
       '\
         <br>\
         <div class="space">\
@@ -418,6 +430,23 @@ function startStory(content=['wtf'], format=false, extraScript='', doCookies=tru
             <div id="center1" style="text-align: center;"></div>\
             <div style="text-align: right;"><button id="next1">Next &gt;</button></div>\
         </div><br><br>'}
+    else if (format === 'top') {document.body.innerHTML +=
+      '\
+        <br>\
+        <div class="space">\
+            <div style="text-align: left"><button id="prev">&lt; Previous</button></div>\
+            <div id="center" style="text-align: center;"></div>\
+            <div style="text-align: right;"><button id="next">Next &gt;</button></div>\
+        </div>\
+            <div id="story"><br>\
+                <span style="color: white;">this shit isn\'t fucking working :&lpar;</span>\
+            </div><br>\
+        <div class="space">\
+            <div style="text-align: left"><span id="prev1"></span></div>\
+            <div id="center1" style="text-align: center;"></div>\
+            <div style="text-align: right;"><span id="next1"></span></div>\
+        </div><br><br>'}
+    document.body.innerHTML += '<fuck></fuck>'
     displayStory(content, extraScript, doCookies, doX, doY, doOutput)
   }
 }
@@ -682,7 +711,11 @@ function addElement(element='', id='') {
  * @returns the element
  */
 function getElementWithId(id='') {
-  return document.getElementById(id)
+  // var element =
+  try {
+    return document.getElementById(id)
+  }
+  catch {console.log('element not found')}
 }
 /**
  *Shortened version of getElementWithId
@@ -745,6 +778,20 @@ function linkedImage(link, linebreak='') {
   var output = ` <a href="${link}"><img src="${link}"></a> `
   if (linebreak != '') {output += '<br>'}
   return output
+}
+
+function linkAdder(link,) {
+  let output = ''
+  if (link != '') {
+    output = ` <a href="${link}">${link}</a><br>`
+  }
+  return output
+}
+function addLink(link) {
+  return linkAdder(link)
+}
+function addlink(link) {
+  return linkAdder(link)
 }
 
 function promiseLoadScript(url) {

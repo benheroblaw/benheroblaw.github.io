@@ -3,8 +3,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="/icons/favicon-2.png">
 
-    <script src="/script.js
-"></script>
+    <script src="/script.js"></script>
 </head>
 <title>Cave Story</title>
 <style>
@@ -20,6 +19,9 @@
         background-position: center;
         /* backdrop-filter: blur(8px); */
     }
+    #prev1, #next1 {
+        display: none;
+    }
 </style>
 <script>
 var caveSidebar = '\
@@ -29,13 +31,13 @@ var caveSidebar = '\
     '\
     <img src="/">\
     <a href="/"><img src="/"></a>\
-    ',
-document.addEventListener("DOMContentLoaded", function() {
-  addSidebar(pornSidebar, caveSidebar)
-})
+    '
+// document.addEventListener("DOMContentLoaded", function() {
+//   addSidebar(pornSidebar, caveSidebar)
+// })
 </script>
 <html>
-    <body class="centerList" onload="startStory(curly, true); vol()">
+    <body class="centerList" onload="startStory(curly, 'top'); vol()">
         <div id="sidebar"></div>
         <div id="sidebar2"></div>
     </body>
