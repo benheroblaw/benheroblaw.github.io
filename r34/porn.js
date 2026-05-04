@@ -315,7 +315,6 @@ var mikuSidebar =
 var sona = '<h1>sonas</h1>\
   <a href="/character-sheets/femsona.html"><span>femsona</span></a><br>\
   <a href="/character-sheets/enbysona.html"><span>themsona</span></a><br>'
-  // <a href="/character-sheets/mascsona.html"><span>mascsona</span></a>'
 
 var dragonSidebar = '<h1>Viewers</h1>'
 + '<a href="/r34/dragon maid/miss-tohru.html"><span>Miss Tohru</span></a><br>'
@@ -366,9 +365,9 @@ var curly = [
     <video preload="auto" controls width="15%" src="/r34/cavestory/64d0303a36e502580a6116859400420a.mp4">no porn for you :(</video>\
     <video preload="auto" controls width="15%" src="/r34/cavestory/8e800b0dc0e00960d547bbb60f1e4e43.mp4">no porn for you :(</video>\
     <video preload="auto" controls width="15%" src="/r34/cavestory/6b61c8293ac2da0d49dbfcef544ddf89.mp4">no porn for you :(</video>\
+    <video preload="auto" controls width="15%" src="/r34/cavestory/bb4d9c6efd826cc6fae1f5e206d8125a.mp4">no porn for you :(</video>\
     <video preload="auto" controls width="15%" src="/r34/cavestory/695790f68daaa72051422099b3219243.mp4">no porn for you :(</video>\
     <video preload="auto" controls width="15%" src="/r34/cavestory/7bf5204a32191defdf494fb9c250d514.mp4">no porn for you :(</video>\
-    <video preload="auto" controls width="15%" src="/">no porn for you :(</video>\
     ',
 
     '<img src="/r34/cavestory/599b1ec8c535ff41a6ce01367c3a4c2a.png" style="border: none" ondblclick="window.open(\'/r34/cavestory/599b1ec8c535ff41a6ce01367c3a4c2a.png\', \'_self\')">\
@@ -377,12 +376,6 @@ var curly = [
     linkedImage("/r34/cavestory/ce2221fa00e01bde5c011e0099dc6993bcd837eb.jpg") +
     linkedImage("/r34/cavestory/9b067c5c3841176c2ff95c4a8e9068c8.png", 'y') +
 
-    linkedImage("/r34/cavestory/3e74b61cb159701fe1aff9f29599971e.gif") +
-    linkedImage("/r34/cavestory/a165fec64b7222f5fa688a577855dff6.gif", 'y') +
-
-    linkedImage("/r34/cavestory/89baa90085a8aa7524fed2ed8f7c5c2d.png") +
-    linkedImage("/r34/cavestory/50de2e123a5918173b73d0e09711571d.gif", 'y') +
-
     linkedImage("/r34/cavestory/0ed716a0715ef08a9545344086b7cd8d.png") +
     linkedImage("/r34/cavestory/1e3ce6df4d9e8364ca6ceec3675cb279.png") +
     linkedImage("/r34/cavestory/1f8fcf060d04f45c0e390ec34d870d2f.png") +
@@ -390,12 +383,22 @@ var curly = [
     linkedImage("/r34/cavestory/f2d594b0585cf111259a4e2869c0d7a8.png") +
     linkedImage("/r34/cavestory/e5355560b1608dc4005bb500cbe5b6de.png") +
     linkedImage("/r34/cavestory/fd1454568f55a6995e0549f485fff971.png") +
-    linkedImage("/r34/cavestory/49c65cbfd67f5852f1a40d9355e6b2ca.png") +
+    linkedImage("/r34/cavestory/34e401bef131f98d0999642fc799a182.png") +
     linkedImage("/r34/cavestory/52d7a1e0edaedcfc0cda479d5cf45d9b.png") +
     linkedImage("/r34/cavestory/85f85e1138bf5801af7b97628979b76f.png") +
+    linkedImage("/r34/cavestory/49c65cbfd67f5852f1a40d9355e6b2ca.png") +
     linkedImage("/r34/cavestory/91ff376f2f080ca284f0e2f45f38184a.png") +
     linkedImage("/r34/cavestory/962883a2c2dc6551e1d5ccedc5bc7a14.png") +
-    linkedImage("/r34/cavestory/94a8a0b4729a0d080821b1344f320678.png", 'y') +
+    linkedImage("/r34/cavestory/94a8a0b4729a0d080821b1344f320678.png") +
+    linkedImage("/r34/cavestory/56e6e8307f04ccea52a7d3faf2789151.jpeg") +
+    '',
+
+    linkedImage("/r34/cavestory/3e74b61cb159701fe1aff9f29599971e.gif") +
+    linkedImage("/r34/cavestory/a165fec64b7222f5fa688a577855dff6.gif", 'y') +
+
+    linkedImage("/r34/cavestory/89baa90085a8aa7524fed2ed8f7c5c2d.png") +
+    linkedImage("/r34/cavestory/50de2e123a5918173b73d0e09711571d.gif", 'y') +
+
     linkedImage("/r34/cavestory/6b1d55edf3bcfe139fb548fb54bc4ed7.gif") +
     linkedImage("/r34/cavestory/30f88d32e0ae7c0ec239492fc688663b.gif") +
     linkedImage("/r34/cavestory/387e8e522703f62c65581af76934d3df.gif") +
@@ -408,7 +411,7 @@ var curly = [
     '',
 
     '\
-    <div onclick="window.open(\'/r34/cavestory/curly.html\', \'_self\')">I really like Cave Story in case you couldn\'t tell</div>\
+    <div>I really like <div style="display: inline;" onclick="window.open(\'/r34/cavestory/curly.html\', \'_self\')">Cave</div> <div style="display: inline;" onclick="window.open(\'/r34/cavestory/cave.html\', \'_self\')">Story</div> in case you couldn\'t tell</div>\
     ',
 ]
 
@@ -416,3 +419,120 @@ var caveSidebar = '\
     <h1>Viewers</h1>\
     <a href="/r34/cavestory/curly.html">curly</a>\
 '
+
+var cavenonfinal = [
+    "<div class='background'>\
+    <p>penis<br>\
+    bigger peins</p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    </div>",
+
+    "<div class='background'>\
+    <p>so, quote(they/them) builds a 'vibrator/stimulator' kind of thing</p>\
+    <p>bc quote and curly(she/her) are robots their genitals are 'attachments' that can slide out, and there are conductive pads in the hole that their brains use to read stimulation</p>\
+    <p>(why do soldier robots have genitals? why not)</p>\
+    <p>anyway, quote rigged up a little stimulator that sends an adjustable electric current through the contacts so they can make curly feel like she's constantly cumming</p>\
+    <p>(quote and curly's brains differ in sensitivity, curly being more sensitive, so quote has two switches that set the power going through to their preferred levels)</p>\
+    <p>there's a knob for overall power with the wattage displayed next to it</p>\
+    <p>then another knob that adjusts sensitivity</p>\
+    <p>after that is the contact</p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    </div>"
+]
+var cave = [
+    cavenonfinal[1]
+]
+
+var watchlist = [
+    addLink('https://www.pornhub.com/view_video.php?viewkey=67c183af9cb4a') +
+    addlink('https://www.pornhub.com/view_video.php?viewkey=68c1a6eeeb326') +
+    addlink('https://www.pornhub.com/view_video.php?viewkey=ph62583973c4816') +
+    addlink('https://www.pornhub.com/view_video.php?viewkey=ph5f9f33677b74d') +
+    addlink('https://www.pornhub.com/view_video.php?viewkey=696633a59bc78') +
+    addlink('https://www.pornhub.com/view_video.php?viewkey=691aebec38da8') +
+    addlink('https://www.pornhub.com/view_video.php?viewkey=688bdb1971a1b') +
+    addlink('https://www.pornhub.com/view_video.php?viewkey=ph5edb27da2a8cf') +
+    addlink('https://www.pornhub.com/view_video.php?viewkey=67e993231e218') +
+    addlink('https://www.pornhub.com/view_video.php?viewkey=69b4372bda966') +
+    addlink('https://www.pornhub.com/view_video.php?viewkey=ph5ea960ab48e2e') +
+    addlink('https://www.pornhub.com/view_video.php?viewkey=6561077f8c865') +
+    addlink('https://www.pornhub.com/view_video.php?viewkey=649e9a9383882') +
+    addlink('https://www.pornhub.com/view_video.php?viewkey=6988aadaeceda') +
+    addlink('https://www.pornhub.com/view_video.php?viewkey=66171e6da4faf') +
+    addlink('https://www.pornhub.com/view_video.php?viewkey=6457e12fe1fa0') +
+    addlink('https://www.pornhub.com/view_video.php?viewkey=ph617291c8222ef') +
+    addlink('https://www.pornhub.com/view_video.php?viewkey=ph63cbae78491ac') +
+    addlink('https://www.pornhub.com/view_video.php?viewkey=67ba07c72a83d') +
+    addlink('https://www.pornhub.com/view_video.php?viewkey=ph61a4e4d2b96fb') +
+    // addlink('') +
+    // addlink('') +
+    // addlink('') +
+    // addlink('') +
+    // addlink('') +
+    // addlink('') +
+    // addlink('') +
+    // addlink('') +
+    // addlink('') +
+    // addlink('') +
+    // addlink('') +
+    // addlink('') +
+    // addlink('') +
+    // addlink('') +
+    // addlink('') +
+    // addlink('') +
+    // addlink('') +
+    // addlink('') +
+    // addlink('') +
+    // addlink('') +
+    // addlink('') +
+    // addlink('') +
+    // addlink('') +
+    // addlink('') +
+    // addlink('') +
+    // addlink('') +
+    // addlink('') +
+    ''
+]

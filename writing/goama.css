@@ -30,7 +30,8 @@ i {color: inherit; font-family: inherit;}
 .link {font-size: inherit; font-family: inherit; color: blue;}
 .link:hover {color: #90f; font-style: italic; cursor: pointer;}
 
-.background {word-spacing: 1px; letter-spacing: 0.5px; font-size: 1rem; padding: 38px; text-wrap-mode: wrap; background: #aaa; margin-top: 0px; margin-bottom: 0px;}
+.background {word-spacing: 1px; letter-spacing: 0.5px; font-size: 1rem; padding: 38px; text-wrap-mode: wrap; background: #aaa; margin-top: 0px; margin-bottom: 0px; color: black;}
+.background>p {color: black; text-shadow: none;}
 .continue {font-size: 1.5rem; text-align: center;}
 @media screen and (max-width: 1000px) {
     .background {font-size: 5rem;}
@@ -86,9 +87,13 @@ p.character-sheet, div.character-sheet>p {margin-right: 25px; margin-left: 1rem;
 
     @media (prefers-color-scheme: light) {
         button {color: black; background-color: white;}
+        .background {word-spacing: 1px; letter-spacing: 0.5px; font-size: 1rem; padding: 38px; text-wrap-mode: wrap; background: #aaa; margin-top: 0px; margin-bottom: 0px; color: black;}
+        .background>p {color: black; text-shadow: none;}
     }
     @media (prefers-color-scheme: dark) {
         button {color: white; background-color: #111;}
+        .background {word-spacing: 1px; letter-spacing: 0.5px; font-size: 1rem; padding: 38px; text-wrap-mode: wrap; background: rgb(20, 20, 20); margin-top: 0px; margin-bottom: 0px; color: #ddd;}
+        .background>p {color: #ddd; text-shadow: none;}
     }
 
 @font-face {
