@@ -421,7 +421,9 @@ var caveSidebar = '\
 '
 
 var cavenonfinal = [
-    "<div class='background'>\
+
+    "<br>\
+    <div class='background'>\
     <p>penis<br>\
     bigger peins</p>\
     <p></p>\
@@ -452,7 +454,8 @@ var cavenonfinal = [
     <p></p>\
     </div>",
 
-    "<div class='background'>\
+    "<br>\
+    <div class='background'>\
     <p>so, quote(they/them) builds a 'vibrator/stimulator' kind of thing</p>\
     <p>bc quote and curly(she/her) are robots their genitals are 'attachments' that can slide out, and there are conductive pads in the hole that their brains use to read stimulation</p>\
     <p>(why do soldier robots have genitals? why not)</p>\
@@ -480,10 +483,43 @@ var cavenonfinal = [
     <p></p>\
     <p></p>\
     <p></p>\
-    </div>"
+    </div>",
+
+    "<br>\
+    <div class='background'>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    </div>",
+
 ]
 var cave = [
-    cavenonfinal[1]
+    cavenonfinal[1],
+    cavenonfinal[2]
 ]
 
 var watchlist = [

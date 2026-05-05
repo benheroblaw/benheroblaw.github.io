@@ -8,11 +8,11 @@
 <title>Cave Story</title>
 <style>
     body {
-        z-index: 1;
+        /* z-index: 1;
         position: absolute;
-        background-color: #000;
+        background-color: #000; */
         animation: none;
-        background-image: url('/r34/cavestory/wallpaper-blurred.jpeg');
+        background-image: url('/r34/cavestory/assets/wallpaper-dark.jpeg');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100%;
@@ -32,9 +32,9 @@ var caveSidebar = '\
     <img src="/">\
     <a href="/"><img src="/"></a>\
     '
-// document.addEventListener("DOMContentLoaded", function() {
-//   addSidebar(pornSidebar, caveSidebar)
-// })
+document.addEventListener("DOMContentLoaded", function() {
+  addSidebar(pornSidebar, caveSidebar)
+})
 </script>
 <html>
     <body class="centerList" onload="startStory(curly, 'top'); vol()">

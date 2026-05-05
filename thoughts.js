@@ -3,7 +3,6 @@ thoughts = [
     "i had an idea for a factory-building porn game where you build androids for robot yuri",
 
     "/\\ asked my brother \"what would a factory-building porn game be about? like why is there a factory?\" and immediately came up with this banger",
-
     "man coding is really cool",
 
     "building shit is so fun",
@@ -42,11 +41,16 @@ thoughts = [
 
     "see? i care quite a bit about this",
 
+    "i've been playing cave story, and holy shit is this a wonderful game<br>amazing characters, not afraid to kill them off, like, how many characters can die? toroko, king, booster, curly... ",
+
+    "adding on to the robot yuri factory idea, you can take requests to build male or female robots for the yaoi and yuri factions (and the straight faction, i guess). if you choose to favor one faction, the other will try to sabotage your factory (straight gets mad no matter what you do, claiming that making one 'gender' (where they really mean sex) makes you sexist against the other even if you try to make equal numbers of both sexes)",
+
+
 ]
 
 story_ideas = [
 // no div.background
-    "angel girl who gets hypnotized by a demon girl and corrupted",
+    "angel girl who gets hypnotized by a demon girl and corrupted(fucked)",
 
     "",
 

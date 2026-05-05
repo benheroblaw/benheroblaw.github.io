@@ -22,7 +22,7 @@ var pornSidebar = '\
   <br>\
   \
   <a class="blue" href="/r34/comics.html"><span>Comics</span></a><br><br>\
-  <a href="/r34/cavestory.html" id="cavestory" class="blue" onmouseenter="gewi(\'quotehead\').src=\'/r34/cavestory/Sprite-0002.svg\'" onmouseleave="gewi(\'quotehead\').src=\'/r34/cavestory/Sprite-0001.svg\'" onload="gewi(\'quotehead\').src=\'/r34/cavestory/Sprite-0001.svg\'"><span>Cave Story</span></a> <img src="/r34/cavestory/Sprite-0001.svg" style="border: none" id="quotehead"><br>\
+  <a href="/r34/cavestory.html" id="cavestory" class="blue" onmouseenter="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0002.svg\'" onmouseleave="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0001.svg\'" onload="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0001.svg\'"><span>Cave Story</span></a> <img src="/r34/cavestory/assets/Sprite-0001.svg" style="border: none" id="quotehead"><br>\
   <a href="/r34/dragon-maid.html" class="blue"><span>Dragon Maid</span></a><br>\
   <a href="/r34/hard-degen.html" class="blue"><span>Hard Degenerate</span></a><br>\
   <a href="/r34/hoyo.html" class="blue"><span>Hoyoverse</span></a><br>\
