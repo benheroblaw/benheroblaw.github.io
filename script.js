@@ -615,7 +615,7 @@ var video = qSelA('video')
 document.addEventListener('loadstart', video.forEach(element => element.preload = 'none'))
 
 function addSidebar(sidebar=pornSidebar, viewerSidebar='', sidebar3='', sidebar4='',) {
-  document.body.innerHTML += '<link rel="stylesheet" href="/sidebar.css">'
+  document.head.innerHTML += '<link rel="stylesheet" href="/sidebar.css">'
   try {gewi('sidebar').innerHTML = sidebar; gewi('sidebar').style.display = 'inline'}
   catch (Error) {errorMessage('no 1st sidebar')}
   if (viewerSidebar != '') {
@@ -813,13 +813,13 @@ document.addEventListener("DOMContentLoaded", function() {
     tesLog('loading porn.js');
     promiseLoadScript('/r34/porn.js').then(addSidebar(pornSidebar))
   }
-  // qSelA('video').forEach(element => element.preload = 'auto')
   vol(0.1, 0.1)
   // getScript('/bullshit.js')
 })
 
 document.addEventListener("onload", function() {
   addSidebar(pornSidebar)
+  qSelA('img').forEach(element => element.style.userSelect = 'none')
 })
 
 document.addEventListener('load', () =>

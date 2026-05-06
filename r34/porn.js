@@ -370,8 +370,8 @@ var curly = [
     <video preload="auto" controls width="15%" src="/r34/cavestory/7bf5204a32191defdf494fb9c250d514.mp4">no porn for you :(</video>\
     ',
 
-    '<img src="/r34/cavestory/599b1ec8c535ff41a6ce01367c3a4c2a.png" style="border: none" ondblclick="window.open(\'/r34/cavestory/599b1ec8c535ff41a6ce01367c3a4c2a.png\', \'_self\')">\
-    <img src="/r34/cavestory/eaa8ebf3c686bad40cb0e0ea7198900d.png" style="border: none" ondblclick="window.open(\'/r34/cavestory/eaa8ebf3c686bad40cb0e0ea7198900d.png\', \'_self\')">\
+    '<img draggable="false" src="/r34/cavestory/599b1ec8c535ff41a6ce01367c3a4c2a.png" style="border: none" ondblclick="window.open(\'/r34/cavestory/599b1ec8c535ff41a6ce01367c3a4c2a.png\', \'_self\')">\
+    <img draggable="false" src="/r34/cavestory/eaa8ebf3c686bad40cb0e0ea7198900d.png" style="border: none" ondblclick="window.open(\'/r34/cavestory/eaa8ebf3c686bad40cb0e0ea7198900d.png\', \'_self\')">\
     <br><br>' +
     linkedImage("/r34/cavestory/ce2221fa00e01bde5c011e0099dc6993bcd837eb.jpg") +
     linkedImage("/r34/cavestory/9b067c5c3841176c2ff95c4a8e9068c8.png", 'y') +
@@ -387,10 +387,10 @@ var curly = [
     linkedImage("/r34/cavestory/52d7a1e0edaedcfc0cda479d5cf45d9b.png") +
     linkedImage("/r34/cavestory/85f85e1138bf5801af7b97628979b76f.png") +
     linkedImage("/r34/cavestory/49c65cbfd67f5852f1a40d9355e6b2ca.png") +
+    linkedImage("/r34/cavestory/56e6e8307f04ccea52a7d3faf2789151.jpeg") +
     linkedImage("/r34/cavestory/91ff376f2f080ca284f0e2f45f38184a.png") +
     linkedImage("/r34/cavestory/962883a2c2dc6551e1d5ccedc5bc7a14.png") +
     linkedImage("/r34/cavestory/94a8a0b4729a0d080821b1344f320678.png") +
-    linkedImage("/r34/cavestory/56e6e8307f04ccea52a7d3faf2789151.jpeg") +
     '',
 
     linkedImage("/r34/cavestory/3e74b61cb159701fe1aff9f29599971e.gif") +
@@ -457,14 +457,14 @@ var cavenonfinal = [
     "<br>\
     <div class='background'>\
     <p>so, quote(they/them) builds a 'vibrator/stimulator' kind of thing</p>\
-    <p>bc quote and curly(she/her) are robots their genitals are 'attachments' that can slide out, and there are conductive pads in the hole that their brains use to read stimulation</p>\
+    <p>bc quote and curly(she/her) are robots their genitals are 'attachments' that can slide out, and there are metal pads in the hole that their brains use to read stimulation</p>\
     <p>(why do soldier robots have genitals? why not)</p>\
     <p>anyway, quote rigged up a little stimulator that sends an adjustable electric current through the contacts so they can make curly feel like she's constantly cumming</p>\
     <p>(quote and curly's brains differ in sensitivity, curly being more sensitive, so quote has two switches that set the power going through to their preferred levels)</p>\
+    <p>(/\\ im gonna retcon this, the vagina has more surface area and gets more stimulation<br>so quote isn't less sensitive their penis is)</p>\
     <p>there's a knob for overall power with the wattage displayed next to it</p>\
     <p>then another knob that adjusts sensitivity</p>\
     <p>after that is the contact</p>\
-    <p></p>\
     <p></p>\
     <p></p>\
     <p></p>\
@@ -487,7 +487,7 @@ var cavenonfinal = [
 
     "<br>\
     <div class='background'>\
-    <p></p>\
+    <p>curly and quote swap genitals</p>\
     <p></p>\
     <p></p>\
     <p></p>\

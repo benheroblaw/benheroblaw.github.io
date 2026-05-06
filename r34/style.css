@@ -6,6 +6,7 @@ body {
     background-size: 500% 500%;
     animation: gradient 120s linear infinite;
     height: 100vh;
+    user-select: text;
 }
 
 @keyframes gradient {
@@ -28,7 +29,7 @@ span {font-family: Arial; color: white;}
 span:hover {font-family: arial; color: white; font-style: inherit;}
 video {border-color: blue; border-bottom-color: blue; border-right-color: blue; border-style: solid; width: 30%;}
 video:hover {border: none;}
-img {border: 2px; border-color: white; border-style: solid; width: 20%;}
+img {border: 2px; border-color: white; border-style: solid; width: 20%; user-select: none;}
 img:hover {border: 2px; border-color: aqua; border-style: solid;}
 img:active {border: 2px; border-color: black; border-style: solid;}
 video {border-color: blue; border-bottom-color: blue; border-right-color: blue; border-style: solid;}
