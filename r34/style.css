@@ -7,6 +7,7 @@ body {
     animation: gradient 120s linear infinite;
     height: 100vh;
     user-select: text;
+
 }
 
 @keyframes gradient {
@@ -39,7 +40,7 @@ button {cursor: pointer;}
 
 /* classes */
 .center {display: block; margin: auto; max-height: 90%; max-width: 90vw; width: auto;}
-.centerList {display: block; padding-left: 2.5%; padding-right: 2.5%; margin: 0%; width: 95%; text-align: center; align-content: top; align-items: top; top: 0;}
+.centerList {display: block; padding-left: 2.5%; padding-right: 2.5%; margin: 0%; width: 95%; text-align: center; align-content: top; align-items: center; top: 0;}
 /* .centerList br {font-size: 2rem;} */
 .centerList.sidebar *, .centerList.sidebar2 *, .centerList.sidebar3 * {font-size: 1rem;}
 .pages {text-align: center;}

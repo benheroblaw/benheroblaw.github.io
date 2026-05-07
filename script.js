@@ -512,6 +512,32 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
   // qSel(location).style = "margin: 0; width: 100vw;"
 }
 
+function startStripViewer(src, pages, width, height) {
+  // height++
+  document.body.innerHTML += '\
+    <div id="buttons"></div>\
+    <br><br>\
+    <div id="image-container">\
+      <img id="image">\
+    </div>'
+
+  gewi('image').src = src
+  gewi('image-container').style.width = width
+  gewi('image-container').style.height = height
+
+  for (let index = 0; index < pages; index++) {
+    let location = height * index * -1
+    tesLog(location)
+    // const element = array[index];
+    const pageButton = document.createElement('button')
+    pageButton.id = index
+    pageButton.onclick = function () {gewi('image').style.top = `${location}px`}
+    pageButton.innerHTML = `page ${index + 1}`
+    gewi('buttons').appendChild(pageButton)
+
+  }
+}
+
 function getCommit(owner, repo) {
   fetch(
     'https://api.github.com/repos/' + owner + '/' + repo + '/commits?per_page=1',
