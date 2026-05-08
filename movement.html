@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="/script.js"></script>
+    <title>mover thing</title>
+</head>
+<script>
+    function mover() {
+
+  window.onkeydown = function (event) {
+    if (event.key === 'ArrowRight') {
+        if (Number(gewi('mover').style.left.replace('px', '')) <= Number(window.innerHeight) * 3) {
+            gewi('mover').style.left = Number(gewi('mover').style.left.replace('px', '')) + 10 + 'px'
+        }
+      }
+    else if (event.key === 'ArrowLeft') {
+      // Left arrow pressed
+        if (Number(gewi('mover').style.left.replace('px', '')) != 0) {
+            gewi('mover').style.left = Number(gewi('mover').style.left.replace('px', '')) - 10 + 'px'
+        }
+    }
+    else if (event.key === 'ArrowUp') {
+      // Up Arrow pressed
+      if (Number(gewi('mover').style.top.replace('px', '')) != 0)
+        gewi('mover').style.top = Number(gewi('mover').style.top.replace('px', '')) - 10 + 'px'
+    }
+    else if (event.key === 'ArrowDown') {
+      // Down Arrow pressed
+        gewi('mover').style.top = Number(gewi('mover').style.top.replace('px', '')) + 10 + 'px'
+    }
+  }
+    }
+</script>
+<style>
+    #mover {
+        width: 10px;
+        height: 10px;
+        background-color: white;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    body {
+        /* width: 100vw;
+        height: 100vh; */
+    }
+</style>
+<body onload="mover()">
+    <div id="mover"></div>
+</body>

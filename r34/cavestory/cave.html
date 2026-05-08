@@ -2,7 +2,7 @@
 <head>
     <link rel="stylesheet" href="/r34/style.css">
     <link rel="stylesheet" href="/writing/goama.css">
-    <link rel="icon" href="/r34/cavestory/assets/SAVE.ico" type="image/gif">
+    <link rel="icon" href="/icons/save.gif" type="image/gif">
 
     <script src="/script.js"></script>
 </head>
@@ -15,16 +15,19 @@
 </script>
 <style>
     body {
-        background-color: #000;
+        background-image: url('/r34/cavestory/assets/wallpaper-dark.jpeg');
         animation: none;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-size: contain;
-        /* background-position: center; */
+        background-size: 100%;
+        background-position: center;
     }
     @media (prefers-color-scheme: light) {
         body {
             background: url('/r34/cavestory/assets/wallpaper-blurred.jpeg');
+        animation: none;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         background-size: 100%;
         background-position: center;
         }
@@ -32,6 +35,9 @@
     @media (prefers-color-scheme: dark) {
         body {
             background: url('/r34/cavestory/assets/wallpaper-dark.jpeg');
+        animation: none;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         background-size: 100%;
         background-position: center;
         }
@@ -39,5 +45,6 @@
 </style>
 <html>
     <body onload="startStory(cave, true); vol()">
+        <!-- <div id="sidebar"></div> -->
     </body>
 </html>

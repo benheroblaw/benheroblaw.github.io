@@ -487,9 +487,10 @@ var cavenonfinal = [
 
     "<br>\
     <div class='background'>\
+    <p>(no real reason it's written in academy style)</p>\
+    <p>(italics are quote)</p>\
     <p>curly and quote swap genitals</p>\
-    <p></p>\
-    <p></p>\
+    <p>quote gets their robot ass pounded into scrap metal</p>\
     <p></p>\
     <p></p>\
     <p></p>\
@@ -516,11 +517,39 @@ var cavenonfinal = [
     <p></p>\
     </div>",
 
+    `<br>\
+    <div class='background'>\
+    <p>Quote walks over to Curly.</p><br>\
+    <p><i>Can we swap genitals?</i></p><br>\
+    <p>"Hm? Any reason?"</p><br>\
+    <p>Quote shakes their head.</p><br>\
+    <p></p><br>\
+    <p></p><br>\
+    <p></p><br>\
+    <p></p><br>\
+    <p></p><br>\
+    <p></p><br>\
+    <p></p><br>\
+    <p></p><br>\
+    <p></p><br>\
+    <p></p><br>\
+    <p></p><br>\
+    <p></p><br>\
+    <p></p><br>\
+    <p></p><br>\
+    <p></p><br>\
+    <p></p><br>\
+    <p></p><br>\
+    <p></p><br>\
+    <p></p><br>\
+    <p></p><br>\
+    <p></p><br>\
+    <p></p><br>\
+    <p></p><br>\
+    </div>`,
+
 ]
-var cave = [
-    cavenonfinal[1],
-    cavenonfinal[2]
-]
+var cave = cavenonfinal
 
 var watchlist = [
     addLink('https://www.pornhub.com/view_video.php?viewkey=67c183af9cb4a') +

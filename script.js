@@ -39,7 +39,7 @@ var pornSidebar = '\
   <a class="blue" href="/r34/audio.html"><span>Audio</span></a><br>\
   <a class="blue" href="/r34/shibby.html"><span>shibby</span></a><br><br>\
   <button onclick="location.reload(true)">ctrl+f5</button><br>\
-  <a class="hidden", style="color: #111;" href="files.html">Files</a>\
+  <a class="hidden", style="color: #111;" href="/r34/files.html">Files</a>\
 '
 
 var pokemonSidebar = '\
@@ -339,12 +339,12 @@ function displayStory(content = ['wtf'], extraScript='', doCookies = true, doX =
   window.onkeydown = function (event) {
     if (event.key === 'ArrowRight') {
       if (index + 1 != content.length) {
-        next()
+        nextPage()
       }
     }
     else if (event.key === 'ArrowLeft') {
       if (index != 0) {
-        prev()
+        prevPage()
       }
     }
     else if (event.key === 'ArrowUp') {
@@ -512,21 +512,21 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
   // qSel(location).style = "margin: 0; width: 100vw;"
 }
 
-function startStripViewer(src, pages, width, height) {
+function startStripViewer(src, pages, pagewidth, pageheight) {
   // height++
   document.body.innerHTML += '\
     <div id="buttons"></div>\
-    <br><br>\
+    <br>\
     <div id="image-container">\
       <img id="image">\
     </div>'
 
   gewi('image').src = src
-  gewi('image-container').style.width = width
-  gewi('image-container').style.height = height
+  qSel('#image-container').style.width = pagewidth
+  qSel('#image-container').style.height = pageheight
 
   for (let index = 0; index < pages; index++) {
-    let location = height * index * -1
+    let location = (pageheight * index) * -1
     tesLog(location)
     // const element = array[index];
     const pageButton = document.createElement('button')
@@ -644,6 +644,8 @@ function addSidebar(sidebar=pornSidebar, viewerSidebar='', sidebar3='', sidebar4
   document.head.innerHTML += '<link rel="stylesheet" href="/sidebar.css">'
   try {gewi('sidebar').innerHTML = sidebar; gewi('sidebar').style.display = 'inline'}
   catch (Error) {errorMessage('no 1st sidebar')}
+  // try {qSel('sidebar').innerHTML = sidebar; qSel('sidebar').style.display = 'inline'}
+  // catch (Error) {errorMessage('no sidebar element')}
   if (viewerSidebar != '') {
     try {gewi('sidebar2').innerHTML = viewerSidebar; gewi('sidebar2').style.display = 'inline'}
     catch (Error) {errorMessage('no 2nd sidebar')}
@@ -841,6 +843,12 @@ document.addEventListener("DOMContentLoaded", function() {
   }
   vol(0.1, 0.1)
   // getScript('/bullshit.js')
+  setInterval(function () {
+    qSelA('img').forEach(element => {
+      element.draggable = false;
+    })
+    // tesLog('setting draggable')
+  }, 1000)
 })
 
 document.addEventListener("onload", function() {
