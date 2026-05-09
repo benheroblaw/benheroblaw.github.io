@@ -429,7 +429,8 @@ function startStory(content=['wtf'], format=false, extraScript='', doCookies=tru
             <div style="text-align: left"><button id="prev1">&lt; Previous</button></div>\
             <div id="center1" style="text-align: center;"></div>\
             <div style="text-align: right;"><button id="next1">Next &gt;</button></div>\
-        </div><br><br>'}
+        </div>\
+        <br><br>'}
     else if (format === 'top') {document.body.innerHTML +=
       '\
         <br>\
