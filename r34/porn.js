@@ -250,46 +250,46 @@ var miku = [
 ]
 
 var pornSidebar = '\
-  <h1><a href="/r34/r34.html"><span style="color: white;">prawns</span></a></h1>\
-  <a href="all.html" class="red"><span>all</span></a><br>\
-  <a class="blue" href="assets.html"><span>assets</span></a><br>\
-  <a href="coolart.html" class="blue"><span>Artists</span></a><br>\
-  <br>\
-  \
-  <a class="blue" href="/r34/comics.html"><span>Comics</span></a><br><br>\
-  <a href="/r34/dragon-maid.html" class="blue"><span>Dragon Maid</span></a><br>\
-  <a href="/r34/hard-degen.html" class="blue"><span>Hard Degenerate</span></a><br>\
-  <a href="/r34/hoyo.html" class="blue"><span>Hoyoverse</span></a><br>\
-  <a class="blue" href="/r34/mario.html"><span>Mario</span></a><br>\
-  <a class="blue" href="/r34/miku.html"><span>Miku</span></a><br>\
-  <a class="blue" href="/r34/Overwatch.html"><span>Overwatch</span></a><br>\
-  <a class="blue" href="/r34/other.html"><span>Other</span></a><br>\
-  <a class="blue" href="/r34/irl.html"><span>IRL</span></a><br>\
-  <a class="blue" href="/r34/pokemon.html"><span>Pokemon</span></a><br>\
-  <a class="blue" href="/r34/rouge.html"><span>Rouge the Bat</span></a><br>\
-  <a class="blue" href="/r34/roblox.html"><span>Roblox</span></a><br>\
-  <a class="blue" href="/r34/terraria.html"><span>Terraria</span></a><br><br>\
-  <a class="blue" href="/r34/audio.html"><span>Audio</span></a><br>\
-  <a class="blue" href="/r34/shibby.html"><span>shibby</span></a><br><br>\
-  <button onclick="location.reload(true)">ctrl+f5</button><br>\
-  <a class="hidden", style="color: #111;" href="files.html">Files</a>\
+    <h1><a href="/r34/r34.html"><span style="color: white;">prawns</span></a></h1>\
+    <a href="all.html" class="red"><span>all</span></a><br>\
+    <a class="blue" href="assets.html"><span>assets</span></a><br>\
+    <a href="coolart.html" class="blue"><span>Artists</span></a><br>\
+    <br>\
+    \
+    <a class="blue" href="/r34/comics.html"><span>Comics</span></a><br><br>\
+    <a href="/r34/dragon-maid.html" class="blue"><span>Dragon Maid</span></a><br>\
+    <a href="/r34/hard-degen.html" class="blue"><span>Hard Degenerate</span></a><br>\
+    <a href="/r34/hoyo.html" class="blue"><span>Hoyoverse</span></a><br>\
+    <a class="blue" href="/r34/mario.html"><span>Mario</span></a><br>\
+    <a class="blue" href="/r34/miku.html"><span>Miku</span></a><br>\
+    <a class="blue" href="/r34/Overwatch.html"><span>Overwatch</span></a><br>\
+    <a class="blue" href="/r34/other.html"><span>Other</span></a><br>\
+    <a class="blue" href="/r34/irl.html"><span>IRL</span></a><br>\
+    <a class="blue" href="/r34/pokemon.html"><span>Pokemon</span></a><br>\
+    <a class="blue" href="/r34/rouge.html"><span>Rouge the Bat</span></a><br>\
+    <a class="blue" href="/r34/roblox.html"><span>Roblox</span></a><br>\
+    <a class="blue" href="/r34/terraria.html"><span>Terraria</span></a><br><br>\
+    <a class="blue" href="/r34/audio.html"><span>Audio</span></a><br>\
+    <a class="blue" href="/r34/shibby.html"><span>shibby</span></a><br><br>\
+    <button onclick="location.reload(true)">ctrl+f5</button><br>\
+    <a class="hidden", style="color: #111;" href="files.html">Files</a>\
 '
 
 var pokemonSidebar = '\
-  <h1>Viewers</h1>\
-  <a href="/r34/pokemon/cynthia+houndoom-viewer.html">Cynthia x Houndoom</a>\
+    <h1>Viewers</h1>\
+    <a href="/r34/pokemon/cynthia+houndoom-viewer.html">Cynthia x Houndoom</a>\
 '
 
 var mikuSidebar =
-  '<h1>Viewers</h1>' +
-  '<a href="/r34/miku/miku_viewer.html">Cat Miku</a><br>' +
-  '<a href="/r34/miku/migu_viewer.html">Migu</a><br>' +
-  '<a href="/r34/miku/mikgu.html">Miku Teto</a><br>' +
-  '<a href="/r34/miku/migu.html">Horny Migu</a><br>'
+    '<h1>Viewers</h1>' +
+    '<a href="/r34/miku/miku_viewer.html">Cat Miku</a><br>' +
+    '<a href="/r34/miku/migu_viewer.html">Migu</a><br>' +
+    '<a href="/r34/miku/mikgu.html">Miku Teto</a><br>' +
+    '<a href="/r34/miku/migu.html">Horny Migu</a><br>'
 
 var sona = '<h1>sonas</h1>\
-  <a href="/character-sheets/femsona.html"><span>femsona</span></a><br>\
-  <a href="/character-sheets/enbysona.html"><span>themsona</span></a><br>'
+    <a href="/character-sheets/femsona.html"><span>femsona</span></a><br>\
+    <a href="/character-sheets/enbysona.html"><span>themsona</span></a><br>'
 
 var dragonSidebar = '<h1>Viewers</h1>'
 + '<a href="/r34/dragon maid/miss-tohru.html"><span>Miss Tohru</span></a><br>'
@@ -305,31 +305,36 @@ var zonkpunch = [
 
 var hoyo = [
 
-    '<a href="./hoyo/36119d73bf0a840174e9dd5e7092a57c.jpeg"><img src="./hoyo/36119d73bf0a840174e9dd5e7092a57c.jpeg"></a>\
-        <a href="./hoyo/2c1ac4b69e30cb6d354eff2eb6add093.jpeg"><img src="./hoyo/2c1ac4b69e30cb6d354eff2eb6add093.jpeg"></a>\
-        <a href="./hoyo/3908f7fbf0933106c2a2b5bd9f749923.jpeg"><img src="./hoyo/3908f7fbf0933106c2a2b5bd9f749923.jpeg"></a>\
-        <a href="./hoyo/df78f85b584bd963640e571cc8af6478.jpeg"><img src="./hoyo/df78f85b584bd963640e571cc8af6478.jpeg"></a>\
-        <a href="./hoyo/16cad6a688561a27b306117a9d6e7e25.jpeg"><img src="./hoyo/16cad6a688561a27b306117a9d6e7e25.jpeg"></a>\
-        <a href="./hoyo/52a4a98170878f863b620f7020ef9c09.jpeg"><img src="./hoyo/52a4a98170878f863b620f7020ef9c09.jpeg"></a>\
-        <a href="./hoyo/48f790b7766b0e13abd19bd54d900fc9.jpeg"><img src="./hoyo/48f790b7766b0e13abd19bd54d900fc9.jpeg"></a>\
-        <a href="./hoyo/c78f9f779785f73806f8b3a32b5e2d15.jpeg"><img src="./hoyo/c78f9f779785f73806f8b3a32b5e2d15.jpeg"></a>\
-        <a href="./hoyo/80e94bbac2354ba11bdb8afb5affb5d4.jpeg"><img src="./hoyo/80e94bbac2354ba11bdb8afb5affb5d4.jpeg"></a>\
-        <a href="./hoyo/a9cdbaefa4e5d1df33e2aa4a9e2e8e51.jpeg"><img src="./hoyo/a9cdbaefa4e5d1df33e2aa4a9e2e8e51.jpeg"></a>\
-        <a href="./hoyo/b3c54c974bed68e2e1be82b81bef8e22.jpeg"><img src="./hoyo/b3c54c974bed68e2e1be82b81bef8e22.jpeg"></a>\
-        <a href="./hoyo/d0ce352fc59f099bfb9a05bf8325a9e6.jpeg"><img src="./hoyo/d0ce352fc59f099bfb9a05bf8325a9e6.jpeg"></a>\
-        <a href="./hoyo/493f8191fd8cc3f52338ca143ee0c751.gif"><img src="./hoyo/493f8191fd8cc3f52338ca143ee0c751.gif"></a><br>\
-        <a style="color: black; cursor: default;" href="./hoyo/hoyoviewer.html">idk</a>',
+    '<a href="/r34/hoyo/36119d73bf0a840174e9dd5e7092a57c.jpeg"><img src="/r34/hoyo/36119d73bf0a840174e9dd5e7092a57c.jpeg"></a>\
+        <a href="/r34/hoyo/2c1ac4b69e30cb6d354eff2eb6add093.jpeg"><img src="/r34/hoyo/2c1ac4b69e30cb6d354eff2eb6add093.jpeg"></a>\
+        <a href="/r34/hoyo/3908f7fbf0933106c2a2b5bd9f749923.jpeg"><img src="/r34/hoyo/3908f7fbf0933106c2a2b5bd9f749923.jpeg"></a>\
+        <a href="/r34/hoyo/df78f85b584bd963640e571cc8af6478.jpeg"><img src="/r34/hoyo/df78f85b584bd963640e571cc8af6478.jpeg"></a>\
+        <a href="/r34/hoyo/16cad6a688561a27b306117a9d6e7e25.jpeg"><img src="/r34/hoyo/16cad6a688561a27b306117a9d6e7e25.jpeg"></a>\
+        <a href="/r34/hoyo/52a4a98170878f863b620f7020ef9c09.jpeg"><img src="/r34/hoyo/52a4a98170878f863b620f7020ef9c09.jpeg"></a>\
+        <a href="/r34/hoyo/48f790b7766b0e13abd19bd54d900fc9.jpeg"><img src="/r34/hoyo/48f790b7766b0e13abd19bd54d900fc9.jpeg"></a>\
+        <a href="/r34/hoyo/c78f9f779785f73806f8b3a32b5e2d15.jpeg"><img src="/r34/hoyo/c78f9f779785f73806f8b3a32b5e2d15.jpeg"></a>\
+        <a href="/r34/hoyo/80e94bbac2354ba11bdb8afb5affb5d4.jpeg"><img src="/r34/hoyo/80e94bbac2354ba11bdb8afb5affb5d4.jpeg"></a>\
+        <a href="/r34/hoyo/a9cdbaefa4e5d1df33e2aa4a9e2e8e51.jpeg"><img src="/r34/hoyo/a9cdbaefa4e5d1df33e2aa4a9e2e8e51.jpeg"></a>\
+        <a href="/r34/hoyo/b3c54c974bed68e2e1be82b81bef8e22.jpeg"><img src="/r34/hoyo/b3c54c974bed68e2e1be82b81bef8e22.jpeg"></a>\
+        <a href="/r34/hoyo/d0ce352fc59f099bfb9a05bf8325a9e6.jpeg"><img src="/r34/hoyo/d0ce352fc59f099bfb9a05bf8325a9e6.jpeg"></a>\
+        <a href="/r34/hoyo/493f8191fd8cc3f52338ca143ee0c751.gif"><img src="/r34/hoyo/493f8191fd8cc3f52338ca143ee0c751.gif"></a><br>\
+        <a style="color: black; cursor: default;" href="/r34/hoyo/hoyoviewer.html">idk</a>',
 
-    // '<video controls src="./hoyo/1d77fc1ca529f732fc7307dbf3890370.mp4">no porn for you :(</video>'+
-    //     '<video controls src="./hoyo/93b5ad29c2928daeb79d8194a7562736.mp4">no porn for you :(</video>'+
-        '<video controls src="./hoyo/9c9156ec8b58a874203f5dcdad46b1a8.mp4">no porn for you :(</video>'+
-        '<video controls src="./hoyo/04ddb8c2aaf86a8596817f5b90e84934.mp4">no porn for you :(</video>'+
-        // '<video controls src="./hoyo/fd3dbd7fafcb90f5bf0192866d8d989e.mp4">no porn for you :(</video>'+
-        '<video controls src="./hoyo/4a01748b81dc69d89e35f176b501bf02.mp4">no porn for you :(</video>\
-        <video controls src="./hoyo/1dc94fff4d45533e83f8c564277aa8e7.mp4">no porn for you :(</video>\
-        <video controls src="./hoyo/c9ff5924ffc8b9d47d8d052a12b5b2f3.mp4">no porn for you :(</video>\
-        <video controls src="./hoyo/34c3bc3db74c4d173d34a7980a9d6fbf.mp4">no porn for you :(</video>\
-        <video controls src="./hoyo/compressO-845f82cd2d82654bd5a2bc595c1e4291.mp4">no porn for you :(</video>',
+    // '<video controls src="/r34/hoyo/1d77fc1ca529f732fc7307dbf3890370.mp4">no porn for you :(</video>'+
+    //     '<video controls src="/r34/hoyo/93b5ad29c2928daeb79d8194a7562736.mp4">no porn for you :(</video>'+
+        '<video controls src="/r34/hoyo/9c9156ec8b58a874203f5dcdad46b1a8.mp4">no porn for you :(</video>'+
+        '<video controls src="/r34/hoyo/04ddb8c2aaf86a8596817f5b90e84934.mp4">no porn for you :(</video>'+
+        // '<video controls src="/r34/hoyo/fd3dbd7fafcb90f5bf0192866d8d989e.mp4">no porn for you :(</video>'+
+        '<video controls src="/r34/hoyo/4a01748b81dc69d89e35f176b501bf02.mp4">no porn for you :(</video>\
+        <video controls src="/r34/hoyo/1dc94fff4d45533e83f8c564277aa8e7.mp4">no porn for you :(</video>\
+        <video controls src="/r34/hoyo/eaef8b539adca6f7370c4e5bb689a32c.mp4">no porn for you :(</video>\
+        <video controls src="/r34/hoyo/54fe208c2cac768638b8cd18c5f01a7f.mp4">no porn for you :(</video>\
+        <video controls src="/r34/New folder/f54a60c56ebaec3c01f8fdbaacd05ead.mp4">no porn for you :(</video>\
+        <br>\
+        <video controls src="/r34/hoyo/c9ff5924ffc8b9d47d8d052a12b5b2f3.mp4">no porn for you :(</video>\
+        <video controls src="/r34/hoyo/34c3bc3db74c4d173d34a7980a9d6fbf.mp4">no porn for you :(</video>\
+        <video controls src="/r34/hoyo/compressO-845f82cd2d82654bd5a2bc595c1e4291.mp4">no porn for you :(</video>\
+        ',
 
 ]
 
