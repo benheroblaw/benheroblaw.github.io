@@ -844,12 +844,15 @@ document.addEventListener("DOMContentLoaded", function() {
   }
   vol(0.1, 0.1)
   // getScript('/bullshit.js')
+  qSelA('video').forEach(element => {
+    element.preload = 'metadata'
+  })
   setInterval(function () {
     qSelA('img').forEach(element => {
       element.draggable = false;
     })
     // tesLog('setting draggable')
-  }, 1000)
+  }, 500)
 })
 
 document.addEventListener("onload", function() {

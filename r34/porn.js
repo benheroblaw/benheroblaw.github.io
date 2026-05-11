@@ -328,8 +328,12 @@ var hoyo = [
         '<video controls src="/r34/hoyo/4a01748b81dc69d89e35f176b501bf02.mp4">no porn for you :(</video>\
         <video controls src="/r34/hoyo/1dc94fff4d45533e83f8c564277aa8e7.mp4">no porn for you :(</video>\
         <video controls src="/r34/hoyo/eaef8b539adca6f7370c4e5bb689a32c.mp4">no porn for you :(</video>\
-        <video controls src="/r34/hoyo/54fe208c2cac768638b8cd18c5f01a7f.mp4">no porn for you :(</video>\
-        <video controls src="/r34/New folder/f54a60c56ebaec3c01f8fdbaacd05ead.mp4">no porn for you :(</video>\
+        <video controls src="/r34/hoyo/ec78f60a85a2b689cf3f3f80d31ee80a.mp4">no porn for you :(</video>\
+        <video controls src="/r34/hoyo/0c69ca99d3fdf52c37071fcde80bd4c4.mp4">no porn for you :(</video>\
+        <video controls src="/r34/hoyo/f54a60c56ebaec3c01f8fdbaacd05ead.mp4">no porn for you :(</video>\
+        <br>\
+        <video controls src="/r34/New folder/665c785f68cb4c5f52cb20b70f85e29c.mp4">no porn for you :(</video>\
+        <video controls src="/r34/New folder/54fe208c2cac768638b8cd18c5f01a7f.mp4">no porn for you :(</video>\
         <br>\
         <video controls src="/r34/hoyo/c9ff5924ffc8b9d47d8d052a12b5b2f3.mp4">no porn for you :(</video>\
         <video controls src="/r34/hoyo/34c3bc3db74c4d173d34a7980a9d6fbf.mp4">no porn for you :(</video>\
