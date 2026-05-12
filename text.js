@@ -504,6 +504,8 @@ var fanfic = [
     "<link rel='icon' href='icons/story.png'><title>you call the shots, babe</title><br><embed src='/books/you_call_the_shots_babe.pdf' style='width: 800px; height: 87vh'>",
     "<link rel='icon' href='icons/story.png'><title>The Glint of Wine at Midnight</title><br><embed src='/books/The_Glint_of_Wine_at_Midnight.pdf' style='width: 800px; height: 87vh'>",
     "<link rel='icon' href='icons/story.png'><title>My Web, My Pet, My Rules</title><br><embed src='/books/My_Web_My_Pet_My_Rules.pdf' style='width: 800px; height: 87vh'>",
+    "<link rel='icon' href='icons/story.png'><title>Hung Down With The Freaks And The Ghouls</title><br><embed src='/books/Hung_Down_With_The.pdf' style='width: 800px; height: 87vh'>",
+    "<link rel='icon' href='icons/story.png'><title>Trigger Discipline</title><br><embed src='/books/Trigger_Discipline.pdf' style='width: 800px; height: 87vh'>",
 ]
 
 var hentai = ['<video width="544" height="300" title="Gyakuten Majo Saiban: Chjo no Majo ni Sabakarechau The Animation" src="/r34/hentai/687.mp4" controls allowfullscreen></video>']

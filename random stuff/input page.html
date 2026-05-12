@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js"></script>
+    <!-- <title>input thing</title> -->
+</head>
+<script>
+    function page() {
+        const page = gewi('page')
+        const input = gewi('input')
+
+        page.innerHTML = input.value
+        input.oninput = function() {
+            page.innerHTML = input.value
+            if (input.value.length -1 > 0) {
+                input.size = input.value.length * 0.8
+            }
+            else {input.size = 1}
+        }
+    }
+</script>
+<style>
+    body {
+        /* width: 100vw;
+        height: 100vh; */
+        /* color: black; */
+        /* background-color: aliceblue; */
+    }
+    input, #page {
+        color: black;
+        background-color: aliceblue;
+    }
+    #page {
+        min-height: 5rem;
+
+    }
+</style>
+<body onload="page()">
+    <p><input type="text" id="input" value="" autofocus size="1"></p>
+
+        <div id="page"></div>
+</body>
