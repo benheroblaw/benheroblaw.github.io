@@ -1,5 +1,5 @@
 var template = [
-    "<link rel=\"icon\" href=\"/icons/story.png\">\
+    `<link rel=\"icon\" href=\"/icons/story.png\">\
     <div class='background'>\
         <p></p>\
         <p></p>\
@@ -23,9 +23,9 @@ var template = [
         <p></p>\
         <p></p>\
         <p></p>\
-    </div>",
+    </div>`,
 
-    "<link rel='icon' href='/icons/story.png'>\
+    `<link rel='icon' href='/icons/story.png'>\
     <h2>number</h2>\
     <h1 id='char' class='void'>???</h1>\
     <div class='background'>\
@@ -50,9 +50,9 @@ var template = [
     <p></p>\
     <p></p>\
     <p></p>\
-    </div>",
+    </div>`,
 
-    "<link rel='icon' href='/icons/vio.png'>\
+    `<link rel='icon' href='/icons/vio.png'>\
     <h2>number</h2>\
     <h1 id='char' class='vio'>Vio</h1>\
     <div class='background'>\
@@ -78,9 +78,9 @@ var template = [
     <p></p>\
     <p></p>\
     <p></p>\
-    </div>",
+    </div>`,
 
-    "<link rel='icon' href='/icons/cin.png'>\
+    `<link rel='icon' href='/icons/cin.png'>\
     <h2>number</h2>\
     <h1 id='char' class='cin'>Cin</h1>\
     <div class='background'>\
@@ -106,9 +106,9 @@ var template = [
     <p></p>\
     <p></p>\
     <p></p>\
-    </div>",
+    </div>`,
 
-    "<link rel=\"icon\" href=\"/icons/mint.png\">\
+    `<link rel=\"icon\" href=\"/icons/mint.png\">\
     <h2>number</h2>\
     <h1 id='char' class='Mint'>Mint</h1>\
     <div class='background'>\
@@ -134,9 +134,9 @@ var template = [
     <p></p>\
     <p></p>\
     <p></p>\
-    </div>",
+    </div>`,
 
-    "<link rel=\"icon\" href=\"/icons/vampire.png\">\
+    `<link rel=\"icon\" href=\"/icons/vampire.png\">\
     <h2>number</h2>\
     <h1 id='char' class='vampire'>vampire</h1>\
     <div class='background'>\
@@ -162,9 +162,9 @@ var template = [
     <p></p>\
     <p></p>\
     <p></p>\
-    </div>",
+    </div>`,
 
-    "<h1 id='char' style='color: White; text-shadow: 0px 0px 15px #f00; font-family: Chainsaw; font-size: 7rem; line-height: 5rem; padding-bottom: 5rem'>Femji</h1>\
+    `<h1 id='char' style='color: White; text-shadow: 0px 0px 15px #f00; font-family: Chainsaw; font-size: 7rem; line-height: 5rem; padding-bottom: 5rem'>Femji</h1>\
     <div class='background'>\
     lady chainsaw :}<br>\
     THE lady chainsaw :D<br>\
@@ -172,9 +172,9 @@ var template = [
     its lord bomb *w<<br><br>\
     they fuck >w<<br><br>\
     masc power :)\
-    </div>",
+    </div>`,
 
-    "<link rel=\"icon\" href=\"/icons/story.png\">\
+    `<link rel=\"icon\" href=\"/icons/story.png\">\
     <h2>1</h2>\
     <h1 id='char' class='vampire'>Villain</h1>\
     <div class='background'>\
@@ -200,12 +200,12 @@ var template = [
         <p></p>\
         <p></p>\
         <p></p>\
-    </div>",
+    </div>`,
 
 ]
 
 var voidling = [
-    "<link rel='icon' href='/icons/story.png'>\
+    `<link rel='icon' href='/icons/story.png'>\
     <h2>0</h2>\
     <h1 id='char' class='void'>???</h1>\
     <div class='background'>\
@@ -276,9 +276,9 @@ var voidling = [
     <p>Instead, she sentenced me to eternal torment.</p>\
     <p>Here I will stay until my mind breaks so completely even the Void can't put me together again.</p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>\
     <p>How I yearn for that day.</p>\
-    </div>",
+    </div>`,
 
-    "<link rel='icon' href='/icons/story.png'>\
+    `<link rel='icon' href='/icons/story.png'>\
     <h2>1</h2>\
     <h1 id='char' class='void'>???</h1>\
     <div class='background'>\
@@ -302,9 +302,9 @@ var voidling = [
     <p>\"Now I go back?\" My voice comes out in a not-entirely-intended snarl.</p>\
     <p>Airn snaps her fingers in response.</p>\
     <p>I return to Hell.</p>\
-    </div>",
+    </div>`,
 
-    "<link rel='icon' href='/icons/story.png'>\
+    `<link rel='icon' href='/icons/story.png'>\
     <h2>2</h2>\
     <h1 id='char' style='text-shadow: 0px 0px 25px #c88eff'>???</h1>\
     <div class='background'>\
@@ -329,9 +329,9 @@ var voidling = [
     <p></p>\
     <p></p>\
     <p></p>\
-    </div>",
+    </div>`,
 
-    "<link rel=\"icon\" href=\"/icons/vio.png\">\
+    `<link rel=\"icon\" href=\"/icons/vio.png\">\
     <h2>number</h2>\
     <h1 id='char' class='Vio'>Vio</h1>\
     <div class='background'>\
@@ -357,11 +357,11 @@ var voidling = [
         <p></p>\
         <p></p>\
         <p></p>\
-    </div>"
+    </div>`,
 ]
 
 var dms = [
-    "<style>p {color: white; font-family: 'Lucidia Console', monospace;}</style>\
+    `<style>p {color: white; font-family: 'Lucidia Console', monospace;}</style>\
     <p>[<span class='mint_color'>mint</span>]: pleas rail me >////<</p>\
     <p>[<span class='vio_color'>vio</span>]: k</p>\
     <p>[<span class='cin_color'>cin</span>]: sure</p>\
@@ -381,10 +381,10 @@ var dms = [
     <p>[<span class='_color'></span>]: </p>\
     <p>[<span class='_color'></span>]: </p>\
     <p>[<span class='_color'></span>]: </p>\
-    "]
+    `]
 
 var senran = [
-    "<style>\
+    `<style>\
     @media (prefers-color-scheme: light) {\
     .background, h2, h1 {background-color: white; color: black;}\
     }\
@@ -399,9 +399,9 @@ var senran = [
     <p>yomi has a penis ;)</p>\
     <p>katsuragi gets a girlfriend :D</p>\
     <p>the teacher is homophobic >:(</p>\
-    </div>",
+    </div>`,
 
-    "<style>\
+    `<style>\
     @media (prefers-color-scheme: light) {\
     .background, h2, h1 {background-color: white; color: black;}\
     }\
@@ -418,11 +418,11 @@ var senran = [
     <p style='text-align: center; text-indent: 0rem; font-size: 0.75rem'>(I haven't played any of the others)</p>\
     <p></p>\
     <p></p>\
-    </div>",
+    </div>`,
 ]
 
 var unfinished = [
-    "<link rel='icon' href='/icons/story.png'>\
+    `<link rel='icon' href='/icons/story.png'>\
     <h1 id='char' class='vio'>Vio</h1>\
     <div class='background'>\
     <p>Yeah, I like the feeling of him inside me. I'm- I <i>was</i> human, after all. What I really love the little sounds he makes, the brush of his hair and lips on my neck, how his breath gets ragged and the way he tenses and tenses and then relaxes so completely; how he grips me while he's cumming, how it makes him feel sooo good he has to stop moving. Letting him cum inside me is my favorite way to show him my love.</p>\
@@ -456,9 +456,9 @@ var unfinished = [
         <p></p>\
         <p></p>\
     </div>\
-    ",
+    `,
 
-    "<link rel=\"icon\" href=\"/icons/mint.png\">\
+    `<link rel=\"icon\" href=\"/icons/mint.png\">\
     <h2>8-M-</h2>\
     <h1 id='char' class='Mint'>Mint</h1>\
     <div class='background'>\
@@ -484,34 +484,34 @@ var unfinished = [
     <p></p>\
     <p></p>\
     <p></p>\
-    </div>",
+    </div>`,
 
-"<link rel='icon' href='/icons/vampire.png?v=3'>\
+    `<link rel='icon' href='/icons/vampire.png?v=3'>\
     <h2>0</h2>\
     <h1 id='char' class='vampire'>???</h1>\
     <div class='background'>\
     <p>vampire :3</p>\
     <a href=''></a>\
-    </div>",
+    </div>`,
 ]
 
-var kiamei_hypno = ["<link rel='icon' href='icons/story.png'><br><embed src='/books/Falling_Like_A_Feather.pdf' style='width: 800px; height: 87vh'>", "<link rel='icon' href='icons/story.png'><br><embed src='/books/How_To_Train_Your_Kaslana.pdf' style='width: 800px; height: 87vh'>",]
+var kiamei_hypno = [`<link rel='icon' href='icons/story.png'><br><embed src='/books/Falling_Like_A_Feather.pdf' style='width: 800px; height: 87vh'>`, `<link rel='icon' href='icons/story.png'><br><embed src='/books/How_To_Train_Your_Kaslana.pdf' style='width: 800px; height: 87vh'>`,]
 
 var fanfic = [
-    "<link rel='icon' href='icons/story.png'><title>Falling Like A Feather</title><br><embed src='/books/Falling_Like_A_Feather.pdf' style='width: 800px; height: 87vh'>",
-    "<link rel='icon' href='icons/story.png'><title>How To Train Your Kaslana</title><br><embed src='/books/How_To_Train_Your_Kaslana.pdf' style='width: 800px; height: 87vh'>",
-    "<link rel='icon' href='icons/story.png'><title>Filled to the brim</title><br><embed src='/books/Filled_to_the_brim.pdf' style='width: 800px; height: 87vh'>",
-    "<link rel='icon' href='icons/story.png'><title>you call the shots, babe</title><br><embed src='/books/you_call_the_shots_babe.pdf' style='width: 800px; height: 87vh'>",
-    "<link rel='icon' href='icons/story.png'><title>The Glint of Wine at Midnight</title><br><embed src='/books/The_Glint_of_Wine_at_Midnight.pdf' style='width: 800px; height: 87vh'>",
-    "<link rel='icon' href='icons/story.png'><title>My Web, My Pet, My Rules</title><br><embed src='/books/My_Web_My_Pet_My_Rules.pdf' style='width: 800px; height: 87vh'>",
-    "<link rel='icon' href='icons/story.png'><title>Hung Down With The Freaks And The Ghouls</title><br><embed src='/books/Hung_Down_With_The.pdf' style='width: 800px; height: 87vh'>",
-    "<link rel='icon' href='icons/story.png'><title>Trigger Discipline</title><br><embed src='/books/Trigger_Discipline.pdf' style='width: 800px; height: 87vh'>",
+    `<link rel='icon' href='icons/story.png'><title>Falling Like A Feather</title><br><embed src='/books/Falling_Like_A_Feather.pdf' style='width: 800px; height: 87vh'>`,
+    `<link rel='icon' href='icons/story.png'><title>How To Train Your Kaslana</title><br><embed src='/books/How_To_Train_Your_Kaslana.pdf' style='width: 800px; height: 87vh'>`,
+    `<link rel='icon' href='icons/story.png'><title>Filled to the brim</title><br><embed src='/books/Filled_to_the_brim.pdf' style='width: 800px; height: 87vh'>`,
+    `<link rel='icon' href='icons/story.png'><title>you call the shots, babe</title><br><embed src='/books/you_call_the_shots_babe.pdf' style='width: 800px; height: 87vh'>`,
+    `<link rel='icon' href='icons/story.png'><title>The Glint of Wine at Midnight</title><br><embed src='/books/The_Glint_of_Wine_at_Midnight.pdf' style='width: 800px; height: 87vh'>`,
+    `<link rel='icon' href='icons/story.png'><title>My Web, My Pet, My Rules</title><br><embed src='/books/My_Web_My_Pet_My_Rules.pdf' style='width: 800px; height: 87vh'>`,
+    `<link rel='icon' href='icons/story.png'><title>Hung Down With The Freaks And The Ghouls</title><br><embed src='/books/Hung_Down_With_The.pdf' style='width: 800px; height: 87vh'>`,
+    `<link rel='icon' href='icons/story.png'><title>Trigger Discipline</title><br><embed src='/books/Trigger_Discipline.pdf' style='width: 800px; height: 87vh'>`,
 ]
 
 var hentai = ['<video width="544" height="300" title="Gyakuten Majo Saiban: Chjo no Majo ni Sabakarechau The Animation" src="/r34/hentai/687.mp4" controls allowfullscreen></video>']
 
 var chainsaw = [
-    "<style></style>\
+    `<style></style>\
     <h1 id='char' style='color: black; text-shadow: 0px 0px 15px #f00; font-family: Chainsaw; font-size: 7rem; line-height: 5rem; padding-bottom: 5rem'>CHAINSAW WOMAN</h1>\
     <div class='background'>\
     <p>lady chainsaw :)</p>\
@@ -531,9 +531,9 @@ var chainsaw = [
     <p>asa is a guy :/</p>\
     <p></p>\
     <p></p>\
-    </div>",
+    </div>`,
 
-    "<h1 id='char' style='color: White; text-shadow: 0px 0px 15px #f00; font-family: chainsaw; font-size: 7rem; line-height: 5rem; padding-bottom: 5rem'>\
+    `<h1 id='char' style='color: White; text-shadow: 0px 0px 15px #f00; font-family: chainsaw; font-size: 7rem; line-height: 5rem; padding-bottom: 5rem'>\
     1\
     </h1>\
     <div class='background'>\
@@ -573,11 +573,11 @@ var chainsaw = [
         <p></p>\
     <p></p>\
     <p></p>\
-    </div>",
+    </div>`,
 ]
 
 var villainess = [
-    "<br>\
+    `<br>\
     <div class='background'>\
     <h3 id='char'>story outline</h3>\
     <p>Villain enters a political marriage with a prince</p>\
@@ -624,9 +624,9 @@ var villainess = [
     <p></p>\
     <p></p>\
     <p></p>\
-    </div>",
+    </div>`,
 
-    "<br>\
+    `<br>\
     <div class='background'>\
         <h3 id='char'>power system</h3>\
         <div class='character-sheet'>\
@@ -656,9 +656,9 @@ var villainess = [
             <p></p>\
             <p></p>\
         </div>\
-    </div>",
+    </div>`,
 
-    "<br>\
+    `<br>\
     <div class='background'>\
         <h3 id='char'>a whole page for me to yap about umbrakinesis because its the only power ive really figured out</h3>\
         <p>Umbrakinesis is the manipulation of shadows. The less defined a shadow is, the more a user of Umbrakinesis can change it. There's also the factor of an Umbrakinetic's perceived 'ownership' of the shadow. For example, an Umbrakinetic's own shadow on the ground is one of the strongest in their arsenal. The only stronger shadows are inside their body. These are <i>very</i> defined, but no other Umbrakinetic can 'grab' them. The shadows of the intestines are shaped in a rope, for example.</p>\
@@ -682,9 +682,9 @@ var villainess = [
         <p></p>\
         <p></p>\
         <p></p>\
-    </div>",
+    </div>`,
 
-    "<head>\
+    `<head>\
     <link rel=\"icon\" href=\"/icons/story.png\">\
     <title>The Villain Enters A Political Marriage with the Prince of a Neighboring Kingdom</title>\
     </head>\
@@ -742,9 +742,9 @@ var villainess = [
         <p>Shouts echo through the vast ceiling of the ballroom, armour clinks and clanks. The cocoon of shadows dissipates, and Gwenhael is gone.</p>\
         <p></p>\
         <p></p>\
-    </div>",
+    </div>`,
 
-    "<link rel=\"icon\" href=\"/icons/story.png\">\
+    `<link rel=\"icon\" href=\"/icons/story.png\">\
     <h2>1</h2>\
     <h1 id='char' class='vampire'>Gwenhael</h1>\
     <div class='background'>\
@@ -774,9 +774,9 @@ var villainess = [
         <p></p>\
         <p></p>\
         <p></p>\
-    </div>",
+    </div>`,
 
-    "<link rel=\"icon\" href=\"/icons/story.png\">\
+    `<link rel=\"icon\" href=\"/icons/story.png\">\
     <h2>???</h2>\
     <h1 id='char' class='vampire'>Villain vs Hero 2</h1>\
     <div class='background'>\
@@ -802,7 +802,7 @@ var villainess = [
         <p></p>\
         <p></p>\
         <p></p>\
-    </div>",
+    </div>`,
 
 ]
 
@@ -812,7 +812,7 @@ var villainess_final = [
 ]
 
 var sao = [
-    "<link rel='icon' href='/icons/story.png'>\
+    `<link rel='icon' href='/icons/story.png'>\
     <h1 id='char' class='none'>The Literary Failure of Sword Art Online</h1>\
     <div class='background'>\
     <p>Sword Art Online is quite an interesting case. It stands among giants of the anime community, next to Attack on Titan, Madoka Magica, as one of the most popular and well-known series in the genre.</p>\
@@ -836,6 +836,12 @@ var sao = [
     <p></p>\
     <p></p>\
     <p></p>\
-    </div>",
+    </div>`,
 
+]
+
+var anime = [
+    `Gushing Over Magical Girls S2<br>
+    The Vexations of a Shut-In Vampire Princess
+    `
 ]
