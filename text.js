@@ -841,8 +841,9 @@ var sao = [
 ]
 
 var anime = [
-    `Gushing Over Magical Girls S2<br>
+    `Source: <a href="https://theindex.moe">i made it the fuck up</a><br><br>
+    Gushing Over Magical Girls S2<br>
     The Vexations of a Shut-In Vampire Princess<br>
-    Gachiakuta
+    Gachiakuta<br>
     `
 ]
