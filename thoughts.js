@@ -1,61 +1,63 @@
 thoughts = [
     // no div.background
-    "i had an idea for a factory-building porn game where you build androids for robot yuri",
+    `i had an idea for a factory-building porn game where you build androids for robot yuri`,
 
-    "/\\ asked my brother \"what would a factory-building porn game be about? like why is there a factory?\" and immediately came up with this banger",
-    "man coding is really cool",
+    `/\\ asked my brother \"what would a factory-building porn game be about? like why is there a factory?\" and immediately came up with this banger`,
+    `man coding is really cool`,
 
-    "building shit is so fun",
+    `building shit is so fun`,
 
-    "there are so many games where I just think <i>\"why are these two girls not kissing\"</i>",
+    `there are so many games where I just think <i>\"why are these two girls not kissing\"</i>`,
 
-    "like why have mei and kiana never kissed? why have yagyu and hibari never kissed? yagyu cares about hibari, and there's nothing in burst that frames their relationship as platonic",
+    `like why have mei and kiana never kissed? why have yagyu and hibari never kissed? yagyu cares about hibari, and there's nothing in burst that frames their relationship as platonic`,
 
-    "in summary, yagyu and hibari should kiss",
+    `in summary, yagyu and hibari should kiss`,
 
-    "i don't care if yagyu thinks of hibari as a sister, they should kiss",
+    `i don't care if yagyu thinks of hibari as a sister, they should kiss`,
 
-    "as you can see, I really like senran kagura burst",
+    `as you can see, I really like senran kagura burst`,
 
-    "its pretty fun to play",
+    `its pretty fun to play`,
 
-    "it's got a very similar 'mid ingredients, peak dish' complex to tensura ",
+    `it's got a very similar 'mid ingredients, peak dish' complex to tensura `,
 
-    "toby fox? said something to the effect of \"if someone cares enough about their work, it'll show even if they lack skill\"",
+    `toby fox? said something to the effect of \"if someone cares enough about their work, it'll show even if they lack skill\"`,
 
-    "i think that's what things like senran kagura and tensura have",
+    `i think that's what things like senran kagura and tensura have`,
 
-    "even though senran kagura is a 'haha tiddy' game it still has quite a compelling story",
+    `even though senran kagura is a 'haha tiddy' game it still has quite a compelling story`,
 
-    "like",
+    `like`,
 
-    "\"evil will accept anyone while being good requires you to act a certain way, do things a certain way, and good can be just as uncaring as evil is perceived\"",
+    `\"evil will accept anyone while being good requires you to act a certain way, do things a certain way, and good can be just as uncaring as evil is perceived\"`,
 
-    "that's quite a message",
+    `that's quite a message`,
 
-    "homura got rejected by the good shinobi because she <i>almost</i> killed an <i>evil shinobi who attempted to kill her</i> in <i>self-defense</i>",
+    `homura got rejected by the good shinobi because she <i>almost</i> killed an <i>evil shinobi who attempted to kill her</i> in <i>self-defense</i>`,
 
-    "bros not even dead",
+    `bros not even dead`,
 
-    "it is stated that this dude is still alive",
+    `it is stated that this dude is still alive`,
 
-    "see? i care quite a bit about this",
+    `see? i care quite a bit about this`,
 
-    "i've been playing cave story, and holy shit is this a wonderful game<br>amazing characters, not afraid to kill them off, like, how many characters can die? toroko, king, booster, curly... ",
+    `i've been playing cave story, and holy shit is this a wonderful game<br>amazing characters, not afraid to kill them off, like, how many characters can die? toroko, king, booster, curly...<br>
+    and you can only save curly and booster`,
 
-    "adding on to the robot yuri factory idea, you can take requests to build male or female robots for the yaoi and yuri factions (and the straight faction, i guess). if you choose to favor one faction, the other will try to sabotage your factory (straight gets mad no matter what you do, claiming that making one 'gender' (where they really mean sex) makes you sexist against the other even if you try to make equal numbers of both sexes)",
+    `adding on to the robot yuri factory idea, you can take requests to build male or female robots for the yaoi and yuri factions (and the straight faction, i guess). if you choose to favor one faction, the other will try to sabotage your factory (straight gets mad no matter what you do, claiming that making one 'gender' (where they really mean sex) makes you sexist against the other even if you try to make equal numbers of both sexes) (straight gets even madder if you make yuri, so make them as mad as possible)<br><br>
+    you can allocate robots to defense if you want (then you do tower defense or like, card games??)`,
 
 
 ]
 
 story_ideas = [
 // no div.background
-    "angel girl who gets hypnotized by a demon girl and corrupted(fucked)",
+    `angel girl who gets hypnotized by a demon girl and corrupted(fucked)`,
 
-    "",
+    `love triangle with two vampires and a guy`,
 
 ]
 
-    "",
+    // ``,
 
-    ""
+    // ``

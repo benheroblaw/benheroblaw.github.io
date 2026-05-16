@@ -543,56 +543,56 @@ var cave = cavenonfinal
 
 var watchlist = [
     addLink('https://www.pornhub.com/view_video.php?viewkey=67c183af9cb4a') +
-    addlink('https://www.pornhub.com/view_video.php?viewkey=68c1a6eeeb326') +
-    addlink('https://www.pornhub.com/view_video.php?viewkey=ph62583973c4816') +
-    addlink('https://www.pornhub.com/view_video.php?viewkey=ph5f9f33677b74d') +
-    addlink('https://www.pornhub.com/view_video.php?viewkey=696633a59bc78') +
-    addlink('https://www.pornhub.com/view_video.php?viewkey=691aebec38da8') +
-    addlink('https://www.pornhub.com/view_video.php?viewkey=688bdb1971a1b') +
-    addlink('https://www.pornhub.com/view_video.php?viewkey=ph5edb27da2a8cf') +
-    addlink('https://www.pornhub.com/view_video.php?viewkey=67e993231e218') +
-    addlink('https://www.pornhub.com/view_video.php?viewkey=69b4372bda966') +
-    addlink('https://www.pornhub.com/view_video.php?viewkey=ph5ea960ab48e2e') +
-    addlink('https://www.pornhub.com/view_video.php?viewkey=6561077f8c865') +
-    addlink('https://www.pornhub.com/view_video.php?viewkey=649e9a9383882') +
-    addlink('https://www.pornhub.com/view_video.php?viewkey=6988aadaeceda') +
-    addlink('https://www.pornhub.com/view_video.php?viewkey=66171e6da4faf') +
-    addlink('https://www.pornhub.com/view_video.php?viewkey=6457e12fe1fa0') +
-    addlink('https://www.pornhub.com/view_video.php?viewkey=ph617291c8222ef') +
-    addlink('https://www.pornhub.com/view_video.php?viewkey=ph63cbae78491ac') +
-    addlink('https://www.pornhub.com/view_video.php?viewkey=67ba07c72a83d') +
-    addlink('https://www.pornhub.com/view_video.php?viewkey=ph61a4e4d2b96fb') +
-    // addlink('') +
-    // addlink('') +
-    // addlink('') +
-    // addlink('') +
-    // addlink('') +
-    // addlink('') +
-    // addlink('') +
-    // addlink('') +
-    // addlink('') +
-    // addlink('') +
-    // addlink('') +
-    // addlink('') +
-    // addlink('') +
-    // addlink('') +
-    // addlink('') +
-    // addlink('') +
-    // addlink('') +
-    // addlink('') +
-    // addlink('') +
-    // addlink('') +
-    // addlink('') +
-    // addlink('') +
-    // addlink('') +
-    // addlink('') +
-    // addlink('') +
-    // addlink('') +
-    // addlink('') +
+    addLink('https://www.pornhub.com/view_video.php?viewkey=68c1a6eeeb326') +
+    addLink('https://www.pornhub.com/view_video.php?viewkey=ph62583973c4816') +
+    addLink('https://www.pornhub.com/view_video.php?viewkey=ph5f9f33677b74d') +
+    addLink('https://www.pornhub.com/view_video.php?viewkey=696633a59bc78') +
+    addLink('https://www.pornhub.com/view_video.php?viewkey=691aebec38da8') +
+    addLink('https://www.pornhub.com/view_video.php?viewkey=688bdb1971a1b') +
+    addLink('https://www.pornhub.com/view_video.php?viewkey=ph5edb27da2a8cf') +
+    addLink('https://www.pornhub.com/view_video.php?viewkey=67e993231e218') +
+    addLink('https://www.pornhub.com/view_video.php?viewkey=69b4372bda966') +
+    addLink('https://www.pornhub.com/view_video.php?viewkey=ph5ea960ab48e2e') +
+    addLink('https://www.pornhub.com/view_video.php?viewkey=6561077f8c865') +
+    addLink('https://www.pornhub.com/view_video.php?viewkey=649e9a9383882') +
+    addLink('https://www.pornhub.com/view_video.php?viewkey=6988aadaeceda') +
+    addLink('https://www.pornhub.com/view_video.php?viewkey=66171e6da4faf') +
+    addLink('https://www.pornhub.com/view_video.php?viewkey=6457e12fe1fa0') +
+    addLink('https://www.pornhub.com/view_video.php?viewkey=ph617291c8222ef') +
+    addLink('https://www.pornhub.com/view_video.php?viewkey=ph63cbae78491ac') +
+    addLink('https://www.pornhub.com/view_video.php?viewkey=67ba07c72a83d') +
+    addLink('https://www.pornhub.com/view_video.php?viewkey=ph61a4e4d2b96fb') +
+    // addLink('') +
+    // addLink('') +
+    // addLink('') +
+    // addLink('') +
+    // addLink('') +
+    // addLink('') +
+    // addLink('') +
+    // addLink('') +
+    // addLink('') +
+    // addLink('') +
+    // addLink('') +
+    // addLink('') +
+    // addLink('') +
+    // addLink('') +
+    // addLink('') +
+    // addLink('') +
+    // addLink('') +
+    // addLink('') +
+    // addLink('') +
+    // addLink('') +
+    // addLink('') +
+    // addLink('') +
+    // addLink('') +
+    // addLink('') +
+    // addLink('') +
+    // addLink('') +
+    // addLink('') +
     ''
 ]
 
-const other = [
+var other = [
     `\
     <video controls src="./01chairat/834fe0124ce411e49dc3fbefb9523cf7.mp4">no porn for you :(</video>\
     <video controls src="./New folder/dbd4a76c653ce4fbc9b2669afa6c083a.mp4">no porn for you :(</video>\
@@ -607,7 +607,8 @@ const other = [
     <video controls src="./New folder/bbd24c6e8688feee916e71c84d9cab35.mp4">no porn for you :(</video>\
     <video controls src="./New folder/c9cc8f2419f997ceb1e14c39881445ba.mp4">no porn for you :(</video>\
     <video controls src="./New folder/f8edf92043cf883d4c3656c9faca12ba.mp4">no porn for you :(</video>\
-    <video controls title="it's hip to fuck bees" src="./New folder/aca7adc5ceab98de67d3da721e9a5e01.mp4">no porn for you :(</video><br>\
+    <video controls title="it's hip to fuck bees" src="./New folder/aca7adc5ceab98de67d3da721e9a5e01.mp4">no porn for you :(</video><br>`,
+    `
     <video controls src="./New folder/c8c2e73e0860cca288f156db2cbce415.mp4">no porn for you :(</video>\
     <video controls src="./New folder/84702ab25211cdf8249f2ca171b10aaa.mp4">no porn for you :(</video>\
     <video controls loop src="./New folder/abeba954d95553182982c718b86733b3.mp4">no porn for you :(</video>\
@@ -623,4 +624,8 @@ const other = [
     <a href="pvz/IMG_9102.GIF"><img src="pvz/IMG_9102.GIF"></a>\
     <a href="New folder/hentai-Recovered.gif"><img src="New folder/hentai-Recovered.gif"></a>\
     <a href="New folder/3dc249bbdef915da969508d8f7f3a49a.gif"><img src="New folder/3dc249bbdef915da969508d8f7f3a49a.gif"></a>'
+]
+
+var harder_stuff = [
+    `<video controls src="/r34/irl/4gV-RaIL-cropped.mp4">no porn for you :(</video>`,
 ]
