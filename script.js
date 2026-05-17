@@ -11,10 +11,12 @@ if ('serviceWorker' in navigator) {
 }
 
 // variables
+let path = location.pathname
+
 var script = document.createElement('script')
 script.src = '/r34/porn.js'
 
-var pornSidebar = '\
+var pornSidebar = `\
   <h1><a href="/r34/r34.html"><span style="color: white;">prawns</span></a></h1>\
   <a href="all.html" class="red"><span>all</span></a><br>\
   <a class="blue" href="assets.html"><span>assets</span></a><br>\
@@ -35,12 +37,14 @@ var pornSidebar = '\
   <a class="blue" href="/r34/rouge.html"><span>Rouge the Bat</span></a><br>\
   <a class="blue" href="/r34/roblox.html"><span>Roblox</span></a><br>\
   <a class="blue" href="/r34/terraria.html"><span>Terraria</span></a><br>\
-  <a class="blue" href="/r34/zonkpunch.html"><span>Zonkpunch</span></a><br><br>\
+  <a class="blue" href="/r34/zonkpunch.html"><span>Zonkpunch</span></a><br>
+  <br>\
   <a class="blue" href="/r34/audio.html"><span>Audio</span></a><br>\
   <a class="blue" href="/r34/shibby.html"><span>shibby</span></a><br><br>\
-  <button onclick="location.reload(true)">ctrl+f5</button><br>\
-  <a class="hidden", style="color: #111;" href="/r34/files.html">Files</a>\
-'
+  <button onclick="location.reload(true)">ctrl+f5</button><br><br>\
+  <a class="hidden", style="color: #111;" href="/r34/ia/ai.html">ai stuff</a><br>
+  <a class="hidden", style="color: #111;" href="/r34/files.html">Files</a>
+`
 
 var pokemonSidebar = '\
   <h1>Viewers</h1>\
@@ -61,6 +65,12 @@ var sona = '<h1>sonas</h1>\
 
 var dragonSidebar = '<h1>Viewers</h1>'
 + '<a href="/r34/dragon maid/miss-tohru.html">Miss Tohru</a><br>'
+
+var aiSidebar = `
+    <h1>viewers</h1>
+    <a href="/r34/ia/bocchi/bocchi-ai-viewer.html">bocchi</a><br>
+    <a href="/r34/ia/miku/ai-miku-viewer.html">miku</a>
+`
 
 var program = [
     '(^///^) ',
@@ -470,6 +480,11 @@ function StartThoughts(content = ['wtf']) {
 
 function startViewer(basePath='', contents=[''], location='html>body', debug = false) {
   // const content = contents.forEach((index) => {basePath + index})
+  path = path + ' - index'
+  let viewerIndex = Number(getCookie(path))
+  if (checkCookie(path) === 'error') {
+    setCookie(path, 0)
+  }
   try {
     gewi('image').remove()
     qSel('.pages').remove()
@@ -482,20 +497,84 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
   const image = document.createElement('img')
   image.className = 'center'
   image.id = 'image'
-  image.src = basePath + contents[0]
+  image.src = basePath + contents[Number(getCookie(path))]
   image.style.marginTop = '0.5rem'
   image.style.marginBottom = '0.5rem'
   image.style.border = 'none'
   image.style.backgroundColor = 'rgb(127, 127, 127)'
   image.innerText = 'loading...'
 
-    if (debug) {console.log('adding image')}
-  qSel(location).innerHTML += '<div class="center"></div><div class="pages" id="pages"></div>'
-  qSel('.center').appendChild(image)
+  // next
+  const next = document.createElement('button')
+  next.innerText = 'Next >'
+  next.onclick = () => {
+    if (viewerIndex < contents.length -1) {
+      viewerIndex++
+      setCookie(path, viewerIndex)
+      console.log(viewerIndex)
+      gewi("image").src = basePath + contents[viewerIndex];
+      qSelA('.pages>button').forEach(element => element.style.backgroundColor = 'black');
+      gewi(viewerIndex).style.backgroundColor = "blue";
+    }
+  }
 
+  // prev
+  const prev = document.createElement('button')
+  prev.innerText = '< Prev'
+  prev.onclick = () => {
+    if (viewerIndex != 0) {
+      viewerIndex--
+      setCookie(path, viewerIndex)
+      console.log(viewerIndex)
+      gewi("image").src = basePath + contents[viewerIndex];
+      qSelA('.pages>button').forEach(element => element.style.backgroundColor = 'black');
+      gewi(viewerIndex).style.backgroundColor = "blue";
+    }
+  }
+
+  window.onkeydown = function (event) {
+    if (event.key === 'ArrowLeft') {
+      if (viewerIndex != 0) {
+        viewerIndex--
+        setCookie(path, viewerIndex)
+        console.log(viewerIndex)
+        gewi("image").src = basePath + contents[viewerIndex];
+        qSelA('.pages>button').forEach(element => element.style.backgroundColor = 'black');
+        gewi(viewerIndex).style.backgroundColor = "blue";
+      }
+    }
+    else if (event.key === 'ArrowRight') {
+      if (viewerIndex < contents.length -1) {
+        viewerIndex++
+        setCookie(path, viewerIndex)
+        console.log(viewerIndex)
+        gewi("image").src = basePath + contents[viewerIndex];
+        qSelA('.pages>button').forEach(element => element.style.backgroundColor = 'black');
+        gewi(viewerIndex).style.backgroundColor = "blue";
+      }
+    }
+    else if (event.key === 'ArrowUp') {
+    // Up Arrow pressed
+    }
+    else if (event.key === 'ArrowDown') {
+      // Down Arrow pressed
+    }
+  }
+
+    if (debug) {console.log('adding image')}
+  qSel(location).innerHTML += '<div class="center"></div><div class="nav"><div id="prev"></div><div id="next"></div></div><div class="pages" id="pages"></div>'
+  qSel('#prev').appendChild(prev)
+  qSel('.center').appendChild(image)
+  qSel('#next').appendChild(next)
+
+  qSel('.nav').style.marginBottom = '0.5rem'
+  qSel('.nav').style.display = 'flex'
+  qSel('.nav').style.justifyContent = 'space-between'
+  qSel('.nav').style.width = '40%'
+  qSel('.nav').style.marginLeft = '30%'
 
   // page buttons
-  contents.forEach((value, index, array) => {
+  contents.forEach((value, index) => {
     const button = document.createElement('button')
     button.id = index
     button.style.marginRight = '0.25rem'
@@ -503,13 +582,16 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
     button.innerText = 'Page ' + (index + 1)
     if (debug) {console.log('adding onclick')}
     button.onclick = () => {
+      setCookie(path, index)
+      viewerIndex = Number(getCookie(path))
+      console.log(viewerIndex)
       gewi("image").src = basePath + contents[index];
       qSelA('.pages>button').forEach(element => element.style.backgroundColor = 'black');
       gewi(index).style.backgroundColor = "blue";
     }
     gewi('pages').appendChild(button)
   })
-  gewi('0').style.backgroundColor = 'blue'
+  gewi(String(getCookie(path))).style.backgroundColor = 'blue'
   // qSel(location).style = "margin: 0; width: 100vw;"
 }
 
@@ -847,10 +929,17 @@ document.addEventListener("DOMContentLoaded", function() {
     tesLog('loading porn.js');
     promiseLoadScript('/r34/porn.js').then(addSidebar(pornSidebar))
   }
+
+  if (window.location.pathname.indexOf('/r34/ia/') > -1) {
+    console.log('no fun background for you :(');
+    qSel('body').style.background = 'black'
+  }
+
   if (window.location.pathname.indexOf('/writing/') > -1) {
     tesLog('loading text.js');
     promiseLoadScript('/text.js').then(addSidebar(pornSidebar))
   }
+
   vol(0.1, 0.1)
   // getScript('/bullshit.js')
   qSelA('video').forEach(element => {

@@ -629,3 +629,225 @@ var other = [
 var harder_stuff = [
     `<video controls src="/r34/irl/4gV-RaIL-cropped.mp4">no porn for you :(</video>`,
 ]
+
+var ai = [
+    `ai stuff`,
+
+    '' +
+    linkedImage('bocchi/001_1.jpg') +
+    linkedImage('bocchi/002_2.jpg') +
+    linkedImage('bocchi/003_3.jpg') +
+    linkedImage('bocchi/004_4.jpg') +
+    linkedImage('bocchi/005_5.jpg') +
+    linkedImage('bocchi/006_6.jpg') +
+    linkedImage('bocchi/007_7.jpg') +
+    linkedImage('bocchi/008_8.jpg') +
+    linkedImage('bocchi/009_9.jpg') +
+    linkedImage('bocchi/010_10.jpg') +
+    linkedImage('bocchi/011_11.jpg') +
+    linkedImage('bocchi/012_12.jpg') +
+    linkedImage('bocchi/013_13.jpg') +
+    linkedImage('bocchi/014_14.jpg') +
+    linkedImage('bocchi/015_15.jpg') +
+    linkedImage('bocchi/016_16.jpg') +
+    linkedImage('bocchi/017_17.jpg') +
+    linkedImage('bocchi/018_18.jpg') +
+    linkedImage('bocchi/019_19.jpg') +
+    linkedImage('bocchi/020_20.jpg') +
+    linkedImage('bocchi/021_21.jpg') +
+    linkedImage('bocchi/022_22.jpg') +
+    linkedImage('bocchi/023_23.jpg') +
+    linkedImage('bocchi/024_24.jpg') +
+    linkedImage('bocchi/025_25.jpg') +
+    linkedImage('bocchi/026_26.jpg') +
+    linkedImage('bocchi/027_27.jpg') +
+    linkedImage('bocchi/028_28.jpg') +
+    linkedImage('bocchi/029_29.jpg') +
+    linkedImage('bocchi/030_30.jpg') +
+    linkedImage('bocchi/031_31.jpg') +
+    linkedImage('bocchi/032_32.jpg') +
+    linkedImage('bocchi/033_33.jpg') +
+    linkedImage('bocchi/034_34.jpg') +
+    linkedImage('bocchi/035_35.jpg') +
+    linkedImage('bocchi/036_36.jpg') +
+    linkedImage('bocchi/037_37.jpg') +
+    linkedImage('bocchi/038_38.jpg') +
+    linkedImage('bocchi/039_39.jpg') +
+    linkedImage('bocchi/040_40.jpg') +
+    linkedImage('bocchi/041_41.jpg') +
+    linkedImage('bocchi/042_42.jpg') +
+    linkedImage('bocchi/043_43.jpg') +
+    linkedImage('bocchi/044_44.jpg') +
+    linkedImage('bocchi/045_45.jpg') +
+    linkedImage('bocchi/046_46.jpg') +
+    linkedImage('bocchi/047_47.jpg') +
+    linkedImage('bocchi/048_48.jpg') +
+    linkedImage('bocchi/049_49.jpg') +
+    linkedImage('bocchi/050_50.jpg') +
+    linkedImage('bocchi/051_51.jpg') +
+    linkedImage('bocchi/052_52.jpg') +
+    linkedImage('bocchi/053_53.jpg') +
+    linkedImage('bocchi/054_54.jpg') +
+    linkedImage('bocchi/055_55.jpg') +
+    linkedImage('bocchi/056_56.jpg') +
+    linkedImage('bocchi/057_57.jpg') +
+    linkedImage('bocchi/058_58.jpg') +
+    linkedImage('bocchi/059_59.jpg') +
+    linkedImage('bocchi/060_60.jpg') +
+    linkedImage('bocchi/061_61.jpg') +
+    linkedImage('bocchi/062_62.jpg') +
+    linkedImage('bocchi/063_63.jpg') +
+    linkedImage('bocchi/064_64.jpg') +
+    linkedImage('bocchi/065_65.jpg') +
+    linkedImage('bocchi/066_66.jpg') +
+    linkedImage('bocchi/067_67.jpg') +
+    linkedImage('bocchi/068_68.jpg') +
+    linkedImage('bocchi/069_69.jpg') +
+    linkedImage('bocchi/070_70.jpg') +
+    linkedImage('bocchi/071_71.jpg') +
+    linkedImage('bocchi/072_72.jpg') +
+    linkedImage('bocchi/073_73.jpg') +
+    linkedImage('bocchi/074_74.jpg') +
+    linkedImage('bocchi/075_75.jpg') +
+    linkedImage('bocchi/076_76.jpg') +
+    linkedImage('bocchi/077_77.jpg') +
+    linkedImage('bocchi/078_78.jpg') +
+    linkedImage('bocchi/079_79.jpg') +
+    linkedImage('bocchi/080_80.jpg') +
+    linkedImage('bocchi/081_81.jpg') +
+    linkedImage('bocchi/082_82.jpg') +
+    linkedImage('bocchi/083_83.jpg') +
+    linkedImage('bocchi/084_84.jpg') +
+    linkedImage('bocchi/085_85.jpg') +
+    linkedImage('bocchi/086_86.jpg') +
+    linkedImage('bocchi/087_87.jpg') +
+    linkedImage('bocchi/088_88.jpg') +
+    linkedImage('bocchi/089_89.jpg') +
+    linkedImage('bocchi/090_90.jpg') +
+    linkedImage('bocchi/091_91.jpg') +
+    linkedImage('bocchi/092_92.jpg') +
+    linkedImage('bocchi/093_93.jpg') +
+    linkedImage('bocchi/094_94.jpg') +
+    linkedImage('bocchi/095_95.jpg') +
+    linkedImage('bocchi/096_96.jpg') +
+    linkedImage('bocchi/097_97.jpg') +
+    linkedImage('bocchi/098_98.jpg') +
+    linkedImage('bocchi/099_99.jpg') +
+    linkedImage('bocchi/100_100.jpg') +
+    linkedImage('bocchi/101_101.jpg') +
+    linkedImage('bocchi/102_102.jpg') +
+    linkedImage('bocchi/103_103.jpg') +
+    linkedImage('bocchi/104_104.jpg') +
+    linkedImage('bocchi/105_105.jpg') +
+    linkedImage('bocchi/106_106.jpg') +
+    linkedImage('bocchi/107_107.jpg') +
+    linkedImage('bocchi/108_108.jpg') +
+    linkedImage('bocchi/109_109.jpg') +
+    linkedImage('bocchi/110_110.jpg') +
+    linkedImage('bocchi/111_111.jpg') +
+    linkedImage('bocchi/112_112.jpg') +
+    linkedImage('bocchi/113_113.jpg') +
+    linkedImage('bocchi/114_114.jpg') +
+    linkedImage('bocchi/115_115.jpg') +
+    linkedImage('bocchi/116_116.jpg') +
+    linkedImage('bocchi/117_117.jpg') +
+    linkedImage('bocchi/118_118.jpg') +
+    linkedImage('bocchi/119_119.jpg') +
+    linkedImage('bocchi/120_120.jpg') +
+    linkedImage('bocchi/121_121.jpg') +
+    linkedImage('bocchi/122_122.jpg') +
+    linkedImage('bocchi/123_123.jpg') +
+    linkedImage('bocchi/124_124.jpg') +
+    linkedImage('bocchi/125_125.jpg') +
+    linkedImage('bocchi/126_126.jpg') +
+    linkedImage('bocchi/127_127.jpg') +
+    linkedImage('bocchi/128_128.jpg') +
+    linkedImage('bocchi/129_129.jpg') +
+    linkedImage('bocchi/130_130.jpg') +
+    linkedImage('bocchi/131_131.jpg') +
+    linkedImage('bocchi/132_132.jpg') +
+    linkedImage('bocchi/133_133.jpg') +
+    linkedImage('bocchi/134_134.jpg') +
+    linkedImage('bocchi/135_135.jpg') +
+    linkedImage('bocchi/136_136.jpg') +
+    linkedImage('bocchi/137_137.jpg') +
+    linkedImage('bocchi/138_138.jpg') +
+    linkedImage('bocchi/139_139.jpg') +
+    linkedImage('bocchi/140_140.jpg') +
+    linkedImage('bocchi/141_141.jpg') +
+    linkedImage('bocchi/142_142.jpg') +
+    linkedImage('bocchi/143_143.jpg') +
+    linkedImage('bocchi/144_144.jpg') +
+    linkedImage('bocchi/145_145.jpg') +
+    linkedImage('bocchi/146_146.jpg') +
+    linkedImage('bocchi/147_147.jpg') +
+    linkedImage('bocchi/148_148.jpg') +
+    linkedImage('bocchi/149_149.jpg') +
+    linkedImage('bocchi/150_150.jpg') +
+    linkedImage('bocchi/151_151.jpg') +
+    linkedImage('bocchi/152_152.jpg') +
+    linkedImage('bocchi/153_153.jpg') +
+    linkedImage('bocchi/154_154.jpg') +
+    linkedImage('bocchi/155_155.jpg') +
+    linkedImage('bocchi/156_156.jpg') +
+    linkedImage('bocchi/157_157.jpg') +
+    linkedImage('bocchi/158_158.jpg') +
+    linkedImage('bocchi/159_159.jpg') +
+    linkedImage('bocchi/160_160.jpg') +
+    linkedImage('bocchi/161_161.jpg') +
+    linkedImage('bocchi/162_162.jpg') +
+    linkedImage('bocchi/163_163.jpg') +
+    linkedImage('bocchi/164_164.jpg') +
+    linkedImage('bocchi/165_165.jpg') +
+    linkedImage('bocchi/166_166.jpg') +
+    linkedImage('bocchi/167_167.jpg') +
+    linkedImage('bocchi/168_168.jpg') +
+    linkedImage('bocchi/169_169.jpg') +
+    linkedImage('bocchi/170_170.jpg') +
+    linkedImage('bocchi/171_171.jpg') +
+    linkedImage('bocchi/172_172.jpg') +
+    linkedImage('bocchi/173_173.jpg') +
+    linkedImage('bocchi/174_174.jpg') +
+    linkedImage('bocchi/175_175.jpg') +
+    linkedImage('bocchi/176_176.jpg') +
+    linkedImage('bocchi/177_177.jpg') +
+    linkedImage('bocchi/178_178.jpg') +
+    linkedImage('bocchi/179_179.jpg') +
+    linkedImage('bocchi/180_180.jpg') +
+    linkedImage('bocchi/181_181.jpg') +
+    linkedImage('bocchi/182_182.jpg') +
+    linkedImage('bocchi/183_183.jpg') +
+    linkedImage('bocchi/184_184.jpg') +
+    linkedImage('bocchi/185_185.jpg') +
+    linkedImage('bocchi/186_186.jpg') +
+    linkedImage('bocchi/187_187.jpg') +
+    '',
+
+    linkedImage('miku/f4e9735d9465425c50f10ff27ad28b35.png')+
+    linkedImage('miku/87c10114dd4c3ad467792dae3d691570.png')+
+    linkedImage('miku/c3950c8fa7b717caaa342be6057b30e7.png')+
+    linkedImage('miku/981e61a97688327188b2b5ad4eeac176.png')+
+    linkedImage('miku/c8468302fafbfa7c3cc45438c8deb97a.png')+
+    linkedImage('miku/3d36957c322cfcf55b7aa856a008aa80.png')+
+    linkedImage('miku/c76bba75c585c66608526e390054bb46.png')+
+    linkedImage('miku/21c30c8cf9be586062169a127e49cb9f.png')+
+    linkedImage('miku/822687e1b2f4554ce11504a1dc120786.png')+
+    linkedImage('miku/ad6678f35f9d6e66d1cf6352619577a6.png')+
+    linkedImage('miku/6cc3c07baa08d27f9070bfbc31c260b8.png')+
+    linkedImage('miku/00e70ca8f122da2df8771f56e4390da5.png')+
+    linkedImage('miku/4cb26d126f0ce016558983e7be110a4f.png')+
+    linkedImage('miku/c3b6ab9a8f93b2366aa0d5d8e5c8c736.png')+
+    linkedImage('miku/fbe157a51ac01bc092434dbe1797759a.png')+
+    linkedImage('miku/6d8c81736e8f3b23f230ef88107b54ac.png')+
+    linkedImage('miku/3f3d19cef4e1be2e5e24fbb48dc96964.png')+
+    linkedImage('miku/ed2c86bb1d102e66821798b65215611b.png')+
+    linkedImage('miku/9ed0340a0f08b35d203cfe12aa5361a0.png')+
+    linkedImage('miku/a9a958f8f6d1da1700c8de5820d1d47a.png')+
+    '',
+
+    linkedImage('miku/b23e9cf3da5469713ad5b3c96cded512.png')+
+    linkedImage('miku/0c8af2ee4d085dc847e488be3e0a100f.png')+
+    linkedImage('miku/6023a897c172f2fffe6d3d1d2e5de647.png')+
+    linkedImage('miku/efa3300822181b0bd0e0d43ff920254e.png')+
+    '',
+]
