@@ -836,11 +836,20 @@ function loadScript (script='') {
 }
 
 // event listeners
+
+document.addEventListener('load', () =>
+  ''
+)
+
 document.addEventListener("DOMContentLoaded", function() {
   // document.body.appendChild(script)
   if (window.location.pathname.indexOf('/r34/') > -1) {
     tesLog('loading porn.js');
     promiseLoadScript('/r34/porn.js').then(addSidebar(pornSidebar))
+  }
+  if (window.location.pathname.indexOf('/writing/') > -1) {
+    tesLog('loading text.js');
+    promiseLoadScript('/text.js').then(addSidebar(pornSidebar))
   }
   vol(0.1, 0.1)
   // getScript('/bullshit.js')
@@ -859,10 +868,6 @@ document.addEventListener("onload", function() {
   addSidebar(pornSidebar)
   qSelA('img').forEach(element => element.style.userSelect = 'none')
 })
-
-document.addEventListener('load', () =>
-  ''
-)
 
 if (window.location.href.indexOf('http://localhost:8001') > 0) {
   console.clear()

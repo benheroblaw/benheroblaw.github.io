@@ -847,3 +847,96 @@ var anime = [
     Gachiakuta<br>
     `
 ]
+
+
+var sonas = [
+`<link rel=\"icon\" href=\"/icons/story.png\">\
+<div class='background'>\
+    <p>My girlfriend shares a wonderful idea with me:<br>\
+    "What if we turned the lights off or put on blindfolds or something and touched each other?"</p>\
+    <p>"Blindfolds," I whisper. I don't like making my voice go any louder than that.</p>\
+    <p>"Alright. Do you want to take your clothes off before or after?"</p>\
+    <p>"A-all of them?"</p>\
+    <p>"Yeah, even your panties." Her voice switches to a vulnerable whisper, not far from mine. "I'll touch you everywhere else."</p>\
+    <p>Trembling a little bit now, I nod.</p>\
+    <p>I sit on the bed, legs under me, as she finds two long, thick pieces of cloth, more than enough to keep our eyes covered and to keep light from getting through.</p>\
+    <p>As she wraps the fabric around my head I take note of the sensation, soft, pliable, a little itchy the way wool is.</p>\
+    <p>I have to hold myself very still as she ties it. It does its job extremely well. My eyes might as well be closed; I can't see anything.</p>\
+    <p>My ears are sharpening to compensate for my blindness. I swear I can hear the fabric of her blindfold sliding against itself as she ties it.</p>\
+    <p>"Wow, this is weird." She's trying to hide it, but a little bit of fear creeps into her voice.</p>\
+    <p>We both just sit for a few moments, adjusting to this new experience.</p>\
+    <p>Then I hear her legs move, fabric sliding on fabric.</p>\
+    <p>Different fabric moves against... hair.</p>\
+    <p>She's taking her shirt off.</p>\
+    <p>It makes another fabric sound on the sheets.</p>\
+    <p>A plastic <i>click</i> now. She's taking everything off.</p>\
+    <p>I fumble with the hem of my hoodie, trying to get it over my head while she continues to strip.</p>\
+    <p>My hoodie meets the bed right next to me, touching my leg, because I need to know it's close.</p>\
+    <p>I adjust my legs to pull my shorts off, feeling them slide easily down.</p>\
+    <p>My socks come off next. I don't want to take it off.</p>\
+    <p>I push my fingers under the straps around my hips. I slide them out from under me, keeping contact with my genitals.</p>\
+    <p>Slowly, they fully separate from my pelvis.</p>\
+    <p>I feel naked without them covering me. I know I've shown her almost my whole body, but this is different.</p>\
+    <p>My underwear slides down my legs, down my ankles, off of my feet. Every second takes an hour.</p>\
+    <p>Even once they're off me, I can't let go of them. I can't drop them. I have to know exactly where they are, not just where to find them like with the rest of my clothes.</p>\
+    <p>I don't know where to put them, though. How could I keep them on my body? I'm not going to put them on my face.</p>\
+    <p>An idea strikes.</p>\
+    <p>I pull at the knot of fabric behind my head, not trying to loosen it, stretching the fabric to reveal a space between my head and the knot.</p>\
+    <p>I slip my panties through the opening, letting the blindfold reclaim any space between them and secure my underwear.</p>\
+    <p>My breath is already coming hard, and I haven't even been touched yet. I feel a bit dizzy.</p>\
+    <p>I feel her hands on my knees just before she touches them, not soon enough to keep me from jumping.</p>\
+    <p>"Hey, hey, it's okay." Her hands rub circles above the plates of bone.</p>\
+    <p>I want to lean into the feeling, lean into her chest, but I don't know where it is.</p>\
+    <p>Instead, I focus on her hands and pull myself back into something vaguely they-shaped.</p>\
+    <p>I don't think words will come out if I open my mouth, so I put my hands on hers, searching upwards for her arms.</p>\
+    <p>Instead, she takes my hands and places them on her hips. She puts her hands on my thighs this time.</p>\
+    <p>I rub circles into the edges of her stomach, feeling her twitch and shudder.</p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+</div>`,
+]
