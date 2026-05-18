@@ -371,7 +371,7 @@ function displayStory(content = ['wtf'], extraScript='', doCookies = true, doX =
     })
     }
     catch (TypeError) {
-      errorMessage('story: no char element')
+      if (doOutput) {errorMessage('story: no char element')}
     }
   }
   char()
@@ -385,7 +385,7 @@ function displayStory(content = ['wtf'], extraScript='', doCookies = true, doX =
       }
     })
   }
-  tesLog('finished loading story')
+  if (doOutput) {tesLog('finished loading story')}
 }
 
 var startState = 'not started'
@@ -400,7 +400,7 @@ var startState = 'not started'
  * @param {Boolean} doY
  * @param {Boolean} doOutput
  */
-function startStory(content=['wtf'], format=false, extraScript='', doCookies=true, doX=false, doY=true, doOutput=true) {
+function startStory(content=['wtf'], format=false, doOutput=true, extraScript='', doCookies=true, doX=false, doY=true) {
   if (doOutput) {tesLog('starting story...')}
   var s = document.createElement('script');
   s.id = 'text'
@@ -488,6 +488,7 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
   try {
     gewi('image').remove()
     qSel('.pages').remove()
+    qSel('.nav').remove()
   }
   catch (error) {
     errorMessage('nothing to remove')
@@ -933,6 +934,7 @@ document.addEventListener("DOMContentLoaded", function() {
   if (window.location.pathname.indexOf('/r34/ia/') > -1) {
     console.log('no fun background for you :(');
     qSel('body').style.background = 'black'
+    promiseLoadScript('/r34/porn.js').then(addSidebar(pornSidebar, aiSidebar))
   }
 
   if (window.location.pathname.indexOf('/writing/') > -1) {

@@ -8,8 +8,6 @@
     <title></title>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  addSidebar(pornSidebar, aiSidebar)
-  startViewer('./', bocchi, 'html>body', true)
 })
     const bocchi = [
         '001_1.jpg',
@@ -201,7 +199,7 @@ document.addEventListener("DOMContentLoaded", function() {
         '187_187.jpg',
     ]
 </script>
-    <body class="centerList" onload='vol()'>
+    <body class="centerList" onload='startViewer("./", bocchi, "html>body", true); vol()'>
         <div id="sidebar"></div>
         <div id="sidebar2"></div>
     </body>
