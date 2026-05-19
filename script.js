@@ -214,7 +214,7 @@ function deleteCookie(cname, cvalue='', output = true, exdays = -7) {
 //     .catch(error => console.error('Failed to fetch data:', error));
 // }
 
-function displayStory(content = ['wtf'], extraScript='', doCookies = true, doX = false, doY = true, doOutput = false) {
+function displayStory(content = ['wtf'], pageSetup='', doCookies = true, doX = false, doY = true, doOutput = false) {
   var page = window.location.pathname + ' - '
   var showSlide = (n) => {
     gewi('story').innerHTML = content[n]
@@ -298,7 +298,6 @@ function displayStory(content = ['wtf'], extraScript='', doCookies = true, doX =
     window.scrollTo(0, 0)
     showSlide(index)
     vol()
-    eval(extraScript)
     if (doCookies == true) {
       setCookie(page + 'index', index, doOutput)
     }
@@ -328,7 +327,6 @@ function displayStory(content = ['wtf'], extraScript='', doCookies = true, doX =
     window.scrollTo(0, 0)
     showSlide(index)
     vol()
-    eval(extraScript)
     if (doCookies == true) {
       setCookie(page + 'index', index, doOutput)
     }
@@ -394,13 +392,13 @@ var startState = 'not started'
  * Starts displayStory
  * @param {Array} content content in the thing
  * @param {Boolean} format do you want it formatted? true, false, top
- * @param {String} extraScript extra script to run when you click prev/next
+ * @param {String} pageSetup how you want to display pages
  * @param {Boolean} doCookies
  * @param {Boolean} doX
  * @param {Boolean} doY
  * @param {Boolean} doOutput
  */
-function startStory(content=['wtf'], format=false, doOutput=true, extraScript='', doCookies=true, doX=false, doY=true) {
+function startStory(content=['wtf'], format=false, doOutput=true, pageSetup=[''], doCookies=true, doX=false, doY=true) {
   if (doOutput) {tesLog('starting story...')}
   var s = document.createElement('script');
   s.id = 'text'
@@ -425,40 +423,11 @@ function startStory(content=['wtf'], format=false, doOutput=true, extraScript=''
   if (doOutput) {tesLog('story: displaying')}
   if (startState === 'ready to display') {
     if (format === true) {document.body.innerHTML +=
-      '\
-        <br>\
-        <div class="space">\
-            <div style="text-align: left"><button id="prev">&lt; Previous</button></div>\
-            <div id="center" style="text-align: center;"></div>\
-            <div style="text-align: right;"><button id="next">Next &gt;</button></div>\
-        </div>\
-            <div id="story"><br>\
-                <span style="color: white;">this shit isn\'t fucking working :&lpar;</span>\
-            </div><br>\
-        <div class="space">\
-            <div style="text-align: left"><button id="prev1">&lt; Previous</button></div>\
-            <div id="center1" style="text-align: center;"></div>\
-            <div style="text-align: right;"><button id="next1">Next &gt;</button></div>\
-        </div>\
+      '<br><div class="space"><div style="text-align: left"><button id="prev">&lt; Prev</button></div><div id="center" style="text-align: center;"></div><div style="text-align: right;"><button id="next">Next &gt;</button></div></div><div id="story"><br><span style="color: white;">this shit isn\'t fucking working :&lpar;</span></div><br><div class="space"><div style="text-align: left"><button id="prev1">&lt; Prev</button></div><div id="center1" style="text-align: center;"></div><div style="text-align: right;"><button id="next1">Next &gt;</button></div></div>\
         <br><br>'}
     else if (format === 'top') {document.body.innerHTML +=
-      '\
-        <br>\
-        <div class="space">\
-            <div style="text-align: left"><button id="prev">&lt; Previous</button></div>\
-            <div id="center" style="text-align: center;"></div>\
-            <div style="text-align: right;"><button id="next">Next &gt;</button></div>\
-        </div>\
-            <div id="story"><br>\
-                <span style="color: white;">this shit isn\'t fucking working :&lpar;</span>\
-            </div><br>\
-        <div class="space">\
-            <div style="text-align: left"><span id="prev1"></span></div>\
-            <div id="center1" style="text-align: center;"></div>\
-            <div style="text-align: right;"><span id="next1"></span></div>\
-        </div><br><br>'}
-    document.body.innerHTML += '<fuck></fuck>'
-    displayStory(content, extraScript, doCookies, doX, doY, doOutput)
+      '<br><div class="space"><div style="text-align: left"><button id="prev">&lt; Prev</button></div><div id="center" style="text-align: center;"></div><div style="text-align: right;"><button id="next">Next &gt;</button></div></div><div id="story"><br><span style="color: white;">this shit isn\'t fucking working :&lpar;</span></div><br><div class="space"><div style="text-align: left"><span id="prev1"></span></div><div id="center1" style="text-align: center;"></div><div style="text-align: right;"><span id="next1"></span></div></div><br><br>'}
+    displayStory(content, pageSetup, doCookies, doX, doY, doOutput)
   }
 }
 

@@ -608,6 +608,7 @@ var other = [
     <video controls src="./New folder/c9cc8f2419f997ceb1e14c39881445ba.mp4">no porn for you :(</video>\
     <video controls src="./New folder/f8edf92043cf883d4c3656c9faca12ba.mp4">no porn for you :(</video>\
     <video controls title="it's hip to fuck bees" src="./New folder/aca7adc5ceab98de67d3da721e9a5e01.mp4">no porn for you :(</video><br>`,
+
     `
     <video controls src="./New folder/c8c2e73e0860cca288f156db2cbce415.mp4">no porn for you :(</video>\
     <video controls src="./New folder/84702ab25211cdf8249f2ca171b10aaa.mp4">no porn for you :(</video>\
@@ -626,8 +627,16 @@ var other = [
     <a href="New folder/3dc249bbdef915da969508d8f7f3a49a.gif"><img src="New folder/3dc249bbdef915da969508d8f7f3a49a.gif"></a>'
 ]
 
+var bees = [
+    `
+    <video controls src="/r34/zonkpunch/dee437966e9c80f167b2a03968b0e6e2.mp4"></video>
+    <video controls title="it's hip to fuck bees" src="./New folder/aca7adc5ceab98de67d3da721e9a5e01.mp4">no porn for you :(</video>
+    `
+]
+
 var harder_stuff = [
-    `<video controls src="/r34/irl/4gV-RaIL-cropped.mp4">no porn for you :(</video>`,
+    `<video controls src="/r34/irl/4gV-RaIL-cropped.mp4">no porn for you :(</video>
+    `,
 ]
 
 var ai = [
