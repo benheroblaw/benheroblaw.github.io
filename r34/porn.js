@@ -247,6 +247,8 @@ var miku = [
             <a href="miku/5f589b041536849fee900baf2dc57804.jpeg"><img src="miku/5f589b041536849fee900baf2dc57804.jpeg"></a>\
             <a href="miku/3057fd1f959f5d6ee2c3bc184a48e6ce.jpeg"><img src="miku/3057fd1f959f5d6ee2c3bc184a48e6ce.jpeg"></a>\
         </div>',
+
+    `miku`
 ]
 
 var pornSidebar = '\

@@ -50,7 +50,7 @@ button {cursor: pointer;}
 .blue:hover {color: aqua; background-color: rgba(0, 123, 255, 0.5); font-family: lucida console; font-size: 100%;}
 .red:link, .red:visited {color: red; font-family: lucida console; font-size: 100%;}
 .red:hover {color: red; background-color: #7d0000; font-family: lucida console; font-size: 100%;}
-.hidden {color:black; cursor:default}
+.hidden {color:black; cursor:default; text-shadow: none;}
 .hidden:hover {color:black; cursor:default; font-size: 100%;}
 .audio {border: red, solid; width: 75%;}
 .audio:hover {border: #5f0, solid;}

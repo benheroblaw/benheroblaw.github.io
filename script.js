@@ -42,7 +42,7 @@ var pornSidebar = `\
   <a class="blue" href="/r34/audio.html"><span>Audio</span></a><br>\
   <a class="blue" href="/r34/shibby.html"><span>shibby</span></a><br><br>\
   <button onclick="location.reload(true)">ctrl+f5</button><br><br>\
-  <a class="hidden", style="color: #111;" href="/r34/ia/ai.html">ai stuff</a><br>
+  <a class="hidden", style="color: #111;" href="/r34/ia/ai.html">ai</a><br>
   <a class="hidden", style="color: #111;" href="/r34/files.html">Files</a>
 `
 
@@ -423,10 +423,9 @@ function startStory(content=['wtf'], format=false, doOutput=true, pageSetup=['']
   if (doOutput) {tesLog('story: displaying')}
   if (startState === 'ready to display') {
     if (format === true) {document.body.innerHTML +=
-      '<br><div class="space"><div style="text-align: left"><button id="prev">&lt; Prev</button></div><div id="center" style="text-align: center;"></div><div style="text-align: right;"><button id="next">Next &gt;</button></div></div><div id="story"><br><span style="color: white;">this shit isn\'t fucking working :&lpar;</span></div><br><div class="space"><div style="text-align: left"><button id="prev1">&lt; Prev</button></div><div id="center1" style="text-align: center;"></div><div style="text-align: right;"><button id="next1">Next &gt;</button></div></div>\
-        <br><br>'}
+      `<br><div class="space"><div style="text-align: left"><button id="prev">&lt; Prev</button></div><div id="center" style="text-align: center;"></div><div style="text-align: right;"><button id="next">Next &gt;</button></div></div><div id="story"><br><span style="color: white;">loading...<br>if this doesn't finish loading soon you should try again</span></div><br><div class="space"><div style="text-align: left"><button id="prev1">&lt; Prev</button></div><div id="center1" style="text-align: center;"></div><div style="text-align: right;"><button id="next1">Next &gt;</button></div></div><br><br>`}
     else if (format === 'top') {document.body.innerHTML +=
-      '<br><div class="space"><div style="text-align: left"><button id="prev">&lt; Prev</button></div><div id="center" style="text-align: center;"></div><div style="text-align: right;"><button id="next">Next &gt;</button></div></div><div id="story"><br><span style="color: white;">this shit isn\'t fucking working :&lpar;</span></div><br><div class="space"><div style="text-align: left"><span id="prev1"></span></div><div id="center1" style="text-align: center;"></div><div style="text-align: right;"><span id="next1"></span></div></div><br><br>'}
+      `<br><div class="space"><div style="text-align: left"><button id="prev">&lt; Prev</button></div><div id="center" style="text-align: center;"></div><div style="text-align: right;"><button id="next">Next &gt;</button></div></div><div id="story"><br><span style="color: white;">loading...<br>if this doesn't finish loading soon you should try again</span></div><br><div class="space"><div style="text-align: left"><span id="prev1"></span></div><div id="center1" style="text-align: center;"></div><div style="text-align: right;"><span id="next1"></span></div></div><br><br>`}
     displayStory(content, pageSetup, doCookies, doX, doY, doOutput)
   }
 }
@@ -477,6 +476,7 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
   // next
   const next = document.createElement('button')
   next.innerText = 'Next >'
+  next.id ='next'
   next.onclick = () => {
     if (viewerIndex < contents.length -1) {
       viewerIndex++
@@ -491,14 +491,21 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
   // prev
   const prev = document.createElement('button')
   prev.innerText = '< Prev'
+  prev.id = 'prev'
   prev.onclick = () => {
     if (viewerIndex != 0) {
       viewerIndex--
+      if (viewerIndex === 0) {gewi('prev').textDecoration = 'line-through'; tesLog('no prev')}
+      this.textDecoration = 'none'
       setCookie(path, viewerIndex)
       console.log(viewerIndex)
       gewi("image").src = basePath + contents[viewerIndex];
       qSelA('.pages>button').forEach(element => element.style.backgroundColor = 'black');
       gewi(viewerIndex).style.backgroundColor = "blue";
+    }
+    else {
+      this.textDecoration = 'line-through'
+      tesLog('no prev')
     }
   }
 
@@ -691,10 +698,13 @@ function clear() {
 }
 
 var video = qSelA('video')
-document.addEventListener('loadstart', video.forEach(element => element.preload = 'none'))
+// document.addEventListener('loadstart', video.forEach(element => element.preload = 'none'))
 
 function addSidebar(sidebar=pornSidebar, viewerSidebar='', sidebar3='', sidebar4='',) {
-  document.head.innerHTML += '<link rel="stylesheet" href="/sidebar.css">'
+  // document.head.innerHTML += '<link rel="stylesheet" href="/sidebar.css">'
+  promiseLoadLink('/sidebar.css', 'stylesheet').then(placeSidebar(sidebar, viewerSidebar, sidebar3, sidebar4))
+}
+function placeSidebar(sidebar, viewerSidebar, sidebar3, sidebar4) {
   try {gewi('sidebar').innerHTML = sidebar; gewi('sidebar').style.display = 'inline'}
   catch (Error) {errorMessage('no 1st sidebar')}
   // try {qSel('sidebar').innerHTML = sidebar; qSel('sidebar').style.display = 'inline'}
@@ -882,6 +892,14 @@ function promiseLoadScript(url) {
   document.head.appendChild(script)
   return Promise.resolve('Success')
 }
+function promiseLoadLink(url, type) {
+  var file = document.createElement("link")
+  file.href = url;
+  file.rel = type
+
+  document.head.appendChild(file)
+  return Promise.resolve('Success')
+}
 function loadScript (script='') {
   new Promise(() => promiseLoadScript(script))
   console.log(`loaded ${script}`)
@@ -897,6 +915,8 @@ document.addEventListener("DOMContentLoaded", function() {
   // document.body.appendChild(script)
   if (window.location.pathname.indexOf('/r34/') > -1) {
     tesLog('loading porn.js');
+    gewi('sidebar').remove()
+    document.body.innerHTML += '<div id="sidebar"></div>'
     promiseLoadScript('/r34/porn.js').then(addSidebar(pornSidebar))
   }
 
@@ -925,7 +945,7 @@ document.addEventListener("DOMContentLoaded", function() {
 })
 
 document.addEventListener("onload", function() {
-  addSidebar(pornSidebar)
+  // addSidebar(pornSidebar)
   qSelA('img').forEach(element => element.style.userSelect = 'none')
 })
 

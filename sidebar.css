@@ -2,7 +2,7 @@
     height: 99.2%;
     width: 160px;
     position: fixed;
-    z-index: 2;
+    z-index: 1;
     top: 0;
     left: -165px;
     transition: 0.2s;
