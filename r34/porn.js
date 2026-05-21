@@ -29,11 +29,14 @@ var irl = ['\
     <video preload="auto" controls src="/r34/phub/compressO-idk.mp4">no porn for you :(</video>\
   </p>',
 
-  '<p>images<br><br>\
-    <a href="/r34/phub/GbQeSrYakAMKch1.jpg"><img src="/r34/phub/GbQeSrYakAMKch1.jpg"></a>\
-    <a href="/r34/phub/Gx6U-cpbgAAexnu.jpeg"><img src="/r34/phub/Gx6U-cpbgAAexnu.jpeg"></a>\
+  `<p>images<br><br>\
+    <a href="/r34/irl/GbQeSrYakAMKch1.jpg"><img src="/r34/irl/GbQeSrYakAMKch1.jpg"></a>\
+    <a href="/r34/irl/Gx6U-cpbgAAexnu.jpeg"><img src="/r34/irl/Gx6U-cpbgAAexnu.jpeg"></a>\
     <a href="/r34/irl/dryivgkvRDCK.png"><img src="irl/dryivgkvRDCK.png"></a>\
-  </p>',
+    ` +
+    linkedImage('/r34/irl/cfgxi.jpeg') +
+    `
+  </p>`,
 
 ]
 
@@ -299,9 +302,8 @@ var dragonSidebar = '<h1>Viewers</h1>'
 // export {irl, audio, pornSidebar}
 
 var zonkpunch = [
-    '\
-    <video controls src="/r34/zonkpunch/dee437966e9c80f167b2a03968b0e6e2.mp4"></video>\
-    ',
+    linkVideo("/r34/zonkpunch/dee437966e9c80f167b2a03968b0e6e2.mp4")
+    ,
 
 ]
 
@@ -861,4 +863,33 @@ var ai = [
     linkedImage('miku/6023a897c172f2fffe6d3d1d2e5de647.png')+
     linkedImage('miku/efa3300822181b0bd0e0d43ff920254e.png')+
     '',
+]
+
+var bonkge = [
+    linkVideo('/r34/bonkge/Bonk 1.mp4', true) +
+    linkVideo('/r34/bonkge/Bonk 1 ALT.mp4', true) +
+    linkVideo('/r34/bonkge/ASH-Wmp4.mp4', true) +
+    linkVideo('/r34/bonkge/Bonk_2.mp4', true),
+
+    linkVideo('/r34/bonkge/2B+Ww 1.mp4', true) +
+    linkVideo('/r34/bonkge/2B+Ww 2.mp4', true) +
+    linkVideo('/r34/bonkge/2B_1.mp4', true) +
+    linkVideo('/r34/bonkge/2B_Ver2.mp4', true),
+
+    linkVideo('/r34/bonkge/Bonkge Evelynn Private Room 2026.mp4') +
+    linkVideo('/r34/bonkge/Bonkge Evelynn Alt V1 2026.mp4') +
+    linkVideo('/r34/bonkge/Bonkge Evelynn Alt V2 2026.mp4') +
+    linkVideo('/r34/bonkge/Bonkge Evelynn Alt V3 2026.mp4'),
+
+    linkVideo('/r34/bonkge/Eve x Wolfy V1.mp4') +
+    linkVideo('/r34/bonkge/Eve x Wolfy V2.mp4') +
+    linkVideo('/r34/bonkge/Eve V2_V3 Wolf sound.mp4'),
+
+    linkVideo('/r34/bonkge/Ada Getting The Knot.mp4') +
+    linkVideo('/r34/bonkge/ADA Audio Patreon.mp4') +
+    linkVideo('/r34/bonkge/ADA Audio + Wolf Patreon.mp4'),
+
+    linkVideo('/r34/bonkge/Ashley.mp4') +
+    linkVideo('/r34/bonkge/-Doge-1.mp4') +
+    linkVideo('/r34/bonkge/Bonkge New Year Special 2025.mp4'),
 ]

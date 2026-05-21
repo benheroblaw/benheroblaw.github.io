@@ -23,8 +23,9 @@ var pornSidebar = `\
   <a href="coolart.html" class="blue"><span>Artists</span></a><br>\
   <br>\
   \
-  <a class="blue" href="/r34/comics.html"><span>Comics</span></a><br><br>\
-  <a href="/r34/cavestory.html" id="cavestory" class="blue" onmouseenter="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0002.svg\'" onmouseleave="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0001.svg\'" onload="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0001.svg\'"><span>Cave Story</span></a> <img src="/r34/cavestory/assets/Sprite-0001.svg" style="border: none" id="quotehead"><br>\
+  <a class="blue" href="/r34/comics.html"><span>Comics</span></a><br><br>` +
+  // <a class='red' href='/r34/bonkge.html'><span>Bonkge</span></a><br>
+  `<a href="/r34/cavestory.html" id="cavestory" class="blue" onmouseenter="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0002.svg\'" onmouseleave="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0001.svg\'" onload="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0001.svg\'"><span>Cave Story</span></a> <img src="/r34/cavestory/assets/Sprite-0001.svg" style="border: none" id="quotehead"><br>\
   <a href="/r34/dragon-maid.html" class="blue"><span>Dragon Maid</span></a><br>\
   <a href="/r34/hard-degen.html" class="blue"><span>Hard Degenerate</span></a><br>\
   <a href="/r34/hoyo.html" class="blue"><span>Hoyoverse</span></a><br>\
@@ -868,6 +869,15 @@ function qSelA(params='') {
 function linkedImage(link, linebreak='') {
   var output = ` <a href="${link}"><img src="${link}"></a> `
   if (linebreak != '') {output += '<br>'}
+  return output
+}
+
+function linkVideo(link, loop=false) {
+  var output = ` <video preload="auto" controls src="${link}"`
+  if (loop) {
+    output += ' loop'
+  }
+  output += '>no porn for you :(</video>'
   return output
 }
 
