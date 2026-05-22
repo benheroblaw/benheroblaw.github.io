@@ -171,114 +171,119 @@ var belle_boob_contest_text = [
 var belle_boob_contest = belle_boob_contest_table
 
 var miku = [
-    '16:9<br>\
-        <video controls width="15%" title="hatsune blowjob" src="miku/0564b3cb8b58055592879edf386d854a.mp4">no porn for you :(</video>\
-        <video controls width="15%" title="futa x miku" src="miku/dd9ed60005744a7c72b7e60092e212ff.mp4">no porn for you :(</video>\
-        <br>\
-        <br>\
-        9:16<br>\
-        <video controls width="15%" title="brazilian miku culls the local fish population by ejaculating into the sea" src="miku/5ec746be03aed9d5acdb40b6d2da5d86.mp4">no porn for you :(</video>\
-        <video controls width="15%" title="brazilian miku cums on herself from autopaizuri" src="miku/f055fa442137855e2c82af3b8fc38d59.mp4">no porn for you :(</video>\
-        ',
+    'horizontal<br>\
+    <video controls title="hatsune blowjob" src="miku/0564b3cb8b58055592879edf386d854a.mp4">no porn for you :(</video>\
+    <video controls title="futa x miku" src="miku/dd9ed60005744a7c72b7e60092e212ff.mp4">no porn for you :(</video>'
+    +
+    '<br><br>\
+    vertical<br>\
+    <video controls title="brazilian miku culls the local fish population by ejaculating into the sea" src="miku/5ec746be03aed9d5acdb40b6d2da5d86.mp4">no porn for you :(</video>\
+    <video controls title="brazilian miku cums on herself from autopaizuri" src="miku/f055fa442137855e2c82af3b8fc38d59.mp4">no porn for you :(</video>\
+    '+
+    linkVideo('/r34/miku/eaef8b539adca6f7370c4e5bb689a32c.mp4', false, 'mikuteto monitoring')
+    ,
 
-    '<a href="miku/d26967e74cf4bb5b88f62209177c47f4.jpeg"><img src="miku/d26967e74cf4bb5b88f62209177c47f4.jpeg"></a>\
-        <a href="miku/8694a05f839325fafe03ed24a53befe3.jpeg"><img src="miku/8694a05f839325fafe03ed24a53befe3.jpeg"></a>\
-        <a href="miku/8efd1a280d5dc98b5591de852cae9879.jpeg"><img src="miku/8efd1a280d5dc98b5591de852cae9879.jpeg"></a>\
-        <a href="miku/5b4affe3cfd8e9f7629f75e06e061fbd-1.jpeg"><img src="miku/5b4affe3cfd8e9f7629f75e06e061fbd-1.jpeg"></a>\
-        <a href="miku/5b4affe3cfd8e9f7629f75e06e061fbd-2.jpeg"><img src="miku/5b4affe3cfd8e9f7629f75e06e061fbd-2.jpeg"></a>\
-        <a href="miku/68b3e199ed4c4d3572a58a5b3f234479.jpeg"><img src="miku/68b3e199ed4c4d3572a58a5b3f234479.jpeg"></a>\
-        <a href="miku/9e876d116046181418a072295123f429.jpeg"><img src="miku/9e876d116046181418a072295123f429.jpeg"></a>\
-        <a href="miku/cddce6aea9f075b6c4e4c70b339b10b7.jpeg"><img src="miku/cddce6aea9f075b6c4e4c70b339b10b7.jpeg"></a>\
-        <a href="miku/88a3b9862d762f2b6adcc1f86f305a93.jpeg"><img src="miku/88a3b9862d762f2b6adcc1f86f305a93.jpeg"></a>\
-        <a href="miku/a448edcf1710ddcefbd673b2b7d01133.jpeg"><img src="miku/a448edcf1710ddcefbd673b2b7d01133.jpeg"></a>\
-        <a href="miku/af7a510515e8a09f05c1067f43b4af72.jpeg"><img src="miku/af7a510515e8a09f05c1067f43b4af72.jpeg"></a>\
-        <a href="miku/89e14c071e0ab1111e7730fbfd08ee0e.jpeg"><img src="miku/89e14c071e0ab1111e7730fbfd08ee0e.jpeg"></a>\
-        <a href="miku/c5443b5a4bfb09c0dfa1710e0a329c6b.jpeg"><img src="miku/c5443b5a4bfb09c0dfa1710e0a329c6b.jpeg"></a>\
-        <a href="miku/b9c5728351db9b191cd90d8fb3ddb1e0.jpeg"><img src="miku/b9c5728351db9b191cd90d8fb3ddb1e0.jpeg"></a>\
-        <a href="miku/87fe2e17b40279f9c503241a32034c0ec0533468.jpg"><img src="miku/87fe2e17b40279f9c503241a32034c0ec0533468.jpg"></a>\
-        <a href="miku/7cca25e099035f1167b751f1ced16840.jpeg"><img src="miku/7cca25e099035f1167b751f1ced16840.jpeg"></a>\
-        <a href="miku/4c2180e435c818b0349acb820f6c0f02.jpeg"><img src="miku/4c2180e435c818b0349acb820f6c0f02.jpeg"></a>\
-        <a href="miku/a6f85af61c528e507853a8d451be4d0a.jpeg"><img src="miku/a6f85af61c528e507853a8d451be4d0a.jpeg"></a>\
-        <a href="miku/e31d051206aadd464177352663ab3130.jpeg"><img src="miku/e31d051206aadd464177352663ab3130.jpeg"></a>\
-        <br><br>\
-        <a href="miku/54a6a063caa2096e17e79f9b257c7f6f.gif"><img src="miku/54a6a063caa2096e17e79f9b257c7f6f.gif"></a>',
+'<a href="miku/d26967e74cf4bb5b88f62209177c47f4.jpeg"><img src="miku/d26967e74cf4bb5b88f62209177c47f4.jpeg"></a>\
+    <a href="miku/8694a05f839325fafe03ed24a53befe3.jpeg"><img src="miku/8694a05f839325fafe03ed24a53befe3.jpeg"></a>\
+    <a href="miku/8efd1a280d5dc98b5591de852cae9879.jpeg"><img src="miku/8efd1a280d5dc98b5591de852cae9879.jpeg"></a>\
+    <a href="miku/5b4affe3cfd8e9f7629f75e06e061fbd-1.jpeg"><img src="miku/5b4affe3cfd8e9f7629f75e06e061fbd-1.jpeg"></a>\
+    <a href="miku/5b4affe3cfd8e9f7629f75e06e061fbd-2.jpeg"><img src="miku/5b4affe3cfd8e9f7629f75e06e061fbd-2.jpeg"></a>\
+    <a href="miku/68b3e199ed4c4d3572a58a5b3f234479.jpeg"><img src="miku/68b3e199ed4c4d3572a58a5b3f234479.jpeg"></a>\
+    <a href="miku/9e876d116046181418a072295123f429.jpeg"><img src="miku/9e876d116046181418a072295123f429.jpeg"></a>\
+    <a href="miku/cddce6aea9f075b6c4e4c70b339b10b7.jpeg"><img src="miku/cddce6aea9f075b6c4e4c70b339b10b7.jpeg"></a>\
+    <a href="miku/88a3b9862d762f2b6adcc1f86f305a93.jpeg"><img src="miku/88a3b9862d762f2b6adcc1f86f305a93.jpeg"></a>\
+    <a href="miku/a448edcf1710ddcefbd673b2b7d01133.jpeg"><img src="miku/a448edcf1710ddcefbd673b2b7d01133.jpeg"></a>\
+    <a href="miku/af7a510515e8a09f05c1067f43b4af72.jpeg"><img src="miku/af7a510515e8a09f05c1067f43b4af72.jpeg"></a>\
+    <a href="miku/89e14c071e0ab1111e7730fbfd08ee0e.jpeg"><img src="miku/89e14c071e0ab1111e7730fbfd08ee0e.jpeg"></a>\
+    <a href="miku/c5443b5a4bfb09c0dfa1710e0a329c6b.jpeg"><img src="miku/c5443b5a4bfb09c0dfa1710e0a329c6b.jpeg"></a>\
+    <a href="miku/b9c5728351db9b191cd90d8fb3ddb1e0.jpeg"><img src="miku/b9c5728351db9b191cd90d8fb3ddb1e0.jpeg"></a>\
+    <a href="miku/87fe2e17b40279f9c503241a32034c0ec0533468.jpg"><img src="miku/87fe2e17b40279f9c503241a32034c0ec0533468.jpg"></a>\
+    <a href="miku/7cca25e099035f1167b751f1ced16840.jpeg"><img src="miku/7cca25e099035f1167b751f1ced16840.jpeg"></a>\
+    <a href="miku/4c2180e435c818b0349acb820f6c0f02.jpeg"><img src="miku/4c2180e435c818b0349acb820f6c0f02.jpeg"></a>\
+    <a href="miku/a6f85af61c528e507853a8d451be4d0a.jpeg"><img src="miku/a6f85af61c528e507853a8d451be4d0a.jpeg"></a>\
+    <a href="miku/e31d051206aadd464177352663ab3130.jpeg"><img src="miku/e31d051206aadd464177352663ab3130.jpeg"></a>'+
+    linkedImage('/r34/miku/a9baff4ebd3e3b41b70b4fc427027789.jpeg')+
+    '<br><br>\
+    <a href="miku/54a6a063caa2096e17e79f9b257c7f6f.gif"><img src="miku/54a6a063caa2096e17e79f9b257c7f6f.gif"></a>'+
+    linkedImage('/r34/miku/895ae626ca075dd41e55b40020f75acf.gif'),
 
-        // '<div style="margin-bottom: none; margin-top: none">' +
-        // '<button onclick="startViewer(\'/r34/miku/\', miguteto, \'html>body>div.centerList\')">migu tedo</button> '+
-        // '<button onclick="startViewer(\'/r34/miku/\', honymigu, \'html>body>div.centerList\')">hony migu</button><br>',
+    // '<div style="margin-bottom: none; margin-top: none">' +
+    // '<button onclick="startViewer(\'/r34/miku/\', miguteto, \'html>body>div.centerList\')">migu tedo</button> '+
+    // '<button onclick="startViewer(\'/r34/miku/\', honymigu, \'html>body>div.centerList\')">hony migu</button><br>',
 
-        '\
-        <a href="miku/0f8a388730e546aef20990a60757adb8.jpeg"><img src="miku/0f8a388730e546aef20990a60757adb8.jpeg"></a>\
-        <a href="miku/aca37e5c7d3a15ee4ac3dae5fc397853.jpeg"><img src="miku/aca37e5c7d3a15ee4ac3dae5fc397853.jpeg"></a>\
-        <a href="miku/a621a25d706d16231608a19a8a76063e.jpeg"><img src="miku/a621a25d706d16231608a19a8a76063e.jpeg"></a>\
-        <a href="miku/18cb8a40cd9ad3d805eab50cc554af1c.jpeg"><img src="miku/18cb8a40cd9ad3d805eab50cc554af1c.jpeg"></a>\
-        <a href="miku/d343cdd5c03c1692f12d1fc2d648cee8.jpeg"><img src="miku/d343cdd5c03c1692f12d1fc2d648cee8.jpeg"></a>\
-        <a href="miku/b28ff04086d3a97c3acde2a8663a962b.jpeg"><img src="miku/b28ff04086d3a97c3acde2a8663a962b.jpeg"></a>\
-        <br>\
-        <!-- cat miku -->\
-        <a href="miku/aac207d5e1785afa1229896de3b7b46a.jpeg"><img src="miku/aac207d5e1785afa1229896de3b7b46a.jpeg"></a>\
-        <a href="miku/e8dadf31a590971e14fb600d26bd2a04.jpeg"><img src="miku/e8dadf31a590971e14fb600d26bd2a04.jpeg"></a>\
-        <a href="miku/e44432dd72d3f1fdd6bbb158ce88bff1.jpeg"><img src="miku/e44432dd72d3f1fdd6bbb158ce88bff1.jpeg"></a>\
-        <a href="miku/fe6c583a47dcf5853a67fb566d11dc28.jpeg"><img src="miku/fe6c583a47dcf5853a67fb566d11dc28.jpeg"></a>\
-        <a href="miku/25aaea04ca09a28a8b66f55c878daef0.jpeg"><img src="miku/25aaea04ca09a28a8b66f55c878daef0.jpeg"></a>\
-        <a href="miku/3eeff357bfb9bb03bd62e112dd138273.jpeg"><img src="miku/3eeff357bfb9bb03bd62e112dd138273.jpeg"></a>\
-        <br>\
-        <!-- horny miku -->\
-        <a href="miku/ac54a11bbb77e39af4d787fb09898460.jpeg"><img src="miku/ac54a11bbb77e39af4d787fb09898460.jpeg"></a>\
-        <a href="miku/62712ca8e9f4225b7d97e0beeafd7b41.jpeg"><img src="miku/62712ca8e9f4225b7d97e0beeafd7b41.jpeg"></a>\
-        <a href="miku/a388d5923fe81cca1536de440c0ce083.jpeg"><img src="miku/a388d5923fe81cca1536de440c0ce083.jpeg"></a>\
-        <a href="miku/166063370f1ad25f66d09c3fd5bb8d64.jpeg"><img src="miku/166063370f1ad25f66d09c3fd5bb8d64.jpeg"></a>\
-        <a href="miku/49d1ea68baed87d76c92ae53fe9cf5d2.jpeg"><img src="miku/49d1ea68baed87d76c92ae53fe9cf5d2.jpeg"></a>\
-        <a href="miku/998e2df3f6ff30925c7174a7095d86aa.jpeg"><img src="miku/998e2df3f6ff30925c7174a7095d86aa.jpeg"></a>\
-        <a href="miku/9d14b8ad95bc03da20cb25e7900ff2ae.jpeg"><img src="miku/9d14b8ad95bc03da20cb25e7900ff2ae.jpeg"></a>\
-        <a href="miku/389d016d5d86d261cc9e4b18099baad0.jpeg"><img src="miku/389d016d5d86d261cc9e4b18099baad0.jpeg"></a>\
-        <a href="miku/394083c311dd2fe99f8feae6beea8c14.jpeg"><img src="miku/394083c311dd2fe99f8feae6beea8c14.jpeg"></a>\
-        <a href="miku/3c0d2dfafb66d2a45be11b311d189efa.jpeg"><img src="miku/3c0d2dfafb66d2a45be11b311d189efa.jpeg"></a>\
-        <a href="miku/06a3a8cbefad71470120aa70acc86b90.jpeg"><img src="miku/06a3a8cbefad71470120aa70acc86b90.jpeg"></a>\
-        <a href="miku/9ffe692444aa4cdf8bdeb4f238826e29.jpeg"><img src="miku/9ffe692444aa4cdf8bdeb4f238826e29.jpeg"></a>\
-        <a href="miku/41c8df62ad47b2f505bdef97d4dd2cd4.jpeg"><img src="miku/41c8df62ad47b2f505bdef97d4dd2cd4.jpeg"></a>\
-        <a href="miku/0cbf6b0738ec314c17a94c498e393a4b.jpeg"><img src="miku/0cbf6b0738ec314c17a94c498e393a4b.jpeg"></a>\
-        <br>\
-        <!-- big miku mikus -->\
-        <a href="miku/5f589b041536849fee900baf2dc57804-miku.jpeg"><img src="miku/5f589b041536849fee900baf2dc57804-miku.jpeg"></a>\
-        <a href="miku/5f589b041536849fee900baf2dc57804-teto.jpeg"><img src="miku/5f589b041536849fee900baf2dc57804-teto.jpeg"></a>\
-        <a href="miku/5f589b041536849fee900baf2dc57804-neru.jpeg"><img src="miku/5f589b041536849fee900baf2dc57804-neru.jpeg"></a>',
+    '\
+    migu teto<br>\
+    <a href="miku/0f8a388730e546aef20990a60757adb8.jpeg"><img src="miku/0f8a388730e546aef20990a60757adb8.jpeg"></a>\
+    <a href="miku/aca37e5c7d3a15ee4ac3dae5fc397853.jpeg"><img src="miku/aca37e5c7d3a15ee4ac3dae5fc397853.jpeg"></a>\
+    <a href="miku/a621a25d706d16231608a19a8a76063e.jpeg"><img src="miku/a621a25d706d16231608a19a8a76063e.jpeg"></a>\
+    <a href="miku/18cb8a40cd9ad3d805eab50cc554af1c.jpeg"><img src="miku/18cb8a40cd9ad3d805eab50cc554af1c.jpeg"></a>\
+    <a href="miku/d343cdd5c03c1692f12d1fc2d648cee8.jpeg"><img src="miku/d343cdd5c03c1692f12d1fc2d648cee8.jpeg"></a>\
+    <a href="miku/b28ff04086d3a97c3acde2a8663a962b.jpeg"><img src="miku/b28ff04086d3a97c3acde2a8663a962b.jpeg"></a>\
+    <br><br>\
+    cat miku<br>\
+    <a href="miku/aac207d5e1785afa1229896de3b7b46a.jpeg"><img src="miku/aac207d5e1785afa1229896de3b7b46a.jpeg"></a>\
+    <a href="miku/e8dadf31a590971e14fb600d26bd2a04.jpeg"><img src="miku/e8dadf31a590971e14fb600d26bd2a04.jpeg"></a>\
+    <a href="miku/e44432dd72d3f1fdd6bbb158ce88bff1.jpeg"><img src="miku/e44432dd72d3f1fdd6bbb158ce88bff1.jpeg"></a>\
+    <a href="miku/fe6c583a47dcf5853a67fb566d11dc28.jpeg"><img src="miku/fe6c583a47dcf5853a67fb566d11dc28.jpeg"></a>\
+    <a href="miku/25aaea04ca09a28a8b66f55c878daef0.jpeg"><img src="miku/25aaea04ca09a28a8b66f55c878daef0.jpeg"></a>\
+    <a href="miku/3eeff357bfb9bb03bd62e112dd138273.jpeg"><img src="miku/3eeff357bfb9bb03bd62e112dd138273.jpeg"></a>\
+    <br><br>\
+    horny miku<br>\
+    <a href="miku/ac54a11bbb77e39af4d787fb09898460.jpeg"><img src="miku/ac54a11bbb77e39af4d787fb09898460.jpeg"></a>\
+    <a href="miku/62712ca8e9f4225b7d97e0beeafd7b41.jpeg"><img src="miku/62712ca8e9f4225b7d97e0beeafd7b41.jpeg"></a>\
+    <a href="miku/a388d5923fe81cca1536de440c0ce083.jpeg"><img src="miku/a388d5923fe81cca1536de440c0ce083.jpeg"></a>\
+    <a href="miku/166063370f1ad25f66d09c3fd5bb8d64.jpeg"><img src="miku/166063370f1ad25f66d09c3fd5bb8d64.jpeg"></a>\
+    <a href="miku/49d1ea68baed87d76c92ae53fe9cf5d2.jpeg"><img src="miku/49d1ea68baed87d76c92ae53fe9cf5d2.jpeg"></a>\
+    <a href="miku/998e2df3f6ff30925c7174a7095d86aa.jpeg"><img src="miku/998e2df3f6ff30925c7174a7095d86aa.jpeg"></a>\
+    <a href="miku/9d14b8ad95bc03da20cb25e7900ff2ae.jpeg"><img src="miku/9d14b8ad95bc03da20cb25e7900ff2ae.jpeg"></a>\
+    <a href="miku/389d016d5d86d261cc9e4b18099baad0.jpeg"><img src="miku/389d016d5d86d261cc9e4b18099baad0.jpeg"></a>\
+    <a href="miku/394083c311dd2fe99f8feae6beea8c14.jpeg"><img src="miku/394083c311dd2fe99f8feae6beea8c14.jpeg"></a>\
+    <a href="miku/3c0d2dfafb66d2a45be11b311d189efa.jpeg"><img src="miku/3c0d2dfafb66d2a45be11b311d189efa.jpeg"></a>\
+    <a href="miku/06a3a8cbefad71470120aa70acc86b90.jpeg"><img src="miku/06a3a8cbefad71470120aa70acc86b90.jpeg"></a>\
+    <a href="miku/9ffe692444aa4cdf8bdeb4f238826e29.jpeg"><img src="miku/9ffe692444aa4cdf8bdeb4f238826e29.jpeg"></a>\
+    <a href="miku/41c8df62ad47b2f505bdef97d4dd2cd4.jpeg"><img src="miku/41c8df62ad47b2f505bdef97d4dd2cd4.jpeg"></a>\
+    <a href="miku/0cbf6b0738ec314c17a94c498e393a4b.jpeg"><img src="miku/0cbf6b0738ec314c17a94c498e393a4b.jpeg"></a>\
+    <br><br>\
+    big miku mikus<br>\
+    <a href="miku/5f589b041536849fee900baf2dc57804-miku.jpeg"><img src="miku/5f589b041536849fee900baf2dc57804-miku.jpeg"></a>\
+    <a href="miku/5f589b041536849fee900baf2dc57804-teto.jpeg"><img src="miku/5f589b041536849fee900baf2dc57804-teto.jpeg"></a>\
+    <a href="miku/5f589b041536849fee900baf2dc57804-neru.jpeg"><img src="miku/5f589b041536849fee900baf2dc57804-neru.jpeg"></a>',
 
-        '\
-        <div id="stripContainer">\
-            <a href="miku/5b4affe3cfd8e9f7629f75e06e061fbd.jpeg"><img src="miku/5b4affe3cfd8e9f7629f75e06e061fbd.jpeg"></a>\
-            <a href="miku/5f589b041536849fee900baf2dc57804.jpeg"><img src="miku/5f589b041536849fee900baf2dc57804.jpeg"></a>\
-            <a href="miku/3057fd1f959f5d6ee2c3bc184a48e6ce.jpeg"><img src="miku/3057fd1f959f5d6ee2c3bc184a48e6ce.jpeg"></a>\
+    '\
+    <div id="stripContainer">\
+        <div><a href="miku/5b4affe3cfd8e9f7629f75e06e061fbd.jpeg"><img src="miku/5b4affe3cfd8e9f7629f75e06e061fbd.jpeg"></a></div>\
+        <div><a href="miku/5f589b041536849fee900baf2dc57804.jpeg"><img src="miku/5f589b041536849fee900baf2dc57804.jpeg"></a></div>\
+        <div><a href="miku/3057fd1f959f5d6ee2c3bc184a48e6ce.jpeg"><img src="miku/3057fd1f959f5d6ee2c3bc184a48e6ce.jpeg"></a></div>\
         </div>',
 
-    `miku`
+    `miku<br><img src="/icons/miku.svg" style="border: none; width: 2rem;" onmouseenter="this.src = '/icons/mikuSelected.svg'" onmouseleave="this.src = '/icons/miku.svg'">`
 ]
 
-var pornSidebar = '\
-    <h1><a href="/r34/r34.html"><span style="color: white;">prawns</span></a></h1>\
-    <a href="all.html" class="red"><span>all</span></a><br>\
-    <a class="blue" href="assets.html"><span>assets</span></a><br>\
-    <a href="coolart.html" class="blue"><span>Artists</span></a><br>\
-    <br>\
-    \
-    <a class="blue" href="/r34/comics.html"><span>Comics</span></a><br><br>\
-    <a href="/r34/dragon-maid.html" class="blue"><span>Dragon Maid</span></a><br>\
-    <a href="/r34/hard-degen.html" class="blue"><span>Hard Degenerate</span></a><br>\
-    <a href="/r34/hoyo.html" class="blue"><span>Hoyoverse</span></a><br>\
-    <a class="blue" href="/r34/mario.html"><span>Mario</span></a><br>\
-    <a class="blue" href="/r34/miku.html"><span>Miku</span></a><br>\
-    <a class="blue" href="/r34/Overwatch.html"><span>Overwatch</span></a><br>\
-    <a class="blue" href="/r34/other.html"><span>Other</span></a><br>\
-    <a class="blue" href="/r34/irl.html"><span>IRL</span></a><br>\
-    <a class="blue" href="/r34/pokemon.html"><span>Pokemon</span></a><br>\
-    <a class="blue" href="/r34/rouge.html"><span>Rouge the Bat</span></a><br>\
-    <a class="blue" href="/r34/roblox.html"><span>Roblox</span></a><br>\
-    <a class="blue" href="/r34/terraria.html"><span>Terraria</span></a><br><br>\
-    <a class="blue" href="/r34/audio.html"><span>Audio</span></a><br>\
-    <a class="blue" href="/r34/shibby.html"><span>shibby</span></a><br><br>\
-    <button onclick="location.reload(true)">ctrl+f5</button><br>\
-    <a class="hidden", style="color: #111;" href="files.html">Files</a>\
-'
+// var pornSidebar = '\
+//     <h1><a href="/r34/r34.html"><span style="color: white;">prawns</span></a></h1>\
+//     <a href="all.html" class="red"><span>all</span></a><br>\
+//     <a class="blue" href="assets.html"><span>assets</span></a><br>\
+//     <a href="coolart.html" class="blue"><span>Artists</span></a><br>\
+//     <br>\
+//     \
+//     <a class="blue" href="/r34/comics.html"><span>Comics</span></a><br><br>\
+//     <a href="/r34/dragon-maid.html" class="blue"><span>Dragon Maid</span></a><br>\
+//     <a href="/r34/hard-degen.html" class="blue"><span>Hard Degenerate</span></a><br>\
+//     <a href="/r34/hoyo.html" class="blue"><span>Hoyoverse</span></a><br>\
+//     <a class="blue" href="/r34/mario.html"><span>Mario</span></a><br>\
+//     <a class="blue" href="/r34/miku.html"><span>Miku</span></a><br>\
+//     <a class="blue" href="/r34/Overwatch.html"><span>Overwatch</span></a><br>\
+//     <a class="blue" href="/r34/other.html"><span>Other</span></a><br>\
+//     <a class="blue" href="/r34/irl.html"><span>IRL</span></a><br>\
+//     <a class="blue" href="/r34/pokemon.html"><span>Pokemon</span></a><br>\
+//     <a class="blue" href="/r34/rouge.html"><span>Rouge the Bat</span></a><br>\
+//     <a class="blue" href="/r34/roblox.html"><span>Roblox</span></a><br>\
+//     <a class="blue" href="/r34/terraria.html"><span>Terraria</span></a><br><br>\
+//     <a class="blue" href="/r34/audio.html"><span>Audio</span></a><br>\
+//     <a class="blue" href="/r34/shibby.html"><span>shibby</span></a><br><br>\
+//     <button onclick="location.reload(true)">ctrl+f5</button><br>\
+//     <a class="hidden", style="color: #111;" href="files.html">Files</a>\
+// '
 
 var pokemonSidebar = '\
     <h1>Viewers</h1>\
@@ -356,12 +361,12 @@ var br = '<br>'
 
 var curly = [
     '\
-    <video preload="auto" controls width="15%" src="/r34/cavestory/64d0303a36e502580a6116859400420a.mp4">no porn for you :(</video>\
-    <video preload="auto" controls width="15%" src="/r34/cavestory/8e800b0dc0e00960d547bbb60f1e4e43.mp4">no porn for you :(</video>\
-    <video preload="auto" controls width="15%" src="/r34/cavestory/6b61c8293ac2da0d49dbfcef544ddf89.mp4">no porn for you :(</video>\
-    <video preload="auto" controls width="15%" src="/r34/cavestory/bb4d9c6efd826cc6fae1f5e206d8125a.mp4">no porn for you :(</video>\
-    <video preload="auto" controls width="15%" src="/r34/cavestory/695790f68daaa72051422099b3219243.mp4">no porn for you :(</video>\
-    <video preload="auto" controls width="15%" src="/r34/cavestory/7bf5204a32191defdf494fb9c250d514.mp4">no porn for you :(</video>\
+    <video preload="auto" controls src="/r34/cavestory/64d0303a36e502580a6116859400420a.mp4">no porn for you :(</video>\
+    <video preload="auto" controls src="/r34/cavestory/8e800b0dc0e00960d547bbb60f1e4e43.mp4">no porn for you :(</video>\
+    <video preload="auto" controls src="/r34/cavestory/6b61c8293ac2da0d49dbfcef544ddf89.mp4">no porn for you :(</video>\
+    <video preload="auto" controls src="/r34/cavestory/bb4d9c6efd826cc6fae1f5e206d8125a.mp4">no porn for you :(</video>\
+    <video preload="auto" controls src="/r34/cavestory/695790f68daaa72051422099b3219243.mp4">no porn for you :(</video>\
+    <video preload="auto" controls src="/r34/cavestory/7bf5204a32191defdf494fb9c250d514.mp4">no porn for you :(</video>\
     ',
 
     '<img draggable="false" src="/r34/cavestory/599b1ec8c535ff41a6ce01367c3a4c2a.png" style="border: none" ondblclick="window.open(\'/r34/cavestory/599b1ec8c535ff41a6ce01367c3a4c2a.png\', \'_self\')">\
@@ -620,8 +625,8 @@ var other = [
     <!-- <video controls src="./New folder/f8edf92043cf883d4c3656c9faca12ba.mp4">no porn for you :(</video> -->\
     <!-- <video controls src="./New folder/70d5d73e91905c36800d7daccdbe182a.mp4">no porn for you :(</video> -->`,
 
-    '<a href="comics/the baptist/sample_083809cccf0c0d68bffe124245a3daaa.jpg"><img src="comics/the baptist/sample_083809cccf0c0d68bffe124245a3daaa.jpg"></a>\
-    <a href="comics/the baptist/sample_81cac618b8121e925552ba490d93d8cb.jpg"><img src="comics/the baptist/sample_81cac618b8121e925552ba490d93d8cb.jpg"></a>\
+    '<a href="comics/baptist/sample_083809cccf0c0d68bffe124245a3daaa.jpg"><img src="comics/baptist/sample_083809cccf0c0d68bffe124245a3daaa.jpg"></a>\
+    <a href="comics/baptist/sample_81cac618b8121e925552ba490d93d8cb.jpg"><img src="comics/baptist/sample_81cac618b8121e925552ba490d93d8cb.jpg"></a>\
     <a href="./New folder/8af6079d60e148e018ef1878b8d0be3f89bc9935.jpg"><img src="./New folder/8af6079d60e148e018ef1878b8d0be3f89bc9935.jpg"></a>\
     <a href="phub/G1lkh7iWcAAI4Gm.jpeg"><img src="phub/G1lkh7iWcAAI4Gm.jpeg"></a>',
 

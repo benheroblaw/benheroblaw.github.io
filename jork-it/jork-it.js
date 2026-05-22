@@ -1,6 +1,6 @@
-hony = [';3 < ', ';//3 < ', '://3 < ']
+var hony = [';3 < ', ';//3 < ', '://3 < ']
 
-const path = 'jorking - '
+path = 'jorking - '
 
 if (checkCookie(path + 'debug') === 'error') {
   setCookie(path + 'debug', false)

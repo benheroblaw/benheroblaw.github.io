@@ -11,7 +11,7 @@ if ('serviceWorker' in navigator) {
 }
 
 // variables
-let path = location.pathname
+var path = location.pathname
 
 var script = document.createElement('script')
 script.src = '/r34/porn.js'
@@ -25,13 +25,13 @@ var pornSidebar = `\
   \
   <a class="blue" href="/r34/comics.html"><span>Comics</span></a><br><br>` +
   // <a class='red' href='/r34/bonkge.html'><span>Bonkge</span></a><br>
-  `<a href="/r34/cavestory.html" id="cavestory" class="blue" onmouseenter="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0002.svg\'" onmouseleave="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0001.svg\'" onload="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0001.svg\'"><span>Cave Story</span></a> <img src="/r34/cavestory/assets/Sprite-0001.svg" style="border: none" id="quotehead"><br>\
+  `<a href="/r34/cavestory.html" id="cavestory" class="blue" onmouseenter="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0002.svg\'" onmouseleave="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0001.svg\'" onload="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0001.svg\'"><span>Cave Story</span></a> <img src="/r34/cavestory/assets/Sprite-0001.svg" style="border: none;" id="quotehead"><br>\
   <a href="/r34/dragon-maid.html" class="blue"><span>Dragon Maid</span></a><br>\
   <a href="/r34/hard-degen.html" class="blue"><span>Hard Degenerate</span></a><br>\
   <a href="/r34/hoyo.html" class="blue"><span>Hoyoverse</span></a><br>\
   <a class="blue" href="/r34/irl.html"><span>IRL</span></a><br>\
   <a class="blue" href="/r34/mario.html"><span>Mario</span></a><br>\
-  <a class="blue" href="/r34/miku.html"><span>Miku</span></a><br>\
+  <a href="/r34/miku.html" id="cavestory" class="blue" onmouseenter="gewi(\'mikuhead\').src=\'/icons/mikuSelected.png\'" onmouseleave="gewi(\'mikuhead\').src=\'/icons/miku.png\'" onload="gewi(\'mikuhead\').src=\'/icons/miku.png\'"><span>Miku</span> <img src="/icons/miku.png" style="border: none; width: 1rem; height: 1rem" id="mikuhead"></a><br>\
   <a class="blue" href="/r34/Overwatch.html"><span>Overwatch</span></a><br>\
   <a class="blue" href="/r34/other.html"><span>Other</span></a><br>\
   <a class="blue" href="/r34/pokemon.html"><span>Pokemon</span></a><br>\
@@ -215,10 +215,11 @@ function deleteCookie(cname, cvalue='', output = true, exdays = -7) {
 //     .catch(error => console.error('Failed to fetch data:', error));
 // }
 
-function displayStory(content = ['wtf'], pageSetup='', doCookies = true, doX = false, doY = true, doOutput = false) {
+function displayStory(content = ['wtf'], pageSetup='', volume=0.1, doCookies = true, doX = false, doY = true, doOutput = false) {
   var page = window.location.pathname + ' - '
   var showSlide = (n) => {
     gewi('story').innerHTML = content[n]
+    vol(volume)
   }
 
   // const next
@@ -298,7 +299,7 @@ function displayStory(content = ['wtf'], pageSetup='', doCookies = true, doX = f
     }
     window.scrollTo(0, 0)
     showSlide(index)
-    vol()
+    vol(volume)
     if (doCookies == true) {
       setCookie(page + 'index', index, doOutput)
     }
@@ -327,7 +328,7 @@ function displayStory(content = ['wtf'], pageSetup='', doCookies = true, doX = f
     }
     window.scrollTo(0, 0)
     showSlide(index)
-    vol()
+    vol(volume)
     if (doCookies == true) {
       setCookie(page + 'index', index, doOutput)
     }
@@ -387,19 +388,20 @@ function displayStory(content = ['wtf'], pageSetup='', doCookies = true, doX = f
   if (doOutput) {tesLog('finished loading story')}
 }
 
-var startState = 'not started'
+let startState = 'not started'
 
 /**
  * Starts displayStory
  * @param {Array} content content in the thing
  * @param {Boolean} format do you want it formatted? true, false, top
- * @param {String} pageSetup how you want to display pages
+ * @param {String} pageSetup how you want to display pages (unused for now)
+ * @param {Number} volume the volume you want videos to be set to on page turn
  * @param {Boolean} doCookies
  * @param {Boolean} doX
  * @param {Boolean} doY
  * @param {Boolean} doOutput
  */
-function startStory(content=['wtf'], format=false, doOutput=true, pageSetup=[''], doCookies=true, doX=false, doY=true) {
+function startStory(content=['wtf'], format=false, doOutput=true, pageSetup=[''], volume=0.1, doCookies=true, doX=false, doY=true) {
   if (doOutput) {tesLog('starting story...')}
   var s = document.createElement('script');
   s.id = 'text'
@@ -427,7 +429,7 @@ function startStory(content=['wtf'], format=false, doOutput=true, pageSetup=['']
       `<br><div class="space"><div style="text-align: left"><button id="prev">&lt; Prev</button></div><div id="center" style="text-align: center;"></div><div style="text-align: right;"><button id="next">Next &gt;</button></div></div><div id="story"><br><span style="color: white;">loading...<br>if this doesn't finish loading soon you should try again</span></div><br><div class="space"><div style="text-align: left"><button id="prev1">&lt; Prev</button></div><div id="center1" style="text-align: center;"></div><div style="text-align: right;"><button id="next1">Next &gt;</button></div></div><br><br>`}
     else if (format === 'top') {document.body.innerHTML +=
       `<br><div class="space"><div style="text-align: left"><button id="prev">&lt; Prev</button></div><div id="center" style="text-align: center;"></div><div style="text-align: right;"><button id="next">Next &gt;</button></div></div><div id="story"><br><span style="color: white;">loading...<br>if this doesn't finish loading soon you should try again</span></div><br><div class="space"><div style="text-align: left"><span id="prev1"></span></div><div id="center1" style="text-align: center;"></div><div style="text-align: right;"><span id="next1"></span></div></div><br><br>`}
-    displayStory(content, pageSetup, doCookies, doX, doY, doOutput)
+    displayStory(content, pageSetup, volume, doCookies, doX, doY, doOutput)
   }
 }
 
@@ -672,7 +674,7 @@ function stripHtml(html) {
   '';
 }
 
-function vol(video_volume = 0.1, audio_volume = 0.75) {
+function vol (video_volume = 0.1, audio_volume = 0.75) {
   var video = qSelA('video');
   video.forEach(element => element.volume = video_volume
   )
@@ -872,8 +874,8 @@ function linkedImage(link, linebreak='') {
   return output
 }
 
-function linkVideo(link, loop=false) {
-  var output = ` <video preload="auto" controls src="${link}"`
+function linkVideo(link, loop=false, title) {
+  var output = ` <video preload="auto" controls src="${link}" title="${title}"`
   if (loop) {
     output += ' loop'
   }
@@ -915,6 +917,16 @@ function loadScript (script='') {
   console.log(`loaded ${script}`)
 }
 
+function selectableMiku(size='2rem') {
+  return `<img src="/icons/miku.svg" style="border: none; width: ${size};" onmouseenter="this.src = '/icons/mikuSelected.svg'" onmouseleave="this.src = '/icons/miku.svg'">`
+}
+function selectableTeto(size='2rem') {
+  return `<img src="/icons/teto.svg" style="border: none; width: ${size};" onmouseenter="this.src = '/icons/tetoSelected.svg'" onmouseleave="this.src = '/icons/teto.svg'">`
+}
+function selectableNeru(size='2rem') {
+  return `<img src="/icons/neru.svg" style="border: none; width: ${size};" onmouseenter="this.src = '/icons/neruSelected.svg'" onmouseleave="this.src = '/icons/neru.svg'">`
+}
+
 // event listeners
 
 document.addEventListener('load', () =>
@@ -925,7 +937,8 @@ document.addEventListener("DOMContentLoaded", function() {
   // document.body.appendChild(script)
   if (window.location.pathname.indexOf('/r34/') > -1) {
     tesLog('loading porn.js');
-    gewi('sidebar').remove()
+    try {gewi('sidebar').remove()}
+    catch (Error) {}
     document.body.innerHTML += '<div id="sidebar"></div>'
     promiseLoadScript('/r34/porn.js').then(addSidebar(pornSidebar))
   }
@@ -948,7 +961,8 @@ document.addEventListener("DOMContentLoaded", function() {
   })
   setInterval(function () {
     qSelA('img').forEach(element => {
-      element.draggable = false;
+      element.draggable = false
+      element.style.userSelect = 'none'
     })
     // tesLog('setting draggable')
   }, 500)
@@ -956,7 +970,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 document.addEventListener("onload", function() {
   // addSidebar(pornSidebar)
-  qSelA('img').forEach(element => element.style.userSelect = 'none')
 })
 
 if (window.location.href.indexOf('http://localhost:8001') > 0) {

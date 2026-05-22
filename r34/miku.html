@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="/r34/style.css">
-    <link rel="icon" href="/icons/miku.png">
+    <link rel="icon" href="/icons/miku.svg">
 
     <script src="/script.js"></script>
 </head>
@@ -9,6 +9,12 @@
 <style>
     #stripContainer {
         display: inline-block;
+        align-items: start;
+        align-content: top;
+        vertical-align: top;
+    }
+    #stripContainer>div {
+        display: inline;
         align-items: start;
         align-content: top;
         vertical-align: top;
@@ -45,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function() {
 })
 </script>
 <html>
-    <body class="centerList" onload="startStory(miku, 'top', 'vol(0.25)',); vol(0.25)">
+    <body class="centerList" onload="startStory(miku, 'top', '', 2.5);">
         <div id="sidebar"></div>
         <div id="sidebar2"></div>
     </body>
