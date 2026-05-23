@@ -1,2 +1,7 @@
 i want to try making something that shows the cave story portraits
+
 add something to startStory that lets the user choose how to display navigation buttons on each page
+
+add a function to vocaloid idle that makes adding more synths easier (it would take a string that gets put into all the places i spend a long ass time replacing)
+    - also make all of the vocaloid additions happen in one function
+    - need to improve performance too
