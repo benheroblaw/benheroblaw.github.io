@@ -256,7 +256,7 @@ var miku = [
         <div><a href="miku/3057fd1f959f5d6ee2c3bc184a48e6ce.jpeg"><img src="miku/3057fd1f959f5d6ee2c3bc184a48e6ce.jpeg"></a></div>\
         </div>',
 
-    `miku<br><img src="/icons/miku.svg" style="border: none; width: 2rem;" onmouseenter="this.src = '/icons/mikuSelected.svg'" onmouseleave="this.src = '/icons/miku.svg'">`
+    `miku<br><img src="/icons/miku.svg" style="border: none; width: 2rem; background-color: #aaaaaa55;" onmouseenter="this.src = '/icons/mikuSelected.svg'" onmouseleave="this.src = '/icons/miku.svg'">`
 ]
 
 // var pornSidebar = '\

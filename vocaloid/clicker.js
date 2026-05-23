@@ -42,9 +42,9 @@ function init() {
   let tetos = getTetos()
   let nerus = getNerus()
 
-  gewi('mikus').innerHTML = ' ' + mikus + ' Mikus'
-  gewi('tetos').innerHTML = ' ' + tetos + ' Tetos'
-  gewi('nerus').innerHTML = ' ' + nerus + ' Nerus'
+  gewi('mikus').innerHTML = ' ' + mikus.toExponential() + ' Mikus'
+  gewi('tetos').innerHTML = ' ' + tetos.toExponential() + ' Tetos'
+  gewi('nerus').innerHTML = ' ' + nerus.toExponential() + ' Nerus'
 
   gewi('mikuFace').innerHTML = selectableMiku('4rem')
   gewi('tetoFace').innerHTML = selectableTeto('4rem')
@@ -54,19 +54,19 @@ function init() {
     mikus = getCookie(path + 'mikus')
     mikus++
     setCookie(path + 'mikus', mikus)
-    gewi('mikus').innerHTML = ' ' + mikus + ' Mikus'
+    gewi('mikus').innerHTML = ' ' + mikus.toExponential() + ' Mikus'
   }
   gewi('tetoFace').onclick = () => {
     tetos = getCookie(path + 'tetos')
     tetos++
     setCookie(path + 'tetos', tetos)
-    gewi('tetos').innerHTML = ' ' + tetos + ' Tetos'
+    gewi('tetos').innerHTML = ' ' + tetos.toExponential() + ' Tetos'
   }
   gewi('neruFace').onclick = () => {
     nerus = getCookie(path + 'nerus')
     nerus++
     setCookie(path + 'nerus', nerus)
-    gewi('nerus').innerHTML = ' ' + nerus + ' Nerus'
+    gewi('nerus').innerHTML = ' ' + nerus.toExponential() + ' Nerus'
   }
 
   gewi('mikuAuto').addEventListener('click', async (e) => {
@@ -83,8 +83,45 @@ function init() {
       setCookie(path + 'mikus',
         mikus
       )
-    gewi('mikus').innerHTML = ' ' + mikus + ' Mikus'
+    gewi('mikus').innerHTML = ' ' + mikus.toExponential() + ' Mikus'
     gewi('mps').innerHTML = amikus + ' Mikus per second.'
+    }
+    // await delay(750)
+    // while (e.type == 'mousedown') {
+    // await delay (50)
+    //   if (mikus >= 25) {
+    //   amikus++
+    //   if (amikus === 1) {sing()}
+    //     setCookie(
+    //       path + 'amikus',
+    //       amikus
+    //     )
+    //     mikus -= 25
+    //     setCookie(path + 'mikus',
+    //       mikus
+    //     )
+    //   gewi('mikus').innerHTML = ' ' + mikus + ' Mikus'
+    //   gewi('mps').innerHTML = amikus + ' Mikus per second.'
+    //   }
+    //   else {console.log('not enough mikus')}
+    // }
+  })
+  gewi('tetoAuto').addEventListener('click', async (e) => {
+    tetos = getTetos()
+    atetos = Number(getCookie(path + 'atetos'))
+    if (tetos >= 25) {
+    atetos++
+    if (atetos === 1) {sing()}
+      setCookie(
+        path + 'atetos',
+        atetos
+      )
+      tetos -= 25
+      setCookie(path + 'tetos',
+        tetos
+      )
+    gewi('tetos').innerHTML = ' ' + tetos.toExponential() + ' Tetos'
+    gewi('tps').innerHTML = atetos + ' Tetos per second.'
     }
     // await delay(750)
     // while (e.type == 'mousedown') {
@@ -126,12 +163,12 @@ const amiku = async () => {
     if (amikus < 1000) {
       await delay(1000 / amikus)
       setCookie(path + 'mikus', mikus +1)
-    gewi('mikus').innerHTML = `${mikus} Mikus`
+    gewi('mikus').innerHTML = `${mikus.toExponential()} Mikus`
     }
     else {
-      await delay(10)
-      setCookie(path + 'mikus', mikus + Math.round(amikus / 10))
-    gewi('mikus').innerHTML = `${mikus} Mikus`
+      await delay(30)
+      setCookie(path + 'mikus', mikus + Math.round(amikus / 30))
+    gewi('mikus').innerHTML = `${mikus.toExponential()} Mikus`
     }
   }
 }
@@ -141,9 +178,16 @@ const ateto = async () => {
 
   while (atetos > 0) {
     tetos = getTetos()
-    setCookie(path + 'tetos', tetos +1)
-    gewi('tetos').innerHTML = `${tetos} Tetos`
-    await delay(1000 / atetos)
+    if (atetos < 1000) {
+      await delay(1000 / atetos)
+      setCookie(path + 'tetos', tetos +1)
+    gewi('tetos').innerHTML = `${tetos.toExponential()} Tetos`
+    }
+    else {
+      await delay(30)
+      setCookie(path + 'tetos', tetos + Math.round(atetos / 30))
+    gewi('tetos').innerHTML = `${tetos.toExponential()} Tetos`
+    }
   }
 }
 const aneru = async () => {
