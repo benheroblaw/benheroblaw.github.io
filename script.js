@@ -401,7 +401,7 @@ let startState = 'not started'
  * @param {Boolean} doY
  * @param {Boolean} doOutput
  */
-function startStory(content=['wtf'], format=false, doOutput=true, pageSetup=[''], volume=0.1, doCookies=true, doX=false, doY=true) {
+function startStory(content=['wtf'], format=false, doOutput=true, volume=0.1, pageSetup=[''], doCookies=true, doX=false, doY=true) {
   if (doOutput) {tesLog('starting story...')}
   var s = document.createElement('script');
   s.id = 'text'
@@ -470,7 +470,7 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
   image.className = 'center'
   image.id = 'image'
   image.src = basePath + contents[Number(getCookie(path))]
-  image.style.marginTop = '0.5rem'
+  // image.style.marginTop = '0.5rem'
   image.style.marginBottom = '0.5rem'
   image.style.border = 'none'
   image.style.backgroundColor = 'rgb(127, 127, 127)'
@@ -483,8 +483,8 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
   next.onclick = () => {
     if (viewerIndex < contents.length -1) {
       viewerIndex++
-      setCookie(path, viewerIndex)
       console.log(viewerIndex)
+      gewi('image').src = 'none'
       gewi("image").src = basePath + contents[viewerIndex];
       qSelA('.pages>button').forEach(element => element.style.backgroundColor = 'black');
       gewi(viewerIndex).style.backgroundColor = "blue";
@@ -500,8 +500,8 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
       viewerIndex--
       if (viewerIndex === 0) {gewi('prev').textDecoration = 'line-through'; tesLog('no prev')}
       this.textDecoration = 'none'
-      setCookie(path, viewerIndex)
       console.log(viewerIndex)
+      gewi('image').src = 'none'
       gewi("image").src = basePath + contents[viewerIndex];
       qSelA('.pages>button').forEach(element => element.style.backgroundColor = 'black');
       gewi(viewerIndex).style.backgroundColor = "blue";
@@ -516,8 +516,8 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
     if (event.key === 'ArrowLeft') {
       if (viewerIndex != 0) {
         viewerIndex--
-        setCookie(path, viewerIndex)
         console.log(viewerIndex)
+      gewi('image').src = 'none'
         gewi("image").src = basePath + contents[viewerIndex];
         qSelA('.pages>button').forEach(element => element.style.backgroundColor = 'black');
         gewi(viewerIndex).style.backgroundColor = "blue";
@@ -526,7 +526,7 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
     else if (event.key === 'ArrowRight') {
       if (viewerIndex < contents.length -1) {
         viewerIndex++
-        setCookie(path, viewerIndex)
+      gewi('image').src = 'none'
         console.log(viewerIndex)
         gewi("image").src = basePath + contents[viewerIndex];
         qSelA('.pages>button').forEach(element => element.style.backgroundColor = 'black');

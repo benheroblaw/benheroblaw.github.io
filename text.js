@@ -940,3 +940,14 @@ var sonas = [
     <p></p>\
 </div>`,
 ]
+
+var storyHelp = [
+    `<br><div class="background">
+        <p>You want to know how to use the 'story' pages without looking at the code?</p>
+        <p>Very simple. Left and right arrows go left and right.</p>
+    </div>`,
+    `<br><div class="background">
+        <p>You did it!</p>
+        <p>Now look at the code if you want more.</p>
+    </div>`
+]

@@ -171,7 +171,8 @@ var belle_boob_contest_text = [
 var belle_boob_contest = belle_boob_contest_table
 
 var miku = [
-    'horizontal<br>\
+    '<h2>Videos</h2>\
+    horizontal<br>\
     <video controls title="hatsune blowjob" src="miku/0564b3cb8b58055592879edf386d854a.mp4">no porn for you :(</video>\
     <video controls title="futa x miku" src="miku/dd9ed60005744a7c72b7e60092e212ff.mp4">no porn for you :(</video>'
     +
@@ -183,7 +184,7 @@ var miku = [
     linkVideo('/r34/miku/eaef8b539adca6f7370c4e5bb689a32c.mp4', false, 'mikuteto monitoring')
     ,
 
-'<a href="miku/d26967e74cf4bb5b88f62209177c47f4.jpeg"><img src="miku/d26967e74cf4bb5b88f62209177c47f4.jpeg"></a>\
+'<h2>Images</h2><a href="miku/d26967e74cf4bb5b88f62209177c47f4.jpeg"><img src="miku/d26967e74cf4bb5b88f62209177c47f4.jpeg"></a>\
     <a href="miku/8694a05f839325fafe03ed24a53befe3.jpeg"><img src="miku/8694a05f839325fafe03ed24a53befe3.jpeg"></a>\
     <a href="miku/8efd1a280d5dc98b5591de852cae9879.jpeg"><img src="miku/8efd1a280d5dc98b5591de852cae9879.jpeg"></a>\
     <a href="miku/5b4affe3cfd8e9f7629f75e06e061fbd-1.jpeg"><img src="miku/5b4affe3cfd8e9f7629f75e06e061fbd-1.jpeg"></a>\
@@ -211,7 +212,7 @@ var miku = [
     // '<button onclick="startViewer(\'/r34/miku/\', miguteto, \'html>body>div.centerList\')">migu tedo</button> '+
     // '<button onclick="startViewer(\'/r34/miku/\', honymigu, \'html>body>div.centerList\')">hony migu</button><br>',
 
-    '\
+    '<h2>Comic images</h2>\
     migu teto<br>\
     <a href="miku/0f8a388730e546aef20990a60757adb8.jpeg"><img src="miku/0f8a388730e546aef20990a60757adb8.jpeg"></a>\
     <a href="miku/aca37e5c7d3a15ee4ac3dae5fc397853.jpeg"><img src="miku/aca37e5c7d3a15ee4ac3dae5fc397853.jpeg"></a>\
@@ -249,14 +250,14 @@ var miku = [
     <a href="miku/5f589b041536849fee900baf2dc57804-teto.jpeg"><img src="miku/5f589b041536849fee900baf2dc57804-teto.jpeg"></a>\
     <a href="miku/5f589b041536849fee900baf2dc57804-neru.jpeg"><img src="miku/5f589b041536849fee900baf2dc57804-neru.jpeg"></a>',
 
-    '\
+    '<h2>Comic strips</h2>\
     <div id="stripContainer">\
         <div><a href="miku/5b4affe3cfd8e9f7629f75e06e061fbd.jpeg"><img src="miku/5b4affe3cfd8e9f7629f75e06e061fbd.jpeg"></a></div>\
         <div><a href="miku/5f589b041536849fee900baf2dc57804.jpeg"><img src="miku/5f589b041536849fee900baf2dc57804.jpeg"></a></div>\
         <div><a href="miku/3057fd1f959f5d6ee2c3bc184a48e6ce.jpeg"><img src="miku/3057fd1f959f5d6ee2c3bc184a48e6ce.jpeg"></a></div>\
         </div>',
 
-    `miku<br><img src="/icons/miku.svg" style="border: none; width: 2rem; background-color: #aaaaaa55;" onmouseenter="this.src = '/icons/mikuSelected.svg'" onmouseleave="this.src = '/icons/miku.svg'">`
+    `miku<br><img src="/icons/miku.svg" style="border: none; width: 2rem; background-color: #aaaaaa00;" onmouseenter="this.src = '/icons/mikuSelected.svg'" onmouseleave="this.src = '/icons/miku.svg'">`
 ]
 
 // var pornSidebar = '\
