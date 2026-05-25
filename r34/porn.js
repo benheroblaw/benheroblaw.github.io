@@ -221,6 +221,11 @@ var miku = [
     <a href="miku/d343cdd5c03c1692f12d1fc2d648cee8.jpeg"><img src="miku/d343cdd5c03c1692f12d1fc2d648cee8.jpeg"></a>\
     <a href="miku/b28ff04086d3a97c3acde2a8663a962b.jpeg"><img src="miku/b28ff04086d3a97c3acde2a8663a962b.jpeg"></a>\
     <br><br>\
+    big miku mikus<br>\
+    <a href="miku/5f589b041536849fee900baf2dc57804-miku.jpeg"><img src="miku/5f589b041536849fee900baf2dc57804-miku.jpeg"></a>\
+    <a href="miku/5f589b041536849fee900baf2dc57804-teto.jpeg"><img src="miku/5f589b041536849fee900baf2dc57804-teto.jpeg"></a>\
+    <a href="miku/5f589b041536849fee900baf2dc57804-neru.jpeg"><img src="miku/5f589b041536849fee900baf2dc57804-neru.jpeg"></a>\
+    <br><br>\
     cat miku<br>\
     <a href="miku/aac207d5e1785afa1229896de3b7b46a.jpeg"><img src="miku/aac207d5e1785afa1229896de3b7b46a.jpeg"></a>\
     <a href="miku/e8dadf31a590971e14fb600d26bd2a04.jpeg"><img src="miku/e8dadf31a590971e14fb600d26bd2a04.jpeg"></a>\
@@ -244,11 +249,7 @@ var miku = [
     <a href="miku/9ffe692444aa4cdf8bdeb4f238826e29.jpeg"><img src="miku/9ffe692444aa4cdf8bdeb4f238826e29.jpeg"></a>\
     <a href="miku/41c8df62ad47b2f505bdef97d4dd2cd4.jpeg"><img src="miku/41c8df62ad47b2f505bdef97d4dd2cd4.jpeg"></a>\
     <a href="miku/0cbf6b0738ec314c17a94c498e393a4b.jpeg"><img src="miku/0cbf6b0738ec314c17a94c498e393a4b.jpeg"></a>\
-    <br><br>\
-    big miku mikus<br>\
-    <a href="miku/5f589b041536849fee900baf2dc57804-miku.jpeg"><img src="miku/5f589b041536849fee900baf2dc57804-miku.jpeg"></a>\
-    <a href="miku/5f589b041536849fee900baf2dc57804-teto.jpeg"><img src="miku/5f589b041536849fee900baf2dc57804-teto.jpeg"></a>\
-    <a href="miku/5f589b041536849fee900baf2dc57804-neru.jpeg"><img src="miku/5f589b041536849fee900baf2dc57804-neru.jpeg"></a>',
+    ',
 
     '<h2>Comic strips</h2>\
     <div id="stripContainer">\
