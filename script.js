@@ -425,10 +425,14 @@ function startStory(content=['wtf'], format=false, doOutput=true, volume=0.1, pa
     }
   if (doOutput) {tesLog('story: displaying')}
   if (startState === 'ready to display') {
-    if (format === true) {document.body.innerHTML +=
+    let formatting = ''
+    if (format === true) {formatting =
       `<br><div class="space"><div style="text-align: left"><button id="prev">&lt; Prev</button></div><div id="center" style="text-align: center;"></div><div style="text-align: right;"><button id="next">Next &gt;</button></div></div><div id="story"><br><span style="color: white;">loading...<br>if this doesn't finish loading soon you should try again</span></div><br><div class="space"><div style="text-align: left"><button id="prev1">&lt; Prev</button></div><div id="center1" style="text-align: center;"></div><div style="text-align: right;"><button id="next1">Next &gt;</button></div></div><br><br>`}
-    else if (format === 'top') {document.body.innerHTML +=
+    else if (format === 'top') {formatting =
       `<br><div class="space"><div style="text-align: left"><button id="prev">&lt; Prev</button></div><div id="center" style="text-align: center;"></div><div style="text-align: right;"><button id="next">Next &gt;</button></div></div><div id="story"><br><span style="color: white;">loading...<br>if this doesn't finish loading soon you should try again</span></div><br><div class="space"><div style="text-align: left"><span id="prev1"></span></div><div id="center1" style="text-align: center;"></div><div style="text-align: right;"><span id="next1"></span></div></div><br><br>`}
+    else if (format === 'bottom') {formatting =
+      `<br><div class="space"><div style="text-align: left"><span id="prev"></span></div><div id="center" style="text-align: center;"></div><div style="text-align: right;"><span id="next"></span></div></div><div id="story"><br><span style="color: white;">loading...<br>if this doesn't finish loading soon you should try again</span></div><br><div class="space"><div style="text-align: left"><button id="prev1">&lt; Prev</button></div><div id="center1" style="text-align: center;"></div><div style="text-align: right;"><button id="next1">Next &gt;</button></div></div><br><br>`}
+    document.body.innerHTML += formatting
     displayStory(content, pageSetup, volume, doCookies, doX, doY, doOutput)
   }
 }
@@ -940,6 +944,7 @@ document.addEventListener("DOMContentLoaded", function() {
     try {gewi('sidebar').remove()}
     catch (Error) {}
     document.body.innerHTML += '<div id="sidebar"></div>'
+    document.body.className = 'centerList'
     promiseLoadScript('/r34/porn.js').then(addSidebar(pornSidebar))
   }
 

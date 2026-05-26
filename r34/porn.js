@@ -651,7 +651,7 @@ var harder_stuff = [
 ]
 
 var ai = [
-    `ai stuff`,
+    `ai stuff<br>(theres a lot)`,
 
     '' +
     linkedImage('bocchi/001_1.jpg') +

@@ -6,8 +6,8 @@
     </head>
 <title>music</title>
 <html>
-    <body class="centerList" onload="audio(greenday, 'greenday'); audio(other, 'other'); audio(ultrakill, 'ultrakill'); audio(calamity, 'calamity'); audio(teto, 'teto'); audio(anime, 'anime'); vol(0, 0.1); document.body.volume = 0.5">
-        <div id="playlist"><audio id="player" controls onplay="doPlaylist();"></audio></div><br>
+    <body class="centerList" onload="audio(greenday, 'greenday'); audio(other, 'other'); audio(ultrakill, 'ultrakill'); audio(calamity, 'calamity'); audio(teto, 'teto'); audio(anime, 'anime'); vol(0, 0.1); document.body.volume = 0.5;">
+        <div id="playlist"><audio id="player" controls onplay="doPlaylist(playlist);"></audio></div><br>
         <div id="greenday" title="Green Day"></div>
         <div id="ultrakill" title="Ultrakill"></div>
         <div id="other" title="other"></div>
@@ -29,7 +29,7 @@
             gewi(location).appendChild(br)
         }
     }
-    function doPlaylist(){
+    function doPlaylist(playlist = []){
         let playlistNumber = 0
         let a = gewi('player')
         a.controls = true
@@ -62,44 +62,45 @@
     ]
 
     let greenday = [
-        'American Idiot',
-        'American Idiot - Demo',
-        'American Idiot (Alt. Version) - Demo',
-        'Jesus of Suburbia',
-        'Holiday',
-        'Boulevard of Broken Dreams',
-        'Are We the Waiting',
-        'St. Jimmy',
-        'Give Me Novacaine',
-        'She\'s a Rebel',
-        'Extraordinary Girl',
-        'Letterbomb',
-        'Wake Me Up When September Ends',
-        'Homecoming',
-        'Whatsername',
+        // 'American Idiot',
+        // 'American Idiot - Demo',
+        // 'American Idiot (Alt. Version) - Demo',
+        // 'Jesus of Suburbia',
+        // 'Holiday',
+        // 'Boulevard of Broken Dreams',
+        // 'Are We the Waiting',
+        // 'St. Jimmy',
+        // 'Give Me Novacaine',
+        // 'She\'s a Rebel',
+        // 'Extraordinary Girl',
+        // 'Letterbomb',
+        // 'Wake Me Up When September Ends',
+        // 'Homecoming',
+        // 'Whatsername',
 
-        'Burnout',
-        'Having a Blast',
-        'Chump',
-        'Longview',
-        'Welcome to Paradise',
-        'Pulling Teeth',
-        'Basket Case',
-        'She',
-        'Sassafras Roots',
-        'When I Come Around',
-        'Coming Clean',
-        'Emenius Sleepus',
-        'In the End',
-        'F.O.D.',
+        // 'Burnout',
+        // 'Having a Blast',
+        // 'Chump',
+        // 'Longview',
+        // 'Welcome to Paradise',
+        // 'Pulling Teeth',
+        // 'Basket Case',
+        // 'She',
+        // 'Sassafras Roots',
+        // 'When I Come Around',
+        // 'Coming Clean',
+        // 'Emenius Sleepus',
+        // 'In the End',
+        // 'F.O.D.',
 
-        'Brain Stew',
+        // 'Brain Stew',
     ]
 
     let ultrakill = [
         'Order',
         'Versus',
         'Duel (Versus Reprise)',
+        'The Cyber Grind'
     ]
 
     let other = [
@@ -129,7 +130,7 @@
     ]
 
     let playlist = [
-        '',
+        'Infestation',
         'Infestation',
         'american idiot - kasane teto (green day cover)',
         'KILLSWITCH',
@@ -183,6 +184,6 @@
     }
 
     #playlist {
-        display: none;
+        /* display: none; */
     }
 </style>
