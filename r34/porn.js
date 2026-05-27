@@ -609,6 +609,7 @@ var other = [
     <video controls src="./New folder/dbd4a76c653ce4fbc9b2669afa6c083a.mp4">no porn for you :(</video>\
     <video controls src="./New folder/cbd88ad074940b736b9d5d7b531ca9cf.mp4">no porn for you :(</video>\
     <video controls src="./New folder/05fb21154f21b3ea600819d737b286b6.mp4">no porn for you :(</video>\
+    <video controls src="./New folder/980f2ad806e0da079cc5cdf3ec1b2bf6.mp4">no porn for you :(</video>\
     <video controls src="./New folder/d73ef8644cc3a22b3074011741d1bc3f.mp4">no porn for you :(</video>\
     `,
     `\
@@ -617,8 +618,10 @@ var other = [
     <video controls src="./New folder/03ca86e8d2cf7d2cdd2a122bea73435b.mp4">no porn for you :(</video>\
     <video controls src="./New folder/bbd24c6e8688feee916e71c84d9cab35.mp4">no porn for you :(</video>\
     <video controls src="./New folder/c9cc8f2419f997ceb1e14c39881445ba.mp4">no porn for you :(</video>\
-    <video controls src="./New folder/f8edf92043cf883d4c3656c9faca12ba.mp4">no porn for you :(</video>\
-    <video controls title="it's hip to fuck bees" src="./New folder/aca7adc5ceab98de67d3da721e9a5e01.mp4">no porn for you :(</video><br>`,
+    <video controls src="./New folder/f8edf92043cf883d4c3656c9faca12ba.mp4">no porn for you :(</video>`,
+
+    `<video controls title="it's hip to fuck bees" src="./New folder/aca7adc5ceab98de67d3da721e9a5e01.mp4">no porn for you :(</video>`
+    + linkVideo('/r34/New folder/aa8e1c68100bf2f580c3939aebbfd6a4.mp4'),
 
     `
     <video controls src="./New folder/c8c2e73e0860cca288f156db2cbce415.mp4">no porn for you :(</video>\
@@ -630,7 +633,7 @@ var other = [
     '<a href="comics/baptist/sample_083809cccf0c0d68bffe124245a3daaa.jpg"><img src="comics/baptist/sample_083809cccf0c0d68bffe124245a3daaa.jpg"></a>\
     <a href="comics/baptist/sample_81cac618b8121e925552ba490d93d8cb.jpg"><img src="comics/baptist/sample_81cac618b8121e925552ba490d93d8cb.jpg"></a>\
     <a href="./New folder/8af6079d60e148e018ef1878b8d0be3f89bc9935.jpg"><img src="./New folder/8af6079d60e148e018ef1878b8d0be3f89bc9935.jpg"></a>\
-    <a href="phub/G1lkh7iWcAAI4Gm.jpeg"><img src="phub/G1lkh7iWcAAI4Gm.jpeg"></a>',
+    <a href="phub/G1lkh7iWcAAI4Gm.jpeg"><img src="irl5/26/G1lkh7iWcAAI4Gm.jpeg"></a>',
 
     '<a href="./pvz/IMG_9101.GIF"><img src="pvz/IMG_9101.GIF"></a>\
     <a href="pvz/IMG_9102.GIF"><img src="pvz/IMG_9102.GIF"></a>\
