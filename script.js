@@ -394,12 +394,12 @@ let startState = 'not started'
  * Starts displayStory
  * @param {Array} content content in the thing
  * @param {Boolean} format do you want it formatted? true, false, top
- * @param {String} pageSetup how you want to display pages (unused for now)
+ * @param {Boolean} doOutput
  * @param {Number} volume the volume you want videos to be set to on page turn
+ * @param {String} pageSetup how you want to display pages (unused for now)
  * @param {Boolean} doCookies
  * @param {Boolean} doX
  * @param {Boolean} doY
- * @param {Boolean} doOutput
  */
 function startStory(content=['wtf'], format=false, doOutput=true, volume=0.1, pageSetup=[''], doCookies=true, doX=false, doY=true) {
   if (doOutput) {tesLog('starting story...')}
@@ -589,8 +589,10 @@ function startStripViewer(src, pages, pagewidth, pageheight) {
     </div>'
 
   gewi('image').src = src
-  qSel('#image-container').style.width = pagewidth
-  qSel('#image-container').style.height = pageheight
+  qSel('#image-container').style.width = pagewidth + 'px'
+  qSel('#image-container').style.height = pageheight + 'px'
+  qSel('#image').style.width = pagewidth + 'px'
+  // qSel('#image').style.height = pageheight + 'px'
 
   for (let index = 0; index < pages; index++) {
     let location = (pageheight * index) * -1
