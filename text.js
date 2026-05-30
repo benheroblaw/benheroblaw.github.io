@@ -949,7 +949,6 @@ var storyHelp = [
     `<br><div class="background">
         <p>You did it!</p>
         <p>Now look at the code if you want more.</p>
-        <p>(if you found this from looking at the code good job :D)</p>
     </div>`
     // you're super cool if you found this in the code :D
 ]
