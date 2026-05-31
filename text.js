@@ -763,12 +763,46 @@ var villainess = [
         <p>There's the issue of her powers, too. Manipulation of light. Her power is the counter to mine, the destined opposite. Shadow cannot exist under the all-consuming gaze of light. Maybe Aciukinesis- the manipulation of an object's sharpness. A simple ability, but not one easily beaten.</p>\
         <p>So I need to train my power, my Umbrakinesis. Learn how to make shadows that can survive the light. I know I can use Aciukinesis on shadows in my grasp. I could use the shadows under her greaves, bend them out from their hiding place.</p>\
         <p>I could <i>extend</i> a shadow rather than manipulating it directly.</p>\
-        <p>As I think, I slowly and excruciatingly rise to my feet, almost blacking out even though I tried to go slowly. It doesn't pull as much as I stumble to another bush. My hands fumble at its roots, clumsily grabbing the servant's outfit stashed there. The plan is for me to act like a server caught in the crossfire.</p>\
-        <p>It's difficult to think through the pain.</p>\
+        <p>As I think, I slowly and excruciatingly rise to my feet, almost blacking out even though I tried to go slowly. It doesn't pull as much as I stumble to another bush. My hands fumble at its roots, clumsily grabbing the servant's outfit stashed there. The plan is for me to act like a server caught in the crossfire.</p><bR>
+        <p>It's difficult to think through the pain.</p><bR>
         <p>I strip off the layers of my dress, leaving only an undershirt and undershorts to pull the drab, mostly featureless top and skirt over. I step out of my fancy heels and slip on a pair more fitting of a servant's status. Heels are dreadful to wear; difficult to fight in and uncomfortable to walk on. More than that, they encourage a woman to exaggerate the sway of her hips, in turn showing off her body like an object. It's not my place to tell another woman what she should wear, as that would place me next to the fools arguing that women should be silent and defenseless. I would like nothing more that to wear flat-soled shoes, but disguise is necessary.</p>\
-        <p>The shadows pressed tightly around my stomach need to be replaced with a bandage. I let them dissipate and take a deep inhale to brace myself against the pain. It still makes me nauseous and leaves bright and dark spots fluttering around my vision.</p>\
+        <p>The shadows pressed tightly around my stomach need to be replaced with a bandage. I let them dissipate and take a deep inhale to brace myself against the pain. It still makes me nauseous, leaves bright and dark spots around my vision, and makes my head flutter.</p>\
         <p>Gasping at the white-hot slashes in my side, I wrap a bandage around my stomach and nearly pass out again as I tighten it.</p>\
-        <p>When the white fabric touched my wound, it immediately stained dark red.</p>\
+        <p>When the white fabric touched my wound, it immediately stained blood red.</p>\
+        <br>
+        <p>I need to find help.</p><br>
+        <p>There should be medics here. I wasn't very subtle, and Hero will have let them know.</p>\<br>
+        <p>It's the right thing to do, after all.</p>\<br>
+        <p>I stumble around the wall of leaves and branches to the long cobblestone road that runs from the door of the hall to the city. A cluster of white tents fly red crosses inside of red circles.</p>\
+        <p>The cobblestones attempt to grab and twist my ankles to send my head in their direction, my condition and heels making it even worse.</p>\<br>
+        <p>I struggle valiantly, but eventually they catch me.</p>\<br>
+        <p>My vision fades out as I dive towards the stones, somebody shouting as I collapse. For quite a while, I am freed from my mortal coil.</p>\<br>
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
         <p></p>\
         <p></p>\
         <p></p>\
@@ -808,7 +842,7 @@ var villainess = [
 
 var villainess_final = [
     villainess[3],
-    // villainess[4],
+    villainess[4],
 ]
 
 var sao = [
