@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="uuid_id">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata">
+    <dc:title>Hung Down With The Freaks and Ghouls</dc:title>
+    <meta name="calibre:timestamp" content="2025-09-09T15:36:44.964120+00:00"/>
+    <dc:language>en</dc:language>
+    <dc:creator opf:file-as="nidoranduran" opf:role="aut">NidoranDuran</dc:creator>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">f9cdf55d-beb3-44e6-9f5b-de0607fac6cc</dc:identifier>
+    <meta name="calibre:title_sort" content="hung down with the freaks and ghouls"/>
+    <dc:description>&lt;p&gt;Every year, Naranja Academy's field work 'catching class' produces some trouble, and this year is no different, as students go out into the wild to catch a unique Pokemon and end up finding more than they bargained for. All characters within are OCs owned by the commissioners of their scenes.&lt;/p&gt;</dc:description>
+    <dc:publisher>Archive of Our Own</dc:publisher>
+    <dc:subject>Fanworks</dc:subject>
+    <dc:subject>Explicit</dc:subject>
+    <dc:subject>Pocket Monsters: Scarlet &amp; Violet | Pokemon Scarlet &amp; Violet Versions</dc:subject>
+    <dc:subject>Original Characters</dc:subject>
+    <dc:subject>Plot What Plot/Porn Without Plot</dc:subject>
+    <dc:subject>Pokephilia</dc:subject>
+    <dc:subject>Vaginal Sex</dc:subject>
+    <dc:subject>Anal Sex</dc:subject>
+    <dc:subject>Blow Jobs</dc:subject>
+    <dc:subject>Cunnilingus</dc:subject>
+    <dc:subject>Hypnosis</dc:subject>
+    <dc:subject>Somnophilia</dc:subject>
+    <dc:subject>Voyeurism</dc:subject>
+    <dc:subject>Gangbang</dc:subject>
+    <dc:subject>Tentacles</dc:subject>
+    <dc:subject>Girl Penis</dc:subject>
+    <dc:subject>Breeding</dc:subject>
+    <dc:subject>F/F</dc:subject>
+    <dc:subject>F/M</dc:subject>
+    <dc:subject>Underage Sex</dc:subject>
+    <dc:date>2024-10-24T00:00:00+00:00</dc:date>
+  </metadata>
+  <manifest>
+    <item id="html4" href="Hung_Down_With_The_split_000.xhtml" media-type="application/xhtml+xml"/>
+    <item id="html3" href="Hung_Down_With_The_split_001.xhtml" media-type="application/xhtml+xml"/>
+    <item id="html2" href="Hung_Down_With_The_split_002.xhtml" media-type="application/xhtml+xml"/>
+    <item id="html1" href="Hung_Down_With_The_split_003.xhtml" media-type="application/xhtml+xml"/>
+    <item id="page_css" href="page_styles.css" media-type="text/css"/>
+    <item id="css" href="stylesheet.css" media-type="text/css"/>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="html4"/>
+    <itemref idref="html3"/>
+    <itemref idref="html2"/>
+    <itemref idref="html1"/>
+  </spine>
+</package>
