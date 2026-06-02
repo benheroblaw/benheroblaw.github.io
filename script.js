@@ -880,10 +880,16 @@ function linkedImage(link, linebreak='') {
   return output
 }
 
-function linkVideo(link, loop=false, title) {
-  var output = ` <video preload="auto" controls src="${link}" title="${title}"`
+function linkVideo(link, loop=false, title='') {
+  var output = ` <video preload="auto" controls src="${link}"`
   if (loop) {
     output += ' loop'
+  }
+  if (title != '') {
+    output += ` title="${title}"`
+  }
+  else {
+    output += ` title="${link}"`
   }
   output += '>no porn for you :(</video>'
   return output

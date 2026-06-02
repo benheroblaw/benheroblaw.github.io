@@ -902,6 +902,54 @@ var bonkge = [
     linkVideo('/r34/bonkge/Ashley.mp4') +
     linkVideo('/r34/bonkge/-Doge-1.mp4') +
     linkVideo('/r34/bonkge/Bonkge New Year Special 2025.mp4'),
+
+    linkVideo('/r34/bonkge/Sarah Bryant X Horse.mp4') +
+    linkVideo('/r34/bonkge/Lulu`s Hidden Affair.mp4') +
+    linkVideo('/r34/bonkge/Panam.mp4') +
+    linkVideo('/r34/bonkge/Panam Alt.mp4'),
+
+    linkVideo('/r34/bonkge/Tifa x WWolf v1.mp4') +
+    linkVideo('/r34/bonkge/Tifa x WWolf v2.mp4') +
+    linkVideo('/r34/bonkge/R-D.mp4') +
+    linkVideo('/r34/bonkge/Momiji.mp4'),
+]
+var bonkgeLarge = [
+    linkVideo('/r34/bonkge/large/Elden Lord (Marika and wolf).mp4') +
+    linkVideo('/r34/bonkge/Bonk 1 ALT.mp4', true) +
+    linkVideo('/r34/bonkge/ASH-Wmp4.mp4', true) +
+    linkVideo('/r34/bonkge/Bonk_2.mp4', true),
+
+    linkVideo('/r34/bonkge/2B+Ww 1.mp4', true) +
+    linkVideo('/r34/bonkge/2B+Ww 2.mp4', true) +
+    linkVideo('/r34/bonkge/2B_1.mp4', true) +
+    linkVideo('/r34/bonkge/2B_Ver2.mp4', true),
+
+    linkVideo('/r34/bonkge/Bonkge Evelynn Private Room 2026.mp4') +
+    linkVideo('/r34/bonkge/Bonkge Evelynn Alt V1 2026.mp4') +
+    linkVideo('/r34/bonkge/Bonkge Evelynn Alt V2 2026.mp4') +
+    linkVideo('/r34/bonkge/Bonkge Evelynn Alt V3 2026.mp4'),
+
+    linkVideo('/r34/bonkge/Eve x Wolfy V1.mp4') +
+    linkVideo('/r34/bonkge/Eve x Wolfy V2.mp4') +
+    linkVideo('/r34/bonkge/Eve V2_V3 Wolf sound.mp4'),
+
+    linkVideo('/r34/bonkge/Ada Getting The Knot.mp4') +
+    linkVideo('/r34/bonkge/ADA Audio Patreon.mp4') +
+    linkVideo('/r34/bonkge/ADA Audio + Wolf Patreon.mp4'),
+
+    linkVideo('/r34/bonkge/Ashley.mp4') +
+    linkVideo('/r34/bonkge/-Doge-1.mp4') +
+    linkVideo('/r34/bonkge/Bonkge New Year Special 2025.mp4'),
+
+    linkVideo('/r34/bonkge/Sarah Bryant X Horse.mp4') +
+    linkVideo('/r34/bonkge/Lulu`s Hidden Affair.mp4') +
+    linkVideo('/r34/bonkge/Panam.mp4') +
+    linkVideo('/r34/bonkge/Panam Alt.mp4'),
+
+    linkVideo('/r34/bonkge/Tifa x WWolf v1.mp4') +
+    linkVideo('/r34/bonkge/Tifa x WWolf v2.mp4') +
+    linkVideo('/r34/bonkge/R-D.mp4') +
+    linkVideo('/r34/bonkge/Momiji.mp4'),
 ]
 
 var pokemon = [
