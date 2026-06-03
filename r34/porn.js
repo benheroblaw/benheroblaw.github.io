@@ -1022,3 +1022,42 @@ var ao3 = [
     <a href="/books/All_The_Late-Night.html">All The Late-Night Bargains Have Been Struck</a><bR><br>
     </div>`
 ]
+
+var hardDegen = [
+    `<h2>4:3</h2>
+    <video preload="metadata" controls loop src="/r34/mario/e016fc84054326847de59d92cbe726c4.mp4">no porn for you :(</video>
+    <video preload="metadata" controls loop src="/r34/hard-degen/04eace63fa5231cfa7359947b6eac6f0.mp4">no porn for you :(</video>
+    <video preload="metadata" controls loop src="/r34/hard-degen/564bf11d6f7489c18b3731e2f7f8dc44.mp4">no porn for you :(</video>`,
+
+    `<h2>16:9 1</h2>
+    <video preload="metadata" controls src="/r34/mario/6ed023e4a0057ef961915638f5e3fa70.mp4">no porn for you :(</video>
+    <video preload="metadata" controls src="/r34/mario/fc62d3c78c48ffc1426e2695f9c38683.mp4">no porn for you :(</video>
+    <video preload="metadata" controls src="/r34/dragon maid/05a4a9f6e02acf99e1300d7a9a9562dc.mp4">no porn for you :(</video>
+    <video preload="metadata" controls src="/r34/mario/00d0a07ede52e34f3b8771122429aaaa.mp4">no porn for you :(</video>
+    <video preload="metadata" controls src="/r34/hard-degen/0f714af8fb50d5edb9cb2c11f51d2296.mp4">no porn for you :(</video>
+    <video preload="metadata" controls loop src="/r34/hard-degen/93a4b965e7cb92039263e10717793b0f.mp4">no porn for you :(</video>`,
+
+    `<h2>16:9 2</h2>
+    ${linkedVideo('/r34/hard-degen/harddegenerate.bsky.social-3lay3yztld22w.mp4')}
+    ${linkedVideo('/r34/hard-degen/harddegenerate.bsky.social-3lay4tlxthc2i.mp4')}
+    ${linkedVideo('/r34/hard-degen/harddegenerate.bsky.social-3lay66gppyc2i.mp4')}
+    ${linkedVideo('/r34/hard-degen/harddegenerate.bsky.social-3lay646hcw22i.mp4')}
+    `,
+
+    `<h2>Mario</h2>
+    ${linkedVideo('/r34/mario/e016fc84054326847de59d92cbe726c4.mp4', true)}
+    ${linkedVideo('/r34/hard-degen/04eace63fa5231cfa7359947b6eac6f0.mp4', true)}
+    <br>
+    ${linkedVideo('/r34/mario/6ed023e4a0057ef961915638f5e3fa70.mp4')}
+    ${linkedVideo('/r34/mario/fc62d3c78c48ffc1426e2695f9c38683.mp4')}
+    ${linkedVideo('/r34/mario/00d0a07ede52e34f3b8771122429aaaa.mp4')}
+    `,
+
+    `<h2>Vtubers</h2>
+    ${linkedVideo('/r34/hard-degen/564bf11d6f7489c18b3731e2f7f8dc44.mp4', 'loop')}
+    <br>
+    ${linkedVideo('/r34/hard-degen/harddegenerate.bsky.social-3lay3yztld22w.mp4')}
+    ${linkedVideo('/r34/hard-degen/harddegenerate.bsky.social-3lay4tlxthc2i.mp4', 'loop')}
+    ${linkedVideo('/r34/hard-degen/harddegenerate.bsky.social-3lay646hcw22i.mp4', 'loop')}
+    `,
+]
