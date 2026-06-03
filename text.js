@@ -112,7 +112,7 @@ var template = [
     <h2>number</h2>\
     <h1 id='char' class='Mint'>Mint</h1>\
     <div class='background'>\
-    <p>i dont rlly know why im here but these two are super nice >/////<</p>\
+    <p>i dont really know why im here but these two are super nice >/////<</p>\
     <p></p>\
     <p></p>\
     <p></p>\

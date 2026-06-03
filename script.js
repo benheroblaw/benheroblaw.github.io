@@ -930,23 +930,42 @@ function loadScript (script='') {
 }
 
 function selectableMiku(size='2rem') {
+  document.addEventListener('DOMContentLoaded', () => {
+    document.body.innerHTML += '<div class="loading"><img src="/icons/miku.svg"><img src="/icons/mikuSelected.svg"></div>'
+  })
+  document.addEventListener('onload', () => {
+    qSelA('.loading').forEach(element => {element.remove})
+  })
   return `<img src="/icons/miku.svg" style="border: none; width: ${size};" onmouseenter="this.src = '/icons/mikuSelected.svg'" onmouseleave="this.src = '/icons/miku.svg'">`
 }
 function selectableTeto(size='2rem') {
+  document.addEventListener('DOMContentLoaded', () => {
+    document.body.innerHTML += '<div class="loading"><img src="/icons/teto.svg"><img src="/icons/tetoSelected.svg"></div>'
+  })
+  document.addEventListener('onload', () => {
+    qSelA('.loading').forEach(element => {element.remove})
+  })
   return `<img src="/icons/teto.svg" style="border: none; width: ${size};" onmouseenter="this.src = '/icons/tetoSelected.svg'" onmouseleave="this.src = '/icons/teto.svg'">`
 }
 function selectableNeru(size='2rem') {
+  document.addEventListener('DOMContentLoaded', () => {
+    document.body.innerHTML += '<div class="loading"><img src="/icons/neru.svg"><img src="/icons/neruSelected.svg"></div>'
+  })
+  document.addEventListener('onload', () => {
+    qSelA('.loading').forEach(element => {element.remove})
+  })
   return `<img src="/icons/neru.svg" style="border: none; width: ${size};" onmouseenter="this.src = '/icons/neruSelected.svg'" onmouseleave="this.src = '/icons/neru.svg'">`
 }
 
 // event listeners
 
-document.addEventListener('load', () =>
-  ''
-)
+document.addEventListener('load', () => {
+  document.body.innerHTML += '<div class="load" style="width: 100vw;height: 100vh;background-color: #000;background-size: cover;color: #fff;z-index: 5;position: fixed;top: 0;left: 0;text-align: center;padding-top: 30vh;">loading</div>'
+})
 
 document.addEventListener("DOMContentLoaded", function() {
   // document.body.appendChild(script)
+  document.body.innerHTML += '<div id="load" style="width: 100vw;height: 100vh;background-color: #000;background-size: cover;color: #fff;z-index: 5;position: fixed;top: 0;left: 0;text-align: center;padding-top: 30vh;">loading</div>'
   if (window.location.pathname.indexOf('/r34/') > -1) {
     tesLog('loading porn.js');
     try {gewi('sidebar').remove()}
@@ -979,10 +998,13 @@ document.addEventListener("DOMContentLoaded", function() {
     })
     // tesLog('setting draggable')
   }, 500)
+  // gewi('load').remove()
 })
 
-document.addEventListener("onload", function() {
+window.addEventListener('load', () => {
   // addSidebar(pornSidebar)
+  // tesLog('removing load screen')
+  gewi('load').remove()
 })
 
 if (window.location.href.indexOf('http://localhost:8001') > 0) {
