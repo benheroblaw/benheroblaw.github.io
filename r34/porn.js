@@ -1056,6 +1056,7 @@ var hardDegen = [
     `<h2>Vtubers</h2>
     ${linkedVideo('/r34/hard-degen/564bf11d6f7489c18b3731e2f7f8dc44.mp4', 'loop')}
     <br>
+    ${linkedVideo('/r34/hard-degen/0f714af8fb50d5edb9cb2c11f51d2296.mp4')}
     ${linkedVideo('/r34/hard-degen/harddegenerate.bsky.social-3lay3yztld22w.mp4')}
     ${linkedVideo('/r34/hard-degen/harddegenerate.bsky.social-3lay4tlxthc2i.mp4', 'loop')}
     ${linkedVideo('/r34/hard-degen/harddegenerate.bsky.social-3lay646hcw22i.mp4', 'loop')}
