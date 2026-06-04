@@ -21,7 +21,7 @@ r34/bonkge/large/*.avi filter=lfs diff=lfs merge=lfs -text
 r34/phub/large/*.mp4 filter=lfs diff=lfs merge=lfs -text
 r34/New-folder/large/*.mp4 filter=lfs diff=lfs merge=lfs -text
 r34/New%20folder/large/*.mp4 filter=lfs diff=lfs merge=lfs -text
-#  filter=lfs diff=lfs merge=lfs -text
+r34/hard-degen/large/*.mp4 filter=lfs diff=lfs merge=lfs -text
 #  filter=lfs diff=lfs merge=lfs -text
 #  filter=lfs diff=lfs merge=lfs -text
 #  filter=lfs diff=lfs merge=lfs -text

@@ -880,7 +880,7 @@ function linkedImage(link, linebreak='') {
   return output
 }
 
-function linkVideo(link, loop=false, title='') {
+function linkVideo(link='', loop=false, title='') {
   var output = ` <video preload="auto" controls src="${link}"`
   if (loop || loop == 'loop') {
     output += ' loop'
@@ -894,8 +894,11 @@ function linkVideo(link, loop=false, title='') {
   output += '>no porn for you :(</video>'
   return output
 }
-function linkedVideo(link, loop=false, title='') {
+function linkedVideo(link='', loop=false, title='') {
   return linkVideo(link, loop, title)
+}
+function addVideo(link='', loop=false, title) {
+  return linkVideo(link, loop, title,)
 }
 
 function linkAdder(link,) {
