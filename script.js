@@ -25,7 +25,7 @@ var pornSidebar = `\
   \
   <a class="blue" href="/r34/comics.html"><span>Comics</span></a><br><br>` +
   // <a class='red' href='/r34/bonkge.html'><span>Bonkge</span></a><br>
-  `<a href="/r34/cavestory.html" id="cavestory" class="blue" onmouseenter="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0002.svg\'" onmouseleave="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0001.svg\'" onload="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0001.svg\'"><span>Cave Story</span></a> <img src="/r34/cavestory/assets/Sprite-0001.svg" style="border: none;" id="quotehead"><br>\
+  `<a href="/r34/cavestory.html" id="cavestory" class="blue" onmouseenter="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0002.svg\'" onmouseleave="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0001.svg\'" onload="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0001.svg\'"><span>Cave Story</span></a> <img src="/r34/cavestory/assets/Sprite-0001.svg" style="border: none; width: 16px; height: 10px;" id="quotehead"><br>\
   <a href="/r34/dragon-maid.html" class="blue"><span>Dragon Maid</span></a><br>\
   <a href="/r34/hard-degen.html" class="blue"><span>Hard Degenerate</span></a><br>\
   <a href="/r34/hoyo.html" class="blue"><span>Hoyoverse</span></a><br>\
@@ -972,7 +972,7 @@ document.addEventListener("DOMContentLoaded", function() {
   if (window.location.pathname.indexOf('/r34/') > -1) {
     tesLog('loading porn.js');
     try {gewi('sidebar').remove()}
-    catch (Error) {}
+    catch (Error) {tesLog('no sidebar to remove')}
     document.body.innerHTML += '<div id="sidebar"></div>'
     document.body.className = 'centerList'
     promiseLoadScript('/r34/porn.js').then(addSidebar(pornSidebar))
@@ -982,6 +982,13 @@ document.addEventListener("DOMContentLoaded", function() {
     console.log('no fun background for you :(');
     qSel('body').style.background = 'black'
     promiseLoadScript('/r34/porn.js').then(addSidebar(pornSidebar, aiSidebar))
+  }
+
+  if (window.location.pathname.indexOf('/r34/r34') > -1) {
+    document.body.className = ''
+    try {gewi('sidebar').remove()}
+    catch (Error) {tesLog('no sidebar to remove')}
+    document.body.innerHTML = pornSidebar
   }
 
   if (window.location.pathname.indexOf('/writing/') > -1) {
@@ -1007,7 +1014,9 @@ document.addEventListener("DOMContentLoaded", function() {
 window.addEventListener('load', () => {
   // addSidebar(pornSidebar)
   // tesLog('removing load screen')
-  gewi('load').remove()
+  try {gewi('load').remove()}
+  catch {}
+
 })
 
 if (window.location.href.indexOf('http://localhost:8001') > 0) {
