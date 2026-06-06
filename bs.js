@@ -56,6 +56,21 @@ function getModule(file) {
   s.type = 'module'
   document.head.appendChild(s);
 }
+function getStylesheet(file) {
+  let css = document.createElement('link')
+  css.rel = 'stylesheet'
+  css.href = file
+  document.head.appendChild(css)
+}
+function getStyleSheet(file) {
+  getStylesheet(file)
+}
+function gSS(file) {
+  getStylesheet(file)
+}
+function gss(file) {
+  getStylesheet(file)
+}
 
 /**
  * Quick element adder
@@ -140,4 +155,32 @@ function qSelA(params='') {
 bhbUnhide()
 // getScript('/bullshit.js')
 
-export {bsHelp, gewi, gEWI, getElementWithId, qSel, qSelA, addElement, bullshitLog, bsLog, getScript, getModule, bhbUnhide}
+// if (
+//   typeof module !== 'undefined' &&
+//   typeof module.exports !== 'undefined'
+// ) {
+//   module.exports = 'MyLib'
+//   console.log('module.exports exists, import/export should be supported')
+// } else {
+//   window.bs =
+//   console.log('in a browser')
+// }
+
+export {
+  bsHelp,
+  gewi,
+  gEWI,
+  getElementWithId,
+  qSel,
+  qSelA,
+  addElement,
+  bullshitLog,
+  bsLog,
+  getScript,
+  getModule,
+  bhbUnhide,
+  getStylesheet,
+  getStyleSheet,
+  gss,
+
+}

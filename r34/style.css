@@ -29,13 +29,12 @@ a:hover {font-style: italic;}
 span {font-family: Arial; color: white;}
 span:hover {font-family: arial; color: white; font-style: inherit;}
 video {border-color: blue; border-bottom-color: blue; border-right-color: blue; border-style: solid; width: 30%;}
-video:hover {border: none;}
+video:hover {border: none; width: 33%;}
+video:fullscreen {border-color: blue; border-style: solid; border-width: 0px;}
 img {border: 2px; border-color: white; border-style: solid; width: 20%; user-select: none;}
 img:hover {border: 4px; border-color: aqua; border-style: solid;}
 img:active {border: 2px; border-color: black; border-style: solid;}
 video {border-color: blue; border-bottom-color: blue; border-right-color: blue; border-style: solid;}
-video:hover {border-color: black; border-style: solid;}
-video:fullscreen {border-color: black; border-style: solid}
 button {cursor: pointer;}
 
 /* classes */

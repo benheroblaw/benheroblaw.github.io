@@ -1047,9 +1047,10 @@ var hardDegen = [
     `<h2>Mario</h2>
     ${linkedVideo('/r34/mario/e016fc84054326847de59d92cbe726c4.mp4', true)}
     ${linkedVideo('/r34/hard-degen/04eace63fa5231cfa7359947b6eac6f0.mp4', true)}
-    <br>
+    <br><br>
     ${linkedVideo('/r34/mario/6ed023e4a0057ef961915638f5e3fa70.mp4')}
     ${linkedVideo('/r34/mario/fc62d3c78c48ffc1426e2695f9c38683.mp4')}
+    ${linkedVideo('/r34/hard-degen/large/Bowsette_Defeated_B.mp4')}
     ${linkedVideo('/r34/mario/00d0a07ede52e34f3b8771122429aaaa.mp4')}
     `,
 

@@ -71,6 +71,21 @@ function addElement(element='', id='') {
   if (id === '') {return `added ${element} to document`}
   else {return `added ${element} to document with id ${id}`}
 }
+function getStylesheet(file) {
+  let css = document.createElement('link')
+  css.rel = 'stylesheet'
+  css.href = file
+  document.head.appendChild(css)
+}
+function getStyleSheet(file) {
+  getStylesheet(file)
+}
+function gSS(file) {
+  getStylesheet(file)
+}
+function gss(file) {
+  getStylesheet(file)
+}
 
 /**
  *Shorthand for document.getElementById

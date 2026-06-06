@@ -1,0 +1,26 @@
+* {
+    margin: none;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+
+#textbox {
+    display: flex;
+    position: absolute;
+    width: 70%;
+    height: 15%;
+    padding: 2%;
+    bottom: 2rem;
+    left: 10%;
+    right: 10%;
+    margin: none;
+    background-color: #aaa;
+    border: #555 solid 5px;
+    border-radius: 25px;
+    user-select: none;
+    cursor: default;
+}
