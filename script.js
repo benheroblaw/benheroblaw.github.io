@@ -963,6 +963,35 @@ function selectableNeru(size='2rem') {
   return `<img src="/icons/neru.svg" style="border: none; width: ${size};" onmouseenter="this.src = '/icons/neruSelected.svg'" onmouseleave="this.src = '/icons/neru.svg'">`
 }
 
+function playlist(tracks=[], loop=true) {
+  addElement('audio', 'playlist')
+  let player = gewi('playlist')
+  let index = 0
+
+  try {player.remove()}
+  catch {tesLog('no exsisting player')}
+
+  player.src = tracks[0]
+  player.play()
+  player.addEventListener('loadedmetadata', () => {
+    player.play()
+    tesLog(`playing ${player.src}`)
+  })
+
+  player.addEventListener('ended', () => {
+    index ++
+    if (index > tracks.length) {
+      if (loop)
+        {index = 0}
+      else {
+        player.remove()
+      }
+    }
+    player.src = tracks[index]
+  })
+
+}
+
 // event listeners
 
 document.addEventListener('load', () => {
