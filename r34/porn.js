@@ -277,7 +277,7 @@ var miku = [
     ${linkedImage('/r34/miku/ac057cbc4d52f4ad4e7e55476df7a3003601b6f1.jpeg')}
     ${linkedImage('/r34/miku/c7d9369089cad44ca2cd3a9cd7d45735f872c087.jpeg')}
     ${linkedImage('/r34/miku/e66f2c59bf76855068f99610b267b65243013a00.jpg')}
-    ${linkedImage('/r34/miku/r34/miku/beebspacemermaid.bsky.social-3mmrhosalsc2l.jpeg')}
+    ${linkedImage('/r34/miku/beebspacemermaid.bsky.social-3mmrhosalsc2l.jpeg')}
     `,
 
     // `<div style="margin-bottom: none; margin-top: none">` +
