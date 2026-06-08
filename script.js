@@ -1009,12 +1009,12 @@ function playlist(tracks=[], loop=true) {
 // event listeners
 
 document.addEventListener('load', () => {
-  document.body.innerHTML += '<div class="load" style="width: 100vw;height: 100vh;background-color: #000;background-size: cover;color: #fff;z-index: 5;position: fixed;top: 0;left: 0;text-align: center;padding-top: 30vh;">loading</div>'
+  document.body.innerHTML += '<div class="load" style="width: 100vw;height: 100vh;background-color: #000;background-size: cover;color: #fff;z-index: 5;position: fixed;top: 0;left: 0;text-align: center;padding-top: 30vh;">loading <img src="/loading.gif"></div>'
 })
 
 document.addEventListener("DOMContentLoaded", function() {
   // document.body.appendChild(script)
-  document.body.innerHTML += '<div id="load" style="width: 100vw;height: 100vh;background-color: #000;background-size: cover;color: #fff;z-index: 5;position: fixed;top: 0;left: 0;text-align: center;padding-top: 30vh;">loading</div>'
+  document.body.innerHTML += '<div id="load" style="width: 100vw;height: 100vh;background-color: #000;background-size: cover;color: #fff;z-index: 5;position: fixed;top: 0;left: 0;text-align: center;padding-top: 30vh;">loading<br><img src="/loading.gif" style="width: 2rem; border: none;"></div>'
   if (window.location.pathname.indexOf('/r34/') > -1) {
     tesLog('loading porn.js');
     try {gewi('sidebar').remove()}
