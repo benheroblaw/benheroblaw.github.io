@@ -370,20 +370,20 @@ let puddingDraws = [
     </style>
     <div class="left"><a href="https://bsky.app/profile/puddingdraws.bsky.social"><img src="/icons/Bluesky-logo-2200578589.png" class="left" style="border: none" title="PuddingDraws on Bluesky"></a></div>
 
-    ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnpsfikuhc2e.jpeg')}
+    ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnpsfikuhc2e.jpeg', "Sketchbook pencil illustration of the Vocaloid Hatsune Miku except from Brazil (AKA Brazilian Miku), tanned and ready for the beach in her bikini. She's sweating in the sun and is holding a can of Guaraná against her cheek to cool off.")}
     ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mmm2wjw5jk2v-1.jpeg')}
     ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mmm2wjw5jk2v-2.jpeg')}
     ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mmm3ulah3c2v.jpeg')}
     <br><br>
-    ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mmpgk7pxac2k.jpeg')}
+    ${linkedImage('/r34/puddingDraws/bafkreifb3cl6uwximnghqcxadhaatqfgj4kcvk2m5xolg65i4yvze2ikze.jpeg', "Sketchbook pencil illustration of the Vocaloid Hatsune Miku except from Brazil (AKA Brazilian Miku), tanned and ready for the beach in her bikini. She's sweating in the sun and is holding a can of Guaraná against her cheek to cool off.\n\nIn this full, uncropped variant of the drawing we can see that her shorts are open and her massive slab of meat is out dangling.")}
     ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mm3h5chpy22a.jpeg')}
     ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mmpgk7pxac2k.jpeg')}
-    ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mmu5ctqzw22c.jpeg')}
+    ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mmu5ctqzw22c.jpeg', "Pencil illustration of Kasane Teto, drawn slightly chubby, with stretch marks and tanned with a bikini tanline. She is wearing a bikini *without* the top, and is in the process of tying her hair up in a novel DRILL PONYTAIL instead of her usual twin-drills. She's got the hair tie ready in ehr mouth.")}
     ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mn3gw6isp22v.jpeg')}
     ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnnkwdkdps2e.jpeg')}
     ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnd53gcg522u.jpeg')}
-    ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnb52ouevk2p.jpeg')}
-    ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnaxdvzots2k.jpeg')}
+    ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnaxdvzots2k.jpeg', "Pencil fanart illustration, rendered digitally, of the vocaloid ボカロ Akita Neru (27) of Triple Baka fame emotionlessly jerking off a cock with one hand while texting on her phone with her other. Not a thought is spared to the poor, precum leaking thing. Handjobs are truly an art.\n\nShe's wearing a black V-neck, a pink ribbon choker, curvalicious waist-high jeans and a black scrunchie to keep her side ponytail up. I've chosen to depict her as perhaps a bit curvier than how she is usually portrayed. Big tits and wide hips and all. I think she looks quite nice.")}
+    ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnb52ouevk2p.jpeg', "The same drawing of Neru, but just a pencil illustration. ")}
     ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mn67ebiwd22k.jpeg')}
 
     `

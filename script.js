@@ -18,7 +18,7 @@ var pornSidebar = `\
   <h1><a href="/r34/r34.html"><span style="color: white;">prawns</span></a></h1>\
   <a href="all.html" class="red"><span>all</span></a><br>\
   <a class="blue" href="assets.html"><span>assets</span></a><br>\
-  <a href="coolart.html" class="blue"><span>Artists</span></a><br>\
+  <a href="/r34/coolart.html" class="blue"><span>Artists</span></a><br>\
   <br>\
   \
   <a class="blue" href="/r34/comics.html"><span>Comics</span></a><br><br>` +
@@ -881,8 +881,15 @@ function qSelA(params='') {
   return document.querySelectorAll(params)
 }
 
-function linkedImage(link, linebreak='') {
-  var output = ` <a href="${link}"><img src="${link}"></a> `
+function linkedImage(link, title='', linebreak='') {
+  var output = ` <a href="${link}"`
+  if (title != '') {
+    output += ` title="${title}"`
+  }
+  else {
+    output += ``
+  }
+  output += `><img src="${link}"></a> `
   if (linebreak != '') {output += '<br>'}
   return output
 }
