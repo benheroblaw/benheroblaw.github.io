@@ -1,5 +1,5 @@
 #sidebar {
-    height: 99.2%;
+    height: calc(100vh - 6px);
     width: 160px;
     position: fixed;
     z-index: 1;
@@ -25,7 +25,7 @@
     height: 25%;
     width: 160px;
     position: fixed;
-    z-index: 2;
+    z-index: 3;
     bottom: 3px;
     left: -153px;
     transition: 0.15s;
@@ -49,7 +49,7 @@
     height: 25%;
     width: 160px;
     position: fixed;
-    z-index: 2;
+    z-index: 3;
     bottom: calc(25% + 9px);
     left: -153px;
     transition: 0.15s;
@@ -72,7 +72,7 @@
     height: 25%;
     width: 160px;
     position: fixed;
-    z-index: 2;
+    z-index: 3;
     bottom: calc(50% + 15px);
     left: -153px;
     transition: 0.15s;
@@ -90,11 +90,35 @@
 #sidebar4:hover {
     left: 0;
 }
+
+#artSidebar {
+    height: calc(100vh - 6px);
+    width: 160px;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: -170px;
+    transition: 0.2s;
+    background: linear-gradient(90deg, #111, #000);
+    overflow-x: hidden;
+    border-color: #eee;
+    border-width: 3px;
+    border-style: solid;
+    padding-left: 20px;
+    text-align: left;
+    border-left: none;
+    border-radius: 0px;
+    display: none;
+}
+#artSidebar:hover {
+    left: 0;
+}
+
 sidebar {
     height: 99.2%;
     width: 160px;
     position: fixed;
-    z-index: 2;
+    z-index: 3;
     top: 0;
     left: -165px;
     transition: 0.2s;
@@ -117,7 +141,7 @@ sidebar2 {
     height: 25%;
     width: 160px;
     position: fixed;
-    z-index: 2;
+    z-index: 3;
     bottom: 3px;
     left: -153px;
     transition: 0.15s;
@@ -140,7 +164,7 @@ sidebar3 {
     height: 25%;
     width: 160px;
     position: fixed;
-    z-index: 2;
+    z-index: 3;
     bottom: calc(25% + 9px);
     left: -153px;
     transition: 0.15s;
@@ -163,7 +187,7 @@ sidebar4 {
     height: 25%;
     width: 160px;
     position: fixed;
-    z-index: 2;
+    z-index: 3;
     bottom: calc(50% + 15px);
     left: -153px;
     transition: 0.15s;

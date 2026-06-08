@@ -1,5 +1,3 @@
-// import {pornSidebar} from '/r34/porn.js'
-
 // service worker
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/sw.js')
@@ -57,7 +55,8 @@ var mikuSidebar =
   '<a href="/r34/miku/miku_viewer.html">Cat Miku</a><br>' +
   '<a href="/r34/miku/migu_viewer.html">Migu</a><br>' +
   '<a href="/r34/miku/mikgu.html">Miku Teto</a><br>' +
-  '<a href="/r34/miku/migu.html">Horny Migu</a><br>'
+  '<a href="/r34/miku/migu.html">Horny Migu</a><br>' +
+  '<a href="/r34/miku/brmikucomic.html">brmikucomic</a>'
 
 var sona = '<h1>sonas</h1>\
   <a href="/character-sheets/femsona.html"><span>femsona</span></a><br>\
@@ -466,7 +465,7 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
     qSel('.nav').remove()
   }
   catch (error) {
-    errorMessage('nothing to remove')
+    tesLog('nothing to remove')
   }
 
   // image
@@ -476,42 +475,49 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
   image.src = basePath + contents[Number(getCookie(path))]
   // image.style.marginTop = '0.5rem'
   image.style.marginBottom = '0.5rem'
-  image.style.border = 'none'
+  // image.style.border = 'none'
   image.style.backgroundColor = 'rgb(127, 127, 127)'
   image.innerText = 'loading...'
 
   // next
+  function nextPanel() {
+    viewerIndex++
+    gewi('next').style.textDecoration = 'none'
+    console.log(viewerIndex)
+    gewi('image').src = 'none'
+    gewi("image").src = basePath + contents[viewerIndex];
+    qSelA('.pages>button').forEach(element => element.style.backgroundColor = 'black');
+    gewi(viewerIndex).style.backgroundColor = "blue";
+  }
   const next = document.createElement('button')
   next.innerText = 'Next >'
   next.id ='next'
-  next.onclick = () => {
+  next.addEventListener('click', () => {
     if (viewerIndex < contents.length -1) {
-      viewerIndex++
-      console.log(viewerIndex)
-      gewi('image').src = 'none'
-      gewi("image").src = basePath + contents[viewerIndex];
-      qSelA('.pages>button').forEach(element => element.style.backgroundColor = 'black');
-      gewi(viewerIndex).style.backgroundColor = "blue";
+      nextPanel()
     }
-  }
+  })
 
   // prev
+  function prevPanel() {
+    viewerIndex--
+    if (viewerIndex === 0) {gewi('prev').style.textDecoration = 'line-through'; tesLog('no prev')}
+    gewi('prev').style.textDecoration = 'none'
+    console.log(viewerIndex)
+    gewi('image').src = 'none'
+    gewi("image").src = basePath + contents[viewerIndex];
+    qSelA('.pages>button').forEach(element => element.style.backgroundColor = 'black');
+    gewi(viewerIndex).style.backgroundColor = "blue";
+  }
   const prev = document.createElement('button')
   prev.innerText = '< Prev'
   prev.id = 'prev'
   prev.onclick = () => {
     if (viewerIndex != 0) {
-      viewerIndex--
-      if (viewerIndex === 0) {gewi('prev').textDecoration = 'line-through'; tesLog('no prev')}
-      this.textDecoration = 'none'
-      console.log(viewerIndex)
-      gewi('image').src = 'none'
-      gewi("image").src = basePath + contents[viewerIndex];
-      qSelA('.pages>button').forEach(element => element.style.backgroundColor = 'black');
-      gewi(viewerIndex).style.backgroundColor = "blue";
+      prevPanel()
     }
     else {
-      this.textDecoration = 'line-through'
+      gewi('prev').style.textDecoration = 'line-through'
       tesLog('no prev')
     }
   }
@@ -519,22 +525,19 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
   window.onkeydown = function (event) {
     if (event.key === 'ArrowLeft') {
       if (viewerIndex != 0) {
-        viewerIndex--
-        console.log(viewerIndex)
-      gewi('image').src = 'none'
-        gewi("image").src = basePath + contents[viewerIndex];
-        qSelA('.pages>button').forEach(element => element.style.backgroundColor = 'black');
-        gewi(viewerIndex).style.backgroundColor = "blue";
+        prevPanel()
+      }
+      else {
+        gewi('prev').style.textDecoration = 'line-through'
+        tesLog('no prev')
       }
     }
     else if (event.key === 'ArrowRight') {
       if (viewerIndex < contents.length -1) {
-        viewerIndex++
-      gewi('image').src = 'none'
-        console.log(viewerIndex)
-        gewi("image").src = basePath + contents[viewerIndex];
-        qSelA('.pages>button').forEach(element => element.style.backgroundColor = 'black');
-        gewi(viewerIndex).style.backgroundColor = "blue";
+        nextPanel()
+      }
+      else {
+        gewi('next').style.textDecoration = 'line-through'
       }
     }
     else if (event.key === 'ArrowUp') {
@@ -709,11 +712,11 @@ function clear() {
 var video = qSelA('video')
 // document.addEventListener('loadstart', video.forEach(element => element.preload = 'none'))
 
-function addSidebar(sidebar=pornSidebar, viewerSidebar='', sidebar3='', sidebar4='',) {
+function addSidebar(sidebar=pornSidebar, viewerSidebar='', sidebar3='', sidebar4='', artSidebar='') {
   // document.head.innerHTML += '<link rel="stylesheet" href="/sidebar.css">'
-  promiseLoadLink('/sidebar.css', 'stylesheet').then(placeSidebar(sidebar, viewerSidebar, sidebar3, sidebar4))
+  promiseLoadLink('/sidebar.css', 'stylesheet').then(placeSidebar(sidebar, viewerSidebar, sidebar3, sidebar4, artSidebar))
 }
-function placeSidebar(sidebar, viewerSidebar, sidebar3, sidebar4) {
+function placeSidebar(sidebar, viewerSidebar, sidebar3, sidebar4, artSidebar) {
   try {gewi('sidebar').innerHTML = sidebar; gewi('sidebar').style.display = 'inline'}
   catch (Error) {errorMessage('no 1st sidebar')}
   // try {qSel('sidebar').innerHTML = sidebar; qSel('sidebar').style.display = 'inline'}
@@ -729,6 +732,10 @@ function placeSidebar(sidebar, viewerSidebar, sidebar3, sidebar4) {
   if (sidebar4 != '') {
     try {gewi('sidebar4').innerHTML = sidebar4; }
     catch (Error) {errorMessage('no 4th sidebar')}
+  }
+  if (artSidebar != '') {
+    try {gewi('artSidebar').innerHTML = artSidebar; }
+    catch (Error) {errorMessage('no 5th sidebar')}
   }
 
 }

@@ -23,4 +23,5 @@ body {
     border-radius: 25px;
     user-select: none;
     cursor: default;
+    text-shadow: 0px 0px 10px #000;
 }

@@ -11,13 +11,13 @@ function textbox(text, characters) {
 
     textbox.innerHTML = text[0]
 
-    textbox.addEventListener('click', () => {
+    window.addEventListener('click', () => {
         if (index <= text.length) {
             index = getCookie(path + 'index')
             index++
             setCookie(path + 'index', index)
             if (characters[index] !== '') {
-                gewi(characters[index]).style.width = 'cal(initial * 1.25px)'
+                gewi(characters[index]).src = `${characters[index]}Selected.svg`
             }
             textbox.innerHTML = text[index]
         }

@@ -195,6 +195,38 @@ var belle_boob_contest_text = [
 
 var belle_boob_contest = belle_boob_contest_table
 
+
+var brMigu = [
+    '8e729b2c1d74a5a6b7a75c428f9441cb.jpeg', // 1
+    'de87fdef8dfa5f55c9eb3c58396d3fa1.jpeg', // 2
+    '5050d7f4ca2ee35e347d871b79a5661d.jpeg', // 3
+    '1cf744d152c644f02e1d6e92e77311ef.jpeg', // 4
+    '452ad9703fefbdef4704f320b5ad3780.jpeg', // 5
+    '6c5e5eb2566956de4657923d6372d943.jpeg', // 6
+    'ddc71ccad9f1ae5e7fa56e4c257cd800.jpeg', // 7
+    'cde6bf81a6acfecdcef56af0e45e6442.jpeg', // 8
+    'c97e03aaf210e6494c25684bfc4b6af1.jpeg', // 9-1
+    '48b67a2bc51e1dc157e52d494ba2e17e.jpeg', // 9-2
+    '2c9240fe859430b4633bf7b2db8c84a4.jpeg', // 10
+    'c4e727d90113f3b53f4f2a32ef21641a.jpeg', // 11
+    'c226b06aead015342787ced01cbcff40.jpeg', // 12
+    '27f8e7fb6677664dc872e24408776399.jpeg', // 13-1
+    '62635eab3dc2a0f7f2d4568c5686b8a6.jpeg', // 13-2
+    '0e647b83f8f950877f49b21fdaa65561.jpeg', // 14-1
+    'efcfd4cffdd59f0a49a3010a4687f73d.jpeg', // 14-2
+    '83f8b5d0e6e8f9c18f2305c7d9523017.jpeg', // 15
+    '825259c0ab1fc523b6f39371b1fdc0c7.jpeg', // 16
+    'ac25be01d8118622ad63384e21643b38.jpeg', // 17
+    '77781ec89976478d9a278f6b8a24ab7a.jpeg', // 18
+    '753a48328b7a725b80fa25838b3b2d9c.jpeg', // 19-1
+    '34f8161983ad7f1e91e8703521ae7839.jpeg', // 19-2
+    '09159f366ecc7c5d38bb84a34b45847d.jpeg', // 20-1
+    '85493997107ad570ecd1741b43863bad.jpeg', // 20-2
+    '22e5232ba98adf2c9119621aa1e1ec67.jpeg', // 21
+    'b08f816ed402442ce4cfec4fbef0a8bb.jpeg', // 22
+    '0cb2579324e2f3c4c6ac80479b5ba91d.jpeg', // 23-1
+    '5d607c5d4173e849265f54148d8f10c0.jpeg', // 23-2
+]
 var miku = [
     `<h2>Videos</h2>\
     horizontal<br>\
@@ -213,8 +245,6 @@ var miku = [
     <a href="miku/d26967e74cf4bb5b88f62209177c47f4.jpeg"><img src="miku/d26967e74cf4bb5b88f62209177c47f4.jpeg"></a>\
     <a href="miku/8694a05f839325fafe03ed24a53befe3.jpeg"><img src="miku/8694a05f839325fafe03ed24a53befe3.jpeg"></a>\
     <a href="miku/8efd1a280d5dc98b5591de852cae9879.jpeg"><img src="miku/8efd1a280d5dc98b5591de852cae9879.jpeg"></a>\
-    <a href="miku/5b4affe3cfd8e9f7629f75e06e061fbd-1.jpeg"><img src="miku/5b4affe3cfd8e9f7629f75e06e061fbd-1.jpeg"></a>\
-    <a href="miku/5b4affe3cfd8e9f7629f75e06e061fbd-2.jpeg"><img src="miku/5b4affe3cfd8e9f7629f75e06e061fbd-2.jpeg"></a>\
     <a href="miku/68b3e199ed4c4d3572a58a5b3f234479.jpeg"><img src="miku/68b3e199ed4c4d3572a58a5b3f234479.jpeg"></a>\
     <a href="miku/9e876d116046181418a072295123f429.jpeg"><img src="miku/9e876d116046181418a072295123f429.jpeg"></a>\
     <a href="miku/cddce6aea9f075b6c4e4c70b339b10b7.jpeg"><img src="miku/cddce6aea9f075b6c4e4c70b339b10b7.jpeg"></a>\
@@ -230,13 +260,34 @@ var miku = [
     <a href="miku/a6f85af61c528e507853a8d451be4d0a.jpeg"><img src="miku/a6f85af61c528e507853a8d451be4d0a.jpeg"></a>\
     <a href="miku/e31d051206aadd464177352663ab3130.jpeg"><img src="miku/e31d051206aadd464177352663ab3130.jpeg"></a>`+
     linkedImage(`/r34/miku/a9baff4ebd3e3b41b70b4fc427027789.jpeg`)+
-    `<br><br>\
-    <a href="miku/54a6a063caa2096e17e79f9b257c7f6f.gif"><img src="miku/54a6a063caa2096e17e79f9b257c7f6f.gif"></a>`+
-    linkedImage(`/r34/miku/895ae626ca075dd41e55b40020f75acf.gif`),
+    `
+    ${linkedImage('/r34/miku/72f97290dc4b70afc23674b3aa9bbcd0e6b7779e.jpeg')}
+    ${linkedImage('/r34/miku/f6c586cd037673a6935464dbe4b73fb3.jpeg')}
+    ${linkedImage('/r34/miku/f0b22ec98a5a2712861fc5b74122a76e436fc8aa.jpeg')}
+    ${linkedImage('/r34/miku/df1895af098812562b021ec4ef08e816.jpeg')}
+    ${linkedImage('/r34/miku/35f89cb2c1eea92ed997aaf435296fff.jpeg')}
+    ${linkedImage('/r34/miku/fec0644f173d1c3ad881e5bcf5a26ed1.jpeg')}
+    ${linkedImage('/r34/miku/64545bea958f70bde1421b9495b1ce82.jpeg')}
+    ${linkedImage('/r34/miku/3bb55d977c6393989120dc3bd1d10e21.jpeg')}
+    ${linkedImage('/r34/miku/33395f38297dd6b9337fc0eb088121c5.jpeg')}
+    ${linkedImage('/r34/miku/f6c4568e6d873394fe594f7bcd2b5e78.jpeg')}
+    ${linkedImage('/r34/miku/93a9d8cef62b59d67e1a83de96d2859a.jpeg')}
+    ${linkedImage('/r34/miku/751a8e3870401415e019af595f9cbcccb1ba121b.jpeg')}
+    ${linkedImage('/r34/miku/8cf4cf124e5aceb4457294b9ae3eb7fb37521b11.jpeg')}
+    ${linkedImage('/r34/miku/ac057cbc4d52f4ad4e7e55476df7a3003601b6f1.jpeg')}
+    ${linkedImage('/r34/miku/c7d9369089cad44ca2cd3a9cd7d45735f872c087.jpeg')}
+    ${linkedImage('/r34/miku/e66f2c59bf76855068f99610b267b65243013a00.jpg')}
+    ${linkedImage('/r34/miku/r34/miku/beebspacemermaid.bsky.social-3mmrhosalsc2l.jpeg')}
+    `,
 
     // `<div style="margin-bottom: none; margin-top: none">` +
     // `<button onclick="startViewer(\'/r34/miku/\', miguteto, \'html>body>div.centerList\')">migu tedo</button> `+
     // `<button onclick="startViewer(\'/r34/miku/\', honymigu, \'html>body>div.centerList\')">hony migu</button><br>`,
+
+    `<h2>GIFs</h2>
+    ${linkedImage(`/r34/miku/895ae626ca075dd41e55b40020f75acf.gif`)}
+    ${linkedImage('/r34/miku/54a6a063caa2096e17e79f9b257c7f6f.gif')}
+    `,
 
     `<h2>Comic Panels</h2>
     migu teto<br>
@@ -275,16 +326,77 @@ var miku = [
     <a href="miku/9ffe692444aa4cdf8bdeb4f238826e29.jpeg"><img src="miku/9ffe692444aa4cdf8bdeb4f238826e29.jpeg"></a>\
     <a href="miku/41c8df62ad47b2f505bdef97d4dd2cd4.jpeg"><img src="miku/41c8df62ad47b2f505bdef97d4dd2cd4.jpeg"></a>\
     <a href="miku/0cbf6b0738ec314c17a94c498e393a4b.jpeg"><img src="miku/0cbf6b0738ec314c17a94c498e393a4b.jpeg"></a>\
+    <br><br>
+    verification<br>
+    ${linkedImage('/r34/miku/1ea90578d92c8c6b5aabf205ee62fea1.jpeg')}
+    ${linkedImage('/r34/miku/ce82d1e147ebae33d87fde07c2de3718.jpeg')}
+    ${linkedImage('/r34/miku/13836cbe35f11fe6a88bad46e1e32872.jpeg')}
+    <br><br>
+    br mikuteto<br>
+    ${linkedImage('/r34/miku/e522ba1f0cc4e020fe56998b8b1581e2.jpeg')}
+    ${linkedImage('/r34/miku/5616156ce29101d8e22df49a5e526a2e.jpeg')}
+    <br><br>
+    br miku<br>
     `,
 
     `<h2>Comic Strips</h2>\
     <div id="stripContainer">\
         <div><a href="miku/5b4affe3cfd8e9f7629f75e06e061fbd.jpeg"><img src="miku/5b4affe3cfd8e9f7629f75e06e061fbd.jpeg"></a></div>\
+        <div>${linkedImage('/r34/miku/d50358b28fb2bbb5e6fb5bf222d6e756.jpeg')}</div>
         <div><a href="miku/5f589b041536849fee900baf2dc57804.jpeg"><img src="miku/5f589b041536849fee900baf2dc57804.jpeg"></a></div>\
         <div><a href="miku/3057fd1f959f5d6ee2c3bc184a48e6ce.jpeg"><img src="miku/3057fd1f959f5d6ee2c3bc184a48e6ce.jpeg"></a></div>\
         </div>`,
 
-    `miku<br>${selectableMiku()}`
+    `miku<br>${selectableMiku()}<br><br>` +
+
+    `trans teto is best teto<br>
+    <img src="/icons/transteto.svg" style="width: 2rem; border: none">`,
+]
+    brMigu.forEach(string => {miku[3] += linkedImage('/r34/miku/brmikucomic/' + string)})
+
+let puddingDraws = [
+    `<style>
+        .left {
+            position: absolute;
+            top: 5px;
+            left: calc(1.5rem / 2);
+            height: 4rem;
+            width: 4rem;
+        }
+        .left:hover {
+            height: 5rem;
+            width: 5rem;
+        }
+    </style>
+    <div class="left"><a href="https://bsky.app/profile/puddingdraws.bsky.social"><img src="/icons/Bluesky-logo-2200578589.png" class="left" style="border: none" title="PuddingDraws on Bluesky"></a></div>
+
+    ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnpsfikuhc2e.jpeg')}
+    ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mmm2wjw5jk2v-1.jpeg')}
+    ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mmm2wjw5jk2v-2.jpeg')}
+    ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mmm3ulah3c2v.jpeg')}
+    <br><br>
+    ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mmpgk7pxac2k.jpeg')}
+    ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mm3h5chpy22a.jpeg')}
+    ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mmpgk7pxac2k.jpeg')}
+    ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mmu5ctqzw22c.jpeg')}
+    ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mn3gw6isp22v.jpeg')}
+    ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnnkwdkdps2e.jpeg')}
+    ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnd53gcg522u.jpeg')}
+    ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnb52ouevk2p.jpeg')}
+    ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnaxdvzots2k.jpeg')}
+    ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mn67ebiwd22k.jpeg')}
+
+    `
+    // ${linkedImage('/')}
+    // ${linkedImage('/')}
+    // ${linkedImage('/')}
+    // ${linkedImage('/')}
+]
+
+let creators = [
+    `
+        <a href="/r34/puddingdraws.html">PuddingDraws</a>
+        `
 ]
 
 // var pornSidebar = `\
