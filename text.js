@@ -986,3 +986,102 @@ var storyHelp = [
     </div>`
     // you're super cool if you found this in the code :D
 ]
+
+var mineto = [
+`<div class="background">
+    <p>Miku is sitting on the couch, laptop in her lap, Teto curled around up next to her, when she hears a <i>thump</i> from the direction of Neru's room.</p>\
+    <p>"You okay, Neru?"</p>\
+    <p>No answer.</p>\
+    <p>"Neru?"</p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+</div>`,
+]

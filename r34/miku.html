@@ -19,6 +19,15 @@
         align-content: top;
         vertical-align: top;
     }
+    #buttons {
+        position: absolute;
+        left: 2rem;
+        top: 0.5rem;
+        display: inline;
+    }
+    #mikuButton, #brMikuButton {
+        display: inline;
+    }
 </style>
 <script>
     const miguteto = [
@@ -46,13 +55,27 @@
         '41c8df62ad47b2f505bdef97d4dd2cd4.jpeg',
         '0cbf6b0738ec314c17a94c498e393a4b.jpeg',
     ]
-document.addEventListener("DOMContentLoaded", function() {
+window.addEventListener("DOMContentLoaded", function() {
   addSidebar(pornSidebar, mikuSidebar)
+  setInterval(() => {gewi('mikuButton').onclick = function() {
+    startStory(miku, false, false, .25)
+}}, 100)
+  setInterval(() => {gewi('brMikuButton').onclick = function() {
+    startStory(brMiku, false, false, .25)
+}}, 100)
+  gewi('mikuButton').innerHTML = selectableMiku()
+  gewi('brMikuButton').innerHTML = selectableVsynth('brmiku')
 })
+
 </script>
 <html>
-    <body class="centerList" onload="startStory(miku, 'top', false, .25);// gewi('load').remove()">
+    <body class="centerList" onload="startStory(miku, 'top', false, .25)">
         <div id="sidebar"></div>
         <div id="sidebar2"></div>
+        <div id="buttons">
+            <div id="mikuButton"></div>
+            <div id="brMikuButton"></div>
+        </div>
+        <br><br>
     </body>
 </html>

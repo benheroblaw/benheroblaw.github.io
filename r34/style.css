@@ -62,19 +62,18 @@ button {cursor: pointer;}
 #image {
     margin-top: 0rem;
     margin-bottom: 0.5rem;
-    height: 90vh;
-    border: #555 solid 1px;
+    height: 80vh;
+    border: none;
     cursor: none;
 }
 .center:hover>#image:hover {
-    height: calc(100vh - 4px);
+    height: calc(100vh - 2.25rem);
     border: #aaa solid 2px;
-    cursor: none;
+    cursor: crosshair;
 }
-.center:hover>#image {
-    height: 90vh;
-    /* border: #aaa solid 2px; */
-}
+/* #image:hover, #prev {
+    display: none;
+} */
 
 /* non-functional */
 .sixteen-nine video {width: 286; height: 161;}

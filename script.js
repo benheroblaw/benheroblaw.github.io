@@ -425,12 +425,19 @@ function startStory(content=['wtf'], format=false, doOutput=true, volume=0.1, pa
   if (doOutput) {tesLog('story: displaying')}
   if (startState === 'ready to display') {
     let formatting = ''
-    if (format === true) {formatting =
-      `<br><div class="space"><div style="text-align: left"><button id="prev">&lt; Prev</button></div><div id="center" style="text-align: center;"></div><div style="text-align: right;"><button id="next">Next &gt;</button></div></div><div id="story"><br><span style="color: white;">loading...<br>if this doesn't finish loading soon you should try again</span></div><br><div class="space"><div style="text-align: left"><button id="prev1">&lt; Prev</button></div><div id="center1" style="text-align: center;"></div><div style="text-align: right;"><button id="next1">Next &gt;</button></div></div><br><p>`}
-    else if (format === 'top') {formatting =
-      `<br><div class="space"><div style="text-align: left"><button id="prev">&lt; Prev</button></div><div id="center" style="text-align: center;"></div><div style="text-align: right;"><button id="next">Next &gt;</button></div></div><div id="story"><br><span style="color: white;">loading...<br>if this doesn't finish loading soon you should try again</span></div><br><div class="space"><div style="text-align: left"><span id="prev1"></span></div><div id="center1" style="text-align: center;"></div><div style="text-align: right;"><span id="next1"></span></div></div><br><br>`}
-    else if (format === 'bottom') {formatting =
-      `<br><div class="space"><div style="text-align: left"><span id="prev"></span></div><div id="center" style="text-align: center;"></div><div style="text-align: right;"><span id="next"></span></div></div><div id="story"><br><span style="color: white;">loading...<br>if this doesn't finish loading soon you should try again</span></div><br><div class="space"><div style="text-align: left"><button id="prev1">&lt; Prev</button></div><div id="center1" style="text-align: center;"></div><div style="text-align: right;"><button id="next1">Next &gt;</button></div></div><br><br>`}
+    if (format === true) {
+      formatting =
+      `<br><div class="space"><div style="text-align: left"><button id="prev">&lt; Prev</button></div><div id="center" style="text-align: center;"></div><div style="text-align: right;"><button id="next">Next &gt;</button></div></div><div id="story"><br><span style="color: white;">loading...<br>if this doesn't finish loading soon you should try again</span></div><br><div class="space"><div style="text-align: left"><button id="prev1">&lt; Prev</button></div><div id="center1" style="text-align: center;"></div><div style="text-align: right;"><button id="next1">Next &gt;</button></div></div><br><p>`
+    }
+    else if (format === 'top') {
+      formatting =
+      `<br><div class="space"><div style="text-align: left"><button id="prev">&lt; Prev</button></div><div id="center" style="text-align: center;"></div><div style="text-align: right;"><button id="next">Next &gt;</button></div></div><div id="story"><br><span style="color: white;">loading...<br>if this doesn't finish loading soon you should try again</span></div><br><div class="space"><div style="text-align: left"><span id="prev1"></span></div><div id="center1" style="text-align: center;"></div><div style="text-align: right;"><span id="next1"></span></div></div><br><br>`
+    }
+    else if (format === 'bottom') {
+      formatting =
+      `<br><div class="space"><div style="text-align: left"><span id="prev"></span></div><div id="center" style="text-align: center;"></div><div style="text-align: right;"><span id="next"></span></div></div><div id="story"><br><span style="color: white;">loading...<br>if this doesn't finish loading soon you should try again</span></div><br><div class="space"><div style="text-align: left"><button id="prev1">&lt; Prev</button></div><div id="center1" style="text-align: center;"></div><div style="text-align: right;"><button id="next1">Next &gt;</button></div></div><br><br>`
+    }
+    // document.body.innerHTML -= formatting
     document.body.innerHTML += formatting
     displayStory(content, pageSetup, volume, doCookies, doX, doY, doOutput)
   }
@@ -455,10 +462,10 @@ function StartThoughts(content = ['wtf']) {
 function startViewer(basePath='', contents=[''], location='html>body', debug = false) {
   // const content = contents.forEach((index) => {basePath + index})
   path = path + ' - index'
-  let viewerIndex = Number(getCookie(path))
   if (checkCookie(path) === 'error') {
     setCookie(path, 0)
   }
+  let viewerIndex = Number(getCookie(path))
   try {
     gewi('image').remove()
     qSel('.pages').remove()
@@ -476,15 +483,20 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
   // image.style.marginTop = '0.5rem'
   image.style.marginBottom = '0.5rem'
   // image.style.border = 'none'
-  image.style.backgroundColor = 'rgb(127, 127, 127)'
-  image.innerText = 'loading...'
+  // image.style.backgroundColor = 'rgb(127, 127, 127)'
+  // image.innerText = 'loading...'
+  image.style.backgroundImage = 'url("/loading-big.gif")'
+  image.style.backgroundRepeat = 'no-repeat'
+  image.style.backgroundSize = 'contain'
+  image.style.backgroundPosition = 'center'
 
   // next
   function nextPanel() {
     viewerIndex++
     gewi('next').style.textDecoration = 'none'
+    gewi('number').innerHTML = viewerIndex +1
     console.log(viewerIndex)
-    gewi('image').src = 'none'
+    gewi('image').src = ''
     gewi("image").src = basePath + contents[viewerIndex];
     qSelA('.pages>button').forEach(element => element.style.backgroundColor = 'black');
     gewi(viewerIndex).style.backgroundColor = "blue";
@@ -503,8 +515,9 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
     viewerIndex--
     if (viewerIndex === 0) {gewi('prev').style.textDecoration = 'line-through'; tesLog('no prev')}
     gewi('prev').style.textDecoration = 'none'
+    gewi('number').innerHTML = viewerIndex +1
     console.log(viewerIndex)
-    gewi('image').src = 'none'
+    gewi('image').src = ''
     gewi("image").src = basePath + contents[viewerIndex];
     qSelA('.pages>button').forEach(element => element.style.backgroundColor = 'black');
     gewi(viewerIndex).style.backgroundColor = "blue";
@@ -521,6 +534,10 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
       tesLog('no prev')
     }
   }
+
+  // panel number
+  // const panelNumber = document.createElement('span')
+  // panelNumber.innerText = viewerIndex
 
   window.onkeydown = function (event) {
     if (event.key === 'ArrowLeft') {
@@ -549,9 +566,17 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
   }
 
     if (debug) {console.log('adding image')}
-  qSel(location).innerHTML += '<div class="center"></div><div class="nav"><div id="prev"></div><div id="next"></div></div><div class="pages" id="pages"></div>'
-  qSel('#prev').appendChild(prev)
+  qSel(location).innerHTML += `
+  <div class="center"></div>
+  <div class="nav">
+    <div id="prev"></div>
+    <div id="number"></div>
+    <div id="next"></div>
+  </div>
+  <div class="pages" id="pages"></div>`
   qSel('.center').appendChild(image)
+  qSel('#prev').appendChild(prev)
+  qSel('#number').innerHTML = viewerIndex +1
   qSel('#next').appendChild(next)
 
   qSel('.nav').style.marginBottom = '0.5rem'
@@ -559,6 +584,8 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
   qSel('.nav').style.justifyContent = 'space-between'
   qSel('.nav').style.width = '40%'
   qSel('.nav').style.marginLeft = '30%'
+
+
 
   // page buttons
   contents.forEach((value, index) => {
@@ -569,7 +596,7 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
     button.innerText = 'Page ' + (index + 1)
     if (debug) {console.log('adding onclick')}
     button.onclick = () => {
-      setCookie(path, index)
+      // setCookie(path, index)
       viewerIndex = Number(getCookie(path))
       console.log(viewerIndex)
       gewi("image").src = basePath + contents[index];
@@ -976,6 +1003,9 @@ function selectableNeru(size='2rem') {
   })
   return `<img src="/icons/neru.svg" style="border: none; width: ${size};" onmouseenter="this.src = '/icons/neruSelected.svg'" onmouseleave="this.src = '/icons/neru.svg'">`
 }
+function selectableVsynth(vsynth='', size='2rem') {
+  return `<img src="/icons/${vsynth}.svg" style="border: none; width: ${size};" onmouseenter="this.src = '/icons/${vsynth}Selected.svg'" onmouseleave="this.src = '/icons/${vsynth}.svg'">`
+}
 
 function playlist(tracks=[], loop=true) {
   addElement('audio', 'playlist')
@@ -1014,7 +1044,7 @@ document.addEventListener('load', () => {
 
 document.addEventListener("DOMContentLoaded", function() {
   // document.body.appendChild(script)
-  document.body.innerHTML += '<div id="load" style="width: 100vw;height: 100vh;background-color: #000;background-size: cover;color: #fff;z-index: 5;position: fixed;top: 0;left: 0;text-align: center;padding-top: 30vh;">loading<br><img src="/loading.gif" style="width: 2rem; border: none;"></div>'
+  document.body.innerHTML += '<div id="load" style="width: 100vw;height: 100vh;background-color: #000;background-size: cover;color: #fff;z-index: 5;position: fixed;top: 0;left: 0;text-align: center;padding-top: 30vh;">loading...<br><br><img src="/loading.gif" style="width: 2rem; border: none;"></div>'
   if (window.location.pathname.indexOf('/r34/') > -1) {
     tesLog('loading porn.js');
     try {gewi('sidebar').remove()}
@@ -1039,7 +1069,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
   if (window.location.pathname.indexOf('/writing/') > -1) {
     tesLog('loading text.js');
-    promiseLoadScript('/text.js').then(addSidebar(pornSidebar))
+    promiseLoadScript('/text.js')
+  }
+
+  if (window.location.pathname.indexOf('miku') > -1) {
+    document.body.style.cursor = 'url("/cursors/mikuDefault.cur")'
   }
 
   vol(0.1, 0.1)

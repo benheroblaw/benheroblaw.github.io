@@ -51,7 +51,8 @@ var audio = [
 
     `<h2>Video 2</h2>\
     <video title="cowgirl nursing handjob" controls src="audio/[pornhubdownloader.io]_720P_4000K_442601561.mp4">no porn for you :(</video>\
-    <video title="orca titjob" controls src="audio/[pornhubdownloader.io]_720P_4000K_442549541.mp4">no porn for you :(</video>`,
+    <video title="orca titjob" controls src="audio/[pornhubdownloader.io]_720P_4000K_442549541.mp4">no porn for you :(</video>
+    ${linkVideo('/r34/audio/[F4F]+First+Time+Being+Milked+-+PET+HUCOW+LISTENER+X+FARMER+OWNER+NARRATOR+[Lactation]+[Fdom]+[67e4977d767f2].mp4')}`,
 
     // `,
 
@@ -352,7 +353,31 @@ var miku = [
     `trans teto is best teto<br>
     <img src="/icons/transteto.svg" style="width: 2rem; border: none">`,
 ]
-    brMigu.forEach(string => {miku[3] += linkedImage('/r34/miku/brmikucomic/' + string)})
+brMiku = [
+    `
+    ${linkedImage('/r34/miku/e31d051206aadd464177352663ab3130.jpeg')}
+    ${linkedImage('/r34/miku/a6f85af61c528e507853a8d451be4d0a.jpeg')}
+    ${linkedImage('/r34/miku/df1895af098812562b021ec4ef08e816.jpeg')}
+    ${linkedImage('/r34/miku/35f89cb2c1eea92ed997aaf435296fff.jpeg')}
+    ${linkedImage('/r34/miku/d26967e74cf4bb5b88f62209177c47f4.jpeg')}
+    ${linkedImage('/r34/miku/8694a05f839325fafe03ed24a53befe3.jpeg')}
+    ${linkedImage('/r34/miku/e66f2c59bf76855068f99610b267b65243013a00.jpg')}
+
+    `,
+    // ${linkedImage('/')}
+    // ${linkedImage('/')}
+    // ${linkedImage('/')}
+    // ${linkedImage('/')}
+    // ${linkedImage('/')}
+    // ${linkedImage('/')}
+    // ${linkedImage('/')}
+    // ${linkedImage('/')}
+    // ${linkedImage('/')}
+    ``
+]
+
+brMigu.forEach(string => {miku[3] += linkedImage('/r34/miku/brmikucomic/' + string)})
+brMigu.forEach(string => {brMiku[1] += linkedImage('/r34/miku/brmikucomic/' + string)})
 
 let puddingDraws = [
     `<style>
@@ -794,7 +819,7 @@ var harder_stuff = [
 var ai = [
     `ai stuff<br>(theres a lot)`,
 
-    ` +
+    `` +
     linkedImage("bocchi/001_1.jpg") +
     linkedImage("bocchi/002_2.jpg") +
     linkedImage("bocchi/003_3.jpg") +
@@ -982,7 +1007,7 @@ var ai = [
     linkedImage("bocchi/185_185.jpg") +
     linkedImage("bocchi/186_186.jpg") +
     linkedImage("bocchi/187_187.jpg") +
-    `,
+    ``,
 
     linkedImage(`miku/f4e9735d9465425c50f10ff27ad28b35.png`)+
     linkedImage(`miku/87c10114dd4c3ad467792dae3d691570.png`)+
