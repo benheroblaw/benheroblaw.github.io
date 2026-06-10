@@ -693,39 +693,58 @@ var villainess = [
     <div class='background'>\
         <p>We begin in a prosperous kingdom, where a young noblewoman is proposing to the prince. Not on one knee, no rings, rather, she's proposing a marriage to boost both of their statuses. She claims her family has offered her to the prince. This arrangement will undoubtedly be less than fulfilling in terms of love, but money and a chance to climb the social ladder is worth sacrificing little things like romantic attraction. A simple move in the grand game of chess called 'society.'</p>\
         <p>The noblewoman and her family will gain the status and assets of the royal family, and the royal family will curry favor with <i>all</i> of the nobles. Each party gains something they believe has considerable valuable.</p>\
+        <br>
         <p>The prince agrees to the noblewoman's idea of hosting a ball to announce their pairing. He leaves the preparations to her, putting his efforts into curating the guest list.</p>\
         <br>\
         <p>This was his second mistake.</p>\
         <br>\
         <p>The noblewoman, called Gwenhael, is up to something. That much is clear just by looking at the patterns for the dress she is commissioning, full of hidden compartments and sheathes. Maybe she simply has a comfort dagger, or... around twenty. There's no reason a woman needs that many blades.</p>\
         <p>More clues are hidden in the way she sets up the ballroom, blocking all natural light with gold and silver curtains. Arranging a selection of pre-poured wineglasses. Leaving plenty of dark spaces more than big enough to hide a person.</p>\
+        <br>
         <p>The ball begins at dusk, allowing nobles time to arrive and socialize before the main event.</p>\
+        <br>
         <p>Three hours after the ballroom's doors open, well after dark, Gwenhael walks onto a small stage. She signals a hidden attendant to focus a spotlight on her and dim the lights in the room.</p>\
         <p>She composes herself, waiting for the chatter of the crowd to quiet and focus their attention on her.</p>\
+        <br>
         <p>\"Welcome, one and all,\" she begins. \"I have gathered you all here because I have something to confess.\"</p>\
         <p>Everyone's eyes are on Gwenhael, even the servants turning their gaze to her. She pauses. The shadows seem to shift with tension.</p>\
+        <br>
         <p>After enough time for a deep breath, she continues.</p>\
+        <br>
         <p>\"I have been observing how you conduct yourselves, bathing in and flaunting your wealth and your power like children.\"</p>\
         <p>The crowd almost seems to flinch, certainly not expecting such criticisms from another noble. The prince is quite shaken, having not even known how she was going to announce their marriage. He had thought she would be shy and quiet, as she was to him throughout their courtship. The raw confidence she exuded now was foreign to him.</p>\
+        <br>
         <p>\"Money and power you use to climb higher and higher, largely ignoring the consequences you bring upon your people. Most are starving from your taxation, even more than they would be otherwise. You claim everything for yourselves with no thought for your subjects.\"</p>\
         <p>The crowd is fuming now, shouting at her about how grave of a transgression she was committing and grabbing blunt weapons, sharpening into blades in their hands. She simply raises her voice over them.</p>\
+        <br>
         <p>\"Your tyranny ends today.\"</p>\
+        <br>
         <p>The darkness in the room has become suffocating, feeling like a half-solid mass rather than simple shadows. As nobles and royals struggle to breathe this new substance, many servants have gathered around them and are trying to help.</p>\
+        <br>
         <p>Gwenhael's lips curve slightly upward.</p>\
+        <br>
         <p>Red lines appear at the throats of everyone being assaulted by the darkness. Screams shatter the air itself as they fall and blood begins to flow.</p>\
+        <br>
         <p>Gwenhael hops the short distance between the stage and the floor. She walks unhurriedly toward the pile of bodies, oblivious to servants keening and scrambling away from her as they would a devil.</p>\
         <p>She stops mere steps from the carnage, face splitting in a full grin.</p>\
+        <br>
         <p>Shadows weave themselves into tendrils, holding each body up for her so she can survey her work.</p>\
+        <br>
         <p>She turns to the servants, seeming to only now recognize their terror.</p>\
+        <br>
         <p>\"Fear not, for only the wicked will be punished.\"</p>\
         <p>They quiver under her gaze, pinned and ready to bolt. She looks at them like they are children she wishes to comfort.</p>\
+        <br>
         <p>\"I couldn't in good faith call myself a judge if I were to hurt people whom justice would rule innocent.\"</p>\
         <p>They seem to tremble less, wanting to believe they are safe.</p>\
+        <br>
         <p>\"Now, if you would help me clean up this mess-\"</p>\
+
         <p>The massive, heavy wooden doors crash against the walls, light painting over the canvas of darkness. Standing in the door is a person outfitted in full plate mail, holding a sword blasting the searing radiance of the sun into the room. The bodies suspended in the air fall to the floor with a sickening array of sounds, their supports burning away under the harsh, almost sharp light.</p>\
+        <br>
         <p>Gwenhael draws a smallsword from the folds of her skirt, slipping off her heels and dropping into a battle stance.</p>\
-        <br>\
         <p>Her opponent raises their sword in kind.</p>\
+        <br>\
         <p>The two leap at each other, their momentum carrying them past their targets. A shower of sparks rains from the armoured stranger's breastplate.</p>\
         <br>\
         <p>Gwenhael falls to her knees.</p>\
@@ -737,8 +756,11 @@ var villainess = [
         <p>\"I am truly sorry,\" a high voice says, sure and confident. Too clearly to have come from under their helmet. \"I came as fast as I could. Are any of you hurt?\"</p>\
         <p>Even as Gwenhael feels her life pumping out of her side, she can't help but turn and stare at the person who bested her. As she thought, they have taken off their helmet. Straight brown hair flows over the back of her breastplate. Her face is feminine.</p>\
         <p>Gwenhael can't make out any more details. Her vision is blurring and turning dark around the edges.</p>\
+        <br>
         <p><i>Darkness is my friend,</i> she thinks. The dissolving light of the armoured woman has faded.</p>\
+        <br>
         <p>Shadows wrap around her torso, applying pressure to the wound. Then they encase her, shrouding her body in blackness.</p>\
+        <br>
         <p>Shouts echo through the vast ceiling of the ballroom, armour clinks and clanks. The cocoon of shadows dissipates, and Gwenhael is gone.</p>\
         <p></p>\
         <p></p>\
@@ -757,63 +779,124 @@ var villainess = [
         <p>She will get a happy ending, find someone whom she loves, have children, and die peacefully, while I, the villain, will be locked away to repent for my crimes. So many tales of heroes winning the day, of the villain being defeated and robbed of their chance to live.</p>\
         <br>\
         <p>I am not that villain.</p>\
+        <br>
         <p>I refuse to be the villain who gives up after the hero gets a single good hit. I refuse to be the villain who dies after a single encounter.</p>\
         <p>I refuse to be the villain who loses the war of which tonight was the first battle.</p>\
-        <p>That is what <i>she</i> has started. A war, not just between the two of us, but a war of ideals. I cut down tens of tyrants who did nothing but make their people's lives worse. I don't know whether or not <i>she</i>- the Hero- knows this. If I look at the night from the perspective of the servants, I cut down those nobles with little reason. For all they knew, they could have been next. I told them they were not, but they were clearly beyond reason. It makes sense that the Hero cut me down.</p>\
+        <br>
+        <p>For that is what <i>she</i> has started. A war, not just between the two of us, but a war of ideals. I cut down tens of tyrants who did nothing but make their people's lives worse. I don't know whether or not <i>she</i>- the Hero- knows this. If I look at the night from the perspective of the servants, I cut down those nobles with little reason. For all they knew, they could have been next. I told them they were not, but they were clearly beyond reason. It makes sense that the Hero cut me down.</p>\
+        <br>
         <p>There's the issue of her powers, too. Manipulation of light. Her power is the counter to mine, the destined opposite. Shadow cannot exist under the all-consuming gaze of light. Maybe Aciukinesis- the manipulation of an object's sharpness. A simple ability, but not one easily beaten.</p>\
         <p>So I need to train my power, my Umbrakinesis. Learn how to make shadows that can survive the light. I know I can use Aciukinesis on shadows in my grasp. I could use the shadows under her greaves, bend them out from their hiding place.</p>\
+        <br>
         <p>I could <i>extend</i> a shadow rather than manipulating it directly.</p>\
-        <p>As I think, I slowly and excruciatingly rise to my feet, almost blacking out even though I tried to go slowly. It doesn't pull as much as I stumble to another bush. My hands fumble at its roots, clumsily grabbing the servant's outfit stashed there. The plan is for me to act like a server caught in the crossfire.</p><bR>
-        <p>It's difficult to think through the pain.</p><bR>
-        <p>I strip off the layers of my dress, leaving only an undershirt and undershorts to pull the drab, mostly featureless top and skirt over. I step out of my fancy heels and slip on a pair more fitting of a servant's status. Heels are dreadful to wear; difficult to fight in and uncomfortable to walk on. More than that, they encourage a woman to exaggerate the sway of her hips, in turn showing off her body like an object. It's not my place to tell another woman what she should wear, as that would place me next to the fools arguing that women should be silent and defenseless. I would like nothing more that to wear flat-soled shoes, but disguise is necessary.</p>\
+        <p>As I think, I slowly and excruciatingly rise to my feet, almost blacking out even though I tried to go slowly. It doesn't pull as much as I stumble to another bush. My hands fumble at its roots, clumsily grabbing the servant's outfit stashed there. The plan is for me to act like a server caught in the crossfire.</p>
+        <bR>
+        <p>It's difficult to think through the pain.</p>
+        <bR>
+        <p>I strip off the layers of my dress, leaving only an undershirt and undershorts to pull the drab, mostly featureless top and skirt over. I step out of my fancy heels and slip on a pair more fitting of a servant's status. Heels are dreadful to wear; difficult to fight in and uncomfortable to walk on. More than that, they encourage a woman to exaggerate the sway of her hips, in turn showing off her body like an object. It's not my place to tell another woman what she should wear, or what she should enjoy wearing, as that would place me next to the fools arguing that women should be silent and defenseless. I would like nothing more that to wear flat-soled shoes, but disguise is necessary.</p>\
         <p>The shadows pressed tightly around my stomach need to be replaced with a bandage. I let them dissipate and take a deep inhale to brace myself against the pain. It still makes me nauseous, leaves bright and dark spots around my vision, and makes my head flutter.</p>\
         <p>Gasping at the white-hot slashes in my side, I wrap a bandage around my stomach and nearly pass out again as I tighten it.</p>\
         <p>When the white fabric touched my wound, it immediately stained blood red.</p>\
         <br>
         <p>I need to find help.</p><br>
-        <p>There should be medics here. I wasn't very subtle, and Hero will have let them know.</p>\<br>
-        <p>It's the right thing to do, after all.</p>\<br>
-        <p>I stumble around the wall of leaves and branches to the long cobblestone road that runs from the door of the hall to the city. A cluster of white tents fly red crosses inside of red circles.</p>\
-        <p>The cobblestones attempt to grab and twist my ankles to send my head in their direction, my condition and heels making it even worse.</p>\<br>
-        <p>I struggle valiantly, but eventually they catch me.</p>\<br>
-        <p>My vision fades out as I dive towards the stones, somebody shouting as I collapse. For quite a while, I am freed from my mortal coil.</p>\<br>
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
-        <p></p>\
+        <p>There should be medics here. I wasn't very subtle, and Hero will have let them know.</p>\
+        <br>
+        <p>It's the right thing to do, after all.</p>\
+        <br>
+        <p>I stumble around the wall of leaves and branches to the long cobblestone road that runs from the door of the hall to the city. A cluster of white tents fly red crosses.</p>\
+        <br>
+        <p>The cobblestones attempt to grab and twist my ankles to send my head in their direction, my condition and heels making it even worse.</p>\
+        <br>
+        <p>I struggle valiantly, but eventually they catch me.</p>\
+        <br>
+        <p>My vision fades out as I dive towards the stones, somebody shouting as I collapse. For quite a while, I think, I am freed from my mortal coil.</p>\
+        <br>
     </div>`,
 
+    // `<link rel=\"icon\" href=\"/icons/story.png\">\
+    // <h2>???</h2>\
+    // <h1 id='char' class='vampire'>Villain vs Hero 2</h1>\
+    // <div class='background'>\
+    //     <p></p>\
+    //     <p></p>\
+    //     <p></p>\
+    //     <p></p>\
+    //     <p></p>\
+    //     <p></p>\
+    //     <p></p>\
+    //     <p></p>\
+    //     <p></p>\
+    //     <p></p>\
+    //     <p></p>\
+    //     <p></p>\
+    //     <p></p>\
+    //     <p></p>\
+    //     <p></p>\
+    //     <p></p>\
+    //     <p></p>\
+    //     <p></p>\
+    //     <p></p>\
+    //     <p></p>\
+    //     <p></p>\
+    //     <p></p>\
+    // </div>`,
+
     `<link rel=\"icon\" href=\"/icons/story.png\">\
+    <style>p {margin-bottom: 0.75rem}</style>
     <h2>???</h2>\
     <h1 id='char' class='vampire'>Villain vs Hero 2</h1>\
     <div class='background'>\
+        <p>I've been thinking about the woman I killed recently. She had slain every noble of this kingdom, the king, the queen, and the royal family, including the prince to whom she had been engaged. At the time, I had thought she had committed this atrocity without reason, simply killing for the thrill of death.</p>\
+        <p>If that is what she had done, the servants providing the event would not have been alive to be traumatized. She killed only the nobles, and, according to the servants, she had comforted those who had lived, telling them that their lives would not claimed by her.</p>\
+        <p>She was quick to draw a blade upon my entrance. She attempted to strike me, and, when I retaliated with a slash to her side, she perished.</p>\
+        <p>I assumed she had died, and I had been mulling over the repercussions that would be mine to bear if her death had been a mistake.</p>\
+        <p>No matter, anymore.</p>\
+        <p>It seems my killing has been forgiven.</p>\
+        <p>For she is standing before me.</p>\
+        <p>She wears new clothes, a sharp-edged suit and well-fitted trousers to contrast the modest dress she had worn that day. Her heels are firmly planted upon the ground in flat soles. She has cut her hair a forearm shorter, now hanging just above her shoulders rather than her waist.</p>\
+        <p>There is a new glint to her eyes, as well. What had once shown surprise sprinkled with fear was now glowing with power, a sure confidence in her stance subtly differing from then.</p>\
+        <p>She raises a hand now, I reach out with my power to direct the light around me.</p>\
+        <br>
+        <p>Then...</p>\
+        <br>
+        <p>Nothing.</p>\
+        <br>
+        <p>My eyes see nothing.</p>\
+        <br>
+        <p>That sixth sense who converts light into a feeling is now giving me an aching numbness, a sense of <i>nothing</i> around me. I am not capable of creating light; I simply bend it, direct it. Darkness is familiar to me; I can feel <i>something</i>; dark does not mean no light.</p>\
+        <p>This is not a regular dark.</p>\
+        <p>This is <i>the</i> darkness, the void, the abyss. The dark that we as children are told not to fear, that we see under the bed, in the closet, in the less-dark of night. This is the darkness of nothing. Of death.</p>\
+        <p>The darkness of the end.</p>\
+        <p>How was she able to do this?</p>\
+        <p>Just a few short weeks ago, her shadows could not stand in the gaze of my light, even after dusk.</p>\
+        <p>Something wraps around my arms. Cool, somewhat soft, smooth things pull my wrists above my head and my sword out of my hand.</p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
+        <p></p>\
         <p></p>\
         <p></p>\
         <p></p>\
