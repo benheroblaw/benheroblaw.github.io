@@ -205,3 +205,26 @@ sidebar4 {
 sidebar4:hover {
     left: 0;
 }
+
+@media screen and (max-width: 1200px) {
+    /* * {font-size: 2rem;}
+    img {
+        width: 20%;
+    } */
+
+    #sidebar, #sidebar2, #sidebar3 {
+        font-size: 2rem;
+        width: 320px;
+    }
+    #sidebar {
+        left: -300px;
+    }
+    #sidebar2 {
+        left: -290px;
+    }
+    #sidebar3 {
+        left: -290px;
+    }
+
+    p {font-size: 2rem;}
+}
