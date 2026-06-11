@@ -257,7 +257,7 @@ var miku = [
     <a href="miku/89e14c071e0ab1111e7730fbfd08ee0e.jpeg"><img src="miku/89e14c071e0ab1111e7730fbfd08ee0e.jpeg"></a>\
     <a href="miku/c5443b5a4bfb09c0dfa1710e0a329c6b.jpeg"><img src="miku/c5443b5a4bfb09c0dfa1710e0a329c6b.jpeg"></a>\
     <a href="miku/b9c5728351db9b191cd90d8fb3ddb1e0.jpeg"><img src="miku/b9c5728351db9b191cd90d8fb3ddb1e0.jpeg"></a>\
-    <a href="miku/87fe2e17b40279f9c503241a32034c0ec0533468.jpg"><img src="miku/87fe2e17b40279f9c503241a32034c0ec0533468.jpg"></a>\
+    <a href="miku/87fe2e17b40279f9c503241a32034c0ec0533468.jpeg"><img src="miku/87fe2e17b40279f9c503241a32034c0ec0533468.jpeg"></a>\
     <a href="miku/7cca25e099035f1167b751f1ced16840.jpeg"><img src="miku/7cca25e099035f1167b751f1ced16840.jpeg"></a>\
     <a href="miku/4c2180e435c818b0349acb820f6c0f02.jpeg"><img src="miku/4c2180e435c818b0349acb820f6c0f02.jpeg"></a>\
     <a href="miku/a6f85af61c528e507853a8d451be4d0a.jpeg"><img src="miku/a6f85af61c528e507853a8d451be4d0a.jpeg"></a>\
@@ -279,7 +279,7 @@ var miku = [
     ${linkedImage('/r34/miku/8cf4cf124e5aceb4457294b9ae3eb7fb37521b11.jpeg')}
     ${linkedImage('/r34/miku/ac057cbc4d52f4ad4e7e55476df7a3003601b6f1.jpeg')}
     ${linkedImage('/r34/miku/c7d9369089cad44ca2cd3a9cd7d45735f872c087.jpeg')}
-    ${linkedImage('/r34/miku/e66f2c59bf76855068f99610b267b65243013a00.jpg')}
+    ${linkedImage('/r34/miku/e66f2c59bf76855068f99610b267b65243013a00.jpeg')}
     ${linkedImage('/r34/miku/beebspacemermaid.bsky.social-3mmrhosalsc2l.jpeg')}
     `,
 
@@ -388,15 +388,15 @@ brMiku[1] += 'brMikuComic<br>';brMigu.forEach(string => {brMiku[1] += linkedImag
 let puddingDraws = [
     `<style>
         .left {
-            position: absolute;
+            position: fixed;
             top: 5px;
-            left: calc(1.5rem / 2);
-            height: 4rem;
-            width: 4rem;
+            left: calc(2.5rem / 2);
+            height: 2rem;
+            width: 2rem;
         }
         .left:hover {
-            height: 5rem;
-            width: 5rem;
+            height: 3rem;
+            width: 3rem;
         }
     </style>
     <div class="left"><a href="https://bsky.app/profile/puddingdraws.bsky.social"><img src="/icons/Bluesky-logo-2200578589.png" class="left" style="border: none" title="PuddingDraws on Bluesky"></a></div>
@@ -423,6 +423,8 @@ let puddingDraws = [
     // ${linkedImage('/')}
     // ${linkedImage('/')}
 ]
+
+// miku[1] += puddingDraws[0]
 
 let creators = [
     `
