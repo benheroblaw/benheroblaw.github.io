@@ -229,7 +229,8 @@ var brMigu = [
     '5d607c5d4173e849265f54148d8f10c0.jpeg', // 23-2
 ]
 var miku = [
-    `<h2>Videos</h2>\
+    `<link rel="icon" href="/icons/mikuSelected.png">
+    <h2>Videos</h2>\
     horizontal<br>\
     <video controls title="hatsune blowjob" src="miku/0564b3cb8b58055592879edf386d854a.mp4">no porn for you :(</video>\
     <video controls title="futa x miku" src="miku/dd9ed60005744a7c72b7e60092e212ff.mp4">no porn for you :(</video>`
@@ -242,7 +243,8 @@ var miku = [
     linkVideo(`/r34/miku/eaef8b539adca6f7370c4e5bb689a32c.mp4`, false, `mikuteto monitoring`)
     ,
 
-`<h2>Images</h2>\
+`<link rel="icon" href="/icons/mikuSelected.png">
+    <h2>Images</h2>\
     <a href="miku/d26967e74cf4bb5b88f62209177c47f4.jpeg"><img src="miku/d26967e74cf4bb5b88f62209177c47f4.jpeg"></a>\
     <a href="miku/8694a05f839325fafe03ed24a53befe3.jpeg"><img src="miku/8694a05f839325fafe03ed24a53befe3.jpeg"></a>\
     <a href="miku/8efd1a280d5dc98b5591de852cae9879.jpeg"><img src="miku/8efd1a280d5dc98b5591de852cae9879.jpeg"></a>\
@@ -285,7 +287,8 @@ var miku = [
     // `<button onclick="startViewer(\'/r34/miku/\', miguteto, \'html>body>div.centerList\')">migu tedo</button> `+
     // `<button onclick="startViewer(\'/r34/miku/\', honymigu, \'html>body>div.centerList\')">hony migu</button><br>`,
 
-    `<h2>GIFs</h2>
+    `<link rel="icon" href="/icons/mikuSelected.png">
+    <h2>GIFs</h2>
     ${linkedImage(`/r34/miku/895ae626ca075dd41e55b40020f75acf.gif`)}
     ${linkedImage('/r34/miku/54a6a063caa2096e17e79f9b257c7f6f.gif')}
     `,
@@ -340,7 +343,8 @@ var miku = [
     br miku<br>
     `,
 
-    `<h2>Comic Strips</h2>\
+    `<link rel="icon" href="/icons/mikuSelected.png">
+    <h2>Comic Strips</h2>\
     <div id="stripContainer">\
         <div><a href="miku/5b4affe3cfd8e9f7629f75e06e061fbd.jpeg"><img src="miku/5b4affe3cfd8e9f7629f75e06e061fbd.jpeg"></a></div>\
         <div>${linkedImage('/r34/miku/d50358b28fb2bbb5e6fb5bf222d6e756.jpeg')}</div>
@@ -354,30 +358,32 @@ var miku = [
     <img src="/icons/transteto.svg" style="width: 2rem; border: none">`,
 ]
 brMiku = [
-    `
+    `<link rel="icon" href="/icons/brmikuSelected.svg">
+    ${ah2('Images')}
     ${linkedImage('/r34/miku/e31d051206aadd464177352663ab3130.jpeg')}
     ${linkedImage('/r34/miku/a6f85af61c528e507853a8d451be4d0a.jpeg')}
     ${linkedImage('/r34/miku/df1895af098812562b021ec4ef08e816.jpeg')}
     ${linkedImage('/r34/miku/35f89cb2c1eea92ed997aaf435296fff.jpeg')}
     ${linkedImage('/r34/miku/d26967e74cf4bb5b88f62209177c47f4.jpeg')}
     ${linkedImage('/r34/miku/8694a05f839325fafe03ed24a53befe3.jpeg')}
-    ${linkedImage('/r34/miku/e66f2c59bf76855068f99610b267b65243013a00.jpg')}
-
+    ${linkedImage('/r34/miku/e66f2c59bf76855068f99610b267b65243013a00.jpeg')}
+    ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnpsfikuhc2e.jpeg', 'Sketchbook pencil illustration of the Vocaloid Hatsune Miku except from Brazil (AKA Brazilian Miku), tanned and ready for the beach in her bikini. She\'s sweating in the sun and is holding a can of Guaraná against her cheek to cool off.')}
+    ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnq3ws323k26.jpeg', "Sketchbook pencil illustration of the Vocaloid Hatsune Miku except from Brazil (AKA Brazilian Miku), tanned and ready for the beach in her bikini. She's sweating in the sun and is holding a can of Guaraná against her cheek to cool off.\n\nIn this full, uncropped variant of the drawing we can see that her shorts are open and her massive slab of meat is out dangling.")}
+    ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnsoyjt5is2w.jpeg', "Pencil illustration of vocaloid Hatsune Miku furiously masturbating while huffing Brazilian Miku's junk, which is pressed up against and across Miku's face. The long slab of girlmeat, intact with foreskin, covers her eyes, while puffy, churning balls are nuzzled up against her cheek. A long, thick string of precum is oozing out of the tip of the girlcock. Once it makes contact with Miku's skin, the sensation of it might actually drive her over the edge......\n\nSelfcest arc??? MikuXMiku gay sex?? Get excited!")}
+    ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnv6rj2qe222.jpeg', "Pencil+digital illustration of the vocaloid Hatsune Miku furiously masturbating (and squirting!) with her mouth full of Brazilian Miku's girlcum; the latter's cock being pressed up against her face, slick with saliva trails and still oozing thick cum. Miku's chest is glazed with wet sticky strands and she is blowing cum bubbles with her heavy, ragged breathing. One can imagine all that voice training is paying off.\n\nTruly the best kind of cumsoaked selfcest yuri, and they haven't even FUCKED yet......")}
+    ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnvbp3x5y22h.jpeg', "The same drawing of Hatsune Miku splattered with cum and with a cock on her face, but cropped in a way that it focuses much more on those specific things.")}
+    ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnwpjosff22m.jpeg', "Mixed media (pencil + digital) illustration, POV, of famed Vocaloid Hatsune Miku being fucked missionary, or quite possibly in mating press. Her breasts are bouncing back and forth from the motion. Hands belonging to Brazilian Miku (selfcest yuri! wooo!) are grasping Miku's cheeks and holding her head in place to maintain eye contact as she is pounded. A thumb has found its way into Miku's mouth. Hearts can be seen in Miku's eyes and around her as she is fucked to ecstacy. ")}
     `,
     // ${linkedImage('/')}
     // ${linkedImage('/')}
     // ${linkedImage('/')}
-    // ${linkedImage('/')}
-    // ${linkedImage('/')}
-    // ${linkedImage('/')}
-    // ${linkedImage('/')}
-    // ${linkedImage('/')}
-    // ${linkedImage('/')}
-    ``
+
+    `<link rel="icon" href="/icons/brmikuSelected.svg">
+    ${ah2('Comic panels')}`
 ]
 
 brMigu.forEach(string => {miku[3] += linkedImage('/r34/miku/brmikucomic/' + string)})
-brMigu.forEach(string => {brMiku[1] += linkedImage('/r34/miku/brmikucomic/' + string)})
+brMiku[1] += 'brMikuComic<br>';brMigu.forEach(string => {brMiku[1] += linkedImage('/r34/miku/brmikucomic/' + string)})
 
 let puddingDraws = [
     `<style>
@@ -395,7 +401,7 @@ let puddingDraws = [
     </style>
     <div class="left"><a href="https://bsky.app/profile/puddingdraws.bsky.social"><img src="/icons/Bluesky-logo-2200578589.png" class="left" style="border: none" title="PuddingDraws on Bluesky"></a></div>
 
-    ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnpsfikuhc2e.jpeg', "Sketchbook pencil illustration of the Vocaloid Hatsune Miku except from Brazil (AKA Brazilian Miku), tanned and ready for the beach in her bikini. She's sweating in the sun and is holding a can of Guaraná against her cheek to cool off.")}
+    ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnpsfikuhc2e.jpeg', "")}
     ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mmm2wjw5jk2v-1.jpeg')}
     ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mmm2wjw5jk2v-2.jpeg')}
     ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mmm3ulah3c2v.jpeg')}

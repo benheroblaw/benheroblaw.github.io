@@ -201,6 +201,11 @@ function deleteCookie(cname, cvalue='', output = true, exdays = -7) {
   )}
 }
 
+function ensureCookie(cookie='', defaultVal='') {
+  if (checkCookie(cookie) === 'error') {
+    setCookie(cookie, defaultVal)
+  }
+}
 
 // function fetchJSONData(jsonFile="./tes[0]t.json") {
 //   fetch(jsonFile)
@@ -956,6 +961,10 @@ function addlink(link) {
   return linkAdder(link)
 }
 
+function ah2 (text='') {
+  return '<h2>' + text + '</h2>'
+}
+
 function promiseLoadScript(url) {
   var script = document.createElement("script")
   script.src = url;
@@ -1013,7 +1022,7 @@ function playlist(tracks=[], loop=true) {
   let index = 0
 
   try {player.remove()}
-  catch {tesLog('no exsisting player')}
+  catch {tesLog('no existing player')}
 
   player.src = tracks[0]
   player.play()
@@ -1035,6 +1044,7 @@ function playlist(tracks=[], loop=true) {
   })
 
 }
+
 
 // event listeners
 
