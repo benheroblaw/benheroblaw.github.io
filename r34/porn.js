@@ -355,7 +355,7 @@ var miku = [
     `miku<br>${selectableMiku()}<br><br>` +
 
     `trans teto is best teto<br>
-    <img src="/icons/transteto.svg" style="width: 2rem; border: none">`,
+    <img src="/icons/transteto.svg" style="width: 4rem; border: none">`,
 ]
 brMiku = [
     `<link rel="icon" href="/icons/brmikuSelected.svg">
