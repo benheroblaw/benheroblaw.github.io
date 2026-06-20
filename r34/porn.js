@@ -357,7 +357,7 @@ var miku = [
     `trans teto is best teto<br>
     <img src="/icons/transteto.svg" style="width: 4rem; border: none">`,
 ]
-brMiku = [
+var brMiku = [
     `<link rel="icon" href="/icons/brmikuSelected.svg">
     ${ah2('Images')}
     ${linkedImage('/r34/miku/e31d051206aadd464177352663ab3130.jpeg')}
@@ -379,11 +379,13 @@ brMiku = [
     // ${linkedImage('/')}
 
     `<link rel="icon" href="/icons/brmikuSelected.svg">
-    ${ah2('Comic panels')}`
+    ${ah2('Comic panels')}`,
+
+    `brazilian miku<br>${selectableVsynth('brmiku', '4rem')}`
 ]
 
 brMigu.forEach(string => {miku[3] += linkedImage('/r34/miku/brmikucomic/' + string)})
-brMiku[1] += 'brMikuComic<br>';brMigu.forEach(string => {brMiku[1] += linkedImage('/r34/miku/brmikucomic/' + string)})
+brMiku[1] += 'brMikuComic<br>'; brMigu.forEach(string => {brMiku[1] += linkedImage('/r34/miku/brmikucomic/' + string)})
 
 let puddingDraws = [
     `<style>
@@ -634,10 +636,10 @@ var cavenonfinal = [
     <p>anyway, quote rigged up a little stimulator that sends an adjustable electric current through the contacts so they can make curly feel like she`s constantly cumming</p>\
     <p>(quote and curly`s brains differ in sensitivity, curly being more sensitive, so quote has two switches that set the power going through to their preferred levels)</p>\
     <p>(/\\ im gonna retcon this, the vagina has more surface area and gets more stimulation<br>so quote isn`t less sensitive their penis is)</p>\
+    <p>(oh my god did i just mansplain the vagina im so sorry)</p>\
     <p>there`s a knob for overall power with the wattage displayed next to it</p>\
     <p>then another knob that adjusts sensitivity</p>\
     <p>after that is the contact</p>\
-    <p></p>\
     <p></p>\
     <p></p>\
     <p></p>\
@@ -1185,8 +1187,8 @@ var hardDegen = [
     `<h2>16:9 2</h2>
     ${linkedVideo('/r34/hard-degen/harddegenerate.bsky.social-3lay3yztld22w.mp4')}
     ${linkedVideo('/r34/hard-degen/harddegenerate.bsky.social-3lay4tlxthc2i.mp4')}
-    ${linkedVideo('/r34/hard-degen/harddegenerate.bsky.social-3lay66gppyc2i.mp4')}
-    ${linkedVideo('/r34/hard-degen/harddegenerate.bsky.social-3lay646hcw22i.mp4')}
+    ${linkedVideo('/r34/hard-degen/harddegenerate.bsky.social-3lay66gppyc2i.mp4', true)}
+    ${linkedVideo('/r34/hard-degen/harddegenerate.bsky.social-3lay646hcw22i.mp4', true)}
     `,
 
     `<h2>Mario</h2>
@@ -1207,4 +1209,105 @@ var hardDegen = [
     ${linkedVideo('/r34/hard-degen/harddegenerate.bsky.social-3lay4tlxthc2i.mp4', 'loop')}
     ${linkedVideo('/r34/hard-degen/harddegenerate.bsky.social-3lay646hcw22i.mp4', 'loop')}
     `,
+    `${ah2('images')}`,
+
+    `<br>hard degen`
 ]
+
+const hardDegenImages = [
+    '1',
+    '2',
+    '3',
+    '4',
+    '5',
+    '6',
+    '7',
+    '8',
+    '9.1',
+    '9.2',
+    '10',
+    '11.1',
+    '11.2',
+    '11.3',
+    '11.4',
+    '12',
+    '13.1',
+    '13.2',
+    '13.3',
+    '14.1',
+    '14.2',
+    '15',
+    '16.1',
+    '16.2',
+    '17',
+    18.1,
+    18.2,
+    18.3,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24.1,
+    24.2,
+    25,
+    26.1,
+    26.2,
+    27,
+    28.1,
+    28.2,
+    29.1,
+    29.2,
+    30,
+    31.1,
+    31.2,
+    31.3,
+    32,
+    33,
+    34,
+    35,
+    36.1,
+    36.2,
+    37,
+    38.1,
+    38,
+    39,
+    40.1,
+    40.2,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48.1,
+    48.2,
+    49.1,
+    49.2,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57.1,
+    57.2,
+    58,
+    59,
+    60.1,
+    60.2,
+    61
+]
+
+for (let index = 0; index < hardDegenImages.length; index++) {
+    const element = hardDegenImages[index]
+    if (element === 35) {
+        hardDegen[5] += linkedImage(`/r34/hard-degen/Images/${element}.gif`)
+    }
+    else {
+        hardDegen[5] += linkedImage(`/r34/hard-degen/Images/${element}.jpg`)
+    }
+}

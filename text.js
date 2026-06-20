@@ -940,13 +940,25 @@ var sao = [
     <p>Kirito manages to override the will of God himself through... motivation? Determination? It's not clear, but he still dies in the end.</p>\
     <p>Only to be revived for the plot.</p>\
     <p>Now we enter the aftermath of Aincrad, where a few out of the 60,000 to complete SAO have been transferred to another game instead of being released. This includes Kirito's girlfriend, Asuna.</p>\
-    <p>So, he enters this new game. Alfhame Online, abbreviated to ALO. He rushes and hacks his way to the final confrontation, freeing Asuna.</p>\
+    <p>So, he enters this new game. Alfhame Online, abbreviated to ALO. He slashes and hacks his way to the final confrontation, freeing Asuna.</p>\
     <p>This is where the plot starts to crumble.</p>\
-    <p>The third arc, Gun Gale Online, is about a girl called Shino Asuda, aka Sinon, coping with the childhood trauma of killing a man. This sounds like quite a compelling story.</p>\
+    <p>The third arc, Gun Gale Online, is about a girl called Shino Asuda, aka Sinon, coping with the childhood trauma of killing a man with his own gun. This sounds like quite a compelling story.</p>\
     <p>But Kirito is still the main character.</p>\
-    <p>Where the narrative should switch to Sinon as the protagonist, it instead leaves Kirito in charge. Sinon's perspective is in third-person, while Kirito gets first-person despite him only being relevant because he <i>must</i> be the main character. He <i>must</i> be the most important, not because he's relevant, not because he grows, but because the plot <i>must not</i> switch character.</p>\
+    <p>Where the narrative should switch to Sinon as the protagonist, it instead leaves Kirito in charge. Sinon's   perspective is in third-person, while Kirito gets first-person despite him only being relevant because he <i>must</i> be the main character. He <i>must</i> be the most important, not because he's relevant, not because he grows, but because the plot <i>must not</i> switch character.</p>\
     <p>It's completely fine to have this kind of perspective, but it only works when you know what to do with it. My personal favorite anime, Tensura, uses this perspective. We're not following Rimuru around all the time, but when we leave his perspective, it's to show the world shifting, showing a change in the natural order that Rimuru will have to adapt to.</p>\
     <p>And therein lies the beauty of this perspective. You use third-person segments to establish matters that <i>affect the protagonist.</i></p>\
+    <p>Kirito adapts, not to the world around him, but to whatever the narrative needs him to be. Kirito must be the main character, so if we want to tell a story about someone else, Kirito must follow them.</p>\
+    <p>So, the government hires Kirito to investigate real-life deaths that seem to happen in-game. What does Sinon have to do with this? Be a damsel in distress for Kirito to save.</p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
+    <p></p>\
     <p></p>\
     <p></p>\
     <p></p>\
