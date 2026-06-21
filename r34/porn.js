@@ -429,9 +429,9 @@ let puddingDraws = [
 // miku[1] += puddingDraws[0]
 
 let creators = [
-    `
-        <a href="/r34/puddingdraws.html">PuddingDraws</a>
-        `
+    `<a href="/r34/puddingdraws.html">PuddingDraws</a><br>
+${addLink('/r34/puppysnackz.html', 'Puppysnackz')}<br>
+`
 ]
 
 // var pornSidebar = `\
@@ -1311,3 +1311,11 @@ for (let index = 0; index < hardDegenImages.length; index++) {
         hardDegen[5] += linkedImage(`/r34/hard-degen/Images/${element}.jpg`)
     }
 }
+
+let puppysnax = [
+  linkedImage('/r34/puppysnackz/.jpeg') +
+  linkedImage('/r34/puppysnackz/.jpeg') +
+  linkedImage('/r34/puppysnackz/.jpeg') +
+  linkedImage('/r34/puppysnackz/.jpeg') +
+  ``
+]

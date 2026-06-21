@@ -947,18 +947,21 @@ function addVideo(link='', loop=false, title) {
   return linkVideo(link, loop, title,)
 }
 
-function linkAdder(link,) {
+function linkAdder(link='', name='') {
   let output = ''
-  if (link != '') {
+  if (link != '' && name != '') {
+    output = ` <a href="${link}">${name}</a><br>`
+  }
+  else if (link != '' && name === '') {
     output = ` <a href="${link}">${link}</a><br>`
   }
   return output
 }
-function addLink(link) {
-  return linkAdder(link)
+function addLink(link='', name='') {
+  return linkAdder(link, name)
 }
-function addlink(link) {
-  return linkAdder(link)
+function addlink(link='', name='') {
+  return linkAdder(link, name)
 }
 
 function ah2 (text='') {
