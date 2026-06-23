@@ -18,11 +18,10 @@ var pornSidebar = `\
   <h1><a href="/r34/r34.html"><span style="color: white;">prawns</span></a></h1>\
   <a href="all.html" class="red"><span>all</span></a><br>\
   <a class="blue" href="assets.html"><span>assets</span></a><br>\
-  <a href="/r34/coolart.html" class="blue"><span>Artists</span></a><br>\
+  <a onclick="tesLog('setting sidebar to artistSidebar'); qSel('#sidebar').innerHTML = artistSidebar" class="blue"><span>Artists</span></a><br>\
   <br>\
   \
   <a class="blue" href="/r34/comics.html"><span>Comics</span></a><br><br>` +
-  // <a class='red' href='/r34/bonkge.html'><span>Bonkge</span></a><br>
   `<a href="/r34/cavestory.html" id="cavestory" class="blue" onmouseenter="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0002.svg\'" onmouseleave="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0001.svg\'" onload="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0001.svg\'"><span>Cave Story</span></a> <img src="/r34/cavestory/assets/Sprite-0001.svg" style="border: none; width: 16px; height: 10px;" id="quotehead"><br>\
   <a href="/r34/dragon-maid.html" class="blue"><span>Dragon Maid</span></a><br>\
   <a href="/r34/hard-degen.html" class="blue"><span>Hard Degenerate</span></a><br>\
@@ -43,6 +42,13 @@ var pornSidebar = `\
   <button onclick="location.reload(true)">ctrl+f5</button><br><br>\
   <a class="hidden", style="color: #111;" href="/r34/ia/ai.html">ai</a><br>
   <a class="hidden", style="color: #111;" href="/r34/files.html">Files</a>
+`
+var artistSidebar = `
+<h1>Artists</h1>
+<a class="blue" onclick="tesLog('setting sidebar to pornSidebar'); qSel('#sidebar').innerHTMl = pornSidebar"><span>Back</span></a><br><br>
+<a class='red' href='/r34/bonkge.html'><span>Bonkge</span></a><br>
+${addlink('/r34/puppysnackz.html', 'puppysnackz')}
+${addlink('/r34/puddingdraws.html', 'PuddingDraws')}
 `
 
 var pokemonSidebar = '\
@@ -70,6 +76,12 @@ var aiSidebar = `
     <h1>viewers</h1>
     <a href="/r34/ia/bocchi/bocchi-ai-viewer.html">bocchi</a><br>
     <a href="/r34/ia/miku/ai-miku-viewer.html">miku</a>
+`
+
+var puppySidebar = `
+<h1>Viewers</h1>
+${addLink('/r34/puppysnackz/ava.html', 'Ava')}
+${addLink('/r34/puppysnackz/agnes.html', 'Agnes Taciyon')}
 `
 
 var program = [
@@ -1066,6 +1078,36 @@ document.addEventListener("DOMContentLoaded", function() {
     document.body.className = 'centerList'
     promiseLoadScript('/r34/porn.js').then(addSidebar(pornSidebar))
   }
+  if (window.location.pathname.indexOf('/r34/puppysnackz') > -1) {
+    document.body.innerHTML+=
+    `<style>
+      .left {
+        position: fixed;
+        top: 5px;
+        left: calc(2.5rem / 2);
+        height: 2rem;
+        width: 2rem;
+      }
+      .left:hover {
+        height: 3rem;
+        width: 3rem;
+      }
+    </style>
+    <div class="left"><a href="https://bsky.app/profile/puppysnackz.bsky.social"><img src="/icons/Bluesky-logo-2200578589.png" class="left" style="border: none" title="Puppysnackz on Bluesky"></a></div>
+    <div id="sidebar2"></div>`
+
+    addSidebar(pornSidebar, puppySidebar)
+
+  }
+
+  if (window.location.pathname.indexOf('puppysnackz.html') > -1) {
+    document.body.innerHTML += '<br><br>'
+    setInterval(() => {
+      qSelA('video').forEach(element => {
+        element.loop = true
+      })
+    }, 100);
+  }
 
   if (window.location.pathname.indexOf('/r34/ia/') > -1) {
     console.log('no fun background for you :(');
@@ -1086,7 +1128,7 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   if (window.location.pathname.indexOf('miku') > -1) {
-    document.body.style.cursor = 'url("/cursors/mikuDefault.cur")'
+    document.body.style.cursor = 'url(/cursors/mikuDefault.cur),pointer'
   }
 
   vol(0.1, 0.1)
@@ -1098,6 +1140,47 @@ document.addEventListener("DOMContentLoaded", function() {
     qSelA('img').forEach(element => {
       element.draggable = false
       element.style.userSelect = 'none'
+    })
+    qSelA('video').forEach(element => {
+      element.onkeydown = event => {
+        if (event.key === 'F' || event.key === 'f') {
+          if (document.fullscreenElement) {
+            document.exitFullscreen();
+          } else {
+            element.requestFullscreen();
+          }
+        }
+        if (event.key === '1') {
+          element.currentTime = 0.1*Number(element.duration)
+        }
+        if (event.key === '2') {
+          element.currentTime = 0.2*Number(element.duration)
+        }
+        if (event.key === '3') {
+          element.currentTime = 0.3*Number(element.duration)
+        }
+        if (event.key === '4') {
+          element.currentTime = 0.4*Number(element.duration)
+        }
+        if (event.key === '5') {
+          element.currentTime = 0.5*Number(element.duration)
+        }
+        if (event.key === '6') {
+          element.currentTime = 0.6*Number(element.duration)
+        }
+        if (event.key === '7') {
+          element.currentTime = 0.7*Number(element.duration)
+        }
+        if (event.key === '8') {
+          element.currentTime = 0.8*Number(element.duration)
+        }
+        if (event.key === '9') {
+          element.currentTime = 0.9*Number(element.duration)
+        }
+        if (event.key === '0') {
+          element.currentTime = 0
+        }
+      }
     })
     // tesLog('setting draggable')
   }, 500)

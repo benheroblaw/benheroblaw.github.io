@@ -64,12 +64,12 @@ button {cursor: pointer;}
   margin-bottom: 0.5rem;
   height: 80vh;
   border: none;
-  cursor: none;
+  cursor: url(/cursors/dot.cur),pointer;
 }
 .center:hover>#image:hover {
   height: calc(100vh - 2.25rem);
   border: #aaa solid 2px;
-  cursor: crosshair;
+  /* cursor: crosshair; */
 }
 /* #image:hover, #prev {
   display: none;
