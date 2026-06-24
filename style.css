@@ -7,3 +7,14 @@ a:visited {color: blueviolet;}
 
 .hidden {color: black; cursor: default;}
 .center {text-align: center;}
+
+@media (prefers-color-scheme: light) {
+  .background {word-spacing: 1px; letter-spacing: 0.5px; font-size: 1rem; padding: 38px; text-wrap-mode: wrap; background: #aaa; margin-top: 0px; margin-bottom: 0px; color: black; width: 800px; margin-left: auto; margin-right: auto; line-height: 2rem;}
+  .background>p {color: black; text-shadow: none; text-indent: 3rem;}
+  /* h1 {font-family: 'Times New Roman', Times, serif; font-size: 3.5rem; text-align: center; padding-top: 50.5px; padding-bottom: 55px; background: linear-gradient(#000, #111, #111, #111, #111, #111, #111, #aaa); margin-top: 0%; margin-bottom: 0%;} */
+}
+@media (prefers-color-scheme: dark) {
+  .background {word-spacing: 1px; letter-spacing: 0.5px; font-size: 1rem; padding: 38px; text-wrap-mode: wrap; background: rgb(20, 20, 20); margin-top: 0px; margin-bottom: 0px; color: #ddd; width: 800px; margin-left: auto; margin-right: auto; line-height: 2rem;}
+  .background>p {color: #ddd; text-shadow: none; text-indent: 3rem;}
+  /* h1 {font-family: 'Times New Roman', Times, serif; font-size: 3.5rem; text-align: center; padding-top: 50.5px; padding-bottom: 55px; background: linear-gradient(#000, #252525, #252525, #252525, #252525, #252525, #252525, #141414); margin-top: 0%; margin-bottom: 0%; color: white;} */
+}

@@ -228,7 +228,7 @@ var brMigu = [
   '0cb2579324e2f3c4c6ac80479b5ba91d.jpeg', // 23-1
   '5d607c5d4173e849265f54148d8f10c0.jpeg', // 23-2
 ]
-var miku = [
+let miku = [
   `<link rel="icon" href="/icons/mikuSelected.png">
   <h2>Videos</h2>\
   horizontal<br>\
@@ -283,9 +283,45 @@ var miku = [
   ${linkedImage('/r34/miku/beebspacemermaid.bsky.social-3mmrhosalsc2l.jpeg')}
   `,
 
-  // `<div style="margin-bottom: none; margin-top: none">` +
-  // `<button onclick="startViewer(\'/r34/miku/\', miguteto, \'html>body>div.centerList\')">migu tedo</button> `+
-  // `<button onclick="startViewer(\'/r34/miku/\', honymigu, \'html>body>div.centerList\')">hony migu</button><br>`,
+  `${ah2('traditional art')}
+  sfw<br>
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3ml4vo5kbgk2j.jpeg', '')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3ml7htkwrmc2z.jpeg', '')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mlebut235c2j.jpeg', '')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mllyubji5k2i.jpeg', '')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mmm2wjw5jk2v-1.jpeg', 'Pencil, ink and marker doodle of my familiar  transgender interpretation of Kasane Teto, with a goth aesthetic.')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mmm2wjw5jk2v-2.jpeg', 'Pencil and marker (and a little bit of watercolor) illustration of the #vocaloid GUMI, next to a sketch of goth Teto. Gumi has a bit of a retro futuristic Y2K alt girl thing going on, with just a sprinkle of manic pixie dream girl... in the most t4t yuri way possible.\n\nAnd they were roommates.')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mmm3ulah3c2v.jpeg', 'The same Gumi as in the precious picture.')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mn3gw6isp22v.jpeg', 'Pencil, ink, marker and gel pen illustration of Kasane Teto in her genie design from TRAP CHICK\'s "Approve please, Genie!"')}
+  <br><br>
+  nsfw<br>
+  ${linkedImage('/r34/miku/beebspacemermaid.bsky.social-3mmrhosalsc2l.jpeg', 'Traditional pencil drawing/doodle in anime style of a tanned Kasane Teto with a noticable bra tan line, topless, boobs/chest exposed, stretch marks and a bit of a chubby tummy visible :>')}
+  ${linkedImage('/r34/miku/beebspacemermaid.bsky.social-3mnq5zzkbg22e.jpeg', '')}
+  ${linkedImage('/r34/miku/beebspacemermaid.bsky.social-3mnrgqclhts2n.jpeg', '')}
+  ${linkedImage('/r34/miku/beebspacemermaid.bsky.social-3mns4iefimc2p.jpeg', '')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mklbtvbnsc27-1.jpeg', '')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mklbtvbnsc27-2.jpeg', '')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mkvfvblun22e.jpeg', 'Pencil illustration in a first-person perspective of a succubus Hatsune Miku straddled on top of you, the POV character (female coded, has a penis, quite possibly Kasane Teto) and riding you vigorously, her pierced tits bouncing with every wet thrust.\n\nMiku is wearing nothing but shoulder-length gloves and thigh-highs. She has pointy ears, a heart-shaped tail and oni-style demon horns on her forehead.\n\nShe has a sly smile and hunger in her eyes, locked into yours, unable to break eye contact as your hands grip desperately onto the hips that relentlessly smack against you, again and again and again. Who knows how many explosive releases she will coax out. Who knows how much longer you\'ll be able to stay conscious...')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mlyyegicck2f.jpeg', 'Pencil illustration of transgender Kasane Teto, caught in the act of masturbating, presumably to someone\'s used panties, with a wand massager. A laundry basket can be seen in the background. The door to the room was opened at the worst possible timing, as Teto just started ejaculating, with an expression that says "it\'s all over..."')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mm5hdcqeys2k.jpeg', 'The same as the preceding drawing but without any of the cinematic shading, and without the dramatic silhouette of an onlooker. Additionally there is a cartoonish twitch or flash signifier over Teto\'s head to indicate surprise. I felt it didn\'t match the tone in the shaded drawing so I used the healing brush to remove it in that version.')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mm3h5chpy22a.jpeg', 'Pencil illustration (with digitally added shadows) of transgender Kasane Teto, pinned to the ground right after she was caught masturbating to a used pair of panties. The laundry basket from before has fallen over, scattering more laundry about. Teto is still shaking from the orgasm that started in the last picture, and both she and the panties she used are covered in ropes of cum. She looks simultaneously ashamed, afraid, dazed and aroused.')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mmctmjbpmk2g.jpeg', 'Getting back into the groove of things.\nPencil illustration of Kasane Teto having hot, sweaty sesbian lex. She is sat on a mattress, fucking her partner from behind. Or... who is fucking who, exactly? Our femby is having trouble keeping herself composed.')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mmpgk7pxac2k.jpeg', 'Text:\n&#34;THERE you go~&#34;\n&#34;Just one more for me, ok?&#34;\n\nPencil illustration of transgender Kasane Teto getting MILKED from behind by Gumi, by way of overstim handjob. Truly, the truest form of yuri. She is aimed at a bowl on a low table, but aiming load after load is difficult...')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mmu5ctqzw22c.jpeg', 'Pencil illustration of Kasane Teto, drawn slightly chubby, with stretch marks and tanned with a bikini tanline. She is wearing a bikini *without* the top, and is in the process of tying her hair up in a novel DRILL PONYTAIL instead of her usual twin-drills. She\'s got the hair tie ready in ehr mouth.')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mn67ebiwd22k.jpeg', 'POV pencil illustration, digitally edited, of Kasane Teto riding a dildo (anal insertion) in front of a mirror in her room, girlcock spilling cum. She is grabbing her breast and tensing up as the orgasm goes on. There are little hearts in her eyes. The mirror is splattered with gock juice, and overall looks rather dirty... In the background can be seen a bed and a trans flag hanging on the wall. ')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnaxdvzots2k.jpeg', 'Pencil fanart illustration, rendered digitally, of the vocaloid ボカロ Akita Neru (27) of Triple Baka fame emotionlessly jerking off a cock with one hand while texting on her phone with her other. Not a thought is spared to the poor, precum leaking thing. Handjobs are truly an art.\n\nShe\'s wearing a black V-neck, a pink ribbon choker, curvalicious waist-high jeans and a black scrunchie to keep her side ponytail up. I\'ve chosen to depict her as perhaps a bit curvier than how she is usually portrayed. Big tits and wide hips and all. I think she looks quite nice.')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnb52ouevk2p.jpeg', 'The same drawing of Neru, but just a pencil illustration.')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnnkwdkdps2e.jpeg', 'Pencil illustration of transgender, nonbinary, chimeragender-ass Kasane Teto laid out on a mattress; overwhelmed, overstimulated, overcummed. She is covered in lipstick marks, hickies and bite marks. Sex toys, condom wrappings and cum-filled condoms are scattered around and on her. One is still wrapped tightly on her gock, filling up as it twitches and pumps. She shivers and convulses, flustered face covered by her hands.')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnpsfikuhc2e.jpeg', 'Sketchbook pencil illustration of the Vocaloid Hatsune Miku except from Brazil (AKA Brazilian Miku), tanned and ready for the beach in her bikini. She\'s sweating i nthe sun and is holding a can of Guaraná against her cheek to cool off.')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnq3ws323k26.jpeg', 'Sketchbook pencil illustration of the Vocaloid Hatsune Miku except from Brazil (AKA Brazilian Miku), tanned and ready for the beach in her bikini. She\'s sweating in the sun and is holding a can of Guaraná against her cheek to cool off.\n\nIn this full, uncropped variant of the drawing we can see that her shorts are open and her massive slab of meat is out dangling.')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnsoyjt5is2w.jpeg', 'Pencil illustration of vocaloid Hatsune Miku furiously masturbating while huffing Brazilian Miku\'s junk, which is pressed up against and across Miku\'s face. The long slab of girlmeat, intact with foreskin, covers her eyes, while puffy, churning balls are nuzzled up against her cheek. A long, thick string of precum is oozing out of the tip of the girlcock. Once it makes contact with Miku\'s skin, the sensation of it might actually drive her over the edge......\n\nSelfcest arc??? MikuXMiku gay sex?? Get excited!')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnv6rj2qe222.jpeg', 'Pencil+digital illustration of the vocaloid Hatsune Miku furiously masturbating (and squirting!) with her mouth full of Brazilian Miku\'s girlcum; the latter\'s cock being pressed up against her face, slick with saliva trails and still oozing thick cum. Miku\'s chest is glazed with wet sticky strands and she is blowing cum bubbles with her heavy, ragged breathing. One can imagine all that voice training is paying off.\n\nTruly the best kind of cumsoaked selfcest yuri, and they haven\'t even FUCKED yet......')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnvbp3x5y22h.jpeg', 'The same drawing of Hatsune Miku splattered with cum and with a cock on her face, but cropped in a way that it focuses much more on those specific things.')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnwpjosff22m.jpeg', 'Mixed media (pencil + digital) illustration, POV, of famed Vocaloid Hatsune Miku being fucked missionary, or quite possibly in mating press. Her breasts are bouncing back and forth from the motion. Hands belonging to Brazilian Miku (selfcest yuri! wooo!) are grasping Miku\'s cheeks and holding her head in place to maintain eye contact as she is pounded. A thumb has found its way into Miku\'s mouth. Hearts can be seen in Miku\'s eyes and around her as she is fucked to ecstacy.')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnzeu3jw2c2c.jpeg', 'Two drawings, side by side, of a large intact penis standing erect. First, covered completely in its hood of skin. Then, with a hand pulling down the skin and exposing the sensitive head, causing a twitch and a splash of precum, along with a moan. The tight ring of the foreskin tip strains the meat\'s girth somewhat as it passes over it, creating an hourglass shape.\n\nThis educational demonstration was kindly provided by Brazilian Miku and non-Brazilian Hatsune Miku.')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mo7bjzbsys2w.jpeg', 'Illustration of Hatsune Miku fingering herself.')}
+  `,
+  // ${linkedImage('/')}
 
   `<link rel="icon" href="/icons/mikuSelected.png">
   <h2>GIFs</h2>
@@ -408,16 +444,16 @@ let puddingDraws = [
   ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mmm2wjw5jk2v-2.jpeg')}
   ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mmm3ulah3c2v.jpeg')}
   <br><br>
-  ${linkedImage('/r34/puddingDraws/bafkreifb3cl6uwximnghqcxadhaatqfgj4kcvk2m5xolg65i4yvze2ikze.jpeg', "Sketchbook pencil illustration of the Vocaloid Hatsune Miku except from Brazil (AKA Brazilian Miku), tanned and ready for the beach in her bikini. She's sweating in the sun and is holding a can of Guaraná against her cheek to cool off.\n\nIn this full, uncropped variant of the drawing we can see that her shorts are open and her massive slab of meat is out dangling.")}
-  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mm3h5chpy22a.jpeg')}
-  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mmpgk7pxac2k.jpeg')}
+  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnq3ws323k26.jpeg', "Sketchbook pencil illustration of the Vocaloid Hatsune Miku except from Brazil (AKA Brazilian Miku), tanned and ready for the beach in her bikini. She's sweating in the sun and is holding a can of Guaran\u00e1 against her cheek to cool off.\n\nIn this full, uncropped variant of the drawing we can see that her shorts are open and her massive slab of meat is out dangling.")}
+  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mm3h5chpy22a.jpeg', 'Pencil illustration (with digitally added shadows) of transgender Kasane Teto, pinned to the ground right after she was caught masturbating to a used pair of panties. The laundry basket from before has fallen over, scattering more laundry about. Teto is still shaking from the orgasm that started in the last picture, and both she and the panties she used are covered in ropes of cum. She looks simultaneously ashamed, afraid, dazed and aroused.')}
+  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mmpgk7pxac2k.jpeg', 'Pencil illustration of transgender Kasane Teto getting MILKED from behind by Gumi, by way of overstim handjob. Truly, the truest form of yuri. She is aimed at a bowl on a low table, but aiming load after load is difficult...')}
   ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mmu5ctqzw22c.jpeg', "Pencil illustration of Kasane Teto, drawn slightly chubby, with stretch marks and tanned with a bikini tanline. She is wearing a bikini *without* the top, and is in the process of tying her hair up in a novel DRILL PONYTAIL instead of her usual twin-drills. She's got the hair tie ready in ehr mouth.")}
-  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mn3gw6isp22v.jpeg')}
-  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnnkwdkdps2e.jpeg')}
-  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnd53gcg522u.jpeg')}
-  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnaxdvzots2k.jpeg', "Pencil fanart illustration, rendered digitally, of the vocaloid ボカロ Akita Neru (27) of Triple Baka fame emotionlessly jerking off a cock with one hand while texting on her phone with her other. Not a thought is spared to the poor, precum leaking thing. Handjobs are truly an art.\n\nShe's wearing a black V-neck, a pink ribbon choker, curvalicious waist-high jeans and a black scrunchie to keep her side ponytail up. I've chosen to depict her as perhaps a bit curvier than how she is usually portrayed. Big tits and wide hips and all. I think she looks quite nice.")}
+  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mn3gw6isp22v.jpeg', 'Pencil, ink, marker and gel pen illustration of Kasane Teto in her genie design from TRAP CHICK\'s "Approve please, Genie!"')}
+  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnnkwdkdps2e.jpeg', 'Pencil illustration of transgender, nonbinary, chimeragender-ass Kasane Teto laid out on a mattress; overwhelmed, overstimulated, overcummed. She is covered in lipstick marks, hickies and bite marks. Sex toys, condom wrappings and cum-filled condoms are scattered around and on her. One is still wrapped tightly on her gock, filling up as it twitches and pumps. She shivers and convulses, flustered face covered by her hands.')}
+  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnd53gcg522u.jpeg', 'Gay-ass pencil illustration of two characters in feminine clothing being frisky with each other, featuring one very messy wet gock. This is what happens when you kiss girls during pride month, people.')}
+  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnaxdvzots2k.jpeg', "Pencil fanart illustration, rendered digitally, of the vocaloid \u30dc\u30ab\u30ed Akita Neru (27) of Triple Baka fame emotionlessly jerking off a cock with one hand while texting on her phone with her other. Not a thought is spared to the poor, precum leaking thing. Handjobs are truly an art.\n\nShe's wearing a black V-neck, a pink ribbon choker, curvalicious waist-high jeans and a black scrunchie to keep her side ponytail up. I've chosen to depict her as perhaps a bit curvier than how she is usually portrayed. Big tits and wide hips and all. I think she looks quite nice.")}
   ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnb52ouevk2p.jpeg', "The same drawing of Neru, but just a pencil illustration. ")}
-  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mn67ebiwd22k.jpeg')}
+  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mn67ebiwd22k.jpeg', 'POV pencil illustration, digitally edited, of Kasane Teto riding a dildo (anal insertion) in front of a mirror in her room, girlcock spilling cum. She is grabbing her breast and tensing up as the orgasm goes on. There are little hearts in her eyes. The mirror is splattered with gock juice, and overall looks rather dirty... In the background can be seen a bed and a trans flag hanging on the wall.')}
 
   `
   // ${linkedImage('/')}
@@ -1334,4 +1370,13 @@ var dragon = [
 
   '<a href="dragon maid/1df83a873bc5263efaa98b56047b6c29.png"><img src="dragon maid/1df83a873bc5263efaa98b56047b6c29.png"></a>\
   <a href="dragon maid/84f6e7548094d548c224a5e114a39a81.png"><img src="dragon maid/84f6e7548094d548c224a5e114a39a81.png"></a>',
+]
+
+let ladylovense = [
+    '/r34/puppysnackz/puppysnackz.bsky.social-3mffjuna3oc2i-1.jpeg',
+    '/r34/puppysnackz/puppysnackz.bsky.social-3mffjuna3oc2i-2.jpeg',
+    '/r34/puppysnackz/puppysnackz.bsky.social-3mfftzvaakc2n-1.jpeg',
+    '/r34/puppysnackz/puppysnackz.bsky.social-3mfftzvaakc2n-2.jpeg',
+    '/r34/puppysnackz/puppysnackz.bsky.social-3mfhodgrcxk2u.jpeg',
+    '/r34/puppysnackz/puppysnackz.bsky.social-3mfhof7p3tk2u.jpeg',
 ]

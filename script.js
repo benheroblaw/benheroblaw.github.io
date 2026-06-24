@@ -82,6 +82,7 @@ var puppySidebar = `
 <h1>Viewers</h1>
 ${addLink('/r34/puppysnackz/ava.html', 'Ava')}
 ${addLink('/r34/puppysnackz/agnes.html', 'Agnes Taciyon')}
+${addLink('/r34/puppysnackz/ladylovense.html', 'Lady Lovense')}
 `
 
 var program = [
