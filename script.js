@@ -363,21 +363,21 @@ function displayStory(content = ['wtf'], pageSetup='', volume=0.1, doCookies = t
   gewi('prev1').addEventListener('click', () => {
     prevPage()
   })
-  window.onkeydown = function (event) {
+  gewi('story').onkeydown = function (event) {
     if (event.key === 'ArrowRight') {
       if (index + 1 != content.length) {
         nextPage()
       }
     }
-    else if (event.key === 'ArrowLeft') {
+    if (event.key === 'ArrowLeft') {
       if (index != 0) {
         prevPage()
       }
     }
-    else if (event.key === 'ArrowUp') {
+    if (event.key === 'ArrowUp') {
     // Up Arrow pressed
     }
-    else if (event.key === 'ArrowDown') {
+    if (event.key === 'ArrowDown') {
       // Down Arrow pressed
     }
   }
@@ -1180,6 +1180,12 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         if (event.key === '0') {
           element.currentTime = 0
+        }
+        if (event.key === 'ArrowRight') {
+          element.currentTime += 5
+        }
+        if (event.key === 'ArrowLeft') {
+          element.currentTime -= 5
         }
       }
     })

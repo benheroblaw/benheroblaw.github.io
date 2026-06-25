@@ -400,8 +400,6 @@ var brMiku = [
   ${linkedImage('/r34/miku/a6f85af61c528e507853a8d451be4d0a.jpeg')}
   ${linkedImage('/r34/miku/df1895af098812562b021ec4ef08e816.jpeg')}
   ${linkedImage('/r34/miku/35f89cb2c1eea92ed997aaf435296fff.jpeg')}
-  ${linkedImage('/r34/miku/d26967e74cf4bb5b88f62209177c47f4.jpeg')}
-  ${linkedImage('/r34/miku/8694a05f839325fafe03ed24a53befe3.jpeg')}
   ${linkedImage('/r34/miku/e66f2c59bf76855068f99610b267b65243013a00.jpeg')}
   ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnpsfikuhc2e.jpeg', 'Sketchbook pencil illustration of the Vocaloid Hatsune Miku except from Brazil (AKA Brazilian Miku), tanned and ready for the beach in her bikini. She\'s sweating in the sun and is holding a can of Guaraná against her cheek to cool off.')}
   ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnq3ws323k26.jpeg', "Sketchbook pencil illustration of the Vocaloid Hatsune Miku except from Brazil (AKA Brazilian Miku), tanned and ready for the beach in her bikini. She's sweating in the sun and is holding a can of Guaraná against her cheek to cool off.\n\nIn this full, uncropped variant of the drawing we can see that her shorts are open and her massive slab of meat is out dangling.")}
@@ -409,6 +407,9 @@ var brMiku = [
   ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnv6rj2qe222.jpeg', "Pencil+digital illustration of the vocaloid Hatsune Miku furiously masturbating (and squirting!) with her mouth full of Brazilian Miku's girlcum; the latter's cock being pressed up against her face, slick with saliva trails and still oozing thick cum. Miku's chest is glazed with wet sticky strands and she is blowing cum bubbles with her heavy, ragged breathing. One can imagine all that voice training is paying off.\n\nTruly the best kind of cumsoaked selfcest yuri, and they haven't even FUCKED yet......")}
   ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnvbp3x5y22h.jpeg', "The same drawing of Hatsune Miku splattered with cum and with a cock on her face, but cropped in a way that it focuses much more on those specific things.")}
   ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnwpjosff22m.jpeg', "Mixed media (pencil + digital) illustration, POV, of famed Vocaloid Hatsune Miku being fucked missionary, or quite possibly in mating press. Her breasts are bouncing back and forth from the motion. Hands belonging to Brazilian Miku (selfcest yuri! wooo!) are grasping Miku's cheeks and holding her head in place to maintain eye contact as she is pounded. A thumb has found its way into Miku's mouth. Hearts can be seen in Miku's eyes and around her as she is fucked to ecstacy. ")}
+  <br><br>
+  ${linkedImage('/r34/miku/d26967e74cf4bb5b88f62209177c47f4.jpeg')}
+  ${linkedImage('/r34/miku/8694a05f839325fafe03ed24a53befe3.jpeg')}
   `,
   // ${linkedImage('/')}
   // ${linkedImage('/')}
