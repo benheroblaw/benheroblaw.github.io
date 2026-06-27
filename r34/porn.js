@@ -1,19 +1,19 @@
 var irl = [`\
   <p>lilykoti<br><br>\
-  <video preload="auto" controls src="/r34/phub/[pornhubdownloader.io]_720P_4000K_438382601.mp4">no porn for you :(</video>\
-  <video preload="auto" controls src="/r34/phub/Hentai Handjob and Titfuck.mp4">no porn for you :(</video>\
-  <video preload="auto" controls src="/r34/phub/TITFUCK Masterclass.mp4">no porn for you :(</video>\
-  <video preload="auto" controls src="/r34/phub/HOTTEST TITFUCK _3 COMPILATION.mp4">no porn for you :(</video>\
-  <video preload="auto" controls src="/r34/phub/HANDJOB PORN _3 COMPILATION.mp4">no porn for you :(</video>\
+  <video preload="auto" controls src="/r34/phub/large/[pornhubdownloader.io]_720P_4000K_438382601.mp4">no porn for you :(</video>\
+  <video preload="auto" controls src="/r34/phub/large/Hentai Handjob and Titfuck.mp4">no porn for you :(</video>\
+  <video preload="auto" controls src="/r34/phub/large/TITFUCK Masterclass.mp4">no porn for you :(</video>\
+  <video preload="auto" controls src="/r34/phub/large/HOTTEST TITFUCK _3 COMPILATION.mp4">no porn for you :(</video>\
+  <video preload="auto" controls src="/r34/phub/large/HANDJOB PORN _3 COMPILATION.mp4">no porn for you :(</video>\
   <video preload="auto" controls src="/r34/phub/HOTTEST TITFUCK _3 COMPILATION (1).mp4">no porn for you :(</video>\
   </p>`,
 
   `<p>creamyspot<br><br>\
-  <video preload="auto" controls src="/r34/phub/[pornhubdownloader.io]_720P_4000K_464305995.mp4">no porn for you :(</video>\
-  <video preload="auto" controls src="/r34/phub/[pornhubdownloader.io]_720P_4000K_16372285.mp4">no porn for you :(</video>\
+  <video preload="auto" controls src="/r34/phub/large/[pornhubdownloader.io]_720P_4000K_464305995.mp4">no porn for you :(</video>\
+  <video preload="auto" controls src="/r34/phub/large/[pornhubdownloader.io]_720P_4000K_16372285.mp4">no porn for you :(</video>\
   <video preload="auto" controls src="/r34/phub/[pornhubdownloader.io]_720P_4000K_464924455.mp4">no porn for you :(</video>\
   <video preload="auto" controls src="/r34/phub/[pornhubdownloader.io]_720P_4000K_462804201.mp4">no porn for you :(</video>\
-  <video preload="auto" controls src="/r34/phub/[pornhubdownloader.io]_720P_4000K_458549051.mp4">no porn for you :(</video>\
+  <video preload="auto" controls src="/r34/phub/large/[pornhubdownloader.io]_720P_4000K_458549051.mp4">no porn for you :(</video>\
   <p>`,
 
   `<p><a href="https://www.pornhub.com/model/alizevert">alizevert</a><br><br>\
@@ -82,7 +82,7 @@ var audio = [
   Milked Down<br><br>\
   <br>\
   \
-  <audio controls class="audio" src="shibby/[F4M] - Divinity\'s Corruption - [Script Fill][broken]_[Fdom][Hypnosis][ASMR].mp3"></audio><br>\
+  <audio controls class="audio" src="/r34/shibby/large/[F4M] - Divinity\'s Corruption - [Script Fill][broken]_[Fdom][Hypnosis][ASMR].mp3"></audio><br>\
   Divinity\'s Corruption<br><br>\
   <br>\
   \
@@ -232,7 +232,7 @@ let miku = [
   `<link rel="icon" href="/icons/mikuSelected.png">
   <h2>Videos</h2>\
   horizontal<br>\
-  <video controls title="hatsune blowjob" src="miku/0564b3cb8b58055592879edf386d854a.mp4">no porn for you :(</video>\
+  <video controls title="hatsune blowjob" src="miku/large/0564b3cb8b58055592879edf386d854a.mp4">no porn for you :(</video>\
   <video controls title="futa x miku" src="miku/dd9ed60005744a7c72b7e60092e212ff.mp4">no porn for you :(</video>`
   +
   `<br><br>\
@@ -562,8 +562,8 @@ var hoyo = [
     `,
 
     `<br>\
-    <video controls src="/r34/hoyo/c9ff5924ffc8b9d47d8d052a12b5b2f3.mp4">no porn for you :(</video>\
-    <video controls src="/r34/hoyo/34c3bc3db74c4d173d34a7980a9d6fbf.mp4">no porn for you :(</video>\
+    <video controls src="/r34/hoyo/large/c9ff5924ffc8b9d47d8d052a12b5b2f3.mp4">no porn for you :(</video>\
+    <video controls src="/r34/hoyo/large/34c3bc3db74c4d173d34a7980a9d6fbf.mp4">no porn for you :(</video>\
     <video controls src="/r34/hoyo/compressO-845f82cd2d82654bd5a2bc595c1e4291.mp4">no porn for you :(</video>\
     `,
 
@@ -830,20 +830,20 @@ var other = [
   <video controls src="./New-folder/c9cc8f2419f997ceb1e14c39881445ba.mp4">no porn for you :(</video>\
   <video controls src="./New-folder/f8edf92043cf883d4c3656c9faca12ba.mp4">no porn for you :(</video>`,
 
-  `<video controls title="it's hip to fuck bees" src="./New-folder/aca7adc5ceab98de67d3da721e9a5e01.mp4">no porn for you :(</video>`
+  `<video controls title="it's hip to fuck bees" src="./New-folder/large/aca7adc5ceab98de67d3da721e9a5e01.mp4">no porn for you :(</video>`
   + linkVideo(`/r34/New-folder/aa8e1c68100bf2f580c3939aebbfd6a4.mp4`),
 
   `
-  <video controls src="./New-folder/c8c2e73e0860cca288f156db2cbce415.mp4">no porn for you :(</video>\
-  <video controls src="./New-folder/84702ab25211cdf8249f2ca171b10aaa.mp4">no porn for you :(</video>\
-  <video controls loop src="./New-folder/abeba954d95553182982c718b86733b3.mp4">no porn for you :(</video>\
+  <video controls src="./New-folder/large/c8c2e73e0860cca288f156db2cbce415.mp4">no porn for you :(</video>\
+  <video controls src="./New-folder/large/84702ab25211cdf8249f2ca171b10aaa.mp4">no porn for you :(</video>\
+  <video controls loop src="./New-folder/large/abeba954d95553182982c718b86733b3.mp4">no porn for you :(</video>\
   <!-- <video controls src="./New-folder/f8edf92043cf883d4c3656c9faca12ba.mp4">no porn for you :(</video> -->\
   <!-- <video controls src="./New-folder/70d5d73e91905c36800d7daccdbe182a.mp4">no porn for you :(</video> -->`,
 
   `<a href="comics/baptist/sample_083809cccf0c0d68bffe124245a3daaa.jpg"><img src="comics/baptist/sample_083809cccf0c0d68bffe124245a3daaa.jpg"></a>\
   <a href="comics/baptist/sample_81cac618b8121e925552ba490d93d8cb.jpg"><img src="comics/baptist/sample_81cac618b8121e925552ba490d93d8cb.jpg"></a>\
   <a href="./New-folder/8af6079d60e148e018ef1878b8d0be3f89bc9935.jpg"><img src="./New-folder/8af6079d60e148e018ef1878b8d0be3f89bc9935.jpg"></a>\
-  <a href="phub/G1lkh7iWcAAI4Gm.jpeg"><img src="irl5/26/G1lkh7iWcAAI4Gm.jpeg"></a>`,
+  <a href="/r34/phub/G1lkh7iWcAAI4Gm.jpeg"><img src="irl5/26/G1lkh7iWcAAI4Gm.jpeg"></a>`,
 
   `<a href="./pvz/IMG_9101.GIF"><img src="pvz/IMG_9101.GIF"></a>\
   <a href="pvz/IMG_9102.GIF"><img src="pvz/IMG_9102.GIF"></a>\
