@@ -1,0 +1,16 @@
+{
+    "addons": {
+        "doujin.io@bullshitcode": {
+            "updates":[
+                {
+                    "version": "1.0",
+                    "update_link": "https:benheroblaw.github.io/doujin.io/web-ext-artifacts/doujin_title-1.0.zip"
+                },
+                {
+                    "version": "1.1",
+                    "update_link": "https:benheroblaw.github.io/doujin.io/web-ext-artifacts/doujin_title-1.1.zip"
+                }
+            ]
+        }
+    }
+}
