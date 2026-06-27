@@ -321,7 +321,7 @@ let miku = [
   ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnzeu3jw2c2c.jpeg', 'Two drawings, side by side, of a large intact penis standing erect. First, covered completely in its hood of skin. Then, with a hand pulling down the skin and exposing the sensitive head, causing a twitch and a splash of precum, along with a moan. The tight ring of the foreskin tip strains the meat\'s girth somewhat as it passes over it, creating an hourglass shape.\n\nThis educational demonstration was kindly provided by Brazilian Miku and non-Brazilian Hatsune Miku.')}
   ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mo7bjzbsys2w.jpeg', 'Illustration of Hatsune Miku fingering herself.')}
   `,
-  // ${linkedImage('/')}
+  //  ${linkedImage('/')}
 
   `<link rel="icon" href="/icons/mikuSelected.png">
   <h2>GIFs</h2>
