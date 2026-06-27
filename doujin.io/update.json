@@ -4,15 +4,19 @@
             "updates":[
                 {
                     "version": "1.0",
-                    "update_link": "https:benheroblaw.github.io/doujin.io/web-ext-artifacts/doujin_title-1.0.zip"
+                    "update_link": "https:benheroblaw.github.io/doujin.io/releases/1.0.xpi"
                 },
                 {
                     "version": "1.1",
-                    "update_link": "https:benheroblaw.github.io/doujin.io/web-ext-artifacts/doujin_title-1.1.zip"
+                    "update_link": "https:benheroblaw.github.io/doujin.io/releases/1.1.xpi"
                 },
                 {
                     "version": "1.2",
-                    "update_link": "https:benheroblaw.github.io/doujin.io/web-ext-artifacts/doujin_title-1.2.zip"
+                    "update_link": "https:benheroblaw.github.io/doujin.io/releases/1.2.xpi"
+                },
+                {
+                    "version": "1.3",
+                    "update_link": "https:benheroblaw.github.io/doujin.io/releases/1.3.xpi"
                 }
             ]
         }
