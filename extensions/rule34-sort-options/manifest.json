@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "rule34 sort options",
+  "description": "sorts rule34.xxx posts",
+  "version": "1.0",
+  "icons": {
+    "64": "icons/icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://rule34.xxx/*"
+      ],
+      "js": [
+        "content_script.js"
+      ]
+    }
+  ],
+  "options_ui": {
+    "page": "options/index.html"
+  }
+}
