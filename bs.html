@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="/icons/favicon-2.png">
+    <script src="/script.js"></script>
+</head>
+<title>Extensions</title>
+<html>
+    <body class="center" onload="startStory(extensions, true)">
+        <div id="sidebar"></div>
+    </body>
+</html>
+<script>
+var extensions = [
+    `<h2>doujin title</h2>`,
+    `${ah2('bullshit.js')}`
+]
+
+let doujinVer = [
+    '1.0',
+    '1.1',
+    '1.2',
+    '1.3',
+    '1.4',
+    '1.4.1'
+]
+
+doujinVer.sort(function(a, b){return b - a})
+
+let output = ''
+for (const key in doujinVer) {
+    if (!Object.hasOwn(doujinVer, key)) continue;
+
+    const element = doujinVer[key];
+
+    output += `<a href="/doujin.io/releases/${element}.xpi">${element}</a><br>`
+
+}
+extensions[0] += output
+</script>
