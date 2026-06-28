@@ -12,7 +12,7 @@
 </html>
 <script>
 var extensions = [
-    `<h2>doujin title</h2>
+    `<h2>doujin.io title</h2>
     <h3 id="doujinVer"></h3>`,
     `${ah2('bullshit.js')}
     <h3 id="bsVer"></h3>`
@@ -37,7 +37,12 @@ for (const key in doujinVer) {
 
     const element = doujinVer[key];
 
-    output += `<a href="/extensions/doujin.io/releases/${element}.xpi">${element}</a><br>`
+    if (key === '0') {
+      output += `<a href="/extensions/doujin.io/releases/${element}.xpi" id="doujinNewest">${element}</a><br>`
+    }
+    else {
+      output += `<a href="/extensions/doujin.io/releases/${element}.xpi">${element}</a><br>`
+    }
 
 }
 extensions[0] += output
