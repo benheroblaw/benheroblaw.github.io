@@ -1,0 +1,1 @@
+document.querySelector('#doujinVer').innerText = "Current Version: 1.4.2"
