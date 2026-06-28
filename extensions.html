@@ -12,16 +12,24 @@
 </html>
 <script>
 var extensions = [
-  `<h2>doujin title</h2>`
+    `<h2>doujin title</h2>
+    <h3 id="doujinVer"></h3>`,
+    `${ah2('bullshit.js')}
+    <h3 id="bsVer"></h3>`
 ]
+
 let doujinVer = [
     '1.0',
     '1.1',
     '1.2',
     '1.3',
+    '1.4',
+    '1.4.1',
+    '1.4.2',
 ]
 
-doujinVer.sort(function(a, b){return b - a})
+doujinVer.sort()
+doujinVer.reverse()
 
 let output = ''
 for (const key in doujinVer) {
