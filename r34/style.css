@@ -136,4 +136,5 @@ button {cursor: pointer;}
 
 #prev, #prev1 {text-align: left; display: inline-block;}
 #next, #next1 {text-align: right; display: inline-block;}
+#center {display:none}
 .space {display: flex; justify-content: space-between;}

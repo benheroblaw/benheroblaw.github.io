@@ -70,7 +70,7 @@ var sona = '<h1>sonas</h1>\
   // <a href="/character-sheets/mascsona.html"><span>mascsona</span></a>'
 
 var dragonSidebar = '<h1>Viewers</h1>'
-+ '<a href="/r34/dragon maid/miss-tohru.html">Miss Tohru</a><br>'
++ '<a href="/r34/dragon-maid/miss-tohru.html">Miss Tohru</a><br>'
 
 var aiSidebar = `
     <h1>viewers</h1>
@@ -232,7 +232,7 @@ function ensureCookie(cookie='', defaultVal='') {
 //     .catch(error => console.error('Failed to fetch data:', error));
 // }
 
-function displayStory(content = ['wtf'], pageSetup='', volume=0.1, doCookies = true, doX = false, doY = true, doOutput = false) {
+function displayStory(content = ['wtf'], pageSetup='', showChapters, volume=0.1, doCookies = true, doX = false, doY = true, doOutput = false) {
   var page = window.location.pathname + ' - '
   var showSlide = (n) => {
     gewi('story').innerHTML = content[n]
@@ -301,7 +301,8 @@ function displayStory(content = ['wtf'], pageSetup='', volume=0.1, doCookies = t
       element.load()
     })}
     catch (TypeError) {tesLog('no videos')}
-      index = (index + 1) % content.length
+    index = (index + 1) % content.length
+    gewi('center').textContent = index
     if (index + 1 >= content.length) {
       gewi('next').style.display = 'none'
       gewi('next1').style.display = 'none'
@@ -331,6 +332,7 @@ function displayStory(content = ['wtf'], pageSetup='', volume=0.1, doCookies = t
     })}
     catch (TypeError) {tesLog('no videos')}
     index = (index + content.length - 1) % content.length
+    gewi('center').textContent = index
     if (index === 0) {
       gewi('prev').style.display = 'none'
       gewi('prev1').style.display = 'none'
@@ -340,8 +342,8 @@ function displayStory(content = ['wtf'], pageSetup='', volume=0.1, doCookies = t
     else {
       gewi('prev').style.display = 'inline'
       gewi('prev1').style.display = 'inline'
-      gewi('next').style.display = 'inline-block'
-      gewi('next1').style.display = 'inline-block'
+      gewi('next').style.display = 'inline'
+      gewi('next1').style.display = 'inline'
     }
     window.scrollTo(0, 0)
     showSlide(index)
@@ -375,31 +377,41 @@ function displayStory(content = ['wtf'], pageSetup='', volume=0.1, doCookies = t
       // Down Arrow pressed
     }
     if (event.key === 'PageDown') {
+      event.preventDefault()
       if (index + 1 != content.length) {
         nextPage()
       }
     }
     if (event.key === 'PageUp') {
+      event.preventDefault()
       if (index != 0) {
         prevPage()
       }
     }
     if (event.key === 'Home') {
+      event.preventDefault()
       showSlide(0)
+      window.scrollTo(0,0)
       gewi('prev').style.display = 'none'
       gewi('prev1').style.display = 'none'
       gewi('next').style.display = 'inline'
       gewi('next1').style.display = 'inline'
+      index = 0
+      gewi('center').textContent = index
       if (doCookies == true) {
         setCookie(page + 'index', 0, doOutput)
       }
     }
     if (event.key === 'End') {
+      event.preventDefault()
       showSlide(content.length-1)
+      window.scrollTo(0, 0)
       gewi('next').style.display = 'none'
       gewi('next1').style.display = 'none'
       gewi('prev').style.display = 'inline'
       gewi('prev1').style.display = 'inline'
+      index = content.length -1
+      gewi('center').textContent = index
       if (doCookies == true) {
         setCookie(page + 'index', content.length-1, doOutput)
       }
@@ -442,7 +454,7 @@ let startState = 'not started'
  * @param {Boolean} doX
  * @param {Boolean} doY
  */
-function startStory(content=['wtf'], format=false, doOutput=true, volume=0.1, pageSetup=[''], doCookies=true, doX=false, doY=true) {
+function startStory(content=['wtf'], format=false, showChapters=true, doOutput=true, volume=0.1, pageSetup=[''], doCookies=true, doX=false, doY=true) {
   if (doOutput) {tesLog('starting story...')}
   var s = document.createElement('script');
   s.id = 'text'
@@ -481,7 +493,7 @@ function startStory(content=['wtf'], format=false, doOutput=true, volume=0.1, pa
     }
     // document.body.innerHTML -= formatting
     document.body.innerHTML += formatting
-    displayStory(content, pageSetup, volume, doCookies, doX, doY, doOutput)
+    displayStory(content, pageSetup, showChapters, volume, doCookies, doX, doY, doOutput)
   }
 }
 

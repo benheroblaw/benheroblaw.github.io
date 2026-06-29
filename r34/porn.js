@@ -514,7 +514,7 @@ var sona = `<h1>sonas</h1>\
   <a href="/character-sheets/enbysona.html"><span>themsona</span></a><br>`
 
 var dragonSidebar = `<h1>Viewers</h1>`
-+ `<a href="/r34/dragon maid/miss-tohru.html"><span>Miss Tohru</span></a><br>`
++ `<a href="/r34/dragon-maid/miss-tohru.html"><span>Miss Tohru</span></a><br>`
 
 // export {irl, audio, pornSidebar}
 
@@ -1216,7 +1216,7 @@ var hardDegen = [
   `<h2>16:9 1</h2>
   <video preload="metadata" controls src="/r34/mario/6ed023e4a0057ef961915638f5e3fa70.mp4">no porn for you :(</video>
   <video preload="metadata" controls src="/r34/mario/fc62d3c78c48ffc1426e2695f9c38683.mp4">no porn for you :(</video>
-  <video preload="metadata" controls src="/r34/dragon maid/05a4a9f6e02acf99e1300d7a9a9562dc.mp4">no porn for you :(</video>
+  <video preload="metadata" controls src="/r34/dragon-maid/05a4a9f6e02acf99e1300d7a9a9562dc.mp4">no porn for you :(</video>
   <video preload="metadata" controls src="/r34/mario/00d0a07ede52e34f3b8771122429aaaa.mp4">no porn for you :(</video>
   <video preload="metadata" controls src="/r34/hard-degen/0f714af8fb50d5edb9cb2c11f51d2296.mp4">no porn for you :(</video>
   <video preload="metadata" controls loop src="/r34/hard-degen/93a4b965e7cb92039263e10717793b0f.mp4">no porn for you :(</video>`,
@@ -1358,19 +1358,19 @@ let puppysnax = [
 ]
 
 var dragon = [
-  '<video preload="auto" controls src="dragon maid/05a4a9f6e02acf99e1300d7a9a9562dc.mp4">no porn for you :(</video>',
+  '<video preload="auto" controls src="dragon-maid/05a4a9f6e02acf99e1300d7a9a9562dc.mp4">no porn for you :(</video>',
 
-  '<a href="dragon maid/84f6e7548094d548c224a5e114a39a81-1.png"><img src="dragon maid/84f6e7548094d548c224a5e114a39a81-1.png"></a>\
-  <a href="dragon maid/84f6e7548094d548c224a5e114a39a81-2.png"><img src="dragon maid/84f6e7548094d548c224a5e114a39a81-2.png"></a>\
-  <a href="dragon maid/84f6e7548094d548c224a5e114a39a81-3.png"><img src="dragon maid/84f6e7548094d548c224a5e114a39a81-3.png"></a>\
-  <a href="dragon maid/84f6e7548094d548c224a5e114a39a81-4.png"><img src="dragon maid/84f6e7548094d548c224a5e114a39a81-4.png"></a>\
-  <a href="dragon maid/84f6e7548094d548c224a5e114a39a81-5.png"><img src="dragon maid/84f6e7548094d548c224a5e114a39a81-5.png"></a>\
-  <a href="dragon maid/84f6e7548094d548c224a5e114a39a81-6.png"><img src="dragon maid/84f6e7548094d548c224a5e114a39a81-6.png"></a>\
-  <a href="dragon maid/84f6e7548094d548c224a5e114a39a81-7.png"><img src="dragon maid/84f6e7548094d548c224a5e114a39a81-7.png"></a>\
-  <a href="dragon maid/84f6e7548094d548c224a5e114a39a81-8.png"><img src="dragon maid/84f6e7548094d548c224a5e114a39a81-8.png"></a>',
+  '<a href="dragon-maid/84f6e7548094d548c224a5e114a39a81-1.jpeg"><img src="dragon-maid/84f6e7548094d548c224a5e114a39a81-1.jpeg"></a>\
+  <a href="dragon-maid/84f6e7548094d548c224a5e114a39a81-2.jpeg"><img src="dragon-maid/84f6e7548094d548c224a5e114a39a81-2.jpeg"></a>\
+  <a href="dragon-maid/84f6e7548094d548c224a5e114a39a81-3.jpeg"><img src="dragon-maid/84f6e7548094d548c224a5e114a39a81-3.jpeg"></a>\
+  <a href="dragon-maid/84f6e7548094d548c224a5e114a39a81-4.jpeg"><img src="dragon-maid/84f6e7548094d548c224a5e114a39a81-4.jpeg"></a>\
+  <a href="dragon-maid/84f6e7548094d548c224a5e114a39a81-5.jpeg"><img src="dragon-maid/84f6e7548094d548c224a5e114a39a81-5.jpeg"></a>\
+  <a href="dragon-maid/84f6e7548094d548c224a5e114a39a81-6.jpeg"><img src="dragon-maid/84f6e7548094d548c224a5e114a39a81-6.jpeg"></a>\
+  <a href="dragon-maid/84f6e7548094d548c224a5e114a39a81-7.jpeg"><img src="dragon-maid/84f6e7548094d548c224a5e114a39a81-7.jpeg"></a>\
+  <a href="dragon-maid/84f6e7548094d548c224a5e114a39a81-8.jpeg"><img src="dragon-maid/84f6e7548094d548c224a5e114a39a81-8.jpeg"></a>',
 
-  '<a href="dragon maid/1df83a873bc5263efaa98b56047b6c29.png"><img src="dragon maid/1df83a873bc5263efaa98b56047b6c29.png"></a>\
-  <a href="dragon maid/84f6e7548094d548c224a5e114a39a81.png"><img src="dragon maid/84f6e7548094d548c224a5e114a39a81.png"></a>',
+  '<a href="dragon-maid/1df83a873bc5263efaa98b56047b6c29.jpeg"><img src="dragon-maid/1df83a873bc5263efaa98b56047b6c29.jpeg"></a>\
+  <a href="dragon-maid/84f6e7548094d548c224a5e114a39a81.jpeg"><img src="dragon-maid/84f6e7548094d548c224a5e114a39a81.jpeg"></a>',
 ]
 
 let ladylovense = [
