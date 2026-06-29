@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="/style.css">
-    <link rel="icon" href="/icons/favicon-2.png">
+    <link rel="icon" href="/icons/extensions.png">
     <script src="/script.js"></script>
 </head>
 <title>Extensions</title>
 <html>
-    <body class="center" onload="startStory(extensions, true)">
+    <body class="center" onload="startStory(extensions, 'top')">
         <div id="sidebar"></div>
     </body>
 </html>
@@ -38,10 +38,10 @@ for (const key in doujinVer) {
     const element = doujinVer[key];
 
     if (key === '0') {
-      output += `<a href="/extensions/doujin.io/releases/${element}.xpi" id="doujinNewest">${element}</a><br>`
+        output += `<a href="/extensions/doujin.io/releases/${element}.xpi" id="doujinNewest">${element}</a><br>`
     }
     else {
-      output += `<a href="/extensions/doujin.io/releases/${element}.xpi">${element}</a><br>`
+        output += `<a href="/extensions/doujin.io/releases/${element}.xpi">${element}</a><br>`
     }
 
 }

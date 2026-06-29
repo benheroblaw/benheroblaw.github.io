@@ -1,4 +1,4 @@
-thoughts = [
+var thoughts = [
     // no div.background
     `i had an idea for a factory-building porn game where you build androids for robot yuri`,
 
@@ -44,13 +44,14 @@ thoughts = [
     `i've been playing cave story, and holy shit is this a wonderful game<br>amazing characters, not afraid to kill them off, like, how many characters can die? toroko, king, booster, curly...<br>
     and you can only save curly and booster`,
 
-    `adding on to the robot yuri factory idea, you can take requests to build male or female robots for the yaoi and yuri factions (and the straight faction, i guess). if you choose to favor one faction, the other will try to sabotage your factory (straight gets mad no matter what you do, claiming that making one 'gender' (where they really mean sex) makes you sexist against the other even if you try to make equal numbers of both sexes) (straight gets even madder if you make yuri, so make them as mad as possible)<br><br>
+    `adding on to the robot yuri factory idea, you can take requests to build male or female robots for the yaoi and yuri factions (and the straight faction, i guess -_-). if you choose to favor one faction, the other will try to sabotage your factory (straight gets mad no matter what you do, claiming that making one 'gender' (where they really mean sex) makes you sexist against the other even if you try to make equal numbers of both sexes) (straight gets even madder if you make gay, so make them as mad as possible)<br><br>
     you can allocate robots to defense if you want (then you do tower defense or like, card games??)`,
+    `(tower defense, bloons monkey city style)`,
 
 
 ]
 
-story_ideas = [
+var story_ideas = [
 // no div.background
     `angel girl who gets hypnotized by a demon girl and corrupted(fucked)`,
 
@@ -58,6 +59,13 @@ story_ideas = [
 
 ]
 
+var touhou_thread = [
+    `touhou`,
+
+]
+
     // ``,
 
     // ``
+
+var defaultPage = ''

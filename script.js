@@ -18,7 +18,7 @@ var pornSidebar = `\
   <h1><a href="/r34/r34.html"><span style="color: white;">prawns</span></a></h1>\
   <a href="all.html" class="red"><span>all</span></a><br>\
   <a class="blue" href="assets.html"><span>assets</span></a><br>\
-  <a onclick="tesLog('setting sidebar to artistSidebar'); qSel('#sidebar').innerHTML = artistSidebar" class="blue"><span>Artists</span></a><br>\
+  <a onclick="tesLog('setting sidebar to artistSidebar'); addSidebar(artistSidebar)" class="blue"><span>Artists</span></a><br><br>
   <br>\
   \
   <a class="blue" href="/r34/comics.html"><span>Comics</span></a><br><br>` +
@@ -45,7 +45,7 @@ var pornSidebar = `\
 `
 var artistSidebar = `
 <h1>Artists</h1>
-<a class="blue" onclick="tesLog('setting sidebar to pornSidebar'); qSel('#sidebar').innerHTMl = pornSidebar"><span>Back</span></a><br><br>
+<a class="blue"><span onclick="tesLog('setting sidebar to pornSidebar'); addSidebar(pornSidebar)">Back</span></a><br><br>
 <a class='red' href='/r34/bonkge.html'><span>Bonkge</span></a><br>
 ${addlink('/r34/puppysnackz.html', 'puppysnackz')}
 ${addlink('/r34/puddingdraws.html', 'PuddingDraws')}
@@ -303,10 +303,6 @@ function displayStory(content = ['wtf'], pageSetup='', volume=0.1, doCookies = t
     catch (TypeError) {errorMessage('no videos')}
       index = (index + 1) % content.length
     if (index + 1 >= content.length) {
-      gewi('next').style.display = 'none'
-      gewi('next1').style.display = 'none'
-      gewi('prev').style.display = 'inline'
-      gewi('prev1').style.display = 'inline'
     }
     else {
       gewi('next').style.display = 'inline'
@@ -363,22 +359,46 @@ function displayStory(content = ['wtf'], pageSetup='', volume=0.1, doCookies = t
   gewi('prev1').addEventListener('click', () => {
     prevPage()
   })
-  gewi('story').onkeydown = function (event) {
+  window.onkeydown = function (event) {
     if (event.key === 'ArrowRight') {
-      if (index + 1 != content.length) {
-        nextPage()
-      }
     }
     if (event.key === 'ArrowLeft') {
-      if (index != 0) {
-        prevPage()
-      }
     }
     if (event.key === 'ArrowUp') {
     // Up Arrow pressed
     }
     if (event.key === 'ArrowDown') {
       // Down Arrow pressed
+    }
+    if (event.key === 'PageDown') {
+      if (index + 1 != content.length) {
+        nextPage()
+      }
+    }
+    if (event.key === 'PageUp') {
+      if (index != 0) {
+        prevPage()
+      }
+    }
+    if (event.key === 'Home') {
+      showSlide(0)
+      gewi('prev').style.display = 'none'
+      gewi('prev1').style.display = 'none'
+      gewi('next').style.display = 'inline'
+      gewi('next1').style.display = 'inline'
+      if (doCookies == true) {
+        setCookie(page + 'index', 0, doOutput)
+      }
+    }
+    if (event.key === 'End') {
+      showSlide(content.length-1)
+      gewi('next').style.display = 'none'
+      gewi('next1').style.display = 'none'
+      gewi('prev').style.display = 'inline'
+      gewi('prev1').style.display = 'inline'
+      if (doCookies == true) {
+        setCookie(page + 'index', content.length-1, doOutput)
+      }
     }
   }
   function char() {
@@ -1153,33 +1173,43 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         if (event.key === '1') {
           element.currentTime = 0.1*Number(element.duration)
+          element.play()
         }
         if (event.key === '2') {
           element.currentTime = 0.2*Number(element.duration)
+          element.play()
         }
         if (event.key === '3') {
           element.currentTime = 0.3*Number(element.duration)
+          element.play()
         }
         if (event.key === '4') {
           element.currentTime = 0.4*Number(element.duration)
+          element.play()
         }
         if (event.key === '5') {
           element.currentTime = 0.5*Number(element.duration)
+          element.play()
         }
         if (event.key === '6') {
           element.currentTime = 0.6*Number(element.duration)
+          element.play()
         }
         if (event.key === '7') {
           element.currentTime = 0.7*Number(element.duration)
+          element.play()
         }
         if (event.key === '8') {
           element.currentTime = 0.8*Number(element.duration)
+          element.play()
         }
         if (event.key === '9') {
           element.currentTime = 0.9*Number(element.duration)
+          element.play()
         }
         if (event.key === '0') {
           element.currentTime = 0
+          element.play()
         }
         if (event.key === 'ArrowRight') {
           element.currentTime += 5
