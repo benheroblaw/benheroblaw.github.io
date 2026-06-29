@@ -300,9 +300,13 @@ function displayStory(content = ['wtf'], pageSetup='', volume=0.1, doCookies = t
       element.removeAttribute('src')
       element.load()
     })}
-    catch (TypeError) {errorMessage('no videos')}
+    catch (TypeError) {tesLog('no videos')}
       index = (index + 1) % content.length
     if (index + 1 >= content.length) {
+      gewi('next').style.display = 'none'
+      gewi('next1').style.display = 'none'
+      gewi('prev').style.display = 'inline'
+      gewi('prev1').style.display = 'inline'
     }
     else {
       gewi('next').style.display = 'inline'
@@ -325,7 +329,7 @@ function displayStory(content = ['wtf'], pageSetup='', volume=0.1, doCookies = t
       element.removeAttribute('src')
       element.load()
     })}
-    catch (TypeError) {errorMessage('no videos')}
+    catch (TypeError) {tesLog('no videos')}
     index = (index + content.length - 1) % content.length
     if (index === 0) {
       gewi('prev').style.display = 'none'
