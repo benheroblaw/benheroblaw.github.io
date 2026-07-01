@@ -1204,6 +1204,7 @@ var ao3 = [
   <a href="/books/Trigger_Discipline.html">Trigger Discipline</a><bR><br>
   <a href="/books/Hung_Down_With_The.html">Hung Down With the Freaks and the Ghouls</a><bR><br>
   <a href="/books/All_The_Late-Night.html">All The Late-Night Bargains Have Been Struck</a><bR><br>
+  ${addLink('https://archiveofourown.org/series/3001785', 'Touhou but they all have sex instead')}
   </div>`
 ]
 
@@ -1380,4 +1381,12 @@ let ladylovense = [
     '/r34/puppysnackz/puppysnackz.bsky.social-3mfftzvaakc2n-2.jpeg',
     '/r34/puppysnackz/puppysnackz.bsky.social-3mfhodgrcxk2u.jpeg',
     '/r34/puppysnackz/puppysnackz.bsky.social-3mfhof7p3tk2u.jpeg',
+]
+
+let touhou = [
+  ` 
+  ${ah2('books')}
+  ${addLink('/books/Touhou_6_Embodiment_of.html', 'Touhou 6 Embodiment of Scarlet Devil but they all have sex instead')}
+
+  `
 ]

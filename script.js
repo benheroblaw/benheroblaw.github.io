@@ -35,6 +35,7 @@ var pornSidebar = `\
   <a class="blue" href="/r34/rouge.html"><span>Rouge the Bat</span></a><br>\
   <a class="blue" href="/r34/roblox.html"><span>Roblox</span></a><br>\
   <a class="blue" href="/r34/terraria.html"><span>Terraria</span></a><br>\
+  <a class="blue" href="/r34/touhou.html"><span>Touhou</span></a><br>\
   <a class="blue" href="/r34/zonkpunch.html"><span>Zonkpunch</span></a><br>
   <br>\
   <a class="blue" href="/r34/audio.html"><span>Audio</span></a><br>\
@@ -1096,6 +1097,8 @@ function playlist(tracks=[], loop=true) {
   })
 
 }
+
+// function 
 
 
 // event listeners
