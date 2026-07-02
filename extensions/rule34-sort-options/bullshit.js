@@ -187,7 +187,7 @@ function checkCookie(cname, output=true) {
     )}
     return 'success!'
   } else {
-    errorMessage('Couldn\'t find cookie ' + cname)
+    console.log('Couldn\'t find cookie ' + cname)
     return 'error'
   }
 }
@@ -206,6 +206,10 @@ function deleteCookie(cname, cvalue='', output = true, exdays = -7) {
     tes[0] + 'Deleted cookie \'' + cname + '\''
   )}
 }
+
+tes = [
+  '(o ^ o)'
+]
 
 bhbUnhide()
 // getScript('/bullshit.js')

@@ -1,10 +1,11 @@
 {
   "manifest_version": 2,
-  "name": "rule34 sort options",
-  "description": "sorts rule34.xxx posts",
-  "version": "1.0",
+  "name": "rule34 tag adding",
+  "description": "adds tags to rule34.xxx search",
+  "version": "1.1",
   "icons": {
-    "64": "icons/icon.png"
+    "32": "favicon32.png",
+    "64": "favicon64.png"
   },
   "content_scripts": [
     {
@@ -14,17 +15,23 @@
       "js": [
         "content_script.js"
       ]
+    },
+    {
+      "matches": [
+        "*://rule34.xxx/index.php?page=account&s=options"
+      ],
+      "js": [
+        "settings.js"
+      ]
     }
   ],
-  "options_ui": {
-    "page": "options/index.html"
-  },
   "browser_specific_settings": {
     "gecko": {
       "id" : "r34sort@bullshitcode",
       "data_collection_permissions": {
         "required": ["none"]
-      }
+      },
+      "update_url": "https://benheroblaw.github.io/extensions/update.json"
     }
   }
 }

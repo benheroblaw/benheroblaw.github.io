@@ -4,10 +4,11 @@ a:link {color: blue;}
 a:visited {color: #90f;}
 a:active {color: red;}
 strong {color: red;}
-h1 {font-family: 'Times New Roman', Times, serif; font-size: 3.5rem; text-align: center; padding-top: 50.5px; padding-bottom: 55px; background: linear-gradient(#000, #000, #111, #111, #111, #111, #111, #aaa, #aaa); margin-top: 0%; margin-bottom: 0%; color: white;}
+h1 {font-family: 'Times New Roman', Times, serif; color: white;}
+#story>h1 {font-family: 'Times New Roman', Times, serif; font-size: 3.5rem; text-align: center; padding-top: 50.5px; padding-bottom: 55px; background: linear-gradient(#000, #000, #111, #111, #111, #111, #111, #aaa, #aaa); margin-top: 0%; margin-bottom: 0%; color: white;}
 h2 {text-align: center; font-size: 1rem;}
 h3 {text-align: center; font-size: x-large; margin-bottom: 38px;}
-p {font-size: 1rem; text-indent: 3rem; line-height: 1.75rem; margin: auto;}
+p {font-size: 1rem; text-indent: 3rem; line-height: 1.75rem; margin: auto; color: white;}
 pre {word-spacing: 1px; letter-spacing: 0.5px; font-size: 1rem; padding: 10mm; text-wrap-mode: wrap; background: #aaa; margin-top: 0px; margin-bottom: 0px;}
 button {font-size: 0.9rem;}
 @media screen and (max-width: 1200px){
@@ -89,13 +90,13 @@ p.character-sheet, div.character-sheet>p {margin-right: 25px; margin-left: 1rem;
     button {color: black; background-color: white;}
     .background {word-spacing: 1px; letter-spacing: 0.5px; font-size: 1rem; padding: 38px; text-wrap-mode: wrap; background: #aaa; margin-top: 0px; margin-bottom: 0px; color: black;}
     .background>p {color: black; text-shadow: none;}
-    h1 {font-family: 'Times New Roman', Times, serif; font-size: 3.5rem; text-align: center; padding-top: 50.5px; padding-bottom: 55px; background: linear-gradient(#000, #111, #111, #111, #111, #111, #111, #aaa); margin-top: 0%; margin-bottom: 0%;}
+    #story>h1 {font-family: 'Times New Roman', Times, serif; font-size: 3.5rem; text-align: center; padding-top: 50.5px; padding-bottom: 55px; background: linear-gradient(#000, #111, #111, #111, #111, #111, #111, #aaa); margin-top: 0%; margin-bottom: 0%;}
 }
 @media (prefers-color-scheme: dark) {
     button {color: white; background-color: #111;}
     .background {word-spacing: 1px; letter-spacing: 0.5px; font-size: 1rem; padding: 38px; text-wrap-mode: wrap; background: rgb(20, 20, 20); margin-top: 0px; margin-bottom: 0px; color: #ddd;}
     .background>p {color: #ddd; text-shadow: none;}
-    h1 {font-family: 'Times New Roman', Times, serif; font-size: 3.5rem; text-align: center; padding-top: 50.5px; padding-bottom: 55px; background: linear-gradient(#000, #252525, #252525, #252525, #252525, #252525, #252525, #141414); margin-top: 0%; margin-bottom: 0%; color: white;}
+    #story>h1 {font-family: 'Times New Roman', Times, serif; font-size: 3.5rem; text-align: center; padding-top: 50.5px; padding-bottom: 55px; background: linear-gradient(#000, #252525, #252525, #252525, #252525, #252525, #252525, #141414); margin-top: 0%; margin-bottom: 0%; color: white;}
 }
 
 @font-face {

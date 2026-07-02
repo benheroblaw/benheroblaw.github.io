@@ -19,10 +19,6 @@
     {
       "matches": ["https://benheroblaw.github.io/extensions.html"],
       "js": ["version.js"]
-    },
-    {
-      "matches": ["http://localhost:8001/extensions.html"],
-      "js": ["version.js"]
     }
   ],
   "browser_specific_settings": {

@@ -33,11 +33,22 @@
         ""
       ]
     },
+
     "bullshitcode@benheroblaw.github.io": {
       "updates": [
         {
           "version": "1.0",
           "update_link": "https://benheroblaw.github.io/extensions/bs/releases/1.0.xpi"
+        },
+        ""
+      ]
+    },
+
+    "r34sort@bullshitcode": {
+      "updates": [
+        {
+          "version": "1.0",
+          "update_link": "https://benheroblaw.github.io/extensions/rule34-sort-options/releases/1.0.xpi"
         },
         ""
       ]

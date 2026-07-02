@@ -1,23 +1,371 @@
-@page {size: A4; margin: 20mm;}
-
-body {background-color: #111; width: 220mm; margin: auto;}
-* {font-family: Arial, sans-serif}
-* {color: black;}
-a:link {color: blue;}
-a:visited {color: #90f;}
-a:active {color: red;}
-strong {color: red; background-color:#f9f9f9; padding:10mm;}
-h1 {font-family: 'Times New Roman', Times, serif; font-size: 350%; text-align: center; color: #fff; padding:10mm; border: #fff, solid;}
-h2 {font-size: medium; text-align: center; background-color:#f9f9f9; padding:10mm;}
-p {text-indent: 0.5in; font-size: 80%; word-spacing: 1px; letter-spacing: 0.5px; background-color:#f9f9f9; padding:10mm;}
-pre {word-spacing: 1px; letter-spacing: 0.5px; background-color:#dadada; padding:10mm; text-wrap: inherit;}
-span {text-indent: 0.5in; background-color:#f9f9f9; padding:10mm;}
-br {margin-left: 0.5in;}
-i {color: inherit; font-family: inherit; background-color:inherit;}
+body {
+  background-color: black;
+}
+* {
+  font-family: Arial, sans-serif
+}
+a:link {
+  color: blue;
+}
+a:visited {
+  color: #90f;
+}
+a:active {
+  color: red;
+}
+strong {
+  color: red;
+}
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+#story>h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3.5rem;
+  text-align: center;
+  padding-top: 50.5px;
+  padding-bottom: 55px;
+  background: linear-gradient(#000, #000, #111, #111, #111, #111, #111, #aaa, #aaa);
+  margin-top: 0%;
+  margin-bottom: 0%;
+  color: white;
+}
+h2 {
+  text-align: center;
+  font-size: 1rem;
+}
+h3 {
+  /* text-align: center; */
+  font-size: x-large;
+  /* margin-bottom: 38px; */
+  color: white;
+}
+p {
+  font-size: 1rem;
+  text-indent: 2rem;
+  line-height: 1.75rem;
+  margin: auto;
+  color: white;
+  margin-right: 30%;
+  /* margin-left: 1rem; */
+}
+pre {
+  /* word-spacing: 1px;
+  letter-spacing: 0.5px;
+  font-size: 1rem;
+  padding: 10mm;
+  background: #aaa;
+  margin-top: 0px;
+  margin-bottom: 0px; */
+  text-indent: 1rem;
+  text-wrap-mode: wrap;
+  margin-right: 30%;
+  color: white;
+}
+button {
+  font-size: 0.9rem;
+}
+@media screen and (max-width: 1200px){
+  pre, h2 {
+    font-size: 3rem;
+  }
+  h1 {
+    font-size: 6rem;
+  }
+  p {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  button {
+    font-size: 2rem;
+  }
+  body {
+    max-width: 1000px;
+    width: auto;
+  }
+}
+i {
+color: inherit;
+}
+span {
+text-indent: 0.5in;
+}
+br {
+margin-left: 0.5in;
+}
+i {
+color: inherit;
+font-family: inherit;
+}
 
 /* classes */
-.new-para {margin-left: 0.5in;}
-.warning {color: red; font-size: 125%;}
-.info {color: #00ff00; background-color: #f00; font-family: lucida console; text-align: center; display: block; margin: 10px; font-size: 250%; cursor: default;}
-.link {font-size: inherit; font-family: inherit; color: blue;}
-.link:hover {color: #90f; font-style: italic; cursor: pointer;}
+.new-para {
+  margin-left: 0.5in;
+}
+.warning {
+  color: red;
+  font-size: 125%;
+}
+.info {
+  color: #00ff00;
+  background-color: #f00;
+  font-family: lucida console;
+  text-align: center;
+  display: block;
+  margin: 10px;
+  font-size: 250%;
+  cursor: default;
+}
+
+.link {
+  font-size: inherit;
+  font-family: inherit;
+  color: blue;
+}
+.link:hover {
+  color: #90f;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.background {
+  word-spacing: 1px;
+  letter-spacing: 0.5px;
+  font-size: 1rem;
+  padding: 38px;
+  text-wrap-mode: wrap;
+  background: #aaa;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: black;
+}
+.background>p {
+  color: black;
+  text-shadow: none;
+}
+.continue {
+  font-size: 1.5rem;
+  text-align: center;
+}
+@media screen and (max-width: 1000px) {
+  .background {
+    font-size: 5rem;
+  }
+  .continue {
+    font-size: 3rem;
+  }
+}
+p.character-sheet, div.character-sheet>p {
+  margin-right: 25px;
+  margin-left: 1rem;
+  text-indent: -1rem;
+}
+.sidebar {
+  height: 100%;
+  /* Full-height: remove this if you want "auto" height */
+  width: 160px;
+  /* Set the width of the sidebar */
+  position: fixed;
+  /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  left: -163px;
+  transition: 0.3s;
+  background: linear-gradient(90deg, #111, #000);
+  /* Black */
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 20px;
+  padding-left: 5px;
+  text-align: left;
+}
+.sidebar:hover{
+
+
+  left: 0px;
+}
+  #prev, #prev1 {
+    text-align: left;
+    display: inline-block;
+  }
+  #next, #next1 {
+    text-align: right;
+    display: inline-block;
+  }
+  .space {
+    display: flex;
+    justify-content: space-between;
+  }
+  h2 {
+    color: white;
+    background: #000;
+    font-size: 3rem;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .noza, .Noza {
+    color: green;
+    text-shadow: 0px 0px 15px #0a0;
+  }
+  .airn, .Airn {
+    color: azure;
+    text-shadow: 0px 0px 15px #0af;
+  }
+  .mina, .Mina {
+    color: deeppink;
+    text-shadow: 0px 0px 15px blueviolet;
+  }
+  .void, .Void, .VOID {
+    color: black;
+    text-shadow: 0px 0px 15px #fff;
+  }
+  .nobody, .Nobody {
+    color: #555;
+    text-shadow: 0px 0px 15px #a00;
+  }
+
+  .vio, .Vio {
+    color: black;
+    text-shadow: 0px 0px 15px blueviolet;
+    font-family: 'Allan', sans-serif;
+  }
+  .cin, .Cin {
+    color: #9c6a29;
+    text-shadow: 0px 0px 15px #5c3a0d;
+    font-family: 'Alegreya Sans SC', sans-serif;
+  }
+  .mint, .Mint {
+    color: #12d400;
+    text-shadow: 0px 0px 15px #0c9600;
+    font-family: 'Almendra Display', sans-serif;
+  }
+
+  .vio_color, .Vio_color {
+    color: #8a2be2;
+    font-family: 'Lucidia Console', monospace;
+  }
+  .cin_color, .Cin_color {
+    color: #9c6a29;
+    font-family: 'Lucidia Console', monospace;
+  }
+  .mint_color, .Mint_color {
+    color: #12d400;
+    font-family: 'Lucidia Console', monospace;
+  }
+
+  .vio_color, .Vio_color, .cin_color, .Cin_color, .mint_color, .Mint_color {
+    font-family: 'Lucidia Console', monospace;
+  }
+
+  .transparent {
+    background: linear-gradient(rgb(0, 0, 0, 0), rgb(0, 0, 0, 0), #111, #111, #111, #111, #111, rgb(0, 0, 0, 0), rgb(0, 0, 0, 0));
+  }
+  .mid-paragraph, .midpara {
+    background: linear-gradient(#aaa, #aaa, #111, #111, #111, #111, #111, #aaa, #aaa);
+  }
+
+  .vampire, .Vampire {
+    color: #fff;
+    text-shadow: 0px 0px 15px #ff0000;
+  }
+
+  .chainsaw {
+    color: gray;
+    text-shadow: 0px 0px 15px #f00;
+  }
+
+  .miku, .Miku {
+    color: #00ff9b;
+    text-shadow: 0px 0px 15px #009bff;
+  }
+  .teto, .Teto {
+    color: #f66;
+    text-shadow: 0px 0px 15px #f00;
+  }
+
+
+@media (prefers-color-scheme: light) {
+
+
+  button {
+    color: black;
+    background-color: white;
+  }
+  .background {
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+    padding: 38px;
+    text-wrap-mode: wrap;
+    background: #aaa;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: black;
+  }
+  .background>p {
+    color: black;
+    text-shadow: none;
+  }
+  #story>h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.5rem;
+    text-align: center;
+    padding-top: 50.5px;
+    padding-bottom: 55px;
+    background:
+    linear-gradient(#000, #111, #111, #111, #111, #111, #111, #aaa);
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  button {
+    color: white;
+    background-color: #111;
+  }
+  .background {
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+    padding: 38px;
+    text-wrap-mode: wrap;
+    background: rgb(20, 20, 20);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #ddd;
+  }
+  .background>p {
+    color: #ddd;
+    text-shadow: none;
+  }
+  #story>h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.5rem;
+    text-align: center;
+    padding-top: 50.5px;
+    padding-bottom: 55px;
+    background:
+    linear-gradient(#000, #252525, #252525, #252525, #252525, #252525, #252525, #141414);
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: white;
+  }
+}
+
+@font-face {
+  font-family: Chainsaw;
+  src: url('/fonts/FonttoaChainsaw.otf');
+}
+
+#story {
+  margin: auto;
+}
+
+/*  fuck
+    4u(k
+    fu(k
+    FUCK*/
