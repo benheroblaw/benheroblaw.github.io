@@ -18,7 +18,7 @@ var pornSidebar = `\
   <h1><a href="/r34/r34.html"><span style="color: white;">prawns</span></a></h1>\
   <a href="all.html" class="red"><span>all</span></a><br>\
   <a class="blue" href="assets.html"><span>assets</span></a><br>\
-  <a onclick="tesLog('setting sidebar to artistSidebar'); addSidebar(artistSidebar)" class="blue"><span>Artists</span></a><br><br>
+  <a onclick="tesLog('setting sidebar to artistSidebar'); addSidebar(artistSidebar)" class="blue"><span>Artists</span></a><br>
   <br>\
   \
   <a class="blue" href="/r34/comics.html"><span>Comics</span></a><br><br>` +
@@ -1098,7 +1098,7 @@ function playlist(tracks=[], loop=true) {
 
 }
 
-// function 
+// function
 
 
 // event listeners

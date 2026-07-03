@@ -1,4 +1,4 @@
-let version = '1.1'
+let version = '1.2'
 
 console.log('setting interval...')
 setInterval(() => {

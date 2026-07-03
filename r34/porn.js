@@ -37,7 +37,14 @@ var irl = [`\
   linkedImage(`/r34/irl/cfgxi.jpeg`) +
   `
   </p>`,
-
+  `pornhub is so fucking stupid<br><br>
+  why the hell are they advocating for age verification? not just <i>regular</i> age verification, either, no, they are advocating for DEVICE-BASED AGE VERIFICATION.<br><br>
+  then they have the balls to say piracy is bad. no shit people left your site when you added age verification, that's just what happens.<br><br>
+  a site starts out small, adding features that their users want, listening to feedback...<br><br>
+  their service is the best, people tell their friends, the site gets big.<br><br>
+  they get bought.<br><br>
+  they continue to listen to users for a while, then they say "fuck you all, we're going to chase the money."
+  `
 ]
 
 var audio = [
@@ -581,33 +588,33 @@ var curly = [
   <video preload="auto" controls src="/r34/cavestory/7bf5204a32191defdf494fb9c250d514.mp4">no porn for you :(</video>\
   `,
 
-  `<img draggable="false" src="/r34/cavestory/599b1ec8c535ff41a6ce01367c3a4c2a.png" style="border: none" ondblclick="window.open(\'/r34/cavestory/599b1ec8c535ff41a6ce01367c3a4c2a.png\', \'_self\')">\
-  <img draggable="false" src="/r34/cavestory/eaa8ebf3c686bad40cb0e0ea7198900d.png" style="border: none" ondblclick="window.open(\'/r34/cavestory/eaa8ebf3c686bad40cb0e0ea7198900d.png\', \'_self\')">\
+  `<img draggable="false" src="/r34/cavestory/pngs/599b1ec8c535ff41a6ce01367c3a4c2a.png" style="border: none" ondblclick="window.open(\'/r34/cavestory/pngs/599b1ec8c535ff41a6ce01367c3a4c2a.png\', \'_self\')">\
+  <img draggable="false" src="/r34/cavestory/pngs/eaa8ebf3c686bad40cb0e0ea7198900d.png" style="border: none" ondblclick="window.open(\'/r34/cavestory/pngs/eaa8ebf3c686bad40cb0e0ea7198900d.png\', \'_self\')">\
   <br><br>` +
-  linkedImage("/r34/cavestory/ce2221fa00e01bde5c011e0099dc6993bcd837eb.jpg") +
-  linkedImage("/r34/cavestory/9b067c5c3841176c2ff95c4a8e9068c8.png", `y`) +
+  linkedImage("/r34/cavestory/ce2221fa00e01bde5c011e0099dc6993bcd837eb.jpeg") +
+  linkedImage("/r34/cavestory/9b067c5c3841176c2ff95c4a8e9068c8.jpeg", `y`) +
 
-  linkedImage("/r34/cavestory/0ed716a0715ef08a9545344086b7cd8d.png") +
-  linkedImage("/r34/cavestory/1e3ce6df4d9e8364ca6ceec3675cb279.png") +
-  linkedImage("/r34/cavestory/1f8fcf060d04f45c0e390ec34d870d2f.png") +
+  linkedImage("/r34/cavestory/0ed716a0715ef08a9545344086b7cd8d.jpeg") +
+  linkedImage("/r34/cavestory/1e3ce6df4d9e8364ca6ceec3675cb279.jpeg") +
+  linkedImage("/r34/cavestory/1f8fcf060d04f45c0e390ec34d870d2f.jpeg") +
   linkedImage("/r34/cavestory/5a0788f43f24f7dd918dd2dd3f39fa33.jpeg") +
-  linkedImage("/r34/cavestory/f2d594b0585cf111259a4e2869c0d7a8.png") +
-  linkedImage("/r34/cavestory/e5355560b1608dc4005bb500cbe5b6de.png") +
-  linkedImage("/r34/cavestory/fd1454568f55a6995e0549f485fff971.png") +
-  linkedImage("/r34/cavestory/34e401bef131f98d0999642fc799a182.png") +
-  linkedImage("/r34/cavestory/52d7a1e0edaedcfc0cda479d5cf45d9b.png") +
-  linkedImage("/r34/cavestory/85f85e1138bf5801af7b97628979b76f.png") +
-  linkedImage("/r34/cavestory/49c65cbfd67f5852f1a40d9355e6b2ca.png") +
+  linkedImage("/r34/cavestory/f2d594b0585cf111259a4e2869c0d7a8.jpeg") +
+  linkedImage("/r34/cavestory/e5355560b1608dc4005bb500cbe5b6de.jpeg") +
+  linkedImage("/r34/cavestory/fd1454568f55a6995e0549f485fff971.jpeg") +
+  linkedImage("/r34/cavestory/34e401bef131f98d0999642fc799a182.jpeg") +
+  linkedImage("/r34/cavestory/52d7a1e0edaedcfc0cda479d5cf45d9b.jpeg") +
+  linkedImage("/r34/cavestory/85f85e1138bf5801af7b97628979b76f.jpeg") +
+  linkedImage("/r34/cavestory/49c65cbfd67f5852f1a40d9355e6b2ca.jpeg") +
   linkedImage("/r34/cavestory/56e6e8307f04ccea52a7d3faf2789151.jpeg") +
-  linkedImage("/r34/cavestory/91ff376f2f080ca284f0e2f45f38184a.png") +
-  linkedImage("/r34/cavestory/962883a2c2dc6551e1d5ccedc5bc7a14.png") +
-  linkedImage("/r34/cavestory/94a8a0b4729a0d080821b1344f320678.png") +
+  linkedImage("/r34/cavestory/91ff376f2f080ca284f0e2f45f38184a.jpeg") +
+  linkedImage("/r34/cavestory/962883a2c2dc6551e1d5ccedc5bc7a14.jpeg") +
+  linkedImage("/r34/cavestory/94a8a0b4729a0d080821b1344f320678.jpeg") +
   ``,
 
   linkedImage("/r34/cavestory/3e74b61cb159701fe1aff9f29599971e.gif") +
   linkedImage("/r34/cavestory/a165fec64b7222f5fa688a577855dff6.gif", "y") +
 
-  linkedImage("/r34/cavestory/89baa90085a8aa7524fed2ed8f7c5c2d.png") +
+  linkedImage("/r34/cavestory/89baa90085a8aa7524fed2ed8f7c5c2d.jpeg") +
   linkedImage("/r34/cavestory/50de2e123a5918173b73d0e09711571d.gif", "y") +
 
   linkedImage("/r34/cavestory/6b1d55edf3bcfe139fb548fb54bc4ed7.gif") +
@@ -842,8 +849,8 @@ var other = [
 
   `<a href="comics/baptist/sample_083809cccf0c0d68bffe124245a3daaa.jpg"><img src="comics/baptist/sample_083809cccf0c0d68bffe124245a3daaa.jpg"></a>\
   <a href="comics/baptist/sample_81cac618b8121e925552ba490d93d8cb.jpg"><img src="comics/baptist/sample_81cac618b8121e925552ba490d93d8cb.jpg"></a>\
-  <a href="./New-folder/8af6079d60e148e018ef1878b8d0be3f89bc9935.jpg"><img src="./New-folder/8af6079d60e148e018ef1878b8d0be3f89bc9935.jpg"></a>\
-  <a href="/r34/phub/G1lkh7iWcAAI4Gm.jpeg"><img src="irl5/26/G1lkh7iWcAAI4Gm.jpeg"></a>`,
+  <a href="./New-folder/8af6079d60e148e018ef1878b8d0be3f89bc9935.jpeg"><img src="./New-folder/8af6079d60e148e018ef1878b8d0be3f89bc9935.jpeg"></a>\
+  <a href="/r34/New-folder/G1lkh7iWcAAI4Gm.jpeg"><img src="/r34/New-folder/G1lkh7iWcAAI4Gm.jpeg"></a>`,
 
   `<a href="./pvz/IMG_9101.GIF"><img src="pvz/IMG_9101.GIF"></a>\
   <a href="pvz/IMG_9102.GIF"><img src="pvz/IMG_9102.GIF"></a>\
@@ -1182,20 +1189,20 @@ var pokemon = [
   <video class="video" controls src="./pokemon/3eb4280841de417ba93de12bcf2046f1.mp4">no porn for you :(</video>`,
 
   `
-  <a href="./pokemon/sample_2c90a881824d53eb1088d574a1615b96.jpg"><img src="./pokemon/sample_2c90a881824d53eb1088d574a1615b96.jpg"></a>
-  <a href="./pokemon/sample_345d19e646da989db3568eeac32ecec2.jpg"><img src="./pokemon/sample_345d19e646da989db3568eeac32ecec2.jpg"></a>
+  <a href="./pokemon/sample_2c90a881824d53eb1088d574a1615b96.jpeg"><img src="./pokemon/sample_2c90a881824d53eb1088d574a1615b96.jpeg"></a>
+  <a href="./pokemon/sample_345d19e646da989db3568eeac32ecec2.jpeg"><img src="./pokemon/sample_345d19e646da989db3568eeac32ecec2.jpeg"></a>
   <a href="./pokemon/fd9a037c3d4244de7aeabcbf53d710fb.gif"><img src="./pokemon/fd9a037c3d4244de7aeabcbf53d710fb.gif"></a>
-  <a href="./pokemon/sample_d956a7b670d297be32888b866d574ab3.jpg"><img src="./pokemon/sample_d956a7b670d297be32888b866d574ab3.jpg"></a>
-  <a href="./pokemon/sample_1617c1c22e6c56515380574f1043d942.jpg"><img src="./pokemon/sample_1617c1c22e6c56515380574f1043d942.jpg"></a>
+  <a href="./pokemon/sample_d956a7b670d297be32888b866d574ab3.jpeg"><img src="./pokemon/sample_d956a7b670d297be32888b866d574ab3.jpeg"></a>
+  <a href="./pokemon/sample_1617c1c22e6c56515380574f1043d942.jpeg"><img src="./pokemon/sample_1617c1c22e6c56515380574f1043d942.jpeg"></a>
   <a href="./pokemon/sample_4142d49ee3c5bd63b0c4b096586f00ed57dbb0a5.jpeg"><img src="./pokemon/sample_4142d49ee3c5bd63b0c4b096586f00ed57dbb0a5.jpeg"></a>
-  <a href="./pokemon/IMG_0057.JPG"><img src="./pokemon/IMG_0057.JPG"></a>
-  <a href="./pokemon/IMG_0056.JPG"><img src="./pokemon/IMG_0056.JPG"></a>
-  <a href="./pokemon/IMG_0065.JPG"><img src="./pokemon/IMG_0065.JPG"></a>
-  <a href="./pokemon/IMG_0378.JPG"><img src="./pokemon/IMG_0378.JPG"></a><br><br>
+  <a href="./pokemon/IMG_0057.jpeg"><img src="./pokemon/IMG_0057.jpeg"></a>
+  <a href="./pokemon/IMG_0056.jpeg"><img src="./pokemon/IMG_0056.jpeg"></a>
+  <a href="./pokemon/IMG_0065.jpeg"><img src="./pokemon/IMG_0065.jpeg"></a>
+  <a href="./pokemon/IMG_0378.jpeg"><img src="./pokemon/IMG_0378.jpeg"></a><br><br>
 
-  <a href="./pokemon/G3MFbz6bwAAm01u.jpg"><img src="./pokemon/G3MFbz6bwAAm01u.jpg"></a>
-  <a href="./pokemon/G3WcwL_a8AIRVxk.jpg"><img src="./pokemon/G3WcwL_a8AIRVxk.jpg"></a>
-  <a href="./pokemon/G3iNQ8fXMAAK9nN.jpg"><img height="20%" src="./pokemon/G3iNQ8fXMAAK9nN.jpg"></a>
+  <a href="./pokemon/G3MFbz6bwAAm01u.jpeg"><img src="./pokemon/G3MFbz6bwAAm01u.jpeg"></a>
+  <a href="./pokemon/G3WcwL_a8AIRVxk.jpeg"><img src="./pokemon/G3WcwL_a8AIRVxk.jpeg"></a>
+  <a href="./pokemon/G3iNQ8fXMAAK9nN.jpeg"><img height="20%" src="./pokemon/G3iNQ8fXMAAK9nN.jpeg"></a>
   `
 ]
 
@@ -1346,7 +1353,7 @@ for (let index = 0; index < hardDegenImages.length; index++) {
     hardDegen[5] += linkedImage(`/r34/hard-degen/${element}.gif`)
   }
   else {
-    hardDegen[5] += linkedImage(`/r34/hard-degen/${element}.jpg`)
+    hardDegen[5] += linkedImage(`/r34/hard-degen/${element}.jpeg`)
   }
 }
 
@@ -1384,9 +1391,61 @@ let ladylovense = [
 ]
 
 let touhou = [
-  ` 
+  `
   ${ah2('books')}
   ${addLink('/books/Touhou_6_Embodiment_of.html', 'Touhou 6 Embodiment of Scarlet Devil but they all have sex instead')}
+  `,
 
+  `
+  ${ah2('video')}
+  ${linkVideo('/r34/touhou/f848b625fa0abcd153b0e606ad88d5d0.mp4')}
+  `
+]
+
+let terraria = [
+`
+  ${linkedImage("/r34/terraria/543a2f705d4181e72c30ce8e1e9b81db.jpeg")}
+  ${linkedImage("/r34/terraria/4d013dc9388a0691833a7f17e351e246.jpeg")}
+  ${linkedImage("/r34/terraria/2f1876e3005849ac6b732a73031af343.jpeg")}
+  ${linkedImage("/r34/terraria/a692b0a1c7635772d93aab810ae19c86.jpeg")}
+  ${linkedImage("/r34/terraria/10f3f108671b348b47db6d9e5f7e6446.jpeg")}
+  ${linkedImage("/r34/terraria/bbf5af40cfdeb2707ea9f8c53b4a4689.jpeg")}
+  ${linkedImage("/r34/terraria/b855534bec1acdc058b77cdebe190ecc.jpeg")}
+  ${linkedImage("/r34/terraria/da7968f3675b0ad8ce36fa410d0bddfc.jpeg")}
+  ${linkedImage("/r34/terraria/07d36219f9dd588218b3f0d88d53cd52.jpeg")}
+  ${linkedImage("/r34/terraria/f67ca1ae6f49b680d4307e541e598e18.jpeg")}
+  ${linkedImage("/r34/terraria/57156621a3546fc3ce53c90f3e300fad.jpeg")}
+  ${linkedImage("/r34/terraria/3e2cdeb3d0345d20b5c6ba27322696f2.jpeg")}
+  ${linkedImage("/r34/terraria/07e9c9ad76a48c6eeeedf7820bb00c2c.jpeg")}
+  ${linkedImage("/r34/terraria/39f369967bf30a17c6d4e9d486ead6b2.jpeg")}
+  ${linkedImage("/r34/terraria/9cd727a5f774e8421947303ffc1323a0.jpeg")}
+  ${linkedImage("/r34/terraria/49715a59f3bb5c365b0f98634f7a014c.jpeg")}
+  ${linkedImage("/r34/terraria/68ec4f4250a0a9f2a26dea47f0873aa6997ad367.jpeg")}
+  ${linkedImage("/r34/terraria/83d098ee7bea64d58ef9013e1055c3a750c02ad2.jpeg")}
+  ${linkedImage("/r34/terraria/95ab880beee31d94d3c59f0ddc989d79.jpeg")}
+  ${linkedImage("/r34/terraria/dbc32ff80f296a31bbde98dd79ba0783c7b4ed0d.jpeg")}
+  ${linkedImage("/r34/terraria/7d5ecca84b1b4a29f026476f5ae33fb9.jpeg")}
+  ${linkedImage("/r34/terraria/72217ef2a1ae3d014e3851495f189a5c.jpeg")}
+  ${linkedImage("/r34/terraria/6f54ae437c3458b81ed85f94945b528bddea52e0.jpeg")}
+  ${linkedImage("/r34/terraria/a2cdfbc4589feb0062d76c67591d0634d0679509.jpeg")}
+  ${linkedImage("/r34/terraria/aaca45dac09bfd5c0b4ea9d28cc855bb35e27495.jpeg")}
+  ${linkedImage("/r34/terraria/31ce5ee0036e3978424094d7c3aad41d91bf62d6.jpeg")}
+  <br><br><br>
+
+  <a href="/r34/terraria/Asslocking_2.gif"><img src="/r34/terraria/Asslocking_2.gif"></a>
+  <a href="/r34/terraria/Succubus_VoodooDoll.gif"><img src="/r34/terraria/Succubus_VoodooDoll.gif"></a>
+  `
+]
+
+let rouge = [
+  `
+  <video controls src="./rouge/2b6045742057dd22d9ce0eafeabd7533.mp4">no porn for you :(</video>
+  <video controls src="./rouge/c4656dfb3f97413089dadd2b4f36107b.mp4">no porn for you :(</video>
+  <video controls src="./rouge/6e9990a4ef8b9b2e8fe0092de9979b13.mp4">no porn for you :(</video>
+  <video controls src="./rouge/800960f326944481fc3de2941452acb4.mp4">no porn for you :(</video>
+  `,
+  `
+  ${linkedImage("/r34/rouge/298f9f2bb5f4881941a5d4a038236933e7cae526.jpeg")}
+  ${linkedImage("/r34/rouge/ce35198226ec459f312a311c3c99abf00134b84e.jpeg")}
   `
 ]

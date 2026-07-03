@@ -20,11 +20,13 @@ var extensions = [
     `<h2>doujin.io title</h2>
     <h3 id="doujinVer"></h3>`,
 
-    `${ah2('bullshit.js')}
-    <h3 id="bsVer"></h3>`,
-
     `${ah2('r34 sorting')}
-    <h3 id="r34Ver"></h3>`
+    <h3 id="r34Ver"></h3>`,
+
+    `${ah2('bullshit.js')}
+    <h3 id="bsVer"></h3>
+    wip`,
+
 ]
 
 let doujinVer = [
@@ -38,7 +40,8 @@ let doujinVer = [
 ]
 let r34Ver = [
     '1.0',
-    '1.1'
+    '1.1',
+    '1.2'
 ]
 
 doujinVer.sort()
@@ -76,5 +79,5 @@ for (const key in doujinVer) {
     }
 
 }
-extensions[2] += output
+extensions[1] += output
 </script>
