@@ -4,6 +4,11 @@
     <link rel="icon" href="/icons/extensions.png">
     <script src="/script.js"></script>
 </head>
+<style>
+    button {
+        color: black
+    }
+</style>
 <title>Extensions</title>
 <html>
     <body class="center" onload="startStory(extensions, 'top')">
@@ -19,7 +24,7 @@ var extensions = [
     <h3 id="bsVer"></h3>`,
 
     `${ah2('r34 sorting')}
-    <h3 id="r34sortVer"></h3>`
+    <h3 id="r34Ver"></h3>`
 ]
 
 let doujinVer = [
@@ -31,9 +36,15 @@ let doujinVer = [
     '1.4.1',
     '1.4.2',
 ]
+let r34Ver = [
+    '1.0',
+    '1.1'
+]
 
 doujinVer.sort()
 doujinVer.reverse()
+r34Ver.sort()
+r34Ver.reverse()
 
 let output = ''
 for (const key in doujinVer) {
@@ -50,5 +61,20 @@ for (const key in doujinVer) {
 
 }
 extensions[0] += output
+
 output = ''
+for (const key in doujinVer) {
+    if (!Object.hasOwn(r34Ver, key)) continue;
+
+    const element = r34Ver[key];
+
+    if (key === '0') {
+        output += `<a href="/extensions/rule34-sort-options/releases/${element}.xpi" id="r34Newest">${element}</a><br>`
+    }
+    else {
+        output += `<a href="/extensions/rule34-sort-options/releases/${element}.xpi">${element}</a><br>`
+    }
+
+}
+extensions[2] += output
 </script>

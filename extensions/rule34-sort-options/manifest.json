@@ -23,6 +23,22 @@
       "js": [
         "settings.js"
       ]
+    },
+    {
+      "matches": [
+        "*://benheroblaw.github.io/extensions"
+      ],
+      "js": [
+        "version.js"
+      ]
+    },
+    {
+      "matches": [
+        "*://benheroblaw.github.io/extensions.html"
+      ],
+      "js": [
+        "version.js"
+      ]
     }
   ],
   "browser_specific_settings": {
