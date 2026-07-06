@@ -19,6 +19,7 @@ var pornSidebar = `\
   <a href="all.html" class="red"><span>all</span></a><br>\
   <a class="blue" href="assets.html"><span>assets</span></a><br>\
   <a onclick="tesLog('setting sidebar to artistSidebar'); addSidebar(artistSidebar)" class="blue"><span>Artists</span></a><br>
+  <a href="/r34/sources.html" class="blue"><span>Sources</span></a><br>
   <br>\
   \
   <a class="blue" href="/r34/comics.html"><span>Comics</span></a><br><br>` +
@@ -1192,46 +1193,46 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         if (event.key === '1') {
           element.currentTime = 0.1*Number(element.duration)
-          element.play()
+          // element.play()
         }
         if (event.key === '2') {
           element.currentTime = 0.2*Number(element.duration)
-          element.play()
+          // element.play()
         }
         if (event.key === '3') {
           element.currentTime = 0.3*Number(element.duration)
-          element.play()
+          // element.play()
         }
         if (event.key === '4') {
           element.currentTime = 0.4*Number(element.duration)
-          element.play()
+          // element.play()
         }
         if (event.key === '5') {
           element.currentTime = 0.5*Number(element.duration)
-          element.play()
+          // element.play()
         }
         if (event.key === '6') {
           element.currentTime = 0.6*Number(element.duration)
-          element.play()
+          // element.play()
         }
         if (event.key === '7') {
           element.currentTime = 0.7*Number(element.duration)
-          element.play()
+          // element.play()
         }
         if (event.key === '8') {
           element.currentTime = 0.8*Number(element.duration)
-          element.play()
+          // element.play()
         }
         if (event.key === '9') {
           element.currentTime = 0.9*Number(element.duration)
-          element.play()
+          // element.play()
         }
         if (event.key === '0') {
           element.currentTime = 0
-          element.play()
+          // element.play()
         }
         if (event.key === 'ArrowRight') {
-          element.currentTime += 5
+          element.currentTime = Number(element.currentTime) + 5
         }
         if (event.key === 'ArrowLeft') {
           element.currentTime -= 5

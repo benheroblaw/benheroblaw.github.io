@@ -1,3 +1,4 @@
+// library functions
 function qSel(params='') {
   return document.querySelector(params)
 }
@@ -62,6 +63,7 @@ tes = [
   '(o ^ o) '
 ]
 
+// script
 let options = qSel('form[action="index.php?page=account&s=options"]')
 console.log(options);
 
@@ -72,6 +74,9 @@ let settings = getCookie('bsTags')
 let tagForm = document.createElement('tr')
 tagForm.id = 'tagForm'
 tagForm.innerHTML = `<td><label>Tags for each search</label><p>Tags to include in every search<br><br>Autosaves</p></td><td><textarea id="bsTags" cols="80" rows="6" autocomplete="off"></textarea></td>`
+tagForm.onkeydown = () => {
+  setCookie('bsTags', gewi('bsTags').value, true)
+}
 tagForm.onkeyup = () => {
   setCookie('bsTags', gewi('bsTags').value, true)
 }

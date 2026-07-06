@@ -30,20 +30,23 @@ var irl = [`\
   </p>`,
 
   `<p>images<br><br>\
-  <a href="/r34/irl/GbQeSrYakAMKch1.jpg"><img src="/r34/irl/GbQeSrYakAMKch1.jpg"></a>\
-  <a href="/r34/irl/Gx6U-cpbgAAexnu.jpeg"><img src="/r34/irl/Gx6U-cpbgAAexnu.jpeg"></a>\
-  <a href="/r34/irl/dryivgkvRDCK.png"><img src="irl/dryivgkvRDCK.png"></a>\
-  ` +
-  linkedImage(`/r34/irl/cfgxi.jpeg`) +
-  `
+  ${linkedImage("/r34/irl/GbQeSrYakAMKch1.jpeg")}
+  ${linkedImage("/r34/irl/Gx6U-cpbgAAexnu.jpeg")}
+  ${linkedImage('/r34/irl/cfgxi.jpeg')}
+  ${linkedImage("/r34/irl/dryivgkvRDCK.jpeg")}
+
   </p>`,
   `pornhub is so fucking stupid<br><br>
-  why the hell are they advocating for age verification? not just <i>regular</i> age verification, either, no, they are advocating for DEVICE-BASED AGE VERIFICATION.<br><br>
-  then they have the balls to say piracy is bad. no shit people left your site when you added age verification, that's just what happens.<br><br>
+  why the hell are they advocating for age verification? does it matter who watches your porn? if you're after ad revenue, it shouldn't matter who watches as long as they are watching<br><Br>
+  they don't just want <i>regular</i> age verification, either, no.<br><br>
+  Pornhub is advocating for <div style="font-size: 1.5rem">DEVICE-BASED AGE VERIFICATION.</div><br><br>
+  then they have the balls to say piracy is bad. no shit people left your site when you added that one thing that your entire userbase hates, that's just what happens.<br><br>
   a site starts out small, adding features that their users want, listening to feedback...<br><br>
   their service is the best, people tell their friends, the site gets big.<br><br>
   they get bought.<br><br>
-  they continue to listen to users for a while, then they say "fuck you all, we're going to chase the money."
+  they continue to listen to users for a while, then they say "fuck you all, we're going to chase the money."<br><br><br><br>
+  pornhub can suck my dick<br>
+  <a href='https://realbooru.com'>realbooru</a> wins by doing nothing
   `
 ]
 
