@@ -73,6 +73,7 @@ var sona = '<h1>sonas</h1>\
 
 var dragonSidebar = '<h1>Viewers</h1>'
 + '<a href="/r34/dragon-maid/miss-tohru.html">Miss Tohru</a><br>'
++ `<a href="/r34/dragon-maid/tohru-ililu.html">Tohru x Ililu</a><br>`
 
 var aiSidebar = `
     <h1>viewers</h1>

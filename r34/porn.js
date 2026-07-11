@@ -431,7 +431,7 @@ var brMiku = [
   `brazilian miku<br>${selectableVsynth('brmiku', '4rem')}`
 ]
 
-brMigu.forEach(string => {miku[3] += linkedImage('/r34/miku/brmikucomic/' + string)})
+brMigu.forEach(string => {miku[4] += linkedImage('/r34/miku/brmikucomic/' + string)})
 brMiku[1] += 'brMikuComic<br>'; brMigu.forEach(string => {brMiku[1] += linkedImage('/r34/miku/brmikucomic/' + string)})
 
 let puddingDraws = [
@@ -525,6 +525,7 @@ var sona = `<h1>sonas</h1>\
 
 var dragonSidebar = `<h1>Viewers</h1>`
 + `<a href="/r34/dragon-maid/miss-tohru.html"><span>Miss Tohru</span></a><br>`
++ `<a href="/r34/dragon-maid/tohru-ililu.html"><span>Tohru x Ililu</span></a><br>`
 
 // export {irl, audio, pornSidebar}
 
@@ -1380,8 +1381,9 @@ var dragon = [
   <a href="dragon-maid/84f6e7548094d548c224a5e114a39a81-7.jpeg"><img src="dragon-maid/84f6e7548094d548c224a5e114a39a81-7.jpeg"></a>\
   <a href="dragon-maid/84f6e7548094d548c224a5e114a39a81-8.jpeg"><img src="dragon-maid/84f6e7548094d548c224a5e114a39a81-8.jpeg"></a>',
 
-  '<a href="dragon-maid/1df83a873bc5263efaa98b56047b6c29.jpeg"><img src="dragon-maid/1df83a873bc5263efaa98b56047b6c29.jpeg"></a>\
-  <a href="dragon-maid/84f6e7548094d548c224a5e114a39a81.jpeg"><img src="dragon-maid/84f6e7548094d548c224a5e114a39a81.jpeg"></a>',
+  `<div id="stripContainer">
+  <div><a href="dragon-maid/1df83a873bc5263efaa98b56047b6c29.jpeg"><img src="dragon-maid/1df83a873bc5263efaa98b56047b6c29.jpeg"></a></div>
+  <div><a href="dragon-maid/84f6e7548094d548c224a5e114a39a81.jpeg"><img src="dragon-maid/84f6e7548094d548c224a5e114a39a81.jpeg"></a></div></div>`,
 ]
 
 let ladylovense = [
