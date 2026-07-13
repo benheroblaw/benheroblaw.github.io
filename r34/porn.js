@@ -872,10 +872,13 @@ var bees = [
 var harder_stuff = [
   `<video controls src="/r34/irl/4gV-RaIL-cropped.mp4">no porn for you :(</video>
   `,
+  addLink('/r34/xxx/ceiling-and-treatment.html', 'comic')
 ]
 
 var ai = [
-  `ai stuff<br>(theres a lot)`,
+  `ai stuff<br>
+  (theres a lot)<br>
+  (like, '187 images from bocchi' a lot)`,
 
   `` +
   linkedImage("bocchi/001_1.jpg") +
@@ -1384,6 +1387,8 @@ var dragon = [
   `<div id="stripContainer">
   <div><a href="dragon-maid/1df83a873bc5263efaa98b56047b6c29.jpeg"><img src="dragon-maid/1df83a873bc5263efaa98b56047b6c29.jpeg"></a></div>
   <div><a href="dragon-maid/84f6e7548094d548c224a5e114a39a81.jpeg"><img src="dragon-maid/84f6e7548094d548c224a5e114a39a81.jpeg"></a></div></div>`,
+
+  'dragon maid'
 ]
 
 let ladylovense = [

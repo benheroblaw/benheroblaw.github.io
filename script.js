@@ -42,8 +42,8 @@ var pornSidebar = `\
   <a class="blue" href="/r34/audio.html"><span>Audio</span></a><br>\
   <a class="blue" href="/r34/shibby.html"><span>shibby</span></a><br><br>\
   <button onclick="location.reload(true)">ctrl+f5</button><br><br>\
-  <a class="hidden", style="color: #111;" href="/r34/ia/ai.html">ai</a><br>
-  <a class="hidden", style="color: #111;" href="/r34/files.html">Files</a>
+  <span class="hidden", style="color: #111;" onclick="window.open('/r34/ia/ai.html', '_self')">ai</span><br>
+  <span class="hidden", style="color: #111;" onclick="window.open('/r34/files.html', '_self')">Files</span>
 `
 var artistSidebar = `
 <h1>Artists</h1>
@@ -73,7 +73,7 @@ var sona = '<h1>sonas</h1>\
 
 var dragonSidebar = '<h1>Viewers</h1>'
 + '<a href="/r34/dragon-maid/miss-tohru.html">Miss Tohru</a><br>'
-+ `<a href="/r34/dragon-maid/tohru-ililu.html">Tohru x Ililu</a><br>`
++ `<a href="/r34/dragon-maid/tohru-ililu.html">Tohru x Ilulu</a><br>`
 
 var aiSidebar = `
     <h1>viewers</h1>
@@ -86,6 +86,11 @@ var puppySidebar = `
 ${addLink('/r34/puppysnackz/ava.html', 'Ava')}
 ${addLink('/r34/puppysnackz/agnes.html', 'Agnes Taciyon')}
 ${addLink('/r34/puppysnackz/ladylovense.html', 'Lady Lovense')}
+`
+
+let hardSidebar = `
+<h1>comics</h1>
+${addlink('/r34/hard/ceiling-and-treatment.html', 'comic')}
 `
 
 var program = [
@@ -488,7 +493,7 @@ function startStory(content=['wtf'], format=false, showChapters=true, doOutput=t
     }
     else if (format === 'top') {
       formatting =
-      `<br><div class="space"><div style="text-align: left"><button id="prev">&lt; Prev</button></div><div id="center" style="text-align: center;"></div><div style="text-align: right;"><button id="next">Next &gt;</button></div></div><div id="story"><br><span style="color: white;">loading...<br>if this doesn't finish loading soon you should try again</span></div><br><div class="space"><div style="text-align: left"><span id="prev1"></span></div><div id="center1" style="text-align: center;"></div><div style="text-align: right;"><span id="next1"></span></div></div><br><br>`
+      `<br><div class="space"><div style="text-align: left"><button id="prev">&lt; Prev</button></div><div id="center" style="text-align: center;"></div><div style="text-align: right;"><button id="next">Next &gt;</button></div></div><br><div id="story"><br><span style="color: white;">loading...<br>if this doesn't finish loading soon you should try again</span></div><br><div class="space"><div style="text-align: left"><span id="prev1"></span></div><div id="center1" style="text-align: center;"></div><div style="text-align: right;"><span id="next1"></span></div></div><br><br>`
     }
     else if (format === 'bottom') {
       formatting =
@@ -1155,6 +1160,12 @@ document.addEventListener("DOMContentLoaded", function() {
     console.log('no fun background for you :(');
     qSel('body').style.background = 'black'
     promiseLoadScript('/r34/porn.js').then(addSidebar(pornSidebar, aiSidebar))
+  }
+
+  if (window.location.pathname.indexOf('/r34/xxx/') > -1 || window.location.href.includes('xxx') > -1) {
+    // console.log('no fun background for you :(');
+    // qSel('body').style.background = 'black'
+    promiseLoadScript('/r34/porn.js').then(addSidebar(pornSidebar, hardSidebar))
   }
 
   if (window.location.pathname.indexOf('/r34/r34') > -1) {
