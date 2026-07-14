@@ -1180,3 +1180,48 @@ var mineto = [
   <p></p>\
 </div>`,
 ]
+
+var short_story_prawn = [
+  header1('Des') +
+  background(
+    paragraph('I need to get it out.') + linebreak() +
+    paragraph(`God, I'm so horny. Lillian snuggled up into my back is only part of the reason.`) + linebreak() +
+    paragraph(`I love her. I love her so much. The long ball of trans cutie is asleep spooning me, and while I love being close to her, it's not helping with my current situation.`) + linebreak() +
+    paragraph(`Partially because it's embarrassing, but mostly because all the obscene performances running through my head star her. Mostly me doing things to her. Some things I'm not sure she would consent to.`) + linebreak() +
+    paragraph(`Pushing her down onto this bed, planting my bare hips on her face, pulling her pants down as she digs into me. Bending over to her crotch to worship her. Not stopping even when she reaches her release.`) +
+    paragraph(`Then sliding off the bed between her legs, kissing and sucking her thighs until she's ready to release again and making her climax while staring into her eyes.`) +
+    paragraph(`I would dash to our closet, pull out the short skirt she's only ever worn in here, pull it up her legs, kiss her silly if I have to.`) +
+    paragraph(`Stand behind her, stroke her under the fabric, watch her face crumble again, slip between her legs to swallow her release again.`) + linebreak() +
+    paragraph(`Push her back down, lie next to her.`) + linebreak() +
+    paragraph(`Give her a chance to recover before the main event.`) + linebreak() +
+    paragraph(`Before finally performing my fantasy.`) + linebreak() +
+    paragraph(`I would straddle her thighs, flip her skirt up and watch the little "oh" cross her face.`) + linebreak() +
+    paragraph(`Grind myself into her leg, watch her rise.`) + linebreak() +
+    paragraph(`Bend over to give the tip a kiss.`) + linebreak() +
+    paragraph(`Then slide up her thigh, pushing against her hard love.`) + linebreak() +
+    paragraph(`Impale myself as I grab the sides of her head and kiss her.`) + linebreak() +
+    paragraph(`Ride her slowly, gently, kissing her and watching her face, her shell completely broken, feeling pleasure no expression could possibly describe as I watch her fall apart through her own eyes.`) + linebreak() +
+    paragraph(`Glide my lips down to her neck as we get close. Feel her shudder.`) + linebreak() +
+    paragraph(`Feel her pump love into me, feel my world shatter, sink my teeth into her neck, feel her twitch even as my entire existence rocks.`) + linebreak() +
+    paragraph(`The two of us, collapsed and gasping, unfit for anything but falling asleep in each other's warmth.`) + linebreak() +
+    paragraph(`It's a well-worn path in my mind. The exact details shift into hundreds of variations.`) +
+    paragraph(`Even as I desperately try to reach a fraction of the orgasm I'm imagining, I feel it slip away.`) + linebreak() +
+    paragraph(`All I can do is turn my head and make a hateful sound into the mattress.`) + linebreak() +
+    paragraph(`"...You okay?"`) + linebreak() +
+    paragraph(`I jump all the way to the everloving moon and strangle an <i>"oh FUCK"</i> from a scream of bloody murder down to a squeak.`) + linebreak() + linebreak() +
+    paragraph(`Lillian holds me as I gasp and try to bring my heart rate down from ten beats every damn second.`) + linebreak() + linebreak() +
+    paragraph(`After I've spent a few seconds calming down from wanting to choke Lill, she whispers "S-sorry."`) + linebreak() +
+    paragraph(`I can see the look on her face. Nervous, apologetic, a little scared.`) + linebreak() +
+    paragraph(`"It's fine; I only jumped into orbit."`) + linebreak() +
+    paragraph(`"I-I didn't mean to scare you." Her arms tighten around me in what I can only see as another beg for forgiveness.`) + linebreak() +
+    paragraph(`"No shit, love." I'm still heaving, trying to regain my breath. "I just... <i>fuck.</i>"`) + linebreak() +
+    paragraph(`"I've never gotten you like that, have I?" Lill's fearful tone has shifted to a deflecting smile.`) + linebreak() +
+
+    '',
+    false
+  ),
+
+    // paragraph(``) +
+    // paragraph(``) + linebreak() +
+
+]

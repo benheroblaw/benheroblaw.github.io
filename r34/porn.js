@@ -854,7 +854,9 @@ var other = [
   `<a href="comics/baptist/sample_083809cccf0c0d68bffe124245a3daaa.jpg"><img src="comics/baptist/sample_083809cccf0c0d68bffe124245a3daaa.jpg"></a>\
   <a href="comics/baptist/sample_81cac618b8121e925552ba490d93d8cb.jpg"><img src="comics/baptist/sample_81cac618b8121e925552ba490d93d8cb.jpg"></a>\
   <a href="./New-folder/8af6079d60e148e018ef1878b8d0be3f89bc9935.jpeg"><img src="./New-folder/8af6079d60e148e018ef1878b8d0be3f89bc9935.jpeg"></a>\
-  <a href="/r34/New-folder/G1lkh7iWcAAI4Gm.jpeg"><img src="/r34/New-folder/G1lkh7iWcAAI4Gm.jpeg"></a>`,
+  <a href="/r34/New-folder/G1lkh7iWcAAI4Gm.jpeg"><img src="/r34/New-folder/G1lkh7iWcAAI4Gm.jpeg"></a>`+
+  linkedImage('/r34/New-folder/762be2454ba1769059253e35b70c6637.jpeg')+
+  linkedImage('/r34/New-folder/b9285ca7ab7c19e6c5a22ca9a7495e7b.jpeg'),
 
   `<a href="./pvz/IMG_9101.GIF"><img src="pvz/IMG_9101.GIF"></a>\
   <a href="pvz/IMG_9102.GIF"><img src="pvz/IMG_9102.GIF"></a>\

@@ -1105,7 +1105,49 @@ function playlist(tracks=[], loop=true) {
 
 }
 
-// function
+function addBg(html='') {
+  output = '<br><div class="background">'
+  if (html != '') {
+    output += html
+  }
+  output += '</div>'
+  return output
+}
+function background(html='', linebreak=true) {
+  output = ''
+  if (linebreak) {
+    output += '<br>'
+  }
+  output += '<div class="background">'
+  if (html != '') {
+    output += html
+  }
+  output += '</div>'
+  return output
+}
+function addHTML(html='', element='p') {
+  output = `<${element}>`
+  if (html != '') {
+    output += html
+  }
+  output += `</${element}>`
+  return output
+}
+function paragraph(html='') {
+  return addHTML(html, 'p')
+}
+function header1(html='') {
+  element = 'h1'
+  output = `<${element}>`
+  if (html != '') {
+    output += html
+  }
+  output += `</${element}>`
+  return output
+}
+function linebreak() {
+  return('<br>')
+}
 
 
 // event listeners
