@@ -1184,11 +1184,11 @@ var mineto = [
 var short_story_prawn = [
   header1('Des') +
   background(
-    paragraph('I need to get it out.') + linebreak() +
+    // paragraph('I need to get it out.') + linebreak() +
     paragraph(`God, I'm so horny. Lillian snuggled up into my back is only part of the reason.`) + linebreak() +
     paragraph(`I love her. I love her so much. The long ball of trans cutie is asleep spooning me, and while I love being close to her, it's not helping with my current situation.`) + linebreak() +
     paragraph(`Partially because it's embarrassing, but mostly because all the obscene performances running through my head star her. Mostly me doing things to her. Some things I'm not sure she would consent to.`) + linebreak() +
-    paragraph(`Pushing her down onto this bed, planting my bare hips on her face, pulling her pants down as she digs into me. Bending over to her crotch to worship her. Not stopping even when she reaches her release.`) +
+    paragraph(`Pushing her down onto this bed, planting my bare hips on her face, pulling her pants down as she digs into me. Bending over to her crotch to worship her. Only stopping after she reaches her release.`) +
     paragraph(`Then sliding off the bed between her legs, kissing and sucking her thighs until she's ready to release again and making her climax while staring into her eyes.`) +
     paragraph(`I would dash to our closet, pull out the short skirt she's only ever worn in here, pull it up her legs, kiss her silly if I have to.`) +
     paragraph(`Stand behind her, stroke her under the fabric, watch her face crumble again, slip between her legs to swallow her release again.`) + linebreak() +
@@ -1211,11 +1211,81 @@ var short_story_prawn = [
     paragraph(`I jump all the way to the everloving moon and strangle an <i>"oh FUCK"</i> from a scream of bloody murder down to a squeak.`) + linebreak() + linebreak() +
     paragraph(`Lillian holds me as I gasp and try to bring my heart rate down from ten beats every damn second.`) + linebreak() + linebreak() +
     paragraph(`After I've spent a few seconds calming down from wanting to choke Lill, she whispers "S-sorry."`) + linebreak() +
-    paragraph(`I can see the look on her face. Nervous, apologetic, a little scared.`) + linebreak() +
+    paragraph(`I can almost see the look on her face. Nervous, apologetic, a little scared.`) + linebreak() +
     paragraph(`"It's fine; I only jumped into orbit."`) + linebreak() +
     paragraph(`"I-I didn't mean to scare you." Her arms tighten around me in what I can only see as another beg for forgiveness.`) + linebreak() +
-    paragraph(`"No shit, love." I'm still heaving, trying to regain my breath. "I just... <i>fuck.</i>"`) + linebreak() +
+    paragraph(`"No shit, sweetie." I'm still heaving, trying to regain my breath. "I just... <i>fuck.</i>"`) + linebreak() +
     paragraph(`"I've never gotten you like that, have I?" Lill's fearful tone has shifted to a deflecting smile.`) + linebreak() +
+    paragraph(`"No, you haven't."`) + linebreak() +
+    paragraph(`A few moments of silence pass.`) + linebreak() +
+    paragraph(`"So... What were you doing? How did I scare you?"`) + linebreak() +
+    paragraph(`I turn my head towards the mattress.`) + linebreak() +
+    paragraph(`"I was... getting off."`) + linebreak() + linebreak() + linebreak() +
+    paragraph(`Lill is silent for a few seconds.`) + linebreak() + linebreak() + linebreak() +
+    paragraph(`"W-want some help?"`) + linebreak() + linebreak() + linebreak() +
+    paragraph(`I would have turned and stared.`) + linebreak() +
+    paragraph(`"Um... s-sure. But- let me lead."`) + linebreak() +
+    paragraph(`"What else would I do?" I can hear the smirk in her voice. <i>What else would I do,</i> my ass. Sometimes I want <i>you</i> to lead.`) + linebreak() +
+    paragraph(`I know she would oblige if I asked her, but...`) + linebreak() +
+    paragraph(`Our entire relationship has been me domming. It's also just... plain embarrassing.`) + linebreak() +
+    paragraph(`I can tell her what I want to do to her just fine, easily. Telling her what I want her to do to me...`) + linebreak() +
+    paragraph(`Why is it so much harder?`) + linebreak() +
+    paragraph(`For how confident I act, I should be tell Lill that I want her to touch me.`) + linebreak() +
+    paragraph(`Why can I barely say "yes" when she <i>asks</i> me?`) + linebreak() +
+    paragraph(`I take one of her hands from around my waist and move it lower.`) + linebreak() +
+    paragraph(`As we reach my waistband, she moves her hand to slip under my panties.`) + linebreak() +
+    paragraph(`I shake my head into her.`) + linebreak() +
+    paragraph(`I have no idea what would come out if I try to speak.`) + linebreak() +
+    paragraph(`She might be surprised. My brain is too full to gauge her reactions, but she lets me guide her hand.`) + linebreak() +
+    paragraph(`Into my soft, loose pajama pants, over my underwear.`) + linebreak() +
+    paragraph(`I place her palm right where mine was.`) + linebreak() +
+    paragraph(`She moves her fingers, feeling out their surroundings.`) + linebreak() +
+    paragraph(`I shudder a little, and she immediately slows down.`) + linebreak() +
+    paragraph(`"n-no, keep going-" My voice sounds off. Too thin, too quiet.`) + linebreak() +
+    paragraph(`Lill starts up again, moving agonizingly slowly, trying to find what I like.`) + linebreak() +
+    paragraph(`I've done this to her so many times. Was she feeling the same way I was? Desperate for more, needing more?`) + linebreak() +
+    paragraph(`She always made frustrated noises.`) + linebreak() +
+    paragraph(`But she never begged.`) + linebreak() +
+    paragraph(`That makes her stronger than me.`) + linebreak() +
+    paragraph(`The need for more is grinding at my sanity. If I opened my mouth, only moans would come out.`) + linebreak() +
+    paragraph(`God, I would be so embarrassed if I moaned any words.`) + linebreak() +
+    paragraph(`So I just lie there and squirm.`) + linebreak() +
+    paragraph(`Until I get impatient.`) + linebreak() +
+    paragraph(`I press two of her fingers into myself, trying to push them inside. She starts rubbing with me, bigger sounds try to push out of my throat.`) + linebreak() +
+    paragraph(`Fuck, they're big. Two of hers are almost three or four of mine.`) + linebreak() +
+    paragraph(`Face burning, I switch to one of her fingers.`) + linebreak() +
+    paragraph(`"Too much?" God. My god. Her voice is right next to my ear.`) + linebreak() +
+    paragraph(`I turn into the mattress again.`) + linebreak() +
+    paragraph(`"Yes?" She strokes with just one finger.`) + linebreak() +
+    paragraph(`I nod into the bed. Boundaries are normal. Healthy. Making them shouldn't be this humiliating.`) + linebreak() +
+    paragraph(`"Thanks." W-what is she thanking me for? I'm not trying to be difficult.`) + linebreak() +
+    paragraph(`Lill continues to slide her finger up and down, up and down...`) + linebreak() +
+    paragraph(`I know she's waiting for me.`) + linebreak() +
+    paragraph(`Slowly, slowly, I push her finger inside.`) + linebreak() +
+    paragraph(`One of hers, one of mine.`) + linebreak() +
+    paragraph(`My face is seconds away from burning off.`) + linebreak() +
+    paragraph(`I do what I usually do, curl my finger inward to circle a spot I like.`) + linebreak() +
+    paragraph(`Lill's finger follows mine.`) + linebreak() +
+    paragraph(`I try not to clench my legs too much.`) + linebreak() +
+    paragraph(`Because I don't want to squish Lill's finger too hard, because clenching makes the pleasure get closer to overwhelming.`) + linebreak() +
+    paragraph(`I'm sweating so much. I need to pull my top up, it's too warm, too tight.`) + linebreak() +
+    paragraph(`Lill is right behind me.`) + linebreak() +
+    paragraph(`...`) + linebreak() +
+    paragraph(`Fuck it.`) + linebreak() +
+    paragraph(`I use my free hand to yank the hem of my shirt up to my chest.`) + linebreak() +
+    // paragraph(`I grab Lill's other hand, move it to my chest.`) + linebreak() +
+    // paragraph(`Slip it under my shirt, I can't it all the way off.`) + linebreak() +
+    // paragraph(`"s-squeeze it"`) + linebreak() +
+    // paragraph(`I clench Lill's hand into my breast.`) + linebreak() +
+    // paragraph(`"Do.. you do this when you masturbate?"`) + linebreak() +
+    // paragraph(`I shake my head.`) + linebreak() +
+    // paragraph(`"You&mdash; want me to."`) + linebreak() +
+    // paragraph(`I press harder.`) + linebreak() +
+    // paragraph(`She slowly `) + linebreak() +
+    paragraph(`Lill doesn't say anything.`) + linebreak() +
+    paragraph(`She noticed.`) + linebreak() +
+    paragraph(`Surely.`) + linebreak() +
+    paragraph(``) + linebreak() +
 
     '',
     false

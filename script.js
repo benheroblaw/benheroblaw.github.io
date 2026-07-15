@@ -50,7 +50,8 @@ var artistSidebar = `
 <a class="blue"><span onclick="tesLog('setting sidebar to pornSidebar'); addSidebar(pornSidebar)">Back</span></a><br><br>
 <a class='red' href='/r34/bonkge.html'><span>Bonkge</span></a><br>
 ${addlink('/r34/puppysnackz.html', 'puppysnackz')}
-${addlink('/r34/puddingdraws.html', 'PuddingDraws')}
+${addlink('/r34/puddingdraws.html', 'puddingdraws')}
+${addlink('/r34/onigiriarts.html', 'onigiriarts')}
 `
 
 var pokemonSidebar = '\
@@ -90,7 +91,7 @@ ${addLink('/r34/puppysnackz/ladylovense.html', 'Lady Lovense')}
 
 let hardSidebar = `
 <h1>comics</h1>
-${addlink('/r34/hard/ceiling-and-treatment.html', 'comic')}
+${addlink('/r34/xxx/ceiling-and-treatment.html', 'comic')}
 `
 
 var program = [
@@ -398,30 +399,34 @@ function displayStory(content = ['wtf'], pageSetup='', showChapters, volume=0.1,
     }
     if (event.key === 'Home') {
       event.preventDefault()
-      showSlide(0)
-      window.scrollTo(0,0)
-      gewi('prev').style.display = 'none'
-      gewi('prev1').style.display = 'none'
-      gewi('next').style.display = 'inline'
-      gewi('next1').style.display = 'inline'
-      index = 0
-      gewi('center').textContent = index
-      if (doCookies == true) {
-        setCookie(page + 'index', 0, doOutput)
+      if (index != 0) {
+        showSlide(0)
+        window.scrollTo(0,0)
+        gewi('prev').style.display = 'none'
+        gewi('prev1').style.display = 'none'
+        gewi('next').style.display = 'inline'
+        gewi('next1').style.display = 'inline'
+        index = 0
+        gewi('center').textContent = index
+        if (doCookies == true) {
+          setCookie(page + 'index', 0, doOutput)
+        }
       }
     }
     if (event.key === 'End') {
       event.preventDefault()
-      showSlide(content.length-1)
-      window.scrollTo(0, 0)
-      gewi('next').style.display = 'none'
-      gewi('next1').style.display = 'none'
-      gewi('prev').style.display = 'inline'
-      gewi('prev1').style.display = 'inline'
-      index = content.length -1
-      gewi('center').textContent = index
-      if (doCookies == true) {
-        setCookie(page + 'index', content.length-1, doOutput)
+      if (index != content.length -1) {
+        showSlide(content.length-1)
+        window.scrollTo(0, 0)
+        gewi('next').style.display = 'none'
+        gewi('next1').style.display = 'none'
+        gewi('prev').style.display = 'inline'
+        gewi('prev1').style.display = 'inline'
+        index = content.length -1
+        gewi('center').textContent = index
+        if (doCookies == true) {
+          setCookie(page + 'index', content.length-1, doOutput)
+        }
       }
     }
   }
@@ -1204,7 +1209,7 @@ document.addEventListener("DOMContentLoaded", function() {
     promiseLoadScript('/r34/porn.js').then(addSidebar(pornSidebar, aiSidebar))
   }
 
-  if (window.location.pathname.indexOf('/r34/xxx/') > -1 || window.location.href.includes('xxx') > -1) {
+  if (window.location.pathname.indexOf('/r34/xxx/') > -1 || window.location.href.includes('xxx')) {
     // console.log('no fun background for you :(');
     // qSel('body').style.background = 'black'
     promiseLoadScript('/r34/porn.js').then(addSidebar(pornSidebar, hardSidebar))

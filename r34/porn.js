@@ -1461,3 +1461,7 @@ let rouge = [
   ${linkedImage("/r34/rouge/ce35198226ec459f312a311c3c99abf00134b84e.jpeg")}
   `
 ]
+
+let onigiriarts = [
+  `${addLink('/r34/onigiriarts/mioxiris.html', 'comic')}`
+]
