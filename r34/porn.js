@@ -1,5 +1,5 @@
 var irl = [`\
-  <p>lilykoti<br><br>\
+  <p>lilykoti<br>\
   <video preload="auto" controls src="/r34/phub/large/[pornhubdownloader.io]_720P_4000K_438382601.mp4">no porn for you :(</video>\
   <video preload="auto" controls src="/r34/phub/large/Hentai Handjob and Titfuck.mp4">no porn for you :(</video>\
   <video preload="auto" controls src="/r34/phub/large/TITFUCK Masterclass.mp4">no porn for you :(</video>\
@@ -8,7 +8,7 @@ var irl = [`\
   <video preload="auto" controls src="/r34/phub/HOTTEST TITFUCK _3 COMPILATION (1).mp4">no porn for you :(</video>\
   </p>`,
 
-  `<p>creamyspot<br><br>\
+  `<p>creamyspot<br>\
   <video preload="auto" controls src="/r34/phub/large/[pornhubdownloader.io]_720P_4000K_464305995.mp4">no porn for you :(</video>\
   <video preload="auto" controls src="/r34/phub/large/[pornhubdownloader.io]_720P_4000K_16372285.mp4">no porn for you :(</video>\
   <video preload="auto" controls src="/r34/phub/[pornhubdownloader.io]_720P_4000K_464924455.mp4">no porn for you :(</video>\
@@ -16,7 +16,7 @@ var irl = [`\
   <video preload="auto" controls src="/r34/phub/large/[pornhubdownloader.io]_720P_4000K_458549051.mp4">no porn for you :(</video>\
   <p>`,
 
-  `<p><a href="https://www.pornhub.com/model/alizevert">alizevert</a><br><br>\
+  `<p><a href="https://www.pornhub.com/model/alizevert">alizevert</a><br>\
   <video preload="auto" controls src="/r34/phub/[pornhubdownloader.io]_720P_4000K_435477371.mp4">no porn for you :(</video>\
   <video preload="auto" controls src="/r34/phub/[pornhubdownloader.io]_720P_4000K_438446321.mp4">no porn for you :(</video>\
   <video preload="auto" controls src="/r34/phub/[pornhubdownloader.io]_720P_4000K_441827181.mp4">no porn for you :(</video>\
@@ -24,27 +24,27 @@ var irl = [`\
   <video preload="auto" controls src="/r34/phub/[pornhubdownloader.io]_720P_4000K_16651015.mp4">no porn for you :(</video>\
   </p>`,
 
-  `<p>other<br><br>\
+  `<p>other<br>\
   <video preload="auto" controls src="/r34/phub/Toy is too small for my big cock.mp4">no porn for you :(</video>\
   <video preload="auto" controls src="/r34/phub/compressO-idk.mp4">no porn for you :(</video>\
   </p>`,
 
-  `<p>images<br><br>\
+  `<p>images<br>\
   ${linkedImage("/r34/irl/GbQeSrYakAMKch1.jpeg")}
   ${linkedImage("/r34/irl/Gx6U-cpbgAAexnu.jpeg")}
   ${linkedImage('/r34/irl/cfgxi.jpeg')}
   ${linkedImage("/r34/irl/dryivgkvRDCK.jpeg")}
 
   </p>`,
-  `pornhub is so fucking stupid<br><br>
-  why the hell are they advocating for age verification? does it matter who watches your porn? if you're after ad revenue, it shouldn't matter who watches as long as they are watching<br><Br>
-  they don't just want <i>regular</i> age verification, either, no.<br><br>
-  Pornhub is advocating for <div style="font-size: 1.5rem">DEVICE-BASED AGE VERIFICATION.</div><br><br>
-  then they have the balls to say piracy is bad. no shit people left your site when you added that one thing that your entire userbase hates, that's just what happens.<br><br>
-  a site starts out small, adding features that their users want, listening to feedback...<br><br>
-  their service is the best, people tell their friends, the site gets big.<br><br>
-  they get bought.<br><br>
-  they continue to listen to users for a while, then they say "fuck you all, we're going to chase the money."<br><br><br><br>
+  `pornhub is so fucking stupid<br>
+  why the hell are they advocating for age verification? does it matter who watches your porn? if you're after ad revenue, it shouldn't matter who watches as long as they are watching<br>
+  they don't just want <i>regular</i> age verification, either, no.<br>
+  Pornhub is advocating for <div style="font-size: 1.5rem">DEVICE-BASED AGE VERIFICATION.</div><br>
+  then they have the balls to say piracy is bad. no shit people left your site when you added that one thing that your entire userbase hates, that's just what happens.<br>
+  a site starts out small, adding features that their users want, listening to feedback...<br>
+  their service is the best, people tell their friends, the site gets big.<br>
+  they get bought.<br>
+  they continue to listen to users for a while, then they say "fuck you all, we're going to chase the money."<br>
   pornhub can suck my dick<br>
   <a href='https://realbooru.com'>realbooru</a> wins by doing nothing
   `
@@ -67,45 +67,45 @@ var audio = [
   // `,
 
   `<h2>Audio 1</h2><audio controls class="audio" src="shibby/[F4M] - Cum But Don\'t Cum - [Script Fill][u_Scriptdoctornick]_[Fdom][Shibbycentric][JOI][All Day Edging][Mindfuck]_[There\'s No Fourth Wall When I Edge You Like This].mp3"></audio><br>\
-  Cum But Don\'t Cum<br><br>\
+  Cum But Don\'t Cum<br>\
   <br>\
   \
   <audio controls class="audio" src="shibby/[F4A] - Futa Facefuck Hypnosis - [Variant][Layers];[Script Fill][Crazy];[Fdom][Futa][Hypnosis].mp3"></audio><br>\
-  Futa Facefuck Hypnosis<br><br>\
+  Futa Facefuck Hypnosis<br>\
   <br>\
   \
   <audio controls class="audio" src="shibby/[F4M] - V.A.C.B.E.D - [Script Fill][broken]_[Fdom][ASMR][Hypnosis]_[Slave Mode][Forced Orgasm][Latex][Vacbed][HFO][Snaps].mp3"></audio><br>\
-  V.A.C.B.E.D<br><br>\
+  V.A.C.B.E.D<br>\
   <br>\
   \
   <audio controls class="audio" src="shibby/[F4M] - Harvested for Cum - [Variant][Binaural];[Script Fill][Ovid];[Fdom][Hypnosis].mp3"></audio><br>\
-  Harvested for Cum<br><br>\
+  Harvested for Cum<br>\
   <br>\
   \
   <audio controls class="audio" src="shibby/[F4M] - Sperm Collection ~ Slutty Titjob - [Variant][No Prostate Play]_[Script]_[Series]_[Fdom][Hypnosis].mp3"></audio><br>\
-  Sperm Collection ~ Titjob<br><br>\
+  Sperm Collection ~ Titjob<br>\
   <br>\
   `,
 
   `<h2>Audio 2</h2>\
   <audio controls class="audio" src="shibby/[F4M] - Milked Down - [Variant][SFX][Binaural];[Script Fill][u_SofConMac];[Fdom][Hypnosis][ASMR].mp3"></audio><br>\
-  Milked Down<br><br>\
+  Milked Down<br>\
   <br>\
   \
   <audio controls class="audio" src="/r34/shibby/large/[F4M] - Divinity\'s Corruption - [Script Fill][broken]_[Fdom][Hypnosis][ASMR].mp3"></audio><br>\
-  Divinity\'s Corruption<br><br>\
+  Divinity\'s Corruption<br>\
   <br>\
   \
   <audio controls class="audio" src="shibby/[F4M] - Sperm Collection ~ Pegging - [Script]_[Series]_[Fdom][Hypnosis].mp3"></audio><br>\
-  Sperm Collection ~ Pegging<br><br>\
+  Sperm Collection ~ Pegging<br>\
   <br>\
   \
   <audio controls class="audio" src="shibby/[F4A] - Fucked by Tentacles - [Variant][Music][Binaural];[Script Fill][Kayli];[Hypnosis];[SF][Alien][Tentacle Monster][Tentacle][Bondage][Constriction][HFO][Penetration].mp3"></audio><br>\
-  Fucked by Tentacles<br><br>\
+  Fucked by Tentacles<br>\
   <br>\
   \
   <audio controls class="audio" src="shibby/[F4M] - HFO Seduction - [Variant][Binaural]_[Script]_[Series][HFO Indoctrination][5]_[Gentle Fdom][Hypnosis].mp3"></audio><br>\
-  HFO Seduction<br><br>\
+  HFO Seduction<br>\
   <br>\
   `
 ]
@@ -245,7 +245,7 @@ let miku = [
   <video controls title="hatsune blowjob" src="miku/large/0564b3cb8b58055592879edf386d854a.mp4">no porn for you :(</video>\
   <video controls title="futa x miku" src="miku/dd9ed60005744a7c72b7e60092e212ff.mp4">no porn for you :(</video>`
   +
-  `<br><br>\
+  `<br>\
   vertical<br>\
   <video controls title="brazilian miku culls the local fish population by ejaculating into the sea" src="miku/5ec746be03aed9d5acdb40b6d2da5d86.mp4">no porn for you :(</video>\
   <video controls title="brazilian miku cums on herself from autopaizuri" src="miku/f055fa442137855e2c82af3b8fc38d59.mp4">no porn for you :(</video>\
@@ -303,7 +303,7 @@ let miku = [
   ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mmm2wjw5jk2v-2.jpeg', 'Pencil and marker (and a little bit of watercolor) illustration of the #vocaloid GUMI, next to a sketch of goth Teto. Gumi has a bit of a retro futuristic Y2K alt girl thing going on, with just a sprinkle of manic pixie dream girl... in the most t4t yuri way possible.\n\nAnd they were roommates.')}
   ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mmm3ulah3c2v.jpeg', 'The same Gumi as in the precious picture.')}
   ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mn3gw6isp22v.jpeg', 'Pencil, ink, marker and gel pen illustration of Kasane Teto in her genie design from TRAP CHICK\'s "Approve please, Genie!"')}
-  <br><br>
+  <br>
   nsfw<br>
   ${linkedImage('/r34/miku/beebspacemermaid.bsky.social-3mmrhosalsc2l.jpeg', 'Traditional pencil drawing/doodle in anime style of a tanned Kasane Teto with a noticable bra tan line, topless, boobs/chest exposed, stretch marks and a bit of a chubby tummy visible :>')}
   ${linkedImage('/r34/miku/beebspacemermaid.bsky.social-3mnq5zzkbg22e.jpeg', '')}
@@ -347,12 +347,12 @@ let miku = [
   <a href="miku/18cb8a40cd9ad3d805eab50cc554af1c.jpeg"><img src="miku/18cb8a40cd9ad3d805eab50cc554af1c.jpeg"></a>\
   <a href="miku/d343cdd5c03c1692f12d1fc2d648cee8.jpeg"><img src="miku/d343cdd5c03c1692f12d1fc2d648cee8.jpeg"></a>\
   <a href="miku/b28ff04086d3a97c3acde2a8663a962b.jpeg"><img src="miku/b28ff04086d3a97c3acde2a8663a962b.jpeg"></a>\
-  <br><br>
+  <br>
   big miku mikus<br>
   <a href="miku/5f589b041536849fee900baf2dc57804-miku.jpeg"><img src="miku/5f589b041536849fee900baf2dc57804-miku.jpeg"></a>\
   <a href="miku/5f589b041536849fee900baf2dc57804-teto.jpeg"><img src="miku/5f589b041536849fee900baf2dc57804-teto.jpeg"></a>\
   <a href="miku/5f589b041536849fee900baf2dc57804-neru.jpeg"><img src="miku/5f589b041536849fee900baf2dc57804-neru.jpeg"></a>\
-  <br><br>
+  <br>
   cat miku<br>
   <a href="miku/aac207d5e1785afa1229896de3b7b46a.jpeg"><img src="miku/aac207d5e1785afa1229896de3b7b46a.jpeg"></a>\
   <a href="miku/e8dadf31a590971e14fb600d26bd2a04.jpeg"><img src="miku/e8dadf31a590971e14fb600d26bd2a04.jpeg"></a>\
@@ -360,7 +360,7 @@ let miku = [
   <a href="miku/fe6c583a47dcf5853a67fb566d11dc28.jpeg"><img src="miku/fe6c583a47dcf5853a67fb566d11dc28.jpeg"></a>\
   <a href="miku/25aaea04ca09a28a8b66f55c878daef0.jpeg"><img src="miku/25aaea04ca09a28a8b66f55c878daef0.jpeg"></a>\
   <a href="miku/3eeff357bfb9bb03bd62e112dd138273.jpeg"><img src="miku/3eeff357bfb9bb03bd62e112dd138273.jpeg"></a>\
-  <br><br>
+  <br>
   horny miku<br>
   <a href="miku/ac54a11bbb77e39af4d787fb09898460.jpeg"><img src="miku/ac54a11bbb77e39af4d787fb09898460.jpeg"></a>\
   <a href="miku/62712ca8e9f4225b7d97e0beeafd7b41.jpeg"><img src="miku/62712ca8e9f4225b7d97e0beeafd7b41.jpeg"></a>\
@@ -376,16 +376,16 @@ let miku = [
   <a href="miku/9ffe692444aa4cdf8bdeb4f238826e29.jpeg"><img src="miku/9ffe692444aa4cdf8bdeb4f238826e29.jpeg"></a>\
   <a href="miku/41c8df62ad47b2f505bdef97d4dd2cd4.jpeg"><img src="miku/41c8df62ad47b2f505bdef97d4dd2cd4.jpeg"></a>\
   <a href="miku/0cbf6b0738ec314c17a94c498e393a4b.jpeg"><img src="miku/0cbf6b0738ec314c17a94c498e393a4b.jpeg"></a>\
-  <br><br>
+  <br>
   verification<br>
   ${linkedImage('/r34/miku/1ea90578d92c8c6b5aabf205ee62fea1.jpeg')}
   ${linkedImage('/r34/miku/ce82d1e147ebae33d87fde07c2de3718.jpeg')}
   ${linkedImage('/r34/miku/13836cbe35f11fe6a88bad46e1e32872.jpeg')}
-  <br><br>
+  <br>
   br mikuteto<br>
   ${linkedImage('/r34/miku/e522ba1f0cc4e020fe56998b8b1581e2.jpeg')}
   ${linkedImage('/r34/miku/5616156ce29101d8e22df49a5e526a2e.jpeg')}
-  <br><br>
+  <br>
   br miku<br>
   `,
 
@@ -398,7 +398,7 @@ let miku = [
     <div><a href="miku/3057fd1f959f5d6ee2c3bc184a48e6ce.jpeg"><img src="miku/3057fd1f959f5d6ee2c3bc184a48e6ce.jpeg"></a></div>\
     </div>`,
 
-  `miku<br>${selectableMiku()}<br><br>` +
+  `miku<br>${selectableMiku()}<br>` +
 
   `trans teto is best teto<br>
   <img src="/icons/transteto.svg" style="width: 4rem; border: none">`,
@@ -417,7 +417,7 @@ var brMiku = [
   ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnv6rj2qe222.jpeg', "Pencil+digital illustration of the vocaloid Hatsune Miku furiously masturbating (and squirting!) with her mouth full of Brazilian Miku's girlcum; the latter's cock being pressed up against her face, slick with saliva trails and still oozing thick cum. Miku's chest is glazed with wet sticky strands and she is blowing cum bubbles with her heavy, ragged breathing. One can imagine all that voice training is paying off.\n\nTruly the best kind of cumsoaked selfcest yuri, and they haven't even FUCKED yet......")}
   ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnvbp3x5y22h.jpeg', "The same drawing of Hatsune Miku splattered with cum and with a cock on her face, but cropped in a way that it focuses much more on those specific things.")}
   ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnwpjosff22m.jpeg', "Mixed media (pencil + digital) illustration, POV, of famed Vocaloid Hatsune Miku being fucked missionary, or quite possibly in mating press. Her breasts are bouncing back and forth from the motion. Hands belonging to Brazilian Miku (selfcest yuri! wooo!) are grasping Miku's cheeks and holding her head in place to maintain eye contact as she is pounded. A thumb has found its way into Miku's mouth. Hearts can be seen in Miku's eyes and around her as she is fucked to ecstacy. ")}
-  <br><br>
+  <br>
   ${linkedImage('/r34/miku/d26967e74cf4bb5b88f62209177c47f4.jpeg')}
   ${linkedImage('/r34/miku/8694a05f839325fafe03ed24a53befe3.jpeg')}
   `,
@@ -454,7 +454,7 @@ let puddingDraws = [
   ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mmm2wjw5jk2v-1.jpeg')}
   ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mmm2wjw5jk2v-2.jpeg')}
   ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mmm3ulah3c2v.jpeg')}
-  <br><br>
+  <br>
   ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnq3ws323k26.jpeg', "Sketchbook pencil illustration of the Vocaloid Hatsune Miku except from Brazil (AKA Brazilian Miku), tanned and ready for the beach in her bikini. She's sweating in the sun and is holding a can of Guaran\u00e1 against her cheek to cool off.\n\nIn this full, uncropped variant of the drawing we can see that her shorts are open and her massive slab of meat is out dangling.")}
   ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mm3h5chpy22a.jpeg', 'Pencil illustration (with digitally added shadows) of transgender Kasane Teto, pinned to the ground right after she was caught masturbating to a used pair of panties. The laundry basket from before has fallen over, scattering more laundry about. Teto is still shaking from the orgasm that started in the last picture, and both she and the panties she used are covered in ropes of cum. She looks simultaneously ashamed, afraid, dazed and aroused.')}
   ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mmpgk7pxac2k.jpeg', 'Pencil illustration of transgender Kasane Teto getting MILKED from behind by Gumi, by way of overstim handjob. Truly, the truest form of yuri. She is aimed at a bowl on a low table, but aiming load after load is difficult...')}
@@ -488,7 +488,7 @@ ${addLink('/r34/puppysnackz.html', 'Puppysnackz')}<br>
 //    <a href="coolart.html" class="blue"><span>Artists</span></a><br>\
 //    <br>\
 //    \
-//    <a class="blue" href="/r34/comics.html"><span>Comics</span></a><br><br>\
+//    <a class="blue" href="/r34/comics.html"><span>Comics</span></a><br>\
 //    <a href="/r34/dragon-maid.html" class="blue"><span>Dragon Maid</span></a><br>\
 //    <a href="/r34/hard-degen.html" class="blue"><span>Hard Degenerate</span></a><br>\
 //    <a href="/r34/hoyo.html" class="blue"><span>Hoyoverse</span></a><br>\
@@ -500,9 +500,9 @@ ${addLink('/r34/puppysnackz.html', 'Puppysnackz')}<br>
 //    <a class="blue" href="/r34/pokemon.html"><span>Pokemon</span></a><br>\
 //    <a class="blue" href="/r34/rouge.html"><span>Rouge the Bat</span></a><br>\
 //    <a class="blue" href="/r34/roblox.html"><span>Roblox</span></a><br>\
-//    <a class="blue" href="/r34/terraria.html"><span>Terraria</span></a><br><br>\
+//    <a class="blue" href="/r34/terraria.html"><span>Terraria</span></a><br>\
 //    <a class="blue" href="/r34/audio.html"><span>Audio</span></a><br>\
-//    <a class="blue" href="/r34/shibby.html"><span>shibby</span></a><br><br>\
+//    <a class="blue" href="/r34/shibby.html"><span>shibby</span></a><br>\
 //    <button onclick="location.reload(true)">ctrl+f5</button><br>\
 //    <a class="hidden", style="color: #111;" href="files.html">Files</a>\
 // `
@@ -594,7 +594,7 @@ var curly = [
 
   `<img draggable="false" src="/r34/cavestory/pngs/599b1ec8c535ff41a6ce01367c3a4c2a.png" style="border: none" ondblclick="window.open(\'/r34/cavestory/pngs/599b1ec8c535ff41a6ce01367c3a4c2a.png\', \'_self\')">\
   <img draggable="false" src="/r34/cavestory/pngs/eaa8ebf3c686bad40cb0e0ea7198900d.png" style="border: none" ondblclick="window.open(\'/r34/cavestory/pngs/eaa8ebf3c686bad40cb0e0ea7198900d.png\', \'_self\')">\
-  <br><br>` +
+  <br>` +
   linkedImage("/r34/cavestory/ce2221fa00e01bde5c011e0099dc6993bcd837eb.jpeg") +
   linkedImage("/r34/cavestory/9b067c5c3841176c2ff95c4a8e9068c8.jpeg", `y`) +
 
@@ -851,8 +851,8 @@ var other = [
   <!-- <video controls src="./New-folder/f8edf92043cf883d4c3656c9faca12ba.mp4">no porn for you :(</video> -->\
   <!-- <video controls src="./New-folder/70d5d73e91905c36800d7daccdbe182a.mp4">no porn for you :(</video> -->`,
 
-  `<a href="comics/baptist/sample_083809cccf0c0d68bffe124245a3daaa.jpg"><img src="comics/baptist/sample_083809cccf0c0d68bffe124245a3daaa.jpg"></a>\
-  <a href="comics/baptist/sample_81cac618b8121e925552ba490d93d8cb.jpg"><img src="comics/baptist/sample_81cac618b8121e925552ba490d93d8cb.jpg"></a>\
+  `<a href="comics/baptist/sample_083809cccf0c0d68bffe124245a3daaa.webp"><img src="comics/baptist/sample_083809cccf0c0d68bffe124245a3daaa.webp"></a>\
+  <a href="comics/baptist/sample_81cac618b8121e925552ba490d93d8cb.webp"><img src="comics/baptist/sample_81cac618b8121e925552ba490d93d8cb.webp"></a>\
   <a href="./New-folder/8af6079d60e148e018ef1878b8d0be3f89bc9935.jpeg"><img src="./New-folder/8af6079d60e148e018ef1878b8d0be3f89bc9935.jpeg"></a>\
   <a href="/r34/New-folder/G1lkh7iWcAAI4Gm.jpeg"><img src="/r34/New-folder/G1lkh7iWcAAI4Gm.jpeg"></a>`+
   linkedImage('/r34/New-folder/762be2454ba1769059253e35b70c6637.jpeg')+
@@ -883,221 +883,221 @@ var ai = [
   (like, '187 images from bocchi' a lot)`,
 
   `` +
-  linkedImage("bocchi/001_1.jpg") +
-  linkedImage("bocchi/002_2.jpg") +
-  linkedImage("bocchi/003_3.jpg") +
-  linkedImage("bocchi/004_4.jpg") +
-  linkedImage("bocchi/005_5.jpg") +
-  linkedImage("bocchi/006_6.jpg") +
-  linkedImage("bocchi/007_7.jpg") +
-  linkedImage("bocchi/008_8.jpg") +
-  linkedImage("bocchi/009_9.jpg") +
-  linkedImage("bocchi/010_10.jpg") +
-  linkedImage("bocchi/011_11.jpg") +
-  linkedImage("bocchi/012_12.jpg") +
-  linkedImage("bocchi/013_13.jpg") +
-  linkedImage("bocchi/014_14.jpg") +
-  linkedImage("bocchi/015_15.jpg") +
-  linkedImage("bocchi/016_16.jpg") +
-  linkedImage("bocchi/017_17.jpg") +
-  linkedImage("bocchi/018_18.jpg") +
-  linkedImage("bocchi/019_19.jpg") +
-  linkedImage("bocchi/020_20.jpg") +
-  linkedImage("bocchi/021_21.jpg") +
-  linkedImage("bocchi/022_22.jpg") +
-  linkedImage("bocchi/023_23.jpg") +
-  linkedImage("bocchi/024_24.jpg") +
-  linkedImage("bocchi/025_25.jpg") +
-  linkedImage("bocchi/026_26.jpg") +
-  linkedImage("bocchi/027_27.jpg") +
-  linkedImage("bocchi/028_28.jpg") +
-  linkedImage("bocchi/029_29.jpg") +
-  linkedImage("bocchi/030_30.jpg") +
-  linkedImage("bocchi/031_31.jpg") +
-  linkedImage("bocchi/032_32.jpg") +
-  linkedImage("bocchi/033_33.jpg") +
-  linkedImage("bocchi/034_34.jpg") +
-  linkedImage("bocchi/035_35.jpg") +
-  linkedImage("bocchi/036_36.jpg") +
-  linkedImage("bocchi/037_37.jpg") +
-  linkedImage("bocchi/038_38.jpg") +
-  linkedImage("bocchi/039_39.jpg") +
-  linkedImage("bocchi/040_40.jpg") +
-  linkedImage("bocchi/041_41.jpg") +
-  linkedImage("bocchi/042_42.jpg") +
-  linkedImage("bocchi/043_43.jpg") +
-  linkedImage("bocchi/044_44.jpg") +
-  linkedImage("bocchi/045_45.jpg") +
-  linkedImage("bocchi/046_46.jpg") +
-  linkedImage("bocchi/047_47.jpg") +
-  linkedImage("bocchi/048_48.jpg") +
-  linkedImage("bocchi/049_49.jpg") +
-  linkedImage("bocchi/050_50.jpg") +
-  linkedImage("bocchi/051_51.jpg") +
-  linkedImage("bocchi/052_52.jpg") +
-  linkedImage("bocchi/053_53.jpg") +
-  linkedImage("bocchi/054_54.jpg") +
-  linkedImage("bocchi/055_55.jpg") +
-  linkedImage("bocchi/056_56.jpg") +
-  linkedImage("bocchi/057_57.jpg") +
-  linkedImage("bocchi/058_58.jpg") +
-  linkedImage("bocchi/059_59.jpg") +
-  linkedImage("bocchi/060_60.jpg") +
-  linkedImage("bocchi/061_61.jpg") +
-  linkedImage("bocchi/062_62.jpg") +
-  linkedImage("bocchi/063_63.jpg") +
-  linkedImage("bocchi/064_64.jpg") +
-  linkedImage("bocchi/065_65.jpg") +
-  linkedImage("bocchi/066_66.jpg") +
-  linkedImage("bocchi/067_67.jpg") +
-  linkedImage("bocchi/068_68.jpg") +
-  linkedImage("bocchi/069_69.jpg") +
-  linkedImage("bocchi/070_70.jpg") +
-  linkedImage("bocchi/071_71.jpg") +
-  linkedImage("bocchi/072_72.jpg") +
-  linkedImage("bocchi/073_73.jpg") +
-  linkedImage("bocchi/074_74.jpg") +
-  linkedImage("bocchi/075_75.jpg") +
-  linkedImage("bocchi/076_76.jpg") +
-  linkedImage("bocchi/077_77.jpg") +
-  linkedImage("bocchi/078_78.jpg") +
-  linkedImage("bocchi/079_79.jpg") +
-  linkedImage("bocchi/080_80.jpg") +
-  linkedImage("bocchi/081_81.jpg") +
-  linkedImage("bocchi/082_82.jpg") +
-  linkedImage("bocchi/083_83.jpg") +
-  linkedImage("bocchi/084_84.jpg") +
-  linkedImage("bocchi/085_85.jpg") +
-  linkedImage("bocchi/086_86.jpg") +
-  linkedImage("bocchi/087_87.jpg") +
-  linkedImage("bocchi/088_88.jpg") +
-  linkedImage("bocchi/089_89.jpg") +
-  linkedImage("bocchi/090_90.jpg") +
-  linkedImage("bocchi/091_91.jpg") +
-  linkedImage("bocchi/092_92.jpg") +
-  linkedImage("bocchi/093_93.jpg") +
-  linkedImage("bocchi/094_94.jpg") +
-  linkedImage("bocchi/095_95.jpg") +
-  linkedImage("bocchi/096_96.jpg") +
-  linkedImage("bocchi/097_97.jpg") +
-  linkedImage("bocchi/098_98.jpg") +
-  linkedImage("bocchi/099_99.jpg") +
-  linkedImage("bocchi/100_100.jpg") +
-  linkedImage("bocchi/101_101.jpg") +
-  linkedImage("bocchi/102_102.jpg") +
-  linkedImage("bocchi/103_103.jpg") +
-  linkedImage("bocchi/104_104.jpg") +
-  linkedImage("bocchi/105_105.jpg") +
-  linkedImage("bocchi/106_106.jpg") +
-  linkedImage("bocchi/107_107.jpg") +
-  linkedImage("bocchi/108_108.jpg") +
-  linkedImage("bocchi/109_109.jpg") +
-  linkedImage("bocchi/110_110.jpg") +
-  linkedImage("bocchi/111_111.jpg") +
-  linkedImage("bocchi/112_112.jpg") +
-  linkedImage("bocchi/113_113.jpg") +
-  linkedImage("bocchi/114_114.jpg") +
-  linkedImage("bocchi/115_115.jpg") +
-  linkedImage("bocchi/116_116.jpg") +
-  linkedImage("bocchi/117_117.jpg") +
-  linkedImage("bocchi/118_118.jpg") +
-  linkedImage("bocchi/119_119.jpg") +
-  linkedImage("bocchi/120_120.jpg") +
-  linkedImage("bocchi/121_121.jpg") +
-  linkedImage("bocchi/122_122.jpg") +
-  linkedImage("bocchi/123_123.jpg") +
-  linkedImage("bocchi/124_124.jpg") +
-  linkedImage("bocchi/125_125.jpg") +
-  linkedImage("bocchi/126_126.jpg") +
-  linkedImage("bocchi/127_127.jpg") +
-  linkedImage("bocchi/128_128.jpg") +
-  linkedImage("bocchi/129_129.jpg") +
-  linkedImage("bocchi/130_130.jpg") +
-  linkedImage("bocchi/131_131.jpg") +
-  linkedImage("bocchi/132_132.jpg") +
-  linkedImage("bocchi/133_133.jpg") +
-  linkedImage("bocchi/134_134.jpg") +
-  linkedImage("bocchi/135_135.jpg") +
-  linkedImage("bocchi/136_136.jpg") +
-  linkedImage("bocchi/137_137.jpg") +
-  linkedImage("bocchi/138_138.jpg") +
-  linkedImage("bocchi/139_139.jpg") +
-  linkedImage("bocchi/140_140.jpg") +
-  linkedImage("bocchi/141_141.jpg") +
-  linkedImage("bocchi/142_142.jpg") +
-  linkedImage("bocchi/143_143.jpg") +
-  linkedImage("bocchi/144_144.jpg") +
-  linkedImage("bocchi/145_145.jpg") +
-  linkedImage("bocchi/146_146.jpg") +
-  linkedImage("bocchi/147_147.jpg") +
-  linkedImage("bocchi/148_148.jpg") +
-  linkedImage("bocchi/149_149.jpg") +
-  linkedImage("bocchi/150_150.jpg") +
-  linkedImage("bocchi/151_151.jpg") +
-  linkedImage("bocchi/152_152.jpg") +
-  linkedImage("bocchi/153_153.jpg") +
-  linkedImage("bocchi/154_154.jpg") +
-  linkedImage("bocchi/155_155.jpg") +
-  linkedImage("bocchi/156_156.jpg") +
-  linkedImage("bocchi/157_157.jpg") +
-  linkedImage("bocchi/158_158.jpg") +
-  linkedImage("bocchi/159_159.jpg") +
-  linkedImage("bocchi/160_160.jpg") +
-  linkedImage("bocchi/161_161.jpg") +
-  linkedImage("bocchi/162_162.jpg") +
-  linkedImage("bocchi/163_163.jpg") +
-  linkedImage("bocchi/164_164.jpg") +
-  linkedImage("bocchi/165_165.jpg") +
-  linkedImage("bocchi/166_166.jpg") +
-  linkedImage("bocchi/167_167.jpg") +
-  linkedImage("bocchi/168_168.jpg") +
-  linkedImage("bocchi/169_169.jpg") +
-  linkedImage("bocchi/170_170.jpg") +
-  linkedImage("bocchi/171_171.jpg") +
-  linkedImage("bocchi/172_172.jpg") +
-  linkedImage("bocchi/173_173.jpg") +
-  linkedImage("bocchi/174_174.jpg") +
-  linkedImage("bocchi/175_175.jpg") +
-  linkedImage("bocchi/176_176.jpg") +
-  linkedImage("bocchi/177_177.jpg") +
-  linkedImage("bocchi/178_178.jpg") +
-  linkedImage("bocchi/179_179.jpg") +
-  linkedImage("bocchi/180_180.jpg") +
-  linkedImage("bocchi/181_181.jpg") +
-  linkedImage("bocchi/182_182.jpg") +
-  linkedImage("bocchi/183_183.jpg") +
-  linkedImage("bocchi/184_184.jpg") +
-  linkedImage("bocchi/185_185.jpg") +
-  linkedImage("bocchi/186_186.jpg") +
-  linkedImage("bocchi/187_187.jpg") +
+  linkedImage("bocchi/001_1.webp") +
+  linkedImage("bocchi/002_2.webp") +
+  linkedImage("bocchi/003_3.webp") +
+  linkedImage("bocchi/004_4.webp") +
+  linkedImage("bocchi/005_5.webp") +
+  linkedImage("bocchi/006_6.webp") +
+  linkedImage("bocchi/007_7.webp") +
+  linkedImage("bocchi/008_8.webp") +
+  linkedImage("bocchi/009_9.webp") +
+  linkedImage("bocchi/010_10.webp") +
+  linkedImage("bocchi/011_11.webp") +
+  linkedImage("bocchi/012_12.webp") +
+  linkedImage("bocchi/013_13.webp") +
+  linkedImage("bocchi/014_14.webp") +
+  linkedImage("bocchi/015_15.webp") +
+  linkedImage("bocchi/016_16.webp") +
+  linkedImage("bocchi/017_17.webp") +
+  linkedImage("bocchi/018_18.webp") +
+  linkedImage("bocchi/019_19.webp") +
+  linkedImage("bocchi/020_20.webp") +
+  linkedImage("bocchi/021_21.webp") +
+  linkedImage("bocchi/022_22.webp") +
+  linkedImage("bocchi/023_23.webp") +
+  linkedImage("bocchi/024_24.webp") +
+  linkedImage("bocchi/025_25.webp") +
+  linkedImage("bocchi/026_26.webp") +
+  linkedImage("bocchi/027_27.webp") +
+  linkedImage("bocchi/028_28.webp") +
+  linkedImage("bocchi/029_29.webp") +
+  linkedImage("bocchi/030_30.webp") +
+  linkedImage("bocchi/031_31.webp") +
+  linkedImage("bocchi/032_32.webp") +
+  linkedImage("bocchi/033_33.webp") +
+  linkedImage("bocchi/034_34.webp") +
+  linkedImage("bocchi/035_35.webp") +
+  linkedImage("bocchi/036_36.webp") +
+  linkedImage("bocchi/037_37.webp") +
+  linkedImage("bocchi/038_38.webp") +
+  linkedImage("bocchi/039_39.webp") +
+  linkedImage("bocchi/040_40.webp") +
+  linkedImage("bocchi/041_41.webp") +
+  linkedImage("bocchi/042_42.webp") +
+  linkedImage("bocchi/043_43.webp") +
+  linkedImage("bocchi/044_44.webp") +
+  linkedImage("bocchi/045_45.webp") +
+  linkedImage("bocchi/046_46.webp") +
+  linkedImage("bocchi/047_47.webp") +
+  linkedImage("bocchi/048_48.webp") +
+  linkedImage("bocchi/049_49.webp") +
+  linkedImage("bocchi/050_50.webp") +
+  linkedImage("bocchi/051_51.webp") +
+  linkedImage("bocchi/052_52.webp") +
+  linkedImage("bocchi/053_53.webp") +
+  linkedImage("bocchi/054_54.webp") +
+  linkedImage("bocchi/055_55.webp") +
+  linkedImage("bocchi/056_56.webp") +
+  linkedImage("bocchi/057_57.webp") +
+  linkedImage("bocchi/058_58.webp") +
+  linkedImage("bocchi/059_59.webp") +
+  linkedImage("bocchi/060_60.webp") +
+  linkedImage("bocchi/061_61.webp") +
+  linkedImage("bocchi/062_62.webp") +
+  linkedImage("bocchi/063_63.webp") +
+  linkedImage("bocchi/064_64.webp") +
+  linkedImage("bocchi/065_65.webp") +
+  linkedImage("bocchi/066_66.webp") +
+  linkedImage("bocchi/067_67.webp") +
+  linkedImage("bocchi/068_68.webp") +
+  linkedImage("bocchi/069_69.webp") +
+  linkedImage("bocchi/070_70.webp") +
+  linkedImage("bocchi/071_71.webp") +
+  linkedImage("bocchi/072_72.webp") +
+  linkedImage("bocchi/073_73.webp") +
+  linkedImage("bocchi/074_74.webp") +
+  linkedImage("bocchi/075_75.webp") +
+  linkedImage("bocchi/076_76.webp") +
+  linkedImage("bocchi/077_77.webp") +
+  linkedImage("bocchi/078_78.webp") +
+  linkedImage("bocchi/079_79.webp") +
+  linkedImage("bocchi/080_80.webp") +
+  linkedImage("bocchi/081_81.webp") +
+  linkedImage("bocchi/082_82.webp") +
+  linkedImage("bocchi/083_83.webp") +
+  linkedImage("bocchi/084_84.webp") +
+  linkedImage("bocchi/085_85.webp") +
+  linkedImage("bocchi/086_86.webp") +
+  linkedImage("bocchi/087_87.webp") +
+  linkedImage("bocchi/088_88.webp") +
+  linkedImage("bocchi/089_89.webp") +
+  linkedImage("bocchi/090_90.webp") +
+  linkedImage("bocchi/091_91.webp") +
+  linkedImage("bocchi/092_92.webp") +
+  linkedImage("bocchi/093_93.webp") +
+  linkedImage("bocchi/094_94.webp") +
+  linkedImage("bocchi/095_95.webp") +
+  linkedImage("bocchi/096_96.webp") +
+  linkedImage("bocchi/097_97.webp") +
+  linkedImage("bocchi/098_98.webp") +
+  linkedImage("bocchi/099_99.webp") +
+  linkedImage("bocchi/100_100.webp") +
+  linkedImage("bocchi/101_101.webp") +
+  linkedImage("bocchi/102_102.webp") +
+  linkedImage("bocchi/103_103.webp") +
+  linkedImage("bocchi/104_104.webp") +
+  linkedImage("bocchi/105_105.webp") +
+  linkedImage("bocchi/106_106.webp") +
+  linkedImage("bocchi/107_107.webp") +
+  linkedImage("bocchi/108_108.webp") +
+  linkedImage("bocchi/109_109.webp") +
+  linkedImage("bocchi/110_110.webp") +
+  linkedImage("bocchi/111_111.webp") +
+  linkedImage("bocchi/112_112.webp") +
+  linkedImage("bocchi/113_113.webp") +
+  linkedImage("bocchi/114_114.webp") +
+  linkedImage("bocchi/115_115.webp") +
+  linkedImage("bocchi/116_116.webp") +
+  linkedImage("bocchi/117_117.webp") +
+  linkedImage("bocchi/118_118.webp") +
+  linkedImage("bocchi/119_119.webp") +
+  linkedImage("bocchi/120_120.webp") +
+  linkedImage("bocchi/121_121.webp") +
+  linkedImage("bocchi/122_122.webp") +
+  linkedImage("bocchi/123_123.webp") +
+  linkedImage("bocchi/124_124.webp") +
+  linkedImage("bocchi/125_125.webp") +
+  linkedImage("bocchi/126_126.webp") +
+  linkedImage("bocchi/127_127.webp") +
+  linkedImage("bocchi/128_128.webp") +
+  linkedImage("bocchi/129_129.webp") +
+  linkedImage("bocchi/130_130.webp") +
+  linkedImage("bocchi/131_131.webp") +
+  linkedImage("bocchi/132_132.webp") +
+  linkedImage("bocchi/133_133.webp") +
+  linkedImage("bocchi/134_134.webp") +
+  linkedImage("bocchi/135_135.webp") +
+  linkedImage("bocchi/136_136.webp") +
+  linkedImage("bocchi/137_137.webp") +
+  linkedImage("bocchi/138_138.webp") +
+  linkedImage("bocchi/139_139.webp") +
+  linkedImage("bocchi/140_140.webp") +
+  linkedImage("bocchi/141_141.webp") +
+  linkedImage("bocchi/142_142.webp") +
+  linkedImage("bocchi/143_143.webp") +
+  linkedImage("bocchi/144_144.webp") +
+  linkedImage("bocchi/145_145.webp") +
+  linkedImage("bocchi/146_146.webp") +
+  linkedImage("bocchi/147_147.webp") +
+  linkedImage("bocchi/148_148.webp") +
+  linkedImage("bocchi/149_149.webp") +
+  linkedImage("bocchi/150_150.webp") +
+  linkedImage("bocchi/151_151.webp") +
+  linkedImage("bocchi/152_152.webp") +
+  linkedImage("bocchi/153_153.webp") +
+  linkedImage("bocchi/154_154.webp") +
+  linkedImage("bocchi/155_155.webp") +
+  linkedImage("bocchi/156_156.webp") +
+  linkedImage("bocchi/157_157.webp") +
+  linkedImage("bocchi/158_158.webp") +
+  linkedImage("bocchi/159_159.webp") +
+  linkedImage("bocchi/160_160.webp") +
+  linkedImage("bocchi/161_161.webp") +
+  linkedImage("bocchi/162_162.webp") +
+  linkedImage("bocchi/163_163.webp") +
+  linkedImage("bocchi/164_164.webp") +
+  linkedImage("bocchi/165_165.webp") +
+  linkedImage("bocchi/166_166.webp") +
+  linkedImage("bocchi/167_167.webp") +
+  linkedImage("bocchi/168_168.webp") +
+  linkedImage("bocchi/169_169.webp") +
+  linkedImage("bocchi/170_170.webp") +
+  linkedImage("bocchi/171_171.webp") +
+  linkedImage("bocchi/172_172.webp") +
+  linkedImage("bocchi/173_173.webp") +
+  linkedImage("bocchi/174_174.webp") +
+  linkedImage("bocchi/175_175.webp") +
+  linkedImage("bocchi/176_176.webp") +
+  linkedImage("bocchi/177_177.webp") +
+  linkedImage("bocchi/178_178.webp") +
+  linkedImage("bocchi/179_179.webp") +
+  linkedImage("bocchi/180_180.webp") +
+  linkedImage("bocchi/181_181.webp") +
+  linkedImage("bocchi/182_182.webp") +
+  linkedImage("bocchi/183_183.webp") +
+  linkedImage("bocchi/184_184.webp") +
+  linkedImage("bocchi/185_185.webp") +
+  linkedImage("bocchi/186_186.webp") +
+  linkedImage("bocchi/187_187.webp") +
   ``,
 
-  linkedImage(`miku/f4e9735d9465425c50f10ff27ad28b35.png`)+
-  linkedImage(`miku/87c10114dd4c3ad467792dae3d691570.png`)+
-  linkedImage(`miku/c3950c8fa7b717caaa342be6057b30e7.png`)+
-  linkedImage(`miku/981e61a97688327188b2b5ad4eeac176.png`)+
-  linkedImage(`miku/c8468302fafbfa7c3cc45438c8deb97a.png`)+
-  linkedImage(`miku/3d36957c322cfcf55b7aa856a008aa80.png`)+
-  linkedImage(`miku/c76bba75c585c66608526e390054bb46.png`)+
-  linkedImage(`miku/21c30c8cf9be586062169a127e49cb9f.png`)+
-  linkedImage(`miku/822687e1b2f4554ce11504a1dc120786.png`)+
-  linkedImage(`miku/ad6678f35f9d6e66d1cf6352619577a6.png`)+
-  linkedImage(`miku/6cc3c07baa08d27f9070bfbc31c260b8.png`)+
-  linkedImage(`miku/00e70ca8f122da2df8771f56e4390da5.png`)+
-  linkedImage(`miku/4cb26d126f0ce016558983e7be110a4f.png`)+
-  linkedImage(`miku/c3b6ab9a8f93b2366aa0d5d8e5c8c736.png`)+
-  linkedImage(`miku/fbe157a51ac01bc092434dbe1797759a.png`)+
-  linkedImage(`miku/6d8c81736e8f3b23f230ef88107b54ac.png`)+
-  linkedImage(`miku/3f3d19cef4e1be2e5e24fbb48dc96964.png`)+
-  linkedImage(`miku/ed2c86bb1d102e66821798b65215611b.png`)+
-  linkedImage(`miku/9ed0340a0f08b35d203cfe12aa5361a0.png`)+
-  linkedImage(`miku/a9a958f8f6d1da1700c8de5820d1d47a.png`)+
+  linkedImage(`miku/f4e9735d9465425c50f10ff27ad28b35.webp`)+
+  linkedImage(`miku/87c10114dd4c3ad467792dae3d691570.webp`)+
+  linkedImage(`miku/c3950c8fa7b717caaa342be6057b30e7.webp`)+
+  linkedImage(`miku/981e61a97688327188b2b5ad4eeac176.webp`)+
+  linkedImage(`miku/c8468302fafbfa7c3cc45438c8deb97a.webp`)+
+  linkedImage(`miku/3d36957c322cfcf55b7aa856a008aa80.webp`)+
+  linkedImage(`miku/c76bba75c585c66608526e390054bb46.webp`)+
+  linkedImage(`miku/21c30c8cf9be586062169a127e49cb9f.webp`)+
+  linkedImage(`miku/822687e1b2f4554ce11504a1dc120786.webp`)+
+  linkedImage(`miku/ad6678f35f9d6e66d1cf6352619577a6.webp`)+
+  linkedImage(`miku/6cc3c07baa08d27f9070bfbc31c260b8.webp`)+
+  linkedImage(`miku/00e70ca8f122da2df8771f56e4390da5.webp`)+
+  linkedImage(`miku/4cb26d126f0ce016558983e7be110a4f.webp`)+
+  linkedImage(`miku/c3b6ab9a8f93b2366aa0d5d8e5c8c736.webp`)+
+  linkedImage(`miku/fbe157a51ac01bc092434dbe1797759a.webp`)+
+  linkedImage(`miku/6d8c81736e8f3b23f230ef88107b54ac.webp`)+
+  linkedImage(`miku/3f3d19cef4e1be2e5e24fbb48dc96964.webp`)+
+  linkedImage(`miku/ed2c86bb1d102e66821798b65215611b.webp`)+
+  linkedImage(`miku/9ed0340a0f08b35d203cfe12aa5361a0.webp`)+
+  linkedImage(`miku/a9a958f8f6d1da1700c8de5820d1d47a.webp`)+
   ``,
 
-  linkedImage(`miku/b23e9cf3da5469713ad5b3c96cded512.png`)+
-  linkedImage(`miku/0c8af2ee4d085dc847e488be3e0a100f.png`)+
-  linkedImage(`miku/6023a897c172f2fffe6d3d1d2e5de647.png`)+
-  linkedImage(`miku/efa3300822181b0bd0e0d43ff920254e.png`)+
+  linkedImage(`miku/b23e9cf3da5469713ad5b3c96cded512.webp`)+
+  linkedImage(`miku/0c8af2ee4d085dc847e488be3e0a100f.webp`)+
+  linkedImage(`miku/6023a897c172f2fffe6d3d1d2e5de647.webp`)+
+  linkedImage(`miku/efa3300822181b0bd0e0d43ff920254e.webp`)+
   ``,
 ]
 
@@ -1207,7 +1207,7 @@ var pokemon = [
   <a href="./pokemon/IMG_0057.jpeg"><img src="./pokemon/IMG_0057.jpeg"></a>
   <a href="./pokemon/IMG_0056.jpeg"><img src="./pokemon/IMG_0056.jpeg"></a>
   <a href="./pokemon/IMG_0065.jpeg"><img src="./pokemon/IMG_0065.jpeg"></a>
-  <a href="./pokemon/IMG_0378.jpeg"><img src="./pokemon/IMG_0378.jpeg"></a><br><br>
+  <a href="./pokemon/IMG_0378.jpeg"><img src="./pokemon/IMG_0378.jpeg"></a><br>
 
   <a href="./pokemon/G3MFbz6bwAAm01u.jpeg"><img src="./pokemon/G3MFbz6bwAAm01u.jpeg"></a>
   <a href="./pokemon/G3WcwL_a8AIRVxk.jpeg"><img src="./pokemon/G3WcwL_a8AIRVxk.jpeg"></a>
@@ -1217,9 +1217,9 @@ var pokemon = [
 
 var ao3 = [
   `<div class="background">
-  <a href="/books/Trigger_Discipline.html">Trigger Discipline</a><bR><br>
-  <a href="/books/Hung_Down_With_The.html">Hung Down With the Freaks and the Ghouls</a><bR><br>
-  <a href="/books/All_The_Late-Night.html">All The Late-Night Bargains Have Been Struck</a><bR><br>
+  <a href="/books/Trigger_Discipline.html">Trigger Discipline</a><br>
+  <a href="/books/Hung_Down_With_The.html">Hung Down With the Freaks and the Ghouls</a><br>
+  <a href="/books/All_The_Late-Night.html">All The Late-Night Bargains Have Been Struck</a><br>
   ${addLink('https://archiveofourown.org/series/3001785', 'Touhou but they all have sex instead')}
   </div>`
 ]
@@ -1248,7 +1248,7 @@ var hardDegen = [
   `<h2>Mario</h2>
   ${linkedVideo('/r34/mario/e016fc84054326847de59d92cbe726c4.mp4', true)}
   ${linkedVideo('/r34/hard-degen/04eace63fa5231cfa7359947b6eac6f0.mp4', true)}
-  <br><br>
+  <br>
   ${linkedVideo('/r34/mario/6ed023e4a0057ef961915638f5e3fa70.mp4')}
   ${linkedVideo('/r34/mario/fc62d3c78c48ffc1426e2695f9c38683.mp4')}
   ${linkedVideo('/r34/hard-degen/large/Bowsette_Defeated_B.mp4')}
@@ -1442,7 +1442,7 @@ let terraria = [
   ${linkedImage("/r34/terraria/a2cdfbc4589feb0062d76c67591d0634d0679509.jpeg")}
   ${linkedImage("/r34/terraria/aaca45dac09bfd5c0b4ea9d28cc855bb35e27495.jpeg")}
   ${linkedImage("/r34/terraria/31ce5ee0036e3978424094d7c3aad41d91bf62d6.jpeg")}
-  <br><br><br>
+  <br>
 
   <a href="/r34/terraria/Asslocking_2.gif"><img src="/r34/terraria/Asslocking_2.gif"></a>
   <a href="/r34/terraria/Succubus_VoodooDoll.gif"><img src="/r34/terraria/Succubus_VoodooDoll.gif"></a>
@@ -1464,4 +1464,15 @@ let rouge = [
 
 let onigiriarts = [
   `${addLink('/r34/onigiriarts/mioxiris.html', 'comic')}`
+]
+
+let zko = [
+  `
+  ${linkedImage('/r34/zko/3f0229ee33973d32fe0ce7bc57b6d0cc.gif')}
+  ${linkedImage('/r34/zko/75e62a09a1a8b27a402542ac2588c95d.gif')}
+  ${linkedImage('/r34/zko/ae0cd7696fdae448e79a9ad8873729ff.gif')}
+  ${linkedImage('/r34/zko/b435fe9a55589a2e89dc0cf99b46868d.gif')}
+  <br>
+  ${linkedImage('/r34/zko/8eaa9ac136d7b5333c832eaacd2c9f1a.webp')}
+  `
 ]

@@ -52,6 +52,7 @@ var artistSidebar = `
 ${addlink('/r34/puppysnackz.html', 'puppysnackz')}
 ${addlink('/r34/puddingdraws.html', 'puddingdraws')}
 ${addlink('/r34/onigiriarts.html', 'onigiriarts')}
+${addlink('/r34/zko.html', 'zko')}
 `
 
 var pokemonSidebar = '\
