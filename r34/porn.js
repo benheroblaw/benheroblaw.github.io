@@ -1219,7 +1219,7 @@ var ao3 = [
   `<div class="background">
   <a href="/books/Trigger_Discipline.html">Trigger Discipline</a><br>
   <a href="/books/Hung_Down_With_The.html">Hung Down With the Freaks and the Ghouls</a><br>
-  <a href="/books/All_The_Late-Night.html">All The Late-Night Bargains Have Been Struck</a><br>
+  <a href="/books/All_The_Late-Night.html">All The Late-Night Bargains Have Been Struck</a><br><br>
   ${addLink('https://archiveofourown.org/series/3001785', 'Touhou but they all have sex instead')}
   </div>`
 ]
@@ -1402,11 +1402,22 @@ let ladylovense = [
     '/r34/puppysnackz/puppysnackz.bsky.social-3mfhof7p3tk2u.jpeg',
 ]
 
+let touhou_sex = ' but they all have sex instead'
 let touhou = [
   `
   ${ah2('books')}
-  ${addLink('/books/Touhou_6_Embodiment_of.html', 'Touhou 6 Embodiment of Scarlet Devil but they all have sex instead')}
-  `,
+  <div style="text-align: left; margin: auto; display: block; max-width: fit-content;">
+  ${addLink('/books/Touhou_6_Embodiment_of.html', '<b>Touhou 6</b> but they all have sex instead')}
+  ${addlink('/books/Touhou_7.html', '<b>Touhou 7</b>' + touhou_sex)}
+  ${addlink('/books/Touhou_7.5.html', '<b>Touhou 7.5</b>' + touhou_sex)}
+  ${addlink('/books/Touhou_8.html', '<b>Touhou 8</b>' + touhou_sex)}
+  ${addlink('/books/Touhou_9.html', '<b>Touhou 9</b>' + touhou_sex)}
+  ${addlink('/books/Touhou_9.5.html', '<b>Touhou 9.5</b>' + touhou_sex)}
+  ${addlink('/books/Touhou_10.html', '<b>Touhou 10</b>' + touhou_sex)}
+  ${addlink('/books/Touhou_10.5.html', '<b>Touhou 10.5</b>' + touhou_sex)}
+  ${addlink('/books/Touhou_11.html', '<b>Touhou 11</b>' + touhou_sex)}
+  ${addlink('/books/Touhou_12.html', '<b>Touhou 12</b>' + touhou_sex)}
+  </div>`,
 
   `
   ${ah2('video')}

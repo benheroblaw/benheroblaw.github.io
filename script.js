@@ -881,6 +881,17 @@ function getScript(file) {
   document.head.appendChild(s);
 }
 /**
+ * loads a css file
+ * @param {string} file file path
+ */
+function getCSS(file) {
+  var s = document.createElement('link');
+  s.id = 'getCSS'
+  s.link = file;
+  s.rel = 'stylesheet'
+  document.head.appendChild(s);
+}
+/**
  * loads a script as a module
  * @param {string} file file path
  */
@@ -1193,6 +1204,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     addSidebar(pornSidebar, puppySidebar)
 
+  }
+
+  if (window.location.pathname.indexOf('/books/') > -1) {
+    getCSS('/books/ao3.css')
   }
 
   if (window.location.pathname.indexOf('puppysnackz.html') > -1) {
