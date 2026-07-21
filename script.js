@@ -1247,6 +1247,19 @@ document.addEventListener("DOMContentLoaded", function() {
     document.body.style.cursor = 'url(/cursors/mikuDefault.cur),pointer'
   }
 
+  if (window.location.href.indexOf('benheroblaw.github.io') > -1) {
+    qSelA('a').forEach(element => {
+      element.href = element.href.replace('.html', '')
+    })
+  }
+  else {
+    qSelA('a').forEach(element => {
+      if (element.href.indexOf('.html') === -1 && element.href != 'http://localhost:8001/' && element.href != 'https://benheroblaw.github.io/') {
+        element.href += '.html'
+      }
+    })
+  }
+
   vol(0.1, 0.1)
   // getScript('/bullshit.js')
   qSelA('video').forEach(element => {
