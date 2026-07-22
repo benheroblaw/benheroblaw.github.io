@@ -12,12 +12,13 @@
     function villainess() {
         gewi('villainess').textContent = 'The Villainess Enters A Political Marriage With the Prince of the Neighbor Kingdom'
 
-        gewi('villainess').addEventListener('mouseenter', () =>
+        gewi('villainess').addEventListener('mouseenter', () => {
             gewi('villainess').textContent = 'The Shadow Judge'
-        )
-        gewi('villainess').addEventListener('mouseleave', () =>
-            gewi('villainess').textContent = 'The Villainess Enters A Political Marriage With the Prince of the Neighbor Kingdom'
-        )
+        })
+        gewi('villainess').addEventListener('mouseleave', async() => {
+            // await delay(1000*2.5)
+            // gewi('villainess').textContent = 'The Villainess Enters A Political Marriage With the Prince of the Neighbor Kingdom'
+        })
     }
 </script>
 <html>
@@ -26,6 +27,8 @@
 
         <a href="/writing/voidling.html">Gods Of A Magic Academy: Voidling</a><br><br>
 
-        <a href="/writing/villainess.html" id="villainess">idk</a>
+        <a href="/writing/villainess.html" id="villainess">idk</a><br><br>
+
+        <a href="/writing/thfaapol.html">The Hero Foolishly Assembles a Harem of Lesbians</a>
     </body>
 </html>

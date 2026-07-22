@@ -59,7 +59,7 @@ p.character-sheet, div.character-sheet>p {margin-right: 25px; margin-left: 1rem;
 #next, #next1 {text-align: right; display: inline-block;}
 #center {display:none}
 .space {display: flex; justify-content: space-between;}
-h2 {color: white; background: #000; font-size: 3rem; margin: 0%; padding: 0%; font-family: 'Courier New', Courier, monospace;}
+h2 {color: white; background: #000; font-size: 3rem; margin: 0%; padding: 0%; font-family: Fixed, 'Courier New', Courier, monospace;}
 .noza, .Noza {color: green; text-shadow: 0px 0px 15px #0a0;}
 .airn, .Airn {color: azure; text-shadow: 0px 0px 15px #0af;}
 .mina, .Mina {color: deeppink; text-shadow: 0px 0px 15px blueviolet;}

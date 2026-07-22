@@ -1295,3 +1295,52 @@ var short_story_prawn = [
     // paragraph(``) + linebreak() +
 
 ]
+
+var PxKxM_draft = [
+  header2('outline (* V *)') +
+  header1() +
+  background(
+    paragraph(`
+      alinor hosts a fencing tournament<br>
+      she sees avice and gestures for her to come up to the princess\'s booth<br>
+      alinor complements the knight and offers her chance to become one of her guards if she wins<br>
+      puts a little metal flower on her breastplate to show her blessing<br>
+      avice blushes and nods and whispers "i'll do my best" or something like that<br>
+      she puts her helmet on and walks down to the arena<br>
+      alinor is going "omg that was adorable she's so shy >v<"<br>
+      there's a clang in the arena<br>
+      alinor is still swooning over avice<br>
+      mill taps her shoulder and says "ali, look"<br>
+      she looks at the arena<br>
+      one suit of armour is putting their sword in its sheath, the other is on their knees and a sword is in the corner of the arena<br>
+      "oh shit."<br>
+      "oh shit indeed."<br>
+      alinor is paying more attention for avice's second match<br>
+      she sees a few flashes of steel as the combatants clash<br>
+      again, the suit of armour with her crest is the winner.<br>
+      "oh my."<br>
+      "it seems you have picked the perfect candidate."<br>
+      "it seems i have."<br>
+      avice gets a flawless victory<bR>
+      she walks back to the princess's booth<br>
+      "thank you for your blessing, princess."<br>
+      she kneels
+      "I would be happy to serve as your guard."<br>
+      "May I see your sword?" says the princess.<br>
+      avice draws her sword and presents it to alinor<br>
+      alinor takes it, examines the edge, the guard.<br>
+      she places the flat of the blade upon avice's shoulder.<br>
+      "I pronounce you..."<br>
+      she moves the blade to avice's other shoulder<br>
+      "Knight Cameron, servant of the throne."<br>
+      then they have a party<br>
+      alinor gets heartily smashed (the drunk way) and heartily smashes avice (the sex way)
+      `) +
+    ``
+    , false
+  )
+]
+
+var PxKxM = [
+  PxKxM_draft[0]
+]
