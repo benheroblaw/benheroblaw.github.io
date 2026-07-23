@@ -95,7 +95,7 @@ h2 {color: white; background: #000; font-size: 3rem; margin: 0%; padding: 0%; fo
 }
 @media (prefers-color-scheme: dark) {
     button {color: white; background-color: #111;}
-    .background {word-spacing: 1px; letter-spacing: 0.5px; font-size: 1rem; padding: 38px; text-wrap-mode: wrap; background: rgb(20, 20, 20); margin-top: 0px; margin-bottom: 0px; color: #ddd;}
+    .background {word-spacing: 1px; letter-spacing: 0.5px; font-size: 1rem; padding: 38px; padding-top: 15px; text-wrap-mode: wrap; background: rgb(20, 20, 20); margin-top: 0px; margin-bottom: 0px; color: #ddd;}
     .background>p {color: #ddd; text-shadow: none;}
     #story>h1 {font-family: 'Times New Roman', Times, serif; font-size: 3.5rem; text-align: center; padding-top: 50.5px; padding-bottom: 55px; background: linear-gradient(#000, #000, #252525, #252525, #252525, #252525, #141414, #141414); margin-top: 0%; margin-bottom: 0%; color: white;}
 }

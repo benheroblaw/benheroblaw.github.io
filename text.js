@@ -1297,50 +1297,157 @@ var short_story_prawn = [
 ]
 
 var PxKxM_draft = [
-  header2('outline (* V *)') +
+  header2('outline :\u2184') +
   header1() +
   background(
     paragraph(`
-      alinor hosts a fencing tournament<br>
-      she sees avice and gestures for her to come up to the princess\'s booth<br>
-      alinor complements the knight and offers her chance to become one of her guards if she wins<br>
-      puts a little metal flower on her breastplate to show her blessing<br>
-      avice blushes and nods and whispers "i'll do my best" or something like that<br>
-      she puts her helmet on and walks down to the arena<br>
-      alinor is going "omg that was adorable she's so shy >v<"<br>
-      there's a clang in the arena<br>
-      alinor is still swooning over avice<br>
-      mill taps her shoulder and says "ali, look"<br>
-      she looks at the arena<br>
-      one suit of armour is putting their sword in its sheath, the other is on their knees and a sword is in the corner of the arena<br>
-      "oh shit."<br>
-      "oh shit indeed."<br>
-      alinor is paying more attention for avice's second match<br>
-      she sees a few flashes of steel as the combatants clash<br>
-      again, the suit of armour with her crest is the winner.<br>
-      "oh my."<br>
-      "it seems you have picked the perfect candidate."<br>
-      "it seems i have."<br>
-      avice gets a flawless victory<bR>
-      she walks back to the princess's booth<br>
-      "thank you for your blessing, princess."<br>
+      alinor hosts a fencing tournament
+
+      she sees avice and gestures for her to come up to the princess\'s booth
+
+      alinor complements the knight and offers her chance to become one of her guards if she wins
+
+      puts a little metal flower on her breastplate to show her blessing
+
+      avice blushes and nods and whispers "i'll do my best" or something like that
+
+      she puts her helmet on and walks down to the arena
+
+      alinor is going "omg that was adorable she's so shy >v<"
+
+      there's a clang in the arena
+
+      alinor is still swooning over avice
+
+      mill taps her shoulder and says "ali, look"
+
+      she looks at the arena
+
+      one suit of armour is putting their sword in its sheath, the other is on their knees and a sword is in the corner of the arena
+
+      "oh shit."
+
+      "oh shit indeed."
+
+      alinor is paying more attention for avice's second match
+
+      she sees a few flashes of steel as the combatants clash
+
+      again, the suit of armour with her crest is the winner.
+
+      "oh my."
+
+      "it seems you have picked the perfect candidate."
+
+      "it seems i have."
+
+      avice gets a flawless victory
+
+      she walks back to the princess's booth
+
+      "thank you for your blessing, princess."
+
       she kneels
-      "I would be happy to serve as your guard."<br>
-      "May I see your sword?" says the princess.<br>
-      avice draws her sword and presents it to alinor<br>
-      alinor takes it, examines the edge, the guard.<br>
-      she places the flat of the blade upon avice's shoulder.<br>
-      "I pronounce you..."<br>
-      she moves the blade to avice's other shoulder<br>
-      "Knight Cameron, servant of the throne."<br>
-      then they have a party<br>
+
+      "I would be happy to serve as your guard."
+
+      "May I see your sword?" says the princess.
+
+      avice draws her sword and presents it to alinor
+
+      alinor takes it, examines the edge, the guard.
+
+      she places the flat of the blade upon avice's shoulder.
+
+      "I pronounce you..."
+
+      she moves the blade to avice's other shoulder
+
+      "Knight Cameron, servant of the throne."
+
+      then they have a party
+
       alinor gets heartily smashed (the drunk way) and heartily smashes avice (the sex way)
-      `) +
+
+      avice is going <i>oh my god why did she have sex with me does she like me we aren't supposed to do this she's my princess i'm her knight oh my god</i>
+
+      mill comes in and offers avice some water, fresh clothes...
+
+      avice takes the clothes first, so mill finds one of alinor's nightgowns for her
+
+      then mill takes her to the balcony of alinor's room
+
+      they talk
+
+      eventually they get to the subject of kissing girls
+
+      avice laments her inexperience, so mill teaches her
+
+      mill leans in close, explaining what she's doing for extra hotness
+
+      avice can't handle her smolder and turns away
+
+      "I think this lesson is more important than what happens if she says yes.
+
+      "If she doesn't complete the kiss, you back off."
+
+      mill demonstrates this
+
+      she asks avice if she wants to try again
+
+      avice, with her heart beating through her chest, says yes
+
+      mill leans in again
+
+      avice is blushing profusely
+
+      eyes squinted tight
+
+      she moves her head forward ever so slightly
+
+      and their lips touch
+
+      mill takes avice's chin with her fingers
+
+      avice's eyes shoot open, she sees mill's face so close to hers
+
+      she can almost see where their lips meet
+
+      she pulls away in embarrassment
+
+      "You're so cute."
+
+      avice blushes even harder
+
+    `) +
     ``
+    , false
+  ),
+
+  header2('toxic guard yuri') +
+  header1() +
+  background(
+    paragraph(`a captain of the royal guard finds one of her soldiers has been stealing pornographic (magazines? time-period equivalent, need to look into that)
+      she had stolen the porn to try to get off, but while the illustrations were of women, she just couldn't find them arousing
+
+      the captain decides to punish her by making her model for more porn
+
+      she's a little confused, because she isn't wearing anything like the skimpy outfits the women in her material were wearing. it's just... sundresses, skirts that are rather short for her taste and crop tops, what seemed like a bodysuit that kept her private parts covered but revealed her legs, hips (which were shown through cutouts in very short shorts), her shoulders, her upper arms but not her forearms, her fingers, a section of her breasts that seemed to be focused on the area between them. a suit? just a suit. full plate armour, but no helmet (she's a royal guard, wearing a helmet is required).
+      a rather specific shot of her in a sundress with a light shining behind her so a shadow is visible through it
+
+      (these are all sketched bc it's medieval times) (some people would just add magic cameras and/or magic photos, but my first thought when i remembered "oh they don't have magazines because they can't just take pictures {and they don't have the 'shiny' paper they're printed on}" was "have them make sketches")
+      (this also implies the captain went out of her way to produce pornographic material of this soldier specifically)
+
+      which she then distributes to the entire royal guard except the subject
+      so she finds the captain getting off to her porn
+      and the captain reveals that she distributed it to all the royal guardswomen except her
+      so she's kind of getting cucked
+      and she thinks that's kind of hot
+    `)
     , false
   )
 ]
 
 var PxKxM = [
-  PxKxM_draft[0]
+  background('placeholder for now')
 ]

@@ -1162,8 +1162,11 @@ function header1(html='') {
   output += `</${element}>`
   return output
 }
-function header2(html=''){
+function header2(html='') {
   return addHTML(html, 'h2')
+}
+function preserve (html='') {
+  return addHTML(html, 'pre')
 }
 function linebreak() {
   return('<br>')
