@@ -1,3 +1,9 @@
+function pausingGif(firstFrame='', gif='') {
+  output = ''
+  output = `<img onmouseenter="this.style.height = 'initial'; this.style.width='initial'; this.src='${gif}'" onmouseleave="this.style.height = 'unset'; this.style.width='unset'; this.src='${firstFrame}'" src="${firstFrame}">`
+  return output
+}
+
 var irl = [`\
   <p>lilykoti<br>\
   <video preload="auto" controls src="/r34/phub/large/[pornhubdownloader.io]_720P_4000K_438382601.mp4">no porn for you :(</video>\
@@ -1480,11 +1486,11 @@ let onigiriarts = [
 
 let zko = [
   `
-  ${linkedImage('/r34/zko/3f0229ee33973d32fe0ce7bc57b6d0cc.gif')}
+  ${pausingGif('/r34/zko/3f0229ee33973d32fe0ce7bc57b6d0cc.webp', '/r34/zko/3f0229ee33973d32fe0ce7bc57b6d0cc.gif')}
   ${linkedImage('/r34/zko/75e62a09a1a8b27a402542ac2588c95d.gif')}
   ${linkedImage('/r34/zko/ae0cd7696fdae448e79a9ad8873729ff.gif')}
   ${linkedImage('/r34/zko/b435fe9a55589a2e89dc0cf99b46868d.gif')}
-  <br>
+  <br><br>
   ${linkedImage('/r34/zko/8eaa9ac136d7b5333c832eaacd2c9f1a.webp')}
   `
 ]
