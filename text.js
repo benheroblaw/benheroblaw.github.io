@@ -1437,6 +1437,7 @@ var PxKxM_draft = [
 
       (these are all sketched bc it's medieval times) (some people would just add magic cameras and/or magic photos, but my first thought when i remembered "oh they don't have magazines because they can't just take pictures {and they don't have the 'shiny' paper they're printed on}" was "have them make sketches")
       (this also implies the captain went out of her way to produce pornographic material of this soldier specifically)
+      (oohhhhhhh the yuri)
 
       which she then distributes to the entire royal guard except the subject
       so she finds the captain getting off to her porn
@@ -1445,7 +1446,9 @@ var PxKxM_draft = [
       and she thinks that's kind of hot
     `)
     , false
-  )
+  ),
+
+  chapter('god dammit i started thinking about backstory', '', ``)
 ]
 
 var PxKxM = [
