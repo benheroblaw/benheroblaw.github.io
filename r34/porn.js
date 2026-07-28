@@ -12,7 +12,10 @@ var irl = [`\
   <video preload="auto" controls src="/r34/phub/large/HOTTEST TITFUCK _3 COMPILATION.mp4">no porn for you :(</video>\
   <video preload="auto" controls src="/r34/phub/large/HANDJOB PORN _3 COMPILATION.mp4">no porn for you :(</video>\
   <video preload="auto" controls src="/r34/phub/HOTTEST TITFUCK _3 COMPILATION (1).mp4">no porn for you :(</video>\
-  </p>`,
+  </p><br>
+  ${linkedImage('/r34/irl/3f50e4d33faefe65f638bbac9899197c.webp')}
+  ${linkedImage('/r34/irl/637bd7ad13744ff504b5fe154f0695da.webp')}
+  ${linkedImage('/r34/irl/3541f6e0d1b9a233ecbf553c1e29117d.webp')}`,
 
   `<p>creamyspot<br>\
   <video preload="auto" controls src="/r34/phub/large/[pornhubdownloader.io]_720P_4000K_464305995.mp4">no porn for you :(</video>\
@@ -35,11 +38,14 @@ var irl = [`\
   <video preload="auto" controls src="/r34/phub/compressO-idk.mp4">no porn for you :(</video>\
   </p>`,
 
+  `${addLink('https://realbooru.com/index.php?page=post&s=list&tags=chastissy','chastissy')}<br>
+  `,
+
   `<p>images<br>\
-  ${linkedImage("/r34/irl/GbQeSrYakAMKch1.jpeg")}
-  ${linkedImage("/r34/irl/Gx6U-cpbgAAexnu.jpeg")}
-  ${linkedImage('/r34/irl/cfgxi.jpeg')}
-  ${linkedImage("/r34/irl/dryivgkvRDCK.jpeg")}
+  ${linkedImage("/r34/irl/GbQeSrYakAMKch1.webp")}
+  ${linkedImage("/r34/irl/Gx6U-cpbgAAexnu.webp")}
+  ${linkedImage('/r34/irl/cfgxi.webp')}
+  ${linkedImage("/r34/irl/dryivgkvRDCK.webp")}
 
   </p>`,
   `pornhub is so fucking stupid<br>

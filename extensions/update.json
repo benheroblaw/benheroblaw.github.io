@@ -68,6 +68,15 @@
         },
         ""
       ]
+    },
+
+    "booruQOL@bullshitcode": {
+      "updates": [
+        {
+          "version": 1.0,
+          "update_link": "https://benheroblaw.github.io/extensions/booru-qol/releases/1.0.xpi"
+        }
+      ]
     }
   }
 }
