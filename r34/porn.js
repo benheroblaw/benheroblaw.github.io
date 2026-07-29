@@ -31,6 +31,7 @@ var irl = [`\
   <video preload="auto" controls src="/r34/phub/[pornhubdownloader.io]_720P_4000K_441827181.mp4">no porn for you :(</video>\
   <video preload="auto" controls src="/r34/phub/[pornhubdownloader.io]_720P_4000K_448923881.mp4">no porn for you :(</video>\
   <video preload="auto" controls src="/r34/phub/[pornhubdownloader.io]_720P_4000K_16651015.mp4">no porn for you :(</video>\
+  ${linkVideo('/r34/irl/alizevert.bsky.social-3mosy7x6kzk2x.mp4')}
   </p>`,
 
   `<p>other<br>\
@@ -39,7 +40,8 @@ var irl = [`\
   </p>`,
 
   `${addLink('https://realbooru.com/index.php?page=post&s=list&tags=chastissy','chastissy')}<br>
-  `,
+  ${linkVideo('/r34/irl/8229c832cddcd9c892e40eb2e04fa690.mp4')}
+  ${linkVideo('/r34/irl/99d3ee8dd53df3899c4385d1216a3ca5.webm')}`,
 
   `<p>images<br>\
   ${linkedImage("/r34/irl/GbQeSrYakAMKch1.webp")}

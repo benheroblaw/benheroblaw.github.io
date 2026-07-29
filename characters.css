@@ -96,7 +96,7 @@ i {
     color: white;
 }
 a.large {
-    display: block;
+    /* display: block; */
 }
 a.large>span, span.large {
     color: white;

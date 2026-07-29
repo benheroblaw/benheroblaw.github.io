@@ -1300,8 +1300,8 @@ var PxKxM_draft = [
   header2('outline :\u2184') +
   header1() +
   background(
-    paragraph(`
-      alinor hosts a fencing tournament
+    paragraph(
+      `alinor hosts a fencing tournament
 
       she sees avice and gestures for her to come up to the princess\'s booth
 
@@ -1313,7 +1313,7 @@ var PxKxM_draft = [
 
       she puts her helmet on and walks down to the arena
 
-      alinor is going "omg that was adorable she's so shy >v<"
+      alinor is going "omg that was adorable she's so shyyyyyyyyyy >v<"
 
       there's a clang in the arena
 
@@ -1349,7 +1349,7 @@ var PxKxM_draft = [
 
       she kneels
 
-      "I would be happy to serve as your guard."
+      "It would be my honor to serve as your guard."
 
       "May I see your sword?" says the princess.
 
@@ -1365,11 +1365,11 @@ var PxKxM_draft = [
 
       "Knight Cameron, servant of the throne."
 
-      then they have a party
+      then they have a party!
 
-      alinor gets heartily smashed (the drunk way) and heartily smashes avice (the sex way)
+      alinor gets heartily smashed (the drunk way) and avice gets heartily smashed (the sex way)
 
-      avice is going <i>oh my god why did she have sex with me does she like me we aren't supposed to do this she's my princess i'm her knight oh my god</i>
+      avice is going <i>(oh my god why did she have sex with me does she like me we aren't supposed to do this she's my princess i'm her knight oh my god)</i>
 
       mill comes in and offers avice some water, fresh clothes...
 
@@ -1419,7 +1419,8 @@ var PxKxM_draft = [
 
       avice blushes even harder
 
-    `) +
+      `
+    ) +
     ``
     , false
   ),
@@ -1432,7 +1433,7 @@ var PxKxM_draft = [
 
       the captain decides to punish her by making her model for more porn
 
-      she's a little confused, because she isn't wearing anything like the skimpy outfits the women in her material were wearing. it's just... sundresses, skirts that are rather short for her taste and crop tops, what seemed like a bodysuit that kept her private parts covered but revealed her legs, hips (which were shown through cutouts in very short shorts), her shoulders, her upper arms but not her forearms, her fingers, a section of her breasts that seemed to be focused on the area between them. a suit? just a suit. full plate armour, but no helmet (she's a royal guard, wearing a helmet is required).
+      she's a little confused, because she isn't wearing anything like the skimpy outfits the women in her material were wearing. it's just... sundresses, skirts that are rather short for her taste and crop tops, what seemed like a bodysuit that kept her private parts covered but revealed her legs, hips (which were shown through cutouts in very short shorts), her shoulders, her upper arms but not her forearms, her fingers, a section of her breasts that seemed to be focused on the area between them. a suit? just a suit. full plate armour, but no helmet (she's a royal guard, wearing armour without a helmet feels unnatural).
       a rather specific shot of her in a sundress with a light shining behind her so a shadow is visible through it
 
       (these are all sketched bc it's medieval times) (some people would just add magic cameras and/or magic photos, but my first thought when i remembered "oh they don't have magazines because they can't just take pictures {and they don't have the 'shiny' paper they're printed on}" was "have them make sketches")
@@ -1448,7 +1449,99 @@ var PxKxM_draft = [
     , false
   ),
 
-  chapter('god dammit i started thinking about backstory', '', ``)
+  chapter(
+    'god dammit i started thinking about backstory',
+    '',
+    paragraph(
+      `this kingdom used to be ruled by a king
+      he died
+
+      and the queen seized power
+
+      she restructured the entire system of power to make women equal, if not more powerful, than men
+      (turned a patriarchy into a matriarchy)
+
+      changed her last name to Whitesword
+
+      made gay marriage legal in response to being questioned about whether she would make gay marriage legal`
+    )
+  ),
+
+  chapter(
+    '???',
+    'balcony scene',
+    paragraph(
+      `Avice is lying in bed, but she can't sleep.
+
+      Maybe because the bed she's sleeping in belongs to the princess she was recently promoted to personal guard of.
+
+      Maybe it's because said princess got extremely drunk at a party after a tournament to decide her personal guard.
+
+      Maybe it's because the princess had done many things Avice only had second-hand knowledge of.
+
+      Maybe it's because the princess had gotten extremely intimate with Avice.
+
+      Maybe it's because she is extremely overstimulated and now is the first free moment she has had since the tournament.
+
+      The princess is out cold next to her.
+
+      Avice feels that the princess should be doing something other than lying spread-eagled on her back, but has no open space in her brain to try to figure out what that could be.
+
+      Even if she did, she feels that whatever she wants the princess to do might not be appropriate, considering their positions.
+
+      Even though the princess was clearly too drunk to consider that earlier.
+
+      ...The princess was too drunk to consider a lot of things.
+
+      Avice can't say that it felt <i>bad.</i>
+
+      Just that she feels like it should have gone differently.
+
+      What she had experienced was supposed to happen between lovers, wasn't it? She barely knew the princess.
+
+      Of course she knew <i>of</i> the princess. Royals are rather well-known in the lands they rule.
+
+      She knows that this princess is not next in line for the throne. That could be why she lets herself go so wild.
+
+      She knew that this princess had a habit of drinking, but had no idea just how <i>much</i> she drank.
+
+      The princess had effortlessly consumed an entire bottle of wine, then two brimming mugs of beer on top of that.
+
+      Avice drank sparsely, mostly because she couldn't stand the effects the morning after.
+
+      The girl next to her couldn't be far from her own age.
+
+      Her morning surely would not go well.
+
+      Avice is ashamed at the thought that the princess might deserve it flickering through her head.
+
+      A <i>click</i> sounds at the door.
+
+      Avice freezes, then scrambles to find a weapon.
+
+      She had taken off her armour right after the tournament, so her sword was in the armoury. She might have had a knife, but if she did, it was in her clothes strewn across the floor.
+
+      She decides to wait and see who it is. She has some knowledge of martial arts. Hopefully they will be enough.
+
+      The door slides open without a sound.
+
+      Avice peeks through her eyelids at the figure in the doorway.
+
+      Vaguely human-shaped, wearing a dress of some kind.
+
+      "Hello." A feminine voice sounds from the figure.
+
+      Avice doesn't move.
+
+      "My name is Millicent; I'm Alinor's head maid." She bows at the waist.
+
+      Avice starts to relax.
+
+      "She gave you a rough night, huh?"
+
+      Her words send Avice spiraling through memories of the princess's debauchery, and she promptly pulls the blanket over her head to hide her embarrassment.`
+    )
+  )
 ]
 
 var PxKxM = [

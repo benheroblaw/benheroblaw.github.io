@@ -1171,7 +1171,7 @@ function preserve (html='') {
 function linebreak() {
   return('<br>')
 }
-function chapter(descriptor='', title='', content='', linebreak=false) {
+function chapter(descriptor='', title='', content='', bg_linebreak=false) {
   output = ''
   if (descriptor != 'false') {
     output += header2(descriptor)
@@ -1180,7 +1180,7 @@ function chapter(descriptor='', title='', content='', linebreak=false) {
     output += header1(title)
   }
   if (content != 'false') {
-    output += background(content, linebreak)
+    output += background(content, bg_linebreak)
   }
   // output = header2(descriptor) + header1(title) + background(content, linebreak)
   return output
