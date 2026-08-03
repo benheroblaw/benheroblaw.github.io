@@ -598,22 +598,57 @@ var villainess = [
   <br>\
   <br>\
   <br>\
-  <p>Hero gets reports of Villain being back so she goes over to Villain's place</p>\
+  <p>While she's out adventuring, Hero encounters Villain.</p>\
   <p>She gets low-diffed and kissed and worshipped</p>\
   <p>She has to think about that</p>\
   <br>\
   <br>\
+  <br>
   <p>The two continue this erotic battle for a long time</p>\
   <br>\
   <br>\
   <br>\
-  <p>Villain finds a camp of kids who escaped from another kingdom's nobles</p>\
+  <p>Villain hears about a kingdom abusing children</p>\
   <p>That kingdom had an epstein island, so Villain is going to rip them limb from limb bc that's the kind of villain she is</p>\
-  <p>Some of the kids are going to help because Villain taught them Umbrakinesis</p>\
+  <p>Some of the kids are going to help because Villain taught them some kineses</p>\
+  <p>Once everyone important is gone, Villain finds that nobody in the castle misses their old lords</p>\
+  <p>They promote her to living in the castle</p>\
   <br>\
-  <p>The strongest of them (Umbra) finds out about Hero</p>\
+  <p>The strongest of the kids (Umbra) finds out about Hero</p>\
   <p>She captures Hero</p>\
   <p>Villain gives her a talk about cowardice and exposition about Umbrakinesis</p>\
+  <p>She tells Umbra that stealing a woman from her bed is nothing but cowardice</p>\
+  <p>So they fight to determine who's correct in their beliefs</p>\
+  <p>(spoilers: its villain)</p>\
+  <p>She apologizes to Hero and takes her just outside the walls of the adventurers' guild</p>\
+  <br>
+  <br>
+  <p>Later, Hero and a party of other adventurers are sent to Villain's castle to try and take her down.</p>\
+  <p>When they arrive in her queendom, something is wrong.</p>\
+  <p>You would expect lands ruled by such an evil person to be frightened, or even scared in the slightest.</p>\
+  <p>The people of this queendom are living happily, making the troupe of armed adventurers seem out of place.</p>\
+  <p>When Hero asks them where Villain is, they laugh.</p>\
+  <p>They tell her where to go, but they still laugh.</p>\
+  <p>The party goes to the very conspicuous castle in the center of the queendom.</p>\
+  <p>Once they get to the outer wall, the drawbridge comes down for them.</p>\
+  <p>Inside is Penumbra, the oldest of the children Villain saved.</p>\
+  <p>She takes a big pull from a cigarette</p>\
+  <p>the party is a little confused</p>\
+  <p>Then Penumbra breathes fire on them</p>\
+  <p>Hero braces herself, but it only feels like a warm breeze.</p>\
+  <p>After it's over, she looks over at her comrades to see bodies on the ground.</p>\
+  <p>Penumbra assures her that they're still alive, and tells her that Villain is waiting.</p>\
+  <p>She walks Hero up to the throne room, leaving her at the door</p>\
+  <p>After a moment to steel herself, Hero throws the doors open, filling the room with light.</p>\
+  <p>Just as she did all that time ago.</p>\
+  <p></p>\
+  <p></p>\
+  <p></p>\
+  <p></p>\
+  <p></p>\
+  <p></p>\
+  <p></p>\
+  <p></p>\
   <p></p>\
   <p></p>\
   <p></p>\
@@ -944,7 +979,7 @@ var sao = [
   <p>This is where the plot starts to crumble.</p>\
   <p>The third arc, Gun Gale Online, is about a girl called Shino Asuda, aka Sinon, coping with the childhood trauma of killing a man with his own gun. This sounds like quite a compelling story.</p>\
   <p>But Kirito is still the main character.</p>\
-  <p>Where the narrative should switch to Sinon as the protagonist, it instead leaves Kirito in charge. Sinon's   perspective is in third-person, while Kirito gets first-person despite him only being relevant because he <i>must</i> be the main character. He <i>must</i> be the most important, not because he's relevant, not because he grows, but because the plot <i>must not</i> switch character.</p>\
+  <p>Where the narrative should switch to Sinon as the protagonist, it instead leaves Kirito in charge. Sinon's perspective is in third-person, while Kirito gets first-person despite him only being relevant because he <i>must</i> be the main character. He <i>must</i> be the most important, not because he's relevant, not because he grows, but because the plot <i>must not</i> switch character.</p>\
   <p>It's completely fine to have this kind of perspective, but it only works when you know what to do with it. My personal favorite anime, Tensura, uses this perspective. We're not following Rimuru around all the time, but when we leave his perspective, it's to show the world shifting, showing a change in the natural order that Rimuru will have to adapt to.</p>\
   <p>And therein lies the beauty of this perspective. You use third-person segments to establish matters that <i>affect the protagonist.</i></p>\
   <p>Kirito adapts, not to the world around him, but to whatever the narrative needs him to be. Kirito must be the main character, so if we want to tell a story about someone else, Kirito must follow them.</p>\
