@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="/characters.css">
+    <link rel="stylesheet" href="/writers/veilfox.css">
+    <link rel="icon" href="/writers/veilfox.png">
+    <script src="/script.js"></script>
+</head>
+<title>Foxvale</title>
+<style>
+  p {
+    white-space-collapse: preserve-breaks;
+  }
+  .dull {
+    color: #444;
+  }
+  img {
+    position: relative;
+    bottom: 0px
+  }
+  br {
+    line-height: normal;
+  }
+</style>
+<html>
+    <body>
+    </body>
+</html>
+<script>
+function foxvale(text='') {
+  return `<p><img src="/writers/foxvale16.png" alt=""> ${text}</p>`
+}
+function veilfox(text='') {
+  return `<p>${text} <img src="/writers/valefox16.png" alt=""></p>`
+}
+  document.addEventListener('DOMContentLoaded', () => {
+    startStory(veilfox_intro, true)
+  })
+  let veilfox_intro = [`<h1><span class="veilfox">Veilfox</span> <img src="/writers/valefox.png" alt=""></h1>
+    <p>She/Her
+      <a href="/writers/"
+    </p>
+    <br>
+    <p>{ :3 > prokid here! fox had some stories they wanted to share, so i'm hosting them here!}</p>`]
+</script>
