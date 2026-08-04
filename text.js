@@ -577,88 +577,124 @@ var chainsaw = [
 ]
 
 var villainess = [
-  `<br>\
-  <div class='background'>\
-  <h3 id='char'>story outline</h3>\
-  <p>Villain enters a political marriage with a prince</p>\
-  <p>She convinces the prince to hold a ball</p>\
-  <br>\
-  <p>A spotlight shines on a stage, her standing ready.</p>\
-  <br>\
-  <p>Villain voices her raw contempt for the monarchy and nobles' abuse of power directly to everyone concerned within her complaints.</p>\
-  <br>\
-  <p>She kills them with Umbrakinesis.</p>\
-  <p></p>\
-  <p></p>\
-  <p></p>\
-  <p></p>\
-  <p></p>\
-  <p></p>\
-  <p>Hero beats her near death and Villain goes \"thats hot\"</p>\
-  <br>\
-  <br>\
-  <br>\
-  <p>While she's out adventuring, Hero encounters Villain.</p>\
-  <p>She gets low-diffed and kissed and worshipped</p>\
-  <p>She has to think about that</p>\
-  <br>\
-  <br>\
+  `<br>
+  <div class='background'>
+  <h3 id='char'>story outline</h3>
+  <p>Villain enters a political marriage with a prince</p>
+  <p>She convinces the prince to hold a ball</p>
   <br>
-  <p>The two continue this erotic battle for a long time</p>\
-  <br>\
-  <br>\
-  <br>\
-  <p>Villain hears about a kingdom abusing children</p>\
-  <p>That kingdom had an epstein island, so Villain is going to rip them limb from limb bc that's the kind of villain she is</p>\
-  <p>Some of the kids are going to help because Villain taught them some kineses</p>\
-  <p>Once everyone important is gone, Villain finds that nobody in the castle misses their old lords</p>\
-  <p>They promote her to living in the castle</p>\
-  <br>\
-  <p>The strongest of the kids (Umbra) finds out about Hero</p>\
-  <p>She captures Hero</p>\
-  <p>Villain gives her a talk about cowardice and exposition about Umbrakinesis</p>\
-  <p>She tells Umbra that stealing a woman from her bed is nothing but cowardice</p>\
-  <p>So they fight to determine who's correct in their beliefs</p>\
-  <p>(spoilers: its villain)</p>\
-  <p>She apologizes to Hero and takes her just outside the walls of the adventurers' guild</p>\
+  <p>A spotlight shines on a stage, her standing ready.</p>
+  <br>
+  <p>Villain voices her raw contempt for the monarchy and nobles' abuse of power directly to everyone concerned within her complaints.</p>
+  <br>
+  <p>She kills them with Umbrakinesis.</p>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p>Hero beats her near death and Villain goes \"thats hot\"</p>
   <br>
   <br>
-  <p>Later, Hero and a party of other adventurers are sent to Villain's castle to try and take her down.</p>\
-  <p>When they arrive in her queendom, something is wrong.</p>\
-  <p>You would expect lands ruled by such an evil person to be frightened, or even scared in the slightest.</p>\
-  <p>The people of this queendom are living happily, making the troupe of armed adventurers seem out of place.</p>\
-  <p>When Hero asks them where Villain is, they laugh.</p>\
-  <p>They tell her where to go, but they still laugh.</p>\
-  <p>The party goes to the very conspicuous castle in the center of the queendom.</p>\
-  <p>Once they get to the outer wall, the drawbridge comes down for them.</p>\
-  <p>Inside is Penumbra, the oldest of the children Villain saved.</p>\
-  <p>She takes a big pull from a cigarette</p>\
-  <p>the party is a little confused</p>\
-  <p>Then Penumbra breathes fire on them</p>\
-  <p>Hero braces herself, but it only feels like a warm breeze.</p>\
-  <p>After it's over, she looks over at her comrades to see bodies on the ground.</p>\
-  <p>Penumbra assures her that they're still alive, and tells her that Villain is waiting.</p>\
-  <p>She walks Hero up to the throne room, leaving her at the door</p>\
-  <p>After a moment to steel herself, Hero throws the doors open, filling the room with light.</p>\
-  <p>Just as she did all that time ago.</p>\
-  <p></p>\
-  <p></p>\
-  <p></p>\
-  <p></p>\
-  <p></p>\
-  <p></p>\
-  <p></p>\
-  <p></p>\
-  <p></p>\
-  <p></p>\
-  <p></p>\
-  <p></p>\
-  <p></p>\
-  <p></p>\
-  <p></p>\
-  <p></p>\
-  <p></p>\
-  <p></p>\
+  <br>
+  <p>While she's out adventuring, Hero encounters Villain.</p>
+  <p>She gets low-diffed and kissed and worshipped</p>
+  <p>She has to think about that</p>
+  <br>
+  <br>
+  <br>
+  <p>The two continue this erotic battle for a long time</p>
+  <br>
+  <br>
+  <br>
+  <p>Villain hears about a kingdom abusing children</p>
+  <p>That kingdom had an epstein island, so Villain is going to rip them limb from limb bc that's the kind of villain she is</p>
+  <p>Some of the kids are going to help because Villain taught them some kineses</p>
+  <p>Once everyone important is gone, Villain finds that nobody in the castle misses their old lords</p>
+  <p>They promote her to living in the castle</p>
+  <br>
+  <p>The strongest of the kids (Umbra) finds out about Hero</p>
+  <p>She captures Hero</p>
+  <p>Villain gives her a talk about cowardice and exposition about Umbrakinesis</p>
+  <p>She tells Umbra that stealing a woman from her bed is nothing but cowardice</p>
+  <p>So they fight to determine who's correct in their beliefs</p>
+  <p>(spoilers: its villain)</p>
+  <p>She apologizes to Hero and takes her just outside the walls of the adventurers' guild</p>
+  <br>
+  <br>
+  <p>Later, Hero and a party of other adventurers are sent to Villain's castle to try and take her down.</p>
+  <p>When they arrive in her queendom, something is wrong.</p>
+  <p>You would expect lands ruled by such an evil person to be frightened, or even scared in the slightest.</p>
+  <p>The people of this queendom are living happily, making the troupe of armed adventurers seem out of place.</p>
+  <p>When Hero asks them where Villain is, they laugh.</p>
+  <p>They tell her where to go, but they still laugh.</p>
+  <p>The party goes to the very conspicuous castle in the center of the queendom.</p>
+  <p>Once they get to the outer wall, the drawbridge comes down for them.</p>
+  <p>Inside is Penumbra, the oldest of the children Villain saved.</p>
+  <p>She takes a big pull from a cigarette</p>
+  <p>the party is a little confused</p>
+  <p>Then Penumbra breathes fire on them</p>
+  <p>Hero braces herself, but it only feels like a warm breeze.</p>
+  <p>After it's over, she looks over at her comrades to see bodies on the ground.</p>
+  <p>Penumbra assures her that they're still alive, and tells her that Villain is waiting.</p>
+  <p>She walks Hero up to the throne room, leaving her at the door</p>
+  <p>After a moment to steel herself, Hero throws the doors open, filling the room with light.</p>
+  <p>Just as she did all that time ago.</p>
+  <p>This time, Villain is seated on a throne, reaching out with her shadows to swallow Hero's light.</p>
+  <p>Hero steps up to the dais and explains her reason for being here</p>
+  <p>Villain closes her eyes for a moment, then stands up and tells Hero to follow her</p>
+  <p>Hero asks why</p>
+  <p>"Because there are too many people working too hard to keep this castle tidy, and I won't make them scrub your blood off of the floor."</p>
+  <p>so Hero follows her</p>
+  <p>They go outside, to a sparring area Villain and her children had used</p>
+  <p>The two fight once again, but Villain lets Hero get closer to her, using her darkest shadows only to block attacks</p>
+  <p>Again, Villain surrounds the battlefield in shadow</p>
+  <p>She strips Hero of her armour to get better access to Hero's body</p>
+  <p>She treats Hero like a lover, kissing and caressing her</p>
+  <p>Hero is still conflicted about this</p>
+  <p>Villain should not be treating her like this. She's a hero, facing a villain.</p>
+  <p>But maybe Villain doesn't care.</p>
+  <p>Maybe...</p>
+  <p>Maybe they don't have to fight.</p>
+  <p>But for now, Hero retreats.</p>
+  <br>
+  <br>
+  <p>Some time after this, Hero journeys to Villain's castle, alone this time.</p>
+  <p>"Here to fight me again?"</p>
+  <p>"No, this time is... Personal business."</p>
+  <p>Villain is interested</p>
+  <p>"I... I want to see you without fighting. I want to see you battling others, I want to battle alongside you."</p>
+  <p>Villain is very interested</p>
+  <p>"What is your name, little Hero?"</p>
+  <p>"Cinbel Bonacorso."</p>
+  <p>"Cinbel Bonacorso... A beautiful name for a beautiful woman."</p>
+  <p>hero blushes and Villain stands up</p>
+  <p>"I, Gwenhael Muiredhakh, want to claim you as mine, as mine and no-body else's."</p>
+  <p>"I can only pray you will accept such a selfish request."</p>
+  <p>Hero kneels, draws her sword and plants the point in the ground.</p>
+  <p>"I devote myself to you, my queen."</p>
+  <p>Villain takes her by the chin</p>
+  <p>"Rise, little hero."</p>
+  <p>Hero stands, chin still in Villain's hand</p>
+  <p>"And prove your devotion."</p>
+  <p>Hero presses her lips to Villain's</p>
+  <p>Villain kisses her.</p>
+  <p>She strips of Hero's armour once again, this time with Hero's help.</p>
+  <p>It's much easier this time; she was only wearing a chainmail vest.</p>
+  <br>
+  <p>They later make rings, Hero's gold and silver, Villain's black and gold.</p>
+  <p>(that was a proposal, in case you couldn't tell)</p>
+  <br>
+  <p>(hahahaha now its queen x knight)</p>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
   </div>`,
 
   `<br>\
