@@ -1502,3 +1502,17 @@ let zko = [
   ${linkedImage('/r34/zko/8eaa9ac136d7b5333c832eaacd2c9f1a.webp')}
   `
 ]
+
+let hentai = [
+  linkedImage('/r34/hentai/28ef243b8fc2b268ae4ce33f3117cb9c0426a06a.webp') +
+  linkedImage('/r34/hentai/da294a5d26ced20e017114f3a41d4cbb88ffb540.webp') +
+  `<br><br>` +
+  linkedImage('/r34/hentai/4e67352010513a0b9e683913d7c87262.webp') +
+  linkedImage('/r34/hentai/1c0ea52217f059c48e5076ac9234d2ba64187d7d.webp') +
+  `<br><br>` +
+  linkedImage('/r34/hentai/3de3f38bec9162d20128ee1e3a39a3abc3487dd5.webp') +
+  linkedImage('/r34/hentai/3e03b2dad137e94554db380ad15f3b1d.webp') +
+  linkedImage('/r34/hentai/7a86358a208f686dc8b89f363d538fa8e887634c.webp') +
+  linkedImage('/r34/hentai/220b9960aa77df2c9c1397f7c8450191859ce306.webp') +
+  linkedImage('/r34/hentai/2fe4d9822dde78450179b1791fac6d32.webp')
+]
