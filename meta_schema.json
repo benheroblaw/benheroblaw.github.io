@@ -1,18 +1,6 @@
 {
   "type": "object",
   "properties": {
-    "$schema": {
-      "type": "string",
-      "examples": [
-        ""
-      ]
-    },
-    "author": {
-      "type": "string",
-      "examples": [
-        "your_name"
-      ]
-    },
     "title": {
       "type": "string",
       "examples": [
@@ -32,6 +20,12 @@
       "type": "string",
       "examples": [
         "your_warnings"
+      ]
+    },
+    "author": {
+      "type": "string",
+      "examples": [
+        "your_name"
       ]
     },
     "credits": {
