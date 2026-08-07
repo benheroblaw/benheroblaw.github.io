@@ -11,6 +11,7 @@
       "type": "integer",
       "minimum": 0,
       "maximum": 3,
+      "description": "Rating between 0 and 3. 0 - General Audiences, 1 - Teen, 2 - Explicit, 3 - Adult",
       "examples": [
         0,
         1,
