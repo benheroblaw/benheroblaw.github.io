@@ -10,36 +10,40 @@
     "author": {
       "type": "string",
       "examples": [
-        "benheroblaw"
+        "your_name"
       ]
     },
     "title": {
       "type": "string",
       "examples": [
-        "test stuff"
+        "your_title"
       ]
     },
     "rating": {
       "type": "integer",
       "examples": [
-        1
+        0,
+        1,
+        2,
+        3
       ]
     },
     "warnings": {
       "type": "string",
       "examples": [
-        "swearing and obscenities"
+        "your_warnings"
       ]
     },
     "credits": {
       "type": "string",
       "examples": [
-        "benheroblaw for writing the text viewer"
+        "your_credits"
       ]
     },
     "links": {
       "type": "string",
       "examples": [
+        "your_links",
         "https://benheroblaw.github.io/"
       ],
       "format": "uri"
