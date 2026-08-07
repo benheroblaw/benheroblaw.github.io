@@ -30,12 +30,6 @@
         "your_name"
       ]
     },
-    "credits": {
-      "type": "string",
-      "examples": [
-        "your_credits"
-      ]
-    },
     "links": {
       "type": "string",
       "examples": [
@@ -43,6 +37,12 @@
         "https://benheroblaw.github.io/"
       ],
       "format": "uri"
+    },
+    "credits": {
+      "type": "string",
+      "examples": [
+        "your_credits"
+      ]
     }
   },
   "required": [
