@@ -57,6 +57,12 @@
       "examples": [
         "your_description"
       ]
+    },
+    "tags": {
+      "type": "array",
+      "examples": [
+        "your_tags"
+      ]
     }
   },
   "required": [
