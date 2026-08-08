@@ -269,42 +269,44 @@ let miku = [
 
 `<link rel="icon" href="/icons/mikuSelected.png">
   <h2>Images</h2>\
-  <a href="miku/d26967e74cf4bb5b88f62209177c47f4.jpeg"><img src="miku/d26967e74cf4bb5b88f62209177c47f4.jpeg"></a>\
-  <a href="miku/8694a05f839325fafe03ed24a53befe3.jpeg"><img src="miku/8694a05f839325fafe03ed24a53befe3.jpeg"></a>\
-  <a href="miku/8efd1a280d5dc98b5591de852cae9879.jpeg"><img src="miku/8efd1a280d5dc98b5591de852cae9879.jpeg"></a>\
-  <a href="miku/68b3e199ed4c4d3572a58a5b3f234479.jpeg"><img src="miku/68b3e199ed4c4d3572a58a5b3f234479.jpeg"></a>\
-  <a href="miku/9e876d116046181418a072295123f429.jpeg"><img src="miku/9e876d116046181418a072295123f429.jpeg"></a>\
-  <a href="miku/cddce6aea9f075b6c4e4c70b339b10b7.jpeg"><img src="miku/cddce6aea9f075b6c4e4c70b339b10b7.jpeg"></a>\
-  <a href="miku/88a3b9862d762f2b6adcc1f86f305a93.jpeg"><img src="miku/88a3b9862d762f2b6adcc1f86f305a93.jpeg"></a>\
-  <a href="miku/a448edcf1710ddcefbd673b2b7d01133.jpeg"><img src="miku/a448edcf1710ddcefbd673b2b7d01133.jpeg"></a>\
-  <a href="miku/af7a510515e8a09f05c1067f43b4af72.jpeg"><img src="miku/af7a510515e8a09f05c1067f43b4af72.jpeg"></a>\
-  <a href="miku/89e14c071e0ab1111e7730fbfd08ee0e.jpeg"><img src="miku/89e14c071e0ab1111e7730fbfd08ee0e.jpeg"></a>\
-  <a href="miku/c5443b5a4bfb09c0dfa1710e0a329c6b.jpeg"><img src="miku/c5443b5a4bfb09c0dfa1710e0a329c6b.jpeg"></a>\
-  <a href="miku/b9c5728351db9b191cd90d8fb3ddb1e0.jpeg"><img src="miku/b9c5728351db9b191cd90d8fb3ddb1e0.jpeg"></a>\
-  <a href="miku/87fe2e17b40279f9c503241a32034c0ec0533468.jpeg"><img src="miku/87fe2e17b40279f9c503241a32034c0ec0533468.jpeg"></a>\
-  <a href="miku/7cca25e099035f1167b751f1ced16840.jpeg"><img src="miku/7cca25e099035f1167b751f1ced16840.jpeg"></a>\
-  <a href="miku/4c2180e435c818b0349acb820f6c0f02.jpeg"><img src="miku/4c2180e435c818b0349acb820f6c0f02.jpeg"></a>\
-  <a href="miku/a6f85af61c528e507853a8d451be4d0a.jpeg"><img src="miku/a6f85af61c528e507853a8d451be4d0a.jpeg"></a>\
-  <a href="miku/e31d051206aadd464177352663ab3130.jpeg"><img src="miku/e31d051206aadd464177352663ab3130.jpeg"></a>`+
-  linkedImage(`/r34/miku/a9baff4ebd3e3b41b70b4fc427027789.jpeg`)+
+  <a href="miku/d26967e74cf4bb5b88f62209177c47f4.webp"><img src="miku/d26967e74cf4bb5b88f62209177c47f4.webp"></a>\
+  <a href="miku/8694a05f839325fafe03ed24a53befe3.webp"><img src="miku/8694a05f839325fafe03ed24a53befe3.webp"></a>\
+  <a href="miku/8efd1a280d5dc98b5591de852cae9879.webp"><img src="miku/8efd1a280d5dc98b5591de852cae9879.webp"></a>\
+  <a href="miku/68b3e199ed4c4d3572a58a5b3f234479.webp"><img src="miku/68b3e199ed4c4d3572a58a5b3f234479.webp"></a>\
+  <a href="miku/9e876d116046181418a072295123f429.webp"><img src="miku/9e876d116046181418a072295123f429.webp"></a>\
+  <a href="miku/cddce6aea9f075b6c4e4c70b339b10b7.webp"><img src="miku/cddce6aea9f075b6c4e4c70b339b10b7.webp"></a>\
+  <a href="miku/88a3b9862d762f2b6adcc1f86f305a93.webp"><img src="miku/88a3b9862d762f2b6adcc1f86f305a93.webp"></a>\
+  <a href="miku/a448edcf1710ddcefbd673b2b7d01133.webp"><img src="miku/a448edcf1710ddcefbd673b2b7d01133.webp"></a>\
+  <a href="miku/af7a510515e8a09f05c1067f43b4af72.webp"><img src="miku/af7a510515e8a09f05c1067f43b4af72.webp"></a>\
+  <a href="miku/89e14c071e0ab1111e7730fbfd08ee0e.webp"><img src="miku/89e14c071e0ab1111e7730fbfd08ee0e.webp"></a>\
+  <a href="miku/c5443b5a4bfb09c0dfa1710e0a329c6b.webp"><img src="miku/c5443b5a4bfb09c0dfa1710e0a329c6b.webp"></a>\
+  <a href="miku/b9c5728351db9b191cd90d8fb3ddb1e0.webp"><img src="miku/b9c5728351db9b191cd90d8fb3ddb1e0.webp"></a>\
+  <a href="miku/87fe2e17b40279f9c503241a32034c0ec0533468.webp"><img src="miku/87fe2e17b40279f9c503241a32034c0ec0533468.webp"></a>\
+  <a href="miku/7cca25e099035f1167b751f1ced16840.webp"><img src="miku/7cca25e099035f1167b751f1ced16840.webp"></a>\
+  <a href="miku/4c2180e435c818b0349acb820f6c0f02.webp"><img src="miku/4c2180e435c818b0349acb820f6c0f02.webp"></a>\
+  <a href="miku/a6f85af61c528e507853a8d451be4d0a.webp"><img src="miku/a6f85af61c528e507853a8d451be4d0a.webp"></a>\
+  <a href="miku/e31d051206aadd464177352663ab3130.webp"><img src="miku/e31d051206aadd464177352663ab3130.webp"></a>`+
+  linkedImage(`/r34/miku/a9baff4ebd3e3b41b70b4fc427027789.webp`)+
   `
-  ${linkedImage('/r34/miku/72f97290dc4b70afc23674b3aa9bbcd0e6b7779e.jpeg')}
-  ${linkedImage('/r34/miku/f6c586cd037673a6935464dbe4b73fb3.jpeg')}
-  ${linkedImage('/r34/miku/f0b22ec98a5a2712861fc5b74122a76e436fc8aa.jpeg')}
-  ${linkedImage('/r34/miku/df1895af098812562b021ec4ef08e816.jpeg')}
-  ${linkedImage('/r34/miku/35f89cb2c1eea92ed997aaf435296fff.jpeg')}
-  ${linkedImage('/r34/miku/fec0644f173d1c3ad881e5bcf5a26ed1.jpeg')}
-  ${linkedImage('/r34/miku/64545bea958f70bde1421b9495b1ce82.jpeg')}
-  ${linkedImage('/r34/miku/3bb55d977c6393989120dc3bd1d10e21.jpeg')}
-  ${linkedImage('/r34/miku/33395f38297dd6b9337fc0eb088121c5.jpeg')}
-  ${linkedImage('/r34/miku/f6c4568e6d873394fe594f7bcd2b5e78.jpeg')}
-  ${linkedImage('/r34/miku/93a9d8cef62b59d67e1a83de96d2859a.jpeg')}
-  ${linkedImage('/r34/miku/751a8e3870401415e019af595f9cbcccb1ba121b.jpeg')}
-  ${linkedImage('/r34/miku/8cf4cf124e5aceb4457294b9ae3eb7fb37521b11.jpeg')}
-  ${linkedImage('/r34/miku/ac057cbc4d52f4ad4e7e55476df7a3003601b6f1.jpeg')}
-  ${linkedImage('/r34/miku/c7d9369089cad44ca2cd3a9cd7d45735f872c087.jpeg')}
-  ${linkedImage('/r34/miku/e66f2c59bf76855068f99610b267b65243013a00.jpeg')}
-  ${linkedImage('/r34/miku/beebspacemermaid.bsky.social-3mmrhosalsc2l.jpeg')}
+  ${linkedImage('/r34/miku/72f97290dc4b70afc23674b3aa9bbcd0e6b7779e.webp')}
+  ${linkedImage('/r34/miku/f6c586cd037673a6935464dbe4b73fb3.webp')}
+  ${linkedImage('/r34/miku/f0b22ec98a5a2712861fc5b74122a76e436fc8aa.webp')}
+  ${linkedImage('/r34/miku/df1895af098812562b021ec4ef08e816.webp')}
+  ${linkedImage('/r34/miku/35f89cb2c1eea92ed997aaf435296fff.webp')}
+  ${linkedImage('/r34/miku/fec0644f173d1c3ad881e5bcf5a26ed1.webp')}
+  ${linkedImage('/r34/miku/64545bea958f70bde1421b9495b1ce82.webp')}
+  ${linkedImage('/r34/miku/3bb55d977c6393989120dc3bd1d10e21.webp')}
+  ${linkedImage('/r34/miku/33395f38297dd6b9337fc0eb088121c5.webp')}
+  ${linkedImage('/r34/miku/f6c4568e6d873394fe594f7bcd2b5e78.webp')}
+  ${linkedImage('/r34/miku/93a9d8cef62b59d67e1a83de96d2859a.webp')}
+  ${linkedImage('/r34/miku/751a8e3870401415e019af595f9cbcccb1ba121b.webp')}
+  ${linkedImage('/r34/miku/8cf4cf124e5aceb4457294b9ae3eb7fb37521b11.webp')}
+  ${linkedImage('/r34/miku/ac057cbc4d52f4ad4e7e55476df7a3003601b6f1.webp')}
+  ${linkedImage('/r34/miku/c7d9369089cad44ca2cd3a9cd7d45735f872c087.webp')}
+  ${linkedImage('/r34/miku/e66f2c59bf76855068f99610b267b65243013a00.webp')}
+  ${linkedImage('/r34/miku/beebspacemermaid.bsky.social-3mmrhosalsc2l.webp')}
+  <br><br>
+  ${linkedImage('/r34/miku/')}
   `,
 
   `${ah2('traditional art')}
