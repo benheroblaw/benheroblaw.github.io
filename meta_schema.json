@@ -51,6 +51,12 @@
       "examples": [
         "your_credits"
       ]
+    },
+    "description": {
+      "type": "string",
+      "examples": [
+        "your_description"
+      ]
     }
   },
   "required": [
