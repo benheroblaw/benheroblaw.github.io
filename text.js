@@ -1196,3 +1196,33 @@ var PxKxM_draft = [
 var PxKxM = [
   background('placeholder for now')
 ]
+
+let dirtiness_essay = [
+  chapter('', '',
+    paragraph(`The cultural idea of something being "dirty" is foreign to me.
+
+    I live in a lot of kink-positive spaces on the internet, so nothing is really "disallowed" or anything to that effect. You can like anything you like.
+
+    Some of the things enjoyed in the spaces I inhabit are generally seen as "bad", like rape.
+
+    I agree that rape is bad. I also raise the idea: <i>No real people are being assaulted.</i>
+
+    I believe that "rape", in the cultural sense of "person being forced (most likely physically, and most likely a man forcing himself on a woman) into sex", is bad.
+
+    Honestly, that kind of rapist can burn in hell at this very moment. Don't wait for them to die.
+
+    The big factor I object to in this idea of rape is lack of consent.
+    "No shit! Rape is always non-consensual!"
+    Fun fact: People like roleplaying situations like this. This is why safewords and other methods of what I will call "extended consent" exist.
+
+    (If you know what I mean by "extended consent", you can skip this section.) "Extended consent" is a way for people to experience, most likely "taboo", sexual ideas safely. For example: take a person who gets aroused by reading about girls holding knives to each other's throats, and has determined that they find the "having a knife held to their throat" part arousing. There are many reasons why "normal" people would discourage them from trying this in real life; the inherent danger of a knife, the chance that their partner could "go too far", and many others.
+    This is where extended consent comes in. This theoretical person could ask a very trusted partner to hold a knife to their throat, explicitly tell their partner, "I want you to hold a knife to my throat." So, their partner holds a (real, sharp) knife to their throat, being very careful not to harm them, and will immediately back off upon hearing the word "stop", or any other word or phrase both of them have agreed means "Stop." (this is called a safeword; to my knowledge, a "safe phrase" is also called a safeword.)
+    (extended consent over!)
+
+    Something I notice often in kink- and kink-adjacent communities, in reference to real people, is an undercurrent of safety. (Fiction is a free-for-all.)
+
+    Fiction, however, is not subject to this ideal of safety. You can do whatever you want in fiction. Involvement of real people obviously removes the shield of "fiction" from a work, so if someone is writing about how they want to rape an actual person, trying to portray that real person in their work, that should be investigated and dealt with.
+
+    Self-inserts occupy a middle ground and should be treated more like a real person than a fictional character. This does, however, depend on the amount of themself the creator has put into this self-insert, and the creator's own boundaries. A character made by a creator to be loosely based on themself should be respected based on what a creator says you can do with them, including not creating works featuring this character at all.`)
+  )
+]

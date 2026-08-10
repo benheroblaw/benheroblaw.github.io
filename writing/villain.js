@@ -537,8 +537,8 @@ var villainess = [
   `<link rel=\"icon\" href=\"/icons/story.png\">\
   <style>p {margin-bottom: 0.75rem}</style>
   <title>The Shadow Judge</title>
-  <h2>???</h2>\
-  <h1 id='char' class='vampire'>Villain vs Hero 2</h1>\
+  <h2>2/h2>\
+  <h1 id='char' class='vampire'>Hero</h1>\
   <div class='background'>\
     <p>I've been thinking about the woman I killed recently.
 
@@ -604,7 +604,165 @@ var villainess = [
 
     Something wraps around my arms.
 
-    Cool, somewhat soft, smooth things pull my wrists above my head and my sword out of my hand.</p>
+    Cool, somewhat soft, smooth things pull my wrists above my head and my sword out of my hand.
+
+    I feel a presence approach me.
+
+    Then, I feel the bite of an unexpected touch, her hands- I can only assume these hands are hers- imposing themselves on my waist.
+
+    She pulls herself closer.
+
+    Tendrils of shadow snake up my torso, finding latches and buckles on the straps holding my breastplate in place.
+
+    She undoes latches and buckles, lifting my armour away from my body.
+
+    My torso is now easily accessible, but she leans her head toward mine.
+
+    She presses our lips together, gently pulling me into a kiss that I cannot decipher.
+
+    Why is she showing me affection?
+
+    I cut this woman down.
+
+    She should hate me.
+
+    Why is she laying kisses upon my neck as if she loves me?
+
+    Why is she-
+
+    "S-stop..." I force the words out of my mouth, and she halts her attempt to free my body from another layer of clothing.
+
+    "You will allow me to kiss you, strip you of your armour, yet you draw your line at allowing me to disrobe you?"
+
+    Why does she sound disappointed?
+
+    "We are under cover of shadow."
+
+    I want to say yes.
+
+    "I cannot see you, as surely as you cannot see me."
+
+    But we're not supposed to.
+
+    "I can sense the outline of your body."
+
+    Why do I want her to see?
+
+    "But, here, I cannot know more than a frame."
+
+    I want to let her.
+
+    "Gods above, I want to know so much more."
+
+    But this is not the path relationships are meant to follow.
+
+    "Yet, if you only allow me a frame, I will cherish what I know."
+
+    We're not...
+
+    "I will only learn what you allow me, what you show me, and I will cherish it."
+
+    We're not supposed...
+
+    "I will always cherish whatever you decide to show me."
+
+    Gods forgive me.
+
+    "If you only allow me the memory of your lips, that is all I will take from you."
+
+    Gods forgive my weakness.
+
+    "I will take only what you give."
+
+    Gods, why must you make this so hard?
+
+    "I want to take everything you offer me, everything you are willing to give."
+
+    "I..."
+
+    She pauses, waiting for me to continue.
+
+    "I... I-I want..."
+
+    Gods, why does she have such patience?
+
+    "Please..."
+
+    She stands, waiting, but not expecting.
+
+    Words elude me.
+
+    So...
+
+    I pull at the shadows keeping my arms up.
+
+    She lets me go.
+
+    I take her hands in mine.
+
+    How I envy her steadiness.
+
+    My hands are shaking so hard, I have difficulty moving her hands where I want them.
+
+    How can she wait, and wait, wait through all of my struggles, and not place any weight on my shoulders?
+
+    For the massive pressure on me...
+
+    Is only from myself.
+
+    Is it not?
+
+    Nothing about her makes me feel pressured, as though she places no expectations for me to bear.
+
+    Or...
+
+    Maybe she does place an expectation upon me.
+
+    The expectation that I will do only what I want.
+
+    That if I do not want her in a way, I must tell her.
+
+    She will halt at a moment's notice.
+
+    She...
+
+    She might be the person I feel most comfortable with.
+
+    I bring her hands up to the button at the top of my tunic.
+
+    My hands shake too hard to do any more than place her fingers upon it.
+
+    "You- y-you can..."
+
+    I cannot finish such a simple sentence.
+
+    Yet she understands me.
+
+    Her fingers move, out of my control, slipping the button out of its hole.
+
+    She moves her fingers above the next button, and pauses,
+
+    waiting for me to tell her to continue.
+
+    I caress her hands, slowly pushing her fingers onto my tunic.
+
+    Again she slips the button out.
+
+    Again she moves her hands.
+
+    Again I push her hands down.
+
+    Her fingers press into my chest, ever so slightly.
+
+    And she pauses.
+
+    I do my best to push her fingers closer to the button.
+
+    Again she slips the button out.
+
+    She starts moving more confidently, as I move with her.
+
+    </p>
   </div>`,
 
   `<title>The Shadow Judge</title>` +
@@ -700,7 +858,9 @@ var villainess = [
 
     "I am here to vanquish you, Villain."
 
-    Her expression does not change.
+    Her expression does not change, but...
+
+    But I think I hear her breathe a small, disappointed sigh.
 
     "Come outside," she said, unfolding her frame into a standing position.
 
@@ -820,7 +980,7 @@ var villainess = [
 
     Which is why I usher you to the exit
 
-    Instead of saying you should read what makes you uncomfortable.
+    Instead of saying you should continue.
 
     If something makes you that uncomfortable
 

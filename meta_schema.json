@@ -61,7 +61,9 @@
     "tags": {
       "type": "array",
       "examples": [
-        "your_tags"
+        [
+          "your_tags"
+        ]
       ]
     }
   },
