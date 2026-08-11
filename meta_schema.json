@@ -38,6 +38,12 @@
         "your_name"
       ]
     },
+    "authors": {
+      "type": "string",
+      "examples": [
+        "your_names"
+      ]
+    },
     "links": {
       "type": "string",
       "examples": [
