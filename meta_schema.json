@@ -47,8 +47,7 @@
     "links": {
       "type": "string",
       "examples": [
-        "your_links",
-        "https://benheroblaw.github.io/"
+        "your_links"
       ],
       "format": "uri"
     },
