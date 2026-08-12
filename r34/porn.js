@@ -1505,7 +1505,7 @@ let zko = [
   `
 ]
 
-let hentai = [
+var hentai = [
   linkedImage('/r34/hentai/28ef243b8fc2b268ae4ce33f3117cb9c0426a06a.webp') +
   linkedImage('/r34/hentai/da294a5d26ced20e017114f3a41d4cbb88ffb540.webp') +
   `<br><br>` +

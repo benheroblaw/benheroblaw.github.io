@@ -987,13 +987,16 @@ function qSelA(params='') {
   return document.querySelectorAll(params)
 }
 
-function linkedImage(link, title='', linebreak='') {
+function linkedImage(link, title='', id='', linebreak='') {
   var output = ` <a href="${link}"`
   if (title != '') {
     output += ` title="${title}"`
   }
   else {
     output += ``
+  }
+  if (id != '') {
+    output += ` id="${id}"`
   }
   output += `><img src="${link}"></a> `
   if (linebreak != '') {output += '<br>'}
@@ -1183,6 +1186,22 @@ function chapter(descriptor='', title='', content='', bg_linebreak=false) {
     output += background(content, bg_linebreak)
   }
   // output = header2(descriptor) + header1(title) + background(content, linebreak)
+  return output
+}
+
+function container(contents='', id='', classs='') {
+  output = '<div'
+  if (classs != '') {
+    output += ` class="${classs}"`
+  }
+  if (id != '') {
+    output += ` id="${id}"`
+  }
+  output += '>'
+  if (contents != '') {
+    output += contents
+  }
+  output += '</div>'
   return output
 }
 
