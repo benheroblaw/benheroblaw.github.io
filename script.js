@@ -30,7 +30,7 @@ var pornSidebar = `\
   <a class="blue" href="/r34/irl.html"><span>IRL</span></a><br>\
   <a class="blue" href="/r34/mario.html"><span>Mario</span></a><br>\
   <a href="/r34/miku.html" id="cavestory" class="blue" onmouseenter="gewi(\'mikuhead\').src=\'/icons/mikuSelected.png\'" onmouseleave="gewi(\'mikuhead\').src=\'/icons/miku.png\'" onload="gewi(\'mikuhead\').src=\'/icons/miku.png\'"><span>Miku</span> <img src="/icons/miku.png" style="border: none; width: 1rem; height: 1rem" id="mikuhead"></a><br>\
-  <a class="blue" href="/r34/Overwatch.html"><span>Overwatch</span></a><br>\
+  <a class="blue" href="/r34/overwatch.html"><span>overwatch</span></a><br>\
   <a class="blue" href="/r34/other.html"><span>Other</span></a><br>\
   <a class="blue" href="/r34/pokemon.html"><span>Pokemon</span></a><br>\
   <a class="blue" href="/r34/rouge.html"><span>Rouge the Bat</span></a><br>\

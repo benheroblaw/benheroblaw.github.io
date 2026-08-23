@@ -30,18 +30,24 @@ var irl = [`\
   <video preload="auto" controls src="/r34/phub/[pornhubdownloader.io]_720P_4000K_438446321.mp4">no porn for you :(</video>\
   <video preload="auto" controls src="/r34/phub/[pornhubdownloader.io]_720P_4000K_441827181.mp4">no porn for you :(</video>\
   <video preload="auto" controls src="/r34/phub/[pornhubdownloader.io]_720P_4000K_448923881.mp4">no porn for you :(</video>\
-  <video preload="auto" controls src="/r34/phub/[pornhubdownloader.io]_720P_4000K_16651015.mp4">no porn for you :(</video>\
+  <video preload="auto" controls src="/r34/phub/[pornhubdownloader.io]_720P_4000K_16651015.mp4">no porn for you :(</video><br><br>
   ${linkVideo('/r34/irl/alizevert.bsky.social-3mosy7x6kzk2x.mp4')}
-  </p>`,
-
-  `<p>other<br>\
-  <video preload="auto" controls src="/r34/phub/Toy is too small for my big cock.mp4">no porn for you :(</video>\
-  <video preload="auto" controls src="/r34/phub/compressO-idk.mp4">no porn for you :(</video>\
+  ${linkVideo('/r34/irl/alizevert.bsky.social-3mr3sr7e4v226.mp4')}
   </p>`,
 
   `${addLink('https://realbooru.com/index.php?page=post&s=list&tags=chastissy','chastissy')}<br>
   ${linkVideo('/r34/irl/8229c832cddcd9c892e40eb2e04fa690.mp4')}
   ${linkVideo('/r34/irl/99d3ee8dd53df3899c4385d1216a3ca5.webm')}`,
+
+  `${addLink('https://www.pillowfort.social/Smudger', 'Smudger')}<br>
+  ${linkedImage('/r34/irl/283675c651d026bbd039.webp')}
+  ${linkedImage('/r34/irl/e2a1532d8d4e17375731.webp')}
+  ${linkedImage('/')}`,
+
+  `<p>other<br>\
+  <video preload="auto" controls src="/r34/phub/Toy is too small for my big cock.mp4">no porn for you :(</video>\
+  <video preload="auto" controls src="/r34/phub/compressO-idk.mp4">no porn for you :(</video>\
+  </p>`,
 
   `<p>images<br>\
   ${linkedImage("/r34/irl/GbQeSrYakAMKch1.webp")}
@@ -222,35 +228,35 @@ var belle_boob_contest = belle_boob_contest_table
 
 
 var brMigu = [
-  '8e729b2c1d74a5a6b7a75c428f9441cb.jpeg', // 1
-  'de87fdef8dfa5f55c9eb3c58396d3fa1.jpeg', // 2
-  '5050d7f4ca2ee35e347d871b79a5661d.jpeg', // 3
-  '1cf744d152c644f02e1d6e92e77311ef.jpeg', // 4
-  '452ad9703fefbdef4704f320b5ad3780.jpeg', // 5
-  '6c5e5eb2566956de4657923d6372d943.jpeg', // 6
-  'ddc71ccad9f1ae5e7fa56e4c257cd800.jpeg', // 7
-  'cde6bf81a6acfecdcef56af0e45e6442.jpeg', // 8
-  'c97e03aaf210e6494c25684bfc4b6af1.jpeg', // 9-1
-  '48b67a2bc51e1dc157e52d494ba2e17e.jpeg', // 9-2
-  '2c9240fe859430b4633bf7b2db8c84a4.jpeg', // 10
-  'c4e727d90113f3b53f4f2a32ef21641a.jpeg', // 11
-  'c226b06aead015342787ced01cbcff40.jpeg', // 12
-  '27f8e7fb6677664dc872e24408776399.jpeg', // 13-1
-  '62635eab3dc2a0f7f2d4568c5686b8a6.jpeg', // 13-2
-  '0e647b83f8f950877f49b21fdaa65561.jpeg', // 14-1
-  'efcfd4cffdd59f0a49a3010a4687f73d.jpeg', // 14-2
-  '83f8b5d0e6e8f9c18f2305c7d9523017.jpeg', // 15
-  '825259c0ab1fc523b6f39371b1fdc0c7.jpeg', // 16
-  'ac25be01d8118622ad63384e21643b38.jpeg', // 17
-  '77781ec89976478d9a278f6b8a24ab7a.jpeg', // 18
-  '753a48328b7a725b80fa25838b3b2d9c.jpeg', // 19-1
-  '34f8161983ad7f1e91e8703521ae7839.jpeg', // 19-2
-  '09159f366ecc7c5d38bb84a34b45847d.jpeg', // 20-1
-  '85493997107ad570ecd1741b43863bad.jpeg', // 20-2
-  '22e5232ba98adf2c9119621aa1e1ec67.jpeg', // 21
-  'b08f816ed402442ce4cfec4fbef0a8bb.jpeg', // 22
-  '0cb2579324e2f3c4c6ac80479b5ba91d.jpeg', // 23-1
-  '5d607c5d4173e849265f54148d8f10c0.jpeg', // 23-2
+  '8e729b2c1d74a5a6b7a75c428f9441cb.webp', // 1
+  'de87fdef8dfa5f55c9eb3c58396d3fa1.webp', // 2
+  '5050d7f4ca2ee35e347d871b79a5661d.webp', // 3
+  '1cf744d152c644f02e1d6e92e77311ef.webp', // 4
+  '452ad9703fefbdef4704f320b5ad3780.webp', // 5
+  '6c5e5eb2566956de4657923d6372d943.webp', // 6
+  'ddc71ccad9f1ae5e7fa56e4c257cd800.webp', // 7
+  'cde6bf81a6acfecdcef56af0e45e6442.webp', // 8
+  'c97e03aaf210e6494c25684bfc4b6af1.webp', // 9-1
+  '48b67a2bc51e1dc157e52d494ba2e17e.webp', // 9-2
+  '2c9240fe859430b4633bf7b2db8c84a4.webp', // 10
+  'c4e727d90113f3b53f4f2a32ef21641a.webp', // 11
+  'c226b06aead015342787ced01cbcff40.webp', // 12
+  '27f8e7fb6677664dc872e24408776399.webp', // 13-1
+  '62635eab3dc2a0f7f2d4568c5686b8a6.webp', // 13-2
+  '0e647b83f8f950877f49b21fdaa65561.webp', // 14-1
+  'efcfd4cffdd59f0a49a3010a4687f73d.webp', // 14-2
+  '83f8b5d0e6e8f9c18f2305c7d9523017.webp', // 15
+  '825259c0ab1fc523b6f39371b1fdc0c7.webp', // 16
+  'ac25be01d8118622ad63384e21643b38.webp', // 17
+  '77781ec89976478d9a278f6b8a24ab7a.webp', // 18
+  '753a48328b7a725b80fa25838b3b2d9c.webp', // 19-1
+  '34f8161983ad7f1e91e8703521ae7839.webp', // 19-2
+  '09159f366ecc7c5d38bb84a34b45847d.webp', // 20-1
+  '85493997107ad570ecd1741b43863bad.webp', // 20-2
+  '22e5232ba98adf2c9119621aa1e1ec67.webp', // 21
+  'b08f816ed402442ce4cfec4fbef0a8bb.webp', // 22
+  '0cb2579324e2f3c4c6ac80479b5ba91d.webp', // 23-1
+  '5d607c5d4173e849265f54148d8f10c0.webp', // 23-2
 ]
 let miku = [
   `<link rel="icon" href="/icons/mikuSelected.png">
@@ -311,41 +317,41 @@ let miku = [
 
   `${ah2('traditional art')}
   sfw<br>
-  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3ml4vo5kbgk2j.jpeg', '')}
-  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3ml7htkwrmc2z.jpeg', '')}
-  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mlebut235c2j.jpeg', '')}
-  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mllyubji5k2i.jpeg', '')}
-  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mmm2wjw5jk2v-1.jpeg', 'Pencil, ink and marker doodle of my familiar  transgender interpretation of Kasane Teto, with a goth aesthetic.')}
-  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mmm2wjw5jk2v-2.jpeg', 'Pencil and marker (and a little bit of watercolor) illustration of the #vocaloid GUMI, next to a sketch of goth Teto. Gumi has a bit of a retro futuristic Y2K alt girl thing going on, with just a sprinkle of manic pixie dream girl... in the most t4t yuri way possible.\n\nAnd they were roommates.')}
-  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mmm3ulah3c2v.jpeg', 'The same Gumi as in the precious picture.')}
-  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mn3gw6isp22v.jpeg', 'Pencil, ink, marker and gel pen illustration of Kasane Teto in her genie design from TRAP CHICK\'s "Approve please, Genie!"')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3ml4vo5kbgk2j.webp', '')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3ml7htkwrmc2z.webp', '')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mlebut235c2j.webp', '')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mllyubji5k2i.webp', '')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mmm2wjw5jk2v-1.webp', 'Pencil, ink and marker doodle of my familiar  transgender interpretation of Kasane Teto, with a goth aesthetic.')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mmm2wjw5jk2v-2.webp', 'Pencil and marker (and a little bit of watercolor) illustration of the #vocaloid GUMI, next to a sketch of goth Teto. Gumi has a bit of a retro futuristic Y2K alt girl thing going on, with just a sprinkle of manic pixie dream girl... in the most t4t yuri way possible.\n\nAnd they were roommates.')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mmm3ulah3c2v.webp', 'The same Gumi as in the precious picture.')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mn3gw6isp22v.webp', 'Pencil, ink, marker and gel pen illustration of Kasane Teto in her genie design from TRAP CHICK\'s "Approve please, Genie!"')}
   <br>
   nsfw<br>
-  ${linkedImage('/r34/miku/beebspacemermaid.bsky.social-3mmrhosalsc2l.jpeg', 'Traditional pencil drawing/doodle in anime style of a tanned Kasane Teto with a noticable bra tan line, topless, boobs/chest exposed, stretch marks and a bit of a chubby tummy visible :>')}
-  ${linkedImage('/r34/miku/beebspacemermaid.bsky.social-3mnq5zzkbg22e.jpeg', '')}
-  ${linkedImage('/r34/miku/beebspacemermaid.bsky.social-3mnrgqclhts2n.jpeg', '')}
-  ${linkedImage('/r34/miku/beebspacemermaid.bsky.social-3mns4iefimc2p.jpeg', '')}
-  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mklbtvbnsc27-1.jpeg', '')}
-  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mklbtvbnsc27-2.jpeg', '')}
-  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mkvfvblun22e.jpeg', 'Pencil illustration in a first-person perspective of a succubus Hatsune Miku straddled on top of you, the POV character (female coded, has a penis, quite possibly Kasane Teto) and riding you vigorously, her pierced tits bouncing with every wet thrust.\n\nMiku is wearing nothing but shoulder-length gloves and thigh-highs. She has pointy ears, a heart-shaped tail and oni-style demon horns on her forehead.\n\nShe has a sly smile and hunger in her eyes, locked into yours, unable to break eye contact as your hands grip desperately onto the hips that relentlessly smack against you, again and again and again. Who knows how many explosive releases she will coax out. Who knows how much longer you\'ll be able to stay conscious...')}
-  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mlyyegicck2f.jpeg', 'Pencil illustration of transgender Kasane Teto, caught in the act of masturbating, presumably to someone\'s used panties, with a wand massager. A laundry basket can be seen in the background. The door to the room was opened at the worst possible timing, as Teto just started ejaculating, with an expression that says "it\'s all over..."')}
-  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mm5hdcqeys2k.jpeg', 'The same as the preceding drawing but without any of the cinematic shading, and without the dramatic silhouette of an onlooker. Additionally there is a cartoonish twitch or flash signifier over Teto\'s head to indicate surprise. I felt it didn\'t match the tone in the shaded drawing so I used the healing brush to remove it in that version.')}
-  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mm3h5chpy22a.jpeg', 'Pencil illustration (with digitally added shadows) of transgender Kasane Teto, pinned to the ground right after she was caught masturbating to a used pair of panties. The laundry basket from before has fallen over, scattering more laundry about. Teto is still shaking from the orgasm that started in the last picture, and both she and the panties she used are covered in ropes of cum. She looks simultaneously ashamed, afraid, dazed and aroused.')}
-  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mmctmjbpmk2g.jpeg', 'Getting back into the groove of things.\nPencil illustration of Kasane Teto having hot, sweaty sesbian lex. She is sat on a mattress, fucking her partner from behind. Or... who is fucking who, exactly? Our femby is having trouble keeping herself composed.')}
-  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mmpgk7pxac2k.jpeg', 'Text:\n&#34;THERE you go~&#34;\n&#34;Just one more for me, ok?&#34;\n\nPencil illustration of transgender Kasane Teto getting MILKED from behind by Gumi, by way of overstim handjob. Truly, the truest form of yuri. She is aimed at a bowl on a low table, but aiming load after load is difficult...')}
-  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mmu5ctqzw22c.jpeg', 'Pencil illustration of Kasane Teto, drawn slightly chubby, with stretch marks and tanned with a bikini tanline. She is wearing a bikini *without* the top, and is in the process of tying her hair up in a novel DRILL PONYTAIL instead of her usual twin-drills. She\'s got the hair tie ready in ehr mouth.')}
-  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mn67ebiwd22k.jpeg', 'POV pencil illustration, digitally edited, of Kasane Teto riding a dildo (anal insertion) in front of a mirror in her room, girlcock spilling cum. She is grabbing her breast and tensing up as the orgasm goes on. There are little hearts in her eyes. The mirror is splattered with gock juice, and overall looks rather dirty... In the background can be seen a bed and a trans flag hanging on the wall. ')}
-  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnaxdvzots2k.jpeg', 'Pencil fanart illustration, rendered digitally, of the vocaloid ボカロ Akita Neru (27) of Triple Baka fame emotionlessly jerking off a cock with one hand while texting on her phone with her other. Not a thought is spared to the poor, precum leaking thing. Handjobs are truly an art.\n\nShe\'s wearing a black V-neck, a pink ribbon choker, curvalicious waist-high jeans and a black scrunchie to keep her side ponytail up. I\'ve chosen to depict her as perhaps a bit curvier than how she is usually portrayed. Big tits and wide hips and all. I think she looks quite nice.')}
-  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnb52ouevk2p.jpeg', 'The same drawing of Neru, but just a pencil illustration.')}
-  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnnkwdkdps2e.jpeg', 'Pencil illustration of transgender, nonbinary, chimeragender-ass Kasane Teto laid out on a mattress; overwhelmed, overstimulated, overcummed. She is covered in lipstick marks, hickies and bite marks. Sex toys, condom wrappings and cum-filled condoms are scattered around and on her. One is still wrapped tightly on her gock, filling up as it twitches and pumps. She shivers and convulses, flustered face covered by her hands.')}
-  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnpsfikuhc2e.jpeg', 'Sketchbook pencil illustration of the Vocaloid Hatsune Miku except from Brazil (AKA Brazilian Miku), tanned and ready for the beach in her bikini. She\'s sweating i nthe sun and is holding a can of Guaraná against her cheek to cool off.')}
-  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnq3ws323k26.jpeg', 'Sketchbook pencil illustration of the Vocaloid Hatsune Miku except from Brazil (AKA Brazilian Miku), tanned and ready for the beach in her bikini. She\'s sweating in the sun and is holding a can of Guaraná against her cheek to cool off.\n\nIn this full, uncropped variant of the drawing we can see that her shorts are open and her massive slab of meat is out dangling.')}
-  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnsoyjt5is2w.jpeg', 'Pencil illustration of vocaloid Hatsune Miku furiously masturbating while huffing Brazilian Miku\'s junk, which is pressed up against and across Miku\'s face. The long slab of girlmeat, intact with foreskin, covers her eyes, while puffy, churning balls are nuzzled up against her cheek. A long, thick string of precum is oozing out of the tip of the girlcock. Once it makes contact with Miku\'s skin, the sensation of it might actually drive her over the edge......\n\nSelfcest arc??? MikuXMiku gay sex?? Get excited!')}
-  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnv6rj2qe222.jpeg', 'Pencil+digital illustration of the vocaloid Hatsune Miku furiously masturbating (and squirting!) with her mouth full of Brazilian Miku\'s girlcum; the latter\'s cock being pressed up against her face, slick with saliva trails and still oozing thick cum. Miku\'s chest is glazed with wet sticky strands and she is blowing cum bubbles with her heavy, ragged breathing. One can imagine all that voice training is paying off.\n\nTruly the best kind of cumsoaked selfcest yuri, and they haven\'t even FUCKED yet......')}
-  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnvbp3x5y22h.jpeg', 'The same drawing of Hatsune Miku splattered with cum and with a cock on her face, but cropped in a way that it focuses much more on those specific things.')}
-  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnwpjosff22m.jpeg', 'Mixed media (pencil + digital) illustration, POV, of famed Vocaloid Hatsune Miku being fucked missionary, or quite possibly in mating press. Her breasts are bouncing back and forth from the motion. Hands belonging to Brazilian Miku (selfcest yuri! wooo!) are grasping Miku\'s cheeks and holding her head in place to maintain eye contact as she is pounded. A thumb has found its way into Miku\'s mouth. Hearts can be seen in Miku\'s eyes and around her as she is fucked to ecstacy.')}
-  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnzeu3jw2c2c.jpeg', 'Two drawings, side by side, of a large intact penis standing erect. First, covered completely in its hood of skin. Then, with a hand pulling down the skin and exposing the sensitive head, causing a twitch and a splash of precum, along with a moan. The tight ring of the foreskin tip strains the meat\'s girth somewhat as it passes over it, creating an hourglass shape.\n\nThis educational demonstration was kindly provided by Brazilian Miku and non-Brazilian Hatsune Miku.')}
-  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mo7bjzbsys2w.jpeg', 'Illustration of Hatsune Miku fingering herself.')}
+  ${linkedImage('/r34/miku/beebspacemermaid.bsky.social-3mmrhosalsc2l.webp', 'Traditional pencil drawing/doodle in anime style of a tanned Kasane Teto with a noticable bra tan line, topless, boobs/chest exposed, stretch marks and a bit of a chubby tummy visible :>')}
+  ${linkedImage('/r34/miku/beebspacemermaid.bsky.social-3mnq5zzkbg22e.webp', '')}
+  ${linkedImage('/r34/miku/beebspacemermaid.bsky.social-3mnrgqclhts2n.webp', '')}
+  ${linkedImage('/r34/miku/beebspacemermaid.bsky.social-3mns4iefimc2p.webp', '')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mklbtvbnsc27-1.webp', '')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mklbtvbnsc27-2.webp', '')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mkvfvblun22e.webp', 'Pencil illustration in a first-person perspective of a succubus Hatsune Miku straddled on top of you, the POV character (female coded, has a penis, quite possibly Kasane Teto) and riding you vigorously, her pierced tits bouncing with every wet thrust.\n\nMiku is wearing nothing but shoulder-length gloves and thigh-highs. She has pointy ears, a heart-shaped tail and oni-style demon horns on her forehead.\n\nShe has a sly smile and hunger in her eyes, locked into yours, unable to break eye contact as your hands grip desperately onto the hips that relentlessly smack against you, again and again and again. Who knows how many explosive releases she will coax out. Who knows how much longer you\'ll be able to stay conscious...')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mlyyegicck2f.webp', 'Pencil illustration of transgender Kasane Teto, caught in the act of masturbating, presumably to someone\'s used panties, with a wand massager. A laundry basket can be seen in the background. The door to the room was opened at the worst possible timing, as Teto just started ejaculating, with an expression that says "it\'s all over..."')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mm5hdcqeys2k.webp', 'The same as the preceding drawing but without any of the cinematic shading, and without the dramatic silhouette of an onlooker. Additionally there is a cartoonish twitch or flash signifier over Teto\'s head to indicate surprise. I felt it didn\'t match the tone in the shaded drawing so I used the healing brush to remove it in that version.')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mm3h5chpy22a.webp', 'Pencil illustration (with digitally added shadows) of transgender Kasane Teto, pinned to the ground right after she was caught masturbating to a used pair of panties. The laundry basket from before has fallen over, scattering more laundry about. Teto is still shaking from the orgasm that started in the last picture, and both she and the panties she used are covered in ropes of cum. She looks simultaneously ashamed, afraid, dazed and aroused.')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mmctmjbpmk2g.webp', 'Getting back into the groove of things.\nPencil illustration of Kasane Teto having hot, sweaty sesbian lex. She is sat on a mattress, fucking her partner from behind. Or... who is fucking who, exactly? Our femby is having trouble keeping herself composed.')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mmpgk7pxac2k.webp', 'Text:\n&#34;THERE you go~&#34;\n&#34;Just one more for me, ok?&#34;\n\nPencil illustration of transgender Kasane Teto getting MILKED from behind by Gumi, by way of overstim handjob. Truly, the truest form of yuri. She is aimed at a bowl on a low table, but aiming load after load is difficult...')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mmu5ctqzw22c.webp', 'Pencil illustration of Kasane Teto, drawn slightly chubby, with stretch marks and tanned with a bikini tanline. She is wearing a bikini *without* the top, and is in the process of tying her hair up in a novel DRILL PONYTAIL instead of her usual twin-drills. She\'s got the hair tie ready in ehr mouth.')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mn67ebiwd22k.webp', 'POV pencil illustration, digitally edited, of Kasane Teto riding a dildo (anal insertion) in front of a mirror in her room, girlcock spilling cum. She is grabbing her breast and tensing up as the orgasm goes on. There are little hearts in her eyes. The mirror is splattered with gock juice, and overall looks rather dirty... In the background can be seen a bed and a trans flag hanging on the wall. ')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnaxdvzots2k.webp', 'Pencil fanart illustration, rendered digitally, of the vocaloid ボカロ Akita Neru (27) of Triple Baka fame emotionlessly jerking off a cock with one hand while texting on her phone with her other. Not a thought is spared to the poor, precum leaking thing. Handjobs are truly an art.\n\nShe\'s wearing a black V-neck, a pink ribbon choker, curvalicious waist-high jeans and a black scrunchie to keep her side ponytail up. I\'ve chosen to depict her as perhaps a bit curvier than how she is usually portrayed. Big tits and wide hips and all. I think she looks quite nice.')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnb52ouevk2p.webp', 'The same drawing of Neru, but just a pencil illustration.')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnnkwdkdps2e.webp', 'Pencil illustration of transgender, nonbinary, chimeragender-ass Kasane Teto laid out on a mattress; overwhelmed, overstimulated, overcummed. She is covered in lipstick marks, hickies and bite marks. Sex toys, condom wrappings and cum-filled condoms are scattered around and on her. One is still wrapped tightly on her gock, filling up as it twitches and pumps. She shivers and convulses, flustered face covered by her hands.')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnpsfikuhc2e.webp', 'Sketchbook pencil illustration of the Vocaloid Hatsune Miku except from Brazil (AKA Brazilian Miku), tanned and ready for the beach in her bikini. She\'s sweating i nthe sun and is holding a can of Guaraná against her cheek to cool off.')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnq3ws323k26.webp', 'Sketchbook pencil illustration of the Vocaloid Hatsune Miku except from Brazil (AKA Brazilian Miku), tanned and ready for the beach in her bikini. She\'s sweating in the sun and is holding a can of Guaraná against her cheek to cool off.\n\nIn this full, uncropped variant of the drawing we can see that her shorts are open and her massive slab of meat is out dangling.')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnsoyjt5is2w.webp', 'Pencil illustration of vocaloid Hatsune Miku furiously masturbating while huffing Brazilian Miku\'s junk, which is pressed up against and across Miku\'s face. The long slab of girlmeat, intact with foreskin, covers her eyes, while puffy, churning balls are nuzzled up against her cheek. A long, thick string of precum is oozing out of the tip of the girlcock. Once it makes contact with Miku\'s skin, the sensation of it might actually drive her over the edge......\n\nSelfcest arc??? MikuXMiku gay sex?? Get excited!')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnv6rj2qe222.webp', 'Pencil+digital illustration of the vocaloid Hatsune Miku furiously masturbating (and squirting!) with her mouth full of Brazilian Miku\'s girlcum; the latter\'s cock being pressed up against her face, slick with saliva trails and still oozing thick cum. Miku\'s chest is glazed with wet sticky strands and she is blowing cum bubbles with her heavy, ragged breathing. One can imagine all that voice training is paying off.\n\nTruly the best kind of cumsoaked selfcest yuri, and they haven\'t even FUCKED yet......')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnvbp3x5y22h.webp', 'The same drawing of Hatsune Miku splattered with cum and with a cock on her face, but cropped in a way that it focuses much more on those specific things.')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnwpjosff22m.webp', 'Mixed media (pencil + digital) illustration, POV, of famed Vocaloid Hatsune Miku being fucked missionary, or quite possibly in mating press. Her breasts are bouncing back and forth from the motion. Hands belonging to Brazilian Miku (selfcest yuri! wooo!) are grasping Miku\'s cheeks and holding her head in place to maintain eye contact as she is pounded. A thumb has found its way into Miku\'s mouth. Hearts can be seen in Miku\'s eyes and around her as she is fucked to ecstacy.')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnzeu3jw2c2c.webp', 'Two drawings, side by side, of a large intact penis standing erect. First, covered completely in its hood of skin. Then, with a hand pulling down the skin and exposing the sensitive head, causing a twitch and a splash of precum, along with a moan. The tight ring of the foreskin tip strains the meat\'s girth somewhat as it passes over it, creating an hourglass shape.\n\nThis educational demonstration was kindly provided by Brazilian Miku and non-Brazilian Hatsune Miku.')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mo7bjzbsys2w.webp', 'Illustration of Hatsune Miku fingering herself.')}
   `,
   //  ${linkedImage('/')}
 
@@ -357,50 +363,50 @@ let miku = [
 
   `<h2>Comic Panels</h2>
   migu teto<br>
-  ${linkedImage("miku/0f8a388730e546aef20990a60757adb8.jpeg")}
-  <a href="miku/aca37e5c7d3a15ee4ac3dae5fc397853.jpeg"><img src="miku/aca37e5c7d3a15ee4ac3dae5fc397853.jpeg"></a>\
-  <a href="miku/a621a25d706d16231608a19a8a76063e.jpeg"><img src="miku/a621a25d706d16231608a19a8a76063e.jpeg"></a>\
-  <a href="miku/18cb8a40cd9ad3d805eab50cc554af1c.jpeg"><img src="miku/18cb8a40cd9ad3d805eab50cc554af1c.jpeg"></a>\
-  <a href="miku/d343cdd5c03c1692f12d1fc2d648cee8.jpeg"><img src="miku/d343cdd5c03c1692f12d1fc2d648cee8.jpeg"></a>\
-  <a href="miku/b28ff04086d3a97c3acde2a8663a962b.jpeg"><img src="miku/b28ff04086d3a97c3acde2a8663a962b.jpeg"></a>\
+  ${linkedImage("miku/0f8a388730e546aef20990a60757adb8.webp")}
+  <a href="miku/aca37e5c7d3a15ee4ac3dae5fc397853.webp"><img src="miku/aca37e5c7d3a15ee4ac3dae5fc397853.webp"></a>\
+  <a href="miku/a621a25d706d16231608a19a8a76063e.webp"><img src="miku/a621a25d706d16231608a19a8a76063e.webp"></a>\
+  <a href="miku/18cb8a40cd9ad3d805eab50cc554af1c.webp"><img src="miku/18cb8a40cd9ad3d805eab50cc554af1c.webp"></a>\
+  <a href="miku/d343cdd5c03c1692f12d1fc2d648cee8.webp"><img src="miku/d343cdd5c03c1692f12d1fc2d648cee8.webp"></a>\
+  <a href="miku/b28ff04086d3a97c3acde2a8663a962b.webp"><img src="miku/b28ff04086d3a97c3acde2a8663a962b.webp"></a>\
   <br>
   big miku mikus<br>
-  <a href="miku/5f589b041536849fee900baf2dc57804-miku.jpeg"><img src="miku/5f589b041536849fee900baf2dc57804-miku.jpeg"></a>\
-  <a href="miku/5f589b041536849fee900baf2dc57804-teto.jpeg"><img src="miku/5f589b041536849fee900baf2dc57804-teto.jpeg"></a>\
-  <a href="miku/5f589b041536849fee900baf2dc57804-neru.jpeg"><img src="miku/5f589b041536849fee900baf2dc57804-neru.jpeg"></a>\
+  <a href="miku/5f589b041536849fee900baf2dc57804-miku.webp"><img src="miku/5f589b041536849fee900baf2dc57804-miku.webp"></a>\
+  <a href="miku/5f589b041536849fee900baf2dc57804-teto.webp"><img src="miku/5f589b041536849fee900baf2dc57804-teto.webp"></a>\
+  <a href="miku/5f589b041536849fee900baf2dc57804-neru.webp"><img src="miku/5f589b041536849fee900baf2dc57804-neru.webp"></a>\
   <br>
   cat miku<br>
-  <a href="miku/aac207d5e1785afa1229896de3b7b46a.jpeg"><img src="miku/aac207d5e1785afa1229896de3b7b46a.jpeg"></a>\
-  <a href="miku/e8dadf31a590971e14fb600d26bd2a04.jpeg"><img src="miku/e8dadf31a590971e14fb600d26bd2a04.jpeg"></a>\
-  <a href="miku/e44432dd72d3f1fdd6bbb158ce88bff1.jpeg"><img src="miku/e44432dd72d3f1fdd6bbb158ce88bff1.jpeg"></a>\
-  <a href="miku/fe6c583a47dcf5853a67fb566d11dc28.jpeg"><img src="miku/fe6c583a47dcf5853a67fb566d11dc28.jpeg"></a>\
-  <a href="miku/25aaea04ca09a28a8b66f55c878daef0.jpeg"><img src="miku/25aaea04ca09a28a8b66f55c878daef0.jpeg"></a>\
-  <a href="miku/3eeff357bfb9bb03bd62e112dd138273.jpeg"><img src="miku/3eeff357bfb9bb03bd62e112dd138273.jpeg"></a>\
+  <a href="miku/aac207d5e1785afa1229896de3b7b46a.webp"><img src="miku/aac207d5e1785afa1229896de3b7b46a.webp"></a>\
+  <a href="miku/e8dadf31a590971e14fb600d26bd2a04.webp"><img src="miku/e8dadf31a590971e14fb600d26bd2a04.webp"></a>\
+  <a href="miku/e44432dd72d3f1fdd6bbb158ce88bff1.webp"><img src="miku/e44432dd72d3f1fdd6bbb158ce88bff1.webp"></a>\
+  <a href="miku/fe6c583a47dcf5853a67fb566d11dc28.webp"><img src="miku/fe6c583a47dcf5853a67fb566d11dc28.webp"></a>\
+  <a href="miku/25aaea04ca09a28a8b66f55c878daef0.webp"><img src="miku/25aaea04ca09a28a8b66f55c878daef0.webp"></a>\
+  <a href="miku/3eeff357bfb9bb03bd62e112dd138273.webp"><img src="miku/3eeff357bfb9bb03bd62e112dd138273.webp"></a>\
   <br>
   horny miku<br>
-  <a href="miku/ac54a11bbb77e39af4d787fb09898460.jpeg"><img src="miku/ac54a11bbb77e39af4d787fb09898460.jpeg"></a>\
-  <a href="miku/62712ca8e9f4225b7d97e0beeafd7b41.jpeg"><img src="miku/62712ca8e9f4225b7d97e0beeafd7b41.jpeg"></a>\
-  <a href="miku/a388d5923fe81cca1536de440c0ce083.jpeg"><img src="miku/a388d5923fe81cca1536de440c0ce083.jpeg"></a>\
-  <a href="miku/166063370f1ad25f66d09c3fd5bb8d64.jpeg"><img src="miku/166063370f1ad25f66d09c3fd5bb8d64.jpeg"></a>\
-  <a href="miku/49d1ea68baed87d76c92ae53fe9cf5d2.jpeg"><img src="miku/49d1ea68baed87d76c92ae53fe9cf5d2.jpeg"></a>\
-  <a href="miku/998e2df3f6ff30925c7174a7095d86aa.jpeg"><img src="miku/998e2df3f6ff30925c7174a7095d86aa.jpeg"></a>\
-  <a href="miku/9d14b8ad95bc03da20cb25e7900ff2ae.jpeg"><img src="miku/9d14b8ad95bc03da20cb25e7900ff2ae.jpeg"></a>\
-  <a href="miku/389d016d5d86d261cc9e4b18099baad0.jpeg"><img src="miku/389d016d5d86d261cc9e4b18099baad0.jpeg"></a>\
-  <a href="miku/394083c311dd2fe99f8feae6beea8c14.jpeg"><img src="miku/394083c311dd2fe99f8feae6beea8c14.jpeg"></a>\
-  <a href="miku/3c0d2dfafb66d2a45be11b311d189efa.jpeg"><img src="miku/3c0d2dfafb66d2a45be11b311d189efa.jpeg"></a>\
-  <a href="miku/06a3a8cbefad71470120aa70acc86b90.jpeg"><img src="miku/06a3a8cbefad71470120aa70acc86b90.jpeg"></a>\
-  <a href="miku/9ffe692444aa4cdf8bdeb4f238826e29.jpeg"><img src="miku/9ffe692444aa4cdf8bdeb4f238826e29.jpeg"></a>\
-  <a href="miku/41c8df62ad47b2f505bdef97d4dd2cd4.jpeg"><img src="miku/41c8df62ad47b2f505bdef97d4dd2cd4.jpeg"></a>\
-  <a href="miku/0cbf6b0738ec314c17a94c498e393a4b.jpeg"><img src="miku/0cbf6b0738ec314c17a94c498e393a4b.jpeg"></a>\
+  <a href="miku/ac54a11bbb77e39af4d787fb09898460.webp"><img src="miku/ac54a11bbb77e39af4d787fb09898460.webp"></a>\
+  <a href="miku/62712ca8e9f4225b7d97e0beeafd7b41.webp"><img src="miku/62712ca8e9f4225b7d97e0beeafd7b41.webp"></a>\
+  <a href="miku/a388d5923fe81cca1536de440c0ce083.webp"><img src="miku/a388d5923fe81cca1536de440c0ce083.webp"></a>\
+  <a href="miku/166063370f1ad25f66d09c3fd5bb8d64.webp"><img src="miku/166063370f1ad25f66d09c3fd5bb8d64.webp"></a>\
+  <a href="miku/49d1ea68baed87d76c92ae53fe9cf5d2.webp"><img src="miku/49d1ea68baed87d76c92ae53fe9cf5d2.webp"></a>\
+  <a href="miku/998e2df3f6ff30925c7174a7095d86aa.webp"><img src="miku/998e2df3f6ff30925c7174a7095d86aa.webp"></a>\
+  <a href="miku/9d14b8ad95bc03da20cb25e7900ff2ae.webp"><img src="miku/9d14b8ad95bc03da20cb25e7900ff2ae.webp"></a>\
+  <a href="miku/389d016d5d86d261cc9e4b18099baad0.webp"><img src="miku/389d016d5d86d261cc9e4b18099baad0.webp"></a>\
+  <a href="miku/394083c311dd2fe99f8feae6beea8c14.webp"><img src="miku/394083c311dd2fe99f8feae6beea8c14.webp"></a>\
+  <a href="miku/3c0d2dfafb66d2a45be11b311d189efa.webp"><img src="miku/3c0d2dfafb66d2a45be11b311d189efa.webp"></a>\
+  <a href="miku/06a3a8cbefad71470120aa70acc86b90.webp"><img src="miku/06a3a8cbefad71470120aa70acc86b90.webp"></a>\
+  <a href="miku/9ffe692444aa4cdf8bdeb4f238826e29.webp"><img src="miku/9ffe692444aa4cdf8bdeb4f238826e29.webp"></a>\
+  <a href="miku/41c8df62ad47b2f505bdef97d4dd2cd4.webp"><img src="miku/41c8df62ad47b2f505bdef97d4dd2cd4.webp"></a>\
+  <a href="miku/0cbf6b0738ec314c17a94c498e393a4b.webp"><img src="miku/0cbf6b0738ec314c17a94c498e393a4b.webp"></a>\
   <br>
   verification<br>
-  ${linkedImage('/r34/miku/1ea90578d92c8c6b5aabf205ee62fea1.jpeg')}
-  ${linkedImage('/r34/miku/ce82d1e147ebae33d87fde07c2de3718.jpeg')}
-  ${linkedImage('/r34/miku/13836cbe35f11fe6a88bad46e1e32872.jpeg')}
+  ${linkedImage('/r34/miku/1ea90578d92c8c6b5aabf205ee62fea1.webp')}
+  ${linkedImage('/r34/miku/ce82d1e147ebae33d87fde07c2de3718.webp')}
+  ${linkedImage('/r34/miku/13836cbe35f11fe6a88bad46e1e32872.webp')}
   <br>
   br mikuteto<br>
-  ${linkedImage('/r34/miku/e522ba1f0cc4e020fe56998b8b1581e2.jpeg')}
-  ${linkedImage('/r34/miku/5616156ce29101d8e22df49a5e526a2e.jpeg')}
+  ${linkedImage('/r34/miku/e522ba1f0cc4e020fe56998b8b1581e2.webp')}
+  ${linkedImage('/r34/miku/5616156ce29101d8e22df49a5e526a2e.webp')}
   <br>
   br miku<br>
   `,
@@ -408,10 +414,10 @@ let miku = [
   `<link rel="icon" href="/icons/mikuSelected.png">
   <h2>Comic Strips</h2>\
   <div id="stripContainer">\
-    <div><a href="miku/5b4affe3cfd8e9f7629f75e06e061fbd.jpeg"><img src="miku/5b4affe3cfd8e9f7629f75e06e061fbd.jpeg"></a></div>\
-    <div>${linkedImage('/r34/miku/d50358b28fb2bbb5e6fb5bf222d6e756.jpeg')}</div>
-    <div><a href="miku/5f589b041536849fee900baf2dc57804.jpeg"><img src="miku/5f589b041536849fee900baf2dc57804.jpeg"></a></div>\
-    <div><a href="miku/3057fd1f959f5d6ee2c3bc184a48e6ce.jpeg"><img src="miku/3057fd1f959f5d6ee2c3bc184a48e6ce.jpeg"></a></div>\
+    <div><a href="miku/5b4affe3cfd8e9f7629f75e06e061fbd.webp"><img src="miku/5b4affe3cfd8e9f7629f75e06e061fbd.webp"></a></div>\
+    <div>${linkedImage('/r34/miku/d50358b28fb2bbb5e6fb5bf222d6e756.webp')}</div>
+    <div><a href="miku/5f589b041536849fee900baf2dc57804.webp"><img src="miku/5f589b041536849fee900baf2dc57804.webp"></a></div>\
+    <div><a href="miku/3057fd1f959f5d6ee2c3bc184a48e6ce.webp"><img src="miku/3057fd1f959f5d6ee2c3bc184a48e6ce.webp"></a></div>\
     </div>`,
 
   `miku<br>${selectableMiku()}<br>` +
@@ -422,20 +428,20 @@ let miku = [
 var brMiku = [
   `<link rel="icon" href="/icons/brmikuSelected.svg">
   ${ah2('Images')}
-  ${linkedImage('/r34/miku/e31d051206aadd464177352663ab3130.jpeg')}
-  ${linkedImage('/r34/miku/a6f85af61c528e507853a8d451be4d0a.jpeg')}
-  ${linkedImage('/r34/miku/df1895af098812562b021ec4ef08e816.jpeg')}
-  ${linkedImage('/r34/miku/35f89cb2c1eea92ed997aaf435296fff.jpeg')}
-  ${linkedImage('/r34/miku/e66f2c59bf76855068f99610b267b65243013a00.jpeg')}
-  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnpsfikuhc2e.jpeg', 'Sketchbook pencil illustration of the Vocaloid Hatsune Miku except from Brazil (AKA Brazilian Miku), tanned and ready for the beach in her bikini. She\'s sweating in the sun and is holding a can of Guaraná against her cheek to cool off.')}
-  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnq3ws323k26.jpeg', "Sketchbook pencil illustration of the Vocaloid Hatsune Miku except from Brazil (AKA Brazilian Miku), tanned and ready for the beach in her bikini. She's sweating in the sun and is holding a can of Guaraná against her cheek to cool off.\n\nIn this full, uncropped variant of the drawing we can see that her shorts are open and her massive slab of meat is out dangling.")}
-  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnsoyjt5is2w.jpeg', "Pencil illustration of vocaloid Hatsune Miku furiously masturbating while huffing Brazilian Miku's junk, which is pressed up against and across Miku's face. The long slab of girlmeat, intact with foreskin, covers her eyes, while puffy, churning balls are nuzzled up against her cheek. A long, thick string of precum is oozing out of the tip of the girlcock. Once it makes contact with Miku's skin, the sensation of it might actually drive her over the edge......\n\nSelfcest arc??? MikuXMiku gay sex?? Get excited!")}
-  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnv6rj2qe222.jpeg', "Pencil+digital illustration of the vocaloid Hatsune Miku furiously masturbating (and squirting!) with her mouth full of Brazilian Miku's girlcum; the latter's cock being pressed up against her face, slick with saliva trails and still oozing thick cum. Miku's chest is glazed with wet sticky strands and she is blowing cum bubbles with her heavy, ragged breathing. One can imagine all that voice training is paying off.\n\nTruly the best kind of cumsoaked selfcest yuri, and they haven't even FUCKED yet......")}
-  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnvbp3x5y22h.jpeg', "The same drawing of Hatsune Miku splattered with cum and with a cock on her face, but cropped in a way that it focuses much more on those specific things.")}
-  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnwpjosff22m.jpeg', "Mixed media (pencil + digital) illustration, POV, of famed Vocaloid Hatsune Miku being fucked missionary, or quite possibly in mating press. Her breasts are bouncing back and forth from the motion. Hands belonging to Brazilian Miku (selfcest yuri! wooo!) are grasping Miku's cheeks and holding her head in place to maintain eye contact as she is pounded. A thumb has found its way into Miku's mouth. Hearts can be seen in Miku's eyes and around her as she is fucked to ecstacy. ")}
+  ${linkedImage('/r34/miku/e31d051206aadd464177352663ab3130.webp')}
+  ${linkedImage('/r34/miku/a6f85af61c528e507853a8d451be4d0a.webp')}
+  ${linkedImage('/r34/miku/df1895af098812562b021ec4ef08e816.webp')}
+  ${linkedImage('/r34/miku/35f89cb2c1eea92ed997aaf435296fff.webp')}
+  ${linkedImage('/r34/miku/e66f2c59bf76855068f99610b267b65243013a00.webp')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnpsfikuhc2e.webp', 'Sketchbook pencil illustration of the Vocaloid Hatsune Miku except from Brazil (AKA Brazilian Miku), tanned and ready for the beach in her bikini. She\'s sweating in the sun and is holding a can of Guaraná against her cheek to cool off.')}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnq3ws323k26.webp', "Sketchbook pencil illustration of the Vocaloid Hatsune Miku except from Brazil (AKA Brazilian Miku), tanned and ready for the beach in her bikini. She's sweating in the sun and is holding a can of Guaraná against her cheek to cool off.\n\nIn this full, uncropped variant of the drawing we can see that her shorts are open and her massive slab of meat is out dangling.")}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnsoyjt5is2w.webp', "Pencil illustration of vocaloid Hatsune Miku furiously masturbating while huffing Brazilian Miku's junk, which is pressed up against and across Miku's face. The long slab of girlmeat, intact with foreskin, covers her eyes, while puffy, churning balls are nuzzled up against her cheek. A long, thick string of precum is oozing out of the tip of the girlcock. Once it makes contact with Miku's skin, the sensation of it might actually drive her over the edge......\n\nSelfcest arc??? MikuXMiku gay sex?? Get excited!")}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnv6rj2qe222.webp', "Pencil+digital illustration of the vocaloid Hatsune Miku furiously masturbating (and squirting!) with her mouth full of Brazilian Miku's girlcum; the latter's cock being pressed up against her face, slick with saliva trails and still oozing thick cum. Miku's chest is glazed with wet sticky strands and she is blowing cum bubbles with her heavy, ragged breathing. One can imagine all that voice training is paying off.\n\nTruly the best kind of cumsoaked selfcest yuri, and they haven't even FUCKED yet......")}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnvbp3x5y22h.webp', "The same drawing of Hatsune Miku splattered with cum and with a cock on her face, but cropped in a way that it focuses much more on those specific things.")}
+  ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mnwpjosff22m.webp', "Mixed media (pencil + digital) illustration, POV, of famed Vocaloid Hatsune Miku being fucked missionary, or quite possibly in mating press. Her breasts are bouncing back and forth from the motion. Hands belonging to Brazilian Miku (selfcest yuri! wooo!) are grasping Miku's cheeks and holding her head in place to maintain eye contact as she is pounded. A thumb has found its way into Miku's mouth. Hearts can be seen in Miku's eyes and around her as she is fucked to ecstacy. ")}
   <br>
-  ${linkedImage('/r34/miku/d26967e74cf4bb5b88f62209177c47f4.jpeg')}
-  ${linkedImage('/r34/miku/8694a05f839325fafe03ed24a53befe3.jpeg')}
+  ${linkedImage('/r34/miku/d26967e74cf4bb5b88f62209177c47f4.webp')}
+  ${linkedImage('/r34/miku/8694a05f839325fafe03ed24a53befe3.webp')}
   `,
   // ${linkedImage('/')}
   // ${linkedImage('/')}
@@ -466,21 +472,21 @@ let puddingDraws = [
   </style>
   <div class="left"><a href="https://bsky.app/profile/puddingdraws.bsky.social"><img src="/icons/Bluesky-logo-2200578589.png" class="left" style="border: none" title="PuddingDraws on Bluesky"></a></div>
 
-  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnpsfikuhc2e.jpeg', "")}
-  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mmm2wjw5jk2v-1.jpeg')}
-  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mmm2wjw5jk2v-2.jpeg')}
-  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mmm3ulah3c2v.jpeg')}
+  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnpsfikuhc2e.webp', "")}
+  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mmm2wjw5jk2v-1.webp')}
+  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mmm2wjw5jk2v-2.webp')}
+  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mmm3ulah3c2v.webp')}
   <br>
-  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnq3ws323k26.jpeg', "Sketchbook pencil illustration of the Vocaloid Hatsune Miku except from Brazil (AKA Brazilian Miku), tanned and ready for the beach in her bikini. She's sweating in the sun and is holding a can of Guaran\u00e1 against her cheek to cool off.\n\nIn this full, uncropped variant of the drawing we can see that her shorts are open and her massive slab of meat is out dangling.")}
-  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mm3h5chpy22a.jpeg', 'Pencil illustration (with digitally added shadows) of transgender Kasane Teto, pinned to the ground right after she was caught masturbating to a used pair of panties. The laundry basket from before has fallen over, scattering more laundry about. Teto is still shaking from the orgasm that started in the last picture, and both she and the panties she used are covered in ropes of cum. She looks simultaneously ashamed, afraid, dazed and aroused.')}
-  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mmpgk7pxac2k.jpeg', 'Pencil illustration of transgender Kasane Teto getting MILKED from behind by Gumi, by way of overstim handjob. Truly, the truest form of yuri. She is aimed at a bowl on a low table, but aiming load after load is difficult...')}
-  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mmu5ctqzw22c.jpeg', "Pencil illustration of Kasane Teto, drawn slightly chubby, with stretch marks and tanned with a bikini tanline. She is wearing a bikini *without* the top, and is in the process of tying her hair up in a novel DRILL PONYTAIL instead of her usual twin-drills. She's got the hair tie ready in ehr mouth.")}
-  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mn3gw6isp22v.jpeg', 'Pencil, ink, marker and gel pen illustration of Kasane Teto in her genie design from TRAP CHICK\'s "Approve please, Genie!"')}
-  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnnkwdkdps2e.jpeg', 'Pencil illustration of transgender, nonbinary, chimeragender-ass Kasane Teto laid out on a mattress; overwhelmed, overstimulated, overcummed. She is covered in lipstick marks, hickies and bite marks. Sex toys, condom wrappings and cum-filled condoms are scattered around and on her. One is still wrapped tightly on her gock, filling up as it twitches and pumps. She shivers and convulses, flustered face covered by her hands.')}
-  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnd53gcg522u.jpeg', 'Gay-ass pencil illustration of two characters in feminine clothing being frisky with each other, featuring one very messy wet gock. This is what happens when you kiss girls during pride month, people.')}
-  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnaxdvzots2k.jpeg', "Pencil fanart illustration, rendered digitally, of the vocaloid \u30dc\u30ab\u30ed Akita Neru (27) of Triple Baka fame emotionlessly jerking off a cock with one hand while texting on her phone with her other. Not a thought is spared to the poor, precum leaking thing. Handjobs are truly an art.\n\nShe's wearing a black V-neck, a pink ribbon choker, curvalicious waist-high jeans and a black scrunchie to keep her side ponytail up. I've chosen to depict her as perhaps a bit curvier than how she is usually portrayed. Big tits and wide hips and all. I think she looks quite nice.")}
-  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnb52ouevk2p.jpeg', "The same drawing of Neru, but just a pencil illustration. ")}
-  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mn67ebiwd22k.jpeg', 'POV pencil illustration, digitally edited, of Kasane Teto riding a dildo (anal insertion) in front of a mirror in her room, girlcock spilling cum. She is grabbing her breast and tensing up as the orgasm goes on. There are little hearts in her eyes. The mirror is splattered with gock juice, and overall looks rather dirty... In the background can be seen a bed and a trans flag hanging on the wall.')}
+  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnq3ws323k26.webp', "Sketchbook pencil illustration of the Vocaloid Hatsune Miku except from Brazil (AKA Brazilian Miku), tanned and ready for the beach in her bikini. She's sweating in the sun and is holding a can of Guaran\u00e1 against her cheek to cool off.\n\nIn this full, uncropped variant of the drawing we can see that her shorts are open and her massive slab of meat is out dangling.")}
+  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mm3h5chpy22a.webp', 'Pencil illustration (with digitally added shadows) of transgender Kasane Teto, pinned to the ground right after she was caught masturbating to a used pair of panties. The laundry basket from before has fallen over, scattering more laundry about. Teto is still shaking from the orgasm that started in the last picture, and both she and the panties she used are covered in ropes of cum. She looks simultaneously ashamed, afraid, dazed and aroused.')}
+  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mmpgk7pxac2k.webp', 'Pencil illustration of transgender Kasane Teto getting MILKED from behind by Gumi, by way of overstim handjob. Truly, the truest form of yuri. She is aimed at a bowl on a low table, but aiming load after load is difficult...')}
+  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mmu5ctqzw22c.webp', "Pencil illustration of Kasane Teto, drawn slightly chubby, with stretch marks and tanned with a bikini tanline. She is wearing a bikini *without* the top, and is in the process of tying her hair up in a novel DRILL PONYTAIL instead of her usual twin-drills. She's got the hair tie ready in ehr mouth.")}
+  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mn3gw6isp22v.webp', 'Pencil, ink, marker and gel pen illustration of Kasane Teto in her genie design from TRAP CHICK\'s "Approve please, Genie!"')}
+  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnnkwdkdps2e.webp', 'Pencil illustration of transgender, nonbinary, chimeragender-ass Kasane Teto laid out on a mattress; overwhelmed, overstimulated, overcummed. She is covered in lipstick marks, hickies and bite marks. Sex toys, condom wrappings and cum-filled condoms are scattered around and on her. One is still wrapped tightly on her gock, filling up as it twitches and pumps. She shivers and convulses, flustered face covered by her hands.')}
+  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnd53gcg522u.webp', 'Gay-ass pencil illustration of two characters in feminine clothing being frisky with each other, featuring one very messy wet gock. This is what happens when you kiss girls during pride month, people.')}
+  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnaxdvzots2k.webp', "Pencil fanart illustration, rendered digitally, of the vocaloid \u30dc\u30ab\u30ed Akita Neru (27) of Triple Baka fame emotionlessly jerking off a cock with one hand while texting on her phone with her other. Not a thought is spared to the poor, precum leaking thing. Handjobs are truly an art.\n\nShe's wearing a black V-neck, a pink ribbon choker, curvalicious waist-high jeans and a black scrunchie to keep her side ponytail up. I've chosen to depict her as perhaps a bit curvier than how she is usually portrayed. Big tits and wide hips and all. I think she looks quite nice.")}
+  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mnb52ouevk2p.webp', "The same drawing of Neru, but just a pencil illustration. ")}
+  ${linkedImage('/r34/puddingDraws/puddingdraws.bsky.social-3mn67ebiwd22k.webp', 'POV pencil illustration, digitally edited, of Kasane Teto riding a dildo (anal insertion) in front of a mirror in her room, girlcock spilling cum. She is grabbing her breast and tensing up as the orgasm goes on. There are little hearts in her eyes. The mirror is splattered with gock juice, and overall looks rather dirty... In the background can be seen a bed and a trans flag hanging on the wall.')}
 
   `
   // ${linkedImage('/')}
@@ -510,7 +516,7 @@ ${addLink('/r34/puppysnackz.html', 'Puppysnackz')}<br>
 //    <a href="/r34/hoyo.html" class="blue"><span>Hoyoverse</span></a><br>\
 //    <a class="blue" href="/r34/mario.html"><span>Mario</span></a><br>\
 //    <a class="blue" href="/r34/miku.html"><span>Miku</span></a><br>\
-//    <a class="blue" href="/r34/Overwatch.html"><span>Overwatch</span></a><br>\
+//    <a class="blue" href="/r34/overwatch.html"><span>overwatch</span></a><br>\
 //    <a class="blue" href="/r34/other.html"><span>Other</span></a><br>\
 //    <a class="blue" href="/r34/irl.html"><span>IRL</span></a><br>\
 //    <a class="blue" href="/r34/pokemon.html"><span>Pokemon</span></a><br>\
@@ -554,18 +560,18 @@ var zonkpunch = [
 var hoyo = [
 
   `<br>\
-  <a href="/r34/hoyo/36119d73bf0a840174e9dd5e7092a57c.jpeg"><img src="/r34/hoyo/36119d73bf0a840174e9dd5e7092a57c.jpeg"></a>\
-    <a href="/r34/hoyo/2c1ac4b69e30cb6d354eff2eb6add093.jpeg"><img src="/r34/hoyo/2c1ac4b69e30cb6d354eff2eb6add093.jpeg"></a>\
-    <a href="/r34/hoyo/3908f7fbf0933106c2a2b5bd9f749923.jpeg"><img src="/r34/hoyo/3908f7fbf0933106c2a2b5bd9f749923.jpeg"></a>\
-    <a href="/r34/hoyo/df78f85b584bd963640e571cc8af6478.jpeg"><img src="/r34/hoyo/df78f85b584bd963640e571cc8af6478.jpeg"></a>\
-    <a href="/r34/hoyo/16cad6a688561a27b306117a9d6e7e25.jpeg"><img src="/r34/hoyo/16cad6a688561a27b306117a9d6e7e25.jpeg"></a>\
-    <a href="/r34/hoyo/52a4a98170878f863b620f7020ef9c09.jpeg"><img src="/r34/hoyo/52a4a98170878f863b620f7020ef9c09.jpeg"></a>\
-    <a href="/r34/hoyo/48f790b7766b0e13abd19bd54d900fc9.jpeg"><img src="/r34/hoyo/48f790b7766b0e13abd19bd54d900fc9.jpeg"></a>\
-    <a href="/r34/hoyo/c78f9f779785f73806f8b3a32b5e2d15.jpeg"><img src="/r34/hoyo/c78f9f779785f73806f8b3a32b5e2d15.jpeg"></a>\
-    <a href="/r34/hoyo/80e94bbac2354ba11bdb8afb5affb5d4.jpeg"><img src="/r34/hoyo/80e94bbac2354ba11bdb8afb5affb5d4.jpeg"></a>\
-    <a href="/r34/hoyo/a9cdbaefa4e5d1df33e2aa4a9e2e8e51.jpeg"><img src="/r34/hoyo/a9cdbaefa4e5d1df33e2aa4a9e2e8e51.jpeg"></a>\
-    <a href="/r34/hoyo/b3c54c974bed68e2e1be82b81bef8e22.jpeg"><img src="/r34/hoyo/b3c54c974bed68e2e1be82b81bef8e22.jpeg"></a>\
-    <a href="/r34/hoyo/d0ce352fc59f099bfb9a05bf8325a9e6.jpeg"><img src="/r34/hoyo/d0ce352fc59f099bfb9a05bf8325a9e6.jpeg"></a>\
+  <a href="/r34/hoyo/36119d73bf0a840174e9dd5e7092a57c.webp"><img src="/r34/hoyo/36119d73bf0a840174e9dd5e7092a57c.webp"></a>\
+    <a href="/r34/hoyo/2c1ac4b69e30cb6d354eff2eb6add093.webp"><img src="/r34/hoyo/2c1ac4b69e30cb6d354eff2eb6add093.webp"></a>\
+    <a href="/r34/hoyo/3908f7fbf0933106c2a2b5bd9f749923.webp"><img src="/r34/hoyo/3908f7fbf0933106c2a2b5bd9f749923.webp"></a>\
+    <a href="/r34/hoyo/df78f85b584bd963640e571cc8af6478.webp"><img src="/r34/hoyo/df78f85b584bd963640e571cc8af6478.webp"></a>\
+    <a href="/r34/hoyo/16cad6a688561a27b306117a9d6e7e25.webp"><img src="/r34/hoyo/16cad6a688561a27b306117a9d6e7e25.webp"></a>\
+    <a href="/r34/hoyo/52a4a98170878f863b620f7020ef9c09.webp"><img src="/r34/hoyo/52a4a98170878f863b620f7020ef9c09.webp"></a>\
+    <a href="/r34/hoyo/48f790b7766b0e13abd19bd54d900fc9.webp"><img src="/r34/hoyo/48f790b7766b0e13abd19bd54d900fc9.webp"></a>\
+    <a href="/r34/hoyo/c78f9f779785f73806f8b3a32b5e2d15.webp"><img src="/r34/hoyo/c78f9f779785f73806f8b3a32b5e2d15.webp"></a>\
+    <a href="/r34/hoyo/80e94bbac2354ba11bdb8afb5affb5d4.webp"><img src="/r34/hoyo/80e94bbac2354ba11bdb8afb5affb5d4.webp"></a>\
+    <a href="/r34/hoyo/a9cdbaefa4e5d1df33e2aa4a9e2e8e51.webp"><img src="/r34/hoyo/a9cdbaefa4e5d1df33e2aa4a9e2e8e51.webp"></a>\
+    <a href="/r34/hoyo/b3c54c974bed68e2e1be82b81bef8e22.webp"><img src="/r34/hoyo/b3c54c974bed68e2e1be82b81bef8e22.webp"></a>\
+    <a href="/r34/hoyo/d0ce352fc59f099bfb9a05bf8325a9e6.webp"><img src="/r34/hoyo/d0ce352fc59f099bfb9a05bf8325a9e6.webp"></a>\
     <a href="/r34/hoyo/493f8191fd8cc3f52338ca143ee0c751.gif"><img src="/r34/hoyo/493f8191fd8cc3f52338ca143ee0c751.gif"></a><br>\
     <a style="color: black; cursor: default;" href="/r34/hoyo/hoyoviewer.html">idk</a>`,
 
@@ -580,8 +586,8 @@ var hoyo = [
     `,
 
     `<br>\
-    <video controls src="/r34/New-folder/665c785f68cb4c5f52cb20b70f85e29c.mp4">no porn for you :(</video>\
-    <video controls src="/r34/New-folder/54fe208c2cac768638b8cd18c5f01a7f.mp4">no porn for you :(</video>\
+    <video controls src="/r34/new-folder/665c785f68cb4c5f52cb20b70f85e29c.mp4">no porn for you :(</video>\
+    <video controls src="/r34/new-folder/54fe208c2cac768638b8cd18c5f01a7f.mp4">no porn for you :(</video>\
     <video controls src="/r34/hoyo/eaef8b539adca6f7370c4e5bb689a32c.mp4">no porn for you :(</video>\
     <video controls src="/r34/hoyo/ec78f60a85a2b689cf3f3f80d31ee80a.mp4">no porn for you :(</video>\
     <video controls src="/r34/hoyo/0c69ca99d3fdf52c37071fcde80bd4c4.mp4">no porn for you :(</video>\
@@ -611,30 +617,30 @@ var curly = [
   `<img draggable="false" src="/r34/cavestory/pngs/599b1ec8c535ff41a6ce01367c3a4c2a.png" style="border: none" ondblclick="window.open(\'/r34/cavestory/pngs/599b1ec8c535ff41a6ce01367c3a4c2a.png\', \'_self\')">\
   <img draggable="false" src="/r34/cavestory/pngs/eaa8ebf3c686bad40cb0e0ea7198900d.png" style="border: none" ondblclick="window.open(\'/r34/cavestory/pngs/eaa8ebf3c686bad40cb0e0ea7198900d.png\', \'_self\')">\
   <br>` +
-  linkedImage("/r34/cavestory/ce2221fa00e01bde5c011e0099dc6993bcd837eb.jpeg") +
-  linkedImage("/r34/cavestory/9b067c5c3841176c2ff95c4a8e9068c8.jpeg", `y`) +
+  linkedImage("/r34/cavestory/ce2221fa00e01bde5c011e0099dc6993bcd837eb.webp") +
+  linkedImage("/r34/cavestory/9b067c5c3841176c2ff95c4a8e9068c8.webp", `y`) +
 
-  linkedImage("/r34/cavestory/0ed716a0715ef08a9545344086b7cd8d.jpeg") +
-  linkedImage("/r34/cavestory/1e3ce6df4d9e8364ca6ceec3675cb279.jpeg") +
-  linkedImage("/r34/cavestory/1f8fcf060d04f45c0e390ec34d870d2f.jpeg") +
-  linkedImage("/r34/cavestory/5a0788f43f24f7dd918dd2dd3f39fa33.jpeg") +
-  linkedImage("/r34/cavestory/f2d594b0585cf111259a4e2869c0d7a8.jpeg") +
-  linkedImage("/r34/cavestory/e5355560b1608dc4005bb500cbe5b6de.jpeg") +
-  linkedImage("/r34/cavestory/fd1454568f55a6995e0549f485fff971.jpeg") +
-  linkedImage("/r34/cavestory/34e401bef131f98d0999642fc799a182.jpeg") +
-  linkedImage("/r34/cavestory/52d7a1e0edaedcfc0cda479d5cf45d9b.jpeg") +
-  linkedImage("/r34/cavestory/85f85e1138bf5801af7b97628979b76f.jpeg") +
-  linkedImage("/r34/cavestory/49c65cbfd67f5852f1a40d9355e6b2ca.jpeg") +
-  linkedImage("/r34/cavestory/56e6e8307f04ccea52a7d3faf2789151.jpeg") +
-  linkedImage("/r34/cavestory/91ff376f2f080ca284f0e2f45f38184a.jpeg") +
-  linkedImage("/r34/cavestory/962883a2c2dc6551e1d5ccedc5bc7a14.jpeg") +
-  linkedImage("/r34/cavestory/94a8a0b4729a0d080821b1344f320678.jpeg") +
+  linkedImage("/r34/cavestory/0ed716a0715ef08a9545344086b7cd8d.webp") +
+  linkedImage("/r34/cavestory/1e3ce6df4d9e8364ca6ceec3675cb279.webp") +
+  linkedImage("/r34/cavestory/1f8fcf060d04f45c0e390ec34d870d2f.webp") +
+  linkedImage("/r34/cavestory/5a0788f43f24f7dd918dd2dd3f39fa33.webp") +
+  linkedImage("/r34/cavestory/f2d594b0585cf111259a4e2869c0d7a8.webp") +
+  linkedImage("/r34/cavestory/e5355560b1608dc4005bb500cbe5b6de.webp") +
+  linkedImage("/r34/cavestory/fd1454568f55a6995e0549f485fff971.webp") +
+  linkedImage("/r34/cavestory/34e401bef131f98d0999642fc799a182.webp") +
+  linkedImage("/r34/cavestory/52d7a1e0edaedcfc0cda479d5cf45d9b.webp") +
+  linkedImage("/r34/cavestory/85f85e1138bf5801af7b97628979b76f.webp") +
+  linkedImage("/r34/cavestory/49c65cbfd67f5852f1a40d9355e6b2ca.webp") +
+  linkedImage("/r34/cavestory/56e6e8307f04ccea52a7d3faf2789151.webp") +
+  linkedImage("/r34/cavestory/91ff376f2f080ca284f0e2f45f38184a.webp") +
+  linkedImage("/r34/cavestory/962883a2c2dc6551e1d5ccedc5bc7a14.webp") +
+  linkedImage("/r34/cavestory/94a8a0b4729a0d080821b1344f320678.webp") +
   ``,
 
   linkedImage("/r34/cavestory/3e74b61cb159701fe1aff9f29599971e.gif") +
   linkedImage("/r34/cavestory/a165fec64b7222f5fa688a577855dff6.gif", "y") +
 
-  linkedImage("/r34/cavestory/89baa90085a8aa7524fed2ed8f7c5c2d.jpeg") +
+  linkedImage("/r34/cavestory/89baa90085a8aa7524fed2ed8f7c5c2d.webp") +
   linkedImage("/r34/cavestory/50de2e123a5918173b73d0e09711571d.gif", "y") +
 
   linkedImage("/r34/cavestory/6b1d55edf3bcfe139fb548fb54bc4ed7.gif") +
@@ -843,47 +849,47 @@ var watchlist = [
 var other = [
   `
   <video controls src="./01chairat/834fe0124ce411e49dc3fbefb9523cf7.mp4">no porn for you :(</video>\
-  <video controls src="./New-folder/dbd4a76c653ce4fbc9b2669afa6c083a.mp4">no porn for you :(</video>\
-  <video controls src="./New-folder/cbd88ad074940b736b9d5d7b531ca9cf.mp4">no porn for you :(</video>\
-  <video controls src="./New-folder/05fb21154f21b3ea600819d737b286b6.mp4">no porn for you :(</video>\
-  <video controls src="./New-folder/980f2ad806e0da079cc5cdf3ec1b2bf6.mp4">no porn for you :(</video>\
-  <video controls src="./New-folder/d73ef8644cc3a22b3074011741d1bc3f.mp4">no porn for you :(</video>\
+  <video controls src="./new-folder/dbd4a76c653ce4fbc9b2669afa6c083a.mp4">no porn for you :(</video>\
+  <video controls src="./new-folder/cbd88ad074940b736b9d5d7b531ca9cf.mp4">no porn for you :(</video>\
+  <video controls src="./new-folder/05fb21154f21b3ea600819d737b286b6.mp4">no porn for you :(</video>\
+  <video controls src="./new-folder/980f2ad806e0da079cc5cdf3ec1b2bf6.mp4">no porn for you :(</video>\
+  <video controls src="./new-folder/d73ef8644cc3a22b3074011741d1bc3f.mp4">no porn for you :(</video>\
   `,
   `\
   <video controls loop src="./raincoatpyro/ee3edb39397b2f71333a5e61254ad3c6.mp4">no porn for you :(</video>\
-  <video controls src="./New-folder/e4774a83ef0d114de9adcc72cc1f237e.mp4">no porn for you :(</video>\
-  <video controls src="./New-folder/03ca86e8d2cf7d2cdd2a122bea73435b.mp4">no porn for you :(</video>\
-  <video controls src="./New-folder/bbd24c6e8688feee916e71c84d9cab35.mp4">no porn for you :(</video>\
-  <video controls src="./New-folder/c9cc8f2419f997ceb1e14c39881445ba.mp4">no porn for you :(</video>\
-  <video controls src="./New-folder/f8edf92043cf883d4c3656c9faca12ba.mp4">no porn for you :(</video>`,
+  <video controls src="./new-folder/e4774a83ef0d114de9adcc72cc1f237e.mp4">no porn for you :(</video>\
+  <video controls src="./new-folder/03ca86e8d2cf7d2cdd2a122bea73435b.mp4">no porn for you :(</video>\
+  <video controls src="./new-folder/bbd24c6e8688feee916e71c84d9cab35.mp4">no porn for you :(</video>\
+  <video controls src="./new-folder/c9cc8f2419f997ceb1e14c39881445ba.mp4">no porn for you :(</video>\
+  <video controls src="./new-folder/f8edf92043cf883d4c3656c9faca12ba.mp4">no porn for you :(</video>`,
 
-  `<video controls title="it's hip to fuck bees" src="./New-folder/large/aca7adc5ceab98de67d3da721e9a5e01.mp4">no porn for you :(</video>`
-  + linkVideo(`/r34/New-folder/aa8e1c68100bf2f580c3939aebbfd6a4.mp4`),
+  `<video controls title="it's hip to fuck bees" src="./new-folder/large/aca7adc5ceab98de67d3da721e9a5e01.mp4">no porn for you :(</video>`
+  + linkVideo(`/r34/new-folder/aa8e1c68100bf2f580c3939aebbfd6a4.mp4`),
 
   `
-  <video controls src="./New-folder/large/c8c2e73e0860cca288f156db2cbce415.mp4">no porn for you :(</video>\
-  <video controls src="./New-folder/large/84702ab25211cdf8249f2ca171b10aaa.mp4">no porn for you :(</video>\
-  <video controls loop src="./New-folder/large/abeba954d95553182982c718b86733b3.mp4">no porn for you :(</video>\
-  <!-- <video controls src="./New-folder/f8edf92043cf883d4c3656c9faca12ba.mp4">no porn for you :(</video> -->\
-  <!-- <video controls src="./New-folder/70d5d73e91905c36800d7daccdbe182a.mp4">no porn for you :(</video> -->`,
+  <video controls src="./new-folder/large/c8c2e73e0860cca288f156db2cbce415.mp4">no porn for you :(</video>\
+  <video controls src="./new-folder/large/84702ab25211cdf8249f2ca171b10aaa.mp4">no porn for you :(</video>\
+  <video controls loop src="./new-folder/large/abeba954d95553182982c718b86733b3.mp4">no porn for you :(</video>\
+  <!-- <video controls src="./new-folder/f8edf92043cf883d4c3656c9faca12ba.mp4">no porn for you :(</video> -->\
+  <!-- <video controls src="./new-folder/70d5d73e91905c36800d7daccdbe182a.mp4">no porn for you :(</video> -->`,
 
   `<a href="comics/baptist/sample_083809cccf0c0d68bffe124245a3daaa.webp"><img src="comics/baptist/sample_083809cccf0c0d68bffe124245a3daaa.webp"></a>\
   <a href="comics/baptist/sample_81cac618b8121e925552ba490d93d8cb.webp"><img src="comics/baptist/sample_81cac618b8121e925552ba490d93d8cb.webp"></a>\
-  <a href="./New-folder/8af6079d60e148e018ef1878b8d0be3f89bc9935.jpeg"><img src="./New-folder/8af6079d60e148e018ef1878b8d0be3f89bc9935.jpeg"></a>\
-  <a href="/r34/New-folder/G1lkh7iWcAAI4Gm.jpeg"><img src="/r34/New-folder/G1lkh7iWcAAI4Gm.jpeg"></a>`+
-  linkedImage('/r34/New-folder/762be2454ba1769059253e35b70c6637.jpeg')+
-  linkedImage('/r34/New-folder/b9285ca7ab7c19e6c5a22ca9a7495e7b.jpeg'),
+  <a href="./new-folder/8af6079d60e148e018ef1878b8d0be3f89bc9935.webp"><img src="./new-folder/8af6079d60e148e018ef1878b8d0be3f89bc9935.webp"></a>\
+  <a href="/r34/new-folder/G1lkh7iWcAAI4Gm.webp"><img src="/r34/new-folder/G1lkh7iWcAAI4Gm.webp"></a>`+
+  linkedImage('/r34/new-folder/762be2454ba1769059253e35b70c6637.webp')+
+  linkedImage('/r34/new-folder/b9285ca7ab7c19e6c5a22ca9a7495e7b.webp'),
 
   `<a href="./pvz/IMG_9101.GIF"><img src="pvz/IMG_9101.GIF"></a>\
   <a href="pvz/IMG_9102.GIF"><img src="pvz/IMG_9102.GIF"></a>\
-  <a href="New-folder/hentai-Recovered.gif"><img src="New-folder/hentai-Recovered.gif"></a>\
-  <a href="New-folder/3dc249bbdef915da969508d8f7f3a49a.gif"><img src="New-folder/3dc249bbdef915da969508d8f7f3a49a.gif"></a>`
+  <a href="new-folder/hentai-Recovered.gif"><img src="new-folder/hentai-Recovered.gif"></a>\
+  <a href="new-folder/3dc249bbdef915da969508d8f7f3a49a.gif"><img src="new-folder/3dc249bbdef915da969508d8f7f3a49a.gif"></a>`
 ]
 
 var bees = [
   `
   <video controls src="/r34/zonkpunch/dee437966e9c80f167b2a03968b0e6e2.mp4"></video>
-  <video controls title="it's hip to fuck bees" src="./New-folder/aca7adc5ceab98de67d3da721e9a5e01.mp4">no porn for you :(</video>
+  <video controls title="it's hip to fuck bees" src="./new-folder/aca7adc5ceab98de67d3da721e9a5e01.mp4">no porn for you :(</video>
   `
 ]
 
@@ -1214,20 +1220,20 @@ var pokemon = [
   <video class="video" controls src="./pokemon/3eb4280841de417ba93de12bcf2046f1.mp4">no porn for you :(</video>`,
 
   `
-  <a href="./pokemon/sample_2c90a881824d53eb1088d574a1615b96.jpeg"><img src="./pokemon/sample_2c90a881824d53eb1088d574a1615b96.jpeg"></a>
-  <a href="./pokemon/sample_345d19e646da989db3568eeac32ecec2.jpeg"><img src="./pokemon/sample_345d19e646da989db3568eeac32ecec2.jpeg"></a>
+  <a href="./pokemon/sample_2c90a881824d53eb1088d574a1615b96.webp"><img src="./pokemon/sample_2c90a881824d53eb1088d574a1615b96.webp"></a>
+  <a href="./pokemon/sample_345d19e646da989db3568eeac32ecec2.webp"><img src="./pokemon/sample_345d19e646da989db3568eeac32ecec2.webp"></a>
   <a href="./pokemon/fd9a037c3d4244de7aeabcbf53d710fb.gif"><img src="./pokemon/fd9a037c3d4244de7aeabcbf53d710fb.gif"></a>
-  <a href="./pokemon/sample_d956a7b670d297be32888b866d574ab3.jpeg"><img src="./pokemon/sample_d956a7b670d297be32888b866d574ab3.jpeg"></a>
-  <a href="./pokemon/sample_1617c1c22e6c56515380574f1043d942.jpeg"><img src="./pokemon/sample_1617c1c22e6c56515380574f1043d942.jpeg"></a>
-  <a href="./pokemon/sample_4142d49ee3c5bd63b0c4b096586f00ed57dbb0a5.jpeg"><img src="./pokemon/sample_4142d49ee3c5bd63b0c4b096586f00ed57dbb0a5.jpeg"></a>
-  <a href="./pokemon/IMG_0057.jpeg"><img src="./pokemon/IMG_0057.jpeg"></a>
-  <a href="./pokemon/IMG_0056.jpeg"><img src="./pokemon/IMG_0056.jpeg"></a>
-  <a href="./pokemon/IMG_0065.jpeg"><img src="./pokemon/IMG_0065.jpeg"></a>
-  <a href="./pokemon/IMG_0378.jpeg"><img src="./pokemon/IMG_0378.jpeg"></a><br>
+  <a href="./pokemon/sample_d956a7b670d297be32888b866d574ab3.webp"><img src="./pokemon/sample_d956a7b670d297be32888b866d574ab3.webp"></a>
+  <a href="./pokemon/sample_1617c1c22e6c56515380574f1043d942.webp"><img src="./pokemon/sample_1617c1c22e6c56515380574f1043d942.webp"></a>
+  <a href="./pokemon/sample_4142d49ee3c5bd63b0c4b096586f00ed57dbb0a5.webp"><img src="./pokemon/sample_4142d49ee3c5bd63b0c4b096586f00ed57dbb0a5.webp"></a>
+  <a href="./pokemon/IMG_0057.webp"><img src="./pokemon/IMG_0057.webp"></a>
+  <a href="./pokemon/IMG_0056.webp"><img src="./pokemon/IMG_0056.webp"></a>
+  <a href="./pokemon/IMG_0065.webp"><img src="./pokemon/IMG_0065.webp"></a>
+  <a href="./pokemon/IMG_0378.webp"><img src="./pokemon/IMG_0378.webp"></a><br>
 
-  <a href="./pokemon/G3MFbz6bwAAm01u.jpeg"><img src="./pokemon/G3MFbz6bwAAm01u.jpeg"></a>
-  <a href="./pokemon/G3WcwL_a8AIRVxk.jpeg"><img src="./pokemon/G3WcwL_a8AIRVxk.jpeg"></a>
-  <a href="./pokemon/G3iNQ8fXMAAK9nN.jpeg"><img height="20%" src="./pokemon/G3iNQ8fXMAAK9nN.jpeg"></a>
+  <a href="./pokemon/G3MFbz6bwAAm01u.webp"><img src="./pokemon/G3MFbz6bwAAm01u.webp"></a>
+  <a href="./pokemon/G3WcwL_a8AIRVxk.webp"><img src="./pokemon/G3WcwL_a8AIRVxk.webp"></a>
+  <a href="./pokemon/G3iNQ8fXMAAK9nN.webp"><img height="20%" src="./pokemon/G3iNQ8fXMAAK9nN.webp"></a>
   `
 ]
 
@@ -1378,44 +1384,44 @@ for (let index = 0; index < hardDegenImages.length; index++) {
     hardDegen[5] += linkedImage(`/r34/hard-degen/${element}.gif`)
   }
   else {
-    hardDegen[5] += linkedImage(`/r34/hard-degen/${element}.jpeg`)
+    hardDegen[5] += linkedImage(`/r34/hard-degen/${element}.webp`)
   }
 }
 
 let puppysnax = [
-  linkedImage('/r34/puppysnackz/.jpeg') +
-  linkedImage('/r34/puppysnackz/.jpeg') +
-  linkedImage('/r34/puppysnackz/.jpeg') +
-  linkedImage('/r34/puppysnackz/.jpeg') +
+  linkedImage('/r34/puppysnackz/.webp') +
+  linkedImage('/r34/puppysnackz/.webp') +
+  linkedImage('/r34/puppysnackz/.webp') +
+  linkedImage('/r34/puppysnackz/.webp') +
   ``
 ]
 
 var dragon = [
   '<video preload="auto" controls src="dragon-maid/05a4a9f6e02acf99e1300d7a9a9562dc.mp4">no porn for you :(</video>',
 
-  '<a href="dragon-maid/84f6e7548094d548c224a5e114a39a81-1.jpeg"><img src="dragon-maid/84f6e7548094d548c224a5e114a39a81-1.jpeg"></a>\
-  <a href="dragon-maid/84f6e7548094d548c224a5e114a39a81-2.jpeg"><img src="dragon-maid/84f6e7548094d548c224a5e114a39a81-2.jpeg"></a>\
-  <a href="dragon-maid/84f6e7548094d548c224a5e114a39a81-3.jpeg"><img src="dragon-maid/84f6e7548094d548c224a5e114a39a81-3.jpeg"></a>\
-  <a href="dragon-maid/84f6e7548094d548c224a5e114a39a81-4.jpeg"><img src="dragon-maid/84f6e7548094d548c224a5e114a39a81-4.jpeg"></a>\
-  <a href="dragon-maid/84f6e7548094d548c224a5e114a39a81-5.jpeg"><img src="dragon-maid/84f6e7548094d548c224a5e114a39a81-5.jpeg"></a>\
-  <a href="dragon-maid/84f6e7548094d548c224a5e114a39a81-6.jpeg"><img src="dragon-maid/84f6e7548094d548c224a5e114a39a81-6.jpeg"></a>\
-  <a href="dragon-maid/84f6e7548094d548c224a5e114a39a81-7.jpeg"><img src="dragon-maid/84f6e7548094d548c224a5e114a39a81-7.jpeg"></a>\
-  <a href="dragon-maid/84f6e7548094d548c224a5e114a39a81-8.jpeg"><img src="dragon-maid/84f6e7548094d548c224a5e114a39a81-8.jpeg"></a>',
+  '<a href="dragon-maid/84f6e7548094d548c224a5e114a39a81-1.webp"><img src="dragon-maid/84f6e7548094d548c224a5e114a39a81-1.webp"></a>\
+  <a href="dragon-maid/84f6e7548094d548c224a5e114a39a81-2.webp"><img src="dragon-maid/84f6e7548094d548c224a5e114a39a81-2.webp"></a>\
+  <a href="dragon-maid/84f6e7548094d548c224a5e114a39a81-3.webp"><img src="dragon-maid/84f6e7548094d548c224a5e114a39a81-3.webp"></a>\
+  <a href="dragon-maid/84f6e7548094d548c224a5e114a39a81-4.webp"><img src="dragon-maid/84f6e7548094d548c224a5e114a39a81-4.webp"></a>\
+  <a href="dragon-maid/84f6e7548094d548c224a5e114a39a81-5.webp"><img src="dragon-maid/84f6e7548094d548c224a5e114a39a81-5.webp"></a>\
+  <a href="dragon-maid/84f6e7548094d548c224a5e114a39a81-6.webp"><img src="dragon-maid/84f6e7548094d548c224a5e114a39a81-6.webp"></a>\
+  <a href="dragon-maid/84f6e7548094d548c224a5e114a39a81-7.webp"><img src="dragon-maid/84f6e7548094d548c224a5e114a39a81-7.webp"></a>\
+  <a href="dragon-maid/84f6e7548094d548c224a5e114a39a81-8.webp"><img src="dragon-maid/84f6e7548094d548c224a5e114a39a81-8.webp"></a>',
 
   `<div id="stripContainer">
-  <div><a href="dragon-maid/1df83a873bc5263efaa98b56047b6c29.jpeg"><img src="dragon-maid/1df83a873bc5263efaa98b56047b6c29.jpeg"></a></div>
-  <div><a href="dragon-maid/84f6e7548094d548c224a5e114a39a81.jpeg"><img src="dragon-maid/84f6e7548094d548c224a5e114a39a81.jpeg"></a></div></div>`,
+  <div><a href="dragon-maid/1df83a873bc5263efaa98b56047b6c29.webp"><img src="dragon-maid/1df83a873bc5263efaa98b56047b6c29.webp"></a></div>
+  <div><a href="dragon-maid/84f6e7548094d548c224a5e114a39a81.webp"><img src="dragon-maid/84f6e7548094d548c224a5e114a39a81.webp"></a></div></div>`,
 
   'dragon maid'
 ]
 
 let ladylovense = [
-    '/r34/puppysnackz/puppysnackz.bsky.social-3mffjuna3oc2i-1.jpeg',
-    '/r34/puppysnackz/puppysnackz.bsky.social-3mffjuna3oc2i-2.jpeg',
-    '/r34/puppysnackz/puppysnackz.bsky.social-3mfftzvaakc2n-1.jpeg',
-    '/r34/puppysnackz/puppysnackz.bsky.social-3mfftzvaakc2n-2.jpeg',
-    '/r34/puppysnackz/puppysnackz.bsky.social-3mfhodgrcxk2u.jpeg',
-    '/r34/puppysnackz/puppysnackz.bsky.social-3mfhof7p3tk2u.jpeg',
+    '/r34/puppysnackz/puppysnackz.bsky.social-3mffjuna3oc2i-1.webp',
+    '/r34/puppysnackz/puppysnackz.bsky.social-3mffjuna3oc2i-2.webp',
+    '/r34/puppysnackz/puppysnackz.bsky.social-3mfftzvaakc2n-1.webp',
+    '/r34/puppysnackz/puppysnackz.bsky.social-3mfftzvaakc2n-2.webp',
+    '/r34/puppysnackz/puppysnackz.bsky.social-3mfhodgrcxk2u.webp',
+    '/r34/puppysnackz/puppysnackz.bsky.social-3mfhof7p3tk2u.webp',
 ]
 
 let touhou_sex = ' but they all have sex instead'
@@ -1443,32 +1449,32 @@ let touhou = [
 
 let terraria = [
 `
-  ${linkedImage("/r34/terraria/543a2f705d4181e72c30ce8e1e9b81db.jpeg")}
-  ${linkedImage("/r34/terraria/4d013dc9388a0691833a7f17e351e246.jpeg")}
-  ${linkedImage("/r34/terraria/2f1876e3005849ac6b732a73031af343.jpeg")}
-  ${linkedImage("/r34/terraria/a692b0a1c7635772d93aab810ae19c86.jpeg")}
-  ${linkedImage("/r34/terraria/10f3f108671b348b47db6d9e5f7e6446.jpeg")}
-  ${linkedImage("/r34/terraria/bbf5af40cfdeb2707ea9f8c53b4a4689.jpeg")}
-  ${linkedImage("/r34/terraria/b855534bec1acdc058b77cdebe190ecc.jpeg")}
-  ${linkedImage("/r34/terraria/da7968f3675b0ad8ce36fa410d0bddfc.jpeg")}
-  ${linkedImage("/r34/terraria/07d36219f9dd588218b3f0d88d53cd52.jpeg")}
-  ${linkedImage("/r34/terraria/f67ca1ae6f49b680d4307e541e598e18.jpeg")}
-  ${linkedImage("/r34/terraria/57156621a3546fc3ce53c90f3e300fad.jpeg")}
-  ${linkedImage("/r34/terraria/3e2cdeb3d0345d20b5c6ba27322696f2.jpeg")}
-  ${linkedImage("/r34/terraria/07e9c9ad76a48c6eeeedf7820bb00c2c.jpeg")}
-  ${linkedImage("/r34/terraria/39f369967bf30a17c6d4e9d486ead6b2.jpeg")}
-  ${linkedImage("/r34/terraria/9cd727a5f774e8421947303ffc1323a0.jpeg")}
-  ${linkedImage("/r34/terraria/49715a59f3bb5c365b0f98634f7a014c.jpeg")}
-  ${linkedImage("/r34/terraria/68ec4f4250a0a9f2a26dea47f0873aa6997ad367.jpeg")}
-  ${linkedImage("/r34/terraria/83d098ee7bea64d58ef9013e1055c3a750c02ad2.jpeg")}
-  ${linkedImage("/r34/terraria/95ab880beee31d94d3c59f0ddc989d79.jpeg")}
-  ${linkedImage("/r34/terraria/dbc32ff80f296a31bbde98dd79ba0783c7b4ed0d.jpeg")}
-  ${linkedImage("/r34/terraria/7d5ecca84b1b4a29f026476f5ae33fb9.jpeg")}
-  ${linkedImage("/r34/terraria/72217ef2a1ae3d014e3851495f189a5c.jpeg")}
-  ${linkedImage("/r34/terraria/6f54ae437c3458b81ed85f94945b528bddea52e0.jpeg")}
-  ${linkedImage("/r34/terraria/a2cdfbc4589feb0062d76c67591d0634d0679509.jpeg")}
-  ${linkedImage("/r34/terraria/aaca45dac09bfd5c0b4ea9d28cc855bb35e27495.jpeg")}
-  ${linkedImage("/r34/terraria/31ce5ee0036e3978424094d7c3aad41d91bf62d6.jpeg")}
+  ${linkedImage("/r34/terraria/543a2f705d4181e72c30ce8e1e9b81db.webp")}
+  ${linkedImage("/r34/terraria/4d013dc9388a0691833a7f17e351e246.webp")}
+  ${linkedImage("/r34/terraria/2f1876e3005849ac6b732a73031af343.webp")}
+  ${linkedImage("/r34/terraria/a692b0a1c7635772d93aab810ae19c86.webp")}
+  ${linkedImage("/r34/terraria/10f3f108671b348b47db6d9e5f7e6446.webp")}
+  ${linkedImage("/r34/terraria/bbf5af40cfdeb2707ea9f8c53b4a4689.webp")}
+  ${linkedImage("/r34/terraria/b855534bec1acdc058b77cdebe190ecc.webp")}
+  ${linkedImage("/r34/terraria/da7968f3675b0ad8ce36fa410d0bddfc.webp")}
+  ${linkedImage("/r34/terraria/07d36219f9dd588218b3f0d88d53cd52.webp")}
+  ${linkedImage("/r34/terraria/f67ca1ae6f49b680d4307e541e598e18.webp")}
+  ${linkedImage("/r34/terraria/57156621a3546fc3ce53c90f3e300fad.webp")}
+  ${linkedImage("/r34/terraria/3e2cdeb3d0345d20b5c6ba27322696f2.webp")}
+  ${linkedImage("/r34/terraria/07e9c9ad76a48c6eeeedf7820bb00c2c.webp")}
+  ${linkedImage("/r34/terraria/39f369967bf30a17c6d4e9d486ead6b2.webp")}
+  ${linkedImage("/r34/terraria/9cd727a5f774e8421947303ffc1323a0.webp")}
+  ${linkedImage("/r34/terraria/49715a59f3bb5c365b0f98634f7a014c.webp")}
+  ${linkedImage("/r34/terraria/68ec4f4250a0a9f2a26dea47f0873aa6997ad367.webp")}
+  ${linkedImage("/r34/terraria/83d098ee7bea64d58ef9013e1055c3a750c02ad2.webp")}
+  ${linkedImage("/r34/terraria/95ab880beee31d94d3c59f0ddc989d79.webp")}
+  ${linkedImage("/r34/terraria/dbc32ff80f296a31bbde98dd79ba0783c7b4ed0d.webp")}
+  ${linkedImage("/r34/terraria/7d5ecca84b1b4a29f026476f5ae33fb9.webp")}
+  ${linkedImage("/r34/terraria/72217ef2a1ae3d014e3851495f189a5c.webp")}
+  ${linkedImage("/r34/terraria/6f54ae437c3458b81ed85f94945b528bddea52e0.webp")}
+  ${linkedImage("/r34/terraria/a2cdfbc4589feb0062d76c67591d0634d0679509.webp")}
+  ${linkedImage("/r34/terraria/aaca45dac09bfd5c0b4ea9d28cc855bb35e27495.webp")}
+  ${linkedImage("/r34/terraria/31ce5ee0036e3978424094d7c3aad41d91bf62d6.webp")}
   <br>
 
   <a href="/r34/terraria/Asslocking_2.gif"><img src="/r34/terraria/Asslocking_2.gif"></a>
@@ -1484,8 +1490,8 @@ let rouge = [
   <video controls src="./rouge/800960f326944481fc3de2941452acb4.mp4">no porn for you :(</video>
   `,
   `
-  ${linkedImage("/r34/rouge/298f9f2bb5f4881941a5d4a038236933e7cae526.jpeg")}
-  ${linkedImage("/r34/rouge/ce35198226ec459f312a311c3c99abf00134b84e.jpeg")}
+  ${linkedImage("/r34/rouge/298f9f2bb5f4881941a5d4a038236933e7cae526.webp")}
+  ${linkedImage("/r34/rouge/ce35198226ec459f312a311c3c99abf00134b84e.webp")}
   `,
   `the person who made the animations is ${addlink('https://rule34.xxx/index.php?page=post&s=list&tags=defaultuser12', 'defaultuser12')}`
 ]
@@ -1511,7 +1517,8 @@ var hentai = [
   `<br><br>` +
   linkedImage('/r34/hentai/4e67352010513a0b9e683913d7c87262.webp') +
   linkedImage('/r34/hentai/1c0ea52217f059c48e5076ac9234d2ba64187d7d.webp') +
-  `<br><br>` +
+  ``,
+  `comic panels<br>` +
   linkedImage('/r34/hentai/3de3f38bec9162d20128ee1e3a39a3abc3487dd5.webp') +
   linkedImage('/r34/hentai/3e03b2dad137e94554db380ad15f3b1d.webp') +
   linkedImage('/r34/hentai/7a86358a208f686dc8b89f363d538fa8e887634c.webp') +

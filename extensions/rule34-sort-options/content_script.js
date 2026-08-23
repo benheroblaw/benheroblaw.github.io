@@ -35,7 +35,7 @@ let sortDesc = document.createElement('button')
 // let sortDesc = document.createElement('input')
 // sortDesc.type = 'submit'
 sortDesc.id = 'sortDesc'
-sortDesc.textContent = 'Sort by Highest Score'
+sortDesc.textContent = 'Highest Score'
 sortDesc.style.marginBottom = sortMargin
 sortDesc.onclick = () => {
   let tags = qSel('input[name="tags"]').value
@@ -55,7 +55,7 @@ let sortAsc = document.createElement('button')
 // let sortAsc = document.createElement('input')
 // sortAsc.type = 'submit'
 sortAsc.id = 'sortAsc'
-sortAsc.textContent = 'Sort by Lowest Score'
+sortAsc.textContent = 'Lowest Score'
 sortAsc.style.marginBottom = sortMargin
 sortAsc.onclick = () => {
   let tags = qSel('input[name="tags"]').value
@@ -75,7 +75,7 @@ let sortNone = document.createElement('button')
 // let sortNone = document.createElement('input')
 // sortNone.type = 'submit'
 sortNone.id = 'sortNone'
-sortNone.textContent = 'Disable Sort'
+sortNone.textContent = 'Date Posted'
 sortNone.style.marginBottom = sortBreakMargin
 sortNone.onclick = () => {
   let tags = qSel('input[name="tags"]').value
@@ -130,7 +130,7 @@ sortNoVideo.onclick = () => {
 let sortAllMedia = document.createElement('button')
 sortAllMedia.id = 'sortAllMedia'
 sortAllMedia.textContent = 'All Media'
-sortAllMedia.style.marginBottom = sortMargin
+sortAllMedia.style.marginBottom = sortBreakMargin
 sortAllMedia.onclick = () => {
   let tags = qSel('input[name="tags"]').value
   if (tags.includes('-video')) {
@@ -145,17 +145,80 @@ sortAllMedia.onclick = () => {
     }
   }
 
+let sortExplicit = document.createElement('button')
+sortExplicit.id = 'sortExplicit'
+sortExplicit.textContent = 'Explicit'
+sortExplicit.style.marginBottom = sortMargin
+sortExplicit.onclick = () => {
+  let tags = qSel('input[name="tags"]').value
+  if (tags.includes('rating:explicit')) {
+    ''
+  }
+  else {
+    if (tags.includes('rating:questionable')) {
+      let tagOutput = qSel('input[name="tags"]').value.replace('rating:questionable', '')
+      tagOutput= tagOutput.replace(/\s+/g, ' ')
+      qSel('input[name="tags"]').value = tagOutput.trim()}
+  }
+  qSel('input[name="tags"]').value += ' rating:explicit'
+}
+let sortQuestionable = document.createElement('button')
+sortQuestionable.id = 'sortQuestionable'
+sortQuestionable.textContent = 'Questionable'
+sortQuestionable.style.marginBottom = sortMargin
+sortQuestionable.onclick = () => {
+  let tags = qSel('input[name="tags"]').value
+  if (tags.includes('rating:questionable')) {
+    ''
+  }
+  else {
+    if (tags.includes('rating:explicit')) {
+      let tagOutput = qSel('input[name="tags"]').value.replace('rating:explicit', '')
+      tagOutput= tagOutput.replace(/\s+/g, ' ')
+      qSel('input[name="tags"]').value = tagOutput.trim()}
+  }
+  qSel('input[name="tags"]').value += ' rating:questionable'
+}
+let sortAnyRating = document.createElement('button')
+sortAnyRating.id = 'sortAnyRating'
+sortAnyRating.textContent = 'Any Rating'
+sortAnyRating.style.marginBottom = sortMargin
+sortAnyRating.onclick = () => {
+  let tags = qSel('input[name="tags"]').value
+  if (tags.includes('rating:explicit')) {
+      let tagOutput = qSel('input[name="tags"]').value.replace('rating:explicit', '')
+      tagOutput= tagOutput.replace(/\s+/g, ' ')
+      qSel('input[name="tags"]').value = tagOutput.trim()
+    }
+  else if (tags.includes('rating:questionable')) {
+      let tagOutput = qSel('input[name="tags"]').value.replace('rating:questionable', '')
+      tagOutput= tagOutput.replace(/\s+/g, ' ')
+      qSel('input[name="tags"]').value = tagOutput.trim()
+    }
+  }
+
+let sortTitle = document.createElement('div')
+sortTitle.innerHTML = '<b>Sorting Options</b>'
+sortTitle.style.marginBottom = sortBreakMargin
 
 try {gewi('sortButtons').remove()}
-catch {}
+catch {console.log('r34-qol: nothing to remove')}
 
 searchForm.appendChild(sortButtons)
+gewi('sortButtons').appendChild(sortTitle)
 gewi('sortButtons').appendChild(sortDesc)
+gewi('sortButtons').appendChild(br)
+br = document.createElement('br')
+br.style.display = 'inline-block'
 gewi('sortButtons').appendChild(sortAsc)
+gewi('sortButtons').appendChild(br)
+br = document.createElement('br')
+br.style.display = 'inline-block'
 gewi('sortButtons').appendChild(sortNone)
 gewi('sortButtons').appendChild(br)
 br = document.createElement('br')
 br.style.display = 'inline-block'
+
 gewi('sortButtons').appendChild(sortVideo)
 gewi('sortButtons').appendChild(br)
 br = document.createElement('br')
@@ -165,6 +228,22 @@ gewi('sortButtons').appendChild(br)
 br = document.createElement('br')
 br.style.display = 'inline-block'
 gewi('sortButtons').appendChild(sortAllMedia)
+gewi('sortButtons').appendChild(br)
+br = document.createElement('br')
+br.style.display = 'inline-block'
+
+gewi('sortButtons').appendChild(sortExplicit)
+gewi('sortButtons').appendChild(br)
+br = document.createElement('br')
+br.style.display = 'inline-block'
+gewi('sortButtons').appendChild(sortQuestionable)
+gewi('sortButtons').appendChild(br)
+br = document.createElement('br')
+br.style.display = 'inline-block'
+gewi('sortButtons').appendChild(sortAnyRating)
+gewi('sortButtons').appendChild(br)
+br = document.createElement('br')
+br.style.display = 'inline-block'
 
 
 
@@ -179,4 +258,3 @@ gewi('sortButtons').appendChild(sortAllMedia)
     qSel('input[name="tags"]').value = bsTags + ' ' + qSel('input[name="tags"]').value
   }
   searchForm
-
