@@ -288,8 +288,8 @@ p.character-sheet, div.character-sheet>p {
   }
 
 
-@media (prefers-color-scheme: light) {
 
+@media (prefers-color-scheme: light) {
 
   button {
     color: black;
@@ -354,6 +354,13 @@ p.character-sheet, div.character-sheet>p {
     margin-bottom: 0%;
     color: white;
   }
+}
+
+small {
+  color: inherit;
+}
+small {
+  color: #fff;
 }
 
 @font-face {

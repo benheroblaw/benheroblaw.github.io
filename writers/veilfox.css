@@ -16,3 +16,100 @@
   color: #800037;
   text-shadow: 0px 0px 5px #2c2cc7;
 }
+/* .veilBack {
+  background: linear-gradient(#000520, #2c2cc7, #000005);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100vw;
+  min-height: 100vh;
+} */
+
+div.background>h2 {
+  background-color: unset;
+  font-family: unset;
+  font-size: 2rem;
+  text-align: unset;
+}
+
+div.center {
+  text-align: center;
+}
+div.center>* {
+  text-align: inherit;
+}
+
+h1 {
+  font-size: 3rem;
+  text-shadow: 1rem 1rem 2rem #000;
+}
+
+pre, p {
+  white-space-collapse: preserve-breaks;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  /* position: relative; */
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* min-height: auto; */
+  height: 100%;
+  /* bottom: 0px;
+  top: 0px;
+  left: 0px;
+  right: 0px; */
+}
+
+small {
+  color: #aaa;
+}
+
+@media (prefers-color-scheme: light) {
+  div.background {
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+    padding: 38px;
+    text-wrap-mode: wrap;
+    background: #ddd;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: black;
+  }
+  div.background>p, div.background>h2 {
+    color: black;
+    text-shadow: 0.5rem 0.5rem 1rem #aaa;
+  }
+  body {
+    background: linear-gradient(#005e63, #b3004e, #3131e0);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  div.background {
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+    padding: 38px;
+    text-wrap-mode: wrap;
+    /* background: radial-gradient(180deg, rgb(calc(44/4), calc(44/4), calc(199/4)), #000520, #000005); */
+    background: #151515;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #ddd;
+  }
+  div.background>p, div.background>h2 {
+    color: #ddd;
+    text-shadow: 0.5rem 0.5rem 1rem #000;
+  }
+  body {
+    background: linear-gradient(
+      rgb(calc(0/4), calc(70/4), calc(74/4)),
+      rgb(calc(128/4), calc(0/4), calc(55/4)),
+      rgb(calc(44/4), calc(44/4), calc(199/4)));
+  }
+}

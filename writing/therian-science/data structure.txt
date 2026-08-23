@@ -1,0 +1,6 @@
+file names should be "{terra|aqua}-data-{number}.html"
+"base-data-template.html" is an example
+
+$number to be replaced with a number
+$type to be replaced with either "Terra" or "Aqua"
+all instances of these selectors should be replaced with ctrl+f2
