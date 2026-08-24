@@ -1,0 +1,5 @@
+profiles should be named "{$type}-{$class}-{$number}.html"
+$type to be replaced with either "Terra" or "Aqua"
+$class to be replaced with a valid class: ['breeder']
+$number to be replaced with a number
+all instances of these selectors should be replaced with ctrl+f2

@@ -1,6 +1,7 @@
 Default
     <!DOCTYPE html>
     <head>
+    <meta charset="UTF-8">
         <link rel="stylesheet" href="./style.css">
         <link rel="icon" href="/icons/characters.png">
         <script src="/script.js"></script>
@@ -18,6 +19,7 @@ Default
 Character sheet
     <!DOCTYPE html>
     <head>
+    <meta charset="UTF-8">
         <link rel="stylesheet" href="../characters.css">
         <link rel="icon" href="/icons/characters.png">
         <script src="/script.js"></script>
@@ -40,6 +42,7 @@ Character sheet
 Writing
     <!DOCTYPE html>
     <head>
+    <meta charset="UTF-8">
         <link rel="stylesheet" href="./writing.css">
         <link rel="icon" href="./18+.png">
         <script src="/script.js"></script>

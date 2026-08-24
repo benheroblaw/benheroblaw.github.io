@@ -37,7 +37,7 @@ img {border: 2px; border-color: white; border-style: solid; width: 20%; user-sel
 img:hover {border: 4px; border-color: aqua; border-style: solid;}
 img:active {border: 2px; border-color: black; border-style: solid;}
 video {border-color: blue; border-bottom-color: blue; border-right-color: blue; border-style: solid; background: linear-gradient(#111, #070707);}
-button {cursor: pointer;}
+button {cursor: default;}
 
 /* classes */
 .center {display: block; margin: auto; margin-top: 0px; max-height: 100%; max-width: 90vw; width: auto;}
@@ -60,6 +60,16 @@ button {cursor: pointer;}
 .video:fullscreen {border-color: black; border-style: solid}
 .background {word-spacing: 1px; letter-spacing: 0.5px; font-size: 1rem; padding: 38px; text-wrap-mode: wrap; background: #aaa; margin-top: 0px; margin-bottom: 0px; color: black;}
 .background>p {color: black; text-shadow: none;}
+.nav>div>button {
+  border: solid 2px #777
+}
+.nav>div>button.crossed-out {
+  text-decoration: line-through #500;
+  color: #a00;
+  background-color: #100505;
+  border: solid 2px #500;
+  cursor: not-allowed;
+}
 
 #image {
   margin-top: 0rem;

@@ -220,7 +220,8 @@ var villainess = [
     <i>\"What gives you any hold on </i>my<i> shadow?\" - Villain to Umbra</i></p>
   </div>`,
 
-  `<head>\
+  `<head>
+    <meta charset="UTF-8">\
   <link rel=\"icon\" href=\"/icons/story.png\">\
   <title>The Villain Enters A Political Marriage with the Prince of a Neighboring Kingdom</title>\
   </head>\

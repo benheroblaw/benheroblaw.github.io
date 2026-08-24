@@ -560,14 +560,20 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
 
   // next
   function nextPanel() {
-    viewerIndex++
-    gewi('next').style.textDecoration = 'none'
-    gewi('number').innerHTML = viewerIndex +1
-    console.log(viewerIndex)
-    gewi('image').src = ''
-    gewi("image").src = basePath + contents[viewerIndex];
-    qSelA('.pages>button').forEach(element => element.style.backgroundColor = 'black');
-    gewi(viewerIndex).style.backgroundColor = "blue";
+    if (viewerIndex < contents.length -1) {
+      viewerIndex++
+      qSel('button#prev').className = ''
+      qSel('button#next').className = ''
+      if (viewerIndex === contents.length-1) {
+        qSel('button#next').className = 'crossed-out'
+      }
+      gewi('number').innerHTML = viewerIndex +1
+      console.log(viewerIndex)
+      gewi('image').src = ''
+      gewi("image").src = basePath + contents[viewerIndex];
+      qSelA('.pages>button').forEach(element => element.style.backgroundColor = 'black');
+      gewi(viewerIndex).style.backgroundColor = "blue";
+    }
   }
   const next = document.createElement('button')
   next.innerText = 'Next >'
@@ -580,27 +586,25 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
 
   // prev
   function prevPanel() {
-    viewerIndex--
-    if (viewerIndex === 0) {gewi('prev').style.textDecoration = 'line-through'; tesLog('no prev')}
-    gewi('prev').style.textDecoration = 'none'
-    gewi('number').innerHTML = viewerIndex +1
-    console.log(viewerIndex)
-    gewi('image').src = ''
-    gewi("image").src = basePath + contents[viewerIndex];
-    qSelA('.pages>button').forEach(element => element.style.backgroundColor = 'black');
-    gewi(viewerIndex).style.backgroundColor = "blue";
+    if (viewerIndex !== 0) {
+      viewerIndex--
+      qSel('button#prev').className = ''
+      qSel('button#next').className = ''
+      if (viewerIndex === 0) {qSel('button#prev').className = 'crossed-out'; }
+      gewi('number').innerHTML = viewerIndex +1
+      console.log(viewerIndex)
+      gewi('image').src = ''
+      gewi("image").src = basePath + contents[viewerIndex];
+      qSelA('.pages>button').forEach(element => element.style.backgroundColor = 'black');
+      gewi(viewerIndex).style.backgroundColor = "blue";
+    }
   }
   const prev = document.createElement('button')
   prev.innerText = '< Prev'
   prev.id = 'prev'
+  prev.className = 'crossed-out'
   prev.onclick = () => {
-    if (viewerIndex != 0) {
-      prevPanel()
-    }
-    else {
-      gewi('prev').style.textDecoration = 'line-through'
-      tesLog('no prev')
-    }
+    prevPanel()
   }
 
   // panel number
@@ -609,27 +613,46 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
 
   window.onkeydown = function (event) {
     if (event.key === 'ArrowLeft') {
-      if (viewerIndex != 0) {
-        prevPanel()
-      }
-      else {
-        gewi('prev').style.textDecoration = 'line-through'
-        tesLog('no prev')
-      }
+      prevPanel()
     }
     else if (event.key === 'ArrowRight') {
-      if (viewerIndex < contents.length -1) {
-        nextPanel()
-      }
-      else {
-        gewi('next').style.textDecoration = 'line-through'
-      }
+      nextPanel()
+    }
+    else if (event.key === 'Home') {
+      // Home pressed
+      event.preventDefault()
+      viewerIndex = 1
+      prevPanel()
+    }
+    else if (event.key === 'End') {
+      // End pressed
+      event.preventDefault()
+      viewerIndex = contents.length -2
+      nextPanel()
     }
     else if (event.key === 'ArrowUp') {
-    // Up Arrow pressed
+      if (viewerIndex === contents.length-1) {}
+      for (let index = 0; index < 5; index++) {
+        if (viewerIndex != 0) {
+          prevPanel()
+        }
+        else {
+          gewi('prev').style.textDecoration = 'line-through'
+
+        }
+      }
     }
     else if (event.key === 'ArrowDown') {
-      // Down Arrow pressed
+      if (viewerIndex === 0) {
+        for (let index = 0; index < 4; index++) {
+          nextPanel()
+        }
+      }
+      else {
+        for (let index = 0; index < 5; index++) {
+          nextPanel()
+        }
+      }
     }
   }
 
@@ -638,13 +661,14 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
   <div class="center"></div>
   <div class="nav">
     <div id="prev"></div>
-    <div id="number"></div>
+    <div><div id="number"></div> / <div id="max"></div></div>
     <div id="next"></div>
   </div>
   <div class="pages" id="pages"></div>`
   qSel('.center').appendChild(image)
   qSel('#prev').appendChild(prev)
   qSel('#number').innerHTML = viewerIndex +1
+  qSel('#max').textContent = contents.length
   qSel('#next').appendChild(next)
 
   qSel('.nav').style.marginBottom = '0.5rem'
@@ -652,8 +676,8 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
   qSel('.nav').style.justifyContent = 'space-between'
   qSel('.nav').style.width = '40%'
   qSel('.nav').style.marginLeft = '30%'
-
-
+  qSel('#number').style.display = 'inline'
+  qSel('#max').style.display = 'inline'
 
   // page buttons
   contents.forEach((value, index) => {
@@ -1212,7 +1236,12 @@ document.addEventListener('load', () => {
   document.body.innerHTML += '<div class="load" style="width: 100vw;height: 100vh;background-color: #000;background-size: cover;color: #fff;z-index: 5;position: fixed;top: 0;left: 0;text-align: center;padding-top: 30vh;">loading <img src="/loading.gif"></div>'
 })
 
+document.addEventListener("loadstart", () => {
+  document.head += '<meta charset="UTF-8">'
+})
+
 document.addEventListener("DOMContentLoaded", function() {
+
   // document.body.appendChild(script)
   document.body.innerHTML += '<div id="load" style="width: 100vw;height: 100vh;background-color: #000;background-size: cover;color: #fff;z-index: 5;position: fixed;top: 0;left: 0;text-align: center;padding-top: 30vh;">loading...<br><br><img src="/loading.gif" style="width: 2rem; border: none;"></div>'
   if (window.location.pathname.indexOf('/r34/') > -1) {

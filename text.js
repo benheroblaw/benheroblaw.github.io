@@ -1085,21 +1085,26 @@ var PxKxM_draft = [
       she's a little confused, because she isn't wearing anything like the skimpy outfits the women in her material were wearing. it's just... sundresses, skirts that are rather short for her taste and crop tops, what seemed like a bodysuit that kept her private parts covered but revealed her legs, hips (which were shown through cutouts in very short shorts), her shoulders, her upper arms but not her forearms, her fingers, a section of her breasts that seemed to be focused on the area between them. a suit? just a suit. full plate armour, but no helmet (she's a royal guard, wearing armour without a helmet feels unnatural).
       a rather specific shot of her in a sundress with a light shining behind her so a shadow is visible through it
 
-      (these are all sketched bc it's medieval times) (some people would just add magic cameras and/or magic photos, but my first thought when i remembered "oh they don't have magazines because they can't just take pictures {and they don't have the 'shiny' paper they're printed on}" was "have them make sketches")
-      (this also implies the captain went out of her way to produce pornographic material of this soldier specifically)
+      (these are all sketched bc it's medieval times)
+      (some people would just add magic cameras and/or magic photos, but my first thought when i remembered "oh they don't have magazines because they can't just take pictures {and they don't have the 'shiny' paper they're printed on}" was "have them make sketches")
+      (this also means the captain went rather out of her way to produce pornographic material of this soldier)
       (oohhhhhhh the yuri)
 
       which she then distributes to the entire royal guard except the subject
+
       so she finds the captain getting off to her porn
+
       and the captain reveals that she distributed it to all the royal guardswomen except her
+
       so she's kind of getting cucked
-      and she thinks that's kind of hot
+
+      and she kind of thinks that's hot
     `)
     , false
   ),
 
   chapter(
-    'god dammit i started thinking about backstory',
+    'god dammit i started thinking about backstory >:T',
     '',
     paragraph(
       `this kingdom used to be ruled by a king
@@ -1107,12 +1112,12 @@ var PxKxM_draft = [
 
       and the queen seized power
 
-      she restructured the entire system of power to make women equal, if not more powerful, than men
+      she restructured the entire system of power to make women equal to, if not more powerful, than men
       (turned a patriarchy into a matriarchy)
 
       changed her last name to Whitesword
 
-      made gay marriage legal in response to being questioned about whether she would make gay marriage legal`
+      she made gay marriage legal in response to being questioned about whether she would make gay marriage legal`
     )
   ),
 
@@ -1166,9 +1171,11 @@ var PxKxM_draft = [
 
       A <i>click</i> sounds at the door.
 
-      Avice freezes, then scrambles to find a weapon.
+      Avice freezes, then scrambles to prepare a weapon.
 
-      She had taken off her armour right after the tournament, so her sword was in the armoury. She might have had a knife, but if she did, it was in her clothes strewn across the floor.
+      She had taken off her armour right after the tournament, so her sword was in the armoury.
+
+      She might have had a knife, but it would be in her clothes strewn across the floor.
 
       She decides to wait and see who it is. She has some knowledge of martial arts. Hopefully they will be enough.
 
@@ -1182,19 +1189,89 @@ var PxKxM_draft = [
 
       Avice doesn't move.
 
-      "My name is Millicent; I'm Alinor's head maid." She bows at the waist.
+      "My name is Millicent Russell; I'm Alinor's head maid." She folds at the waist.
 
       Avice starts to relax.
 
       "She gave you a rough night, huh?"
 
-      Her words send Avice spiraling through memories of the princess's debauchery, and she promptly pulls the blanket over her head to hide her embarrassment.`
+      These words send Avice spiraling through memories of the princess's debauchery, and she promptly yanks the blankets over her head to hide her embarrassment.
+
+      "Hey, hey, it's all right. She does this rather often."
+
+      Avice shifts under the expensive covers, chewing this idea into something she can process.
+
+      "Would you like some water...? Fresh clothes...?"
+
+      Avice's head flicks up at this.
+
+      She embarrassedly reveals her face, pushing the words "Clothes first..." out of her mouth.
+
+      "Alright." Avice watches Ms. Russell walk over to the princess's wardrobe, shuffling through outfits and pieces of clothing whose price might have amounted to a lifetime of work for the knight.
+
+      Eventually, she pulls a dyed silken nightgown from the selection, walking back over to the side of Princess Alinor's bed.
+
+      "This should be around your size... The princess is a bit shorter than you, so the hem will be a little high, but not uncomfortably, I hope."
+
+      Avice reaches to take the clothing, clutching the bedsheets to her chest.
+
+      Ms. Russell gives a small smile.
+
+      "I'll turn around. And close my eyes, for that measure."
+
+      So she does. After a second, Avice quickly untangles herself from the sheets and hastily pulls the nightgown on.
+
+      "May I turn around now?"
+
+      Avice whispers an "<small>um...</small>", then pulls herself together and says more confidently, "Yes. You may."
+
+      Ms. Russell pivots at a comfortable pace, seeming to give Avice plenty of warning.
+
+      Her eyes rake up and down Avice's body, looking pleased.
+
+      "It fits rather well, don't you think?"
+
+      She kneels down to examine the hem, hanging below Avice's knees; noting how the knight retreats into herself as she bends down.
+
+      "Well, do you need anything else?" Ms. Russell asks, straightening up.
+
+      "<small>uh-</small> How long have you known the princess?" Avice fidgets nervously, wanting to ask more.
+
+      "Rather a long time. Is it... five years now?" Ms. Russell chuckles lightly. "She's always made sure to keep things interesting."
+
+      She glances over at the princess in question. "...I don't like her drinking, though. She consumes alcohol like she's trying to die early of liver failure."
+
+      Avice makes a surprised noise at her declaration.
+
+      "I only let her drink at parties. Otherwise, she'd be slurping down as much wine and beer as tonight every other day."
+
+      She <i>hms</i>. "And I'd be dealing with her hangovers the rest."
+
+      "Is she... always so..." Avice tries.
+
+      "She gets handsy when she's drunk, yes. But..."
+
+      Ms. Russell looks over at Avice.
+
+      "She doesn't take many people to bed."
+
+      Avice is visibly blushing now.
+
+      Ms. Russell chuckles again. "She dragged you out of the party as soon as she possibly could."
+
+      She fixes Avice with a piercing stare.
+
+      "There's something she really quite likes about you. I'm not sure exactly what it is, and I doubt she would say without far too much alcohol."
+
+      A smile washes across her face, making her fierce gaze disappear just as quickly as it had shown.
+
+      "If we're going to keep talking, why don't we step out?"`
     )
   )
 ]
 
 var PxKxM = [
-  background('placeholder for now')
+  background('placeholder for now :P')
 ]
 
 let dirtiness_essay = [
@@ -1213,16 +1290,19 @@ let dirtiness_essay = [
 
     The big factor I object to in this idea of rape is lack of consent.
     "No shit! Rape is always non-consensual!"
-    Fun fact: People like roleplaying situations like this. This is why safewords and other methods of what I will call "extended consent" exist.
+    Fun fact: People like roleplaying situations like this. This is why safewords and other methods of what I will refer to as "extended consent" exist.
 
     (If you know what I mean by "extended consent", you can skip this section.) "Extended consent" is a way for people to experience, most likely "taboo", sexual ideas safely. For example: take a person who gets aroused by reading about girls holding knives to each other's throats, and has determined that they find the "having a knife held to their throat" part arousing. There are many reasons why "normal" people would discourage them from trying this in real life; the inherent danger of a knife, the chance that their partner could "go too far", and many others.
-    This is where extended consent comes in. This theoretical person could ask a very trusted partner to hold a knife to their throat, explicitly tell their partner, "I want you to hold a knife to my throat." So, their partner holds a (real, sharp) knife to their throat, being very careful not to harm them, and will immediately back off upon hearing the word "stop", or any other word or phrase both of them have agreed means "Stop." (this is called a safeword; to my knowledge, a "safe phrase" is also called a safeword.)
+
+    This is where extended consent comes in. This theoretical person could ask a very trusted partner to hold a knife to their throat, explicitly tell their partner "I want you to hold a knife to my throat." So, their partner holds a (real, sharp) knife to their throat, being very careful not to harm them, and will immediately back off upon hearing the word "stop", or any other word or phrase both of them have agreed means "Stop." (this is called a safeword; to my knowledge, a "safe phrase" is also called a safeword.)
     (extended consent over!)
 
-    Something I notice often in kink- and kink-adjacent communities, in reference to real people, is an undercurrent of safety. (Fiction is a free-for-all.)
+    Something I notice often in kink- and kink-adjacent communities, in reference to real people, is an undercurrent of safety. Systems such as extended consent have been created for real people to experience whatever they please as safely as possible.
 
-    Fiction, however, is not subject to this ideal of safety. You can do whatever you want in fiction. Involvement of real people obviously removes the shield of "fiction" from a work, so if someone is writing about how they want to rape an actual person, trying to portray that real person in their work, that should be investigated and dealt with.
+    Fiction, however, is not subject to this idea of safety. You can do whatever you want in fiction. Involvement of real people (obviously) removes the "shield of fiction" from a work, so if someone is writing about how they want to rape an actual person, trying to portray that real person in their work, without their knowledge or consent, that should be investigated and dealt with.
 
-    Self-inserts occupy a middle ground and should be treated more like a real person than a fictional character. This does, however, depend on the amount of themself the creator has put into this self-insert, and the creator's own boundaries. A character made by a creator to be loosely based on themself should be respected based on what a creator says you can do with them, including not creating works featuring this character at all.`)
+    Self-inserts occupy a middle ground and should be treated more like a real person than a fictional character. This does, however, depend on the amount of themself the creator has put into this self-insert, and more importantly the creator's own boundaries. A character made by a creator to be loosely or heavily based on themself should be respected based on what a creator says you can do with them, including not creating any works or not creating certain types of works (NSFW, for example) featuring this character at all.
+
+    You should, of course, respect a creator's boundaries regardless of whether they allow people to draw their fictional character having sex. So many people refuse to perform this simple courtesy and will harass creators based on whatever they want.`)
   )
 ]

@@ -1,6 +1,7 @@
 Default
     <!DOCTYPE html>
     <head>
+    <meta charset="UTF-8">
         <link rel="stylesheet" href="./style.css">
         <link rel="icon" href="forest.png">
         <script src="/script.js"></script>
@@ -15,6 +16,7 @@ Default
 Character sheet
     <!DOCTYPE html>
     <head>
+    <meta charset="UTF-8">
         <link rel="stylesheet" href="../characters.css">
         <link rel="icon" href="/icons/forest.png">
         <script src="/script.js"></script>

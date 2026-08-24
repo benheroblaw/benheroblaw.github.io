@@ -1,6 +1,7 @@
 Default
     <!DOCTYPE html>
     <head>
+    <meta charset="UTF-8">
         <link rel="stylesheet" href="/r34/style.css">
         <link rel="icon" href="/icons/favicon-2.png">
         <script src="/script.js"></script>
@@ -24,6 +25,7 @@ Aspect Ratios
 Comics
         <html>
     <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="/r34/style.css">
     <link rel="icon" href="/icons/favicon-2.png">
         <script src="/script.js"></script>
@@ -796,6 +798,7 @@ Comics
 Viewers
     <html>
     <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="/r34/style.css">
     <link rel="icon" href="/icons/favicon-2.png">
         <script src="/script.js"></script>
@@ -837,6 +840,7 @@ Viewers
 Character sheet
     <!DOCTYPE html>
     <head>
+    <meta charset="UTF-8">
         <link rel="stylesheet" href="/characters.css">
         <link rel="icon" href="/icons/characters.png">
         <script src="/script.js"></script>
