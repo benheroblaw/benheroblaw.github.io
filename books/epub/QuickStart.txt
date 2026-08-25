@@ -1,0 +1,220 @@
+3dslibris QuickStart
+
+Welcome. This document gives you a practical overview of controls,
+navigation, and format-specific features.
+
+------------------------------------------------------------
+0) Add your books
+------------------------------------------------------------
+
+The normal user book folder is:
+
+  sdmc:/3ds/3dslibris/book/
+
+Copy supported ebook files there before or after first launch.
+
+Supported extensions:
+- .epub
+- .fb2
+- .txt
+- .rtf
+- .odt
+- .mobi
+- .pdf
+- .xps
+- .oxps
+- .cbz
+
+Notes:
+- `.3dsx` installs read books from the SD path above.
+- `.cia` installs also support bundled books in
+  `romfs:/3ds/3dslibris/book`, but your own books should normally still go in
+  the SD folder.
+
+------------------------------------------------------------
+1) Library controls
+------------------------------------------------------------
+
+- D-Pad / Circle Pad: move selection
+- A: open selected book
+- B: back
+- X / Y: quick actions in library (depends on current view)
+- Touch: select/open books and use UI buttons
+
+Tip:
+- 3dslibris scans both:
+  - sdmc:/3ds/3dslibris/book
+  - romfs:/3ds/3dslibris/book (CIA bundled books)
+
+------------------------------------------------------------
+2) Reading controls (general)
+------------------------------------------------------------
+
+There are two reading control sets:
+- Reflow/text books: EPUB, FB2, TXT, RTF, ODT, MOBI
+- Fixed layout books: PDF, XPS/OXPS, CBZ
+
+------------------------------------------------------------
+3) Reflow/text reading controls
+------------------------------------------------------------
+
+Page navigation:
+- A / R / D-Pad Down: next page
+- B / L / D-Pad Up: previous page
+- Touch left half: previous page
+- Touch right half: next page
+
+Bookmarks:
+- Y: add/remove bookmark on current page
+- D-Pad Left/Right: jump between bookmarks
+  - current mapping uses Left = next bookmark, Right = previous bookmark
+
+Other:
+- X: cycle theme (normal / dark / sepia)
+- Start: return to library
+- Select: open BOOK settings
+- During "opening book ...", B / Start / Select cancels the load and
+  returns to the library
+- The bottom screen displays the HUD by default (clock and approximate
+  battery percentage, plus a '+' when charging). This can be toggled
+  in GENERAL settings.
+
+Bookmark persistence:
+- Bookmarks are saved in `sdmc:/3ds/3dslibris/3dslibris.xml`.
+
+------------------------------------------------------------
+4) Fixed layout controls (PDF / XPS / OXPS / CBZ)
+------------------------------------------------------------
+
+Zoom:
+- A: zoom in
+- B: zoom out
+- Includes one extra zoom step beyond the previous maximum, mainly for
+  better readability on old3DS.
+
+Page/chapter navigation:
+- D-Pad Right: next page
+- D-Pad Left: previous page
+- L / R: previous / next page in fixed-layout documents
+  (PDF / CBZ)
+- D-Pad Down / Up:
+  - if chapters exist: next/previous chapter
+  - otherwise: next/previous page
+
+Viewport navigation:
+- Touch preview area and drag: move zoomed viewport
+
+Other:
+- Start: return to library
+- Select: open BOOK settings
+- During "opening book ...", B / Start / Select cancels the load and
+  returns to the library
+
+Reading direction:
+- Default is Left to right (western books).
+- For manga, Arabic, or Hebrew content: open BOOK settings (Select)
+  and toggle "reading direction" to Right to left.
+- Page turn direction and viewport navigation flip accordingly.
+
+Notes:
+- High-quality redraw can appear shortly after interaction.
+- On heavy documents, wait briefly for deferred/final quality pass.
+- Changing page resets the viewport to a sane default before redraw.
+
+------------------------------------------------------------
+5) EPUB / FB2 / TXT / RTF / ODT / MOBI
+------------------------------------------------------------
+
+Text flow features:
+- Paragraph spacing and indent settings
+- Font size and orientation options
+- Better fallback font support (Arabic/Hebrew/CJK/Korean)
+
+Inline styles:
+- Bold / italic
+- Underline / strikethrough
+- Superscript / subscript
+
+MOBI notes:
+- Deferred parsing and TOC improvements for faster open.
+- Optional line-wrap fix toggle for problematic files.
+
+------------------------------------------------------------
+6) PDF / XPS (MuPDF)
+------------------------------------------------------------
+
+- Uses fixed-layout controls above.
+- Includes zoom + viewport preview + deferred quality rendering.
+- Supports page turn with L / R in addition to D-Pad Left / Right.
+
+------------------------------------------------------------
+7) CBZ
+------------------------------------------------------------
+
+- Uses fixed-layout controls above.
+- Includes image zoom + viewport preview.
+- Supports page turn with L / R in addition to D-Pad Left / Right.
+- If a CBZ page fails to load, debug builds now log whether the failure came
+  from archive access or image decode.
+
+------------------------------------------------------------
+8) Settings and orientation
+------------------------------------------------------------
+
+- There are two settings menus:
+  - GENERAL settings: open from the library
+  - BOOK settings: open while reading
+- GENERAL settings contain global options such as:
+  - font configuration
+  - font size
+  - paragraph spacing
+  - screen orientation
+  - clock format & battery indicator
+  - color mode
+  - library view
+- BOOK settings contain only book/document-specific actions such as:
+  - go to page
+  - index
+  - bookmarks
+  - publisher font sizes (toggle CSS font sizes, off by default)
+  - format-specific options like MOBI line-wrap fix
+  - reading direction toggle (Left to right / Right to left) for PDF/CBZ/XPS
+- Go to page:
+  - touch the slider to choose a page
+  - Left/Right: move by 1 page
+  - Up/Down or L/R: move by 10 pages
+  - A: confirm
+  - B / Select / Start: cancel
+- Left-handed mode supported
+- Grid/list navigation behavior follows orientation updates
+- Runtime UI assets and fonts can be replaced from SD paths
+
+Font folders:
+- sdmc:/3ds/3dslibris/font
+- romfs:/3ds/3dslibris/font (bundled fallback)
+
+------------------------------------------------------------
+9) 3dslibris vs legacy dslibris (highlights)
+------------------------------------------------------------
+
+- Nintendo 3DS native dual-screen UX
+- PDF/XPS via MuPDF
+- CBZ support
+- Better TOC/chapter resolution
+- Improved fallback fonts for non-Latin scripts
+- Incremental architecture refactor for maintainability
+
+------------------------------------------------------------
+10) Troubleshooting
+------------------------------------------------------------
+
+No books found:
+- Put files in sdmc:/3ds/3dslibris/book
+- Or use CIA bundled books in romfs:/3ds/3dslibris/book
+- Supported extensions: .epub .fb2 .txt .rtf .odt .mobi .pdf .xps .oxps .cbz
+
+Styles missing:
+- Try a different font in sdmc:/3ds/3dslibris/font
+- Re-open the book after changing fonts
+
+Enjoy reading.

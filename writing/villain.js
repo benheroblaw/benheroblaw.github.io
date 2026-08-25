@@ -609,15 +609,17 @@ var villainess = [
 
     I feel a presence approach me.
 
-    Then, I feel the bite of an unexpected touch, her hands- I can only assume these hands are hers- imposing themselves on my waist.
+    Then, I feel the bite of an unexpected touch, her hands&mdash; I can only assume these hands belong to her&mdash; imposing themselves on my waist.
 
     She pulls herself closer.
 
     Tendrils of shadow snake up my torso, finding latches and buckles on the straps holding my breastplate in place.
 
-    She undoes latches and buckles, lifting my armour away from my body.
+    She undoes each latch and buckle, lifting my armour away from my body.
 
-    My torso is now easily accessible, but she leans her head toward mine.
+    My torso is now easily accessible, relieved of protection, my life all too easy to end.
+
+    But she leans her head toward mine.
 
     She presses our lips together, gently pulling me into a kiss that I cannot decipher.
 
@@ -627,9 +629,9 @@ var villainess = [
 
     She should hate me.
 
-    Why is she laying kisses upon my neck as if she loves me?
+    Why is she laying kisses upon my body as if she loves me?
 
-    Why is she-
+    Why is she&mdash;
 
     "S-stop..." I force the words out of my mouth, and she halts her attempt to free my body from another layer of clothing.
 
@@ -657,11 +659,11 @@ var villainess = [
 
     But this is not the path relationships are meant to follow.
 
-    "Yet, if you only allow me a frame, I will cherish what I know."
+    "Yet, if you allow me only a frame, I will cherish what I know."
 
     We're not...
 
-    "I will only learn what you allow me, what you show me, and I will cherish it."
+    "I will learn only what you show me, what you allow me, and I will cherish it."
 
     We're not supposed...
 
@@ -669,7 +671,7 @@ var villainess = [
 
     Gods forgive me.
 
-    "If you only allow me the memory of your lips, that is all I will take from you."
+    "If you allow me but the memory of your lips, that is all I will take from you."
 
     Gods forgive my weakness.
 
@@ -705,7 +707,7 @@ var villainess = [
 
     My hands are shaking so hard, I have difficulty moving her hands where I want them.
 
-    How can she wait, and wait, wait through all of my struggles, and not place any weight on my shoulders?
+    How can she wait and wait, wait through all of my struggles, and not place any weight on my shoulders?
 
     For the massive pressure on me...
 
@@ -713,11 +715,11 @@ var villainess = [
 
     Is it not?
 
-    Nothing about her makes me feel pressured, as though she places no expectations for me to bear.
+    Nothing about her makes me feel pressured, as though she holds no expectations for me to bear.
 
     Or...
 
-    Maybe she does place an expectation upon me.
+    Maybe she does place one expectation upon me.
 
     The expectation that I will do only what I want.
 
@@ -762,6 +764,36 @@ var villainess = [
     Again she slips the button out.
 
     She starts moving more confidently, as I move with her.
+
+    Both soon enough and eternally far, she undoes each button, slips the rest of my armour away from my body.
+
+    The metal <i>clanks</i> to the ground as she discards each plate, disappearing from my sense of touch into the dark.
+
+    Once my armour is spread across the ground, she takes the now open edges of my tunic in her hands.
+
+    Again she pauses.
+
+    She waits for me to take her hands in my own somewhat steadier ones and pull the garment down over my shoulders.
+
+    Again she pauses.
+
+    But this time, I feel her eyes on my neck, my shoulders, hear the inhale she breathes as my skin is revealed.
+
+    I am far from fully undressed, yet I feel as though I am showing her something special.
+
+    Something... private, perhaps.
+
+    She has never seen me unarmoured before.
+
+    Her lips press slowly, reverently, onto my neck.
+
+    I feel them a moment before her touch, just long enough to suppress the flinch that rises.
+
+    I cannot let her stop.
+
+    She will stop if I flinch.
+
+    My body is begging for her touch, wanting her to press herself closer, hold me closer.
 
     </p>
   </div>`,
@@ -833,11 +865,11 @@ var villainess = [
 
     "She wants to show off her new property."
 
-    I give the child a confused look.
+    I give the child a confused look. She doesn't seem the type of person to care about what kind of shelter she lives in.
 
-    She doesn't seem the type of person to care about what kind of shelter she lives in.
+    "You're here to fight her, right?"
 
-    "You're here to fight her, right?" The child stares at me, into me.
+    The child stares at me, into me.
 
     "She's ready."
 
@@ -847,7 +879,7 @@ var villainess = [
 
     "Why would she send me here, to give you a message and leave?"
 
-    "Just take me to her."
+    "Take me to her."
 
     "Fine." The child shrugs, spins around and briskly walks toward the castle.
 
@@ -879,7 +911,7 @@ var villainess = [
 
     She does not draw a weapon.
 
-    She simply stands there, with a confidence in her abilities that I could never reach the level of.
+    She simply stands there, hands folded behind her back, with a confidence in her abilities that I could never reach the level of.
 
     It makes me shake just laying eyes on her.
 
