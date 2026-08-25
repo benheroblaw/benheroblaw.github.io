@@ -18,7 +18,7 @@ var pornSidebar = `\
   <h1><a href="/r34/r34.html"><span style="color: white;">prawns</span></a></h1>\
   <a href="all.html" class="red"><span>all</span></a><br>\
   <a class="blue" href="assets.html"><span>assets</span></a><br>\
-  <span onclick="tesLog('setting sidebar to artistSidebar'); addSidebar(artistSidebar)" class="blue"><span>Artists</span></span><br>
+  <a onclick="tesLog('setting sidebar to artistSidebar'); addSidebar(artistSidebar)" style="text-decoration: underline #0ff; cursor: pointer;" class="blue"><span>Artists</span></a><br>
   <a href="/r34/sources.html" class="blue"><span>Sources</span></a><br>
   <br>\
   \
@@ -46,7 +46,7 @@ var pornSidebar = `\
   <span class="hidden", style="color: #111;" onclick="window.open('/r34/files.html', '_self')">Files</span>
 `
 var artistSidebar = `
-<h1>Artists</h1>
+<h1><span style="color: white;">Artists</span></h1>
 <a class="blue"><span onclick="tesLog('setting sidebar to pornSidebar'); addSidebar(pornSidebar)">Back</span></a><br><br>
 <a class='red' href='/r34/bonkge.html'><span>Bonkge</span></a><br>
 ${addlink('/r34/puppysnackz.html', 'puppysnackz')}
@@ -304,64 +304,68 @@ function displayStory(content = ['wtf'], pageSetup='', showChapters, volume=0.1,
     )
   }
   function nextPage() {
-    var videoElement = qSelA('video')
-    try {videoElement.forEach(element => {
-      element.pause()
-      element.removeAttribute('src')
-      element.load()
-    })}
-    catch (TypeError) {tesLog('no videos')}
-    index = (index + 1) % content.length
-    gewi('center').textContent = index
-    if (index + 1 >= content.length) {
-      gewi('next').style.display = 'none'
-      gewi('next1').style.display = 'none'
-      gewi('prev').style.display = 'inline'
-      gewi('prev1').style.display = 'inline'
+    if (index !== content.length-1) {
+      var videoElement = qSelA('video')
+      try {videoElement.forEach(element => {
+        element.pause()
+        element.removeAttribute('src')
+        element.load()
+      })}
+      catch (TypeError) {tesLog('no videos')}
+      index = (index + 1) % content.length
+      gewi('center').textContent = index
+      if (index + 1 >= content.length) {
+        gewi('next').style.display = 'none'
+        gewi('next1').style.display = 'none'
+        gewi('prev').style.display = 'inline'
+        gewi('prev1').style.display = 'inline'
+      }
+      else {
+        gewi('next').style.display = 'inline'
+        gewi('next1').style.display = 'inline'
+        gewi('prev').style.display = 'inline'
+        gewi('prev1').style.display = 'inline'
+      }
+      window.scrollTo(0, 0)
+      showSlide(index)
+      vol(volume)
+      if (doCookies == true) {
+        setCookie(page + 'index', index, doOutput)
+      }
+      char()
     }
-    else {
-      gewi('next').style.display = 'inline'
-      gewi('next1').style.display = 'inline'
-      gewi('prev').style.display = 'inline'
-      gewi('prev1').style.display = 'inline'
-    }
-    window.scrollTo(0, 0)
-    showSlide(index)
-    vol(volume)
-    if (doCookies == true) {
-      setCookie(page + 'index', index, doOutput)
-    }
-    char()
   }
   function prevPage() {
-    var videoElement = qSelA('video')
-    try {videoElement.forEach(element => {
-      element.pause()
-      element.removeAttribute('src')
-      element.load()
-    })}
-    catch (TypeError) {tesLog('no videos')}
-    index = (index + content.length - 1) % content.length
-    gewi('center').textContent = index
-    if (index === 0) {
-      gewi('prev').style.display = 'none'
-      gewi('prev1').style.display = 'none'
-      gewi('next').style.display = 'inline'
-      gewi('next1').style.display = 'inline'
+    if (index !== 0) {
+      var videoElement = qSelA('video')
+      try {videoElement.forEach(element => {
+        element.pause()
+        element.removeAttribute('src')
+        element.load()
+      })}
+      catch (TypeError) {tesLog('no videos')}
+      index = (index + content.length - 1) % content.length
+      gewi('center').textContent = index
+      if (index === 0) {
+        gewi('prev').style.display = 'none'
+        gewi('prev1').style.display = 'none'
+        gewi('next').style.display = 'inline'
+        gewi('next1').style.display = 'inline'
+      }
+      else {
+        gewi('prev').style.display = 'inline'
+        gewi('prev1').style.display = 'inline'
+        gewi('next').style.display = 'inline'
+        gewi('next1').style.display = 'inline'
+      }
+      window.scrollTo(0, 0)
+      showSlide(index)
+      vol(volume)
+      if (doCookies == true) {
+        setCookie(page + 'index', index, doOutput)
+      }
+      char()
     }
-    else {
-      gewi('prev').style.display = 'inline'
-      gewi('prev1').style.display = 'inline'
-      gewi('next').style.display = 'inline'
-      gewi('next1').style.display = 'inline'
-    }
-    window.scrollTo(0, 0)
-    showSlide(index)
-    vol(volume)
-    if (doCookies == true) {
-      setCookie(page + 'index', index, doOutput)
-    }
-    char()
   }
   gewi('next').addEventListener('click', () => {
     nextPage()
@@ -376,9 +380,11 @@ function displayStory(content = ['wtf'], pageSetup='', showChapters, volume=0.1,
     prevPage()
   })
   window.onkeydown = function (event) {
-    if (event.key === 'ArrowRight') {
+    if (event.key === 'ArrowRight' && document.fullscreenElement === null && qSel(':focus') !== video) {
+      nextPage()
     }
-    if (event.key === 'ArrowLeft') {
+    if (event.key === 'ArrowLeft' && document.fullscreenElement === null && qSel(':focus') !== video) {
+      prevPage()
     }
     if (event.key === 'ArrowUp') {
     // Up Arrow pressed
@@ -388,15 +394,11 @@ function displayStory(content = ['wtf'], pageSetup='', showChapters, volume=0.1,
     }
     if (event.key === 'PageDown') {
       event.preventDefault()
-      if (index + 1 != content.length) {
-        nextPage()
-      }
+      nextPage()
     }
     if (event.key === 'PageUp') {
       event.preventDefault()
-      if (index != 0) {
-        prevPage()
-      }
+      prevPage()
     }
     if (event.key === 'Home') {
       event.preventDefault()
@@ -461,14 +463,14 @@ let startState = 'not started'
  * Starts displayStory
  * @param {Array} content content in the thing
  * @param {Boolean} format do you want it formatted? true, false, top
- * @param {Boolean} doOutput
  * @param {Number} volume the volume you want videos to be set to on page turn
+ * @param {Boolean} doOutput
  * @param {String} pageSetup how you want to display pages (unused for now)
  * @param {Boolean} doCookies
  * @param {Boolean} doX
  * @param {Boolean} doY
  */
-function startStory(content=['wtf'], format=false, showChapters=true, doOutput=true, volume=0.1, pageSetup=[''], doCookies=true, doX=false, doY=true) {
+function startStory(content=['wtf'], format=false, volume=0.1, doOutput=true, showChapters=false, pageSetup=[''], doCookies=true, doX=false, doY=true) {
   if (doOutput) {tesLog('starting story...')}
   var s = document.createElement('script');
   s.id = 'text'
