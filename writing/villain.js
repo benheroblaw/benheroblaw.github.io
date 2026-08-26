@@ -1,4 +1,4 @@
-var villainess = [
+var villainess_draft = [
   `<br>
   <div class='background'>
   <h3 id='char'>story outline</h3>
@@ -75,7 +75,7 @@ var villainess = [
 
   Inside is Penumbra, the oldest of the children Villain saved.
 
-  She takes a big pull from a cigarette
+  They take a big pull from a cigarette
 
   the party is a little confused
 
@@ -87,7 +87,7 @@ var villainess = [
 
   Penumbra assures her that they're still alive, and tells her that Villain is waiting.
 
-  She walks Hero up to the throne room, leaving her at the door
+  They walk Hero up to the throne room, leaving her at the door
 
   After a moment to steel herself, Hero throws the doors open, filling the room with light.
 
@@ -1026,7 +1026,179 @@ var villainess = [
     You have not a place in my void.
 
     ...</span>`), false
-  )
+  ),
+
+  chapter('false', 'Hero',
+    `I walk a familiar path, through a castle's gates, towards the massive black palace in the center of its walls.
+
+The townspeople ask if I need directions a few times, to which I answered that I knew exactly where I was going.
+
+They seemed skeptical, asking me if I was sure or if I knew what was in the castle.
+
+I, of all people, should know precisely what I'm walking into.
+
+People comment on my meager armour, a simple vest of chainmail.
+
+I assured them that I would be fine.
+
+The person I'm walking to has no intention of hurting me.
+
+So, I reach the gate of the black palace.
+
+I bend the light around me into a set of stairs leading over the wall.
+
+From there, I create a bridge to a walkway that leads into the throne room.
+
+I now stand in front of a set of massive doors.
+
+And I am struck by a memory.
+
+The last time I burst through the towering doors of a royal's abode, to meet the very same person.
+
+Our circumstances were much different then, of course.
+
+I had rushed over to a building hosting a prince's ball, after hearing a servant frantically screaming for help.
+
+When I asked what happened, the servant told me that someone had gone crazy, that they had slaughtered the royal family.
+
+So, like the naive hero that I was, I rushed into the building and killed the woman who seemed to be the culprit, after she drew a sword at my entrance.
+
+She has no need for a sword anymore.
+
+Yet mine is still strapped to my hip.
+
+More... as a memory than anything else.
+
+I find sharp steel at the belt is rather comforting.
+
+Now, I prepare myself to go through these doors.
+
+I...
+
+I'm not exactly sure what is going to happen.
+
+There are ways I would like it to go, of course.
+
+Some that I would like very much.
+
+But...
+
+Ultimately, it is her choice.
+
+I have no reason to believe that she would hurt me.
+
+And...
+
+I just need to go through the door.
+
+I take a deep breath, attempting to steel myself.
+
+All it shows is that my breath is shaking and that I must look very unsure of myself.
+
+I plant my hands on the doorknobs anyway.
+
+And I turn.
+
+And I push.
+
+And I gather every speck of light behind me and blast the searing radiance of the sun into the room.
+
+And I stride past the threshold, briskly walking up to the woman on the throne.
+
+She is as coldly beautiful as she has ever been, pure darkness clouding behind her to protect her shadows from my light.
+
+She regards me with mild amusement, supporting her head with a hand.
+
+"What brings you here, little Hero?"
+
+Her voice is calm and casual, as if I could not condense the equivalent of a Sun into her at a whim.
+
+"Do you wish to fight me again?"
+
+Her face takes on a slightly sad glow.
+
+"No. I am here for... more... personal business."
+
+"Oh?" Her expression instantly changes into undisguised interest.
+
+I am not feeling quite as confident.
+
+But I must give the impression.
+
+"I... I wish to become your knight."
+
+"My knight?" She takes more interest, translating my words into their hidden meaning.
+
+"I... enjoy seeing you perform battle. I enjoy battle myself.
+
+"I wish to use my talent for battle for you. There are others who wish to use me, as they would a pawn.
+
+"You are the only person who would see me as an equal, the only person I would trust to employ my talents.
+
+"You who use violence as a tool, when words have long lost their use.
+
+"So I devote myself to you, my queen."
+
+I draw my sword, as I did all those years ago.
+
+This time, I plant it in the floor before me.
+
+And I kneel, bowing my head.
+
+"What is your name, little Hero?" she asks.
+
+"Cinbel Bonacorso, my lady."
+
+"A beautiful name for a beautiful woman."
+
+She sounds closer now.
+
+Then I feel fingers on my chin.
+
+They gently push upward, and I allow my head to rise.
+
+My eyes stare into hers, a smile on her face more radiant than any shape I bend light into.
+
+"I, Gwenhael Muiredhakh, wish to claim you as mine, as mine and no- body- else's.
+
+"I can only pray that you will accept such a selfish request."
+
+My answer comes without question.
+
+"I am yours to command, my lady."
+
+Her face turns slightly hard.
+
+"Yet I do not wish to command you."
+
+"Hm." Her head tilts and a smug smile curls her lips. "I suppose that shall be my first command."
+
+She slips into commanding surety.
+
+"You will not follow me blindly. Make your own decisions about me, be disgusted by what I do if that is how you so feel.
+
+"You will be your own person. As you say, I have no use for a pawn."
+
+I gaze up at her. "I feel that you are doing what is necessary. Death has lost most of her bite to me."
+
+"You are unafraid to kill?"
+
+"I am capable of killing."
+
+"You know I will not force you."
+
+I smile slightly. "You would not force me to bathe."
+
+Her eyebrows raise in surprised interest.
+
+"Rise, little hero."
+
+So I do.
+
+"And prove your devotion."
+
+So I press my lips to hers and allow the pleasure of her arms around my body to whisk me away.
+`, false)
 
 ]
 
