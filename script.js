@@ -18,7 +18,7 @@ var pornSidebar = `\
   <h1><a href="/r34/r34.html"><span style="color: white;">prawns</span></a></h1>\
   <a href="all.html" class="red"><span>all</span></a><br>\
   <a class="blue" href="assets.html"><span>assets</span></a><br>\
-  <a onclick="tesLog('setting sidebar to artistSidebar'); addSidebar(artistSidebar)" style="text-decoration: underline #0ff; cursor: pointer;" class="blue"><span>Artists</span></a><br>
+  <span onclick="tesLog('setting sidebar to artistSidebar'); addSidebar(artistSidebar)" style="text-decoration: underline #0ff; cursor: pointer;" class="blue"><span>Artists</span></span><br>
   <a href="/r34/sources.html" class="blue"><span>Sources</span></a><br>
   <br>\
   \

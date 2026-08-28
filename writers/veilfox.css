@@ -29,6 +29,7 @@ div.background>h2 {
   font-family: unset;
   font-size: 2rem;
   text-align: unset;
+  margin-bottom: 1rem;
 }
 
 div.center {
@@ -97,6 +98,17 @@ small {
   body {
     background: linear-gradient(#005e63, #b3004e, #3131e0);
   }
+  #story>h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.5rem;
+    text-align: center;
+    padding-top: 50.5px;
+    padding-bottom: 55px;
+    background:
+    linear-gradient(#00000000, #111, #111, #111, #111, #111, #111, #aaa);
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -121,5 +133,17 @@ small {
       rgb(calc(0/4), calc(70/4), calc(74/4)),
       rgb(calc(128/4), calc(0/4), calc(55/4)),
       rgb(calc(44/4), calc(44/4), calc(199/4)));
+  }
+  #story>h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.5rem;
+    text-align: center;
+    padding-top: 50.5px;
+    padding-bottom: 55px;
+    background:
+    linear-gradient(#00000000 , #252525, #252525, #252525, #252525, #252525, #252525, #141414);
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: white;
   }
 }

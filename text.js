@@ -1117,7 +1117,9 @@ var PxKxM_draft = [
 
       changed her last name to Whitesword
 
-      she made gay marriage legal in response to being questioned about whether she would make gay marriage legal`
+      she made gay marriage legal in response to being questioned about whether she would make gay marriage legal
+
+      could this be villain's queendom?`
     )
   ),
 
@@ -1267,14 +1269,16 @@ var PxKxM_draft = [
 
       "If we're going to keep talking, why don't we step out?"`
     )
-  )
+  ),
+
+  chapter('???', 'mill punishes ali')
 ]
 
 var PxKxM = [
   background('placeholder for now :P')
 ]
 
-let dirtiness_essay = [
+var dirtiness_essay = [
   chapter('', '',
     paragraph(`The cultural idea of something being "dirty" is foreign to me.
 

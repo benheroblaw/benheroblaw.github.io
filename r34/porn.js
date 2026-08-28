@@ -1523,9 +1523,18 @@ var hentai = [
   // linkedImage('/') +
   // linkedImage('/') +
   // linkedImage('/') +
-  `<br><br>` +
+  paragraph('other gacha games') +
   linkedImage('/r34/hentai/4e67352010513a0b9e683913d7c87262.webp') +
   linkedImage('/r34/hentai/1c0ea52217f059c48e5076ac9234d2ba64187d7d.webp') +
+  linkedImage('/r34/hentai/1c0ea52217f059c48e5076ac9234d2ba64187d7d-1.webp') +
+  linkedImage('/r34/hentai/1c0ea52217f059c48e5076ac9234d2ba64187d7d-2.webp') +
+  linkedImage('/r34/hentai/1c0ea52217f059c48e5076ac9234d2ba64187d7d-3.webp') +
+  linkedImage('/r34/hentai/1c0ea52217f059c48e5076ac9234d2ba64187d7d-4.webp') +
+  paragraph('text things') +
+  linkedImage('/r34/hentai/b9285ca7ab7c19e6c5a22ca9a7495e7b.webp')+
+  linkedImage('/r34/hentai/1768112031379.webp')+
+  linkedImage('/r34/hentai/762be2454ba1769059253e35b70c6637.webp')+
+  // linkedImage('/')+
   ``,
   `<h2>comic panels</h2>
   blue archive nnn<br>` +

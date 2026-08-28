@@ -538,7 +538,7 @@ var villainess_draft = [
   `<link rel=\"icon\" href=\"/icons/story.png\">\
   <style>p {margin-bottom: 0.75rem}</style>
   <title>The Shadow Judge</title>
-  <h2>2/h2>\
+  <h2>2</h2>\
   <h1 id='char' class='vampire'>Hero</h1>\
   <div class='background'>\
     <p>I've been thinking about the woman I killed recently.
@@ -1029,7 +1029,7 @@ var villainess_draft = [
   ),
 
   chapter('false', 'Hero',
-    `I walk a familiar path, through a castle's gates, towards the massive black palace in the center of its walls.
+    paragraph(`I walk a familiar path, through a castle's gates, towards the massive black palace in the center of its walls.
 
 The townspeople ask if I need directions a few times, to which I answered that I knew exactly where I was going.
 
@@ -1198,7 +1198,7 @@ So I do.
 "And prove your devotion."
 
 So I press my lips to hers and allow the pleasure of her arms around my body to whisk me away.
-`, false)
+`), false)
 
 ]
 
