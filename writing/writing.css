@@ -50,19 +50,12 @@ p {
   margin-right: 30%;
   /* margin-left: 1rem; */
 }
-pre {
-  /* word-spacing: 1px;
-  letter-spacing: 0.5px;
-  font-size: 1rem;
-  padding: 10mm;
-  background: #aaa;
-  margin-top: 0px;
-  margin-bottom: 0px; */
+/* pre {
   text-indent: 1rem;
   text-wrap-mode: wrap;
   margin-right: 30%;
   color: white;
-}
+} */
 button {
   font-size: 0.9rem;
 }

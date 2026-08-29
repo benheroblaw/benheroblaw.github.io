@@ -1520,6 +1520,7 @@ var hentai = [
   linkedImage('/r34/hentai/blue_archive/25e6d9d349cb732834b6f7319febb787.webp') +
   linkedImage('/r34/hentai/blue_archive/1fee712a9d0df9dda74a074dcdda89da.webp') +
   linkedImage('/r34/hentai/blue_archive/f8791a3b311f9c34ea34b8cb557a35480a3301a4.webp') +
+  linkedImage('/r34/hentai/blue_archive/asuna_and_karin.webp') +
   // linkedImage('/') +
   // linkedImage('/') +
   // linkedImage('/') +

@@ -79,6 +79,10 @@ small {
   color: #aaa;
 }
 
+.preserve {
+  white-space-collapse: preserve;
+}
+
 @media (prefers-color-scheme: light) {
   div.background {
     word-spacing: 1px;

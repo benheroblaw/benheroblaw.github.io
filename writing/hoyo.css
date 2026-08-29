@@ -1,0 +1,24 @@
+.stelle {
+  color: #ccc;
+  text-shadow: 1px 1px 2px #ffe600;
+}
+
+.march {
+  color: #ff90dd;
+  text-shadow: 1px 1px 2px #0ff;
+}
+
+.himeko {
+  color: #ddd;
+  text-shadow: 1px 1px 8px #f00, 1px 1px 8px #f00, -1px -1px 7px #b4a800;
+}
+
+.kafka {
+  color: #ccc;
+  text-shadow: 2px 2px 7px #a00, 2px 2px 7px #a00, -2px -2px 7px #c09, -2px -2px 7px #c09;
+}
+
+.wolfie {
+  color: #ddd;
+  text-shadow: 2px 2px 8px #b08, -2px -2px 8px #0cc;
+}
