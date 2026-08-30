@@ -1310,3 +1310,14 @@ var dirtiness_essay = [
     You should, of course, respect a creator's boundaries regardless of whether they allow people to draw their fictional character having sex. So many people refuse to perform this simple courtesy and will harass creators based on whatever they want.`)
   )
 ]
+
+yaoi_and_yuri_draft = [
+  chapter('', 'outline', paragraph(
+    `two girls and two guys learn that god is homophobic
+
+    so, the girls say "let's beat him into submission" and the guys say "yup we gotta kill him"
+
+    the girls have a huge single-target dps and a parrymaster who can reflect 100% of the damage pointed at her
+    she never thought about having her girlfriend attack her and parrying it at her enemies`
+  ))
+]
