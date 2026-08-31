@@ -83,6 +83,15 @@ button {cursor: default;}
   border: #aaa solid 2px;
   /* cursor: crosshair; */
 }
+.imgcache {
+  position: fixed;
+  top: 99.99vh;
+  z-index: -5;
+}
+.imgcache>img {
+  width: 1%;
+  height: 1%;
+}
 /* #image:hover, #prev {
   display: none;
 } */

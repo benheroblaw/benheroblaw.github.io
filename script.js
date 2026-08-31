@@ -24,6 +24,7 @@ var pornSidebar = `\
   \
   <a class="blue" href="/r34/comics.html"><span>Comics</span></a><br><br>` +
   `<a href="/r34/cavestory.html" id="cavestory" class="blue" onmouseenter="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0002.svg\'" onmouseleave="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0001.svg\'" onload="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0001.svg\'"><span>Cave Story</span></a> <img src="/r34/cavestory/assets/Sprite-0001.svg" style="border: none; width: 16px; height: 10px;" id="quotehead"><br>\
+  <a href="/r34/ddlc.html" class="blue"><span>DDLC</span></a><br>\
   <a href="/r34/dragon-maid.html" class="blue"><span>Dragon Maid</span></a><br>\
   <a href="/r34/hard-degen.html" class="blue"><span>Hard Degenerate</span></a><br>\
   <a href="/r34/hoyo.html" class="blue"><span>Hoyoverse</span></a><br>\
@@ -94,6 +95,9 @@ let hardSidebar = `
 <h1>comics</h1>
 ${addlink('/r34/xxx/ceiling-and-treatment.html', 'comic')}
 `
+
+let dokiSidebar = header1('Comics') +
+addLink('/r34/ddlc/doki-doki-skinny-dipping-club.html', 'Doki Doki Skinny Dipping Club')
 
 var program = [
     '(^///^) ',
@@ -549,6 +553,7 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
   const image = document.createElement('img')
   image.className = 'center'
   image.id = 'image'
+  image.alt = contents[0] + ' - page 1'
   image.src = basePath + contents[Number(getCookie(path))]
   // image.style.marginTop = '0.5rem'
   image.style.marginBottom = '0.5rem'
@@ -559,6 +564,13 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
   image.style.backgroundRepeat = 'no-repeat'
   image.style.backgroundSize = 'contain'
   image.style.backgroundPosition = 'center'
+
+  const imgcache = document.createElement('div')
+  imgcache.className = 'imgcache'
+  for (let index = 0; index < contents.length; index++) {
+    const element = contents[index];
+    imgcache.innerHTML += `<img src="${basePath + element}"> `
+  }
 
   // next
   function nextPanel() {
@@ -573,6 +585,7 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
       console.log(viewerIndex)
       gewi('image').src = ''
       gewi("image").src = basePath + contents[viewerIndex];
+      gewi('image').alt = String(contents[viewerIndex]) + ` - page ${viewerIndex + 1}`
       qSelA('.pages>button').forEach(element => element.style.backgroundColor = 'black');
       gewi(viewerIndex).style.backgroundColor = "blue";
     }
@@ -597,6 +610,7 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
       console.log(viewerIndex)
       gewi('image').src = ''
       gewi("image").src = basePath + contents[viewerIndex];
+      gewi('image').alt = String(contents[viewerIndex]) + ` - page ${viewerIndex + 1}`
       qSelA('.pages>button').forEach(element => element.style.backgroundColor = 'black');
       gewi(viewerIndex).style.backgroundColor = "blue";
     }
@@ -681,6 +695,8 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
   qSel('#number').style.display = 'inline'
   qSel('#max').style.display = 'inline'
 
+  qSel('html').appendChild(imgcache)
+
   // page buttons
   contents.forEach((value, index) => {
     const button = document.createElement('button')
@@ -693,9 +709,26 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
       // setCookie(path, index)
       viewerIndex = Number(getCookie(path))
       console.log(viewerIndex)
-      gewi("image").src = basePath + contents[index];
+      gewi("image").alt = basePath + contents[index] + ` - page ${index+1}`;
+      console.log('index: ' +index)
+      if (index === 0) {
+        console.log('crossing out #prev')
+        qSel('button#prev').className = 'crossed-out'
+      }
+      else {
+        qSel('button#prev').className = ''
+      }
+      if (index === contents.length-1) {
+        console.log('crossing out #next')
+        qSel('button#next').className = 'crossed-out'
+      }
+      else {
+        qSel('button#next').className = ''
+      }
+      gewi('number').textContent = index + 1
       qSelA('.pages>button').forEach(element => element.style.backgroundColor = 'black');
       gewi(index).style.backgroundColor = "blue";
+      gewi("image").src = basePath + contents[index];
     }
     gewi('pages').appendChild(button)
   })

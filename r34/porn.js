@@ -1545,3 +1545,28 @@ var hentai = [
   linkedImage('/r34/hentai/blue_archive/comic/nnn/220b9960aa77df2c9c1397f7c8450191859ce306.webp') +
   linkedImage('/r34/hentai/blue_archive/comic/nnn/2fe4d9822dde78450179b1791fac6d32.webp')
 ]
+
+let ddlc = [
+  // linkedImage('/')
+  ``,
+
+  header2('comic panels') +
+  paragraph('doki doki skinny dipping club') +
+  linkedImage('/r34/ddlc/dbag.bsky.social-3mrsqbasfh224.webp') +
+  linkedImage('/r34/ddlc/dbag.bsky.social-3mry36fbkv22n.webp') +
+  linkedImage('/r34/ddlc/dbag.bsky.social-3ms4pmpac422n.webp') +
+  linkedImage('/r34/ddlc/dbag.bsky.social-3msek22agzs2n.webp') +
+  linkedImage('/r34/ddlc/dbag.bsky.social-3msgxxcfuc22n.webp') +
+  linkedImage('/r34/ddlc/dbag.bsky.social-3mslmt3ir2c2n.webp') +
+  linkedImage('/r34/ddlc/dbag.bsky.social-3msoeznpv422n.webp') +
+  linkedImage('/r34/ddlc/dbag.bsky.social-3mstggn24k22u.webp') +
+  linkedImage('/r34/ddlc/dbag.bsky.social-3msyzdx22ms2u.webp') +
+  linkedImage('/r34/ddlc/dbag.bsky.social-3mtcge3qvqs2b-1.webp') +
+  linkedImage('/r34/ddlc/dbag.bsky.social-3mtcge3qvqs2b-2.webp') +
+  linkedImage('/r34/ddlc/dbag.bsky.social-3mtewslsmb22b.webp') +
+  linkedImage('/r34/ddlc/dbag.bsky.social-3mtmcdbh7rs2b.webp') +
+  linkedImage('/r34/ddlc/dbag.bsky.social-3mtyyrywfc22h.webp') +
+  linkedImage('/r34/ddlc/dbag.bsky.social-3mu3qgd6hyk2h.webp') +
+  linkedImage('/r34/ddlc/dbag.bsky.social-3muctnzsgw22y.webp') +
+  ``
+]

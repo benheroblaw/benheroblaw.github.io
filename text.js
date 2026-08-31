@@ -1318,6 +1318,8 @@ yaoi_and_yuri_draft = [
     so, the girls say "let's beat him into submission" and the guys say "yup we gotta kill him"
 
     the girls have a huge single-target dps and a parrymaster who can reflect 100% of the damage pointed at her
-    she never thought about having her girlfriend attack her and parrying it at her enemies`
+    she never thought about having her girlfriend attack her and parrying it at her enemies
+    each time they do this is a massive trust exercise, they're gazing into each other's eyes as she's bringing her sword down and her partner activates her parry at the earlier end of the window (partially because she doesn't want to get eviscerated but also because she can't allow her partner to kill her)
+    she treats the boys' attacks like enemies (couldn't give less of a fuck)`
   ))
 ]
