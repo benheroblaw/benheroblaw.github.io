@@ -550,20 +550,7 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
   }
 
   // image
-  const image = document.createElement('img')
-  image.className = 'center'
-  image.id = 'image'
-  image.alt = contents[0] + ' - page 1'
-  image.src = basePath + contents[Number(getCookie(path))]
-  // image.style.marginTop = '0.5rem'
-  image.style.marginBottom = '0.5rem'
-  // image.style.border = 'none'
-  // image.style.backgroundColor = 'rgb(127, 127, 127)'
-  // image.innerText = 'loading...'
-  image.style.backgroundImage = 'url("/loading-big.gif")'
-  image.style.backgroundRepeat = 'no-repeat'
-  image.style.backgroundSize = 'contain'
-  image.style.backgroundPosition = 'center'
+  // const image = document.createElement('img')
 
   const imgcache = document.createElement('div')
   imgcache.className = 'imgcache'
@@ -674,28 +661,42 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
 
     if (debug) {console.log('adding image')}
   qSel(location).innerHTML += `
-  <div class="center"></div>
+  <img id="image">
   <div class="nav">
     <div id="prev"></div>
-    <div><div id="number"></div> / <div id="max"></div></div>
+    <div id='numbers'><div id="number"></div> / <div id="max"></div></div>
     <div id="next"></div>
   </div>
   <div class="pages" id="pages"></div>`
-  qSel('.center').appendChild(image)
+  // qSel('.center').appendChild(image)
   qSel('#prev').appendChild(prev)
   qSel('#number').innerHTML = viewerIndex +1
   qSel('#max').textContent = contents.length
   qSel('#next').appendChild(next)
 
-  qSel('.nav').style.marginBottom = '0.5rem'
-  qSel('.nav').style.display = 'flex'
-  qSel('.nav').style.justifyContent = 'space-between'
-  qSel('.nav').style.width = '40%'
-  qSel('.nav').style.marginLeft = '30%'
+  // qSel('.nav').style.marginBottom = '0.5rem'
+  // qSel('.nav').style.display = 'flex'
+  // qSel('.nav').style.justifyContent = 'space-between'
+  // qSel('.nav').style.width = '40%'
+  // qSel('.nav').style.marginLeft = '30%'
   qSel('#number').style.display = 'inline'
   qSel('#max').style.display = 'inline'
 
   qSel('html').appendChild(imgcache)
+
+  gewi('image').className = 'center'
+  gewi('image').id = 'image'
+  gewi('image').alt = contents[0] + ' - page 1'
+  gewi('image').src = basePath + contents[Number(getCookie(path))]
+  // gewi('image').style.marginTop = '0.5rem'
+  gewi('image').style.marginBottom = '0.5rem'
+  // gewi('image').style.border = 'none'
+  // gewi('image').style.backgroundColor = 'rgb(127, 127, 127)'
+  // gewi('image').innerText = 'loading...'
+  gewi('image').style.backgroundImage = 'url("/loading-big.gif")'
+  gewi('image').style.backgroundRepeat = 'no-repeat'
+  gewi('image').style.backgroundSize = 'contain'
+  gewi('image').style.backgroundPosition = 'center'
 
   // page buttons
   contents.forEach((value, index) => {

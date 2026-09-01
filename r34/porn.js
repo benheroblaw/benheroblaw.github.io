@@ -1547,7 +1547,19 @@ var hentai = [
 ]
 
 let ddlc = [
-  // linkedImage('/')
+  // linkedImage('/r34/') +
+  // linkedImage('/r34/') +
+  // linkedImage('/r34/') +
+  // linkedImage('/r34/') +
+  // linkedImage('/r34/') +
+  // linkedImage('/r34/') +
+  linkedImage('/r34/ddlc/30635c4327fe3ea42625ad7f95c30576.webp') +
+  linkedImage('/r34/ddlc/442e54366a4da776c7567b54acf54913.webp') +
+  linkedImage('/r34/ddlc/4fe0678dd6268acff6817518b14e224c8eb48925.webp') +
+  ``,
+
+  header2('comic strips') +
+  linkedImage('/r34/ddlc/b15b7cfadf9fecd8cfa7d48079561e20.webp') +
   ``,
 
   header2('comic panels') +
@@ -1563,10 +1575,14 @@ let ddlc = [
   linkedImage('/r34/ddlc/dbag.bsky.social-3msyzdx22ms2u.webp') +
   linkedImage('/r34/ddlc/dbag.bsky.social-3mtcge3qvqs2b-1.webp') +
   linkedImage('/r34/ddlc/dbag.bsky.social-3mtcge3qvqs2b-2.webp') +
+  linkedImage('/r34/ddlc/dbag.bsky.social-3mtjwh5odjc2b.webp') +
   linkedImage('/r34/ddlc/dbag.bsky.social-3mtewslsmb22b.webp') +
   linkedImage('/r34/ddlc/dbag.bsky.social-3mtmcdbh7rs2b.webp') +
   linkedImage('/r34/ddlc/dbag.bsky.social-3mtyyrywfc22h.webp') +
   linkedImage('/r34/ddlc/dbag.bsky.social-3mu3qgd6hyk2h.webp') +
   linkedImage('/r34/ddlc/dbag.bsky.social-3muctnzsgw22y.webp') +
+  paragraph('nat and yuri <3') +
+  linkedImage('/r34/ddlc/dbag.bsky.social-3ls2shq6g7s2p-1.webp') +
+  linkedImage('/r34/ddlc/dbag.bsky.social-3ls2shq6g7s2p-2.webp') +
   ``
 ]
