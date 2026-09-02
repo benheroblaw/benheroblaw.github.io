@@ -211,7 +211,7 @@ sidebar4:hover {
   left: 0;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   /* * {font-size: 2rem;8 */
 
   #sidebar, #sidebar2, #sidebar3 {

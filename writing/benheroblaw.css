@@ -1,0 +1,9 @@
+p {
+  white-space-collapse: preserve-breaks;
+}
+
+body {
+  background: linear-gradient(#222, #000);
+  background-size: 100% 100%;
+  min-height: 100vh;
+}

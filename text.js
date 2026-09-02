@@ -1311,6 +1311,14 @@ var dirtiness_essay = [
   )
 ]
 
+echo_chambers = [
+  chapter('false', 'echo chambers',
+    paragraph(
+      `I've heard that some folks on Twitter (derogatory) are calling Bluesky an echo chamber, and that confuses me because social media as a concept is an "echo chamber" by design. Twitter isn't mad that Bluesky is an echo chamber, they're mad that it's a "build-your-own" echo chamber instead of "subject yourself to the Torment Nexus™".`
+    )
+  )
+]
+
 yaoi_and_yuri_draft = [
   chapter('', 'outline', paragraph(
     `two girls and two guys learn that god is homophobic
@@ -1319,7 +1327,7 @@ yaoi_and_yuri_draft = [
 
     the girls have a huge single-target dps and a parrymaster who can reflect 100% of the damage pointed at her
     she never thought about having her girlfriend attack her and parrying it at her enemies
-    each time they do this is a massive trust exercise, they're gazing into each other's eyes as she's bringing her sword down and her partner activates her parry at the earlier end of the window (partially because she doesn't want to get eviscerated but also because she can't allow her partner to kill her)
+    each time they do this is a massive trust exercise, they're gazing into each other's eyes as she's bringing her sword down and her partner activates her parry at the earlier end of the window (partially because she doesn't want to get eviscerated but also because her blood cannot be on her partner's hands)
     she treats the boys' attacks like enemies (couldn't give less of a fuck)`
   ))
 ]

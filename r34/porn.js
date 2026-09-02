@@ -1584,5 +1584,9 @@ let ddlc = [
   paragraph('nat and yuri <3') +
   linkedImage('/r34/ddlc/dbag.bsky.social-3ls2shq6g7s2p-1.webp') +
   linkedImage('/r34/ddlc/dbag.bsky.social-3ls2shq6g7s2p-2.webp') +
-  ``
+  ``,
+
+  'doki doki literature club <3<br><img src="/icons/monika.svg" style="border: none; width: 4rem" onmouseenter="this.src = \'/icons/moni-wink.svg\'" onmouseleave="this.src = \'/icons/monika.svg\'">',
+
+  '<div class="ddlcBox"><h1>Remember!</h1>Just Monika</div>'
 ]

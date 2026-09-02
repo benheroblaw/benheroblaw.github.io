@@ -23,14 +23,14 @@ var pornSidebar = `\
   <br>\
   \
   <a class="blue" href="/r34/comics.html"><span>Comics</span></a><br><br>` +
-  `<a href="/r34/cavestory.html" id="cavestory" class="blue" onmouseenter="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0002.svg\'" onmouseleave="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0001.svg\'" onload="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0001.svg\'"><span>Cave Story</span></a> <img src="/r34/cavestory/assets/Sprite-0001.svg" style="border: none; width: 16px; height: 10px;" id="quotehead"><br>\
-  <a href="/r34/ddlc.html" class="blue"><span>DDLC</span></a><br>\
+  `<a href="/r34/cavestory.html" id="cavestory" class="blue" onmouseenter="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0002.svg\'" onmouseleave="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0001.svg\'" onload="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0001.svg\'"><img src="/r34/cavestory/assets/Sprite-0001.svg" style="border: none; width: 16px; height: 10px;" id="quotehead"> <span>Cave Story</span></a> <br>\
+  <a href="/r34/ddlc.html" class="blue"><span onmouseenter="gewi('moni').src = \'/icons/moni-wink.svg\'" onmouseleave="gewi('moni').src = \'/icons/monika.svg\'"><img src="/icons/monika.svg" id="moni" style="border: none; width: 1rem"> DDLC</span></a><br>\
   <a href="/r34/dragon-maid.html" class="blue"><span>Dragon Maid</span></a><br>\
   <a href="/r34/hard-degen.html" class="blue"><span>Hard Degenerate</span></a><br>\
   <a href="/r34/hoyo.html" class="blue"><span>Hoyoverse</span></a><br>\
   <a class="blue" href="/r34/irl.html"><span>IRL</span></a><br>\
   <a class="blue" href="/r34/mario.html"><span>Mario</span></a><br>\
-  <a href="/r34/miku.html" id="cavestory" class="blue" onmouseenter="gewi(\'mikuhead\').src=\'/icons/mikuSelected.png\'" onmouseleave="gewi(\'mikuhead\').src=\'/icons/miku.png\'" onload="gewi(\'mikuhead\').src=\'/icons/miku.png\'"><span>Miku</span> <img src="/icons/miku.png" style="border: none; width: 1rem; height: 1rem" id="mikuhead"></a><br>\
+  <a href="/r34/miku.html" id="cavestory" class="blue" onmouseenter="gewi(\'mikuhead\').src=\'/icons/mikuSelected.png\'" onmouseleave="gewi(\'mikuhead\').src=\'/icons/miku.png\'" onload="gewi(\'mikuhead\').src=\'/icons/miku.png\'"><img src="/icons/miku.png" style="border: none; width: 1rem; height: 1rem" id="mikuhead"> <span>Miku</span> </a><br>\
   <a class="blue" href="/r34/overwatch.html"><span>overwatch</span></a><br>\
   <a class="blue" href="/r34/other.html"><span>Other</span></a><br>\
   <a class="blue" href="/r34/pokemon.html"><span>Pokemon</span></a><br>\
@@ -533,7 +533,8 @@ function StartThoughts(content = ['wtf']) {
   }
 }
 
-function startViewer(basePath='', contents=[''], location='html>body', debug = false) {
+// start a viewer
+function startViewer(basePath='', contents=[''], pageButtonTitles=false, imagecache=true, location='html>body', debug = false) {
   // const content = contents.forEach((index) => {basePath + index})
   path = path + ' - index'
   if (checkCookie(path) === 'error') {
@@ -682,21 +683,23 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
   qSel('#number').style.display = 'inline'
   qSel('#max').style.display = 'inline'
 
-  qSel('html').appendChild(imgcache)
+  if (imagecache) {
+    qSel('html').appendChild(imgcache)
+  }
 
   gewi('image').className = 'center'
   gewi('image').id = 'image'
   gewi('image').alt = contents[0] + ' - page 1'
   gewi('image').src = basePath + contents[Number(getCookie(path))]
   // gewi('image').style.marginTop = '0.5rem'
-  gewi('image').style.marginBottom = '0.5rem'
+  // gewi('image').style.marginBottom = '0.5rem'
   // gewi('image').style.border = 'none'
   // gewi('image').style.backgroundColor = 'rgb(127, 127, 127)'
   // gewi('image').innerText = 'loading...'
-  gewi('image').style.backgroundImage = 'url("/loading-big.gif")'
-  gewi('image').style.backgroundRepeat = 'no-repeat'
-  gewi('image').style.backgroundSize = 'contain'
-  gewi('image').style.backgroundPosition = 'center'
+  // gewi('image').style.backgroundImage = 'url(/loading-big.gif)'
+  // gewi('image').style.backgroundRepeat = 'no-repeat'
+  // gewi('image').style.backgroundSize = 'contain'
+  // gewi('image').style.backgroundPosition = 'center'
 
   // page buttons
   contents.forEach((value, index) => {
@@ -704,7 +707,12 @@ function startViewer(basePath='', contents=[''], location='html>body', debug = f
     button.id = index
     button.style.marginRight = '0.25rem'
     if (debug) {console.log('adding text')}
-    button.innerText = 'Page ' + (index + 1)
+    if (pageButtonTitles.constructor.name === "Array") {
+      button.innerText = pageButtonTitles[index]
+    }
+    else {
+      button.innerText = 'Page ' + (index + 1)
+    }
     if (debug) {console.log('adding onclick')}
     button.onclick = () => {
       // setCookie(path, index)
