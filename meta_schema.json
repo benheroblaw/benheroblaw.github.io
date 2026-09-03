@@ -70,6 +70,12 @@
           "your_tags"
         ]
       ]
+    },
+    "ships": {
+      "type": "array",
+      "examples": [
+        "your_ships"
+      ]
     }
   },
   "required": [
