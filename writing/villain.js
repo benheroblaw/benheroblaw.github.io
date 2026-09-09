@@ -185,7 +185,7 @@ var villainess_draft = [
 
   (that was a proposal, in case you couldn't tell)
 
-  (hahahaha its queen x knight now >:D)
+  (hahahaha its queen x knight now >:DDDDDD)
   </div>`,
 
   `<br>\
@@ -539,7 +539,7 @@ var villainess_draft = [
   <style>p {margin-bottom: 0.75rem}</style>
   <title>The Shadow Judge</title>
   <h2>2</h2>\
-  <h1 id='char' class='vampire'>Hero</h1>\
+  <h1 id='char'>Hero</h1>\
   <div class='background'>\
     <p>I've been thinking about the woman I killed recently.
 
@@ -1028,181 +1028,252 @@ var villainess_draft = [
     ...</span>`), false
   ),
 
+  '<title>The Shadow Judge</title>' +
   chapter('false', 'Hero',
-    paragraph(`I walk a familiar path, through a castle's gates, towards the massive black palace in the center of its walls.
+    paragraph(
+      `I walk a familiar path, through a castle's gates, towards the massive black palace in the center of its walls.
 
-The townspeople ask if I need directions a few times, to which I answered that I knew exactly where I was going.
+      The townspeople ask if I need directions a few times, to which I answered that I knew exactly where I was going.
 
-They seemed skeptical, asking me if I was sure or if I knew what was in the castle.
+      They seemed skeptical, asking me if I was sure or if I knew what was in the castle.
 
-I, of all people, should know precisely what I'm walking into.
+      I, of all people, should know precisely what I'm walking into.
 
-People comment on my meager armour, a simple vest of chainmail.
+      People comment on my meager armour, a simple vest of chainmail.
 
-I assured them that I would be fine.
+      I assured them that I would be fine.
 
-The person I'm walking to has no intention of hurting me.
+      The person I'm walking to has no intention of hurting me.
 
-So, I reach the gate of the black palace.
+      So, I reach the gate of the black palace.
 
-I bend the light around me into a set of stairs leading over the wall.
+      I bend the light around me into a set of stairs leading over the wall.
 
-From there, I create a bridge to a walkway that leads into the throne room.
+      From there, I create a bridge to a walkway that leads into the throne room.
 
-I now stand in front of a set of massive doors.
+      I now stand in front of a set of massive doors.
 
-And I am struck by a memory.
+      And I am struck by a memory.
 
-The last time I burst through the towering doors of a royal's abode, to meet the very same person.
+      The last time I burst through the towering doors of a royal's abode, to meet the very same person.
 
-Our circumstances were much different then, of course.
+      Our circumstances were much different then, of course.
 
-I had rushed over to a building hosting a prince's ball, after hearing a servant frantically screaming for help.
+      I had rushed over to a building hosting a prince's ball, after hearing a servant frantically screaming for help.
 
-When I asked what happened, the servant told me that someone had gone crazy, that they had slaughtered the royal family.
+      When I asked what happened, the servant told me that someone had gone crazy, that they had slaughtered the royal family.
 
-So, like the naive hero that I was, I rushed into the building and killed the woman who seemed to be the culprit, after she drew a sword at my entrance.
+      So, like the naive hero that I was, I rushed into the building and killed the woman who seemed to be the culprit, after she drew a sword at my entrance.
 
-She has no need for a sword anymore.
+      She has no need for a sword anymore.
 
-Yet mine is still strapped to my hip.
+      Yet mine is still strapped to my hip.
 
-More... as a memory than anything else.
+      More... as a memory than anything else.
 
-I find sharp steel at the belt is rather comforting.
+      I find sharp steel at the belt is rather comforting.
 
-Now, I prepare myself to go through these doors.
+      Now, I prepare myself to go through these doors.
 
-I...
+      I...
 
-I'm not exactly sure what is going to happen.
+      I'm not exactly sure what is going to happen.
 
-There are ways I would like it to go, of course.
+      There are ways I would like it to go, of course.
 
-Some that I would like very much.
+      Some that I would like very much.
 
-But...
+      But...
 
-Ultimately, it is her choice.
+      Ultimately, it is her choice.
 
-I have no reason to believe that she would hurt me.
+      I have no reason to believe that she would hurt me.
 
-And...
+      And...
 
-I just need to go through the door.
+      I just need to go through the door.
 
-I take a deep breath, attempting to steel myself.
+      I take a deep breath, attempting to steel myself.
 
-All it shows is that my breath is shaking and that I must look very unsure of myself.
+      All it shows is that my breath is shaking and that I must look very unsure of myself.
 
-I plant my hands on the doorknobs anyway.
+      I plant my hands on the doorknobs anyway.
 
-And I turn.
+      And I turn.
 
-And I push.
+      And I push.
 
-And I gather every speck of light behind me and blast the searing radiance of the sun into the room.
+      And I gather every speck of light behind me and blast the searing radiance of the sun into the room.
 
-And I stride past the threshold, briskly walking up to the woman on the throne.
+      And I stride past the threshold, briskly walking up to the woman on the throne.
 
-She is as coldly beautiful as she has ever been, pure darkness clouding behind her to protect her shadows from my light.
+      She is as coldly beautiful as she has ever been, pure darkness clouding behind her to protect her shadows from my light.
 
-She regards me with mild amusement, supporting her head with a hand.
+      She regards me with mild amusement, supporting her head with a hand.
 
-"What brings you here, little Hero?"
+      "What brings you here, little Hero?"
 
-Her voice is calm and casual, as if I could not condense the equivalent of a Sun into her at a whim.
+      Her voice is calm and casual, as if I could not condense the equivalent of a Sun into her at a whim.
 
-"Do you wish to fight me again?"
+      "Do you wish to fight me again?"
 
-Her face takes on a slightly sad glow.
+      Her face takes on a slightly sad glow.
 
-"No. I am here for... more... personal business."
+      "No. I am here for... more... personal business."
 
-"Oh?" Her expression instantly changes into undisguised interest.
+      "Oh?" Her expression instantly changes into undisguised interest.
 
-I am not feeling quite as confident.
+      I am not feeling quite as confident.
 
-But I must give the impression.
+      But I must give the impression.
 
-"I... I wish to become your knight."
+      "I... I wish to become your knight."
 
-"My knight?" She takes more interest, translating my words into their hidden meaning.
+      "My knight?" She takes more interest, translating my words into their hidden meaning.
 
-"I... enjoy seeing you perform battle. I enjoy battle myself.
+      "I... enjoy seeing you perform battle. I enjoy battle myself.
 
-"I wish to use my talent for battle for you. There are others who wish to use me, as they would a pawn.
+      "I wish to use my talent for battle for you. There are others who wish to use me, as they would a pawn.
 
-"You are the only person who would see me as an equal, the only person I would trust to employ my talents.
+      "You are the only person who would see me as an equal, the only person I would trust to employ my talents.
 
-"You who use violence as a tool, when words have long lost their use.
+      "You who use violence as a tool, when words have long lost their use.
 
-"So I devote myself to you, my queen."
+      "So I devote myself to you, my queen."
 
-I draw my sword, as I did all those years ago.
+      I draw my sword, as I did all those years ago.
 
-This time, I plant it in the floor before me.
+      This time, I plant it in the floor before me.
 
-And I kneel, bowing my head.
+      And I kneel, bowing my head.
 
-"What is your name, little Hero?" she asks.
+      "What is your name, little Hero?" she asks.
 
-"Cinbel Bonacorso, my lady."
+      "Cinbel Bonacorso, my lady."
 
-"A beautiful name for a beautiful woman."
+      "A beautiful name for a beautiful woman."
 
-She sounds closer now.
+      She sounds closer now.
 
-Then I feel fingers on my chin.
+      Then I feel fingers on my chin.
 
-They gently push upward, and I allow my head to rise.
+      They gently push upward, and I allow my head to rise.
 
-My eyes stare into hers, a smile on her face more radiant than any shape I bend light into.
+      My eyes stare into hers, a smile on her face more radiant than any shape I bend light into.
 
-"I, Gwenhael Muiredhakh, wish to claim you as mine, as mine and no- body- else's.
+      "I, Gwenhael Muiredhakh, wish to claim you as mine, as mine and no- body- else's.
 
-"I can only pray that you will accept such a selfish request."
+      "I can only pray that you will accept such a selfish request."
 
-My answer comes without question.
+      My answer comes without question.
 
-"I am yours to command, my lady."
+      "I am yours to command, my lady."
 
-Her face turns slightly hard.
+      Her face turns slightly hard.
 
-"Yet I do not wish to command you."
+      "Yet I do not wish to command you."
 
-"Hm." Her head tilts and a smug smile curls her lips. "I suppose that shall be my first command."
+      "Hm." Her head tilts and a smug smile curls her lips. "I suppose that shall be my first command."
 
-She slips into commanding surety.
+      She slips into commanding surety.
 
-"You will not follow me blindly. Make your own decisions about me, be disgusted by what I do if that is how you so feel.
+      "You will not follow me blindly. Make your own decisions about me, be disgusted by what I do if that is how you so feel.
 
-"You will be your own person. As you say, I have no use for a pawn."
+      "You will be your own person. As you say, I have no use for a pawn."
 
-I gaze up at her. "I feel that you are doing what is necessary. Death has lost most of her bite to me."
+      I gaze up at her. "I feel that you are doing what is necessary. Death has lost most of her bite to me."
 
-"You are unafraid to kill?"
+      "You are unafraid to kill?"
 
-"I am capable of killing."
+      "I am capable of killing."
 
-"You know I will not force you."
+      "You know I will not force you."
 
-I smile slightly. "You would not force me to bathe."
+      I smile slightly. "You would not force me to bathe."
 
-Her eyebrows raise in surprised interest.
+      Her eyebrows raise in surprised interest.
 
-"Rise, little hero."
+      "Rise, little hero."
 
-So I do.
+      So I do.
 
-"And prove your devotion."
+      "And prove your devotion."
 
-So I press my lips to hers and allow the pleasure of her arms around my body to whisk me away.
-`), false)
+      So I press my lips to hers and allow the pleasure of her arms around my body to whisk me away.`
+  ), false),
+
+'<title>The Shadow Judge</title>' +
+  chapter('false', 'villain epilogue',
+  paragraph(
+    `Love is quite a force, is it not?
+
+    Love can build cities, turn empires to rubble.
+
+    The mightiest cause of Creation and Destruction, rivaled only by hate.
+
+    Though hate can have its uses.
+
+    Some do not understand love, and have been taught only to hate.
+
+    Some might call their fascination with a person hate, they might call the one they care for most “enemy.”
+
+    Some say that to humans, fear is quite a similar feeling to love.
+
+    And hate is both the child and sister of fear.
+
+    If you show that you are not to be feared, if you prove you can show care and will continue to show care, even in the face of hate, you can unmask weaker hates as love or admiration or the simple conundrum of wondering if you will be accepted.
+
+    All hate is based in fear, and some fears are easily quelled.
+
+    Most fears are not about the raw idea of a person or a thing, rather, most people fear the effects of something.
+
+    Those who hate people attracted to others most like them fear that they will not find a person who is attracted to them, or that this kind of person tends more toward violence.
+
+    Fear can be manipulated, aimed in an irrational direction that could be very simply undone by showing truth.
+
+    And it seems that I have quite a talent for unravelling hate.
+
+    I have unwoven the hate of one of the land's greatest heroes, though the land refused to recognize her as such.
+
+    She used to call me “enemy,” “Villain.”
+
+    Now she calls me quaint things like “my love” and “Your Highness.”
+
+    Together, we will build a nation powered by love instead of hate.
+
+    The other powers of this land do not seem fond of our plan, however.
+
+    Or perhaps they simply dislike how prepared I am to kill.
+
+    It is rather hard to overthrow a nation without deaths, after all.
+
+    And I dislike how ready their kings are to discredit and frame me as a madwoman obsessed with slaughter and an indiscriminate killer of those undeserving.
+
+    Even if my hands are covered in blood, at least the stain of my sins is not built of innocent people.
+
+    No kingdom in this land will accept a woman who wishes to spend her life with another of her gender, nor will they accept a woman who wishes to live her life as she pleases.
+
+    I have made the simple act of allowing people to love whomever they wish, allowing all people the freedom they deserve, and I;
+
+    <span style="font-size: 1.45rem; font-style: italic;">I</span>;
+
+    am cast the villain.
+
+    I do not think myself a person to be claimed by fervor, but I find in myself an unshakable belief that this world should, <i>needs</i> to be changed.
+
+    The claws of men have sunk too far into this realm, hatred has sunk its teeth into Mother Earth until all she can imagine is pain and the fear that this torture shall never end.
+
+    I think that these claws and teeth should not simply be lifted halfway, but yanked fully out of the land.
+
+    And I know that most of these teeth are tiny, and that these teeth number hundreds to thousands.
+
+    Yet I will not stop searching. And I will not stop pulling these teeth until each and every one is gone.`
+  )
+, false)
 
 ]
 
 var villainess_final = [
-  villainess[3],
-  villainess[4],
+  villainess_draft[3],
+  villainess_draft[4],
 ]
