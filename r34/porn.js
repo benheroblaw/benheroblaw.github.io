@@ -315,8 +315,8 @@ let miku = [
   ${linkedImage('/r34/miku/')}
   `,
 
-  `${ah2('traditional art')}
-  sfw<br>
+  `${header2('traditional art')}
+  <h3>sfw</h3><br>
   ${linkedImage('/r34/miku/puddingdraws.bsky.social-3ml4vo5kbgk2j.webp', '')}
   ${linkedImage('/r34/miku/puddingdraws.bsky.social-3ml7htkwrmc2z.webp', '')}
   ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mlebut235c2j.webp', '')}
@@ -326,11 +326,14 @@ let miku = [
   ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mmm3ulah3c2v.webp', 'The same Gumi as in the precious picture.')}
   ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mn3gw6isp22v.webp', 'Pencil, ink, marker and gel pen illustration of Kasane Teto in her genie design from TRAP CHICK\'s "Approve please, Genie!"')}
   <br>
-  nsfw<br>
+  <h3>nsfw</h3><br>
+  <b>beeb</b><br>
   ${linkedImage('/r34/miku/beebspacemermaid.bsky.social-3mmrhosalsc2l.webp', 'Traditional pencil drawing/doodle in anime style of a tanned Kasane Teto with a noticable bra tan line, topless, boobs/chest exposed, stretch marks and a bit of a chubby tummy visible :>')}
   ${linkedImage('/r34/miku/beebspacemermaid.bsky.social-3mnq5zzkbg22e.webp', '')}
   ${linkedImage('/r34/miku/beebspacemermaid.bsky.social-3mnrgqclhts2n.webp', '')}
   ${linkedImage('/r34/miku/beebspacemermaid.bsky.social-3mns4iefimc2p.webp', '')}
+  <br><br>
+  pudding<br>
   ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mklbtvbnsc27-1.webp', '')}
   ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mklbtvbnsc27-2.webp', '')}
   ${linkedImage('/r34/miku/puddingdraws.bsky.social-3mkvfvblun22e.webp', 'Pencil illustration in a first-person perspective of a succubus Hatsune Miku straddled on top of you, the POV character (female coded, has a penis, quite possibly Kasane Teto) and riding you vigorously, her pierced tits bouncing with every wet thrust.\n\nMiku is wearing nothing but shoulder-length gloves and thigh-highs. She has pointy ears, a heart-shaped tail and oni-style demon horns on her forehead.\n\nShe has a sly smile and hunger in her eyes, locked into yours, unable to break eye contact as your hands grip desperately onto the hips that relentlessly smack against you, again and again and again. Who knows how many explosive releases she will coax out. Who knows how much longer you\'ll be able to stay conscious...')}
@@ -528,28 +531,6 @@ ${addLink('/r34/puppysnackz.html', 'Puppysnackz')}<br>
 //    <button onclick="location.reload(true)">ctrl+f5</button><br>\
 //    <a class="hidden", style="color: #111;" href="files.html">Files</a>\
 // `
-
-var pokemonSidebar = `\
-  <h1>Viewers</h1>\
-  <a href="/r34/pokemon/cynthia+houndoom-viewer.html">Cynthia x Houndoom</a>\
-`
-
-var mikuSidebar =
-  `<h1>Viewers</h1>` +
-  `<a href="/r34/miku/miku_viewer.html">Cat Miku</a><br>` +
-  `<a href="/r34/miku/migu_viewer.html">Migu</a><br>` +
-  `<a href="/r34/miku/mikgu.html">Miku Teto</a><br>` +
-  `<a href="/r34/miku/migu.html">Horny Migu</a><br>`
-
-var sona = `<h1>sonas</h1>\
-  <a href="/character-sheets/femsona.html"><span>femsona</span></a><br>\
-  <a href="/character-sheets/enbysona.html"><span>themsona</span></a><br>`
-
-var dragonSidebar = `<h1>Viewers</h1>`
-+ `<a href="/r34/dragon-maid/miss-tohru.html"><span>Miss Tohru</span></a><br>`
-+ `<a href="/r34/dragon-maid/tohru-ililu.html"><span>Tohru x Ililu</span></a><br>`
-
-// export {irl, audio, pornSidebar}
 
 var zonkpunch = [
   linkVideo("/r34/zonkpunch/dee437966e9c80f167b2a03968b0e6e2.mp4")
