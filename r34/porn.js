@@ -1528,8 +1528,7 @@ var hentai = [
 ]
 
 let ddlc = [
-  // linkedImage('/r34/') +
-  // linkedImage('/r34/') +
+  // linkedImage('/') +
   // linkedImage('/r34/') +
   // linkedImage('/r34/') +
   // linkedImage('/r34/') +
@@ -1563,6 +1562,7 @@ let ddlc = [
   linkedImage('/r34/ddlc/dbag.bsky.social-3mu3qgd6hyk2h.webp') +
   linkedImage('/r34/ddlc/dbag.bsky.social-3muctnzsgw22y.webp') +
   linkedImage('/r34/ddlc/dbag.bsky.social-3muxcawokjk2l.webp') +
+  linkedImage('/r34/ddlc/dbag.bsky.social-3mv6itl4b6k2l.webp') +
   paragraph('nat and yuri <3') +
   linkedImage('/r34/ddlc/dbag.bsky.social-3ls2shq6g7s2p-1.webp') +
   linkedImage('/r34/ddlc/dbag.bsky.social-3ls2shq6g7s2p-2.webp') +
@@ -1571,4 +1571,41 @@ let ddlc = [
   '<div class="ddlcBox"><h1>Remember!</h1>Just Monika</div>' +
 
   '<br><br>doki doki literature club <3<br><img src="/icons/monika.svg" style="border: none; width: 4rem" onmouseenter="this.src = \'/icons/moni-wink.svg\'" onmouseleave="this.src = \'/icons/monika.svg\'">',
+]
+
+let deltarune = [
+  linkedImage('/r34/deltarune/edith-is-dead.bsky.social-3mv3bod7lbk2u-1.webp') +
+  linkedImage('/r34/deltarune/edith-is-dead.bsky.social-3mv3bod7lbk2u-2.webp') +
+  linkedImage('/r34/deltarune/edith-is-dead.bsky.social-3mu7657gkds2v.webp') +
+  linkedImage('/r34/deltarune/edith-is-dead.bsky.social-3mu6zfsttu22v.webp') +
+  linkedImage('/r34/deltarune/edith-is-dead.bsky.social-3mszs4ruyss2a.webp') +
+  linkedImage('/r34/deltarune/edith-is-dead.bsky.social-3msvfnswykc2i.webp') +
+  linkedImage('/r34/deltarune/edith-is-dead.bsky.social-3msvfm7gils2i.webp') +
+  linkedImage('/r34/deltarune/edith-is-dead.bsky.social-3msslwza5dk2n.webp') +
+  linkedImage('/r34/deltarune/edith-is-dead.bsky.social-3msrtikvpak2l.webp') +
+  ''
+]
+
+let edith_is_dead = [
+  `<div class="left"><a href="https://bsky.app/profile/edith-is-dead.bsky.social"><img src="/icons/Bluesky-logo-2200578589.png" class="left" style="border: medium; user-select: none;" title="Edith on Bluesky" draggable="false"></a></div>` +
+  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mskbz7ntok2w-1.webp') +
+  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mskbz7ntok2w-2.webp') +
+  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3msxyzixr5c2a.webp') +
+  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mv4wb43alc2e.webp') +
+  '',
+
+  header2('comic panels') +
+  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mfrh57i4qc25-1.webp') +
+  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mfrh57i4qc25-2.webp') +
+  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mfrh57i4qc25-3.webp') +
+  '<br><br>' +
+  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mu7yms7d2c2x.webp') +
+  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mubajn4dkk2x.webp') +
+  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mubvsd4f3k2n.webp') +
+  '<br><br>' +
+  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mt64jspnz22l.webp') +
+  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mt65fash5c2l.webp') +
+  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mt66o5k4kk25.webp') +
+  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mt6cojdpbk22.webp') +
+  ''
 ]

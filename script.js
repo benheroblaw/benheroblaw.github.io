@@ -25,6 +25,7 @@ var pornSidebar = `\
   <a class="blue" href="/r34/comics.html"><span>Comics</span></a><br><br>` +
   `<a href="/r34/cavestory.html" id="cavestory" class="blue" onmouseenter="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0002.svg\'" onmouseleave="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0001.svg\'" onload="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0001.svg\'"><img src="/r34/cavestory/assets/Sprite-0001.svg" style="border: none; width: 16px; height: 10px;" id="quotehead"> <span>Cave Story</span></a> <br>\
   <a href="/r34/ddlc.html" class="blue"><span onmouseenter="gewi('moni').src = \'/icons/moni-wink.svg\'" onmouseleave="gewi('moni').src = \'/icons/monika.svg\'"><img src="/icons/monika.svg" id="moni" style="border: none; width: 1rem"> DDLC</span></a><br>\
+  <a href="/r34/ddlc.html" class="blue"><span><img src="/icons/deltarune.ico" id="moni" style="border: none; width: 1rem"> DELTARUNE</span></a><br>\
   <a href="/r34/dragon-maid.html" class="blue"><span>Dragon Maid</span></a><br>\
   <a href="/r34/hard-degen.html" class="blue"><span>Hard Degenerate</span></a><br>\
   <a href="/r34/hoyo.html" class="blue"><span>Hoyoverse</span></a><br>\
@@ -50,6 +51,7 @@ var artistSidebar = `
 <h1><span style="color: white;">Artists</span></h1>
 <a class="blue"><span onclick="tesLog('setting sidebar to pornSidebar'); addSidebar(pornSidebar)">Back</span></a><br><br>
 <a class='red' href='/r34/bonkge.html'><span>Bonkge</span></a><br>
+${addlink('/r34/edith-is-dead.html', 'edith-is-dead')}
 ${addlink('/r34/puppysnackz.html', 'puppysnackz')}
 ${addlink('/r34/puddingdraws.html', 'puddingdraws')}
 ${addlink('/r34/onigiriarts.html', 'onigiriarts')}
@@ -76,7 +78,7 @@ var sona = '<h1>sonas</h1>\
 
 var dragonSidebar = '<h1>Viewers</h1>'
 + '<a href="/r34/dragon-maid/miss-tohru.html">Miss Tohru</a><br>'
-+ `<a href="/r34/dragon-maid/tohru-ililu.html">Tohru x Ilulu</a><br>`
++ `<a href="/r34/dragon-maid/tohru-ilulu.html">Tohru x Ilulu</a><br>`
 
 var aiSidebar = `
     <h1>viewers</h1>
