@@ -65,11 +65,11 @@ var pokemonSidebar = '\
 
 var mikuSidebar =
   '<h1>Viewers</h1>' +
-  '<a href="/r34/miku/miku_viewer.html">Cat Miku</a><br>' +
-  '<a href="/r34/miku/migu_viewer.html">Migu</a><br>' +
-  '<a href="/r34/miku/mikgu.html">Miku Teto</a><br>' +
-  '<a href="/r34/miku/migu.html">Horny Migu</a><br>' +
-  '<a href="/r34/miku/brmikucomic.html">brmikucomic</a>'
+  '<a href="/r34/vocaloid/miku_viewer.html">Cat Miku</a><br>' +
+  '<a href="/r34/vocaloid/migu_viewer.html">Migu</a><br>' +
+  '<a href="/r34/vocaloid/mikgu.html">Miku Teto</a><br>' +
+  '<a href="/r34/vocaloid/migu.html">Horny Migu</a><br>' +
+  '<a href="/r34/vocaloid/brmikucomic.html">brmikucomic</a>'
 
 var sona = '<h1>sonas</h1>\
   <a href="/character-sheets/femsona.html"><span>femsona</span></a><br>\
@@ -83,7 +83,7 @@ var dragonSidebar = '<h1>Viewers</h1>'
 var aiSidebar = `
     <h1>viewers</h1>
     <a href="/r34/ia/bocchi/bocchi-ai-viewer.html">bocchi</a><br>
-    <a href="/r34/ia/miku/ai-miku-viewer.html">miku</a>
+    <a href="/r34/ia/vocaloid/ai-miku-viewer.html">miku</a>
 `
 
 var puppySidebar = `
