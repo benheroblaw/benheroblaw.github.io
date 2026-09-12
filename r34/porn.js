@@ -483,6 +483,7 @@ let teto = [
   ${linkedImage('/r34/vocaloid/puddingdraws.bsky.social-3ml7htkwrmc2z.webp')}
   ${linkedImage('/r34/vocaloid/puddingdraws.bsky.social-3mllyubji5k2i.webp')}
   ${linkedImage('/')}
+  ${linkedImage('/')}
   <br>
   ${linkedImage('/')}
   ${linkedImage('/')}
