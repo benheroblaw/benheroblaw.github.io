@@ -284,7 +284,6 @@ let miku = [
   <a href="vocaloid/88a3b9862d762f2b6adcc1f86f305a93.webp"><img src="vocaloid/88a3b9862d762f2b6adcc1f86f305a93.webp"></a>\
   <a href="vocaloid/a448edcf1710ddcefbd673b2b7d01133.webp"><img src="vocaloid/a448edcf1710ddcefbd673b2b7d01133.webp"></a>\
   <a href="vocaloid/af7a510515e8a09f05c1067f43b4af72.webp"><img src="vocaloid/af7a510515e8a09f05c1067f43b4af72.webp"></a>\
-  <a href="vocaloid/89e14c071e0ab1111e7730fbfd08ee0e.webp"><img src="vocaloid/89e14c071e0ab1111e7730fbfd08ee0e.webp"></a>\
   <a href="vocaloid/c5443b5a4bfb09c0dfa1710e0a329c6b.webp"><img src="vocaloid/c5443b5a4bfb09c0dfa1710e0a329c6b.webp"></a>\
   <a href="vocaloid/b9c5728351db9b191cd90d8fb3ddb1e0.webp"><img src="vocaloid/b9c5728351db9b191cd90d8fb3ddb1e0.webp"></a>\
   <a href="vocaloid/87fe2e17b40279f9c503241a32034c0ec0533468.webp"><img src="vocaloid/87fe2e17b40279f9c503241a32034c0ec0533468.webp"></a>\
@@ -387,28 +386,35 @@ let miku = [
   <a href="vocaloid/3eeff357bfb9bb03bd62e112dd138273.webp"><img src="vocaloid/3eeff357bfb9bb03bd62e112dd138273.webp"></a>\
   <br>
   horny miku<br>
-        ${linkedImage('/r34/vocaloid/a39e2e84f12ab1d2300f3d57c9605587.webp')}
-        ${linkedImage('/r34/vocaloid/b3c50f860bd8395a6f6800f9e4ac717d.webp')}
-        ${linkedImage('/r34/vocaloid/077c00f55666e6160c12b41f1a478bf2.webp')}
-        ${linkedImage('/r34/vocaloid/54ec0ddde1e9ece19de54cf4e58dd864.webp')}
-        ${linkedImage('/r34/vocaloid/a8d9123708c8264fd48010a785448ca9.webp')}
-        ${linkedImage('/r34/vocaloid/a4659601378ed81dc20fb188f106c6d0.webp')}
-        ${linkedImage('/r34/vocaloid/cd5035c73d1d561528ef21be4328cd6d.webp')}
-        ${linkedImage('/r34/vocaloid/99b0b9e2f3151b95de39792bb7e41e98.webp')}
-        ${linkedImage('/r34/vocaloid/889b68824cda656f0699c00612c994aa.webp')}
-        ${linkedImage('/r34/vocaloid/92802c0847f1d8bff6c63df307e3c6b0.webp')}
-        ${linkedImage('/r34/vocaloid/3a81599bf8aaef54ed1c8e53cf4bd659.webp')}
-        ${linkedImage('/r34/vocaloid/4a201fbbffdcaf22a7c7a379466086ad.webp')}
-        ${linkedImage('/r34/vocaloid/46556c20ee65e641c316a24afff382d6.webp')}
-        ${linkedImage('/r34/vocaloid/312371fa5aabe351c14ceea0acc93b21.webp')}
-        ${linkedImage('/r34/vocaloid/9004294b42bf5863b32cf555dade976e.webp')}
-        ${linkedImage('/r34/vocaloid/af3b1ebb88cb2fb48a07194b774c6c30.webp')}
-        ${linkedImage('/r34/vocaloid/039e83f7fbe3598a07f5b347fd866195.webp')}
+    ${linkedImage('/r34/vocaloid/a39e2e84f12ab1d2300f3d57c9605587.webp')}
+    ${linkedImage('/r34/vocaloid/b3c50f860bd8395a6f6800f9e4ac717d.webp')}
+    ${linkedImage('/r34/vocaloid/077c00f55666e6160c12b41f1a478bf2.webp')}
+    ${linkedImage('/r34/vocaloid/54ec0ddde1e9ece19de54cf4e58dd864.webp')}
+    ${linkedImage('/r34/vocaloid/a8d9123708c8264fd48010a785448ca9.webp')}
+    ${linkedImage('/r34/vocaloid/a4659601378ed81dc20fb188f106c6d0.webp')}
+    ${linkedImage('/r34/vocaloid/cd5035c73d1d561528ef21be4328cd6d.webp')}
+    ${linkedImage('/r34/vocaloid/99b0b9e2f3151b95de39792bb7e41e98.webp')}
+    ${linkedImage('/r34/vocaloid/889b68824cda656f0699c00612c994aa.webp')}
+    ${linkedImage('/r34/vocaloid/92802c0847f1d8bff6c63df307e3c6b0.webp')}
+    ${linkedImage('/r34/vocaloid/3a81599bf8aaef54ed1c8e53cf4bd659.webp')}
+    ${linkedImage('/r34/vocaloid/4a201fbbffdcaf22a7c7a379466086ad.webp')}
+    ${linkedImage('/r34/vocaloid/46556c20ee65e641c316a24afff382d6.webp')}
+    ${linkedImage('/r34/vocaloid/312371fa5aabe351c14ceea0acc93b21.webp')}
+    ${linkedImage('/r34/vocaloid/9004294b42bf5863b32cf555dade976e.webp')}
+    ${linkedImage('/r34/vocaloid/af3b1ebb88cb2fb48a07194b774c6c30.webp')}
+    ${linkedImage('/r34/vocaloid/039e83f7fbe3598a07f5b347fd866195.webp')}
   <br>
   verification<br>
   ${linkedImage('/r34/vocaloid/1ea90578d92c8c6b5aabf205ee62fea1.webp')}
   ${linkedImage('/r34/vocaloid/ce82d1e147ebae33d87fde07c2de3718.webp')}
   ${linkedImage('/r34/vocaloid/13836cbe35f11fe6a88bad46e1e32872.webp')}
+  <br>
+  teto stuck<br>
+  ${linkedImage("/r34/vocaloid/89e14c071e0ab1111e7730fbfd08ee0e.webp")}
+  ${linkedImage('/r34/vocaloid/5ac2a6a0e2bff548c2ba6aadaa954ce5.webp')}
+  ${linkedImage('/r34/vocaloid/a1e2b95a7b47d7c14a2c42ac6e38d287.webp')}
+  ${linkedImage('/')}
+  ${linkedImage('/')}
   <br>
   br mikuteto<br>
   ${linkedImage('/r34/vocaloid/e522ba1f0cc4e020fe56998b8b1581e2.webp')}
@@ -417,14 +423,15 @@ let miku = [
   br miku<br>
   `,
 
+    // <div><a href="vocaloid/5b4affe3cfd8e9f7629f75e06e061fbd.webp"><img src="vocaloid/5b4affe3cfd8e9f7629f75e06e061fbd.webp"></a></div>\
   `<link rel="icon" href="/icons/mikuSelected.png">
   <h2>Comic Strips</h2>\
   <div id="stripContainer">\
-    <div><a href="vocaloid/5b4affe3cfd8e9f7629f75e06e061fbd.webp"><img src="vocaloid/5b4affe3cfd8e9f7629f75e06e061fbd.webp"></a></div>\
     <div>${linkedImage('/r34/vocaloid/d50358b28fb2bbb5e6fb5bf222d6e756.webp')}</div>
     <div><a href="vocaloid/5f589b041536849fee900baf2dc57804.webp"><img src="vocaloid/5f589b041536849fee900baf2dc57804.webp"></a></div>\
+    <div>${linkedImage('/r34/vocaloid/885c13de46424565bcc07c6714070c93.webp')}</div>
     <div><a href="vocaloid/3057fd1f959f5d6ee2c3bc184a48e6ce.webp"><img src="vocaloid/3057fd1f959f5d6ee2c3bc184a48e6ce.webp"></a></div>\
-    </div>`,
+  </div>`,
 
   `miku<br>${selectableMiku()}<br>` +
 
@@ -477,21 +484,21 @@ let teto = [
   ${linkedImage('/r34/vocaloid/edith-is-dead.bsky.social-3mtsd5prbkk2t.webp')}
   ${linkedImage('/r34/vocaloid/b3e6380998e789b836ce6eb23fee741e.webp')}
   ${linkedImage('/r34/vocaloid/a6f85af61c528e507853a8d451be4d0a.webp')}
-  <br>pudding
+  <br>
+  pudding<br>
   ${linkedImage('/r34/vocaloid/puddingdraws.bsky.social-3ms4vxwa7gs2w.webp')}
   ${linkedImage('/r34/vocaloid/puddingdraws.bsky.social-3ml4vo5kbgk2j.webp')}
   ${linkedImage('/r34/vocaloid/puddingdraws.bsky.social-3ml7htkwrmc2z.webp')}
   ${linkedImage('/r34/vocaloid/puddingdraws.bsky.social-3mllyubji5k2i.webp')}
   ${linkedImage('/r34/vocaloid/puddingdraws.bsky.social-3mlwa2yq6pk2h.webp')}
-  ${linkedImage('/')}
-  ${linkedImage('/')}
-  ${linkedImage('/')}
-  ${linkedImage('/')}
-  ${linkedImage('/')}
-  ${linkedImage('/')}
-  ${linkedImage('/')}
-  ${linkedImage('/')}
-  ${linkedImage('/')}
+  ${linkedImage('/r34/vocaloid/puddingdraws.bsky.social-3mlyyegicck2f.webp')}
+  ${linkedImage('/r34/vocaloid/puddingdraws.bsky.social-3mm3h5chpy22a.webp')}
+  ${linkedImage('/r34/vocaloid/puddingdraws.bsky.social-3mm5hdcqeys2k.webp')}
+  ${linkedImage('/r34/vocaloid/puddingdraws.bsky.social-3mmm2wjw5jk2v-1.webp')}
+  ${linkedImage('/r34/vocaloid/puddingdraws.bsky.social-3mmu5ctqzw22c.webp')}
+  ${linkedImage('/r34/vocaloid/puddingdraws.bsky.social-3mn3gw6isp22v.webp')}
+  ${linkedImage('/r34/vocaloid/puddingdraws.bsky.social-3mn67ebiwd22k.webp')}
+  ${linkedImage('/r34/vocaloid/puddingdraws.bsky.social-3mnnkwdkdps2e.webp')}
   <br>
   ${linkedImage('/')}
   ${linkedImage('/')}
