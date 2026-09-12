@@ -477,6 +477,7 @@ let teto = [
   ${linkedImage('/r34/vocaloid/edith-is-dead.bsky.social-3mtsd5prbkk2t.webp')}
   <br>
   ${linkedImage('/')}
+  ${linkedImage('/')}
   `,
 
 // comic panels
