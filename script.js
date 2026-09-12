@@ -38,6 +38,7 @@ var pornSidebar = `\
   <a class="blue" href="/r34/rouge.html"><span>Rouge the Bat</span></a><br>\
   <a class="blue" href="/r34/roblox.html"><span>Roblox</span></a><br>\
   <a class="blue" href="/r34/terraria.html"><span>Terraria</span></a><br>\
+  <a href="/r34/teto.html" id="cavestory" class="blue" onmouseenter="gewi(\'tetohead\').src=\'/icons/tetoSelected.png\'" onmouseleave="gewi(\'tetohead\').src=\'/icons/teto.png\'" onload="gewi(\'tetohead\').src=\'/icons/teto.png\'"><img src="/icons/teto.png" style="border: none; width: 1rem; height: 1rem" id="tetohead"> <span>Teto</span> </a><br>\
   <a class="blue" href="/r34/touhou.html"><span>Touhou</span></a><br>\
   <a class="blue" href="/r34/zonkpunch.html"><span>Zonkpunch</span></a><br>
   <br>\
