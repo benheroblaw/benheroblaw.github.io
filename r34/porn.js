@@ -478,6 +478,7 @@ let teto = [
   <br>
   ${linkedImage('/')}
   ${linkedImage('/')}
+  ${linkedImage('/')}
   `,
 
 // comic panels
