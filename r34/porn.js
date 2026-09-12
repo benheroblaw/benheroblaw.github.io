@@ -477,7 +477,7 @@ let teto = [
   ${linkedImage('/r34/vocaloid/edith-is-dead.bsky.social-3mtsd5prbkk2t.webp')}
   ${linkedImage('/r34/vocaloid/b3e6380998e789b836ce6eb23fee741e.webp')}
   ${linkedImage('/r34/vocaloid/a6f85af61c528e507853a8d451be4d0a.webp')}
-  ${linkedImage('/')}
+  ${linkedImage('/r34/vocaloid/puddingdraws.bsky.social-3ms4vxwa7gs2w.webp')}
   ${linkedImage('/')}
   ${linkedImage('/')}
   ${linkedImage('/')}
