@@ -479,6 +479,7 @@ let teto = [
   ${linkedImage('/r34/vocaloid/a6f85af61c528e507853a8d451be4d0a.webp')}
   ${linkedImage('/')}
   ${linkedImage('/')}
+  ${linkedImage('/')}
   <br>
   ${linkedImage('/')}
   ${linkedImage('/')}
