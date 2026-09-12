@@ -489,6 +489,7 @@ let teto = [
   ${linkedImage('/')}
   ${linkedImage('/')}
   ${linkedImage('/')}
+  ${linkedImage('/')}
   <br>
   ${linkedImage('/')}
   ${linkedImage('/')}
