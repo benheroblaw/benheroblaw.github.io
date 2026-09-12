@@ -482,7 +482,7 @@ let teto = [
   ${linkedImage('/r34/vocaloid/puddingdraws.bsky.social-3ml4vo5kbgk2j.webp')}
   ${linkedImage('/r34/vocaloid/puddingdraws.bsky.social-3ml7htkwrmc2z.webp')}
   ${linkedImage('/r34/vocaloid/puddingdraws.bsky.social-3mllyubji5k2i.webp')}
-  ${linkedImage('/')}
+  ${linkedImage('/r34/vocaloid/puddingdraws.bsky.social-3mlwa2yq6pk2h.webp')}
   ${linkedImage('/')}
   ${linkedImage('/')}
   ${linkedImage('/')}
