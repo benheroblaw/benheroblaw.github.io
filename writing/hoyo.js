@@ -16,10 +16,15 @@ function chapter(descriptor='', title='', content='', bg_linebreak=false) {
 hsr_draft = [
   chapter('', 'lore or something', paragraph(
       `stelle is kind of a bitch
-      she bullies march all the time ("it's technically not consensual but she gets hard")
+
+      she bullies march all the time ("she didn't consent but she gets hard")
+
       is one of the few girls on the astral express to have a vulva (that she would trade for a dick in a heartbeat {bc she's surrounded by trans girls she wants feel her dick sliding inside of})
+
       does not like vaginal, would rather do anal ("if i <i>have</i> to... i <i>guess...</i>") ("pussy") ("shut the fuck up wolfie") ("kys") ("i need to get a gag to shove in your mouth") <span class="preserve_text preserve">("O  _  O")</span>
-      face is almost always (- _ -) ; only changes when she's fucking wolfie's tail
+
+      face is almost always (-_-) ; only changes when she's fucking wolfie's tail
+
       can teleport stuff around with a range of miles; only uses it for the funny (she could teleport girls inside her :>c)`
     ) +
     paragraph(``) +
@@ -27,7 +32,7 @@ hsr_draft = [
   ),
 
   chapter('', 'orgy at the astral express', paragraph(
-    `<i>Lumine and Belle are dragged away from a tour of the Astral Express by Stelle, along with March and Wolfie.</i>
+    `<i>Stelle drags Lumine and Belle away from their extremely interesting tour of the Astral Express, along with March and Wolfie.</i>
 
     `
   )),

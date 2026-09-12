@@ -61,5 +61,6 @@
         "**/*.rpa": true,
         "**/*.rpymc": true,
         "**/cache/": true
-    }
+    },
+    "tabStack.gitIntegration.enabled": true
 }
