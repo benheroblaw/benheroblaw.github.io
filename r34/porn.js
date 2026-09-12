@@ -480,7 +480,7 @@ let teto = [
   <br>pudding
   ${linkedImage('/r34/vocaloid/puddingdraws.bsky.social-3ms4vxwa7gs2w.webp')}
   ${linkedImage('/r34/vocaloid/puddingdraws.bsky.social-3ml4vo5kbgk2j.webp')}
-  ${linkedImage('/')}
+  ${linkedImage('/r34/vocaloid/puddingdraws.bsky.social-3ml7htkwrmc2z.webp')}
   ${linkedImage('/')}
   <br>
   ${linkedImage('/')}
