@@ -475,7 +475,7 @@ let teto = [
   ${linkedImage('/r34/vocaloid/edith-is-dead.bsky.social-3lsoiniaqdk2a.webp', 'running around like your cock has its head out...')}
   ${linkedImage('/r34/vocaloid/edith-is-dead.bsky.social-3mtdbfdcqds2n.webp')}
   ${linkedImage('/r34/vocaloid/edith-is-dead.bsky.social-3mtsd5prbkk2t.webp')}
-  ${linkedImage('/')}
+  ${linkedImage('/r34/vocaloid/b3e6380998e789b836ce6eb23fee741e.webp')}
   ${linkedImage('/')}
   ${linkedImage('/')}
   <br>
