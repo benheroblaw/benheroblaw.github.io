@@ -1630,6 +1630,7 @@ let ddlc = [
   linkedImage('/r34/ddlc/dbag.bsky.social-3muctnzsgw22y.webp') +
   linkedImage('/r34/ddlc/dbag.bsky.social-3muxcawokjk2l.webp') +
   linkedImage('/r34/ddlc/dbag.bsky.social-3mv6itl4b6k2l.webp') +
+  linkedImage('/r34/ddlc/dbag.bsky.social-3mvgbdoo4i22l.webp') +
   paragraph('nat and yuri <3') +
   linkedImage('/r34/ddlc/dbag.bsky.social-3ls2shq6g7s2p-1.webp') +
   linkedImage('/r34/ddlc/dbag.bsky.social-3ls2shq6g7s2p-2.webp') +
