@@ -719,7 +719,7 @@ function startViewer(basePath='', contents=[''], pageButtonTitles=false, imageca
     if (debug) {console.log('adding onclick')}
     button.onclick = () => {
       // setCookie(path, index)
-      viewerIndex = Number(getCookie(path))
+      viewerIndex = index
       console.log(viewerIndex)
       gewi("image").alt = basePath + contents[index] + ` - page ${index+1}`;
       console.log('index: ' +index)
