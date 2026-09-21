@@ -74,6 +74,10 @@ body {
 .story>h1 {
   text-align: center;
 }
+#story>h2 {
+  background-color: #00000000;
+  background: #00000000;
+}
 
 small {
   color: #aaa;
