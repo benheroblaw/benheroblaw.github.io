@@ -1086,9 +1086,9 @@ var PxKxM_draft = [
       a rather specific shot of her in a sundress with a light shining behind her so a shadow is visible through it
 
       (these are all sketched bc it's medieval times)
-      (some people would just add magic cameras and/or magic photos, but my first thought when i remembered "oh they don't have magazines because they can't just take pictures {and they don't have the 'shiny' paper they're printed on}" was "have them make sketches")
+      (some people would just add magic cameras and/or magic photos, but my first thought when i remembered "oh they don't have magazines because they can't just take pictures {and they don't have the 'shiny' paper they're printed on ig}" was "have them make sketches")
       (this also means the captain went rather out of her way to produce pornographic material of this soldier)
-      (oohhhhhhh the yuri)
+      (oohhhhhhh the yuri :D )
 
       which she then distributes to the entire royal guard except the subject
 
@@ -1119,7 +1119,7 @@ var PxKxM_draft = [
 
       she made gay marriage legal in response to being questioned about whether she would make gay marriage legal
 
-      could this be villain's queendom?`
+      could this be villain's queendom? < yes`
     )
   ),
 
@@ -1209,11 +1209,11 @@ var PxKxM_draft = [
 
       She embarrassedly reveals her face, pushing the words "Clothes first..." out of her mouth.
 
-      "Alright." Avice watches Ms. Russell walk over to the princess's wardrobe, shuffling through outfits and pieces of clothing whose price might have amounted to a lifetime of work for the knight.
+      "Alright." Avice watches Ms. Russell walk over to the princess's wardrobe, shuffling through outfits and pieces of clothing whose individual prices might have amounted to a lifetime of work for the knight.
 
       Eventually, she pulls a dyed silken nightgown from the selection, walking back over to the side of Princess Alinor's bed.
 
-      "This should be around your size... The princess is a bit shorter than you, so the hem will be a little high, but not uncomfortably, I hope."
+      "This should be around your size... The princess is a bit shorter than you, so the hem will be a little high, but not uncomfortably so, I hope."
 
       Avice reaches to take the clothing, clutching the bedsheets to her chest.
 
@@ -1263,7 +1263,7 @@ var PxKxM_draft = [
 
       She fixes Avice with a piercing stare.
 
-      "There's something she really quite likes about you. I'm not sure exactly what it is, and I doubt she would say without far too much alcohol."
+      "There's something she really quite likes about you. I'm not sure exactly what, and I doubt she would say without far too much alcohol."
 
       A smile washes across her face, making her fierce gaze disappear just as quickly as it had shown.
 
@@ -1314,7 +1314,7 @@ var dirtiness_essay = [
 echo_chambers = [
   chapter('false', 'echo chambers',
     paragraph(
-      `I've heard that some folks on Twitter (derogatory) are calling Bluesky an echo chamber, and that confuses me because social media as a concept is an "echo chamber" by design. Twitter isn't mad that Bluesky is an echo chamber, they're mad that it's a "build-your-own" echo chamber instead of "subject yourself to the Torment Nexus™".`
+      `I've heard that some folks on Twitter (derogatory) call Bluesky an echo chamber, and that confuses me because social media as a concept is an "echo chamber" by design. Twitter isn't mad that Bluesky is an echo chamber, they're mad that it's a "build-your-own" echo chamber instead of "subject yourself to the Torment Nexus™".`
     )
   )
 ]
@@ -1328,6 +1328,8 @@ yaoi_and_yuri_draft = [
     the girls have a huge single-target dps and a parrymaster who can reflect 100% of the damage pointed at her
     she never thought about having her girlfriend attack her and parrying it at her enemies
     each time they do this is a massive trust exercise, they're gazing into each other's eyes as she's bringing her sword down and her partner activates her parry at the earlier end of the window (partially because she doesn't want to get eviscerated but also because her blood cannot be on her partner's hands)
-    she treats the boys' attacks like enemies (couldn't give less of a fuck)`
+    she treats the boys' attacks like enemies' (couldn't give less of a fuck)
+
+    the boys have an aurafarming tank and a `
   ))
 ]

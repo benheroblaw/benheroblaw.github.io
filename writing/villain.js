@@ -1,4 +1,4 @@
-var villainess_draft = [
+let villainess_draft = [
   `<br>
   <div class='background'>
   <h3 id='char'>story outline</h3>
@@ -56,6 +56,10 @@ var villainess_draft = [
   She apologizes to Hero and takes her just outside the walls of the adventurers' guild
 
 
+  I want to make the guild minimize Hero, downplay her achievements until she is a simple weakling
+
+  The guild's misogyny will push Hero towards Villain
+
 
   Later, Hero and a party of other adventurers are sent to Villain's castle to try and take her down.
 
@@ -63,7 +67,7 @@ var villainess_draft = [
 
   You would expect lands ruled by such an evil person to be frightened, or even scared in the slightest.
 
-  The people of this queendom are living happily, making the troupe of armed adventurers seem out of place.
+  The people of this queendom are living happily, making the troupe of armed mercenaries seem out of place.
 
   When Hero asks them where Villain is, they laugh.
 
@@ -464,7 +468,7 @@ var villainess_draft = [
 
     It's difficult to think through the pain.
 
-    I strip off the layers of my dress, leaving only an undershirt and undershorts to pull the drab, mostly featureless top and skirt over.
+    I strip off the layers of my dress, leaving only an undershirt and undershorts to pull the drab, featureless top and skirt over.
 
     I step out of my fancy heels and slip on a pair more fitting of a servant's status.
 
@@ -487,10 +491,11 @@ var villainess_draft = [
 
     When the white fabric touched my wound, it immediately stained blood red.
 
-    I need to find help.<br>
+    I need to find help.
+
     There should be medics here.
 
-    I wasn't very subtle, and Hero will have let them know.
+    I wasn't very subtle, and the Hero will have let them know.
 
     It's the right thing to do, after all.
 
@@ -559,7 +564,7 @@ var villainess_draft = [
 
     No matter, anymore.
 
-    It seems my killing has been forgiven.
+    It seems my killing has been forgiven by the gods above.
 
     For she is standing before me.
 
@@ -615,7 +620,7 @@ var villainess_draft = [
 
     Tendrils of shadow snake up my torso, finding latches and buckles on the straps holding my breastplate in place.
 
-    She undoes each latch and buckle, lifting my armour away from my body.
+    Her fingers undo each latch, each buckle, lifting my armour away from my body.
 
     My torso is now easily accessible, relieved of protection, my life all too easy to end.
 
@@ -745,7 +750,7 @@ var villainess_draft = [
 
     She moves her fingers above the next button, and pauses,
 
-    waiting for me to tell her to continue.
+    waiting for me to allow her continue.
 
     I caress her hands, slowly pushing her fingers onto my tunic.
 
@@ -777,9 +782,9 @@ var villainess_draft = [
 
     Again she pauses.
 
-    But this time, I feel her eyes on my neck, my shoulders, hear the inhale she breathes as my skin is revealed.
+    But this time, I feel her eyes on my neck, my shoulders, hear the inhale she breathes as more of my skin is revealed.
 
-    I am far from fully undressed, yet I feel as though I am showing her something special.
+    I am far from fully undressed, a fair distance from my closest undergarments, yet I feel as though I am showing her something special.
 
     Something... private, perhaps.
 
@@ -791,7 +796,7 @@ var villainess_draft = [
 
     I cannot let her stop.
 
-    She will stop if I flinch.
+    If I flinch she will stop.
 
     My body is begging for her touch, wanting her to press herself closer, hold me closer.
 
@@ -963,7 +968,7 @@ var villainess_draft = [
 
     Most have not courage enough to stare into the blackness of the void.
 
-    They would not accept what they saw, they would dismiss simple words and they would dismiss a story for describing what they do not want to see.
+    They would not accept what they saw, they would dismiss simple words and they would dismiss a story for describing things they do not want to see.
 
     This is not the place to stare into the void.
 
@@ -1013,7 +1018,7 @@ var villainess_draft = [
 
     Which is why I usher you to the exit
 
-    Instead of saying you should continue.
+    Instead of telling you to continue.
 
     If something makes you that uncomfortable
 
@@ -1133,11 +1138,11 @@ var villainess_draft = [
 
       "I... enjoy seeing you perform battle. I enjoy battle myself.
 
-      "I wish to use my talent for battle for you. There are others who wish to use me, as they would a pawn.
+      "I wish to use my talent for battle for you. There are others who wish to use me, as they would a pawn, as so many things other than a person.
 
       "You are the only person who would see me as an equal, the only person I would trust to employ my talents.
 
-      "You who use violence as a tool, when words have long lost their use.
+      "You who use violence as a tool, only when words have long lost their use.
 
       "So I devote myself to you, my queen."
 
@@ -1159,7 +1164,7 @@ var villainess_draft = [
 
       They gently push upward, and I allow my head to rise.
 
-      My eyes stare into hers, a smile on her face more radiant than any shape I bend light into.
+      My eyes stare into hers, a smile on her face more radiant than any shape I could ever bend light into.
 
       "I, Gwenhael Muiredhakh, wish to claim you as mine, as mine and no- body- else's.
 
@@ -1171,11 +1176,11 @@ var villainess_draft = [
 
       Her face turns slightly hard.
 
-      "Yet I do not wish to command you."
+      "Yet I do not wish to command you.
 
       "Hm." Her head tilts and a smug smile curls her lips. "I suppose that shall be my first command."
 
-      She slips into commanding surety.
+      Her voice and body slip into commanding surety.
 
       "You will not follow me blindly. Make your own decisions about me, be disgusted by what I do if that is how you so feel.
 
@@ -1211,11 +1216,11 @@ var villainess_draft = [
 
     The mightiest cause of Creation and Destruction, rivaled only by hate.
 
-    Though hate can have its uses.
+    Though hate can have his uses.
 
     Some do not understand love, and have been taught only to hate.
 
-    Some might call their fascination with a person hate, they might call the one they care for most “enemy.”
+    Some might call their fascination with a person hate, they might call the one they care for most "enemy."
 
     Some say that to humans, fear is quite a similar feeling to love.
 
@@ -1225,7 +1230,7 @@ var villainess_draft = [
 
     All hate is based in fear, and some fears are easily quelled.
 
-    Most fears are not about the raw idea of a person or a thing, rather, most people fear the effects of something.
+    Most fears are not about the raw idea of a person or a thing, rather, people fear the effects of something.
 
     Those who hate people attracted to others most like them fear that they will not find a person who is attracted to them, or that this kind of person tends more toward violence.
 
@@ -1235,9 +1240,9 @@ var villainess_draft = [
 
     I have unwoven the hate of one of the land's greatest heroes, though the land refused to recognize her as such.
 
-    She used to call me “enemy,” “Villain.”
+    She used to call me "enemy," "Villain."
 
-    Now she calls me quaint things like “my love” and “Your Highness.”
+    Now she calls me quaint things like "my love" and "Your Highness."
 
     Together, we will build a nation powered by love instead of hate.
 
@@ -1261,7 +1266,7 @@ var villainess_draft = [
 
     I do not think myself a person to be claimed by fervor, but I find in myself an unshakable belief that this world should, <i>needs</i> to be changed.
 
-    The claws of men have sunk too far into this realm, hatred has sunk its teeth into Mother Earth until all she can imagine is pain and the fear that this torture shall never end.
+    The claws of men have sunk too far into this realm, hatred has sunk his teeth into Mother Earth until all she can imagine is pain and the fear that this torture shall never end.
 
     I think that these claws and teeth should not simply be lifted halfway, but yanked fully out of the land.
 
@@ -1269,11 +1274,101 @@ var villainess_draft = [
 
     Yet I will not stop searching. And I will not stop pulling these teeth until each and every one is gone.`
   )
-, false)
+, false),
+
+  chapter('false', 'Cinbel',
+    paragraph(
+      `I stand just outside of a castle, in a small, dirt-floored enclosure of rope fence.
+
+      Before me stand my two opponents.
+
+      Both shorter than me, both with hunger in their eyes.
+
+      The one wearing a hood clenches her hands, grabbing something invisible to me.
+
+      I gather the light in the air and slash through my shadow, rising off the ground to attack.
+
+      She should know tricks like that won't work on me.
+
+      The red-haired one takes a much more fruitful approach, spreading their hand and blasting flames in a large cone around me.
+
+      I dash in close, ducking under the searing assault and knocking their legs out from under them.
+
+      The flames dissipate as easily as they were conjured.
+
+      The hooded one is moving in for another attack, this time wielding twin silver daggers.
+
+      She sprints towards me, trying to close the distance as fast as possible.
+
+      As she comes just out of sword's reach, she flings her daggers at me, skipping back to keep her range.
+
+      I spin out of the blades' way, then dodge again as tendrils of darkness guide them back on their path.
+
+      Light burns from my fingertips, searing away the shadows.
+
+      I blast sunlight into the face of the hooded girl, closing the distance as she is blinded.
+
+      The blade of my sword hovers millimeters from her throat as I slip behind her.
+
+      She lets out a frustrated sigh, and, after a moment, taps my arm twice.
+
+      I immediately release her, letting her walk outside of the arena to watch me finish this spar.
+
+      She slumps to the ground in a cross-legged sit and stares agitatedly.
+
+      I look at her for a moment.
+
+      The girl is powerful, without a question. Her abilities would be more than enough to take down tens of people in a row.
+
+      She just needs focus, time to learn like her mentor and I how to bend shadows to her will.
+
+      She needs experience, and a stronger code of morals.
+
+      No small part of the reason Gwenhael is feared comes from her unwillingness to use underhanded tricks and dupes, her simple will to fight everyone with her side of the field clear.
+
+      The girl is strong, and she can be so much stronger.
+
+      But I cannot focus on that, as there is another opponent for me to handle.
+
+      I jump into the air, forming a pedestal of light to jump again.
+
+      My legs take me to the same position that I defeated the girl in, standing close behind.
+
+      I plan to put my sword at their throat as well.
+
+      But they burst into flame, roaring into an inferno as I flinch and stumble back.
+
+      "Penumbra?!"
+
+      The flames die down, and they look fine, if tired.
+
+      "What the hell was that?!"
+
+      "Sorry... reflex..." They pant.
+
+      "...Are you alright?"
+
+      "Just tired."
+
+      "Alright, then..."
+
+      I glance at the girl, who is staring at them in surprise and concern.
+
+      "That's enough for today."`
+    )
+  )
 
 ]
 
-var villainess_final = [
+let villainess_final = [
   villainess_draft[3],
   villainess_draft[4],
+]
+
+let villain_nsfw_draft = [
+
+]
+
+let villain_nsfw = [
+  
 ]
