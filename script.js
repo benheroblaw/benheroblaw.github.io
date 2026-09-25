@@ -25,7 +25,7 @@ var pornSidebar = `\
   <a class="blue" href="/r34/comics.html"><span>Comics</span></a><br><br>` +
   `<a href="/r34/cavestory.html" id="cavestory" class="blue" onmouseenter="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0002.svg\'" onmouseleave="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0001.svg\'" onload="gewi(\'quotehead\').src=\'/r34/cavestory/assets/Sprite-0001.svg\'"><img src="/r34/cavestory/assets/Sprite-0001.svg" style="border: none; width: 16px; height: 10px;" id="quotehead"> <span>Cave Story</span></a> <br>\
   <a href="/r34/ddlc.html" class="blue"><span onmouseenter="gewi('moni').src = \'/icons/moni-wink.svg\'" onmouseleave="gewi('moni').src = \'/icons/monika.svg\'"><img src="/icons/monika.svg" id="moni" style="border: none; width: 1rem"> DDLC</span></a><br>\
-  <a href="/r34/ddlc.html" class="blue"><span><img src="/icons/deltarune.ico" id="moni" style="border: none; width: 1rem"> DELTARUNE</span></a><br>\
+  <a href="/r34/deltarune.html" class="blue"><span><img src="/icons/deltarune.ico" id="moni" style="border: none; width: 1rem"> DELTARUNE</span></a><br>\
   <a href="/r34/dragon-maid.html" class="blue"><span>Dragon Maid</span></a><br>\
   <a href="/r34/hard-degen.html" class="blue"><span>Hard Degenerate</span></a><br>\
   <a href="/r34/hoyo.html" class="blue"><span>Hoyoverse</span></a><br>\

@@ -24,6 +24,7 @@ let rwby_DRAFT = [
       she also goes "ooo! grease!" and licks it off of her finger
 
       always smiling to some degree, little close-lipped smile, showing teeth smile, big manic grin
+      funny red glowing eyes
 
       intense eyes, staring super hard at everything
 
@@ -43,7 +44,11 @@ let rwby_DRAFT = [
 
   chapter('', 'plot?',
     paragraph(
-      ``
+      `Fights with Cardin (or whatever his name was) bc he is stubid
+
+      Duels Winter Schnee bc Winter challenged her to a duel after finding out she was Weiss's girlfriend
+
+      The thing where some armed guy shows up at Beacon and Ozpin says "Sic 'em"`
     )
   )
 

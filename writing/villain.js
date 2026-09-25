@@ -1366,9 +1366,21 @@ let villainess_final = [
 ]
 
 let villain_nsfw_draft = [
+  chapter('', 'beginning notes or something idk',
+    paragraph(
+      `I just had to write Villain teaching Hero about lesbian sex :3
 
+      So, content warnings/tags: lesbian sex, not first time but first real time, these bitches gay, good for them! good for them,`
+    )
+  ),
+
+  chapter('1', 'Villain',
+    paragraph(
+      ``
+    )
+  )
 ]
 
 let villain_nsfw = [
-  
+
 ]

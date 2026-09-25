@@ -26,6 +26,8 @@ h1 {
   text-align: center;
   padding-top: 50.5px;
   padding-bottom: 55px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   background: linear-gradient(#000, #000, #111, #111, #111, #111, #111, #aaa, #aaa);
   margin-top: 0%;
   margin-bottom: 0%;
