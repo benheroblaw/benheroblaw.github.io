@@ -1559,19 +1559,24 @@ let zko = [
   `
 ]
 
-var hentai = [
+var gacha_hentai = [
   paragraph('blue archive') +
   linkedImage('/r34/hentai/blue_archive/28ef243b8fc2b268ae4ce33f3117cb9c0426a06a.webp') +
   linkedImage('/r34/hentai/blue_archive/e0d24fc9f6e55026f3cb8af25cd3e8be.webp') +
   linkedImage('/r34/hentai/blue_archive/da294a5d26ced20e017114f3a41d4cbb88ffb540.webp') +
-  // linkedImage('/r34/hentai/blue_archive/.webp') +
-  linkedImage('/r34/hentai/blue_archive/25e6d9d349cb732834b6f7319febb787.webp') +
+  '<br>' +
+  linkedImage('/r34/hentai/blue_archive/asuna_and_karin.webp') +
+  '<br>' +
   linkedImage('/r34/hentai/blue_archive/1fee712a9d0df9dda74a074dcdda89da.webp') +
   linkedImage('/r34/hentai/blue_archive/f8791a3b311f9c34ea34b8cb557a35480a3301a4.webp') +
-  linkedImage('/r34/hentai/blue_archive/asuna_and_karin.webp') +
+  linkedImage('/r34/hentai/blue_archive/90eea586a2151da2f501c0740f305c6d0dc82adf.webp') +
+  '<br>' +
+  linkedImage('/r34/hentai/blue_archive/asuna_and_karin_new.webp') +
+  '<br>' +
   // linkedImage('/') +
-  // linkedImage('/') +
-  // linkedImage('/') +
+  // linkedImage('/r34/hentai/blue_archive/.webp') +
+  linkedImage('/r34/hentai/blue_archive/25e6d9d349cb732834b6f7319febb787.webp') +
+
   paragraph('other gacha games') +
   linkedImage('/r34/hentai/4e67352010513a0b9e683913d7c87262.webp') +
   linkedImage('/r34/hentai/1c0ea52217f059c48e5076ac9234d2ba64187d7d.webp') +
@@ -1579,12 +1584,13 @@ var hentai = [
   linkedImage('/r34/hentai/1c0ea52217f059c48e5076ac9234d2ba64187d7d-2.webp') +
   linkedImage('/r34/hentai/1c0ea52217f059c48e5076ac9234d2ba64187d7d-3.webp') +
   linkedImage('/r34/hentai/1c0ea52217f059c48e5076ac9234d2ba64187d7d-4.webp') +
-  paragraph('text things') +
-  linkedImage('/r34/hentai/b9285ca7ab7c19e6c5a22ca9a7495e7b.webp')+
-  linkedImage('/r34/hentai/1768112031379.webp')+
-  linkedImage('/r34/hentai/762be2454ba1769059253e35b70c6637.webp')+
   // linkedImage('/')+
   ``,
+
+  paragraph('text things') +
+  linkedImage('/r34/hentai/b9285ca7ab7c19e6c5a22ca9a7495e7b.webp')+
+  ``,
+
   `<h2>comic panels</h2>
   blue archive nnn<br>` +
   linkedImage('/r34/hentai/blue_archive/comic/nnn/3de3f38bec9162d20128ee1e3a39a3abc3487dd5.webp') +
@@ -1592,6 +1598,36 @@ var hentai = [
   linkedImage('/r34/hentai/blue_archive/comic/nnn/7a86358a208f686dc8b89f363d538fa8e887634c.webp') +
   linkedImage('/r34/hentai/blue_archive/comic/nnn/220b9960aa77df2c9c1397f7c8450191859ce306.webp') +
   linkedImage('/r34/hentai/blue_archive/comic/nnn/2fe4d9822dde78450179b1791fac6d32.webp')
+]
+let hentai = [
+
+  linkedImage('/r34/hentai/f84c304f7e49f9a271bd8b37abeb35b1.webp') +
+  linkedImage('/r34/hentai/c649b7506aa2549145a61384c5dc92f7.webp') +
+  linkedImage('/r34/hentai/4e67352010513a0b9e683913d7c87262.webp') +
+  linkedImage('/r34/hentai/3fd4322be6b756bff5050629c0c72fcd.webp') +
+  linkedImage('/r34/hentai/b61d0674d5075f06c755d9f2b299eccc.webp') +
+  linkedImage('/r34/hentai/edd058cf6a194712dd627f109cd81283.webp') +
+  linkedImage('/r34/hentai/d8ff93d7d5aa4bbb583da86d8512d911.webp') +
+  '',
+
+  header2('comic panels') +
+  linkedImage('/r34/hentai/5f98b83e5bee8a1be9dfced369396f17.webp') +
+  linkedImage('/r34/hentai/e6dca1195acc335cc111d526e39e3368.webp')+
+  '<br>' +
+  linkedImage('/r34/hentai/c91099ea33415c22b3df08197e74722f.webp') +
+  linkedImage('/r34/hentai/c76b86ff46f8df9f12c9ff9da529cff9.webp') +
+  '<br>' +
+  linkedImage('/r34/hentai/1c0ea52217f059c48e5076ac9234d2ba64187d7d-1.webp') +
+  linkedImage('/r34/hentai/1c0ea52217f059c48e5076ac9234d2ba64187d7d-2.webp') +
+  linkedImage('/r34/hentai/1c0ea52217f059c48e5076ac9234d2ba64187d7d-3.webp') +
+  linkedImage('/r34/hentai/1c0ea52217f059c48e5076ac9234d2ba64187d7d-4.webp') +
+  '',
+
+  paragraph('text things') +
+  linkedImage('/r34/hentai/1768112031379.webp')+
+  linkedImage('/r34/hentai/762be2454ba1769059253e35b70c6637.webp')+
+  '',
+
 ]
 
 let ddlc = [
