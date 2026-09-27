@@ -1172,10 +1172,10 @@ var ai = [
 ]
 
 var bonkge = [
-  linkVideo(`/r34/bonkge/Bonk 1.mp4`, true) +
-  linkVideo(`/r34/bonkge/Bonk 1 ALT.mp4`, true) +
-  linkVideo(`/r34/bonkge/ASH-Wmp4.mp4`, true) +
-  linkVideo(`/r34/bonkge/Bonk_2.mp4`, true),
+  linkVideo(`/r34/bonkge/large/Bonk 1.mp4`, true) +
+  linkVideo(`/r34/bonkge/large/Bonk 1 ALT.mp4`, true) +
+  linkVideo(`/r34/bonkge/large/ASH-Wmp4.mp4`, true) +
+  linkVideo(`/r34/bonkge/large/Bonk_2.mp4`, true),
 
   linkVideo(`/r34/bonkge/2B+Ww 1.mp4`, true) +
   linkVideo(`/r34/bonkge/2B+Ww 2.mp4`, true) +
