@@ -1691,7 +1691,7 @@ let deltarune = [
 ]
 
 let edith_is_dead = [
-  `<div class="left"><a href="https://bsky.app/profile/edith-is-dead.bsky.social"><img src="/icons/Bluesky-logo-2200578589.png" class="left" style="border: medium; user-select: none;" title="Edith on Bluesky" draggable="false"></a></div>` +
+  `` +
   linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mskbz7ntok2w-1.webp') +
   linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mskbz7ntok2w-2.webp') +
   linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3msxyzixr5c2a.webp') +
@@ -1712,4 +1712,12 @@ let edith_is_dead = [
   linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mt66o5k4kk25.webp') +
   linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mt6cojdpbk22.webp') +
   ''
+]
+
+let silvervale_bunny_prize_nav = [
+  background(
+    addLink("/r34/unsorted/Silvervale_Bunny_Prize/slave_handles.html") +
+    addLink("/r34/unsorted/Silvervale_Bunny_Prize/golden_bikini.html") +
+    ``
+  )
 ]
