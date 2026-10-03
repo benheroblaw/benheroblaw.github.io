@@ -1721,3 +1721,13 @@ let silvervale_bunny_prize_nav = [
     ``
   )
 ]
+
+let raikissu = [
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mtnmqil6ic2n.webp'),
+
+  header2('comic panels') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mwm7tnaka22k.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mwo6voodc22l.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mwrddbicx22w.webp') +
+  ``
+]
