@@ -1600,7 +1600,7 @@ var gacha_hentai = [
   linkedImage('/r34/hentai/blue_archive/comic/nnn/2fe4d9822dde78450179b1791fac6d32.webp')
 ]
 let hentai = [
-
+  header2("images") +
   linkedImage('/r34/hentai/f84c304f7e49f9a271bd8b37abeb35b1.webp') +
   linkedImage('/r34/hentai/c649b7506aa2549145a61384c5dc92f7.webp') +
   linkedImage('/r34/hentai/4e67352010513a0b9e683913d7c87262.webp') +
