@@ -1291,7 +1291,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // document.body.appendChild(script)
   document.body.innerHTML +=
-  `<div id="load" style="width: 100vw;height: 100vh;background-color: #000;background-size: cover;color: #fff;z-index: 5;position: fixed;top: 0;left: 0;text-align: center;padding-top: 30vh;">
+  `<div id="load" style="width: 100vw;height: 100vh;background-color: #000;background-size: cover;color: #fff;z-index: 5;position: fixed;top: 0;left: 0;text-align: center;padding-top: 25vh;">
   <div id="loadingAnimation">loading...</div> please wait...!
   <br>
   <br>
