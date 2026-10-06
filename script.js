@@ -1292,14 +1292,15 @@ document.addEventListener("DOMContentLoaded", function() {
   // document.body.appendChild(script)
   document.body.innerHTML +=
   `<div id="load" style="width: 100vw;height: 100vh;background-color: #000;background-size: cover;color: #fff;z-index: 5;position: fixed;top: 0;left: 0;text-align: center;padding-top: 30vh;">
-  loading... please wait...!
+  <div id="loadingAnimation">loading...</div> please wait...!
   <br>
   <br>
-  <img src="/loading.gif" style="width: 2rem; border: none;">
+  <img src="/ezgif-568e31f5433dbea3.webp" style="width: 2rem; border: none;">
   <br>
   <br>
   <div id="loadingProgress"></div>
   </div>`
+
   if (window.location.pathname.indexOf('/r34/') > -1) {
     tesLog('loading porn.js');
     try {gewi('sidebar').remove()}
