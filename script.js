@@ -1285,7 +1285,6 @@ document.addEventListener('load', () => {
 
 document.addEventListener("loadstart", () => {
   document.head += '<meta charset="UTF-8">'
-  document.body.innerHTML += '<div class="load" style="width: 100vw;height: 100vh;background-color: #000;background-size: cover;color: #fff;z-index: 5;position: fixed;top: 0;left: 0;text-align: center;padding-top: 30vh;">loading <img src="/loading.gif"></div>'
 })
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -1293,7 +1292,7 @@ document.addEventListener("DOMContentLoaded", function() {
   // document.body.appendChild(script)
   document.body.innerHTML +=
   `<div id="load" style="width: 100vw;height: 100vh;background-color: #000;background-size: cover;color: #fff;z-index: 5;position: fixed;top: 0;left: 0;text-align: center;padding-top: 30vh;">
-  loading...
+  loading... please wait!
   <br>
   <br>
   <img src="/loading.gif" style="width: 2rem; border: none;">
@@ -1457,7 +1456,7 @@ document.addEventListener("DOMContentLoaded", function() {
   // gewi('load').remove()
 
   numImagesLoaded = 0
-  gewi("loadingProgress").textContent = `Loading images... ${numImagesLoaded}/${document.images.length}`
+  gewi("loadingProgress").textContent = `images... ${numImagesLoaded}/${document.images.length}`
   setInterval(() => {
     try {
       gewi("loadingProgress").textContent = `images... ${numImagesLoaded}/${document.images.length}`
@@ -1488,6 +1487,7 @@ window.addEventListener('load', () => {
   try {
     setTimeout(() => {
       gewi('load').remove()
+      qSel('.loading').remove()
     }, 100)
   }
   catch {}

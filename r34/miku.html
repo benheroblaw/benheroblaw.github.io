@@ -5,6 +5,7 @@
     <link rel="icon" href="/icons/mikuSelected.png">
 
     <script src="/script.js"></script>
+    <script src="/r34/porn.js"></script>
 </head>
 <title>Miku</title>
 <style>
@@ -72,24 +73,25 @@
 
 window.addEventListener("DOMContentLoaded", function() {
     ensureCookie(path + 'page', 'miku')
-  addSidebar(pornSidebar, mikuSidebar)
-  setInterval(() => {gewi('mikuButton').onclick = function() {
-    startStory(miku, false, false, .25)
-    setCookie(path + 'page', 'miku')
-}}, 100)
-  setInterval(() => {gewi('brMikuButton').onclick = function() {
-    startStory(brMiku, false, false, .25)
-    setCookie(path + 'page', 'brMiku')
+    addSidebar(pornSidebar, mikuSidebar)
+    setInterval(() => {gewi('mikuButton').onclick = function() {
+        startStory(miku, false, false, .25)
+        setCookie(path + 'page', 'miku')
+    }}, 100)
+    setInterval(() => {gewi('brMikuButton').onclick = function()  {
+        startStory(brMiku, false, false, .25)
+        setCookie(path + 'page', 'brMiku')
     // window.location.href = params
-}}, 100)
-  gewi('mikuButton').innerHTML = selectableMiku()
-  gewi('brMikuButton').innerHTML = selectableVsynth('brmiku')
-  tesLog(getCookie(path+'page'))
+    }}, 100)
+    gewi('mikuButton').innerHTML = selectableMiku()
+    gewi('brMikuButton').innerHTML = selectableVsynth('brmiku')
+    tesLog(getCookie(path+'page'))
+    startStory(eval(`${getCookie(path + 'page')}`), 'top', false, .25)
 })
 
 </script>
 <html>
-    <body class="centerList" onload="startStory(eval(`${getCookie(path + 'page')}`), 'top', false, .25)">
+    <body class="centerList" onload="">
         <div id="sidebar"></div>
         <div id="sidebar2"></div>
         <div id="buttons">
