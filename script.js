@@ -1456,13 +1456,40 @@ document.addEventListener("DOMContentLoaded", function() {
   }, 500)
   // gewi('load').remove()
 
-  gewi("loadingProgress").textContent = `Loading images... ${0}/${document.images.length}`
+  numImagesLoaded = 0
+  gewi("loadingProgress").textContent = `Loading images... ${numImagesLoaded}/${document.images.length}`
+  setInterval(() => {
+    try {
+      gewi("loadingProgress").textContent = `Loading images... ${numImagesLoaded}/${document.images.length}`
+    }
+    catch {
+      clearInterval()
+    }
+  }, 100)
+
+  setTimeout(() => {
+    qSelA("img").forEach(element => {
+      // if (element.complete) {
+      //   numImagesLoaded++
+      // }
+      element.addEventListener("load", () => {
+        numImagesLoaded++
+      })
+    });
+  }, 100)
+
 })
 
 window.addEventListener('load', () => {
   // addSidebar(pornSidebar)
   // tesLog('removing load screen')
-  try {gewi('load').remove()}
+  // try {clearInterval()}
+  // catch {}
+  try {
+    setTimeout(() => {
+      gewi('load').remove()
+    }, 100)
+  }
   catch {}
 
 })
