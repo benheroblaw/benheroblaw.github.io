@@ -1292,7 +1292,7 @@ document.addEventListener("DOMContentLoaded", function() {
   // document.body.appendChild(script)
   document.body.innerHTML +=
   `<div id="load" style="width: 100vw;height: 100vh;background-color: #000;background-size: cover;color: #fff;z-index: 5;position: fixed;top: 0;left: 0;text-align: center;padding-top: 30vh;">
-  loading... please wait!
+  loading... please wait...!
   <br>
   <br>
   <img src="/loading.gif" style="width: 2rem; border: none;">
@@ -1488,7 +1488,7 @@ window.addEventListener('load', () => {
     setTimeout(() => {
       gewi('load').remove()
       qSel('.loading').remove()
-    }, 100)
+    }, 250)
   }
   catch {}
 
