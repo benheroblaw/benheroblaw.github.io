@@ -1460,7 +1460,7 @@ document.addEventListener("DOMContentLoaded", function() {
   gewi("loadingProgress").textContent = `Loading images... ${numImagesLoaded}/${document.images.length}`
   setInterval(() => {
     try {
-      gewi("loadingProgress").textContent = `Loading images... ${numImagesLoaded}/${document.images.length}`
+      gewi("loadingProgress").textContent = `images... ${numImagesLoaded}/${document.images.length}`
     }
     catch {
       clearInterval()
