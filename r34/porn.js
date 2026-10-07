@@ -1537,7 +1537,7 @@ let rouge = [
   <video controls src="./rouge/6e9990a4ef8b9b2e8fe0092de9979b13.mp4">no porn for you :(</video>
   <video controls src="./rouge/800960f326944481fc3de2941452acb4.mp4">no porn for you :(</video>
   ` +
-  `the person who made the animations is ${addlink('https://rule34.xxx/index.php?page=post&s=list&tags=defaultuser12', 'defaultuser12')}`,
+  `<br><br>the person who made the animations is ${addlink('https://rule34.xxx/index.php?page=post&s=list&tags=defaultuser12', 'defaultuser12')}`,
   `
   ${linkedImage("/r34/rouge/298f9f2bb5f4881941a5d4a038236933e7cae526.webp")}
   ${linkedImage("/r34/rouge/ce35198226ec459f312a311c3c99abf00134b84e.webp")}
