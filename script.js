@@ -1465,7 +1465,7 @@ document.addEventListener("DOMContentLoaded", function() {
     catch {
       clearInterval()
     }
-  }, 100)
+  }, 10)
 
   setTimeout(() => {
     qSelA("img").forEach(element => {
