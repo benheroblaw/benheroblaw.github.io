@@ -14,7 +14,7 @@ let villainess_draft = [
 
 
 
-  Hero beats her near death and Villain goes \"thats hot\"
+  Hero beats her near death and Villain goes "thats hot"
 
 
 
@@ -36,7 +36,7 @@ let villainess_draft = [
 
   Some of the kids are going to help because Villain taught them some kineses
 
-  Once everyone important is gone, Villain finds that nobody in the castle misses their old lords
+  Once everyone important is gone, Villain finds that nobody in the kingdom misses their old lords
 
   They promote her to living in the castle
 
@@ -140,7 +140,7 @@ let villainess_draft = [
   "Here to fight me again?"
 
   "No, this time is...
-  Personal business."
+  "Personal business."
 
 
   Villain is interested
@@ -181,7 +181,7 @@ let villainess_draft = [
 
   Villain kisses her.
 
-  She strips of Hero's armour once again, this time with Hero's help.
+  She strips Hero of her armour once again, this time with Hero's help.
 
   It's much easier this time; she was only wearing a chainmail vest.
 
@@ -221,12 +221,12 @@ let villainess_draft = [
 
     The shadows of the intestines are shaped in a rope, for example.
 
-    <i>\"What gives you any hold on </i>my<i> shadow?\" - Villain to Umbra</i></p>
+    <i>"What gives you any hold on </i>my<i> shadow?" - Villain to Umbra</i></p>
   </div>`,
 
   `<head>
     <meta charset="UTF-8">\
-  <link rel=\"icon\" href=\"/icons/story.png\">\
+  <link rel="icon" href="/icons/story.png">\
   <title>The Villain Enters A Political Marriage with the Prince of a Neighboring Kingdom</title>\
   </head>\
   <h2></h2>\
@@ -274,9 +274,9 @@ let villainess_draft = [
 
     She composes herself, waiting for the chatter of the crowd to quiet and focus their attention on her.
 
-    \"Welcome, one and all,\" she begins.
+    "Welcome, one and all," she begins.
 
-    \"I have gathered you all here because I have something to confess.\"
+    "I have gathered you all here because I have something to confess."
 
     Everyone's eyes are on the noblewoman, even the servants turning their gaze to her.
 
@@ -286,7 +286,7 @@ let villainess_draft = [
 
     After enough time for a deep breath, she continues.
 
-    \"I have been observing how you conduct yourselves, bathing in and flaunting your wealth and your power like children.\"
+    "I have been observing how you conduct yourselves, bathing in and flaunting your wealth and your power like children."
 
     The crowd almost seems to flinch, certainly not expecting such criticisms from another noble.
 
@@ -296,17 +296,17 @@ let villainess_draft = [
 
     The raw confidence she exuded now was foreign to him.
 
-    \"Money and power you use to climb higher and higher, largely ignoring the consequences you bring upon your people.
+    "Money and power you use to climb higher and higher, largely ignoring the consequences you bring upon your people.
 
     "Most are starving from your taxation, even more than they would be otherwise.
 
-    "You claim everything for yourselves with no thought for your subjects.\"
+    "You claim everything for yourselves with no thought for your subjects."
 
     The crowd is fuming now, shouting at her about how grave of a transgression she was committing and grabbing blunt weapons, sharpening into blades in their hands.
 
     She simply raises her voice over them.
 
-    \"Your tyranny ends today.\"
+    "Your tyranny ends today."
 
     The darkness in the room has become suffocating, feeling like a half-solid mass rather than simple shadows.
 
@@ -328,17 +328,17 @@ let villainess_draft = [
 
     She turns to the servants, seeming to only now recognize their terror.
 
-    \"Fear not, for only the wicked will be punished.\"
+    "Fear not, for only the wicked will be punished."
 
     They quiver under her gaze, pinned and ready to bolt.
 
     She looks at them like they are children she wishes to comfort.
 
-    \"I couldn't in good faith call myself a judge if I were to hurt people whom justice would rule innocent.\"
+    "I couldn't in good faith call myself a judge if I were to hurt people whom justice would rule innocent."
 
     They seem to tremble less, wanting to believe they are safe.
 
-    \"Now, if you would help me clean up this mess-\"
+    "Now, if you would help me clean up this mess-"
 
     The massive, heavy wooden doors crash against the walls, light painting over the canvas of darkness.
 
@@ -362,13 +362,13 @@ let villainess_draft = [
 
     The armoured figure has rushed to the servants.
 
-    \"I am truly sorry,\" a high voice says, sure and confident.
+    "I am truly sorry," a high voice says, sure and confident.
 
     Too clearly to have come from under their helmet.
 
-    \"I came as fast as I could.
+    "I came as fast as I could.
 
-    "Are any of you hurt?\"
+    "Are any of you hurt?"
 
     Even as the noblewoman feels her life pumping out of her side, she can't help but turn and stare at the person who bested her.
 
@@ -395,7 +395,7 @@ let villainess_draft = [
     The cocoon of shadows dissipates, and the noblewoman is gone.</p>
   </div>`,
 
-  `<link rel=\"icon\" href=\"/icons/story.png\">\
+  `<link rel="icon" href="/icons/story.png">\
   <title>The Shadow Judge</title>
   <h2>1</h2>\
   <h1 id='char' class='vampire'>Villain</h1>\
@@ -512,7 +512,7 @@ let villainess_draft = [
     For quite a while, I think, I am freed from my mortal coil.
   </div>`,
 
-  // `<link rel=\"icon\" href=\"/icons/story.png\">\
+  // `<link rel="icon" href="/icons/story.png">\
   // <h2>???</h2>\
   // <h1 id='char' class='vampire'>Villain vs Hero 2</h1>\
   // <div class='background'>\
@@ -540,7 +540,7 @@ let villainess_draft = [
   //
   // </div>`,
 
-  `<link rel=\"icon\" href=\"/icons/story.png\">\
+  `<link rel="icon" href="/icons/story.png">\
   <style>p {margin-bottom: 0.75rem}</style>
   <title>The Shadow Judge</title>
   <h2>2</h2>\
@@ -682,7 +682,7 @@ let villainess_draft = [
 
     "I will take only what you give."
 
-    Gods, why must you make this so hard?
+    Gods, why must you make this so difficult?
 
     "I want to take everything you offer me, everything you are willing to give."
 
@@ -728,7 +728,7 @@ let villainess_draft = [
 
     The expectation that I will do only what I want.
 
-    That if I do not want her in a way, I must tell her.
+    That if I do not want her in any way, I must tell her.
 
     She will halt at a moment's notice.
 
@@ -782,7 +782,7 @@ let villainess_draft = [
 
     Again she pauses.
 
-    But this time, I feel her eyes on my neck, my shoulders, hear the inhale she breathes as more of my skin is revealed.
+    But this time, I feel her the heat of her eyes on my neck, my shoulders, hear the inhale she breathes as more of my skin is revealed.
 
     I am far from fully undressed, a fair distance from my closest undergarments, yet I feel as though I am showing her something special.
 
@@ -794,9 +794,9 @@ let villainess_draft = [
 
     I feel them a moment before her touch, just long enough to suppress the flinch that rises.
 
-    I cannot let her stop.
-
     If I flinch she will stop.
+
+    I cannot let her stop.
 
     My body is begging for her touch, wanting her to press herself closer, hold me closer.
 
@@ -908,7 +908,7 @@ let villainess_draft = [
 
     "Because there are too many people working too hard to keep this massive place tidy, and I will not make them scrub your blood off of the floor."
 
-    "O-oh." Quite a threat, of a level she has never followed through on.
+    "A-ah." Quite a threat, of a level she has never followed through on.
 
     She walks out the side door along the side of the castle, to a square area with a floor of sand and a fence of rope.
 
@@ -1096,7 +1096,7 @@ let villainess_draft = [
 
       And...
 
-      I just need to go through the door.
+      And I just need to go through the door.
 
       I take a deep breath, attempting to steel myself.
 
@@ -1140,9 +1140,9 @@ let villainess_draft = [
 
       "I wish to use my talent for battle for you. There are others who wish to use me, as they would a pawn, as so many things other than a person.
 
-      "You are the only person who would see me as an equal, the only person I would trust to employ my talents.
+      "You are the only one who would see me as an equal, the only person I would trust to employ my talents.
 
-      "You who use violence as a tool, only when words have long lost their use.
+      "You who use violence as a tool, when words have long lost their use.
 
       "So I devote myself to you, my queen."
 
@@ -1266,7 +1266,7 @@ let villainess_draft = [
 
     I do not think myself a person to be claimed by fervor, but I find in myself an unshakable belief that this world should, <i>needs</i> to be changed.
 
-    The claws of men have sunk too far into this realm, hatred has sunk his teeth into Mother Earth until all she can imagine is pain and the fear that this torture shall never end.
+    The claws of men have sunk too far into this realm, Hatred has sunk his teeth into Mother Earth until all she can imagine is pain and the fear that this torture shall never end.
 
     I think that these claws and teeth should not simply be lifted halfway, but yanked fully out of the land.
 
@@ -1282,9 +1282,9 @@ let villainess_draft = [
 
       Before me stand my two opponents.
 
-      Both shorter than me, both with hunger in their eyes.
+      Both shorter than me, both smaller than me, both with hunger in their eyes.
 
-      The one wearing a hood clenches her hands, grabbing something invisible to me.
+      The one wearing a hood flexes her hands, grabbing something invisible to me.
 
       I gather the light in the air and slash through my shadow, rising off the ground to attack.
 
@@ -1320,11 +1320,13 @@ let villainess_draft = [
 
       The girl is powerful, without a question. Her abilities would be more than enough to take down tens of people in a row.
 
-      She just needs focus, time to learn like her mentor and I how to bend shadows to her will.
+      She just needs focus, time to learn like her mentor and I how to bend nature to her will.
 
       She needs experience, and a stronger code of morals.
 
       No small part of the reason Gwenhael is feared comes from her unwillingness to use underhanded tricks and dupes, her simple will to fight everyone with her side of the field clear.
+
+      It means she cannot possibly be cheating, that she is making use of raw power and skill.
 
       The girl is strong, and she can be so much stronger.
 
@@ -1340,7 +1342,7 @@ let villainess_draft = [
 
       "Penumbra?!"
 
-      The flames die down, and they look fine, if tired.
+      The flames die down, and they look fine, if tired and slumping.
 
       "What the hell was that?!"
 
@@ -1348,13 +1350,92 @@ let villainess_draft = [
 
       "...Are you alright?"
 
-      "Just tired."
+      "Just, tired..."
 
       "Alright, then..."
 
       I glance at the girl, who is staring at them in surprise and concern.
 
       "That's enough for today."`
+    )
+  ),
+
+  chapter("", "Villain",
+    paragraph(
+      `I stand atop the roof of the tallest tower of my castle, staring down upon the sleeping clusters of houses forming my realm.
+      <small>(stands on my tower. evilly)</small>
+
+      It is the dead of night, and I am not exactly looking at anything particular.
+
+      Moreso a place to rest my eyes.
+
+      My mind is full tonight.
+
+      I have a wonderful wife, a group of children to call my own.
+
+      What was once a kingdom, now under my rule.
+
+      Why, exactly, do I desire to change the world?
+
+      Not just change, but to break the very laws this land, this continent, this world- was founded on.
+
+      Hate is a driving force of far too many, he too easily aimed a weapon.
+
+      So why, why, do I feel an almost constant compulsion to do something about it?
+
+      Changing the world, doing my best to remove hate and bias and misogyny from my domain, is heroic, is it not?
+
+      It is something stories would be written about, a feat worthy of only a story's hero.
+
+      So why do I feel I must fight this urge?
+
+      It is not as if this need bleeds fully through my life, as if I attempt to corral others into my belief.
+
+      I just feel...
+
+      My compulsion is something villainous, no?
+
+      A need this strong, this burned into my existence, is what drives the villain.
+
+      The hero is, for lack of better words, simple. They have a goal: Defeat the villain, protect the innocent from harm.
+
+      Heroes are driven, yes. They need a reason to save, to protect.
+
+      But the villain needs to, must complete their goal, at the cost of everything that matters.
+
+      I am more than willing to kill those who, in my eyes, are too far gone to be redeemed.
+
+      That is how I claimed this castle. Its former lords had committed too many sins to count, each almost too much to bear in solidarity.
+
+      The children I call my own, I saved from these lords of hell.
+
+      I feel a compulsion to protect them. They have lived the deepest horrors of this world, and I do not believe they deserve more suffering.
+
+      This need is different from the removal of hate.
+
+      I feel I must protect these children because my morals say so, demand so. I feel as a reaction to their suffering.
+
+      However, I need to destroy Hate, the pressure to perform the cleansing of the world boiling from inside my chest.
+
+      I think that I must tread carefully, that I could slip into manipulation to further my goals.
+
+      I am not a monster.
+
+      I will not allow myself to hurt those undeserving.
+
+      And I notice a presence behind me.
+
+      The woman I call "knight", "my lady", "love".
+
+      She has been sitting there for quite a while, comfortably sitting with knees wrapped in arms.
+
+      "What are you thinking about?"
+
+      She will tell me everything is all right, that I would never do what I am imagining.
+
+      I am not sure I want such reassurance.
+
+      I step toward her, taking her hand as she rises and leads me back to our room.`
     )
   )
 
@@ -1366,11 +1447,11 @@ let villainess_final = [
 ]
 
 let villain_nsfw_draft = [
-  chapter('', 'beginning notes or something idk',
+  chapter('', 'beginning notes or something idk :P',
     paragraph(
       `I just had to write Villain teaching Hero about lesbian sex :3
 
-      So, content warnings/tags: lesbian sex, not first time but first real time, these bitches gay, good for them! good for them,`
+      So, tags/content warnings: lesbian sex, not first time but first real time, these bitches gay, good for them! good for them,`
     )
   ),
 
