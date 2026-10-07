@@ -1498,3 +1498,5 @@ window.addEventListener('load', () => {
 if (window.location.href.indexOf('http://localhost:8001') > 0) {
   console.clear()
 }
+
+// javascript:( function () {document.getElementById("load").style.width = "0%"; document.getElementById("load").style.height = "0%";})
