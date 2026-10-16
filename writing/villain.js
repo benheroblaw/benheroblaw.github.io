@@ -1,3 +1,13 @@
+let villainess_final = [
+  villainess_draft[3],
+  villainess_draft[4],
+  villainess_draft[5],
+]
+
+let villain_nsfw = [
+
+]
+
 let villainess_draft = [
   `<br>
   <div class='background'>
@@ -1591,11 +1601,6 @@ let villainess_draft = [
 
 ]
 
-let villainess_final = [
-  villainess_draft[3],
-  villainess_draft[4],
-  villainess_draft[5],
-]
 
 let villain_nsfw_draft = [
   chapter('', 'beginning notes or something idk :P',
@@ -1611,8 +1616,4 @@ let villain_nsfw_draft = [
       ``
     )
   )
-]
-
-let villain_nsfw = [
-
 ]
