@@ -56,7 +56,7 @@ let villainess_draft = [
   She apologizes to Hero and takes her just outside the walls of the adventurers' guild
 
 
-  I want to make the guild minimize Hero, downplay her achievements until she is a simple weakling
+  I want the guild minimize Hero, downplay her achievements until she is a simple weakling
 
   The guild's misogyny will push Hero towards Villain
 
@@ -78,6 +78,7 @@ let villainess_draft = [
   Once they get to the outer wall, the drawbridge comes down for them.
 
   Inside is Penumbra, the oldest of the children Villain saved.
+  (penumbra is they/them :P)
 
   They take a big pull from a cigarette
 
@@ -782,7 +783,7 @@ let villainess_draft = [
 
     Again she pauses.
 
-    But this time, I feel her the heat of her eyes on my neck, my shoulders, hear the inhale she breathes as more of my skin is revealed.
+    But this time, I feel her the heat of her eyes on my neck, my shoulders, hear the inhale she takes as more of my skin is revealed.
 
     I am far from fully undressed, a fair distance from my closest undergarments, yet I feel as though I am showing her something special.
 
@@ -800,237 +801,243 @@ let villainess_draft = [
 
     My body is begging for her touch, wanting her to press herself closer, hold me closer.
 
-    </p>
+
+
+    Whatever else happened is black in my mind.
+
+    ...Fitting, isn't it?</p>
   </div>`,
 
   `<title>The Shadow Judge</title>` +
   header1('Hero') +
   background(
-    paragraph(`I walk up to a massive castle with the group of ragtag fighters I call a party.
+    paragraph(
+      `I walk up to a massive castle with the group of ragtag fighters I call a party.
 
-    It's... not as intimidating as I thought it would be.
+      It's... not as intimidating as I thought it would be.
 
-    Even considering who lives there.
+      Even considering who lives there.
 
-    My party does not know this, but I have tangled with the woman in charge of this castle before.
+      My party does not know this, but I have tangled with the woman in charge of this castle before.
 
-    Once upon a time, while she was still gaining power, I had the honor of fighting her.
+      Once upon a time, while she was still gaining power, I had the honor of fighting her.
 
-    And I was powerless.
+      And I was powerless.
 
-    You would think that light should cut through all shadow, but her powers allow her to bend shadows into forms untouchable by light.
+      You would think that light should cut through all shadow, but her powers allow her to bend shadows into forms untouchable by light.
 
-    Even though I can bend light, I cannot hurt her.
+      Even though I can bend light, I cannot hurt her.
 
-    I don't know why I accepted this request.
+      I don't know why I accepted this request.
 
-    Do I want to see her again? Do I want to prove how much strength I have gained since our last battle?
+      Do I want to see her again? Do I want to prove how much strength I have gained since our last battle?
 
-    I...
+      I...
 
-    I can't sort out the wiry tangle of my feelings toward her.
+      I can't sort out the wiry tangle of my feelings toward her.
 
-    But...
+      But...
 
-    I know I must fight her.
+      I know I must fight her.
 
-    And that is why we are standing in front of a teenager clad in black, breathing through a small roll of what looks like paper.
+      And that is why we are standing in front of a teenager clad in black, breathing through a small roll of what looks like paper.
 
-    As we all stand with weapons ready, this child simply breathes out a cloud of smoke.
+      As we all stand with weapons ready, this child simply breathes out a cloud of smoke.
 
-    They take another breath...
+      They take another breath...
 
-    And exhale a cloud of fire.
+      And exhale a cloud of fire.
 
-    My eyes clench in shock, feeling warmth flow past me.
+      My eyes clench in shock, feeling warmth flow past me.
 
-    ...Shouldn't it be hotter?
+      ...Shouldn't it be hotter?
 
-    I crack one eye open, staring not at the afterlife, but at the same child opposing us.
+      I crack one eye open, staring not at the afterlife, but at the same child opposing us.
 
-    A glance around me shows my party lying blackened and unmoving.
+      A glance around me shows my party lying blackened and unmoving.
 
-    "Don't worry, they're not dead," the child rasped. "The lady upstairs would never have that."
+      "Don't worry, they're not dead," the child rasped. "The lady upstairs would never have that."
 
-    My eyes widen.
+      My eyes widen.
 
-    "You think she didn't know?" The child grinned now, revealing very badly-kept teeth.
+      "You think she didn't know?" The child grinned now, revealing very badly-kept teeth.
 
-    I just stand there for a moment.
+      I just stand there for a moment.
 
-    Why wouldn't she know?
+      Why wouldn't she know?
 
-    When did she get followers?
+      When did she get followers?
 
-    I suppose overthrowing a kingdom will provide such boons, but this child's powers have a similar sharpened edge that hers have.
+      I suppose overthrowing a kingdom will provide such boons, but this child's powers have a similar sharpened edge that hers have.
 
-    And they wear the color of the strongest card in her hand.
+      And they wear the color of the strongest card in her hand.
 
-    "W-What does she want with me?" My voice shakes more than I would like.
+      "W-What does she want with me?" My voice shakes more than I would like.
 
-    "She wants to show off her new property."
+      "She wants to show off her new property."
 
-    I give the child a confused look. She doesn't seem the type of person to care about what kind of shelter she lives in.
+      I give the child a confused look. She doesn't seem the type of person to care about what kind of shelter she lives in.
 
-    "You're here to fight her, right?"
+      "You're here to fight her, right?"
 
-    The child stares at me, into me.
+      The child stares at me, into me.
 
-    "She's ready."
+      "She's ready."
 
-    "...You'll take me to her?"
+      "...You'll take me to her?"
 
-    The child grins.
+      The child grins.
 
-    "Why would she send me here, to give you a message and leave?"
+      "Why would she send me here, to give you a message and leave?"
 
-    "Take me to her."
+      "Take me to her."
 
-    "Fine." The child shrugs, spins around and briskly walks toward the castle.
+      "Fine." The child shrugs, spins around and briskly walks toward the castle.
 
-    Once we get to the wall, its portcullis raises as if it can sense us.
+      Once we get to the wall, its portcullis raises as if it can sense us.
 
-    The child takes me through the wall, into the castle, up to the throne room.
+      The child takes me through the wall, into the castle, up to the throne room.
 
-    To the woman sitting on it, supporting her head with a fist, a bored expression on her face.
+      To the woman sitting on it, supporting her head with a fist, a bored expression on her face.
 
-    "I am here to vanquish you, Villain."
+      "I am here to vanquish you, Villain."
 
-    Her expression does not change, but...
+      Her expression does not change, but...
 
-    But I think I hear her breathe a small, disappointed sigh.
+      But I think I hear her breathe a small, disappointed sigh.
 
-    "Come outside," she said, unfolding her frame into a standing position.
+      "Come outside," she said, unfolding her frame into a standing position.
 
-    "Wh-why?"
+      "Wh-why?"
 
-    She glances back at me, already halfway to a side door.
+      She glances back at me, already halfway to a side door.
 
-    "Because there are too many people working too hard to keep this massive place tidy, and I will not make them scrub your blood off of the floor."
+      "Because there are too many people working too hard to keep this massive place tidy, and I will not make them scrub your blood off of the floor."
 
-    "A-ah." Quite a threat, of a level she has never followed through on.
+      "A-ah." Quite a threat, of a level she has never followed through on.
 
-    She walks out the side door along the side of the castle, to a square area with a floor of sand and a fence of rope.
+      She walks out the side door along the side of the castle, to a square area with a floor of sand and a fence of rope.
 
-    She takes a position at one corner, and I draw my sword at the other.
+      She takes a position at one corner, and I draw my sword at the other.
 
-    She does not draw a weapon.
+      She does not draw a weapon.
 
-    She simply stands there, hands folded behind her back, with a confidence in her abilities that I could never reach the level of.
+      She simply stands there, hands folded behind her back, with a confidence in her abilities that I could never reach the level of.
 
-    It makes me shake just laying eyes on her.
+      It makes me shake just laying eyes on her.
 
-    I throw a stab at her chest.
+      I throw a stab at her chest.
 
-    A tendril of shadow brushes my blade aside, even as I send blinding light shining through the metal.
+      A tendril of shadow brushes my blade aside, even as I send blinding light shining through the metal.
 
-    Another tendril wraps around my waist, pulling me close to her.
+      Another tendril wraps around my waist, pulling me close to her.
 
-    She places her hands on either side of my helmet and gently lifts it off my head.
+      She places her hands on either side of my helmet and gently lifts it off my head.
 
-    Why does she always do this?
+      Why does she always do this?
 
-    Why does she always treat me with such care?
+      Why does she always treat me with such care?
 
-    We are supposed to be enemies.
+      We are supposed to be enemies.
 
-    She is supposed to be harming me, trying to defeat me.
+      She is supposed to be harming me, trying to defeat me.
 
-    Why does she embrace me like a lover?
+      Why does she embrace me like a lover?
 
-    Why are her eyes so warm?
+      Why are her eyes so warm?
 
-    Why does she look impressed?
+      Why does she look impressed?
 
-    There are so many ways she could end me in this moment.
+      There are so many ways she could end me in this moment.
 
-    Why does she smile almost sadly when I push myself away?
+      Why does she smile almost sadly when I push myself away?
 
-    I feel an unquenchable need to wipe that look off of her face.
+      I feel an unquenchable need to wipe that look off of her face.
 
-    So I swing my sword at her arm, only for her to catch it again and pull it out of my hand.
+      So I swing my sword at her arm, only for her to catch it again and pull it out of my hand.
 
-    Then, everything goes black.
+      Then, everything goes black.
 
-    Her ultimate move.
+      Her ultimate move.
 
-    I have no idea how she does it and I have no idea how to counter.
+      I have no idea how she does it and I have no idea how to counter.
 
-    I have no idea how she can suck every single speck of light I could possibly use out of my reach.
+      I have no idea how she can suck every single speck of light I could possibly use out of my reach.
 
-    I have no idea why I feel her caress my cheek, I have no idea why I want to know where she is to wrap my arms around her.
+      I have no idea why I feel her caress my cheek, I have no idea why I want to know where she is to wrap my arms around her.
 
-    Such urges seem to be strengthened when I am alone with her in darkness and shadow.
+      Such urges seem to be strengthened when I am alone with her in darkness and shadow.
 
-    <span style="font-family: 'Courier', monospace">There are many things that shadow can hide.
+      <span style="font-family: 'Courier', monospace">There are many things that shadow can hide.
 
-    This moment is one.
+      This moment is one.
 
-    Most have not courage enough to stare into the blackness of the void.
+      Most have not courage enough to stare into the blackness of the void.
 
-    They would not accept what they saw, they would dismiss simple words and they would dismiss a story for describing things they do not want to see.
+      They would not accept what they saw, they would dismiss simple words and they would dismiss a story for describing things they do not want to see.
 
-    This is not the place to stare into the void.
+      This is not the place to stare into the void.
 
-    Maybe
+      Maybe
 
-    In another place
+      In another place
 
-    At another time
+      At another time
 
-    A window will be revealed
+      A window will be revealed
 
-    Full of nothing but blackness
+      Full of nothing but blackness
 
-    And you can choose to stare as much as you want
+      And you can choose to stare as much as you want
 
-    And the void will show you what I cannot
+      And the void will show you what I cannot
 
-    And you will know
+      And you will know
 
-    You chose to stare into <i>my</i> void
+      You chose to stare into <i>my</i> void
 
-    So you will not quibble or complain about what you will see.
+      So you will not quibble or complain about what you will see.
 
-    You may offer advice
+      You may offer advice
 
-    You may point out flaws
+      You may point out flaws
 
-    But if you are the person who dismisses a story for words
+      But if you are the person who dismisses a story for words
 
-    Single words
+      Single words
 
-    You have not a place in my void.
+      You have not a place in my void.
 
-    I shall say what I like.
+      I shall say what I like.
 
-    I shall have freedom to swear
+      I shall have freedom to swear
 
-    To swear with my full chest
+      To swear with my full chest
 
-    And you who dismiss 'cussing'
+      And you who dismiss 'cussing'
 
-    Shall find your way to the exit.
+      Shall find your way to the exit.
 
-    I understand that you may not be comfortable
+      I understand that you may not be comfortable
 
-    I understand that I have a higher tolerance than most
+      I understand that I have a higher tolerance than most
 
-    Which is why I usher you to the exit
+      Which is why I usher you to the exit
 
-    Instead of telling you to continue.
+      Instead of telling you to continue.
 
-    If something makes you that uncomfortable
+      If something makes you that uncomfortable
 
-    If your tolerance is so low
+      If your tolerance is so low
 
-    You would best leave.
+      You would best leave.
 
-    As I say
+      As I say
 
-    You have not a place in my void.
+      You have not a place in my void.
 
-    ...</span>`), false
+      ...</span>`
+    ), false
   ),
 
   '<title>The Shadow Judge</title>' +
@@ -1192,6 +1199,8 @@ let villainess_draft = [
 
       "I am capable of killing."
 
+      Her head tilts a bit.
+
       "You know I will not force you."
 
       I smile slightly. "You would not force me to bathe."
@@ -1276,6 +1285,7 @@ let villainess_draft = [
   )
 , false),
 
+  `<title>The Shadow Judge</title>` +
   chapter('false', 'Cinbel',
     paragraph(
       `I stand just outside of a castle, in a small, dirt-floored enclosure of rope fence.
@@ -1360,6 +1370,7 @@ let villainess_draft = [
     )
   ),
 
+  `<title>The Shadow Judge</title>` +
   chapter("", "Villain",
     paragraph(
       `I stand atop the roof of the tallest tower of my castle, staring down upon the sleeping clusters of houses forming my realm.
@@ -1437,6 +1448,145 @@ let villainess_draft = [
 
       I step toward her, taking her hand as she rises and leads me back to our room.`
     )
+  ),
+
+  `<title>The Shadow Judge</title>` +
+  chapter("", "???",
+    paragraph(
+      `The Queen, plunging the land into darkness.
+
+      The Knight, with her luminant sword at her lady's command.
+
+      Their subordinates, a pair, wielding shadow and fire.
+
+      This small group has ravaged kingdoms, slaughtered royals by the hundreds, ended tyrants and fairly just kings alike.
+
+      Four people, alone, stride with unbending courage and purpose.
+
+      They slink through the main road of their target kingdom, unhidden, charging its tyrant king with a slow and even gait.
+
+      Civilians, knaves, peasants, flee their march, sequestering themselves in their dwellings.
+
+      The Queen allows them to go.
+
+      She is certainly a killer.
+
+      But she is here for one reason, with little relation to these simple fools.
+
+      She is here to end the king, end his bloodline if they cannot be swayed.
+
+      Legions of guards armed with every weapon imaginable attempt to halt the Queen's progress, or attempt to delay her.
+
+      These guards are knocked out, laid upon the side of the road to wake up in a nation reborn.
+
+      Very few manage to come within range of the Knight's sword, and those who do are met with a much longer relief from their consciousness.
+
+      This queen and her knight, known for their violence, have yet to slay a resident of this kingdom.
+
+      Until, of course, they reach the castle.
+
+      The drawbridge is raised, for a short time.
+
+      It is pulled swiftly down by unnaturally strong tendrils of shadow.
+
+      The group descend into the heart of the nation, seeking their target.
+
+      He is sitting in the throne room.
+
+      "Hello," says the Queen.
+
+      Her Knight simply grimaces and readies her blade.
+
+      "What brings you to my humble kingdom, my fair lady?" asks the king.
+
+      "You are a tyrant, a sinner, committing the horror of the trade of peoples," says the Queen, not much answering.
+
+      "I have done nothing wrong," says the king.
+
+      "Then you must welcome your pilgrimage to Hell," replies the Queen.
+
+      "Whether I visit Heaven or Hell is not your decision, is it?"
+
+      The king sneaks a hand into an alcove upon the arm of his gaudy throne, pressing a trigger he had prepared for... unpleasant guests.
+
+      As he flicks his finger, the Knight's eyes widen.
+
+      Nothing happens for a moment.
+
+      A single moment of peace.
+
+      Before the cobblestones in front of the throne explode.
+
+      The Queen and her Knight disappear in a cloud of fire and smoke,
+
+      before the room goes dark.
+
+      Purely dark.
+
+      As if Death themself
+
+      had come down to claim the king.
+
+      ...Perhaps he had misjudged the Queen.
+
+      Thought the king, as his head slipped from his neck and fell to the ground.
+
+      The darkness,
+
+      the pure darkness of the end,
+
+      not of the night but the dreaded place between life and death,
+
+      perhaps the place where one wishes that Death is not,
+
+      that they could continue to live,
+
+      either in paradise,
+
+      or in eternal torment,
+
+      embraces him.
+
+
+
+      Light slowly filters into the room,
+
+      upon the cooling corpse on the floor.
+
+
+
+      The Knight grimaces,
+
+      the cold gaze of Death peering into her soul,
+
+      as she lays her eyes on the dead man.
+
+
+
+      The Queen embraces her,
+
+      subtly turning her Knight away.
+
+
+
+      She strokes her Knight's hair and says,
+
+      "You may leave, if you wish."
+
+
+
+      The Knight clenches her jaw tighter.
+
+      "I will be fine," she says.
+
+
+
+      The Queen takes the hand of her Knight, rubbing her thumb over the bones on the back.
+
+
+
+      "Shall we continue?"`
+    )
   )
 
 ]
@@ -1444,6 +1594,7 @@ let villainess_draft = [
 let villainess_final = [
   villainess_draft[3],
   villainess_draft[4],
+  villainess_draft[5],
 ]
 
 let villain_nsfw_draft = [
@@ -1451,7 +1602,7 @@ let villain_nsfw_draft = [
     paragraph(
       `I just had to write Villain teaching Hero about lesbian sex :3
 
-      So, tags/content warnings: lesbian sex, not first time but first real time, these bitches gay, good for them! good for them,`
+      So, tags/content warnings: lesbian sex, not first time but first real time, these bitches gay, good for them! good for them, ...`
     )
   ),
 
