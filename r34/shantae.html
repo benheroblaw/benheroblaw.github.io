@@ -33,7 +33,7 @@
 
       setInterval(() => {
         gewi('squid').onmouseleave = () => {
-          gewi('squidComments').style.display = 'inline-block'
+          gewi('squidComments').style.display = 'none'
         }
       }, 100)
     document.body.addEventListener('load', () => {
@@ -43,7 +43,8 @@
 let shantae = [
   linkedImage('/r34/shantae/2a5e2e5f85dde9e590c36ac16035850d.webp') +
   '<br>' +
-  linkedImage('/r34/shantae/66362cff7794a5147945fb6dbf6b682b.webp', '', 'squid') +
+  "<span id='squid'>"+
+  linkedImage('/r34/shantae/66362cff7794a5147945fb6dbf6b682b.webp', '') +
   '<br>' +
   container(paragraph(`GeneStealer >> #15253031
   Posted on 2023-08-13 09:49:32 Score: 108 (vote Up) ( Report comment )
@@ -79,7 +80,9 @@ let shantae = [
 
   KnockUpLiz >> #35620144
   Posted on 2026-01-31 16:53:58 Score: 0 (vote Up) ( Report comment )
-  Would love to have an octopus knocking up Liz to~`), 'squidComments')
+  Would love to have an octopus knocking up Liz to~`), 'squidComments') +
+  "</span>"+
+  ''
 ]
 </script>
 <html>
