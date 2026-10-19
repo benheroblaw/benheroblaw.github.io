@@ -1,12 +1,3 @@
-let villainess_final = [
-  villainess_draft[3],
-  villainess_draft[4],
-  villainess_draft[5],
-]
-
-let villain_nsfw = [
-
-]
 
 let villainess_draft = [
   `<br>
@@ -1616,4 +1607,14 @@ let villain_nsfw_draft = [
       ``
     )
   )
+]
+
+let villainess_final = [
+  villainess_draft[3],
+  villainess_draft[4],
+  villainess_draft[5],
+]
+
+let villain_nsfw = [
+
 ]
