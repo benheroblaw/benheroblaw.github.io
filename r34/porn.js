@@ -950,7 +950,7 @@ var harder_stuff = [
 var ai = [
   `ai stuff<br>
   (theres a lot)<br>
-  (like, '187 images from bocchi' a lot)`,
+  (like, 'maybe 200 images' a lot)`,
 
   `` +
   linkedImage("bocchi/001_1.webp") +
