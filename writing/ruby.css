@@ -1,0 +1,25 @@
+.ruby {
+    color: #f33;
+    text-shadow: 4px 4px 10px #d00;
+
+}
+
+span {
+    white-space-collapse: preserve-breaks;
+    font-family: inherit;
+}
+
+.weiss {
+    color: #fff;
+    text-shadow: 4px 4px 10px #0ff
+}
+
+.blake {
+    color: #666;
+    text-shadow: 4px 4px 10px #000
+}
+
+.yang {
+    color: #ff0;
+    text-shadow: 4px 4px 10px #fa0
+}

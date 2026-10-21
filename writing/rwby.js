@@ -43,17 +43,17 @@ let rwby_DRAFT = [
     ), false
   ),
 
-  '<h2>chars</h2><h1 style="color: #ff0; text-shadow: 5px 5px 10px #fa0">Yang Xiao Long</h1>' +
-  background(
-    paragraph(
-      ``
-    ), false
-  ),
-
   '<h2>chars</h2><h1 style="color: #666; text-shadow: 5px 5px 10px #000">Blake Belladonna</h1>' +
   background(
     paragraph(
       `<b>oral fixation</b>`
+    ), false
+  ),
+
+  '<h2>chars</h2><h1 style="color: #ff0; text-shadow: 5px 5px 10px #fa0">Yang Xiao Long</h1>' +
+  background(
+    paragraph(
+      ``
     ), false
   ),
 
@@ -105,7 +105,7 @@ let rwby_DRAFT = [
 
   chapter("", "Yang and Blake",
     paragraph(
-      // kissy kiss
+      // kissy kiss **3
       `Their lips part, a tongue retreating from its lover's mouth.
 
       "How many girls have you kissed?" Yang nips smugly.
@@ -135,6 +135,94 @@ let rwby_DRAFT = [
       Yang slowly starts circling her thumb, <i>teasing</i> her.`
     )
   ),
+
+  header2("1") +
+  "<h1><span class='ruby'>Ruby</span></h1>" +
+  background(
+    paragraph(
+      `<i>What's your name?</i>
+      <span class="ruby">"Ruby Rose."</span>
+
+      <i>What gender are you?</i>
+      <span class="ruby">"Neither."</span>
+
+      <i>...What sex are you?</i>
+      <span class="ruby">"'Sex' is a binary social construct enforced upon a spectrum of human features."</span>
+
+      <i>...</i>
+
+      <i>...*sigh*...</i>
+
+      <i>...Are you a Huntsman or a Huntress?</i>
+      <span class="ruby">"Why not just a Hunter?"</span>
+
+      <i>...Fine. Close enough.</i>
+
+      <i>Do you have your own weapon?</i>
+      <span class="ruby">"Why, yes I do!" *metal clinking into a scythe*</span>
+
+      <i>...Is that all?</i>
+      <span class="ruby">"Nope!" *metal clinking into a gun*</span>
+
+      <i>Hm.</i>
+
+      <i>...Well, that's it for your registration. Welcome to Beacon.</i>
+
+      <hr>
+
+      <br>
+      <span class="ruby">Beacon Academy, a rather prestigious combat school, apparently with a really hard entrance exam.
+
+      Not that I would know; apparently I was too good for it.
+
+      Honestly, I kinda want to try it anyway. See how difficult it actually is.
+
+      Eh, I'll ask Yang about it. It's probably nothing special, but it seems kinda unfair that I don't get to fight things with everyone else. The sentiment is that I'm too good for it, and that is wrong as hell.
+
+      I'm aware that I can be a little insufferable, but that's because of interesting things like knowing every little bolt in my weapon. I'm a connoisseur of implements of harm, pain and death, not a snooty brat.
+
+      Speaking of snooty brats—
+
+      *BAM*
+
+      "Oh, shi- I'm sorry-"
+
+      <span class="weiss">"What the hell is your problem?!"</span>
+
+      "um- I wasn't paying attention-?"
+
+      <span class="weiss">"Obviously! Ugh..."</span>
+
+      I just stare at her confusedly. Never in my life have I encountered a person so self-centered.
+
+      Well, I guess I can move on and hope to never see her again.
+
+      <hr>
+      ~ ~ ~ The Next Day ~ ~ ~
+
+      God dammit.
+
+      <span class="weiss">"Weiss Schnee. I hope you can make yourself useful."</span>
+
+      I ended up as a leader of a team consisting of me, my sister, a black-and-white girl uninterested in talking, and this— person.
+
+      <span class="yang">"Hey, I'd be surprised if you can beat Ruby. She's a demon."</span>
+
+      Just a little grin as Yang winks at me. And thank you, Yang, for sharing that piece of information I don't really wanna prove right now.
+
+      Weiss (I guess) looks me up and down, searching for any trace of the demon hidden away deep enough in my head that nobody can even catch a glimpse of it when I don't want them to.
+
+      <span class="weiss">"She doesn't look like it."</span>
+
+      "Yeah... Real demons never look like demons, right?"
+
+      Now she looks a little closer, revealing an odd glint in her eyes that edges dangerously close to being able to see through me.
+
+      "If you wanna prove it, duel me tomorrow." No way in hell am I dealing with this today.
+
+      "Hm. So we shall."`
+    ), false
+  )
 
 ]
 

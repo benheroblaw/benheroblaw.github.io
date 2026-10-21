@@ -1,0 +1,30 @@
+.foxvale {
+    color: #f50;
+    text-shadow: 0px 0px 5px #999;
+}
+.foxvaleImg {
+    width: initial;
+}
+.foxvaleImg:hover {
+  width: calc(initial * 2.5);
+}
+
+
+#story>h2 {
+    background-color: #00000000;
+    background: #00000000;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: linear-gradient(
+            rgb(calc(255/4), calc(85/4), 0.13623),
+            rgb(calc(255/4), calc((255 * 0.75)/4), 0)
+            );
+        background-size: 100% 100%;
+    }
+    #story>h1 {
+        background:
+            linear-gradient(#00000000 , #252525, #252525, #252525, #252525, #252525, #252525, #141414);
+    }
+}
