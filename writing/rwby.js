@@ -15,7 +15,7 @@ function chapter(descriptor='', title='', content='', bg_linebreak=false) {
 
 let rwby_DRAFT = [
 
-  '<h2>chars</h2><h1 style="color: #f00; text-shadow: 5px 5px 10px #a00">Ruby Rose</h1>' +
+  '<br><h2>chars</h2><h1><span class="ruby">Ruby Rose</span></h1>' +
 
   background(
     paragraph(
@@ -32,25 +32,27 @@ let rwby_DRAFT = [
 
       gayyy  (- w -)
 
-      (i might be projecting onto transfemby ruby)`
+      (i might be projecting onto transfemby ruby)
+
+      (i gave her ass Arial im so sorry T^T)`
     )
   , false),
 
-  '<h2>chars</h2><h1 style="color: #fff; text-shadow: 5px 5px 10px #0ff">Weiss Schnee</h1>' +
+  '<br><h2>chars</h2><h1><span class="weiss">Weiss Schnee</span></h1>' +
   background(
     paragraph(
       ``
     ), false
   ),
 
-  '<h2>chars</h2><h1 style="color: #666; text-shadow: 5px 5px 10px #000">Blake Belladonna</h1>' +
+  '<br><h2>chars</h2><h1><span class="blake">Blake Belladonna</span></h1>' +
   background(
     paragraph(
       `<b>oral fixation</b>`
     ), false
   ),
 
-  '<h2>chars</h2><h1 style="color: #ff0; text-shadow: 5px 5px 10px #fa0">Yang Xiao Long</h1>' +
+  '<br><h2>chars</h2><h1><span class="yang">Yang Xiao Long</span></h1>' +
   background(
     paragraph(
       ``
@@ -205,9 +207,12 @@ let rwby_DRAFT = [
 
       And,,, hit nothing.
 
-      "Damn, you're good."
-
-      </span>`
+      "Damn, you're good."</span>`
+    )
+  ),
+  chapter("2.5", "<span class='ruby'>Ruby</span>",
+    paragraph(
+      `<span class="ruby"></span>`
     )
   )
 

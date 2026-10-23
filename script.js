@@ -1246,7 +1246,7 @@ function linebreak() {
   return('<br>')
 }
 function chapter(descriptor='', title='', content='', bg_linebreak=false) {
-  output = ''
+  output = linebreak()
   if (descriptor != 'false') {
     output += header2(descriptor)
   }
