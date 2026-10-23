@@ -67,74 +67,7 @@ let rwby_DRAFT = [
     )
   ),
 
-  chapter("", "Yang and Blake",
-    paragraph(
-      `"I'm bored as hell," Blake says, lying on her back, head hanging off the edge of the bed she and Yang shared.
 
-      "That's a shame," Yang replies, a trickle of blood leaking from her nose. "I have an idea, hold on just one second-"
-
-      She turns around, rummaging around in drawers, looking for something.
-
-      After a few seconds of audible searching, she pops back up and presses something against her girlfriend's lips.
-
-      "...Your idea is...?"
-
-      "We haven't tried this position before! Tap my stomach twice if you want me to stop-"
-
-      "Aren't you going to ask me if I want you to fuck my mouth?"
-
-      "Do you not want me to?" Yang says. "That blush is saying yes, that look is saying <i>please god i need this please-</i>"
-
-      "You're an idiot."
-
-      "I'm <i>your</i> idiot!"
-
-      "Yeah, yeah..." she scoffs. "Dick me down already."
-
-      "YES, MA'AM!"
-
-      She grips Blake's hair and chin, gently pressing her tip into her girlfriend's lips.
-
-      She slowly parts her lips, letting Yang push in slowly, dragging the silicon cock across every sensitive spot on her tongue.
-      <!-- writing fanfic is hard --!>
-
-      <!-- i want to have yang press her thumb into blake's tongue god --!>
-      `
-    )
-  ),
-
-  chapter("", "Yang and Blake",
-    paragraph(
-      // kissy kiss **3
-      `Their lips part, a tongue retreating from its lover's mouth.
-
-      "How many girls have you kissed?" Yang nips smugly.
-
-      "I- t-that isn't it..." Blake whispers shakily, blushing profusely and trying very hard to act as though she was not flustered.
-
-      "Really? Do you have an oral fixation or something?"
-
-      Blake stands there, glancing anywhere but her girlfriend, fidgeting.
-
-      She nods slightly.
-
-      "Ah."
-
-      "...May I?" Yang brings a hand up to her cheek, sliding a thumb over her lips.
-
-      "mmh..." Her lips purse, unused to intimacy in general, let alone this kind of focused love.
-
-      But...
-
-      slowly,
-
-      she lets her lips open,
-
-      carefully sucking the thumb into her mouth.
-
-      Yang slowly starts circling her thumb, <i>teasing</i> her.`
-    )
-  ),
 
   header2("1") +
   "<h1><span class='ruby'>Ruby</span></h1>" +
@@ -220,12 +153,138 @@ let rwby_DRAFT = [
 
       "If you wanna prove it, duel me tomorrow." No way in hell am I dealing with this today.
 
-      "Hm. So we shall."`
+      <span class="weiss">"Hm. So we shall."</span>`
     ), false
+  ),
+
+  chapter("2", "<span class='ruby'>Ruby</span>",
+    paragraph(
+      `<span class="ruby">Dueling your squadmate first thing on a Saturday morning. I've woken up to worse.
+
+      The best upside is fiddling with Crescent Rose.
+      Taking her apart, making sure her blade is nice and sharp, her magwell is clear, each and every part of her is moving smooth as… well, not really butter. Lubricated gears and pistons moving in the exact sequence they were built for is kind of a hard feeling to describe.
+
+        I can only hope my opponent isn't the kind of slob who lets her weapon rust and fall apart, and throws it away when it can't take any more abuse.
+
+        Looking around the the prep area of the arena—
+
+      WHAT
+      THE
+      F<span class="censor">(rick)</span>
+
+      WHY IS IT BUILT FOR AN EXHIBITION MATCH????
+
+      AM I GOING TO BE GLADIATING?
+
+      Not today.
+      Nope.
+      Not at all.
+      This is a private match.
+
+      My legs still shake a little when I walk out, though.
+
+      I stride to the center of the arena to meet Weiss Iforgotherlastname.
+
+      First look: no, she's not a blade-abusing hog. Her sword is nicked in places, but restored as best as possible. It glimmers in the far-too-early light, polished and shining like a well-respected tool. Parts of it are matte, but nowhere is it dull.
+
+      Thin little b<span class="censor">(ugger)</span>, too. Built for stabbing, not cutting. Miiiight be a problem; Crescent Rose isn't a good match for it.
+
+      I seem to have spent all my time before we start. Yang says <span class="yang">"One!"</span> and pulls her hand out from between us.
+
+      I grip Crescent Rose, dashing forward before she can stab at me—
+
+      And- her blade is at my throat. Goddamn, she can thrust fast.
+
+      We retreat close enough to our starting positions, readying ourselves for another bout.
+
+      Gotta watch out for that thrust.
+
+      This time when Yang pulls her hand away, I fire a blast from Crescent Rose to launch myself into the air. A glance in slow motion tells me Weiss went for a thrust.
+
+      My feet hit the ground and I keep dropping, sweeping my scythe around to knock her legs out from under her—
+
+      And,,, hit nothing.
+
+      "Damn, you're good."
+
+      </span>`
+    )
   )
 
 ]
 
-let rwby = [
+let bumblebee_DRAFT = [
+  chapter("", "Yang and Blake",
+    paragraph(
+      `"I'm bored as hell," Blake says, lying on her back, head hanging off the edge of the bed she and Yang shared.
 
+      "That's a shame," Yang replies, a trickle of blood leaking from her nose. "I have an idea, hold on just one second-"
+
+      She turns around, rummaging around in drawers, looking for something.
+
+      After a few seconds of audible searching, she pops back up and presses something against her girlfriend's lips.
+
+      "...Your idea is...?"
+
+      "We haven't tried this position before! Tap my stomach twice if you want me to stop-"
+
+      "Aren't you going to ask me if I want you to fuck my mouth?"
+
+      "Do you not want me to?" Yang says. "That blush is saying yes, that look is saying <i>please god i need this please-</i>"
+
+      "You're an idiot."
+
+      "I'm <i>your</i> idiot!"
+
+      "Yeah, yeah..." she scoffs. "Dick me down already."
+
+      "YES, MA'AM!"
+
+      She grips Blake's hair and chin, gently pressing her tip into her girlfriend's lips.
+
+      She slowly parts her lips, letting Yang push in slowly, dragging the silicon cock across every sensitive spot on her tongue.
+      <!-- writing fanfic is hard --!>
+
+      <!-- i want to have yang press her thumb into blake's tongue god --!>
+      `
+    )
+  ),
+
+  chapter("", "Yang and Blake",
+    paragraph(
+      // kissy kiss **333 ;3
+      `Their lips part, a tongue retreating from its lover's mouth.
+
+      "How many girls have you kissed?" Yang nips smugly.
+
+      "I- t-that isn't it..." Blake whispers shakily, blushing profusely and trying very hard to act as though she was not flustered.
+
+      "Really? Do you have an oral fixation or something?"
+
+      Blake stands there, glancing anywhere but her girlfriend, fidgeting.
+
+      She nods slightly.
+
+      "Ah."
+
+      "...May I?" Yang brings a hand up to her cheek, sliding a thumb over her lips.
+
+      "mmh..." Her lips purse, unused to intimacy in general, let alone this kind of focused love.
+
+      But...
+
+      slowly,
+
+      she lets her lips open,
+
+      carefully sucking the thumb into her mouth.
+
+      Yang slowly starts circling her thumb, <i>teasing</i> her.`
+    )
+  ),
+]
+
+let rwby = [
+  rwby_DRAFT[5],
+  rwby_DRAFT[6],
 ]

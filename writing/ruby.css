@@ -1,6 +1,6 @@
 .ruby {
     color: #f33;
-    text-shadow: 4px 4px 10px #d00;
+    text-shadow: 4px 4px 10px #d33;
 
 }
 
@@ -22,4 +22,18 @@ span {
 .yang {
     color: #ff0;
     text-shadow: 4px 4px 10px #fa0
+}
+
+.censor {
+    text-shadow: none;
+}
+@media (prefers-color-scheme: white) {
+    .censor {
+        color: black;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    .censor {
+        color: white;
+    }
 }
