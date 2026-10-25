@@ -813,7 +813,7 @@ function word_count(paras = 'background') {
   paras = document.getElementsByClassName(paras);
   var count = 0;
   for (var i = 0; i < paras.length; i++) {
-    var content = paras[i].textContent;
+    var content = paras[i].textContent || paras[i].innerText || "";
     var words = content.match(/\S+/g);
     count += words ? words.length : 0;
   }
@@ -822,6 +822,22 @@ function word_count(paras = 'background') {
   contents = contents.replace(/<[^>]*>?/gm, '');
   char = contents.length
   tesLog(count + ' words, ' + char + ' characters');
+}
+function WordCount(param=".background") {
+  param = document.getElementsByClassName(param)
+  let count = 0
+  for (let i = 0; i < param.length; i++) {
+    let content = StripHTML(param[i].textContent);
+    let words = content.match(/\S+/g);
+    count += words ? words.length : 0;
+  }
+  let contents = param[0].textContent
+  let chars = contents.trim().length
+  tesLog(count + ' words, ' + chars + ' characters');
+}
+function StripHTML(html, qSelector){
+  let doc = new DOMParser().parseFromString(html, 'text/html');
+  return doc.body.textContent || "";
 }
 
 function wordcount(paras = 'background') {
@@ -1227,9 +1243,13 @@ function addHTML(html='', element='p') {
 function paragraph(html='') {
   return addHTML(html, 'p')
 }
-function header1(html='') {
+function header1(html='', id="") {
   element = 'h1'
-  output = `<${element}>`
+  output = `<${element}`
+  if (id != "") {
+    output += ` id="${id}"`
+  }
+  output += ">"
   if (html != '') {
     output += html
   }
@@ -1251,7 +1271,7 @@ function chapter(descriptor='', title='', content='', bg_linebreak=false) {
     output += header2(descriptor)
   }
   if (title != 'false') {
-    output += header1(title)
+    output += header1(title, "char")
   }
   if (content != 'false') {
     output += background(content, bg_linebreak)

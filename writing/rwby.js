@@ -1,18 +1,3 @@
-function chapter(descriptor='', title='', content='', bg_linebreak=false) {
-  output = ''
-  if (descriptor != 'false') {
-    output += header2(descriptor)
-  }
-  if (title != 'false') {
-    output += header1(title)
-  }
-  if (content != 'false') {
-    output += background(content, bg_linebreak)
-  }
-  // output = header2(descriptor) + header1(title) + background(content, linebreak)
-  return output
-}
-
 let rwby_DRAFT = [
 
   '<br><h2>chars</h2><h1><span class="ruby">Ruby Rose</span></h1>' +
@@ -118,7 +103,7 @@ let rwby_DRAFT = [
 
       Speaking of snooty brats—
 
-      *BAM*
+      <i class="censor"><b>*BAM*</b></i>
 
       "Oh, shi- I'm sorry-"
 
@@ -133,13 +118,13 @@ let rwby_DRAFT = [
       Well, I guess I can move on and hope to never see her again.
 
       <hr>
-      ~ ~ ~ The Next Day ~ ~ ~
+      <div style="text-align: center">~ ~ ~ The Next Day ~ ~ ~</div>
 
       God dammit.
 
       <span class="weiss">"Weiss Schnee. I hope you can make yourself useful."</span>
 
-      I ended up as a leader of a team consisting of me, my sister, a black-and-white girl uninterested in talking, and this— person.
+      I ended up as a leader of a team consisting of me, my sister, a black-and-white girl uninterested in talking, and this— <i>person</i>.
 
       <span class="yang">"Hey, I'd be surprised if you can beat Ruby. She's a demon."</span>
 
@@ -212,7 +197,19 @@ let rwby_DRAFT = [
   ),
   chapter("2.5", "<span class='ruby'>Ruby</span>",
     paragraph(
-      `<span class="ruby"></span>`
+      `<span class="ruby">Welp. Guess I have to lock in.
+
+      This time, I let my eyes take in everything.
+
+      In the time it takes me to walk back, I switch my mind to demon mode.
+
+      Ooh, she opens with a slash this time.
+
+      I snap around her blade at the last second, letting my momentum carry me into a swift spinning kick to her shins.
+
+      Followed up with Crescent Rose, slamming the back of her blade into the ground within flinching distance of Weiss's head.
+
+      </span>`
     )
   )
 
@@ -231,11 +228,11 @@ let bumblebee_DRAFT = [
 
       "...Your idea is...?"
 
-      "We haven't tried this position before! Tap my stomach twice if you want me to stop-"
+      "We haven't tried this position before! Tap my stomach twice if you want me to stop~"
 
       "Aren't you going to ask me if I want you to fuck my mouth?"
 
-      "Do you not want me to?" Yang says. "That blush is saying yes, that look is saying <i>please god i need this please-</i>"
+      "Would you tell me no?" Yang says. "That blush is saying yes, that look is saying <i>please god i need this please-</i>"
 
       "You're an idiot."
 
@@ -255,7 +252,7 @@ let bumblebee_DRAFT = [
     )
   ),
 
-  chapter("", "Yang and Blake",
+  chapter("", "<span class='blake'>Blake</span>",
     paragraph(
       // kissy kiss **333 ;3
       `Their lips part, a tongue retreating from its lover's mouth.
@@ -266,7 +263,9 @@ let bumblebee_DRAFT = [
 
       "Really? Do you have an oral fixation or something?"
 
-      Blake stands there, glancing anywhere but her girlfriend, fidgeting.
+      Blake stands there, fidgeting, glancing anywhere but—
+
+      Well, her girlfriend.
 
       She nods slightly.
 
@@ -274,9 +273,11 @@ let bumblebee_DRAFT = [
 
       "...May I?" Yang brings a hand up to her cheek, sliding a thumb over her lips.
 
-      "mmh..." Her lips purse, unused to intimacy in general, let alone this kind of focused love.
+      "mmh..." Her lips purse, unused to intimacy in general, let alone this kind of focused care. What she had called "love" was something quiet, an understanding flowing between two people.
 
-      But...
+      This?
+
+      This is being thrown into a volcano, being pressed with incredible warmth that she doesn't quite know how to process.
 
       slowly,
 
@@ -284,7 +285,51 @@ let bumblebee_DRAFT = [
 
       carefully sucking the thumb into her mouth.
 
-      Yang slowly starts circling her thumb, <i>teasing</i> her.`
+      Yang slowly starts circling her tongue, <i>teasing</i> her.
+
+      Doesn't she want to start slow?
+
+      It's—
+
+      It's hard to think through circling waves of heat scrambling her brain as she desperately tries to pull the pieces together.
+
+      She's- she's wanted this for so long.
+
+      There was always something, she's starting to realize. Some emotion had been urging her to <i>connect</i>, to get familiar with this girl.
+
+      Well, your strongest kink is a great way to show someone what you're like, right?
+
+      Almost without thinking, she starts to suck on the digit in her mouth.
+
+      It... pauses its ministrations. A moment of panic seizes her, a second of <i>did I go too far?</i> before her eyes snap to her lover's.
+
+      God, that was a mistake.
+
+      Yang looks— oh God, she's calculating. A mix of intrigued, excited, and slightly surprised.
+
+      She breaks her eyes away.
+
+      She... carefully sucks on the thumb, testing the waters.
+
+      Then— <i>oh holy God</i> the thumb presses her tongue to the bottom of her mouth, <i>hard.</i>
+
+      She glances back up, dazed by the sudden rush of- of- well, the strongest feeling her mouth has ever given her. Like... fire,,works? Like a firework in her mouth.
+
+      <span class="yang">"Just keep sucking for me, baby."</span> A hand asserts itself on the top of her head, slowly scratching its nails along her scalp as the thumb in her mouth starts circling again.
+
+      <i>Sweet mother of <b>fuck</b></i>, she's melting. This ferocious hunk of a girl can do whatever the hell she wants, anything, if she keeps delivering this mind-numbing pleasure, keeps drowning all the <i>what if</i>s and <i>but</i>s in her pet's little head with needy consumption of ecstasy.
+
+      Blake feels, for the first in a long time... peaceful. Devoid of the usual thread of thoughts in the back of her mind telling her everything dangerous, every risk, that keeps weighing her decisions against her life.
+
+      Unfortunately, nothing good can last.
+
+      She feels the thumb slow its circles, regretfully releasing her tongue as it pulls away from her.
+
+      <span class="yang">"Come here, kit. I want to do this on the bed."</span>
+
+      Through the lingering haze of pleasure fogging her very existence, she follows her master's leading hands to Yang's bed.
+
+      She is laid on the bed, lovingly, with the soft heat that encompasses her girlfriend `
     )
   ),
 ]
