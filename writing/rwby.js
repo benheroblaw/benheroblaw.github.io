@@ -329,7 +329,9 @@ let bumblebee_DRAFT = [
 
       Through the lingering haze of pleasure fogging her very existence, she follows her master's leading hands to Yang's bed.
 
-      She is laid on the bed, lovingly, with the soft heat that encompasses her girlfriend `
+      She is laid on the bed, lovingly, with the soft heat that encompasses her girlfriend's every movement.
+
+      `
     )
   ),
 ]
