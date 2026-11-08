@@ -254,14 +254,14 @@ let bumblebee_DRAFT = [
 
   chapter("", "<span class='blake'>Blake</span>",
     paragraph(
-      // kissy kiss **333 ;3
+      // kissy kiss * 333 * ;3
       `Their lips part, a tongue retreating from its lover's mouth.
 
-      "How many girls have you kissed?" Yang nips smugly.
+      <span class="yang">"How many girls have you kissed?"</span> Yang nips smugly.
 
-      "I- t-that isn't it..." Blake whispers shakily, blushing profusely and trying very hard to act as though she was not flustered.
+      <span class="blake">"I- t-that isn't it..."</span> Blake whispers shakily, blushing profusely and trying very hard to act as though she was not flustered.
 
-      "Really? Do you have an oral fixation or something?"
+      <span class="yang">"Really? Do you have an oral fixation or something?"</span>
 
       Blake stands there, fidgeting, glancing anywhere but—
 
@@ -269,11 +269,11 @@ let bumblebee_DRAFT = [
 
       She nods slightly.
 
-      "Ah."
+      <span class="yang">"Ah."</span>
 
-      "...May I?" Yang brings a hand up to her cheek, sliding a thumb over her lips.
+      <span class="yang">"...May I?"</span> Yang brings a hand up to her cheek, sliding a thumb over her lips.
 
-      "mmh..." Her lips purse, unused to intimacy in general, let alone this kind of focused care. What she had called "love" was something quiet, an understanding flowing between two people.
+      <span class="blake">"mmh..."</span> Her lips purse, unused to intimacy in general, let alone this kind of focused care. What she had called "love" was something quiet, an understanding flowing between two people.
 
       This?
 
@@ -331,7 +331,7 @@ let bumblebee_DRAFT = [
 
       She is laid on the bed, lovingly, with the soft heat that encompasses her girlfriend's every movement.
 
-      `
+      A pleasured squeak escapes her as Yang's hands skip over her chest, instead kneading her stomach.`
     )
   ),
 ]
