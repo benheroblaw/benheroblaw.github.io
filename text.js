@@ -1087,7 +1087,7 @@ var PxKxM_draft = [
 
       (these are all sketched bc it's medieval times)
       (some people would just add magic cameras and/or magic photos, but my first thought when i remembered "oh they don't have magazines because they can't just take pictures {and they don't have the 'shiny' paper they're printed on ig}" was "have them make sketches")
-      (this also means the captain went rather out of her way to produce pornographic material of this soldier)
+      (this also means the captain went even more out of her way to produce pornographic material of this soldier)
       (oohhhhhhh the yuri :D )
 
       which she then distributes to the entire royal guard except the subject
@@ -1127,7 +1127,7 @@ var PxKxM_draft = [
     '???',
     'balcony scene',
     paragraph(
-      `Avice is lying in bed, but she can't sleep.
+      `Avice is lying in bed, wanting to sleep yet staying awake.
 
       Maybe because the bed she's sleeping in belongs to the princess she was recently promoted to personal guard of.
 
@@ -1141,31 +1141,17 @@ var PxKxM_draft = [
 
       The princess is out cold next to her.
 
-      Avice feels that the princess should be doing something other than lying spread-eagled on her back, but has no open space in her brain to try to figure out what that could be.
-
-      Even if she did, she feels that whatever she wants the princess to do might not be appropriate, considering their positions.
+      Avice feels that the princess should be doing something other than lying spread-eagled on her back, but has no open space in her brain to try to figure out what that could be. Even if she did, she feels that whatever she wants the princess to do might not be appropriate, considering their positions.
 
       Even though the princess was clearly too drunk to consider that earlier.
 
       ...The princess was too drunk to consider a lot of things.
 
-      Avice can't say that it felt <i>bad.</i>
+      Avice can't say that it felt <i>bad.</i> Just that she feels like it should have gone differently. What she had experienced was supposed to happen between lovers, wasn't it? She barely knew the princess.
 
-      Just that she feels like it should have gone differently.
+      Of course she knew <i>of</i> the princess. Royals are rather well-known in the lands they rule. She knows that this princess is not next in line for the throne. That could be why she lets herself go so wild. She knew that this princess had a habit of drinking, but had no idea just how <i>much</i> she drank.
 
-      What she had experienced was supposed to happen between lovers, wasn't it? She barely knew the princess.
-
-      Of course she knew <i>of</i> the princess. Royals are rather well-known in the lands they rule.
-
-      She knows that this princess is not next in line for the throne. That could be why she lets herself go so wild.
-
-      She knew that this princess had a habit of drinking, but had no idea just how <i>much</i> she drank.
-
-      The princess had effortlessly consumed an entire bottle of wine, then two brimming mugs of beer on top of that.
-
-      Avice drank sparsely, mostly because she couldn't stand the effects the morning after.
-
-      The girl next to her couldn't be far from her own age.
+      The princess had effortlessly consumed an entire bottle of wine, then two brimming mugs of beer on top of that. Avice drank sparsely, mostly because she couldn't stand the effects the morning after. The girl next to her couldn't be far from her own age.
 
       Her morning surely would not go well.
 
@@ -1203,41 +1189,27 @@ var PxKxM_draft = [
 
       Avice shifts under the expensive covers, chewing this idea into something she can process.
 
-      "Would you like some water...? Fresh clothes...?"
-
-      Avice's head flicks up at this.
+      "Would you like some water...? Fresh clothes...?" Avice's head flicks up at this.
 
       She embarrassedly reveals her face, pushing the words "Clothes first..." out of her mouth.
 
-      "Alright." Avice watches Ms. Russell walk over to the princess's wardrobe, shuffling through outfits and pieces of clothing whose individual prices might have amounted to a lifetime of work for the knight.
+      "Alright." Avice watches Ms. Russell walk over to the princess's wardrobe, shuffling through outfits and pieces of clothing whose individual prices might have amounted to a lifetime of work for the knight. Eventually, she pulls a dyed silken nightgown from the selection, walking back over to the side of Princess Alinor's bed.
 
-      Eventually, she pulls a dyed silken nightgown from the selection, walking back over to the side of Princess Alinor's bed.
-
-      "This should be around your size... The princess is a bit shorter than you, so the hem will be a little high, but not uncomfortably so, I hope."
-
-      Avice reaches to take the clothing, clutching the bedsheets to her chest.
+      "This should be around your size... The princess is a bit shorter than you, so the hem will be a little high, but not uncomfortably so, I hope." Avice reaches to take the clothing, clutching the bedsheets to her chest.
 
       Ms. Russell gives a small smile.
 
-      "I'll turn around. And close my eyes, for that measure."
+      "I'll turn around. And close my eyes, for that measure." So she does. After a second, Avice quickly untangles herself from the sheets and hastily pulls the nightgown on.
 
-      So she does. After a second, Avice quickly untangles herself from the sheets and hastily pulls the nightgown on.
+      "May I turn around now?" Avice whispers an "<small>um...</small>", then pulls herself together and says more confidently, "Yes. You may."
 
-      "May I turn around now?"
+      Ms. Russell pivots at a comfortable pace, seeming to give Avice plenty of warning. Her eyes rake up and down Avice's body, looking pleased. Avice shifts under her undressing gaze.
 
-      Avice whispers an "<small>um...</small>", then pulls herself together and says more confidently, "Yes. You may."
-
-      Ms. Russell pivots at a comfortable pace, seeming to give Avice plenty of warning.
-
-      Her eyes rake up and down Avice's body, looking pleased.
-
-      "It fits rather well, don't you think?"
-
-      She kneels down to examine the hem, hanging below Avice's knees; noting how the knight retreats into herself as she bends down.
+      "It fits rather well, don't you think?" he kneels down to examine the hem, hanging below Avice's knees; noting how the knight retreats into herself as she bends down.
 
       "Well, do you need anything else?" Ms. Russell asks, straightening up.
 
-      "<small>uh-</small> How long have you known the princess?" Avice fidgets nervously, wanting to ask more.
+      "<small>uh-</small> How long have you known the princess?" Avice fidgets nervously, wanting to ask more, mush, <i>much</i> more.
 
       "Rather a long time. Is it... five years now?" Ms. Russell chuckles lightly. "She's always made sure to keep things interesting."
 
@@ -1251,21 +1223,15 @@ var PxKxM_draft = [
 
       "Is she... always so..." Avice tries.
 
-      "She gets handsy when she's drunk, yes. But..."
-
-      Ms. Russell looks over at Avice.
-
-      "She doesn't take many people to bed."
+      "She gets handsy when she's drunk, yes. But..." Ms. Russell looks over at Avice. "She doesn't take many people to bed."
 
       Avice is visibly blushing now.
 
       Ms. Russell chuckles again. "She dragged you out of the party as soon as she possibly could."
 
-      She fixes Avice with a piercing stare.
+      She suddenly fixes Avice with a piercing stare.
 
-      "There's something she really quite likes about you. I'm not sure exactly what, and I doubt she would say without far too much alcohol."
-
-      A smile washes across her face, making her fierce gaze disappear just as quickly as it had shown.
+      "There's something she really quite likes about you. I'm not sure exactly what, and I doubt she would say without far too much alcohol." A smile washes across her face, making her fierce gaze disappear just as quickly as it had shown.
 
       "If we're going to keep talking, why don't we step out?"`
     )
@@ -1282,15 +1248,15 @@ var dirtiness_essay = [
   chapter('', '',
     paragraph(`The cultural idea of something being "dirty" is foreign to me.
 
-    I live in a lot of kink-positive spaces on the internet, so nothing is really "disallowed" or anything to that effect. You can like anything you like.
+    I live in a lot of kink-positive spaces on the internet, so nothing is really <i>"disallowed"</i> or anything to that effect. You can like anything you like.
 
-    Some of the things enjoyed in the spaces I inhabit are generally seen as "bad", like rape.
+    Some of the things enjoyed in the spaces I inhabit are generally seen as "bad", for example rape.
 
     I agree that rape is bad. I also raise the idea: <i>No real people are being assaulted.</i>
 
-    I believe that "rape", in the cultural sense of "person being forced (most likely physically, and most likely a man forcing himself on a woman) into sex", is bad.
+    I believe that "rape", in the cultural sense of "person being forced (most likely physically, and most often a man forcing himself on a woman) into sex", is bad.
 
-    Honestly, that kind of rapist can burn in hell at this very moment. Don't wait for them to die.
+    Honestly, that kind of rapist can burn in hell at this very moment. Do not wait for them to die.
 
     The big factor I object to in this idea of rape is lack of consent.
     "No shit! Rape is always non-consensual!"
@@ -1301,7 +1267,7 @@ var dirtiness_essay = [
     This is where extended consent comes in. This theoretical person could ask a very trusted partner to hold a knife to their throat, explicitly tell their partner "I want you to hold a knife to my throat." So, their partner holds a (real, sharp) knife to their throat, being very careful not to harm them, and will immediately back off upon hearing the word "stop", or any other word or phrase both of them have agreed means "Stop." (this is called a safeword; to my knowledge, a "safe phrase" is also called a safeword.)
     (extended consent over!)
 
-    Something I notice often in kink- and kink-adjacent communities, in reference to real people, is an undercurrent of safety. Systems such as extended consent have been created for real people to experience whatever they please as safely as possible.
+    Something I notice often in kink- and kink-adjacent communities, in reference to real people, is an undercurrent of safety. Systems such as extended consent have been created for real people to experience whatever they please as safely as possible. Kink-positive communities are some of the safest places you can be, dare I say.
 
     Fiction, however, is not subject to this idea of safety. You can do whatever you want in fiction. Involvement of real people (obviously) removes the "shield of fiction" from a work, so if someone is writing about how they want to rape an actual person, trying to portray that real person in their work, without their knowledge or consent, that should be investigated and dealt with.
 
@@ -1326,10 +1292,51 @@ yaoi_and_yuri_draft = [
     so, the girls say "let's beat him into submission" and the guys say "yup we gotta kill him"
 
     the girls have a huge single-target dps and a parrymaster who can reflect 100% of the damage pointed at her
-    she never thought about having her girlfriend attack her and parrying it at her enemies
+    their special attack is the parrymaster having her girlfriend attack her and parrying it at their enemies
     each time they do this is a massive trust exercise, they're gazing into each other's eyes as she's bringing her sword down and her partner activates her parry at the earlier end of the window (partially because she doesn't want to get eviscerated but also because her blood cannot be on her partner's hands)
     she treats the boys' attacks like enemies' (couldn't give less of a fuck)
 
-    the boys have an aurafarming tank and a `
+    the boys have an aurafarming tank and a uh`
   ))
+]
+
+let mother_nature = [
+    chapter("false", "Mother Nature",
+        paragraph(
+
+            `<span style="font-family: 'Courier New', 'Courier', monospace">Once upon a time— or rather, once time began to focus— Mother Earth first awoke. Back then, she was a cluster of red-hot rock and minerals, waiting for the essence-chilling depths of space to cool her into something solid.
+
+            Then, she watched as water accumulated upon her surface, making homes for indescribable numbers of infinitely small creatures. Mother Earth watched them each with a parent’s mix of astonishment, awe, and incredulity, watched them grow strong enough to handle Madame Sun’s blazing, relentless light, watched with apprehension in her heart as they brave the shores and all the slew of danger that came with.
+
+            Mother Earth is no stranger to Death, no stranger to how willing her children are to turn on each other. She watches her children advance, stretch their territory across both land and sea. She watches as they hunt each other, kill and eat each other, race to improve the art of slaughter at threat of Death.
+
+            And her children continue to grow, becoming larger and larger, becoming worthy of the title of “beast.”
+
+            And…
+
+            Something slams into Mother Earth, hard enough for her to feel it, hard enough for it to <i>hurt</i>. Physical pain is one of few phenomena she has little experience with, but her eternal life has allowed her great ability to numb herself, to break away from feeling when feeling becomes too much.
+
+            But the greatest pain was yet to come, as she gazed upon her surface and found it far emptier. Her children of the land, the beautiful dinosaurs were dead and dying, unable to handle anywhere near the might of the attack.
+
+            This is where Mother Earth withdrew, finally pulling away from the torment of getting attached to her children knowing they will die, reducing herself to watching coldly.
+
+            She watched the eras go by, watched her beloved dinosaurs rise and fall, becoming different every time. They became something else entirely, evolving to make things— “tools”, they were called— to help them, so they could do things she would have never imagined.
+
+            These creatures eventually start calling themselves “human”, calling themselves the greatest beings to walk Mother Earth’s surface.
+
+            Something twinged inside her at that, finding some kind of humor in these <i>things</i>, who need to make, to build, to destroy, who need each other and refuse to connect.
+
+            These creatures managed to capture a tiny piece of Mother Earth’s long-lost attention. She knew not to get invested, she knew that these interesting creatures would be gone by the next few thousand years.
+
+            And yet, and yet, and yet. Humans lasted one, twenty, three hundred, four thousand, fifty thousand years. They built massive structures, they destroyed massive structures, they connected and broke apart, they lived and lived <i>and lived</i>.
+
+            That is what humans had learned from their predecessors, from the unimaginable death that had come before them. They had learned how to <i>live</i>, how to <i>survive</i>.
+
+            This did not, of course, free them from their own mistakes. Mother Earth was frequently appalled by their actions, disgusted with how some treated others, but she continued to watch with morbid curiosity.
+
+            These creatures have lived so long, they have learned much, but how long will it take them to learn to respect each other? How long will it take for them to treat all of their kind equally? <i>Why</i> can they learn so much, create the longest history, and <i>why</i> do these issues form the very color of their existence?
+
+            Mother Earth continues to watch, unable to turn her eyes away.</span>`
+        )
+    )
 ]
