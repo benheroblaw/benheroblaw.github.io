@@ -1296,6 +1296,12 @@ function container(contents='', id='', classs='') {
   return output
 }
 
+function pausingGif(firstFrame='', gif='') {
+  output = ''
+  output = `<img onmouseenter="this.style.height = 'initial'; this.style.width='initial'; this.src='${gif}'" onmouseleave="this.style.height = 'unset'; this.style.width='20%'; this.src='${firstFrame}'" src="${firstFrame}">`
+  return output
+}
+
 
 // event listeners
 

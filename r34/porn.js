@@ -262,8 +262,8 @@ let miku = [
   `<link rel="icon" href="/icons/mikuSelected.png">
   <h2>Videos</h2>\
   horizontal<br>\
-  <video controls title="hatsune blowjob" src="vocaloid/large/0564b3cb8b58055592879edf386d854a.mp4">no porn for you :(</video>\
-  <video controls title="futa x miku" src="vocaloid/dd9ed60005744a7c72b7e60092e212ff.mp4">no porn for you :(</video>`
+  <video controls title="hatsune blowjob" src="/r34/vocaloid/large/0564b3cb8b58055592879edf386d854a.mp4">no porn for you :(</video>\
+  <video controls title="futa x miku" src="/r34/vocaloid/dd9ed60005744a7c72b7e60092e212ff.mp4">no porn for you :(</video>`
   +
   `<br>\
   vertical<br>\
@@ -1678,41 +1678,36 @@ let ddlc = [
   '<br><br>doki doki literature club <3<br><img src="/icons/monika.svg" style="border: none; width: 4rem" onmouseenter="this.src = \'/icons/moni-wink.svg\'" onmouseleave="this.src = \'/icons/monika.svg\'">',
 ]
 
-let deltarune = [
-  linkedImage('/r34/deltarune/edith-is-dead.bsky.social-3mv3bod7lbk2u-1.webp') +
-  linkedImage('/r34/deltarune/edith-is-dead.bsky.social-3mv3bod7lbk2u-2.webp') +
-  linkedImage('/r34/deltarune/edith-is-dead.bsky.social-3mu7657gkds2v.webp') +
-  linkedImage('/r34/deltarune/edith-is-dead.bsky.social-3mu6zfsttu22v.webp') +
-  linkedImage('/r34/deltarune/edith-is-dead.bsky.social-3mszs4ruyss2a.webp') +
-  linkedImage('/r34/deltarune/edith-is-dead.bsky.social-3msvfnswykc2i.webp') +
-  linkedImage('/r34/deltarune/edith-is-dead.bsky.social-3msvfm7gils2i.webp') +
-  linkedImage('/r34/deltarune/edith-is-dead.bsky.social-3msslwza5dk2n.webp') +
-  linkedImage('/r34/deltarune/edith-is-dead.bsky.social-3msrtikvpak2l.webp') +
-  ''
-]
-
 let edith_is_dead = [
-  `` +
-  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mskbz7ntok2w-1.webp') +
-  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mskbz7ntok2w-2.webp') +
-  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3msxyzixr5c2a.webp') +
-  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mv4wb43alc2e.webp') +
-  '',
-
-  header2('comic panels') +
+  header2("Images") +
+  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3l7yxtoxjpx2r.webp') +
+  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3lsoiniaqdk2a.webp') +
+  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3lzqlxplg5c2q.webp') +
   linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mfrh57i4qc25-1.webp') +
   linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mfrh57i4qc25-2.webp') +
   linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mfrh57i4qc25-3.webp') +
-  '<br><br>' +
-  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mu7yms7d2c2x.webp') +
-  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mubajn4dkk2x.webp') +
-  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mubvsd4f3k2n.webp') +
-  '<br><br>' +
+  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mskbz7ntok2w-1.webp') +
+  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mskbz7ntok2w-2.webp') +
+  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3msxyzixr5c2a.webp') +
   linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mt64jspnz22l.webp') +
   linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mt65fash5c2l.webp') +
   linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mt66o5k4kk25.webp') +
   linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mt6cojdpbk22.webp') +
-  ''
+  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mtdbfdcqds2n.webp') +
+  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mtsd5prbkk2t.webp') +
+  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mu7yms7d2c2x.webp') +
+  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mubajn4dkk2x.webp') +
+  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mubvsd4f3k2n.webp') +
+  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mv4wb43alc2e.webp') +
+  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mvse6itstc2t-1.webp') +
+  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mvse6itstc2t-2.webp') +
+  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mvse6itstc2t-3.webp') +
+  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mw2xnnc3ic26-1.webp') +
+  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mw2xnnc3ic26-2.webp') +
+  linkedImage('/r34/edith-is-dead/edith-is-dead.bsky.social-3mw2xnnc3ic26-3.webp') +
+  br + header2("Videos") +
+  linkedVideo('/r34/edith-is-dead/edith-is-dead.bsky.social-3m2osj6zgg22q.mp4') +
+  ""
 ]
 
 let silvervale_bunny_prize_nav = [
@@ -1724,11 +1719,91 @@ let silvervale_bunny_prize_nav = [
 ]
 
 let raikissu = [
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mtnmqil6ic2n.webp'),
-
-  header2('comic panels') +
+  header2("Images") +
+  linkedImage('/r34/raikissu/04447ffa47f2e0fcc035d95e6c5c8c0a.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3lxqt55wo2s2i.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mapmpfe6222o-1.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mapmpfe6222o-2.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mbk6qmdxdk2n-1.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mbk6qmdxdk2n-2.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mf4d3acv322j.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mfpphsgls22k.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mkxje4ddf22r-1.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mkxje4ddf22r-2.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mkxje4ddf22r-3.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mkxje4ddf22r-4.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mljxk7rnvk26-1.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mljxk7rnvk26-2.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mljxk7rnvk26-3.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mljxk7rnvk26-4.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mn4ed4gmz22f-1.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mn4ed4gmz22f-2.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mn4ed4gmz22f-3.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mn4ed4gmz22f-4.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mqalgvt55c2t.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mqmpp6n5fc2x-1.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mqmpp6n5fc2x-2.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mqmpp6n5fc2x-3.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mqmpp6n5fc2x-4.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mqpenovnhs2i-1.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mqpenovnhs2i-2.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mqpenovnhs2i-3.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mqpenovnhs2i-4.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3msvmlqkt5c27-1.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3msvmlqkt5c27-2.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3msvmlqkt5c27-3.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3msvmlqkt5c27-4.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mswhrd6r2k27.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mt3ujycjxk2g.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mtnmqil6ic2n.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mtpbsqca7k2a-1.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mtpbsqca7k2a-2.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mtpbsqca7k2a-3.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mtpbsqca7k2a-4.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mv6uo4dbpc24-1.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mv6uo4dbpc24-2.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mv6uo4dbpc24-3.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mvaxqla2hs2c.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mvdrldzbpc2u-1.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mvdrldzbpc2u-2.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mvdrldzbpc2u-3.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mvdrldzbpc2u-4.webp') +
   linkedImage('/r34/raikissu/raikissu.bsky.social-3mwm7tnaka22k.webp') +
   linkedImage('/r34/raikissu/raikissu.bsky.social-3mwo6voodc22l.webp') +
   linkedImage('/r34/raikissu/raikissu.bsky.social-3mwrddbicx22w.webp') +
-  ``
+  ""
+]
+
+let tenk = [
+  header2("Images") +
+  linkedImage('/r34/tenk/thetenk.bsky.social-3l7omkpofcc2s-1.webp') +
+  linkedImage('/r34/tenk/thetenk.bsky.social-3l7omkpofcc2s-2.webp') +
+  linkedImage('/r34/tenk/thetenk.bsky.social-3l7omkpofcc2s-3.webp') +
+  linkedImage('/r34/tenk/thetenk.bsky.social-3l7omkpofcc2s-4.webp') +
+  linkedImage('/r34/tenk/thetenk.bsky.social-3l7omlp6d5r2c-1.webp') +
+  linkedImage('/r34/tenk/thetenk.bsky.social-3l7omlp6d5r2c-2.webp') +
+  linkedImage('/r34/tenk/thetenk.bsky.social-3l7omlp6d5r2c-3.webp') +
+  linkedImage('/r34/tenk/thetenk.bsky.social-3mlobwrikms2f-1.webp') +
+  linkedImage('/r34/tenk/thetenk.bsky.social-3mlobwrikms2f-2.webp') +
+  linkedImage('/r34/tenk/thetenk.bsky.social-3mlobwrikms2f-3.webp') +
+  linkedImage('/r34/tenk/thetenk.bsky.social-3mn5ylq2sbk22.webp') +
+  linkedImage('/r34/tenk/thetenk.bsky.social-3mx2rwxuhv224-1.webp') +
+  linkedImage('/r34/tenk/thetenk.bsky.social-3mx2rwxuhv224-2.webp') +
+  linkedImage('/r34/tenk/thetenk.bsky.social-3mx2rx6vbak24-1.webp') +
+  linkedImage('/r34/tenk/thetenk.bsky.social-3mx2rx6vbak24-2.webp') +
+  ""
+]
+
+let deltarune = [
+  header2("Images") +
+  linkedImage('/r34/deltarune/edith-is-dead.bsky.social-3mv3bod7lbk2u-2.webp') +
+  linkedImage('/r34/deltarune/edith-is-dead.bsky.social-3mv3bod7lbk2u-1.webp') +
+  linkedImage('/r34/deltarune/edith-is-dead.bsky.social-3mu7657gkds2v.webp') +
+  linkedImage('/r34/deltarune/edith-is-dead.bsky.social-3mu6zfsttu22v.webp') +
+  linkedImage('/r34/deltarune/edith-is-dead.bsky.social-3mszs4ruyss2a.webp') +
+  linkedImage('/r34/deltarune/edith-is-dead.bsky.social-3msvfnswykc2i.webp') +
+  linkedImage('/r34/deltarune/edith-is-dead.bsky.social-3msvfm7gils2i.webp') +
+  linkedImage('/r34/deltarune/edith-is-dead.bsky.social-3msslwza5dk2n.webp') +
+  linkedImage('/r34/deltarune/edith-is-dead.bsky.social-3msrtikvpak2l.webp') +
+  ""
 ]
