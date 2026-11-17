@@ -1,6 +1,6 @@
 function pausingGif(firstFrame='', gif='') {
   output = ''
-  output = `<img onmouseenter="this.style.height = 'initial'; this.style.width='initial'; this.src='${gif}'" onmouseleave="this.style.height = 'unset'; this.style.width='20%'; this.src='${firstFrame}'" src="${firstFrame}">`
+  output = `<img onmouseenter="this.src='${gif}'" onmouseleave="this.style.height = 'unset'; this.style.width='20%'; this.src='${firstFrame}'" src="${firstFrame}">`
   return output
 }
 
@@ -1720,57 +1720,57 @@ let silvervale_bunny_prize_nav = [
 
 let raikissu = [
   header2("Images") +
-  linkedImage('/r34/raikissu/04447ffa47f2e0fcc035d95e6c5c8c0a.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3lxqt55wo2s2i.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mapmpfe6222o-1.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mapmpfe6222o-2.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mbk6qmdxdk2n-1.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mbk6qmdxdk2n-2.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mf4d3acv322j.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mfpphsgls22k.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mkxje4ddf22r-1.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mkxje4ddf22r-2.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mkxje4ddf22r-3.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mkxje4ddf22r-4.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mljxk7rnvk26-1.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mljxk7rnvk26-2.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mljxk7rnvk26-3.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mljxk7rnvk26-4.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mn4ed4gmz22f-1.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mn4ed4gmz22f-2.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mn4ed4gmz22f-3.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mn4ed4gmz22f-4.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mqalgvt55c2t.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mqmpp6n5fc2x-1.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mqmpp6n5fc2x-2.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mqmpp6n5fc2x-3.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mqmpp6n5fc2x-4.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mqpenovnhs2i-1.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mqpenovnhs2i-2.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mqpenovnhs2i-3.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mqpenovnhs2i-4.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3msvmlqkt5c27-1.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3msvmlqkt5c27-2.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3msvmlqkt5c27-3.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3msvmlqkt5c27-4.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mswhrd6r2k27.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mt3ujycjxk2g.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mtnmqil6ic2n.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mtpbsqca7k2a-1.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mtpbsqca7k2a-2.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mtpbsqca7k2a-3.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mtpbsqca7k2a-4.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mv6uo4dbpc24-1.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mv6uo4dbpc24-2.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mv6uo4dbpc24-3.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mvaxqla2hs2c.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mvdrldzbpc2u-1.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mvdrldzbpc2u-2.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mvdrldzbpc2u-3.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mvdrldzbpc2u-4.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mwm7tnaka22k.webp') +
-  linkedImage('/r34/raikissu/raikissu.bsky.social-3mwo6voodc22l.webp') +
   linkedImage('/r34/raikissu/raikissu.bsky.social-3mwrddbicx22w.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mwo6voodc22l.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mwm7tnaka22k.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mvdrldzbpc2u-4.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mvdrldzbpc2u-3.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mvdrldzbpc2u-2.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mvdrldzbpc2u-1.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mvaxqla2hs2c.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mv6uo4dbpc24-3.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mv6uo4dbpc24-2.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mv6uo4dbpc24-1.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mtpbsqca7k2a-4.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mtpbsqca7k2a-3.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mtpbsqca7k2a-2.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mtpbsqca7k2a-1.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mtnmqil6ic2n.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mt3ujycjxk2g.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mswhrd6r2k27.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3msvmlqkt5c27-4.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3msvmlqkt5c27-3.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3msvmlqkt5c27-2.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3msvmlqkt5c27-1.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mqpenovnhs2i-4.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mqpenovnhs2i-3.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mqpenovnhs2i-2.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mqpenovnhs2i-1.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mqmpp6n5fc2x-4.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mqmpp6n5fc2x-3.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mqmpp6n5fc2x-2.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mqmpp6n5fc2x-1.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mqalgvt55c2t.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mn4ed4gmz22f-4.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mn4ed4gmz22f-3.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mn4ed4gmz22f-2.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mn4ed4gmz22f-1.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mljxk7rnvk26-4.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mljxk7rnvk26-3.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mljxk7rnvk26-2.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mljxk7rnvk26-1.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mkxje4ddf22r-4.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mkxje4ddf22r-3.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mkxje4ddf22r-2.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mkxje4ddf22r-1.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mfpphsgls22k.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mf4d3acv322j.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mbk6qmdxdk2n-2.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mbk6qmdxdk2n-1.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mapmpfe6222o-2.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3mapmpfe6222o-1.webp') +
+  linkedImage('/r34/raikissu/raikissu.bsky.social-3lxqt55wo2s2i.webp') +
+  linkedImage('/r34/raikissu/04447ffa47f2e0fcc035d95e6c5c8c0a.webp') +
   ""
 ]
 
@@ -1805,5 +1805,98 @@ let deltarune = [
   linkedImage('/r34/deltarune/edith-is-dead.bsky.social-3msvfm7gils2i.webp') +
   linkedImage('/r34/deltarune/edith-is-dead.bsky.social-3msslwza5dk2n.webp') +
   linkedImage('/r34/deltarune/edith-is-dead.bsky.social-3msrtikvpak2l.webp') +
+  ""
+]
+
+let argonchann = [
+  header2("Images") +
+  linkedImage('/r34/argonchann/f294d829505dec3dfd54258c6612c93b.webp') +
+  linkedImage('/r34/argonchann/d5eafbe4e99d5fb673835e116e0b5271.webp') +
+  linkedImage('/r34/argonchann/d292240424478863658068b4f7a0e755.webp') +
+  linkedImage('/r34/argonchann/cf417e2aeb0c971ccc50a30ad06d170c.webp') +
+  linkedImage('/r34/argonchann/af5fb5e51ce30b15d2f9a74c7dd55d57.webp') +
+  linkedImage('/r34/argonchann/acc1bb4f9c482e76b984407770133b4a.webp') +
+  linkedImage('/r34/argonchann/aac6c31c63508befef8b1c892ba5396c.webp') +
+  linkedImage('/r34/argonchann/a8ebffe7f439724cde7bdcad9ccae36c.webp') +
+  linkedImage('/r34/argonchann/a62c3c358a174efac472423a2faf3528.webp') +
+  linkedImage('/r34/argonchann/90882c82d14fa731e26254a4ac506b16.webp') +
+  linkedImage('/r34/argonchann/8acc5e6efb18914c25e5592d2753820bbd6dd26b.webp') +
+  linkedImage('/r34/argonchann/79d9162bf7f37ca00052eb864544050b.webp') +
+  linkedImage('/r34/argonchann/76fd09c45dbc5792afa77ff18cb8c4a7.webp') +
+  linkedImage('/r34/argonchann/5e9269fba73ed64fd69565b17104cb4c.webp') +
+  linkedImage('/r34/argonchann/4e7eccc34d5898843ea30cc5ad6ab6ea.webp') +
+  linkedImage('/r34/argonchann/469a423376bf28a2b7ca62f2a969d49f.webp') +
+  linkedImage('/r34/argonchann/413a2dc00f686ebaa422a62a4b0e9787.webp') +
+  linkedImage('/r34/argonchann/3a8e6ecb5b6327975edd118ee123c902.webp') +
+  linkedImage('/r34/argonchann/18ace3f6a80c6780efcec49171a379db.webp') +
+  linkedImage('/r34/argonchann/155c1d8d0b93c9859258f1989f2a8f1c.webp') +
+  linkedImage('/r34/argonchann/13cd36899a734cec7383df2e2dfe0e3f.webp') +
+  linkedImage('/r34/argonchann/13c520b4fb0e348d94beff2b23be4cd2.webp') +
+  linkedImage('/r34/argonchann/11dc624992090880cfe00a3ad5dea175.webp') +
+  br + header2("Videos") +
+  linkedVideo('/r34/argonchann/f37ed68fee83db96c9cc6a97f3a15be9.mp4') +
+  ""
+]
+
+let unsorted = [
+  header2("Images") +
+  linkedImage('/r34/unsorted/0e634e30d80a98a546a705cbb76361d3.webp') +
+  linkedImage('/r34/unsorted/263e23bfe2a81169b5f46abc7e185833.webp') +
+  linkedImage('/r34/unsorted/2d953a824607de2b228eb5548893e394203f9367.webp') +
+  linkedImage('/r34/unsorted/34106b04a2bc189d1d2e4fd5014ba889.webp') +
+  linkedImage('/r34/unsorted/3a2851ee045a71d0a381cd07318bd60c.webp') +
+  linkedImage('/r34/unsorted/59ac53f2703cba76a8efec2695e5b0f0.webp') +
+  linkedImage('/r34/unsorted/5f0ab857594f368f1dd81862b00c87de.webp') +
+  linkedImage('/r34/unsorted/6e7ddcb31842b36a7d47450f010eded2.webp') +
+  linkedImage('/r34/unsorted/724fb45b326796b31dc00bc24a48cbae.webp') +
+  linkedImage('/r34/unsorted/74ce2f5bd664970a7ccae63c0531f18f158394fc.webp') +
+  linkedImage('/r34/unsorted/7ea5ab158b58393b51612cc547a2d224.webp') +
+  linkedImage('/r34/unsorted/86d2fdf63fc39c1d6741fbb2ab22608a335504db.webp') +
+  linkedImage('/r34/unsorted/8acca910d295a3dacf733786ee8461e9.webp') +
+  linkedImage('/r34/unsorted/9176252782123d70ae350733b506ce13.webp') +
+  linkedImage('/r34/unsorted/a08d0381704e164af593601c7aea3c59.webp') +
+  linkedImage('/r34/unsorted/abc3da481b32aaebcaec3c8c7c9918c83402082d.webp') +
+  linkedImage('/r34/unsorted/c24eab4e44b8abc7a83d9ee77411f0d7.webp') +
+  linkedImage('/r34/unsorted/c9074b2124761642527520a0aea0ca93.webp') +
+  linkedImage('/r34/unsorted/f80068223e4f099a3837409fb21a3189.webp') +
+  linkedImage('/r34/unsorted/ngbbs3b00af4539889.webp') +
+  linkedImage('/r34/unsorted/strondoflimr.bsky.social-3lzvyfmylxs2g.webp') +
+  linkedImage('/r34/unsorted/why_mr_newgrounds.webp') +
+  br +
+  header2("GIFs") +
+  pausingGif('/r34/unsorted/86d2fdf63fc39c1d6741fbb2ab22608a335504db.gif', '86d2fdf63fc39c1d6741fbb2ab22608a335504db.gif') +
+  pausingGif('/r34/unsorted/ngbbs3b00af4539889.gif', 'ngbbs3b00af4539889.gif') +
+  br +
+  header2("Videos") +
+  linkedVideo('/r34/unsorted/bc3d7f1c981165b9749124d20badce59.mp4') +
+  linkedVideo('/r34/unsorted/maretenho.bsky.social-3mvdautttrs2q.mp4') +
+  ""
+]
+
+let shantae = [
+  header2("Images") +
+  linkedImage('/r34/shantae/06049477b02713f9fd23b5c84195e397.webp') +
+  linkedImage('/r34/shantae/09bf008bf1c8b4cf67a2b9025a9b7dd2.webp') +
+  linkedImage('/r34/shantae/2a5e2e5f85dde9e590c36ac16035850d.webp') +
+  linkedImage('/r34/shantae/369a6a1ab002fe49b6acad74de2a97282ae95ade.webp') +
+  linkedImage('/r34/shantae/5bb1f71edb9f88cb15fbd353930b0ec1.webp') +
+  linkedImage('/r34/shantae/5d007f945809deecb4eb5c60b78b4a3c.webp') +
+  linkedImage('/r34/shantae/66362cff7794a5147945fb6dbf6b682b.webp') +
+  linkedImage('/r34/shantae/87bc4b4259b2a584472eb9cfb17bc99c.webp') +
+  linkedImage('/r34/shantae/bb20c304fca3f0724fd1282dbd0c3dd0.webp') +
+  linkedImage('/r34/shantae/db78318a9c6f1d2ad18286a561e0bd1f.webp') +
+  linkedImage('/r34/shantae/e0f296b66b0384c5d3f44676d3519821.webp') +
+  linkedImage('/r34/shantae/f8d7b55aa46774f88bd7a542d6b3cb65.webp') +
+  br +
+  header2("GIFs") +
+  pausingGif('/r34/shantae/gifs/first_image/02568379d16466e2953d32dd9c1d7de4.webp', '/r34/shantae/02568379d16466e2953d32dd9c1d7de4.gif') +
+  pausingGif('/r34/shantae/gifs/first_image/0c603c656c7b8da864cfe528a9fd02f8.webp', '/r34/shantae/0c603c656c7b8da864cfe528a9fd02f8.gif') +
+  pausingGif('/r34/shantae/gifs/first_image/12b1322af07c7152ce10e80f61229375.webp', '/r34/shantae/12b1322af07c7152ce10e80f61229375.gif') +
+  pausingGif('/r34/shantae/gifs/first_image/2b594795573e5d2438c327253e47eb72.webp', '/r34/shantae/2b594795573e5d2438c327253e47eb72.gif') +
+  pausingGif('/r34/shantae/gifs/first_image/4dc8b9e382e4bea8d1cca3c16e3f5ff130c0703d.webp', '/r34/shantae/4dc8b9e382e4bea8d1cca3c16e3f5ff130c0703d.gif') +
+  pausingGif('/r34/shantae/gifs/first_image/63f14c0bcd161ce996646233d88f01fa.webp', '/r34/shantae/63f14c0bcd161ce996646233d88f01fa.gif') +
+  pausingGif('/r34/shantae/gifs/first_image/9066425abdc597ff4d47ac3fe1f4fc78.webp', '/r34/shantae/9066425abdc597ff4d47ac3fe1f4fc78.gif') +
+  pausingGif('/r34/shantae/gifs/first_image/edaaba03f891f5d0a5c8530e3e8b9295.webp', '/r34/shantae/edaaba03f891f5d0a5c8530e3e8b9295.gif') +
+  pausingGif('/r34/shantae/gifs/first_image/eecf33b01029ebd6870c15cf252c030d.webp', '/r34/shantae/eecf33b01029ebd6870c15cf252c030d.gif') +
   ""
 ]

@@ -263,9 +263,7 @@ let bumblebee_DRAFT = [
 
       <span class="yang">"Really? Do you have an oral fixation or something?"</span>
 
-      Blake stands there, fidgeting, glancing anywhere but—
-
-      Well, her girlfriend.
+      Blake stands there, fidgeting, glancing anywhere but— well, her girlfriend.
 
       She nods slightly.
 
@@ -273,11 +271,11 @@ let bumblebee_DRAFT = [
 
       <span class="yang">"...May I?"</span> Yang brings a hand up to her cheek, sliding a thumb over her lips.
 
-      <span class="blake">"mmh..."</span> Her lips purse, unused to intimacy in general, let alone this kind of focused care. What she had called "love" was something quiet, an understanding flowing between two people.
+      <span class="blake">"mmh..."</span> Her lips purse, unused to intimacy in general, let alone this kind of focused care. What she had called "love" was something quiet, a silent understanding flowing between two people.
 
       This?
 
-      This is being thrown into a volcano, being pressed with incredible warmth that she doesn't quite know how to process.
+      This is being thrown into a volcano, being pressed from every angle with incredible warmth that she doesn't quite know how to process.
 
       slowly,
 
@@ -290,12 +288,11 @@ let bumblebee_DRAFT = [
       Doesn't she want to start slow?
 
       It's—
-
       It's hard to think through circling waves of heat scrambling her brain as she desperately tries to pull the pieces together.
 
       She's- she's wanted this for so long.
 
-      There was always something, she's starting to realize. Some emotion had been urging her to <i>connect</i>, to get familiar with this girl.
+      There was always something, the back of her mind is starting to realize. Some emotion had been urging her to <i>connect</i>, to get familiar with this girl.
 
       Well, your strongest kink is a great way to show someone what you're like, right?
 
