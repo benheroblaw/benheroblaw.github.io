@@ -2,6 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./goama.css">
+    <link rel="stylesheet" href="/r34/style.css">
     <link rel="stylesheet" href="https://prokid99999.github.io/writing.css">
     <link rel="stylesheet" href="http://localhost:2009/writing.css">
     <link rel="icon" href="/icons/unknown.png">
@@ -62,7 +63,12 @@
         node.addEventListener("keyup", function(event) {
             if (event.key === "Enter") {
                 // Do work
+                startStory(eval(gewi('storyinput').value))
             }
+        });
+        node.addEventListener("keyup", () => {
+            try {startStory(eval(gewi('storyinput').value)); gewi("errormsg").innerText = ""}
+            catch (ex) {gewi("errormsg").innerText = ex}
         });
         node.addEventListener("keyup", ({key}) => {
             if (key === "Enter") {
@@ -136,11 +142,9 @@ function scriptRefresh() {
                 <button onclick="location.reload(true)">ctrl+f5</button>
                 <button id="pornRefresh" onclick="scriptRefresh()">story refresh</button>
             <br>
-                <input type="text" value="" id="storyinput" class="input" placeholder="Story to run" style="margin-bottom: 0.25rem;" list="stories">
-                <datalist id="stories">
-                    <!--
+                <input type="text" value="" id="storyinput" class="input" onclick="input()" placeholder="Story to run" style="margin-bottom: 0.25rem;" list="stories">
+                <!-- <datalist id="stories">
                     <option value=""></option>
-                    -->
                     <option value="earth"></option>
                     <option value="abyss"></option>
                     <option value="nothing"></option>
@@ -161,10 +165,13 @@ function scriptRefresh() {
                     <option value="unfinished"></option>
                     <option value="reset"></option>
                     <option value="cave"></option>
-                </datalist>
+                </datalist> -->
                 <button onclick="startStory(eval(gewi('storyinput').value))">Start story</button>
+                <b><div id="errormsg" style="background-color: #a00; color: white; border: #555 solid 2px; margin-right: 0.25rem; width: 16rem; min-height: 1.25rem; font-style: bold"></div></b>
         </div>
+
         <br><br><br><br><br><br>
+
         <div class="space">
             <div><button id="prev">&lt; Previous</button></div>
             <div style="text-align: right;"><button id="next">Next &gt;</button></div>

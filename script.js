@@ -94,12 +94,12 @@ ${addLink('/r34/puppysnackz/agnes.html', 'Agnes Taciyon')}
 ${addLink('/r34/puppysnackz/ladylovense.html', 'Lady Lovense')}
 `
 
-let hardSidebar = `
+var hardSidebar = `
 <h1>comics</h1>
 ${addlink('/r34/xxx/ceiling-and-treatment.html', 'comic')}
 `
 
-let dokiSidebar = header1('Comics') +
+var dokiSidebar = header1('Comics') +
 addLink('/r34/ddlc/doki-doki-skinny-dipping-club.html', 'Doki Doki Skinny Dipping Club')
 
 var program = [
@@ -464,7 +464,7 @@ function displayStory(content = ['wtf'], pageSetup='', showChapters, volume=0.1,
   if (doOutput) {tesLog('finished loading story')}
 }
 
-let startState = 'not started'
+var startState = 'not started'
 
 /**
  * Starts displayStory

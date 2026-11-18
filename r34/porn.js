@@ -4,71 +4,71 @@ function pausingGif(firstFrame='', gif='') {
   return output
 }
 
-var irl = [`\
-  <p>lilykoti<br>\
-  <video preload="auto" controls src="/r34/phub/large/[pornhubdownloader.io]_720P_4000K_438382601.mp4">no porn for you :(</video>\
-  <video preload="auto" controls src="/r34/phub/large/Hentai Handjob and Titfuck.mp4">no porn for you :(</video>\
-  <video preload="auto" controls src="/r34/phub/large/TITFUCK Masterclass.mp4">no porn for you :(</video>\
-  <video preload="auto" controls src="/r34/phub/large/HOTTEST TITFUCK _3 COMPILATION.mp4">no porn for you :(</video>\
-  <video preload="auto" controls src="/r34/phub/large/HANDJOB PORN _3 COMPILATION.mp4">no porn for you :(</video>\
-  <video preload="auto" controls src="/r34/phub/HOTTEST TITFUCK _3 COMPILATION (1).mp4">no porn for you :(</video>\
-  </p><br>
-  ${linkedImage('/r34/irl/3f50e4d33faefe65f638bbac9899197c.webp')}
-  ${linkedImage('/r34/irl/637bd7ad13744ff504b5fe154f0695da.webp')}
-  ${linkedImage('/r34/irl/3541f6e0d1b9a233ecbf553c1e29117d.webp')}`,
+// var irl = [`\
+//   <p>lilykoti<br>\
+//   <video preload="auto" controls src="/r34/phub/large/[pornhubdownloader.io]_720P_4000K_438382601.mp4">no porn for you :(</video>\
+//   <video preload="auto" controls src="/r34/phub/large/Hentai Handjob and Titfuck.mp4">no porn for you :(</video>\
+//   <video preload="auto" controls src="/r34/phub/large/TITFUCK Masterclass.mp4">no porn for you :(</video>\
+//   <video preload="auto" controls src="/r34/phub/large/HOTTEST TITFUCK _3 COMPILATION.mp4">no porn for you :(</video>\
+//   <video preload="auto" controls src="/r34/phub/large/HANDJOB PORN _3 COMPILATION.mp4">no porn for you :(</video>\
+//   <video preload="auto" controls src="/r34/phub/HOTTEST TITFUCK _3 COMPILATION (1).mp4">no porn for you :(</video>\
+//   </p><br>
+//   ${linkedImage('/r34/irl/3f50e4d33faefe65f638bbac9899197c.webp')}
+//   ${linkedImage('/r34/irl/637bd7ad13744ff504b5fe154f0695da.webp')}
+//   ${linkedImage('/r34/irl/3541f6e0d1b9a233ecbf553c1e29117d.webp')}`,
 
-  `<p>creamyspot<br>\
-  <video preload="auto" controls src="/r34/phub/large/[pornhubdownloader.io]_720P_4000K_464305995.mp4">no porn for you :(</video>\
-  <video preload="auto" controls src="/r34/phub/large/[pornhubdownloader.io]_720P_4000K_16372285.mp4">no porn for you :(</video>\
-  <video preload="auto" controls src="/r34/phub/[pornhubdownloader.io]_720P_4000K_464924455.mp4">no porn for you :(</video>\
-  <video preload="auto" controls src="/r34/phub/[pornhubdownloader.io]_720P_4000K_462804201.mp4">no porn for you :(</video>\
-  <video preload="auto" controls src="/r34/phub/large/[pornhubdownloader.io]_720P_4000K_458549051.mp4">no porn for you :(</video>\
-  <p>`,
+//   `<p>creamyspot<br>\
+//   <video preload="auto" controls src="/r34/phub/large/[pornhubdownloader.io]_720P_4000K_464305995.mp4">no porn for you :(</video>\
+//   <video preload="auto" controls src="/r34/phub/large/[pornhubdownloader.io]_720P_4000K_16372285.mp4">no porn for you :(</video>\
+//   <video preload="auto" controls src="/r34/phub/[pornhubdownloader.io]_720P_4000K_464924455.mp4">no porn for you :(</video>\
+//   <video preload="auto" controls src="/r34/phub/[pornhubdownloader.io]_720P_4000K_462804201.mp4">no porn for you :(</video>\
+//   <video preload="auto" controls src="/r34/phub/large/[pornhubdownloader.io]_720P_4000K_458549051.mp4">no porn for you :(</video>\
+//   <p>`,
 
-  `<p><a href="https://www.pornhub.com/model/alizevert">alizevert</a><br>\
-  <video preload="auto" controls src="/r34/phub/[pornhubdownloader.io]_720P_4000K_435477371.mp4">no porn for you :(</video>\
-  <video preload="auto" controls src="/r34/phub/[pornhubdownloader.io]_720P_4000K_438446321.mp4">no porn for you :(</video>\
-  <video preload="auto" controls src="/r34/phub/[pornhubdownloader.io]_720P_4000K_441827181.mp4">no porn for you :(</video>\
-  <video preload="auto" controls src="/r34/phub/[pornhubdownloader.io]_720P_4000K_448923881.mp4">no porn for you :(</video>\
-  <video preload="auto" controls src="/r34/phub/[pornhubdownloader.io]_720P_4000K_16651015.mp4">no porn for you :(</video><br><br>
-  ${linkVideo('/r34/irl/alizevert.bsky.social-3mosy7x6kzk2x.mp4')}
-  ${linkVideo('/r34/irl/alizevert.bsky.social-3mr3sr7e4v226.mp4')}
-  </p>`,
+//   `<p><a href="https://www.pornhub.com/model/alizevert">alizevert</a><br>\
+//   <video preload="auto" controls src="/r34/phub/[pornhubdownloader.io]_720P_4000K_435477371.mp4">no porn for you :(</video>\
+//   <video preload="auto" controls src="/r34/phub/[pornhubdownloader.io]_720P_4000K_438446321.mp4">no porn for you :(</video>\
+//   <video preload="auto" controls src="/r34/phub/[pornhubdownloader.io]_720P_4000K_441827181.mp4">no porn for you :(</video>\
+//   <video preload="auto" controls src="/r34/phub/[pornhubdownloader.io]_720P_4000K_448923881.mp4">no porn for you :(</video>\
+//   <video preload="auto" controls src="/r34/phub/[pornhubdownloader.io]_720P_4000K_16651015.mp4">no porn for you :(</video><br><br>
+//   ${linkVideo('/r34/irl/alizevert.bsky.social-3mosy7x6kzk2x.mp4')}
+//   ${linkVideo('/r34/irl/alizevert.bsky.social-3mr3sr7e4v226.mp4')}
+//   </p>`,
 
-  `${addLink('https://realbooru.com/index.php?page=post&s=list&tags=chastissy','chastissy')}<br>
-  ${linkVideo('/r34/irl/8229c832cddcd9c892e40eb2e04fa690.mp4')}
-  ${linkVideo('/r34/irl/99d3ee8dd53df3899c4385d1216a3ca5.webm')}`,
+//   `${addLink('https://realbooru.com/index.php?page=post&s=list&tags=chastissy','chastissy')}<br>
+//   ${linkVideo('/r34/irl/8229c832cddcd9c892e40eb2e04fa690.mp4')}
+//   ${linkVideo('/r34/irl/99d3ee8dd53df3899c4385d1216a3ca5.webm')}`,
 
-  `${addLink('https://www.pillowfort.social/Smudger', 'Smudger')}<br>
-  ${linkedImage('/r34/irl/283675c651d026bbd039.webp')}
-  ${linkedImage('/r34/irl/e2a1532d8d4e17375731.webp')}
-  ${linkedImage('/')}`,
+//   `${addLink('https://www.pillowfort.social/Smudger', 'Smudger')}<br>
+//   ${linkedImage('/r34/irl/283675c651d026bbd039.webp')}
+//   ${linkedImage('/r34/irl/e2a1532d8d4e17375731.webp')}
+//   ${linkedImage('/')}`,
 
-  `<p>other<br>\
-  <video preload="auto" controls src="/r34/phub/Toy is too small for my big cock.mp4">no porn for you :(</video>\
-  <video preload="auto" controls src="/r34/phub/compressO-idk.mp4">no porn for you :(</video>\
-  </p>`,
+//   `<p>other<br>\
+//   <video preload="auto" controls src="/r34/phub/Toy is too small for my big cock.mp4">no porn for you :(</video>\
+//   <video preload="auto" controls src="/r34/phub/compressO-idk.mp4">no porn for you :(</video>\
+//   </p>`,
 
-  `<p>images<br>\
-  ${linkedImage("/r34/irl/GbQeSrYakAMKch1.webp")}
-  ${linkedImage("/r34/irl/Gx6U-cpbgAAexnu.webp")}
-  ${linkedImage('/r34/irl/cfgxi.webp')}
-  ${linkedImage("/r34/irl/dryivgkvRDCK.webp")}
+//   `<p>images<br>\
+//   ${linkedImage("/r34/irl/GbQeSrYakAMKch1.webp")}
+//   ${linkedImage("/r34/irl/Gx6U-cpbgAAexnu.webp")}
+//   ${linkedImage('/r34/irl/cfgxi.webp')}
+//   ${linkedImage("/r34/irl/dryivgkvRDCK.webp")}
 
-  </p>`,
-  `pornhub is so fucking stupid<br>
-  why the hell are they advocating for age verification? does it matter who watches your porn? if you're after ad revenue, it shouldn't matter who watches as long as they are watching<br>
-  they don't just want <i>regular</i> age verification, either, no.<br>
-  Pornhub is advocating for <div style="font-size: 1.5rem">DEVICE-BASED AGE VERIFICATION.</div><br>
-  then they have the balls to say piracy is bad. no shit people left your site when you added that one thing that your entire userbase hates, that's just what happens.<br>
-  a site starts out small, adding features that their users want, listening to feedback...<br>
-  their service is the best, people tell their friends, the site gets big.<br>
-  they get bought.<br>
-  they continue to listen to users for a while, then they say "fuck you all, we're going to chase the money."<br>
-  pornhub can suck my dick<br>
-  <a href='https://realbooru.com'>realbooru</a> wins by doing nothing
-  `
-]
+//   </p>`,
+//   `pornhub is so fucking stupid<br>
+//   why the hell are they advocating for age verification? does it matter who watches your porn? if you're after ad revenue, it shouldn't matter who watches as long as they are watching<br>
+//   they don't just want <i>regular</i> age verification, either, no.<br>
+//   Pornhub is advocating for <div style="font-size: 1.5rem">DEVICE-BASED AGE VERIFICATION.</div><br>
+//   then they have the balls to say piracy is bad. no shit people left your site when you added that one thing that your entire userbase hates, that's just what happens.<br>
+//   a site starts out small, adding features that their users want, listening to feedback...<br>
+//   their service is the best, people tell their friends, the site gets big.<br>
+//   they get bought.<br>
+//   they continue to listen to users for a while, then they say "fuck you all, we're going to chase the money."<br>
+//   pornhub can suck my dick<br>
+//   <a href='https://realbooru.com'>realbooru</a> wins by doing nothing
+//   `
+// ]
 
 var audio = [
   `<h2>Video 1</h2>\
@@ -941,11 +941,11 @@ var bees = [
   `
 ]
 
-var harder_stuff = [
-  `<video controls src="/r34/irl/4gV-RaIL-cropped.mp4">no porn for you :(</video>
-  `,
-  addLink('/r34/xxx/ceiling-and-treatment.html', 'comic')
-]
+// var harder_stuff = [
+//   `<video controls src="/r34/irl/4gV-RaIL-cropped.mp4">no porn for you :(</video>
+//   `,
+//   addLink('/r34/xxx/ceiling-and-treatment.html', 'comic')
+// ]
 
 var ai = [
   `ai stuff<br>
@@ -1887,7 +1887,8 @@ let shantae = [
   linkedImage('/r34/shantae/db78318a9c6f1d2ad18286a561e0bd1f.webp') +
   linkedImage('/r34/shantae/e0f296b66b0384c5d3f44676d3519821.webp') +
   linkedImage('/r34/shantae/f8d7b55aa46774f88bd7a542d6b3cb65.webp') +
-  br +
+  "",
+
   header2("GIFs") +
   pausingGif('/r34/shantae/gifs/first_image/02568379d16466e2953d32dd9c1d7de4.webp', '/r34/shantae/02568379d16466e2953d32dd9c1d7de4.gif') +
   pausingGif('/r34/shantae/gifs/first_image/0c603c656c7b8da864cfe528a9fd02f8.webp', '/r34/shantae/0c603c656c7b8da864cfe528a9fd02f8.gif') +
@@ -1898,5 +1899,31 @@ let shantae = [
   pausingGif('/r34/shantae/gifs/first_image/9066425abdc597ff4d47ac3fe1f4fc78.webp', '/r34/shantae/9066425abdc597ff4d47ac3fe1f4fc78.gif') +
   pausingGif('/r34/shantae/gifs/first_image/edaaba03f891f5d0a5c8530e3e8b9295.webp', '/r34/shantae/edaaba03f891f5d0a5c8530e3e8b9295.gif') +
   pausingGif('/r34/shantae/gifs/first_image/eecf33b01029ebd6870c15cf252c030d.webp', '/r34/shantae/eecf33b01029ebd6870c15cf252c030d.gif') +
+  ""
+]
+
+let beat_banger = [
+  header2("Images") +
+  br +
+  header2("GIFs") +
+  pausingGif('/r34/beat-banger/gifs/first_image/mystic momo clothed 1.webp', '/r34/beat-banger/mystic momo clothed 1.gif') +
+  pausingGif('/r34/beat-banger/gifs/first_image/mystic momo clothed 2.webp', '/r34/beat-banger/mystic momo clothed 2.gif') +
+  pausingGif('/r34/beat-banger/gifs/first_image/mystic momo clothed 4.webp', '/r34/beat-banger/mystic momo clothed 4.gif') +
+  pausingGif('/r34/beat-banger/gifs/first_image/mystic momo clothed 5.webp', '/r34/beat-banger/mystic momo clothed 5.gif') +
+  br + br +
+  pausingGif('/r34/beat-banger/gifs/first_image/mystic momo nude 1.webp', '/r34/beat-banger/mystic momo nude 1.gif') +
+  pausingGif('/r34/beat-banger/gifs/first_image/mystic momo nude 2.webp', '/r34/beat-banger/mystic momo nude 2.gif') +
+  pausingGif('/r34/beat-banger/gifs/first_image/mystic momo nude 4.webp', '/r34/beat-banger/mystic momo nude 4.gif') +
+  pausingGif('/r34/beat-banger/gifs/first_image/mystic momo nude 5.webp', '/r34/beat-banger/mystic momo nude 5.gif') +
+  pausingGif('/r34/beat-banger/gifs/first_image/mystic momo nude 6.webp', '/r34/beat-banger/mystic momo nude 6.gif') +
+  ""
+]
+
+let xxx = [
+  header2("Images") +
+  br +
+  header2("Videos") +
+  linkedVideo('/r34/xxx/4gV-RaIL-cropped.mp4') +
+  linkedVideo('/r34/xxx/7f9a80477da9b79257c612642fa7843a.mp4') +
   ""
 ]

@@ -508,7 +508,7 @@ var fanfic = [
   `<link rel='icon' href='icons/story.png'><title>Trigger Discipline</title><br><embed src='/books/Trigger_Discipline.pdf' style='width: 800px; height: 87vh'>`,
 ]
 
-var hentai = ['<video width="544" height="300" title="Gyakuten Majo Saiban: Chjo no Majo ni Sabakarechau The Animation" src="/r34/hentai/687.mp4" controls allowfullscreen></video>']
+// var hentai = ['<video width="544" height="300" title="Gyakuten Majo Saiban: Chjo no Majo ni Sabakarechau The Animation" src="/r34/hentai/687.mp4" controls allowfullscreen></video>']
 
 var chainsaw = [
   `<style></style>\
@@ -1300,7 +1300,7 @@ yaoi_and_yuri_draft = [
   ))
 ]
 
-let mother_nature = [
+var mother_nature = [
     chapter("false", "Mother Nature",
         paragraph(
 
