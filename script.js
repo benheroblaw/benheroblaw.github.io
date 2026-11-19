@@ -19,6 +19,7 @@ var pornSidebar = `\
   <a href="all.html" class="red"><span>all</span></a><br>\
   <a class="blue" href="assets.html"><span>assets</span></a><br>\
   <span onclick="tesLog('setting sidebar to artistSidebar'); addSidebar(artistSidebar)" style="text-decoration: underline #0ff; cursor: pointer;" class="blue"><span>Artists</span></span><br>
+  <span onclick="tesLog('setting sidebar to autogenSidebar'); addSidebar(autogen)" style="text-decoration: underline #0ff; cursor: pointer;" class="blue"><span>Autogen pages</span></span><br>
   <a href="/r34/sources.html" class="blue"><span>Sources</span></a><br>
   <br>\
   \
@@ -50,7 +51,7 @@ var pornSidebar = `\
 `
 var artistSidebar = `
 <h1><span style="color: white;">Artists</span></h1>
-<a class="blue"><span onclick="tesLog('setting sidebar to pornSidebar'); addSidebar(pornSidebar)">Back</span></a><br><br>
+<span class="blue" style=\"text-decoration: underline #0ff; cursor: pointer;\"><span onclick="tesLog('setting sidebar to pornSidebar'); addSidebar(pornSidebar)">Back</span></span><br><br>
 <a class='red' href='/r34/bonkge.html'><span>Bonkge</span></a><br>
 ${addlink('/r34/edith-is-dead.html', 'edith-is-dead')}
 ${addlink('/r34/puppysnackz.html', 'puppysnackz')}
@@ -1334,6 +1335,7 @@ document.addEventListener("DOMContentLoaded", function() {
     document.body.innerHTML += '<div id="sidebar"></div>'
     document.body.className = 'centerList'
     promiseLoadScript('/r34/porn.js').then(addSidebar(pornSidebar))
+    promiseLoadScript('/r34/autogen.js')
   }
   if (window.location.pathname.indexOf('/r34/puppysnackz') > -1) {
     document.body.innerHTML+=
@@ -1382,6 +1384,12 @@ document.addEventListener("DOMContentLoaded", function() {
     promiseLoadScript('/r34/porn.js').then(addSidebar(pornSidebar, hardSidebar))
   }
 
+  if (window.location.pathname.indexOf('/r34/r34') > -1) {
+    document.body.className = ''
+    try {gewi('sidebar').remove()}
+    catch (Error) {tesLog('no sidebar to remove')}
+    document.body.innerHTML = pornSidebar
+  }
   if (window.location.pathname.indexOf('/r34/r34') > -1) {
     document.body.className = ''
     try {gewi('sidebar').remove()}
