@@ -61,7 +61,7 @@ let rwby_DRAFT = [
   background(
     paragraph(
       `<i>What's your name?</i>
-      <span class="ruby">"Ruby Rose."</span>
+      <span class="ruby-speaking">"Ruby Rose."</span>
 
       <i>What gender are you?</i>
       <span class="ruby">"Neither."</span>
@@ -79,10 +79,10 @@ let rwby_DRAFT = [
       <i>...Fine. Close enough.</i>
 
       <i>Do you have your own weapon?</i>
-      <span class="ruby">"Why, yes I do!" *metal clinking into a scythe*</span>
+      <span class="ruby-speaking">"Why, yes I do!" *metal clinking into a scythe*</span>
 
       <i>...Is that all?</i>
-      <span class="ruby">"Nope!" *metal clinking into a gun*</span>
+      <span class="ruby-speaking">"Nope!" *metal clinking into a gun*</span>
 
       <i>Hm.</i>
 
@@ -93,11 +93,11 @@ let rwby_DRAFT = [
       <br>
       <span class="ruby">Beacon Academy, a rather prestigious combat school, apparently with a really hard entrance exam.
 
-      Not that I would know; apparently I was too good for it.
+      Not that I would know, of course; apparently I'm too advanced for it.
 
       Honestly, I kinda want to try it anyway. See how difficult it actually is.
 
-      Eh, I'll ask Yang about it. It's probably nothing special, but it seems kinda unfair that I don't get to fight things with everyone else. The sentiment is that I'm too good for it, and that is wrong as hell.
+      Eh, I can ask Yang about it. It's probably nothing special, but it seems kinda unfair I don't get to fight things with everyone else. Gives off the sentiment that I'm too good for it, and that is <i>wrong as hell</i>.
 
       I'm aware that I can be a little insufferable, but that's because of interesting things like knowing every little bolt in my weapon. I'm a connoisseur of implements of harm, pain and death, not a snooty brat.
 
@@ -105,40 +105,44 @@ let rwby_DRAFT = [
 
       <i class="censor"><b>*BAM*</b></i>
 
-      "Oh, shi- I'm sorry-"
+
+      <span class="ruby-speaking">"Oh, shi- I'm sorry—"</span>
+
 
       <span class="weiss">"What the hell is your problem?!"</span>
 
-      "um- I wasn't paying attention-?"
+      <span class="ruby-speaking">"um- I wasn't paying attention—?"</span>
 
       <span class="weiss">"Obviously! Ugh..."</span>
 
-      I just stare at her confusedly. Never in my life have I encountered a person so self-centered.
+      I just stare at her confusedly. Never in my <i>life</i> have I encountered a person so self-centered.
 
-      Well, I guess I can move on and hope to never see her again.
+      Well, I guess I should move on and hope to never see her again.
 
       <hr>
-      <div style="text-align: center">~ ~ ~ The Next Day ~ ~ ~</div>
+      <div style="text-align: center"><i>~ ~ ~ The Next Day ~ ~ ~</i></div>
 
-      God dammit.
+      God.
+
+      Dammit.
 
       <span class="weiss">"Weiss Schnee. I hope you can make yourself useful."</span>
 
-      I ended up as a leader of a team consisting of me, my sister, a black-and-white girl uninterested in talking, and this— <i>person</i>.
+      I ended up as a leader of a team consisting of me, my sister, a black-and-white girl who doesn't want to talk, and this— <i>person</i>. She extends her hand, and I pointedly ignore it.
 
-      <span class="yang">"Hey, I'd be surprised if you can beat Ruby. She's a demon."</span>
+      <span class="yang">"Hey, I'd be surprised if you can beat Ruby. She's a demon!"</span>
 
-      Just a little grin as Yang winks at me. And thank you, Yang, for sharing that piece of information I don't really wanna prove right now.
+      Just a little grin as Yang winks at me. And <i>thank</i> you, <i>Yang</i>, for sharing that piece of information I don't really wanna prove right now.
 
-      Weiss (I guess) looks me up and down, searching for any trace of the demon hidden away deep enough in my head that nobody can even catch a glimpse of it when I don't want them to.
+      Weiss <small>(i think that was her name?)</small> looks me up and down, searching for any trace of said demon who's currently hidden away deep enough in my head that nobody could even catch a glimpse of it when I don't want them to.
 
       <span class="weiss">"She doesn't look like it."</span>
 
-      "Yeah... Real demons never look like demons, right?"
+      <span class="ruby-speaking">"Yeah... The real demons never look like demons, right?"</span>
 
       Now she looks a little closer, revealing an odd glint in her eyes that edges dangerously close to being able to see through me.
 
-      "If you wanna prove it, duel me tomorrow." No way in hell am I dealing with this today.
+      <span class="ruby-speaking">"If you wanna prove it, duel me tomorrow."</span> No way in hell am I dealing with this today.
 
       <span class="weiss">"Hm. So we shall."</span>`
     ), false
@@ -151,9 +155,9 @@ let rwby_DRAFT = [
       The best upside is fiddling with Crescent Rose.
       Taking her apart, making sure her blade is nice and sharp, her magwell is clear, each and every part of her is moving smooth as… well, not really butter. Lubricated gears and pistons moving in the exact sequence they were built for is kind of a hard feeling to describe.
 
-        I can only hope my opponent isn't the kind of slob who lets her weapon rust and fall apart, and throws it away when it can't take any more abuse.
+      I can only hope my opponent isn't the kind of slob who lets her weapon rust and fall apart, and throws it away when it can't take any more abuse.
 
-        Looking around the the prep area of the arena—
+      Looking around the the prep area of the arena—
 
       WHAT
       THE
@@ -161,14 +165,14 @@ let rwby_DRAFT = [
 
       WHY IS IT BUILT FOR AN EXHIBITION MATCH????
 
-      AM I GOING TO BE GLADIATING?
+      AM I GOING TO BE <i>GLADIATING</i>?
 
       Not today.
       Nope.
       Not at all.
       This is a private match.
 
-      My legs still shake a little when I walk out, though.
+      My legs still shiver a little when I walk out, though.
 
       I stride to the center of the arena to meet Weiss Iforgotherlastname.
 
@@ -192,24 +196,51 @@ let rwby_DRAFT = [
 
       And,,, hit nothing.
 
-      "Damn, you're good."</span>`
+      <span class="ruby-speaking">
+</span>"Damn, you're good."<span class="ruby-speaking">
+</span></span>`
     )
   ),
-  chapter("2.5", "<span class='ruby'>Ruby</span>",
+
+  chapter("2.1", "<span class='ruby'>Ruby</span>",
     paragraph(
-      `<span class="ruby">Welp. Guess I have to lock in.
+      `<span class="ruby">Welp. Guess I gotta lock in.
 
-      This time, I let my eyes take in everything.
+      This time, I let my eyes take in <i>everything</i>.
 
-      In the time it takes me to walk back, I switch my mind to demon mode.
+      In the time it takes me to walk back, my mind is cold and emotionless as a glacier.
 
       Ooh, she opens with a slash this time.
 
-      I snap around her blade at the last second, letting my momentum carry me into a swift spinning kick to her shins.
+      I snap around her blade at the last second, letting my momentum carry me into a swift kick across her shins.
 
-      Followed up with Crescent Rose, slamming the back of her blade into the ground within flinching distance of Weiss's head.
+      Followed up with Crescent Rose, slamming the face of metal at the back of her blade into the ground within flinching distance of Weiss's head.
 
-      </span>`
+      She lays there for a second, panting. I grin a smile down at her that must look way too big and toothy for comfort, judging by the widening of her eyes and her near-imperceptible lean away.
+
+      <span class="weiss">“You're... not bad yourself,”</span> she pants.
+
+      I let my face slip down into a more neutral expression before I offer her a hand, pulling her up and walking backwards to my position. <small><i>(holy crap, my cloak fluttering around me as I stare at her feels badass)</i></small>
+
+      Yang counts us down again, <span class="yang">“Three! Two! One!”</span> Her hand zips out from between us, and Weiss dashes at me.
+
+      I stand there, scythe out to my side, waiting. <small><i>(acting like a final boss is </i>awesome<i> omg)</i></small>
+
+      Weiss throws a thrust at my torso that I thread between my side and my arm. Finally getting serious, are we?
+
+      I zip forward, grabbing just below her wrist and walking circles around her as she tries to get her sword into her other hand.
+
+      Another smile spreads across my face, and she makes her first real effort to break my hold. <span class="weiss">“Stop playing around!”</span> she growls, yanking her arm away from me and going for a wild slash.
+
+      <span class="ruby-speaking">“But that's the best part!”</span> I drawl high, <i>clanking</i> Crescent Rose's handle against her blade, dragging her along with me as I spin and spin, <span class="ruby-speaking">“What is battle if not a play?!”</span>
+
+      <span class="weiss">“What the hell are you talking about?!”</span> She withdraws from me, stepping back to walk around me as I follow her, taking her time to decipher me.
+
+      Many have tried, my dear! Many have failed, nobody yet has looked into the depths of my heart and truly understood! I am a monster, my friend! Inhuman!
+
+      You've no clue how much it takes to be human. You understand the rulebook, the rules that nobody will tell that you will be broken over if you can't grasp them!
+
+      I am a monster, my friend!</span>`
     )
   )
 

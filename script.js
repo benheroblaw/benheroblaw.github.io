@@ -19,7 +19,7 @@ var pornSidebar = `\
   <a href="all.html" class="red"><span>all</span></a><br>\
   <a class="blue" href="assets.html"><span>assets</span></a><br>\
   <span onclick="tesLog('setting sidebar to artistSidebar'); addSidebar(artistSidebar)" style="text-decoration: underline #0ff; cursor: pointer;" class="blue"><span>Artists</span></span><br>
-  <span onclick="tesLog('setting sidebar to autogenSidebar'); addSidebar(autogen)" style="text-decoration: underline #0ff; cursor: pointer;" class="blue"><span>Autogen pages</span></span><br>
+  <span onclick="tesLog('setting sidebar to autogenSidebar'); addSidebar(autogen_pages)" style="text-decoration: underline #0ff; cursor: pointer;" class="blue"><span>Autogen pages</span></span><br>
   <a href="/r34/sources.html" class="blue"><span>Sources</span></a><br>
   <br>\
   \
@@ -101,7 +101,8 @@ ${addlink('/r34/xxx/ceiling-and-treatment.html', 'comic')}
 `
 
 var dokiSidebar = header1('Comics') +
-addLink('/r34/ddlc/doki-doki-skinny-dipping-club.html', 'Doki Doki Skinny Dipping Club')
+addLink('/r34/ddlc/doki-doki-skinny-dipping-club.html', 'Doki Doki Skinny Dipping Club') +
+addLink('/r34/ddlc/doki-doki-skinny-dipping-club-color.html', 'Doki Doki Skinny Dipping Club (Colorized)')
 
 var program = [
     '(^///^) ',
@@ -1299,7 +1300,7 @@ function container(contents='', id='', classs='') {
 
 function pausingGif(firstFrame='', gif='') {
   output = ''
-  output = `<img onmouseenter="this.style.height = 'initial'; this.style.width='initial'; this.src='${gif}'" onmouseleave="this.style.height = 'unset'; this.style.width='20%'; this.src='${firstFrame}'" src="${firstFrame}">`
+  output = `<img class="gif" onmouseenter="this.src='${gif}'" onmouseleave="this.src='${firstFrame}'" src="${firstFrame}">`
   return output
 }
 
@@ -1521,8 +1522,9 @@ window.addEventListener('load', () => {
   // catch {}
   try {
     setTimeout(() => {
-      gewi('load').remove()
-      qSel('.loading').remove()
+      gewi('load').remove();
+      try {qSel('.loading').remove()}
+      catch {}
     }, 250)
   }
   catch {}

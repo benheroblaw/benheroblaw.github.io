@@ -1,6 +1,16 @@
 .ruby {
-    color: #f33;
-    text-shadow: 4px 4px 10px #d33;
+    color: #f00;
+    text-shadow: 4px 4px 10px #c00;
+    font-family: Arial, Helvetica, sans-serif;
+}
+small.ruby, .ruby>small {
+    color: rgb(180, 0, 0);
+    text-shadow: 4px 4px 10px rgb(170, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ruby-speaking {
+    color: #f22;
+    text-shadow: 4px 4px 10px #d22;
     font-family: Arial, Helvetica, sans-serif;
 }
 

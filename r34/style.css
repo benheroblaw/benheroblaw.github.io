@@ -97,9 +97,10 @@ img:hover {
 }
 img:active {
   border: 2px;
-  border-color: black;
+  border-color: red;
   border-style: solid;
 }
+
 video {
   border-color: blue;
   border-bottom-color: blue;

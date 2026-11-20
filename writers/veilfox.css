@@ -131,6 +131,7 @@ small {
     margin-top: 0px;
     margin-bottom: 0px;
     color: #ddd;
+    background: linear-gradient(#221722, #141414);
   }
   div.background>p, div.background>h2 {
     color: #ddd;
@@ -149,7 +150,7 @@ small {
     padding-top: 50.5px;
     padding-bottom: 55px;
     background:
-      linear-gradient(#00000000 , #252525, #252525, #252525, #252525, #252525, #252525, #141414);
+      linear-gradient(#00000000 , #252525, #252525, #252525, #252525, #252525, #252525, #221722);
     margin-top: 0%;
     margin-bottom: 0%;
     color: white;
