@@ -1112,6 +1112,24 @@ function linkedVideo(link='', loop=false, title='') {
 function addVideo(link='', loop=false, title) {
   return linkVideo(link, loop, title,)
 }
+function linkedAudio(link='', loop=false, title='') {
+  var output = ` <audio preload="auto" controls src="${link}"`
+  if (loop || loop == 'loop') {
+    output += ' loop'
+  }
+  if (title != '') {
+    output += ` title="${title}"`
+  }
+  else {
+    output += ` title="${link}"`
+  }
+  output += '>no porn for you :(</audio>'
+  return output
+}
+function linkAudio(link='', loop=false, title='') {
+  return linkedAudio(link, loop, title)
+}
+
 
 function linkAdder(link='', name='') {
   let output = ''
@@ -1336,7 +1354,6 @@ document.addEventListener("DOMContentLoaded", function() {
     document.body.innerHTML += '<div id="sidebar"></div>'
     document.body.className = 'centerList'
     promiseLoadScript('/r34/porn.js').then(addSidebar(pornSidebar))
-    promiseLoadScript('/r34/autogen.js')
   }
   if (window.location.pathname.indexOf('/r34/puppysnackz') > -1) {
     document.body.innerHTML+=
@@ -1397,6 +1414,9 @@ document.addEventListener("DOMContentLoaded", function() {
     catch (Error) {tesLog('no sidebar to remove')}
     document.body.innerHTML = pornSidebar
   }
+  // if (window.location.pathname.indexOf('/r34/.autogen/') > -1) {
+  //   promiseLoadScript('/r34/autogen.js').then(addSidebar(autogen_pages))
+  // }
 
   if (window.location.pathname.indexOf('/writing/') > -1) {
     tesLog('loading text.js');
