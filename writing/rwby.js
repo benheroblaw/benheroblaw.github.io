@@ -234,7 +234,7 @@ let rwby_DRAFT = [
 
       <span class="ruby-speaking">“But that's the best part!”</span> I drawl high, <i>clanking</i> Crescent Rose's handle against her blade, dragging her along with me as I spin and spin, <span class="ruby-speaking">“What is battle if not a play?!”</span>
 
-      <span class="weiss">“What the hell are you talking about?!”</span> She withdraws from me, stepping back to walk around me as I follow her, taking her time to decipher me.
+      <span class="weiss">“What the hell are you talking about?!”</span> She withdraws from me, stepping back to walk around me as I mirror her, taking her time to decipher me.
 
       Many have tried, my dear! Many have failed, nobody yet has looked into the depths of my heart and truly understood! I am a monster, my friend! Inhuman!
 
@@ -263,7 +263,7 @@ let bumblebee_DRAFT = [
 
       "Aren't you going to ask me if I want you to fuck my mouth?"
 
-      "Would you tell me no?" Yang says. "That blush is saying yes, that look is saying <i>please god i need this please-</i>"
+      "Would you say no?" Yang says. "That blush is saying yes, that look is saying <i>please god i need this please-</i>"
 
       "You're an idiot."
 
@@ -298,7 +298,7 @@ let bumblebee_DRAFT = [
 
       She nods slightly.
 
-      <span class="yang">"Ah."</span>
+      <span class="yang">"...Ah."</span>
 
       <span class="yang">"...May I?"</span> Yang brings a hand up to her cheek, sliding a thumb over her lips.
 
@@ -362,6 +362,50 @@ let bumblebee_DRAFT = [
       A pleasured squeak escapes her as Yang's hands skip over her chest, instead kneading her stomach.`
     )
   ),
+]
+
+let bumblebee_omegaverse_DRAFT = [
+  // chapter("idk", "",
+  //   paragraph(
+  //     `omegaverse :3`
+  //   )
+  // ),
+  chapter("0", "",
+    paragraph(
+      `omegaverse :3
+
+      so: blake is an omega, yang is an alpha, weiss is an omega, and ruby is a beta
+
+      blake and ruby are on a walk (for some reason) and blake goes into heat
+
+      ruby brings her back to their dorms (where blake shares a room with yang :3 )
+      and yang shows up, and thinks "wow, it smells like heat out here" right outside the common room of team rwby's dorms
+
+      ruby fills her in and yang goes into her room
+
+      blake is convulsing with heat, yang is holding her nose to be affected as little as possible (she's rock hard and her dog dick is <i>really</i> sensitive so she's walking kinda weirdly and awkwardly)
+      yang works out consent and birth control with blake
+      (they fuck and yang knots her)
+
+      the next day, blake pins yang down and and makes a startling discovery: yang is demisexual (and sexually frustrated)
+      yang laments her inability to get hard without someone in heat, describing her efforts imagining faceless girls and it not working (this is a shameful confession, one that yang has experience making)
+      so blake says "think about me instead, remember how it felt to fuck me" and yang gets harddd
+      blake jerks her off and yang has tears in her eyes, omg she's finally going to cum <i>outside</i> of someone—
+
+      and blake takes her hand away.
+
+      "no no no no, please no, pplease please"
+      "hold on for me, pup" she says, sliding a finger up yang's knot`
+    )
+  ),
+  chapter("idk", "yang is <i>so</i> demi",
+    paragraph(
+      `<span class="blake">Blake</span> imposes herself above <span class="yang">Yang</span>, holding <span class="yang">her girlfriend's</span> wrists above her head and sitting on her waist. She slides her crotch up and down slowly hardening rod in Yang's pants, making her squirm and muffle a moan.
+
+      <span class="yang">"Y-you wanna bang me again?"</span> Yang asks unsteadily, trying to keep her pleasured sounds out of her speech.`
+    )
+  ),
+
 ]
 
 let rwby = [

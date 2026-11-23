@@ -1,34 +1,38 @@
 .ruby {
     color: #f00;
-    text-shadow: 4px 4px 10px #c00;
+    text-shadow: 0px 0px 10px #c00;
     font-family: Arial, Helvetica, sans-serif;
 }
 small.ruby, .ruby>small {
     color: rgb(180, 0, 0);
-    text-shadow: 4px 4px 10px rgb(170, 0, 0);
+    text-shadow: 0px 0px 10px rgb(170, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
 }
 .ruby-speaking {
     color: #f22;
-    text-shadow: 4px 4px 10px #d22;
+    text-shadow: 0px 0px 10px #d22;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .weiss {
     color: #fff;
-    text-shadow: 4px 4px 10px #0ff;
+    text-shadow: 0px 0px 10px #0ff;
     font-family: "Almendra", serif;
 }
 
+h1>.blake, h2>blake {
+    font-size: inherit;
+}
 .blake {
     color: #666;
-    text-shadow: 4px 4px 10px #000;
+    text-shadow: 0px 0px 10px #555;
     font-family: Aubrey, sans-serif;
+    font-size: 1.2rem;
 }
 
 .yang {
     color: #ff0;
-    text-shadow: 4px 4px 10px #fa0;
+    text-shadow: 0px 0px 10px #fa0;
     font-family: "Architects Daughter", sans-serif;
 }
 
@@ -43,11 +47,19 @@ span {
 
 @media (prefers-color-scheme: white) {
     .censor {
+        color: white;
+        background-color: black;
+    }
+    .default {
         color: black;
     }
 }
 @media (prefers-color-scheme: dark) {
     .censor {
+        color: black;
+        background-color: white;
+    }
+    .default {
         color: white;
     }
 }

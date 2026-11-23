@@ -976,7 +976,7 @@ function getScript(file) {
 function getCSS(file) {
   var s = document.createElement('link');
   s.id = 'getCSS'
-  s.link = file;
+  s.href = file;
   s.rel = 'stylesheet'
   document.head.appendChild(s);
 }
@@ -1354,6 +1354,7 @@ document.addEventListener("DOMContentLoaded", function() {
     document.body.innerHTML += '<div id="sidebar"></div>'
     document.body.className = 'centerList'
     promiseLoadScript('/r34/porn.js').then(addSidebar(pornSidebar))
+    promiseLoadScript('/r34/autogen.js')
   }
   if (window.location.pathname.indexOf('/r34/puppysnackz') > -1) {
     document.body.innerHTML+=

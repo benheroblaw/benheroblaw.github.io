@@ -662,8 +662,8 @@ var curly = [
   <video preload="auto" controls src="/r34/cavestory/7bf5204a32191defdf494fb9c250d514.mp4">no porn for you :(</video>\
   `,
 
-  `<img draggable="false" src="/r34/cavestory/pngs/599b1ec8c535ff41a6ce01367c3a4c2a.png" style="border: none" ondblclick="window.open(\'/r34/cavestory/pngs/599b1ec8c535ff41a6ce01367c3a4c2a.png\', \'_self\')">\
-  <img draggable="false" src="/r34/cavestory/pngs/eaa8ebf3c686bad40cb0e0ea7198900d.png" style="border: none" ondblclick="window.open(\'/r34/cavestory/pngs/eaa8ebf3c686bad40cb0e0ea7198900d.png\', \'_self\')">\
+  `<img draggable="false" src="/r34/cavestory/pngs/converted/599b1ec8c535ff41a6ce01367c3a4c2a.png" style="border: none" ondblclick="window.open(\'/r34/cavestory/pngs/converted/599b1ec8c535ff41a6ce01367c3a4c2a.png\', \'_self\')">\
+  <img draggable="false" src="/r34/cavestory/pngs/converted/eaa8ebf3c686bad40cb0e0ea7198900d.png" style="border: none" ondblclick="window.open(\'/r34/cavestory/pngs/converted/eaa8ebf3c686bad40cb0e0ea7198900d.png\', \'_self\')">\
   <br>` +
   linkedImage("/r34/cavestory/ce2221fa00e01bde5c011e0099dc6993bcd837eb.webp") +
   linkedImage("/r34/cavestory/9b067c5c3841176c2ff95c4a8e9068c8.webp", `y`) +
