@@ -245,7 +245,21 @@ gewi('sortButtons').appendChild(br)
 br = document.createElement('br')
 br.style.display = 'inline-block'
 
+// Source - https://stackoverflow.com/a/66136416
+// Posted by T.J. Crowder, modified by community. See post 'Timeline' for change history
+// Retrieved 2026-11-24, License - CC BY-SA 4.0
 
+// // Get the `.something` element and its parent
+// const something = document.querySelector("#tag-sidebar");
+// const parent = something.parentElement;
+
+// // Get the `navbar` inside it and move it in front of it
+// const navbar = something.querySelector(".link-list");
+// qSel(".sidebar").insertBefore(navbar, something);
+
+// // Get the `footer` inside it and insert it after it
+// const footer = something.querySelector("footer");
+// parent.insertBefore(footer, something.nextElementSibling);
 
   tags = qSel('input[name="tags"]').value
   bsTags = getCookie('bsTags')
@@ -258,3 +272,13 @@ br.style.display = 'inline-block'
     qSel('input[name="tags"]').value = bsTags + ' ' + qSel('input[name="tags"]').value
   }
   searchForm
+
+
+// document.addEventListener("load", () => {
+console.log("moving options")
+const something = document.querySelector("#tag-sidebar");
+const parent = something.parentElement;
+
+const navbar = something.querySelector(".link-list");
+parent.insertBefore(navbar, something);
+// })
