@@ -417,9 +417,17 @@ let autogen_enrane = [
 
 let autogen_guilty_gear = [
   header2("Images") +
+  linkedImage('/r34/guilty-gear/36db544e0bfaa24996bcdec59e0b84f5.webp') + ' ' +
+  linkedImage('/r34/guilty-gear/43dbe4fb83dec2c688a5d53c968a8414.webp') + ' ' +
   linkedImage('/r34/guilty-gear/46d03dadeefb6a7517ef5358cea45156.webp') + ' ' +
   linkedImage('/r34/guilty-gear/645c8302c7f4c2450adafe3fd5a57b56.webp') + ' ' +
+  linkedImage('/r34/guilty-gear/a212e73ae88a5e69de0665b69e5a9fc6.webp') + ' ' +
+  linkedImage('/r34/guilty-gear/b71fb2c4654d94983da2f5a862c3156f.webp') + ' ' +
   linkedImage('/r34/guilty-gear/bae8a4e1e62c37cbb050656c63b95351.webp') + ' ' +
+  "",
+
+  header2("GIFs") +
+  pausingGif('/r34/guilty-gear/gifs/first_image/6a6fb31a5a8e220d28d8dd2a0e7262cd.webp', '/r34/guilty-gear/gifs/6a6fb31a5a8e220d28d8dd2a0e7262cd.gif') + ' ' +
   "",
 
 ]

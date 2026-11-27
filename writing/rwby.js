@@ -138,7 +138,7 @@ let rwby_DRAFT = [
 
       <span class="weiss">"She doesn't look like it."</span>
 
-      <span class="ruby-speaking">"Yeah... The real demons never look like demons, right?"</span>
+      <span class="ruby-speaking">"Yeah, yeah... A real demon never looks like a demon, right?"</span>
 
       Now she looks a little closer, revealing an odd glint in her eyes that edges dangerously close to being able to see through me.
 
@@ -184,7 +184,7 @@ let rwby_DRAFT = [
 
       I grip Crescent Rose, dashing forward before she can stab at me—
 
-      And- her blade is at my throat. Goddamn, she can thrust fast.
+      And- her blade is at my throat. God<i>damn</i>, she can thrust fast.
 
       We retreat close enough to our starting positions, readying ourselves for another bout.
 
@@ -196,9 +196,7 @@ let rwby_DRAFT = [
 
       And,,, hit nothing.
 
-      <span class="ruby-speaking">
-</span>"Damn, you're good."<span class="ruby-speaking">
-</span></span>`
+      <span class="ruby-speaking"></span>"Damn, you're good."<span class="ruby-speaking"></span></span>`
     )
   ),
 
@@ -220,7 +218,7 @@ let rwby_DRAFT = [
 
       <span class="weiss">“You're... not bad yourself,”</span> she pants.
 
-      I let my face slip down into a more neutral expression before I offer her a hand, pulling her up and walking backwards to my position. <small><i>(holy crap, my cloak fluttering around me as I stare at her feels badass)</i></small>
+      I slip my face down into a more neutral expression before I offer her a hand, pulling her up and walking backwards to my position. <small><i>(holy crap, my cloak fluttering around me as I stare at her feels badass)</i></small>
 
       Yang counts us down again, <span class="yang">“Three! Two! One!”</span> Her hand zips out from between us, and Weiss dashes at me.
 
@@ -242,14 +240,47 @@ let rwby_DRAFT = [
 
       I am a monster, my friend!</span>`
     )
-  )
+  ),
+
+  chapter("", "weiss's period",
+    paragraph(
+      `<span class="ruby">Boring-ass day in class. "Grimm Anatomy 101", like I've never seen their insides or adapted to how their brains work on-the-fly. I should know enough to answer the teacher's questions or ace a pop quiz, so I stare off into space and compose the next section of buildup to Madoka and Homura finally kissing in the final act of a fanfiction I'm writing in my head.</span>`
+    )
+  ),
+  chapter("", "PLAY. STATION. 3.",
+    paragraph(
+      `<span class="yang">"Hey, Ruby! Guess what I found at home?!"</span> <span class="ruby">Yang shouts as she bursts into our dorm's common room.
+
+      <span class="ruby-speaking">"What?"</span> I ask, tilting at the waist and holding my arms out the other way to balance myself, trying to look around her at whatever she's holding behind her back. She mirrors me, and says <span class="yang">"You have to guess, silly!"</span> with a massive grin on her face.
+
+      <span class="ruby-speaking">"What kind of thing is it?"</span> I ask, crossing my arms and raising my eyebrows at her.
+
+      <span class="yang">"It uses discs,"</span> she reveals, giddy excitement spilling out of her as she slightly bounces in place.
+
+      <i>Uses discs?</i> What uses discs? DVD players... but we've already got a DVD player. An Xbox? A Play—
+
+      <span class="ruby-speaking">"<i>Oh my god</i>, Yang- you found our old PS3?"</span> She holds out a box, filled with the thick curves of the PS3, the two black controllers, my red one- <small>(<i>where the hell did she find </i>m<i>y controller?</i>)</small> <i>Holy crap</i>, that's- that's amazing! All of our games! All of our saves!
+
+      I quietly gasp, looking over at the bedroom doors.
+
+      <span class="yang">"What'll we introduce them to first?! Devil May Cry, Bayonetta-"</span> <span class="ruby-speaking">"-Marvel vs Capcom, <i>Guilty Gear</i>-"</span>
+
+      Yang gasps- <span class="yang">"<i>LittleBigPlanet!</i></span>
+
+      <span class="ruby-speaking">"Oh my god, Weiss <i>has</i> to play LittleBigPlanet!"</span> I'm bouncing up and down now, Weiss is gonna make her own little Sackperson! I get to show her <i>my</i> Sackperson!</span>
+
+      <hr><br>
+
+      <span class="ruby">Weiss and Blake find us </span>`
+    )
+  ),
 
 ]
 
 let bumblebee_DRAFT = [
   chapter("", "Yang and Blake",
     paragraph(
-      `"I'm bored as hell," Blake says, lying on her back, head hanging off the edge of the bed she and Yang shared.
+      `"I'm bored as hell," Blake says, lying on her back, head hanging off the edge of the bed she and Yang share.
 
       "That's a shame," Yang replies, a trickle of blood leaking from her nose. "I have an idea, hold on just one second-"
 
@@ -400,7 +431,7 @@ let bumblebee_omegaverse_DRAFT = [
   ),
   chapter("idk", "yang is <i>so</i> demi",
     paragraph(
-      `<span class="blake">Blake</span> imposes herself above <span class="yang">Yang</span>, holding <span class="yang">her girlfriend's</span> wrists above her head and sitting on her waist. She slides her crotch up and down slowly hardening rod in Yang's pants, making her squirm and muffle a moan.
+      `<span class="blake">Blake</span> imposes herself above <span class="yang">Yang</span>, holding <span class="yang">her girlfriend's</span> wrists above her head and sitting on her waist. She slides her crotch up and down slowly on the hardening rod in Yang's pants, making her squirm and muffle a moan.
 
       <span class="yang">"Y-you wanna bang me again?"</span> Yang asks unsteadily, trying to keep her pleasured sounds out of her speech.`
     )
